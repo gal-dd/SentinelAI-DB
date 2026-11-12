@@ -178,11 +178,11 @@
   "parallel_drafts": {
     "work": {
       "checkpoint": 9,
-      "records": 124,
+      "records": 500,
       "path": "drafts/batch-0009/candidates.jsonl",
-      "sha256": "d67bb4ac0404a689d44e0d5d1f147dd7339c093a6a646e162de2711522af168d",
+      "sha256": "8ffaf6ae01acce182e8f2286d102dae7cd28496695bfab7daee56fea79f184e2",
       "review_path": "drafts/batch-0009/review.json",
-      "status": "partial_draft_awaiting_0008"
+      "status": "500_candidates_pending_checkpoint_0008"
     }
   }
 }
