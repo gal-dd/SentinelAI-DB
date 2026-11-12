@@ -1,0 +1,32 @@
+{
+  "status": "partial_draft",
+  "producer": "regular ChatGPT, independent of Work",
+  "draft_number": "0005",
+  "branch": "producer/chat",
+  "source_files": [
+    "drafts/producer-chat/batch-0005/low.json",
+    "drafts/producer-chat/batch-0005/medium.json",
+    "drafts/producer-chat/batch-0005/high.json",
+    "drafts/producer-chat/batch-0005/critical.json",
+    "drafts/producer-chat/batch-0005/additions-001.json"
+  ],
+  "record_count": 100,
+  "labels": {
+    "נמוך": 25,
+    "בינוני": 25,
+    "גבוה": 25,
+    "חמור": 25
+  },
+  "lengths": {
+    "short": 8,
+    "sentence": 28,
+    "paragraph": 40,
+    "long": 24
+  },
+  "normalized_exact_duplicates_against_pilot_and_checkpoints_1_to_3": 0,
+  "intra_draft_normalized_exact_duplicates": 0,
+  "length_bucket_mismatches": [],
+  "final_ids_assigned": false,
+  "ready_for_checkpoint": false,
+  "notes": "Original GPT-authored texts, no Python template generation. These are production candidates only. Continue drafting toward 500 on this isolated branch, then perform full QA and merge sequentially after Work finalizes batch 0004. Check against subsequent main-branch records at merge time."
+}
