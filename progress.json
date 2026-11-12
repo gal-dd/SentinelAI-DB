@@ -12,9 +12,9 @@
     "prompts/v0.1.0.md": "3efbe35f6f92e270558eb7756a94b1a46c520a5e36a8b4b294f6d454346f2c0e"
   },
   "pilot_quality": "completed",
-  "production_records": 3500,
-  "last_checkpoint": 7,
-  "next_id": 3501,
+  "production_records": 4000,
+  "last_checkpoint": 8,
+  "next_id": 4001,
   "checkpoints": [
     {
       "checkpoint": 1,
@@ -85,6 +85,16 @@
         "metadata/checkpoints/batch-0007.jsonl": "8efd06f3fb9f67fc2d7788b2deefa95b58e48f34357f4dec60a307a85233d36d",
         "reports/checkpoints/batch-0007.json": "36a2e00093bb79974b75b903baedf208eae4707d9a13a6ff93ce9c531b5a9597"
       }
+    },
+    {
+      "checkpoint": 8,
+      "start_id": 3501,
+      "end_id": 4000,
+      "sha256": {
+        "data/checkpoints/batch-0008.jsonl": "7a074539802e48bbea3be9d9a1dce94573ca6f5921b6ce8b27f82be9afe62a39",
+        "metadata/checkpoints/batch-0008.jsonl": "eba13a605a46fdccd764443d40b52524f0d1fc92a796a7dd272a223923460229",
+        "reports/checkpoints/batch-0008.json": "96ef189527be171fa95faf7761133af6a5c1dc711c19457e728335575709d864"
+      }
     }
   ],
   "final": null,
@@ -98,54 +108,54 @@
     "correction_horizon_records": 4000,
     "accepted_label_lengths": {
       "נמוך": [
-        44,
+        50,
+        400,
         350,
-        306,
-        175
+        200
       ],
       "בינוני": [
-        44,
+        50,
+        400,
         350,
-        306,
-        175
+        200
       ],
       "גבוה": [
-        44,
+        50,
+        400,
         350,
-        306,
-        175
+        200
       ],
       "חמור": [
-        44,
+        50,
+        400,
         350,
-        306,
-        175
+        200
       ]
     },
     "remaining_label_lengths": {
       "נמוך": [
-        1206,
-        9650,
-        8444,
-        4825
+        1200,
+        9600,
+        8400,
+        4800
       ],
       "בינוני": [
-        1206,
-        9650,
-        8444,
-        4825
+        1200,
+        9600,
+        8400,
+        4800
       ],
       "גבוה": [
-        1206,
-        9650,
-        8444,
-        4825
+        1200,
+        9600,
+        8400,
+        4800
       ],
       "חמור": [
-        1206,
-        9650,
-        8444,
-        4825
+        1200,
+        9600,
+        8400,
+        4800
       ]
     },
     "next_checkpoint_label_lengths": {
@@ -182,7 +192,7 @@
       "path": "drafts/batch-0009/candidates.jsonl",
       "sha256": "8ffaf6ae01acce182e8f2286d102dae7cd28496695bfab7daee56fea79f184e2",
       "review_path": "drafts/batch-0009/review.json",
-      "status": "500_candidates_pending_checkpoint_0008"
+      "status": "500_candidates_pending_checkpoint_0009"
     }
   }
 }

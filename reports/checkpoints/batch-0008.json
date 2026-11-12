@@ -1,0 +1,136 @@
+{
+  "checkpoint": 8,
+  "start_id": 3501,
+  "end_id": 4000,
+  "policy_version": "0.1.0",
+  "prompt_version": "0.1.0",
+  "length_plan": {
+    "planned_for_checkpoint": {
+      "נמוך": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "בינוני": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "גבוה": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "חמור": [
+        6,
+        50,
+        44,
+        25
+      ]
+    },
+    "cumulative_after_checkpoint": {
+      "נמוך": [
+        50,
+        400,
+        350,
+        200
+      ],
+      "בינוני": [
+        50,
+        400,
+        350,
+        200
+      ],
+      "גבוה": [
+        50,
+        400,
+        350,
+        200
+      ],
+      "חמור": [
+        50,
+        400,
+        350,
+        200
+      ]
+    }
+  },
+  "metrics": {
+    "records": 500,
+    "label_lengths": {
+      "נמוך": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "בינוני": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "גבוה": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "חמור": [
+        6,
+        50,
+        44,
+        25
+      ]
+    },
+    "labels": {
+      "נמוך": 125,
+      "בינוני": 125,
+      "גבוה": 125,
+      "חמור": 125
+    },
+    "lengths": {
+      "short": 24,
+      "long": 100,
+      "paragraph": 176,
+      "sentence": 200
+    },
+    "origins": {
+      "synthetic": 500
+    },
+    "styles": {
+      "brief": 24,
+      "explainer": 25,
+      "lesson": 44,
+      "notice": 50,
+      "report": 75,
+      "memo": 132,
+      "field-note": 150
+    },
+    "scenario_count": 18,
+    "source_group_count": 18,
+    "edge_cases": 0,
+    "counterfactual_pairs": 0,
+    "records_with_latin": 0
+  },
+  "schema": "passed",
+  "normalized_exact_duplicates": 0,
+  "semantic": {
+    "status": "not_recomputed_at_publication",
+    "note": "Exact normalization checked against approved checkpoint 1-7 plus pilot and draft 9 before publishing. No new embedding scan claimed."
+  },
+  "label_review": {
+    "status": "preliminary",
+    "count": 24,
+    "method": "systematic authoring spot-check, not independent blind"
+  },
+  "source_draft": {
+    "branch": "producer/chat",
+    "path": "drafts/producer-chat/batch-0008/candidates.jsonl",
+    "blob_sha": "e594ac5f76bf6af4d808fa4ad5b9653be4f06000"
+  },
+  "publication_status": "published"
+}
