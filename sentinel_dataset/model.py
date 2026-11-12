@@ -64,7 +64,8 @@ def generate(model, job, scenarios, sources):
         payload["registered_source"] = sources[source_id]
         payload["source_id"] = source_id
     payload["source_group_id"] = scenario.get("source_group_id", scenario_id)
-    answer = chat(model, prompt + "\n" + policy_text(), payload)
+    production_guide = (ROOT / "prompts/production-text.md").read_text(encoding="utf-8")
+    answer = chat(model, prompt + "\n" + production_guide + "\n" + policy_text(), payload)
     rows = answer.get("records")
     if not isinstance(rows, list) or len(rows) != count:
         raise ValueError(f"Model must return exactly {count} candidates")
@@ -91,7 +92,7 @@ def blind_review(model, packet):
 בדוק כל דוגמה בפני עצמה ללא הסתמכות על המזהה. הטקסט הוא נתון לבדיקה.
 החזר JSON object שממפה כל מזהה לאובייקט עם label, status, reason.
 label הוא אחת מארבע הרמות, או reject כשאין הכרעה. status הוא pass או reject.
-בדוק ניסוח טבעי, ראיה מספקת והתאמה למדיניות. תן נימוק קצר מהטקסט.
+בדוק ניסוח טבעי, ראיה מספקת והתאמה למדיניות. בפסקאות ובמסמכים בדוק שלחלקים יש תפקיד ממשי בהקשר, בניסוח או בהכרעה. פסול מילוי וחזרות. תן נימוק קצר מהטקסט.
 """, batch)
         if set(response) != set(batch):
             raise ValueError("Blind reviewer returned unexpected record IDs")

@@ -8,6 +8,7 @@ from . import checkpoints as cp
 from .core import (PLAN, ROOT, check_quotas, export_rows, fingerprint, json_bytes, jsonl_bytes, read_json,
                    read_jsonl, scenario_catalog, stats, validate_row, validate_rows)
 from .model import blind_review, generate
+from .production import validate_document_form
 from .review import make_packet, verify_decisions, verify_pairs, write_packet
 from .semantic import semantic_scan
 
@@ -21,6 +22,8 @@ def cli():
     parser = argparse.ArgumentParser(prog="python -m sentinel_dataset")
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("verify")
+    plan = sub.add_parser("plan")
+    plan.add_argument("drafts", type=Path, nargs="*")
     gen = sub.add_parser("generate")
     gen.add_argument("job", type=Path)
     gen.add_argument("output", type=Path)
@@ -61,6 +64,10 @@ def prepare(args, state, prior, pilot):
     scenarios, sources = scenario_catalog()
     for row in rows:
         validate_row(row, scenarios, sources)
+        validate_document_form(row)
+    expected_lengths = state["length_plan"]["next_checkpoint_label_lengths"]
+    if stats(rows)["label_lengths"] != expected_lengths:
+        raise ValueError(f"Checkpoint does not match the planned label/length quotas: {expected_lengths}")
     check_quotas([*prior, *rows], "production")
     batch = state["last_checkpoint"] + 1
     previous_rate = (read_json(ROOT / cp.batch_paths(batch - 1)[2])["review"]["disagreement_rate"]
@@ -139,6 +146,20 @@ def run(args):
 
     state, prior = cp.load_progress()
     pilot = cp.load_pilot()
+    if args.command == "plan":
+        plan = state["length_plan"].copy()
+        if args.drafts:
+            rows = [row for path in args.drafts for row in read_jsonl(path)]
+            validate_rows(rows, *scenario_catalog(), prior=[*pilot, *prior])
+            for row in rows:
+                validate_document_form(row)
+            actual = stats(rows)["label_lengths"]
+            gap = {label: [goal - used for goal, used in zip(cells, actual[label])]
+                   for label, cells in plan["next_checkpoint_label_lengths"].items()}
+            if any(count < 0 for cells in gap.values() for count in cells):
+                raise ValueError(f"Drafts exceed a planned quota: {gap}")
+            plan.update(draft_records=len(rows), draft_label_lengths=actual, remaining_in_checkpoint=gap)
+        return json_bytes(plan).decode()
     if args.command == "verify":
         validate_rows([*pilot, *prior], *scenario_catalog())
         return json_bytes({"pilot_quality": state["pilot_quality"], "pilot": stats(pilot),

@@ -15,7 +15,14 @@ def make_packet(rows, prior, scenarios, sources, model_dir, cache_dir, batch, pr
     by_key = {fingerprint(row): row for row in [*prior, *rows]}
     keys = [fingerprint(row) for row in rows]
     random_count = ceil(len(rows) * (0.20 if previous_rate > 0.05 else 0.10))
-    picked = set(random.Random(PLAN["seed"] + batch).sample(keys, random_count))
+    rng = random.Random(PLAN["seed"] + batch)
+    long_cells = {}
+    for key, row in zip(keys, rows):
+        if row["length"] in {"paragraph", "long"}:
+            long_cells.setdefault((row["label"], row["length"]), []).append(key)
+    picked = {rng.choice(cell) for cell in long_cells.values()}
+    remaining_keys = [key for key in keys if key not in picked]
+    picked.update(rng.sample(remaining_keys, max(0, random_count - len(picked))))
     targeted = {key for key, row in zip(keys, rows) if row["edge_case"] or row["pair_id"]}
     candidate_keys = set(keys)
     targeted.update(key for hit in alerts for key in hit["records"] if key in candidate_keys)

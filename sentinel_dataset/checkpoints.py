@@ -10,6 +10,7 @@ from tempfile import NamedTemporaryFile
 
 from .core import (PLAN, ROOT, check_quotas, export_rows, json_bytes, jsonl_bytes,
                    load_saved, metadata_rows, read_json)
+from .production import add_counts, plan_lengths
 
 BRANCH = "poc/security-classification-dataset"
 CHECKPOINT_SIZE = PLAN["checkpoint_size"]
@@ -94,7 +95,11 @@ def load_progress(root=ROOT):
                 raise ValueError(f"Checkpoint file not recorded in progress: {path}")
     if state["production_records"] != len(production) or state["next_id"] != len(production) + 1:
         raise ValueError("Progress counts do not match checkpoint files")
-    check_quotas(production, "production", final=bool(state["final"]))
+    metrics = check_quotas(production, "production", final=bool(state["final"]))
+    expected_plan = plan_lengths(metrics["label_lengths"])
+    if "length_plan" in state and state["length_plan"] != expected_plan:
+        raise ValueError("Saved length plan differs from the accepted records")
+    state["length_plan"] = expected_plan
     if state["final"]:
         paths = (Path(FINAL_NAME), Path("reports/final.json"))
         if state["final"] != {path.as_posix(): file_sha(root / path) for path in paths}:
@@ -110,6 +115,13 @@ def handoff(state):
     final_status = "נוצר ואומת" if state["final"] else "ממתין להשלמת הייצור"
     last_note = (f"[`batch-{last:04d}`]({batch_paths(last)[2].as_posix()})"
                  if last else "טרם נוצרה מנת ייצור")
+    next_plan = state.get("length_plan", {}).get("next_checkpoint_label_lengths")
+    length_table = ""
+    if next_plan and count < 100_000:
+        length_table = ("\n| סיווג | קצרים | משפטים | פסקאות | ארוכים |\n"
+                        "|---|---:|---:|---:|---:|\n")
+        length_table += "".join(f"| {label} | " + " | ".join(map(str, cells)) + " |\n"
+                                for label, cells in next_plan.items())
     return f"""# המשך עבודה
 
 מטרת הריפו היא ליצור 100,000 רשומות בעברית לאימון מודל סיווג רגישות ניסויי עם ארבע רמות מאוזנות. ענף העבודה הוא `{BRANCH}`.
@@ -123,7 +135,7 @@ def handoff(state):
 | מנת ייצור אחרונה | {last_note} |
 | מזהה הייצור הבא | {state["next_id"]} |
 | JSON סופי | {final_status} |
-
+{length_table}
 `data/` שומר רשומות. `metadata/` שומר מקור, תרחיש, נימוק וביקורת. `reports/` שומר תוצאות איכות. `config/` כולל מכסות, תרחישים ומקורות. `progress.json` כולל טווחי מזהים ובדיקות SHA-256. כל מנה ומצב ההתקדמות שלה נכנסים לאותו commit.
 
 1. פתח checkout נקי של ענף העבודה והריץ `python -m sentinel_dataset verify`.
@@ -132,7 +144,7 @@ def handoff(state):
 4. אם commit מקומי טרם הועלה, הרץ `python -m sentinel_dataset publish` מאותו checkout. אם לא קיימת סביבת הריצה הקודמת, המשך מהמנה האחרונה שמופיעה בענף המרוחק.
 5. עם השלמת המכסות הרץ `finalize` לבדיקת המאגר ולבניית קובץ האימון.
 
-לפני כתיבת מנה נוספת, השווה את התפלגות האורכים, המקורות והסיווגים המצטברת למכסות ב־`config/plan.json`. דוח המנה האחרונה מפרט את כיסוי ביקורת התיוג ואת סוג הביקורת. מגבלות שנצפו בפיילוט מופיעות ב[דוח הביקורת](reports/pilot/review.md). במהלך הייצור יש להרחיב את קבוצות המקור הציבורי ולבדוק תלות של תוויות במונחים, בנושא ובפורמט. אפשר להמשיך דרך Work ללא API חיצוני. מגבלת הקשר ותקציב הפלט מחייבת להסתמך על ה־checkpoint המרוחק בהמשך בין שיחות. דוגמאות הפיילוט משמשות להערכה ולסינון כפילויות בלבד.
+לפני כתיבת מנה נוספת, הרץ `python -m sentinel_dataset plan` וקרא את [הנחיות הכתיבה](prompts/production-text.md). השתמש ביעדי הסיווג והאורך שחושבו מהנתונים השמורים. דוח המנה האחרונה מפרט את כיסוי ביקורת התיוג ואת סוג הביקורת. מגבלות שנצפו בפיילוט מופיעות ב[דוח הביקורת](reports/pilot/review.md). במהלך הייצור יש להרחיב את קבוצות המקור הציבורי ולבדוק תלות של תוויות במונחים, בנושא ובפורמט. אפשר להמשיך דרך Work ללא API חיצוני. מגבלת הקשר ותקציב הפלט מחייבת להסתמך על ה־checkpoint המרוחק בהמשך בין שיחות. דוגמאות הפיילוט משמשות להערכה ולסינון כפילויות בלבד.
 """
 
 
@@ -143,7 +155,13 @@ def batch_artifacts(state, rows, metrics, review, packet, decisions):
     data, meta, quality = batch_paths(index)
     data_bytes = jsonl_bytes(export_rows(rows, start))
     meta_bytes = jsonl_bytes(metadata_rows(rows, start, decisions["records"], packet["alerts"]))
+    previous_plan = state["length_plan"]
+    state["length_plan"] = plan_lengths(add_counts(previous_plan["accepted_label_lengths"], metrics["label_lengths"]))
     report = {
+        "length_plan": {
+            "planned_for_checkpoint": previous_plan["next_checkpoint_label_lengths"],
+            "cumulative_after_checkpoint": state["length_plan"]["accepted_label_lengths"],
+        },
         "checkpoint": index, "start_id": start, "end_id": end,
         "policy_version": PLAN["policy_version"], "prompt_version": PLAN["prompt_version"],
         "metrics": metrics, "schema": "passed", "normalized_exact_duplicates": 0,
