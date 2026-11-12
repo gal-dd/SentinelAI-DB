@@ -1,0 +1,31 @@
+{
+  "checkpoint": 3,
+  "source_file": "drafts/batch-0003/review.json",
+  "alerts_total": 422,
+  "groups_connected": 47,
+  "largest_groups_edge_counts": [
+    247,
+    106,
+    6,
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2
+  ],
+  "priority_counts": {
+    "critical": 7,
+    "high": 58,
+    "medium": 24,
+    "routine": 333
+  },
+  "distinct_record_fingerprints": 334,
+  "cross_label_alerts": 60,
+  "intentional_pair_alerts": 6,
+  "recommended_packet_size_edges": 12,
+  "estimated_review_packets": 75,
+  "caveat": "Grouping is an organizational optimization only. Every alert still requires documented disposition; no classification review completed.",
+  "approved_by_triage": 0
+}
