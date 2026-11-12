@@ -1,0 +1,170 @@
+{
+  "checkpoint": 9,
+  "start_id": 4001,
+  "end_id": 4500,
+  "policy_version": "0.1.0",
+  "prompt_version": "0.1.0",
+  "length_plan": {
+    "planned_for_checkpoint": {
+      "נמוך": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "בינוני": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "גבוה": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "חמור": [
+        6,
+        50,
+        44,
+        25
+      ]
+    },
+    "cumulative_after_checkpoint": {
+      "נמוך": [
+        56,
+        450,
+        394,
+        225
+      ],
+      "בינוני": [
+        56,
+        450,
+        394,
+        225
+      ],
+      "גבוה": [
+        56,
+        450,
+        394,
+        225
+      ],
+      "חמור": [
+        56,
+        450,
+        394,
+        225
+      ]
+    }
+  },
+  "metrics": {
+    "records": 500,
+    "label_lengths": {
+      "נמוך": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "בינוני": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "גבוה": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "חמור": [
+        6,
+        50,
+        44,
+        25
+      ]
+    },
+    "labels": {
+      "נמוך": 125,
+      "בינוני": 125,
+      "גבוה": 125,
+      "חמור": 125
+    },
+    "lengths": {
+      "long": 100,
+      "paragraph": 176,
+      "sentence": 200,
+      "short": 24
+    },
+    "origins": {
+      "public_adapted": 15,
+      "synthetic": 272,
+      "fictional_document": 213
+    },
+    "styles": {
+      "lesson": 23,
+      "explainer": 7,
+      "interview": 6,
+      "worksheet": 17,
+      "field-note": 9,
+      "chat": 59,
+      "ticket": 13,
+      "minutes": 12,
+      "conversation": 4,
+      "log": 25,
+      "report": 45,
+      "letter": 24,
+      "lab-note": 12,
+      "incident": 30,
+      "audit": 53,
+      "catalog": 13,
+      "faq": 8,
+      "mail": 34,
+      "qa": 18,
+      "memo": 41,
+      "notice": 23,
+      "glossary": 1,
+      "transcript": 1,
+      "guide": 4,
+      "program": 2,
+      "article": 3,
+      "handoff": 6,
+      "email": 5,
+      "review": 1,
+      "explanation": 1
+    },
+    "scenario_count": 44,
+    "source_group_count": 39,
+    "edge_cases": 34,
+    "counterfactual_pairs": 17,
+    "records_with_latin": 6
+  },
+  "schema": "passed",
+  "normalized_exact_duplicates": 0,
+  "semantic": {
+    "status": "preliminary_draft_scan_only",
+    "model": "Xenova/multilingual-e5-small",
+    "candidate_pairs": 1287,
+    "threshold_alerts": 19,
+    "nonintentional_different_label_alerts": 2,
+    "review_source": "drafts/batch-0009/review.json"
+  },
+  "label_review": {
+    "status": "preliminary",
+    "mode": "GPT contextual sample read without labels, compared afterward",
+    "count": 50,
+    "disagreements": 0
+  },
+  "document_form": {
+    "status": "draft_review_passed",
+    "note": "Five long records are single-block text but meet word length; not rewritten to preserve reviewed candidate bytes."
+  },
+  "source_draft": {
+    "branch": "poc/security-classification-dataset",
+    "path": "drafts/batch-0009/candidates.jsonl",
+    "blob_sha": "06f6b3460ae5f454079bbfaef336f6ebbf1912b3"
+  },
+  "publication_status": "published"
+}
