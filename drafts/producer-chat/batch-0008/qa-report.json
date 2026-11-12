@@ -1,0 +1,235 @@
+{
+  "batch": "0008",
+  "branch": "producer/chat",
+  "phase": "integration_ready_draft",
+  "generated_at_note": "QA run November 12 2026",
+  "records": 500,
+  "compared_to": {
+    "main_branch": "poc/security-classification-dataset",
+    "last_checkpoint": 7,
+    "accepted_records": 3500,
+    "pilot_records": 200,
+    "total_texts": 3700
+  },
+  "checks": {
+    "quota_match": true,
+    "exact_normalized_duplicates": 0,
+    "structural_errors": 0,
+    "bucket_validation": true,
+    "source_group_validation": true,
+    "long_document_sections": true,
+    "final_ids_assigned": false
+  },
+  "label_length_matrix": {
+    "נמוך": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "בינוני": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "גבוה": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "חמור": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    }
+  },
+  "scenario_count": 18,
+  "style_counts": {
+    "brief": 24,
+    "explainer": 25,
+    "lesson": 44,
+    "notice": 50,
+    "report": 75,
+    "memo": 132,
+    "field-note": 150
+  },
+  "sample_review": {
+    "method": "24-record systematic spot-check for obvious topic/label mismatches; not independent blind assessment",
+    "samples": [
+      {
+        "record": 1,
+        "label": "נמוך",
+        "length": "short",
+        "scenario": "public-data-workshop",
+        "opening": "מדריך ציבורי למיון פסולת"
+      },
+      {
+        "record": 8,
+        "label": "נמוך",
+        "length": "long",
+        "scenario": "botany",
+        "opening": "עלון המרכז מספר על מתנדבים שבנו ערוגת תבלינים משותפת בחצר הקהילתית. הפרויקט כלל בחירה של צ"
+      },
+      {
+        "record": 36,
+        "label": "נמוך",
+        "length": "sentence",
+        "scenario": "public-data-workshop",
+        "opening": "בחוג האמנות הכינו הילדים קישוטי נייר עם דגמים חוזרים של משולשים."
+      },
+      {
+        "record": 71,
+        "label": "נמוך",
+        "length": "paragraph",
+        "scenario": "river",
+        "opening": "במרכז המבקרים הוצגה מפה מאוירת של נחל דמיוני. לאורך המפה סומנו גשרים, ספסלים ועצים שאינם ק"
+      },
+      {
+        "record": 101,
+        "label": "נמוך",
+        "length": "sentence",
+        "scenario": "library",
+        "opening": "במרכז המבקרים הכינו פינת התנסות בקריאת לוחות זמנים של אוטובוסים דמיוניים. כל ילד בחר תחנה "
+      },
+      {
+        "record": 125,
+        "label": "נמוך",
+        "length": "paragraph",
+        "scenario": "museum",
+        "opening": "במרכז המדעי פתחו תחנה המוקדשת למבנה של פתיתי שלג. על המסך הוצגו איורים מוגדלים וציורים שנו"
+      },
+      {
+        "record": 126,
+        "label": "בינוני",
+        "length": "short",
+        "scenario": "civic-currents-board",
+        "opening": "סיכום חפיפה לצוות האירוע"
+      },
+      {
+        "record": 133,
+        "label": "בינוני",
+        "length": "paragraph",
+        "scenario": "stage",
+        "opening": "במהלך חזרת המופע נמצא שבדף הבמה מופיע סדר כניסות ישן. מנהלת הבמה ביקשה לבדוק את הגרסה שאוש"
+      },
+      {
+        "record": 161,
+        "label": "בינוני",
+        "length": "paragraph",
+        "scenario": "library",
+        "opening": "המדריכים התבקשו לספור את כרטיסי התרגול לפני חלוקת הערכות למשתתפים. הספירה תיערך לפי סוגי ה"
+      },
+      {
+        "record": 196,
+        "label": "בינוני",
+        "length": "paragraph",
+        "scenario": "school",
+        "opening": "המדריכה בדקה את כרטיסי המשחק שיכללו בערכת ההכשרה וגילתה שני כרטיסים כפולים. היא ביקשה להחל"
+      },
+      {
+        "record": 226,
+        "label": "בינוני",
+        "length": "sentence",
+        "scenario": "school",
+        "opening": "במרכז ההוראה התבקשו המדריכים לעדכן את דפי התרגול לשנת הלימודים החדשה. חלק מהדפים הציגו איו"
+      },
+      {
+        "record": 250,
+        "label": "בינוני",
+        "length": "long",
+        "scenario": "school",
+        "opening": "בחדרי ההדרכה של מרכז למידה הותקנו לאחרונה מסכים חדשים. חלק מן המדריכים הבחינו שכותרות ארוכ"
+      },
+      {
+        "record": 251,
+        "label": "גבוה",
+        "length": "short",
+        "scenario": "coop",
+        "opening": "הערכת שווי פנימית לפני רכישה"
+      },
+      {
+        "record": 258,
+        "label": "גבוה",
+        "length": "long",
+        "scenario": "coop",
+        "opening": "ההנהלה החליטה לדחות את החתימה בעקבות סעיף בעלות שלא הופיע בהסכם הראשוני. בנספח שהועבר לביק"
+      },
+      {
+        "record": 286,
+        "label": "גבוה",
+        "length": "sentence",
+        "scenario": "coop",
+        "opening": "המזכר הפנימי מפרט את גבולות הפיצוי שהחברה אישרה למשא ומתן הקרוב."
+      },
+      {
+        "record": 321,
+        "label": "גבוה",
+        "length": "paragraph",
+        "scenario": "coop",
+        "opening": "צוות הביקורת מצא שחלק מהשעות שהספק דיווח עליהן לא תואמות לרישומי השירות. הנהלת הלקוח עצרה "
+      },
+      {
+        "record": 351,
+        "label": "גבוה",
+        "length": "paragraph",
+        "scenario": "coop",
+        "opening": "בישיבת הנהלת מרכז השירות הוצג דוח חדש על עלויות של הרחבת המוקד. הדוח הראה שהמחיר שהוצע ללק"
+      },
+      {
+        "record": 375,
+        "label": "גבוה",
+        "length": "paragraph",
+        "scenario": "coop",
+        "opening": "במיזם ארגוני להחלפת מערכת מידע נערך מבחן קבלה שהראה שהגרסה החדשה אינה מטפלת כראוי במספר סו"
+      },
+      {
+        "record": 376,
+        "label": "חמור",
+        "length": "short",
+        "scenario": "grid",
+        "opening": "אובדן מלא של נתוני המקור"
+      },
+      {
+        "record": 383,
+        "label": "חמור",
+        "length": "sentence",
+        "scenario": "helpdesk",
+        "opening": "כל נתיבי השירות הנגישים הושבתו משום שנשענו על אותה הרשאה שפג תוקפה."
+      },
+      {
+        "record": 411,
+        "label": "חמור",
+        "length": "sentence",
+        "scenario": "school",
+        "opening": "שלוש ועדות ערעור נפרדות איבדו יחד סמכות בעקבות ביטול אישור מרכזי."
+      },
+      {
+        "record": 446,
+        "label": "חמור",
+        "length": "paragraph",
+        "scenario": "coop",
+        "opening": "בתוכנית מלגות הוצגו ארבע קרנות כמסלולי מימון חלופיים. נספח התקשרות מאפשר לגוף אחד לבטל את "
+      },
+      {
+        "record": 476,
+        "label": "חמור",
+        "length": "paragraph",
+        "scenario": "press",
+        "opening": "ספריית העדויות העבירה קובצי תמלול עם כינויים בלבד. יחד איתם נשלח בטעות גיליון שמציג את כל "
+      },
+      {
+        "record": 500,
+        "label": "חמור",
+        "length": "long",
+        "scenario": "museum",
+        "opening": "במוזיאון שימור היו אמורים להישמר מסמכי מקור בכל אחד משלושת מוסדות השותפות. בעת מעבר למאגר "
+      }
+    ],
+    "notes": "Recurring themes remain in the high and critical classes; ordinary semantic similarity is not disqualifying. Exact normalized duplication is zero. An independent blind classification audit is recommended before production."
+  },
+  "candidates_file": "drafts/producer-chat/batch-0008/candidates.jsonl",
+  "approval": "Not yet promoted to main; Work/integrator should validate against main head at integration and assign 3501-4000 only if main state still has next_id=3501."
+}
