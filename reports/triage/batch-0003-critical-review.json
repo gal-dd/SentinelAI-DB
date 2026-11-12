@@ -1,0 +1,42 @@
+{
+  "checkpoint": 3,
+  "stage": "manual_semantic_review_partial",
+  "reviewer": "GPT-6 Chat, independent conversational pass",
+  "scope": "critical_priority_only",
+  "reviewed_alerts": 7,
+  "keep": 6,
+  "needs_revision": 1,
+  "source": "drafts/batch-0003/review.json",
+  "policy": "policy/v0.1.0.md",
+  "decisions": {
+    "324d26c826bb34ecd060aa9dc70d63f2ca73ffb79260bc463bedff8bef3d175": {
+      "status": "keep",
+      "reason": "פרסום באתר הפתוח לעומת שיתוף בתיקיית צוות בלבד; הבדל מפורש במעמד החשיפה מצדיק נמוך מול בינוני."
+    },
+    "46904b095cdb7e7d84d13c28b7964da0c923dda6b564ea55a11118acd7eb7568": {
+      "status": "keep",
+      "reason": "ביטול מסלול פיתוח בשל ממצא פנימי מול משימת כיול שגרתית; אלו עובדות שונות והבדל הסיווג מוצדק."
+    },
+    "49d0ff062a211c3ad6ac6ed57f18973b034e11441d16b172c93abc3c030de9b4": {
+      "status": "keep",
+      "reason": "חשבון דמה של תרגול מול חשיפת קשר מזהה של אדם מוגן ופרטי מעבר לגורם מאיים; ההבחנה הסמנטית מהותית."
+    },
+    "5c3a588b97f509321d6a180c82651ce1a77e13dc22c7523a3246bbf825c6d0aa": {
+      "status": "keep",
+      "reason": "העתקה מחוברת תרגול פתוחה ובדיונית מול ממצא בדוח קבלה פנימי שביטל השקה; הבדל במקור ובמשמעות."
+    },
+    "85891fd4f4a26d22510b419462d1af4f53b856d38ef70e45bc98464f3b13d49e": {
+      "status": "keep",
+      "reason": "שגיאה בחשבון דמה ללא השלכה מול שגיאה ששינתה מועדים ועצרה התקנה; ההשלכות שונות באופן מהותי."
+    },
+    "c165a9e47e84e47d4201081f69887b9de051940e4a5c54b17c14c8b64c05d157": {
+      "status": "keep",
+      "reason": "סגירת חלופה אחת מול סגירת כל מעברי הפינוי לרבות החלופות; חומרת ההשלכה מבדילה בין גבוה לחמור."
+    },
+    "c72c7a7a776e45c67558629276c9bd9b870bc87a7e1b01e4ed349c8b4c4a0ee6": {
+      "status": "needs_revision",
+      "reason": "שני ביטויים כמעט זהים על בלעדיות חסויה, ללא פירוט של משמעות העסקה, צדיה או השלכתה. המדיניות מזהירה שסימון חיסיון לבדו אינו ראיה מספקת לסיווג גבוה; יש להוסיף הקשר או להחליף אחת הדוגמאות."
+    }
+  },
+  "warning": "Not a complete checkpoint review. Re-run prepare after candidate revisions because fingerprints and alert IDs can change. Do not treat findings as full approval."
+}
