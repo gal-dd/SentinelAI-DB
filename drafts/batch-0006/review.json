@@ -1,6 +1,6 @@
 {
   "checkpoint": 6,
-  "status": "draft",
+  "status": "500_candidates_pending_checkpoint_0005",
   "owner": "work",
   "authoring": "GPT in Work. Python performed parsing and validation.",
   "verified_against": {
@@ -8,87 +8,115 @@
     "pilot": 200
   },
   "producer_0005_snapshot": {
-    "commit": "0cf75e22253b06c527a0945ce48216103748627b",
-    "distinct_normalized_texts": 400,
+    "commit": "a096a9b9b10ea5751bc4a1893a7973164e9a0c88",
+    "blob_sha": "a510b8f806083705bdffb5e24ddd2e51a41e6d1a",
+    "assembled_label_lengths": {
+      "נמוך": [
+        7,
+        48,
+        44,
+        26
+      ],
+      "בינוני": [
+        6,
+        50,
+        45,
+        24
+      ],
+      "גבוה": [
+        6,
+        52,
+        41,
+        26
+      ],
+      "חמור": [
+        6,
+        50,
+        45,
+        24
+      ]
+    },
+    "distinct_normalized_texts": 500,
     "exact_duplicates": 0
   },
   "schema": "passed",
   "document_form": "passed",
   "normalized_exact_duplicates": 0,
   "metrics": {
-    "records": 284,
+    "records": 500,
     "label_lengths": {
       "נמוך": [
         7,
-        26,
-        26,
-        12
+        50,
+        43,
+        25
       ],
       "בינוני": [
         7,
-        26,
-        26,
-        12
+        50,
+        43,
+        25
       ],
       "גבוה": [
         7,
-        26,
-        26,
-        12
+        50,
+        43,
+        25
       ],
       "חמור": [
         7,
-        26,
-        26,
-        12
+        50,
+        43,
+        25
       ]
     },
     "labels": {
-      "נמוך": 71,
-      "בינוני": 71,
-      "גבוה": 71,
-      "חמור": 71
+      "נמוך": 125,
+      "בינוני": 125,
+      "גבוה": 125,
+      "חמור": 125
     },
     "lengths": {
       "short": 28,
-      "sentence": 104,
-      "paragraph": 104,
-      "long": 48
+      "sentence": 200,
+      "paragraph": 172,
+      "long": 100
     },
     "origins": {
-      "synthetic": 178,
-      "fictional_document": 106
+      "synthetic": 313,
+      "fictional_document": 187
     },
     "styles": {
-      "manual": 5,
+      "manual": 7,
       "transcript": 2,
-      "letter": 16,
-      "lesson": 8,
-      "conversation": 4,
-      "ticket": 8,
-      "mail": 29,
-      "minutes": 14,
-      "report": 17,
-      "memo": 15,
-      "audit": 27,
-      "incident": 15,
-      "worksheet": 10,
-      "notice": 11,
-      "chat": 45,
-      "catalog": 9,
-      "faq": 5,
-      "field-note": 6,
-      "qa": 9,
-      "log": 15,
-      "lab-note": 8,
-      "interview": 4,
-      "glossary": 2
+      "letter": 28,
+      "lesson": 12,
+      "conversation": 7,
+      "ticket": 12,
+      "mail": 53,
+      "minutes": 22,
+      "report": 34,
+      "memo": 27,
+      "audit": 48,
+      "incident": 26,
+      "worksheet": 15,
+      "notice": 19,
+      "chat": 84,
+      "catalog": 16,
+      "faq": 10,
+      "field-note": 9,
+      "qa": 21,
+      "log": 26,
+      "lab-note": 9,
+      "interview": 9,
+      "glossary": 2,
+      "rulebook": 2
     },
-    "scenario_count": 37,
-    "source_group_count": 37,
-    "edge_cases": 2,
-    "counterfactual_pairs": 0,
-    "records_with_latin": 8
+    "scenario_count": 48,
+    "source_group_count": 48,
+    "edge_cases": 27,
+    "counterfactual_pairs": 12,
+    "records_with_latin": 13
   },
   "provisional_quotas_assuming_checkpoint_0005_matches_plan": {
     "נמוך": [
@@ -119,27 +147,27 @@
   "provisional_remaining_label_lengths": {
     "נמוך": [
       0,
-      24,
-      17,
-      13
+      0,
+      0,
+      0
     ],
     "בינוני": [
       0,
-      24,
-      17,
-      13
+      0,
+      0,
+      0
     ],
     "גבוה": [
       0,
-      24,
-      17,
-      13
+      0,
+      0,
+      0
     ],
     "חמור": [
       0,
-      24,
-      17,
-      13
+      0,
+      0,
+      0
     ]
   },
   "semantic_preliminary": {
@@ -153,12 +181,13 @@
     "search": "exact_cosine_top_k",
     "cosine_threshold": 0.92,
     "neighbors_per_record": 12,
-    "indexed_records": 2484,
-    "scanned_records": 284,
-    "candidate_pairs": 536
+    "indexed_records": 2700,
+    "scanned_records": 500,
+    "candidate_pairs": 925
   },
   "alerts_by_method": {
-    "semantic": 536
+    "lexical": 1,
+    "semantic": 925
   },
   "exceptional_alerts_preliminary": [
     {
@@ -182,8 +211,505 @@
       "score": 0.94435,
       "different_labels": true,
       "intentional_pair": false
+    },
+    {
+      "id": "2096e2b34a176a430cc6c5d2ef32a2a4b318bf4a12503fdb940faa565bec9e24",
+      "records": [
+        "1570619aabe856c5ee112c2229c19d98e1e95a0b99f73456e1331a54147ccbe9",
+        "ff7d7936cb5adfae38ae4bf5136b3360d59bf492d1b37ac218f52b0cb311a528"
+      ],
+      "method": "semantic",
+      "score": 0.9485,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "51c40965e4f15be7d5e4227c6b97507e8188fa162a4b2285b8e0e5fbbf35da16",
+      "records": [
+        "142f6f1e81c67b5cf2053d7cb0cfa1538309d0d098f5edf18e409a618e2f91ba",
+        "f9d6f8d096f0e4eb28b353035cefe4566ea003706e051c4153353f9348a5053e"
+      ],
+      "method": "semantic",
+      "score": 0.96871,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "6a36a28d6f24578415ddcc6adcf764f71337e6da993918a5cca3baf316416969",
+      "records": [
+        "a6fc50dc6c4038e20b907c6b2de5a7c446df337c6ceb72c6975cf47c5d5967c0",
+        "e9773c0ba13372a8c066426bc22bed227713d69eec231906d707d6769e0a603e"
+      ],
+      "method": "semantic",
+      "score": 0.96452,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "9821150beb4ba4e1514a3482ec8a61eb8915bb7faf3c39e7953c6ed7b3c230c8",
+      "records": [
+        "002962352083d457c250af0e6168682edb04f544d07ea87b1a0cd2b845410a6b",
+        "61e8f614e7bdf7ca0d0a03b24ed986c65091ddfb65c05257759dd2973db6ff5a"
+      ],
+      "method": "semantic",
+      "score": 0.94632,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "ac1dc7b7a18c73fb2abeba5f0a9a03c0ea88bdf620bc18806e5913a350aa2a85",
+      "records": [
+        "3c935fe5daf94f4f271af24628c3af1c04f3ba8f9e3896295d8ec8e55474af6d",
+        "8d8ded2dd7a3e0d9db47cf4529f00ac231b2267d5dd5704f827b1767e98bc5df"
+      ],
+      "method": "semantic",
+      "score": 0.964,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "b423ea06beebcfe47fce605fe26b60d2fa6bb9c0f06e8a4829a9961f84bf6b07",
+      "records": [
+        "8f75226cd3021943f172f55176e22024b35ee4b5d6295a727ef6ce7981fbe585",
+        "eacb1e4ca3cdfec40250f25633c3de9d5877fc04267f6b1a25f90185ef273c5b"
+      ],
+      "method": "semantic",
+      "score": 0.94616,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "c33db606441da9cb41655be66fd6c9c68942e172b99848d3319f39ecb78a3a8f",
+      "records": [
+        "29952eded836582ac6e67a4a15ebb0d5a6e85ce31fcf7a68b80f6c9641bb28f5",
+        "63218c442deb04a915359f84f70d1d350d73f286fa6fa14089c7fc1467c3932e"
+      ],
+      "method": "semantic",
+      "score": 0.96506,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "cc1ccc95c6646a48a8356401593a8a6b1dc18f50a17d6be75687a5d93e1ac49b",
+      "records": [
+        "6d8e576d653f055a9e29eb2712e112f8fb2a0b8d5c31b52ca841a41bff70957e",
+        "cc8aa03ccbdb513c1c70c030f8819cf46cb8768ef0269d8a12e17aec1acc644b"
+      ],
+      "method": "semantic",
+      "score": 0.94919,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "ddc6c5d3336053ae2360a4e8c5e3e1bdc8e0727a1c564bd8eec7af56f89dabcc",
+      "records": [
+        "7fb4a8c09021900fc87af5432d09976cccc912398cfd53b5a9eaf27393c2de65",
+        "b02c88d99b1d818acd7697ed6141ba941666b3ad34892b20b37ba167a3d18584"
+      ],
+      "method": "semantic",
+      "score": 0.95901,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "e4ab5d9fe76c377360c3c644608d39e08837ea8184ed0662ea2b7752ad0d4a22",
+      "records": [
+        "234f6f230a741623d41da637b52c2bf3ebf7ec30f2ba7b981670451e1de09f98",
+        "9d359f536c99001923c58990be108437d5a150ae6ab0fca2cdac275f77da8de1"
+      ],
+      "method": "semantic",
+      "score": 0.97433,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "e8bbf92a1d4466231921f89ceb6ccf2795dd281077ef9c09f75335033c95f9b2",
+      "records": [
+        "1700e3974a7aab3cba38f9b3e21aec7b7dd622f13ed09620b4fae69b261515bd",
+        "1fb1cb5a65bc08e2c93f0cfbf64a87597792c47c84062d51076f2a2c03e5f81c"
+      ],
+      "method": "semantic",
+      "score": 0.97665,
+      "different_labels": true,
+      "intentional_pair": true
     }
   ],
-  "label_review": "pending",
-  "resume": "Once 0005 is published, recompute quotas, cross-check its new records for duplicates, complete 500 candidates, and run normal checkpoint QA."
+  "label_review": {
+    "status": "preliminary",
+    "mode": "GPT contextual sample",
+    "count": 50,
+    "disagreements": 0,
+    "candidate_digest": "5345d615456b2b0b942df9a6be8cbe1647d5fc4d6d3e9ee2ef0f447449838e0f",
+    "records": {
+      "ea693b6c267752ed7a26dc003acd6c253e5bae3af2e73350914f7d843533d3f4": {
+        "ordinal": 6,
+        "label": "בינוני",
+        "reason": "תקלה חזותית בעותקי דמה עם תיקיות אימון, והיערכות לחזרה הבאה."
+      },
+      "e2f60a7120d45313d38ae30387e62eee69be299c12e4e9ba670ef12e7f6538e2": {
+        "ordinal": 13,
+        "label": "חמור",
+        "reason": "הוחלפו תאריכי כלל הזכאים וקובץ ההמרה שולט בכל מסלולי ההחזר."
+      },
+      "dcc4c823a97684dfb92486b5ba410bfde462b964f044ab5218f9ac19113199e0": {
+        "ordinal": 16,
+        "label": "חמור",
+        "reason": "טופסי הסכמה הועתקו לכל המחוזות והראיות היחידות לתוצאות אמת נגרסו."
+      },
+      "926fb657fedc573299e320a432445ca3db86d83dfeaad302bcf0454e2a65ffd2": {
+        "ordinal": 26,
+        "label": "נמוך",
+        "reason": "פעילות פומבית המשתמשת בקטע בדיוני ובדף מודפס לקהל."
+      },
+      "5f04c18ce0630127af4b261cae3da5cc0201cd43fd55cb883f779ee094ddf6cf": {
+        "ordinal": 38,
+        "label": "גבוה",
+        "reason": "מגבלת שימוש מסחרי מובילה להחלטה סגורה על הוצאת פס הקול מן העסקה."
+      },
+      "c1a7d5b61f232ddc393723cddfd6d9cce6d9d88e8acf7cc8c63ba8b25765e986": {
+        "ordinal": 39,
+        "label": "גבוה",
+        "reason": "חישוב פנימי של חיוב שגוי גורם להקפאת חידוש עם ספק."
+      },
+      "0bfed20f876877b10a375e07debbe3b1c80cd620cd41b7ed44d3b867c0cc3ee5": {
+        "ordinal": 42,
+        "label": "גבוה",
+        "reason": "נתוני הלקוח שייכים לתקופה אחרת, ובעקבות הבדיקה בוטלה המסירה."
+      },
+      "c218433fccc5d83058e6d54ad7303f2d122eb1be73fdc3f6864d87a173585a19": {
+        "ordinal": 44,
+        "label": "גבוה",
+        "reason": "ממצא ביקורת פנימי מוכיח שספק לא ביצע החלפות שהתחייב להן והחידוש נעצר."
+      },
+      "5ad01d191318136a05cf7ff177361d07da7785ce2fe2f1b151100c0bf34b7746": {
+        "ordinal": 47,
+        "label": "חמור",
+        "reason": "ביטול אסמכתה משותפת משאיר את כל המועצות בלי דרך להוכיח גישה."
+      },
+      "8c54e64af5eff0b70cc34bf7e84e6f0e8d63a8ad9a3a246ffe4ac03b9826fba3": {
+        "ordinal": 52,
+        "label": "חמור",
+        "reason": "תאריך שגוי מחייב את שלושת מסלולי הבירור ודוחה בקשות כדין בכל הרשויות."
+      },
+      "a9e45939b74618f444d51619702c278eac5e17c16fc46ae254ff5a4d4675ff1f": {
+        "ordinal": 78,
+        "label": "חמור",
+        "reason": "הועתקה הוכחת נגישות כוזבת לכל הרשויות, וכל התלונות נסגרו על בסיסה."
+      },
+      "b5301d0da5225d4d7639999356fe0c6a47a75bba31d3dbd8a1adc394d940c9b5": {
+        "ordinal": 92,
+        "label": "בינוני",
+        "reason": "תקלה שגרתית במקש בדמו של צוות ההדרכה."
+      },
+      "63b031967be76ad17d4bd614c6d23e661b8cd7a5d0d36248a5e658c1c1a6b7a0": {
+        "ordinal": 146,
+        "label": "בינוני",
+        "reason": "הזזת הערות ניקוד בתוך עותק עבודה של העורכת."
+      },
+      "b4605ac603826c17f4e297a430aa5e3ae05cf90ca12fdd38390f9ddb56e52705": {
+        "ordinal": 149,
+        "label": "בינוני",
+        "reason": "סידור קובץ במחשב חפיפה והתלבטות מקומית על הפעלה."
+      },
+      "1d511aee9b03ef6f87096d6900f5bd4d8f96f6cd728eeaf1554f69b6cdead702": {
+        "ordinal": 164,
+        "label": "גבוה",
+        "reason": "הכרעת זכויות התקשרות על החלפת כלל תרגומי הסדרה אצל ספק."
+      },
+      "141de42b86aafa62c7928e16c722acdc536c8cdac1d4e79b1a80de34ba9bf8ff": {
+        "ordinal": 167,
+        "label": "גבוה",
+        "reason": "החלטה פנימית משמעותית על הפרדת תחום מהזיכיון לפני הודעה למפעיל."
+      },
+      "f688e96bba8a7af2fb1238102e656e791f3de4cf8605eaa9ea3df9f10ae21676": {
+        "ordinal": 190,
+        "label": "נמוך",
+        "reason": "נושא כללי של מונחים בסרטי בדיון."
+      },
+      "63c91f0fc095cd2fefc46e54da37dd558247452a06c35cd4675e3116c381fcd3": {
+        "ordinal": 194,
+        "label": "בינוני",
+        "reason": "משימת הגהה שגרתית בישיבת צוות."
+      },
+      "2492879027e41a611f7a0cc92d9dde0b1fb45b899fd3478201a1bb69b2d85da5": {
+        "ordinal": 208,
+        "label": "חמור",
+        "reason": "זיוף כלל החלטות הערר של עיר."
+      },
+      "131f7818508481677e21b4fb89e3cd8e03f30aa773ba2b7c33fd106712a136d3": {
+        "ordinal": 238,
+        "label": "חמור",
+        "reason": "הקונה יכול לשחזר שמות של כל היוצרים שהמרכז התחייב להסתיר ממנו."
+      },
+      "6a91eac9901cce43b7074cf84d7ce59c6fa026869e9e9fa3e48c15990eb9501d": {
+        "ordinal": 239,
+        "label": "חמור",
+        "reason": "ביטול ערבות משותפת שולל מכל הלהקות גם תשלום וגם מימון חלופי."
+      },
+      "216e290104626779babd87fb56db56672c059a71ca25533b10fa3dea24575ffc": {
+        "ordinal": 242,
+        "label": "חמור",
+        "reason": "שתי טבלאות משותפות חושפות שמות ומקומות מגורים של כל משתתפי התוכנית המוגנת."
+      },
+      "73b05b829ff061b724d5588e494398552c484e81d4207928c76144f573da1529": {
+        "ordinal": 246,
+        "label": "נמוך",
+        "reason": "התבוננות לימודית בצורה של כלי קרמיקה."
+      },
+      "6176241d53eb122b85422facd0155c5ca0dcb9a5836756308d0de6736e0427a7": {
+        "ordinal": 253,
+        "label": "נמוך",
+        "reason": "תרגיל הבנת כותרת סיפור בדיוני על טיל."
+      },
+      "52198fba54d076d01e05c169a5e7384a2f530f2b72b92fccde89a2510c8be8d9": {
+        "ordinal": 274,
+        "label": "גבוה",
+        "reason": "בירור בעלות על תמונות שינה את מחיר ההצעה לפני הודעה למוכר."
+      },
+      "fbd8d0a5d47344e7b22428dc0ce67e2397d60039bb165b6e278e402e07db5ea5": {
+        "ordinal": 278,
+        "label": "חמור",
+        "reason": "עותק משותף ממפה כינויים לשמות מלאים לכל משתתפי התוכנית המוגנת."
+      },
+      "29952eded836582ac6e67a4a15ebb0d5a6e85ce31fcf7a68b80f6c9641bb28f5": {
+        "ordinal": 295,
+        "label": "גבוה",
+        "reason": "הסדר פנימי מעניק למפיץ שליטה בראיה הנדרשת במחלוקת על פריט אחד."
+      },
+      "1b5ed92a4d4cd1adbf6ffa4dfe8b7a995a35f47a1ea45280385004e280f1901d": {
+        "ordinal": 355,
+        "label": "גבוה",
+        "reason": "אי כיסוי באחריות מסחרית מעכב תשלום על אצווה."
+      },
+      "01bf72e64bb14500ecbaf8d324a540297a44b7cbdf6411e9ff8d38f536aab53c": {
+        "ordinal": 359,
+        "label": "גבוה",
+        "reason": "הכרעת היקף רכישה בעקבות בדיקת זכויות, טרם מסירת החלטה למפעיל."
+      },
+      "b00308282cf4818ec9da9fbfce31b690b065bbaee2591303e823232a2a419aed": {
+        "ordinal": 365,
+        "label": "חמור",
+        "reason": "המפיק הנתבע ביטל את האישורים שכל קרנות ההפקה דורשות כראיה."
+      },
+      "36349447763b6c7bc07e15c4cfb9c4391f0a367e6ccbde98eafc0aa0e25de66a": {
+        "ordinal": 384,
+        "label": "נמוך",
+        "reason": "תרגיל קריאה פומבי בשירה."
+      },
+      "9328ea9f2698706b4b01c594d0c9f7800b5a0309ceb5c2025a979820f5cc7d48": {
+        "ordinal": 394,
+        "label": "בינוני",
+        "reason": "סידור עותקי מצגת והערות בחפיפת אולם."
+      },
+      "86bb3ff42482bcaddbf36e71bfc6e476fee35b917c30ec9674d402c9a489341a": {
+        "ordinal": 395,
+        "label": "בינוני",
+        "reason": "בחירת סדר דוגמאות שמע בחפיפת מדריכים."
+      },
+      "240f10c89a52f0a2cd382bdb6623015515a21e37962a7b1953875f9ccee6e11a": {
+        "ordinal": 418,
+        "label": "נמוך",
+        "reason": "הכוונה פומבית למתחמי מופעים וסדנאות."
+      },
+      "ad1050c46243f227171422bcfd68357eed912dfd1c73ba423c70d88844979d08": {
+        "ordinal": 420,
+        "label": "נמוך",
+        "reason": "ריאיון שפורסם על דרכי קריאה בשיר."
+      },
+      "bb2208f114fd960bfc2b4300f76313fe316706db0a119595fe60a51d9dac370a": {
+        "ordinal": 428,
+        "label": "בינוני",
+        "reason": "תיאום ציוד הדרכה והחזרה בין משמרות."
+      },
+      "24b4cdfab9d9c2c9c1f08b7ac702fa5946a18421002e850ba39b783ccddb59f2": {
+        "ordinal": 429,
+        "label": "גבוה",
+        "reason": "ממצא פנימי בתהליך ההסמכה מוביל לעיכוב ציוני מחזור ותשלום."
+      },
+      "60ff80f842919c92bb0a7d15e249fc12b677ade6a7939f160fdbc878dee7d10a": {
+        "ordinal": 432,
+        "label": "גבוה",
+        "reason": "כפל ספירה מוביל להכרעה כספית לפני הודעה למגדל."
+      },
+      "22f192554d678c031953cf07dedef1e26886c1db2a7f02cbba41195fa3a1e6f7": {
+        "ordinal": 435,
+        "label": "חמור",
+        "reason": "גיליון בלעדי בכל רשויות ההכרה והערר פוסל את כלל תעודות הבוגרים."
+      },
+      "db619c58c25bcf39d6bdf52f8704b3823e2a20f0c330b88a1e7aa8ad414c4bb1": {
+        "ordinal": 451,
+        "label": "בינוני",
+        "reason": "בחירת נייר לדוגמת חפיפה פנימית."
+      },
+      "84b23a662959828bf1e8b708450ba2df901680c99dac65ddcbf02e4d0b8f59d4": {
+        "ordinal": 457,
+        "label": "גבוה",
+        "reason": "מגבלת זכויות מבטלת מכירת הקלטה לפני פנייה למפיקה."
+      },
+      "89937ec1ca0b8ce41ab7af2891ee635e754bfb5b4d5737dd28e8fc5bb364c6cf": {
+        "ordinal": 460,
+        "label": "גבוה",
+        "reason": "שימוש מסחרי באיור אינו מורשה, ולכן שונתה עסקת תצוגה."
+      },
+      "70ee46de5cc5c737a0e0b0ca45b9dcf62dd60c322dce1336ccdb43b3d6e77ec6": {
+        "ordinal": 463,
+        "label": "חמור",
+        "reason": "חלון הדפסת קבלה חושף לחברת שירות את זהות כל הקוראים המוגנים."
+      },
+      "a6985c8ed7d014fc25a109f1cde2b3e48d299e706766fe4684339fe59a00407d": {
+        "ordinal": 472,
+        "label": "נמוך",
+        "reason": "הנחיה לימודית לקריאת תווית וסמל."
+      },
+      "34ebd90fd444d884daf58fa444ea3b7436ec40e945c36b1b11c989c35341c6ab": {
+        "ordinal": 474,
+        "label": "נמוך",
+        "reason": "תיאור פומבי של התפתחות קטע במופע בובות."
+      },
+      "2321536d10e44a00878f9bae429f9df59d86521b83f964bf9aff291b0d9270c4": {
+        "ordinal": 475,
+        "label": "נמוך",
+        "reason": "שיעור אזרחי על תצפית בתצלום של מטע."
+      },
+      "534c11b9084a4031cca092326c903f2b545096f34465bb621d51a3bcf8370078": {
+        "ordinal": 477,
+        "label": "בינוני",
+        "reason": "מסירת משמרת שגרתית בסביבת הגהה."
+      },
+      "0824e9c70cedfc576ca5cb2c58e6dac25cf3324a3596d87cfc788c8dbcff4450": {
+        "ordinal": 490,
+        "label": "גבוה",
+        "reason": "חוסר בקורס משנה מסירת תעודות למחזור ואת החוזה עם המדריך."
+      },
+      "d063897d6bbe145c46ba70a3ab1d600678bd52dfb84a0b578c4f3eeacf109951": {
+        "ordinal": 495,
+        "label": "חמור",
+        "reason": "השמדת טופסי נוכחות והחלפתם אצל כל הגופים שוללות את ראיית העובדים."
+      },
+      "0c6c0ae0b9bf1f90d821ce51d1029f74451c18e93d8c12756535c65de4ff59b1": {
+        "ordinal": 497,
+        "label": "חמור",
+        "reason": "ביטול אישור משותף לכל בתי הדפוס מסיר כל חלופת הדפסה נגישה במיזם."
+      }
+    }
+  },
+  "resume": "Batch 0005 must be published first. Recompute the quota and rerun exact and exceptional similarity checks on the approved rows of batch 0005. If quotas change, adjust this draft before allocating IDs. Run the normal checkpoint QA at promotion.",
+  "focused_similarity": {
+    "reviewed_unintended": {
+      "07155cc123d2b6df4d74e43f98e75af33e6bdbf8e324ff49b4c7a65087a41858": {
+        "outcome": "distinct",
+        "reason": "תיוג של מקלטי רדיו להדגמה במסגרת חפיפה מול פסילת אצווה מסחרית לפני השקה."
+      },
+      "169ede1319b6d8933d59764b3f6443250b48b0f2e148e54fdae0a919a50e0883": {
+        "outcome": "distinct",
+        "reason": "סימון מקלטי הדגמה אינו כולל ממצא פיתוח או החלטה לבטל פרויקט."
+      },
+      "b423ea06beebcfe47fce605fe26b60d2fa6bb9c0f06e8a4829a9961f84bf6b07": {
+        "outcome": "distinct",
+        "reason": "צילום חץ שגוי בעותק הדרכה מול החלטת חידוש חוזה שקשורה לבעלות על תשלילים."
+      }
+    },
+    "reviewed_counterfactuals": {
+      "b6-map-a": "מפת תיאום פומבית לעומת מפת תיאום פנימית לצוות.",
+      "b6-caption-a": "השהיית המסירה כבר הוכרזה לציבור לעומת ממצא בדוח קבלה פנימי.",
+      "b6-alias-a": "מיפוי שמחברים פרסמו בעצמם לעומת מיפוי של כל המחברים שהוסתרו מהנמען.",
+      "b6-drill-a": "אישור כפול בחפיפה לעומת כשל בעותק מסירה שהוביל לביטול הקבלה.",
+      "b6-roof-a": "שמות שהומצאו לתרגול לעומת מיפוי שמזהה את כל חברי הקבוצה המוגנת לגוף שממנו הוסתרו.",
+      "b6-appeal-a": "אישור לבוררות על ספר בודד לעומת המקורות היחידים בכל הליכי הבוררות על אוסף שלם.",
+      "b6-music-a": "לוח מופעים פתוח לקהל לעומת לוח חזרות פנימי.",
+      "b6-clay-a": "ביטול הזמנה שכבר פורסם לעומת ביטול שנרשם בתיק הרכש הפנימי.",
+      "b6-photo-a": "הצגת המשתתפים בהסכמה לעומת חשיפת כל מי שהובטחה להם הגנה מהקונה.",
+      "b6-maps-b": "סימונים הפוכים בחזרת צוות לעומת דחיית אצווה שנמסרה ללקוח.",
+      "b6-export-a": "שמות דמה בחפיפה לעומת ייצוא הכולל שמות מלאים של כל פוני המסלול המוגן.",
+      "b6-rights-b": "מסמך לפריט בודד לעומת העברת המסמכים היחידים של כלל האוסף לצד שטוען לבעלות ומסרב למוסרם."
+    },
+    "threshold_alerts": 16,
+    "routine_unreviewed": 910,
+    "changes": [
+      {
+        "ordinal": 308,
+        "reason": "Clarified that the adverse party refuses to provide the only admissible ownership records."
+      }
+    ]
+  },
+  "quota_dependency": {
+    "checkpoint_0005_required": {
+      "נמוך": [
+        4,
+        36,
+        54,
+        31
+      ],
+      "בינוני": [
+        7,
+        33,
+        54,
+        31
+      ],
+      "גבוה": [
+        7,
+        33,
+        54,
+        31
+      ],
+      "חמור": [
+        7,
+        34,
+        54,
+        30
+      ]
+    },
+    "producer_0005_current": {
+      "נמוך": [
+        7,
+        48,
+        44,
+        26
+      ],
+      "בינוני": [
+        6,
+        50,
+        45,
+        24
+      ],
+      "גבוה": [
+        6,
+        52,
+        41,
+        26
+      ],
+      "חמור": [
+        6,
+        50,
+        45,
+        24
+      ]
+    },
+    "checkpoint_0006_if_producer_0005_admitted_without_length_changes": {
+      "נמוך": [
+        4,
+        38,
+        53,
+        30
+      ],
+      "בינוני": [
+        8,
+        33,
+        52,
+        32
+      ],
+      "גבוה": [
+        8,
+        31,
+        56,
+        30
+      ],
+      "חמור": [
+        8,
+        34,
+        52,
+        31
+      ]
+    }
+  }
 }
