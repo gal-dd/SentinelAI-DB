@@ -1,0 +1,121 @@
+{
+  "status": "complete_draft_pending_integration",
+  "producer": "regular ChatGPT",
+  "branch": "producer/chat",
+  "batch_draft": "0007",
+  "candidates_path": "drafts/producer-chat/batch-0007/candidates.jsonl",
+  "records": 500,
+  "labels": {
+    "נמוך": 125,
+    "בינוני": 125,
+    "גבוה": 125,
+    "חמור": 125
+  },
+  "lengths": {
+    "short": 29,
+    "sentence": 185,
+    "paragraph": 212,
+    "long": 74
+  },
+  "length_order": [
+    "short",
+    "sentence",
+    "paragraph",
+    "long"
+  ],
+  "label_lengths": {
+    "נמוך": [
+      8,
+      40,
+      60,
+      17
+    ],
+    "בינוני": [
+      7,
+      46,
+      56,
+      16
+    ],
+    "גבוה": [
+      8,
+      58,
+      47,
+      12
+    ],
+    "חמור": [
+      6,
+      41,
+      49,
+      29
+    ]
+  },
+  "distinct_scenarios": 17,
+  "qa": {
+    "schema": "passed",
+    "normalized_exact_duplicates": 0,
+    "duplicate_reference": "3000 accepted main-branch texts, 200 pilot texts, 500 chat-produced batch 0005 candidates",
+    "document_form_violations": 0,
+    "length_bucket_errors": 0,
+    "blind_label_review": "not_performed",
+    "semantic_embedding_review": "not_performed",
+    "audit_note": "No claim of independent blind review; this is a production draft requiring quality sampling before checkpoint."
+  },
+  "latest_main_observed": {
+    "production_records": 3000,
+    "last_checkpoint": 6,
+    "next_id": 3001,
+    "next_checkpoint_label_lengths": {
+      "נמוך": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "בינוני": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "גבוה": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "חמור": [
+        6,
+        50,
+        44,
+        25
+      ]
+    }
+  },
+  "quota_delta_against_latest_main": {
+    "נמוך": [
+      2,
+      -10,
+      16,
+      -8
+    ],
+    "בינוני": [
+      1,
+      -4,
+      12,
+      -9
+    ],
+    "גבוה": [
+      2,
+      8,
+      3,
+      -13
+    ],
+    "חמור": [
+      0,
+      -9,
+      5,
+      4
+    ]
+  },
+  "integration": "Do not assign final IDs on this branch. On main, first consider chat batch 0005, then batch 0007, recompute quotas and exact duplicates at merge; rebalance length cells through explicit editing or accept as a deferred-quota draft. Avoid working on producer/chat from Work. Embedding similarity alone does not block approval."
+}
