@@ -1,0 +1,341 @@
+{
+  "checkpoint": 9,
+  "status": "partial_draft",
+  "owner": "work",
+  "authoring": "GPT in Work, including independently worded Hebrew adaptations of factual NOAA material with attribution.",
+  "schema": "passed",
+  "document_form": "passed",
+  "normalized_exact_duplicates": 0,
+  "compared_against": {
+    "approved_records": 3500,
+    "pilot_records": 200,
+    "batch_0008_snapshot": {
+      "commit": "585a4726c3a26e86245675292cd1a84dc88fa411",
+      "available_records": 280,
+      "distinct_normalized_texts": 280
+    }
+  },
+  "metrics": {
+    "records": 124,
+    "label_lengths": {
+      "נמוך": [
+        6,
+        10,
+        10,
+        5
+      ],
+      "בינוני": [
+        6,
+        10,
+        10,
+        5
+      ],
+      "גבוה": [
+        6,
+        10,
+        10,
+        5
+      ],
+      "חמור": [
+        6,
+        10,
+        10,
+        5
+      ]
+    },
+    "labels": {
+      "נמוך": 31,
+      "בינוני": 31,
+      "גבוה": 31,
+      "חמור": 31
+    },
+    "lengths": {
+      "short": 24,
+      "sentence": 40,
+      "paragraph": 40,
+      "long": 20
+    },
+    "origins": {
+      "public_adapted": 6,
+      "synthetic": 80,
+      "fictional_document": 38
+    },
+    "styles": {
+      "lesson": 6,
+      "explainer": 3,
+      "interview": 2,
+      "worksheet": 5,
+      "field-note": 4,
+      "chat": 13,
+      "ticket": 5,
+      "minutes": 6,
+      "conversation": 2,
+      "log": 5,
+      "report": 12,
+      "letter": 7,
+      "lab-note": 5,
+      "incident": 7,
+      "audit": 10,
+      "catalog": 4,
+      "faq": 1,
+      "mail": 8,
+      "qa": 5,
+      "memo": 7,
+      "notice": 6,
+      "glossary": 1
+    },
+    "scenario_count": 13,
+    "source_group_count": 13,
+    "edge_cases": 10,
+    "counterfactual_pairs": 5,
+    "records_with_latin": 1
+  },
+  "provisional_label_length_quotas": {
+    "נמוך": [
+      6,
+      50,
+      44,
+      25
+    ],
+    "בינוני": [
+      6,
+      50,
+      44,
+      25
+    ],
+    "גבוה": [
+      6,
+      50,
+      44,
+      25
+    ],
+    "חמור": [
+      6,
+      50,
+      44,
+      25
+    ]
+  },
+  "remaining_label_lengths": {
+    "נמוך": [
+      0,
+      40,
+      34,
+      20
+    ],
+    "בינוני": [
+      0,
+      40,
+      34,
+      20
+    ],
+    "גבוה": [
+      0,
+      40,
+      34,
+      20
+    ],
+    "חמור": [
+      0,
+      40,
+      34,
+      20
+    ]
+  },
+  "semantic_preliminary": {
+    "status": "completed",
+    "model": "Xenova/multilingual-e5-small",
+    "reference_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+    "artifact_sha256": {
+      "model_int8.onnx": "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c",
+      "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+    },
+    "search": "hnsw_cosine_top_k",
+    "cosine_threshold": 0.92,
+    "neighbors_per_record": 12,
+    "indexed_records": 3824,
+    "scanned_records": 124,
+    "candidate_pairs": 464
+  },
+  "threshold_alerts_preliminary": [
+    {
+      "id": "20892dde96c17252d90c03da28a03eaf94eab1ca4b5cb745f837b67086b78098",
+      "records": [
+        "11b33e63eac2466f3fa61551d68f2471bc0b4691bba0baf9f61c4634961749f7",
+        "e8390a380935e7f3ac59dda48f480df5adb44746cb50a18f7ea1dbdc632f3513"
+      ],
+      "method": "semantic",
+      "score": 0.96444,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "68d287cf8e34e3205dea01e2ee2dc1803751a7f90374cf57551da70d8020c68f",
+      "records": [
+        "0325adb2795c345e5e779560337f4c4cc54b37518f56a7eed6f613355569f262",
+        "f0e2baa36c2d66362079fb4e02ee32a48f1af01e9e35d17573d5afcb51c308e6"
+      ],
+      "method": "semantic",
+      "score": 0.95764,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "90553014f9c6b0cd372dfdb87840c1345485ead32651dd123868b6aa0316b679",
+      "records": [
+        "18fe5f122797eb54aad16742e735b5fcebabae3218563bc2be8cd6ad0b3cd0fa",
+        "4f61d5b2da50649a2cf59d777d892a0e0840e3bd94e85561e3d89ae599f97b56"
+      ],
+      "method": "semantic",
+      "score": 0.94891,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "a6d8abba0ee385e697b446d24b7e0f5a9f3fb53c698d0d4cbe6838db11a6c2db",
+      "records": [
+        "2c7697ea217af22eddb191abbefff19c2c50009a7da7b99e9df6cc0086c7af0b",
+        "aee2e70984c9cfabaab113ea81b793b881bbe290b3da83971f50cf9559394bf2"
+      ],
+      "method": "semantic",
+      "score": 0.97389,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "d4aaf6999128673ad55b276b26c29fe3db07a46ffeabb2da4dd168e7f2d06796",
+      "records": [
+        "035b7caa0c0f77bec349a5a52fa2472da143027a40892d02b1eccdfe25bc8771",
+        "eb43fe4ddb20a8c609362ded6188b1636ef711862241efdada8c7925ef7fa61d"
+      ],
+      "method": "semantic",
+      "score": 0.9522,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "ef1dbab7cd867208a2f064a07e60e4ecb9e6199926c6fdb634c4e8e80cfdc833",
+      "records": [
+        "598e450922598580e6606042be809078813842720f23c8ebc5c68d8252370828",
+        "7da282051642ea8d06bedcb63e3eb30ed376fad93f317a95e55ad946f6180a8a"
+      ],
+      "method": "semantic",
+      "score": 0.94442,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "f039e42e9dd0d04be6f0b216d5fe2ae59870f62068324808a8b1f2e156e9dc60",
+      "records": [
+        "836beb16cd4f1a44b6be6db46aefedf6645debc6118d1a1f111e4f108333e6d2",
+        "f78f8aed4cf93a54971ca7ecff2a60347db46f9ad86b56c25a5539913d5658cd"
+      ],
+      "method": "semantic",
+      "score": 0.93993,
+      "different_labels": true,
+      "intentional_pair": true
+    }
+  ],
+  "counterfactual_groups": [
+    "b9-bread-a",
+    "b9-score-a",
+    "b9-ticket-a",
+    "b9-alias-a",
+    "b9-claim-a"
+  ],
+  "label_review": {
+    "status": "preliminary",
+    "mode": "GPT contextual sample",
+    "count": 13,
+    "disagreements": 0,
+    "candidate_digest": "54d323384501159a45c356374a30e14919e0da6aa21d5f9dbc84f008c0141d97",
+    "records": {
+      "6fa8d8e1f162d06b8a6f4ca5271d2c38ea0449402762cd873dc8af86c0b7a06e": {
+        "ordinal": 2,
+        "label": "נמוך",
+        "reason": "תרגיל פומבי על מפגש של גופי מים מתוקים ותצפית בסביבה."
+      },
+      "5206c645e2009f0648253ac67e8d08bfd2c7b89a45b62ce8a27cfb5eb7a8467f": {
+        "ordinal": 9,
+        "label": "בינוני",
+        "reason": "שגרה פנימית של בחירת עותק והעברת קטע בין קוראים בחפיפה."
+      },
+      "80425abff4e0afb90decebb1cb14f65080a034cd3161c76bb5bb5786c5f52e18": {
+        "ordinal": 11,
+        "label": "גבוה",
+        "reason": "בדיקת רישוי פנימית מקפיאה תשלום ומשנה עסקה טרם עדכון המפיץ."
+      },
+      "f8280355e40c0e3bcf63805cefb4214ee73fc41dff31c3b2aea1bfe668b983dd": {
+        "ordinal": 19,
+        "label": "חמור",
+        "reason": "דף התשלום מזהה את כל המלחינים שהיו אמורים להישאר מוסתרים מהמפיץ."
+      },
+      "ecfd36d688c673e8fd5f1f3968b3274fed06618cbe33c1cc9b883ab7676fce2c": {
+        "ordinal": 21,
+        "label": "נמוך",
+        "reason": "תרגיל פומבי על תצפית במליחות בשעות שונות."
+      },
+      "8b44ee09343d1b16167064b7a996b97bf4d9b814bdb649947b5c13dbb8d17a33": {
+        "ordinal": 25,
+        "label": "נמוך",
+        "reason": "כרטיס תצוגה ופעילות יצירה הפתוחים לקהל."
+      },
+      "19dab1349a626a2e18f18b6529cfb5677964278889f59acd23bb955689f9980d": {
+        "ordinal": 40,
+        "label": "בינוני",
+        "reason": "ממצא תצוגה מקומי בטיקט של סביבת אימון."
+      },
+      "1402dd0302f93c1e4ffd224c1992bd90f3a76470b4c8d785bcb4be5a3891fa1b": {
+        "ordinal": 47,
+        "label": "גבוה",
+        "reason": "כשל קבלה משנה מסירה ותשלום לפני הודעה לספק."
+      },
+      "caa8f4d24129f2b1bf8cdc75cfde049d947b3a55710235f08455bf17b5dc3b86": {
+        "ordinal": 55,
+        "label": "חמור",
+        "reason": "הצד הטוען לבעלות יכול למחוק את הקובץ היחיד שעליו נשענים כל גופי הבדיקה."
+      },
+      "8bfce6bbdad38bb2acbdf5a9469f623fc6585993a6b3e4fba156ca468e7b6c4c": {
+        "ordinal": 72,
+        "label": "נמוך",
+        "reason": "תרגיל פתוח במתן שמות לקבצים."
+      },
+      "8f74256d76a9d8c49b261ca7a2ca3033b37ceced8385822cac070e82cd4fa804": {
+        "ordinal": 83,
+        "label": "בינוני",
+        "reason": "סידור שאלות בתוך דף חזרה של מתנדבים."
+      },
+      "919c56a3d1fc71609b809660aacad0596b87a9ddc6ea78aed5d2e0b7cd26c5d5": {
+        "ordinal": 109,
+        "label": "בינוני",
+        "reason": "ליקוי תצוגה נקודתי בדמו פנימי."
+      },
+      "c382dda64a20d4482077f522342b009d21464785f6d4f5884338465737ec6625": {
+        "ordinal": 110,
+        "label": "בינוני",
+        "reason": "תיקון כתוביות בחזרה של צוות העריכה."
+      }
+    }
+  },
+  "resume": "Continue authoring to 500. After checkpoint 0008, recompute quotas and repeat exact, semantic, and label quality checks before assigning final IDs.",
+  "focused_similarity": {
+    "reviewed_unintended": {
+      "90553014f9c6b0cd372dfdb87840c1345485ead32651dd123868b6aa0316b679": "צילום של עצים הוא תוכן תצוגה, ומיון הצילומים בחפיפה הוא משימת צוות פנימית.",
+      "ef1dbab7cd867208a2f064a07e60e4ecb9e6199926c6fdb634c4e8e80cfdc833": "בחירת בד לתיק היא תיאור יומיומי. תקרת מיקוח למפיץ היא מידע מסחרי מהותי."
+    },
+    "reviewed_counterfactuals": {
+      "b9-bread-a": "לוח ציוד פתוח לקהל מול לוח חפיפה פנימי שגרתי.",
+      "b9-score-a": "החלטת ביטול שכבר פורסמה מול אותה החלטה בתיק ההתקשרות הפנימי.",
+      "b9-ticket-a": "דמו פנימי מול כשל מסירה ממשי שגורם לביטול הקבלה.",
+      "b9-alias-a": "שמות דמה בחפיפה מול חשיפת כלל המפקידים שהוסתרו מהנמען.",
+      "b9-claim-a": "פגיעה בהליך אחריות של סניף אחד מול ביטול כלל מסלולי התביעה ברשת."
+    },
+    "routine_unreviewed": 457,
+    "text_changes": [
+      {
+        "ordinal": 117,
+        "reason": "הוחלף ניסוח קצר שהיה דומה מאוד לרשומת ייצור 2700."
+      }
+    ]
+  }
+}

@@ -174,5 +174,15 @@
         25
       ]
     }
+  },
+  "parallel_drafts": {
+    "work": {
+      "checkpoint": 9,
+      "records": 124,
+      "path": "drafts/batch-0009/candidates.jsonl",
+      "sha256": "d67bb4ac0404a689d44e0d5d1f147dd7339c093a6a646e162de2711522af168d",
+      "review_path": "drafts/batch-0009/review.json",
+      "status": "partial_draft_awaiting_0008"
+    }
   }
 }
