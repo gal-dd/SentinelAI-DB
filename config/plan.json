@@ -1,0 +1,30 @@
+{
+  "policy_version": "0.1.0",
+  "prompt_version": "0.1.0",
+  "checkpoint_size": 500,
+  "seed": 41403,
+  "lengths": {
+    "short": [1, 6],
+    "sentence": [7, 27],
+    "paragraph": [28, 63],
+    "long": [64, null]
+  },
+  "pilot": {
+    "label_lengths": {
+      "נמוך": [3, 20, 17, 10],
+      "בינוני": [2, 20, 18, 10],
+      "גבוה": [3, 20, 17, 10],
+      "חמור": [2, 20, 18, 10]
+    },
+    "origins": {"synthetic": 146, "public_adapted": 24, "fictional_document": 30}
+  },
+  "production": {
+    "label_lengths": {
+      "נמוך": [1250, 10000, 8750, 5000],
+      "בינוני": [1250, 10000, 8750, 5000],
+      "גבוה": [1250, 10000, 8750, 5000],
+      "חמור": [1250, 10000, 8750, 5000]
+    },
+    "proposed_origins": {"synthetic": 73000, "public_adapted": 12000, "fictional_document": 15000}
+  }
+}

@@ -1,0 +1,581 @@
+{
+  "phase": "pilot",
+  "policy_version": "0.1.0",
+  "prompt_version": "0.1.0",
+  "metrics": {
+    "records": 200,
+    "label_lengths": {
+      "נמוך": [
+        3,
+        20,
+        17,
+        10
+      ],
+      "בינוני": [
+        2,
+        20,
+        18,
+        10
+      ],
+      "גבוה": [
+        3,
+        20,
+        17,
+        10
+      ],
+      "חמור": [
+        2,
+        20,
+        18,
+        10
+      ]
+    },
+    "labels": {
+      "נמוך": 50,
+      "בינוני": 50,
+      "גבוה": 50,
+      "חמור": 50
+    },
+    "lengths": {
+      "short": 10,
+      "sentence": 80,
+      "paragraph": 70,
+      "long": 40
+    },
+    "origins": {
+      "public_adapted": 24,
+      "synthetic": 146,
+      "fictional_document": 30
+    },
+    "styles": {
+      "lesson": 11,
+      "brief": 1,
+      "catalog": 6,
+      "announcement": 2,
+      "ticket": 11,
+      "manual": 1,
+      "worksheet": 1,
+      "minutes": 9,
+      "chat": 38,
+      "memo": 19,
+      "explainer": 7,
+      "field-note": 6,
+      "mail": 22,
+      "notebook": 6,
+      "qa": 10,
+      "report": 14,
+      "faq": 6,
+      "incident": 9,
+      "glossary": 1,
+      "checklist": 3,
+      "release": 2,
+      "schedule": 5,
+      "legend": 1,
+      "rulebook": 1,
+      "test-note": 2,
+      "transcript": 4,
+      "bulletin": 2
+    },
+    "scenario_count": 27,
+    "source_group_count": 22,
+    "edge_cases": 74,
+    "counterfactual_pairs": 9,
+    "records_with_latin": 14
+  },
+  "schema": "passed",
+  "normalized_exact_duplicates": 0,
+  "semantic": {
+    "status": "completed",
+    "model": "Xenova/multilingual-e5-small",
+    "reference_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+    "artifact_sha256": {
+      "model_int8.onnx": "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c",
+      "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+    },
+    "search": "exact_cosine_top_k",
+    "cosine_threshold": 0.92,
+    "neighbors_per_record": 12,
+    "indexed_records": 200,
+    "scanned_records": 200,
+    "candidate_pairs": 21
+  },
+  "similarity_alerts": [
+    {
+      "id": "00dde7aed7367ad2be795533bf9af5941aacc442fed28c4db162219a836f70e0",
+      "records": [
+        "22caf12f134ef253f895b31d083a03b8be46790e3480208efe5ee92c11076296",
+        "511fa24837f89ff2dc5dfd3c4a3a377cd47aff392bf4aaa5fc88daa6c69d91fd"
+      ],
+      "method": "semantic",
+      "score": 0.95731,
+      "different_labels": true,
+      "intentional_pair": true,
+      "record_ids": [
+        80,
+        189
+      ],
+      "disposition": "keep",
+      "reason": "אותו שיעור כשל משנה משמעות בין סימולציה שפורסמה למבחן קבלה פנימי"
+    },
+    {
+      "id": "04921cdd3b90547fc0d6215a9f7aaa0370d50930116dd9f068ec6672999c7af9",
+      "records": [
+        "330842e8ad6ae9f1fdb145c94571f1cda7d71fcd8fa8f5e18d26bed5e9c3a5f2",
+        "c778cf1274708df49dd3607a8f5da29a1445d9a4c5d667d2e86f63773e61afdb"
+      ],
+      "method": "semantic",
+      "score": 0.92045,
+      "different_labels": true,
+      "intentional_pair": false,
+      "record_ids": [
+        118,
+        142
+      ],
+      "disposition": "keep",
+      "reason": "חלוקת מקרן בין קבוצות מול החלטה לסגור מסלול הכשרה"
+    },
+    {
+      "id": "17632b2a1a8232908f8bbf5129d95b585ed3c96354c41bd0291fb68fdac91401",
+      "records": [
+        "55506c59cf966eccb832b1aaccc22679e501956b8fb648eab72077f556472db0",
+        "749fd7a9d8d513ede7bc1fc0c69538eef4f7d821bd7d4f4e05f19eb36132960d"
+      ],
+      "method": "semantic",
+      "score": 0.9212,
+      "different_labels": false,
+      "intentional_pair": false,
+      "record_ids": [
+        10,
+        59
+      ],
+      "disposition": "keep",
+      "reason": "שינוי מבנה מסלול למועמדים מול ביטול מופע שכבר מוצג למכירה"
+    },
+    {
+      "id": "2ee7e8cd3868c3ea255c3204f8fa71672360803988d72c1cf30d41efde322d52",
+      "records": [
+        "947fb2216b03bc9c9a8c0a2514687dcbc014a73b6100fb94f4801614108742d2",
+        "a29202e48007eed001c7e739d1f35a5ce647d5e0a235ec2b95043a114276adad"
+      ],
+      "method": "semantic",
+      "score": 0.92992,
+      "different_labels": false,
+      "intentional_pair": false,
+      "record_ids": [
+        62,
+        130
+      ],
+      "disposition": "keep",
+      "reason": "סבב כיול מכשור מול הקצאת מחליפים בהדרכה"
+    },
+    {
+      "id": "3289c4f772615d3ef29d2b3a7478546c6d51414808b46dd3464fe5f6633dda6e",
+      "records": [
+        "272b5adf62a48950377f41baea889a07269946c1016810ca0ea3a935b42e113d",
+        "96aeadc218c2d6a71c2c713e21a659b3ca9a9e72847a8f6a1920adf673f1a01d"
+      ],
+      "method": "semantic",
+      "score": 0.92367,
+      "different_labels": true,
+      "intentional_pair": false,
+      "record_ids": [
+        153,
+        174
+      ],
+      "disposition": "keep",
+      "reason": "חשיפת שמות מרואיינים בקובץ גיבוי מול עריכת אורך הפתיח בלבד"
+    },
+    {
+      "id": "3c1bd5f86b6681c04cdf1d0e5ec552d488d1c0b7f8e194a72671598551d634c2",
+      "records": [
+        "0178b5cff3f118832b3c7366054b30cb021bec5e6c9b9b410228b3cbedf3e264",
+        "5eeb36890f5c7e29621890d7d9f944abe6c36ab2b5ace4df53ef2b1ba5b09ef6"
+      ],
+      "method": "semantic",
+      "score": 0.92104,
+      "different_labels": true,
+      "intentional_pair": false,
+      "record_ids": [
+        69,
+        132
+      ],
+      "disposition": "keep",
+      "reason": "שינוי מודל מסחרי שטרם הוכרז מול העברת שתי פניות בשגרה"
+    },
+    {
+      "id": "3cb0c2ceca918a18cebead7ae9a4934bafb518d45d509b0cccc87ebd9491ce4c",
+      "records": [
+        "730c74364d86e9f8948f8955243fdb8e203fd73d27c12f2d6c7fc9fd7a9007cb",
+        "b2f193b21f260e7e283551bf03ea3857c0c2bc28c2b6610439caee0453781f2c"
+      ],
+      "method": "semantic",
+      "score": 0.92816,
+      "different_labels": false,
+      "intentional_pair": false,
+      "record_ids": [
+        73,
+        116
+      ],
+      "disposition": "keep",
+      "reason": "החזרת כלים למלאי מול רישום תוצאת סבב כיול"
+    },
+    {
+      "id": "42b12811a2692f05554b3e0dcebde80ff9d0e243cae446f51b18438715e4a589",
+      "records": [
+        "86b77227cd27bfb258603ab2eb1cd871f2f825497e6b9ee4bff031c1164f9e19",
+        "a6f2a373df8eaa9e3b689db1f859fc36d44d75c77159da21da2810abfffc7509"
+      ],
+      "method": "semantic",
+      "score": 0.93963,
+      "different_labels": true,
+      "intentional_pair": true,
+      "record_ids": [
+        71,
+        91
+      ],
+      "disposition": "keep",
+      "reason": "ערך שמוחזר משתנה מצבעי סמנים לכתובות מסתור"
+    },
+    {
+      "id": "5e3d5f74d1a03afd43bddf8cb41371b2d33506cf830d472f23014467015873eb",
+      "records": [
+        "5d02d6ebee14371305551d985cee8e218e94d72ebc519aed38f566d550cfdf2b",
+        "9d2a3d561b9ac16a5e9dc3a78e5981cae2e73af9bb564d5cbe4c856b22c6f2e4"
+      ],
+      "method": "semantic",
+      "score": 0.96213,
+      "different_labels": true,
+      "intentional_pair": true,
+      "record_ids": [
+        103,
+        158
+      ],
+      "disposition": "keep",
+      "reason": "אותו לוח זמנים מוצג בפרסום פומבי או בסידור עבודה פנימי"
+    },
+    {
+      "id": "62943294b096ceeeb9bec7e1027e4eea60adc79b811ea5eec5aee491a136ec65",
+      "records": [
+        "2702c5cc908ca8c8669bbfd24c94d096b9056cd5ea81591db659b5951952df51",
+        "9d2a3d561b9ac16a5e9dc3a78e5981cae2e73af9bb564d5cbe4c856b22c6f2e4"
+      ],
+      "method": "semantic",
+      "score": 0.92223,
+      "different_labels": false,
+      "intentional_pair": false,
+      "record_ids": [
+        97,
+        103
+      ],
+      "disposition": "keep",
+      "reason": "תזמון כניסת שחקנים בחזרה מול מיקום ושעת תרגול של מדריכים"
+    },
+    {
+      "id": "6cc5d156de7d22d5686caa9329ce783703b3e3278baec9c3f1559065e5f21823",
+      "records": [
+        "2c7b76dfdfa2df43a6a5e61bbdc0cac7f8c2bcabe6f2ea49bbd80a86e8d4beb7",
+        "a56d6ac2029216b450f97a7e7baf7ee4456d4069886e39019d37c947d726be84"
+      ],
+      "method": "semantic",
+      "score": 0.93274,
+      "different_labels": true,
+      "intentional_pair": true,
+      "record_ids": [
+        101,
+        131
+      ],
+      "disposition": "keep",
+      "reason": "עובדת התזכורת משתנה מהזמנת חדר למחיר סף בחידוש חוזה"
+    },
+    {
+      "id": "7a19d1c9f10070d9e54200106011ffe633d7d45f855e8da29e2bd45862b1430b",
+      "records": [
+        "69f498fc98c8db5e962f714962dd458da311dcba9689c25de48d9c723be6ace3",
+        "ddb38b135aed1ba8a88a28595ea9a63ba9cbd922d9fc573730435bd6997be4bd"
+      ],
+      "method": "semantic",
+      "score": 0.97614,
+      "different_labels": true,
+      "intentional_pair": true,
+      "record_ids": [
+        107,
+        138
+      ],
+      "disposition": "keep",
+      "reason": "אותה הנחיית עריכה מופיעה בתמליל פומבי או במסמך עריכה פנימי"
+    },
+    {
+      "id": "8077dd22d4865b63513614b5c715a817271104ab82ae11ab957138b3d4dc7f3e",
+      "records": [
+        "c6e42d366a005a1dee55916dddc10b05120f4d7b80839ef0a152afc047ae91da",
+        "c8adf89fb3c356f15d1fde41cf838527699de745ad7425273a5122da4e7e0aa9"
+      ],
+      "method": "semantic",
+      "score": 0.94001,
+      "different_labels": true,
+      "intentional_pair": true,
+      "record_ids": [
+        57,
+        60
+      ],
+      "disposition": "keep",
+      "reason": "קהל היעד משתנה מהכנס הפתוח לצוות הבדיקה בלבד"
+    },
+    {
+      "id": "8518cb6c95fd304d9bcfbcd8daa80dee12d80c1d7f986567728fc906f043576e",
+      "records": [
+        "3709e7bfede70eee50da635216cc8ca50c654ff5525031b2a90c9d9f5be80397",
+        "7a0cccbd5284ab70779252291d2fb55d14164fed5d482a32fb9e4f07ea451108"
+      ],
+      "method": "semantic",
+      "score": 0.95399,
+      "different_labels": true,
+      "intentional_pair": true,
+      "record_ids": [
+        36,
+        114
+      ],
+      "disposition": "keep",
+      "reason": "שינוי תוכן המיפוי מתוצאות ניסוי לחלקות דמו לזיהוי בעלי החלקות המוגנים"
+    },
+    {
+      "id": "87b3e14c44f5972e4df9bd094f129ba8ed165f577c80f2ea04a92763f488022f",
+      "records": [
+        "69f498fc98c8db5e962f714962dd458da311dcba9689c25de48d9c723be6ace3",
+        "ddb38b135aed1ba8a88a28595ea9a63ba9cbd922d9fc573730435bd6997be4bd"
+      ],
+      "method": "lexical",
+      "score": 0.88288,
+      "different_labels": true,
+      "intentional_pair": true,
+      "record_ids": [
+        107,
+        138
+      ],
+      "disposition": "keep",
+      "reason": "אותה הנחיית עריכה מופיעה בתמליל פומבי או במסמך עריכה פנימי"
+    },
+    {
+      "id": "aca791ec648ef1ca8f5fee135b483b259fbc16a7e3ec8c1b694b9ef9edf10543",
+      "records": [
+        "9be407d8f430f20ea08ca1afbe9a701fdc22466715dca935603689795725fa84",
+        "fdf5a801c97affc5a75b12376c2a7f9a22ff204d4e0d3bb26913d2b1277454a6"
+      ],
+      "method": "semantic",
+      "score": 0.9894,
+      "different_labels": true,
+      "intentional_pair": true,
+      "record_ids": [
+        53,
+        191
+      ],
+      "disposition": "keep",
+      "reason": "החלפת אתר יחיד בכל האתרים משנה את היקף אובדן השחזור"
+    },
+    {
+      "id": "aeacee5b283531205c8d1576ad2ba78d9cd8459037509c1711a945760a58a03e",
+      "records": [
+        "9de4ad46828b47d9ea6e2dc41126558c3d5101d36ceab4212b6dc69f3347eb91",
+        "f9122845745e9052dd93278f74a0b4281808a6942cf8ccf09bccdb4ec27d110f"
+      ],
+      "method": "semantic",
+      "score": 0.92,
+      "different_labels": true,
+      "intentional_pair": false,
+      "record_ids": [
+        6,
+        180
+      ],
+      "disposition": "keep",
+      "reason": "ניסוי פתוח בכיתה מול החלטה להסיר יכולת ספירה בגלל ביצועים בפועל"
+    },
+    {
+      "id": "b3b7a65a8f4776a50c58e4bfcbbd5794dcb1eff90e3588d9f29de37c626ce7a5",
+      "records": [
+        "550eeae1788272e46030498c342eebc66b4bee9b7b43e94e960210e675e8aa0a",
+        "df0e304630467e361682ab25e9cb01e2a111732e8fbb9ba247d6764e58f61682"
+      ],
+      "method": "semantic",
+      "score": 0.92259,
+      "different_labels": false,
+      "intentional_pair": false,
+      "record_ids": [
+        173,
+        190
+      ],
+      "disposition": "keep",
+      "reason": "אובדן גישה לעותק נתונים בכל האתרים מול פקיעת הרשאה שמשביתה החלפת מכשור"
+    },
+    {
+      "id": "b78f6397522fabb4cdff78f5a6f7db0c336df658f97bf8f5fc2bf65b743e7f0a",
+      "records": [
+        "07540455511bf82657a3f6321a9ad573d3385a0cbfb4b9eafd53422b1d84a9f9",
+        "f74322999da280e64cc90d3d3c43cef4c6ff33dad082aaaecd5c936e7d900204"
+      ],
+      "method": "semantic",
+      "score": 0.92197,
+      "different_labels": false,
+      "intentional_pair": false,
+      "record_ids": [
+        70,
+        171
+      ],
+      "disposition": "keep",
+      "reason": "בקשת הרשאת עריכה בקטלוג מול בירור אם נקבעה בדיקת רחפן"
+    },
+    {
+      "id": "ddeb27bbfb7e23e7f1d654a94bf609ce4b4a61dfa5a7db3731a095020807b195",
+      "records": [
+        "9be407d8f430f20ea08ca1afbe9a701fdc22466715dca935603689795725fa84",
+        "fdf5a801c97affc5a75b12376c2a7f9a22ff204d4e0d3bb26913d2b1277454a6"
+      ],
+      "method": "lexical",
+      "score": 0.85,
+      "different_labels": true,
+      "intentional_pair": true,
+      "record_ids": [
+        53,
+        191
+      ],
+      "disposition": "keep",
+      "reason": "החלפת אתר יחיד בכל האתרים משנה את היקף אובדן השחזור"
+    },
+    {
+      "id": "e69f3472ce135215728ac1f865207ff17a1559647c6f0d5e70b8f4f0da0b0458",
+      "records": [
+        "d2f94754d656abb9f3fece7524d4897475ca07286c45294a94309c673f424f13",
+        "e9c28df4b2091fceb34999f3b2f6d41fc2921b2928025785be2d160e0a18bc05"
+      ],
+      "method": "semantic",
+      "score": 0.92281,
+      "different_labels": true,
+      "intentional_pair": false,
+      "record_ids": [
+        28,
+        65
+      ],
+      "disposition": "keep",
+      "reason": "טיפול במדף ובתוויות מול תקרת מחיר שטרם נמסרה למוכר"
+    },
+    {
+      "id": "e884e7ef2ca3d2336a957df1ec00c629a8ccf5d489dc09eb32a92c5f3a33fb3f",
+      "records": [
+        "7e5a0fb27d0e44abf1211c65ebe2aec91565d911ede643b0e4701dde2207e5ca",
+        "ecf540094cc36fc59baa74af88e9bcdf8c681c79b30f655a16f569546ac35d7c"
+      ],
+      "method": "semantic",
+      "score": 0.92064,
+      "different_labels": false,
+      "intentional_pair": false,
+      "record_ids": [
+        117,
+        183
+      ],
+      "disposition": "keep",
+      "reason": "כשל דיוק באצווה שנועדה למסירה מול התאמת אתר מחקר שנפגעה במדידה"
+    },
+    {
+      "id": "e973ecec1a73d9598c0b7b2124a335a797fe25c286802c86d3d1687281d5c837",
+      "records": [
+        "8c3d596a5fe03684527d6d767e18a41c7daef862967cacba506371988a2f55a7",
+        "f5c8b81715688d3a1bbdd49442c6a3a18d01166cdd6652469dd4e8dbb5638b1f"
+      ],
+      "method": "semantic",
+      "score": 0.92161,
+      "different_labels": false,
+      "intentional_pair": false,
+      "record_ids": [
+        52,
+        79
+      ],
+      "disposition": "keep",
+      "reason": "ביטול אפשרי של הזמנה מספק מול רכישה קיימת של זכויות סקר"
+    }
+  ],
+  "counterfactuals": {
+    "p-botany-join": {
+      "record_ids": [
+        36,
+        114
+      ],
+      "status": "keep",
+      "reason": "שינוי תוכן המיפוי מתוצאות ניסוי לחלקות דמו לזיהוי בעלי החלקות המוגנים"
+    },
+    "p-drone-number": {
+      "record_ids": [
+        80,
+        189
+      ],
+      "status": "keep",
+      "reason": "אותו שיעור כשל משנה משמעות בין סימולציה שפורסמה למבחן קבלה פנימי"
+    },
+    "p-grid-spread": {
+      "record_ids": [
+        53,
+        191
+      ],
+      "status": "keep",
+      "reason": "החלפת אתר יחיד בכל האתרים משנה את היקף אובדן השחזור"
+    },
+    "p-ledger-demo": {
+      "record_ids": [
+        57,
+        60
+      ],
+      "status": "keep",
+      "reason": "קהל היעד משתנה מהכנס הפתוח לצוות הבדיקה בלבד"
+    },
+    "p-maps-layer": {
+      "record_ids": [
+        71,
+        91
+      ],
+      "status": "keep",
+      "reason": "ערך שמוחזר משתנה מצבעי סמנים לכתובות מסתור"
+    },
+    "p-museum-map": {
+      "record_ids": [
+        33,
+        122
+      ],
+      "status": "keep",
+      "reason": "הקישור שנחשף משתנה ממחירי סף של מכרז לזהות מוסרי עדות מוגנים"
+    },
+    "p-press-contract": {
+      "record_ids": [
+        101,
+        131
+      ],
+      "status": "keep",
+      "reason": "עובדת התזכורת משתנה מהזמנת חדר למחיר סף בחידוש חוזה"
+    },
+    "p-school-agenda": {
+      "record_ids": [
+        103,
+        158
+      ],
+      "status": "keep",
+      "reason": "אותו לוח זמנים מוצג בפרסום פומבי או בסידור עבודה פנימי"
+    },
+    "p-sound-transcript": {
+      "record_ids": [
+        107,
+        138
+      ],
+      "status": "keep",
+      "reason": "אותה הנחיית עריכה מופיעה בתמליל פומבי או במסמך עריכה פנימי"
+    }
+  },
+  "label_review": {
+    "method": "same-session AI author review",
+    "reviewed": 200,
+    "unresolved_issues": 0,
+    "independent_disagreement_rate": null,
+    "candidate_drafts_replaced_after_similarity_review": 7,
+    "release_status": "awaiting_user_approval"
+  },
+  "data_hashes": {
+    "data/pilot/pilot.jsonl": "38b4444a3c2ffdf3680e4cbf75f4f1d47615eb82123a49348c942771a0bac9dc",
+    "metadata/pilot/pilot.jsonl": "3423b1e33529327fa793f532fd885d8be0416d77894afbc3e106a19e308b9a0b"
+  }
+}
