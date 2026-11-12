@@ -11,77 +11,78 @@
   "document_form": "passed",
   "normalized_exact_duplicates": 0,
   "metrics": {
-    "records": 96,
+    "records": 120,
     "label_lengths": {
       "נמוך": [
         0,
         10,
-        10,
+        16,
         4
       ],
       "בינוני": [
         0,
         10,
-        10,
+        16,
         4
       ],
       "גבוה": [
         0,
         10,
-        10,
+        16,
         4
       ],
       "חמור": [
         0,
         10,
-        10,
+        16,
         4
       ]
     },
     "labels": {
-      "נמוך": 24,
-      "בינוני": 24,
-      "גבוה": 24,
-      "חמור": 24
+      "נמוך": 30,
+      "בינוני": 30,
+      "גבוה": 30,
+      "חמור": 30
     },
     "lengths": {
       "short": 0,
       "sentence": 40,
-      "paragraph": 40,
+      "paragraph": 64,
       "long": 16
     },
     "origins": {
-      "synthetic": 56,
-      "fictional_document": 40
+      "synthetic": 70,
+      "fictional_document": 50
     },
     "styles": {
-      "manual": 2,
+      "manual": 3,
       "transcript": 2,
-      "letter": 3,
+      "letter": 5,
       "lesson": 3,
       "conversation": 2,
       "ticket": 3,
-      "mail": 11,
-      "minutes": 6,
-      "report": 8,
-      "memo": 4,
-      "audit": 9,
-      "incident": 5,
-      "worksheet": 3,
-      "notice": 4,
-      "chat": 15,
-      "catalog": 3,
+      "mail": 14,
+      "minutes": 7,
+      "report": 10,
+      "memo": 5,
+      "audit": 11,
+      "incident": 6,
+      "worksheet": 4,
+      "notice": 5,
+      "chat": 19,
+      "catalog": 4,
       "faq": 2,
       "field-note": 3,
-      "qa": 3,
-      "log": 3,
-      "lab-note": 2
+      "qa": 5,
+      "log": 4,
+      "lab-note": 2,
+      "interview": 1
     },
-    "scenario_count": 10,
-    "source_group_count": 10,
-    "edge_cases": 1,
+    "scenario_count": 21,
+    "source_group_count": 21,
+    "edge_cases": 2,
     "counterfactual_pairs": 0,
-    "records_with_latin": 3
+    "records_with_latin": 4
   },
   "provisional_quotas_assuming_checkpoint_0005_matches_plan": {
     "נמוך": [
@@ -113,25 +114,25 @@
     "נמוך": [
       7,
       40,
-      33,
+      27,
       21
     ],
     "בינוני": [
       7,
       40,
-      33,
+      27,
       21
     ],
     "גבוה": [
       7,
       40,
-      33,
+      27,
       21
     ],
     "חמור": [
       7,
       40,
-      33,
+      27,
       21
     ]
   },
@@ -146,12 +147,12 @@
     "search": "exact_cosine_top_k",
     "cosine_threshold": 0.92,
     "neighbors_per_record": 12,
-    "indexed_records": 2296,
-    "scanned_records": 96,
-    "candidate_pairs": 123
+    "indexed_records": 2320,
+    "scanned_records": 120,
+    "candidate_pairs": 158
   },
   "alerts_by_method": {
-    "semantic": 123
+    "semantic": 158
   },
   "exceptional_alerts_preliminary": [],
   "label_review": "pending",
