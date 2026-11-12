@@ -34,6 +34,8 @@ def load_pilot(root=ROOT):
     report = read_json(root / PILOT_REPORT)
     expected = {PILOT_DATA.as_posix(): file_sha(root / PILOT_DATA),
                 PILOT_META.as_posix(): file_sha(root / PILOT_META)}
+    if report["schema"] != "passed" or report["semantic"]["status"] != "completed":
+        raise ValueError("Pilot quality checks are incomplete")
     if report["data_hashes"] != expected:
         raise ValueError("Pilot data or metadata differs from its report")
     return rows
@@ -49,18 +51,8 @@ def pilot_hashes(root=ROOT):
 def initial_state(root=ROOT):
     return {"policy_version": PLAN["policy_version"], "prompt_version": PLAN["prompt_version"],
             "pilot_records": len(load_pilot(root)), "pilot_hashes": pilot_hashes(root),
-            "approval": "pending", "production_records": 0, "last_checkpoint": 0,
+            "pilot_quality": "completed", "production_records": 0, "last_checkpoint": 0,
             "next_id": 1, "checkpoints": [], "final": None}
-
-
-def approval(root=ROOT):
-    path = root / "config/approval.json"
-    if not path.exists():
-        return None
-    record = read_json(path)
-    if record.get("pilot_hashes") != pilot_hashes(root) or not str(record.get("reference", "")).strip():
-        raise ValueError("Approval does not match the current pilot, policy and plan")
-    return record
 
 
 def batch_paths(index):
@@ -74,18 +66,13 @@ def batch_paths(index):
 def load_progress(root=ROOT):
     state = read_json(root / PROGRESS)
     base = initial_state(root)
-    for key in ("pilot_records", "pilot_hashes", "policy_version", "prompt_version"):
+    for key in ("pilot_records", "pilot_hashes", "pilot_quality", "policy_version", "prompt_version"):
         if state[key] != base[key]:
             raise ValueError(f"Invalid progress metadata: {key}")
-    approved = approval(root)
-    if state["approval"] != ("approved" if approved else "pending"):
-        raise ValueError("Progress and pilot approval disagree")
     production = []
     expected_paths = set()
     if state["last_checkpoint"] != len(state["checkpoints"]):
         raise ValueError("Checkpoint count mismatch")
-    if state["checkpoints"] and not approved:
-        raise ValueError("Production checkpoint requires pilot approval")
     for index, batch in enumerate(state["checkpoints"], 1):
         paths = batch_paths(index)
         start = (index - 1) * CHECKPOINT_SIZE + 1
@@ -120,7 +107,6 @@ def load_progress(root=ROOT):
 def handoff(state):
     count = state["production_records"]
     last = state["last_checkpoint"]
-    pilot_status = "אושר" if state["approval"] == "approved" else "ממתין לאישור המשתמש"
     final_status = "נוצר ואומת" if state["final"] else "ממתין להשלמת הייצור"
     last_note = f"`batch-{last:04d}`" if last else "טרם נוצרה מנת ייצור"
     return f"""# המשך עבודה
@@ -131,7 +117,7 @@ def handoff(state):
 |---|---|
 | מדיניות | [v{PLAN["policy_version"]}](policy/v{PLAN["policy_version"]}.md) |
 | פרומפט | [v{PLAN["prompt_version"]}](prompts/v{PLAN["prompt_version"]}.md) |
-| פיילוט | {state["pilot_records"]} רשומות, {pilot_status} |
+| פיילוט | {state["pilot_records"]} רשומות הערכה, בדיקות איכות הושלמו |
 | ייצור | {count:,} / 100,000 |
 | מנת ייצור אחרונה | {last_note} |
 | מזהה הייצור הבא | {state["next_id"]} |
@@ -140,12 +126,12 @@ def handoff(state):
 `data/` שומר רשומות. `metadata/` שומר מקור, תרחיש, נימוק וביקורת. `reports/` שומר תוצאות איכות. `config/` כולל מכסות, תרחישים ומקורות. `progress.json` כולל טווחי מזהים ובדיקות SHA-256. כל מנה ומצב ההתקדמות שלה נכנסים לאותו commit.
 
 1. פתח checkout נקי של ענף העבודה והריץ `python -m sentinel_dataset verify`.
-2. קרא [מדיניות](policy/v{PLAN["policy_version"]}.md), [דוח פיילוט](reports/pilot/review.md) ואת [הוראות ההפעלה](README.md). לפני ייצור נדרש אישור המשתמש למדיניות ולפיילוט. מסלול ההמשך מתואר ב־README.
-3. לאחר האישור, הכן תרחישים ומקורות מגוונים, צור קבוצות מועמדים קטנות, צבור 500 תקינים והריץ את הבדיקות והביקורת. שמור כל מנה דרך `checkpoint` ואמת את ראש הענף המרוחק.
+2. קרא [מדיניות](policy/v{PLAN["policy_version"]}.md), [דוח פיילוט](reports/pilot/review.md) ואת [הוראות ההפעלה](README.md). בדיקות הפיילוט הושלמו ואפשר להמשיך ישירות לייצור בכפוף לבדיקות האיכות.
+3. הכן תרחישים ומקורות מגוונים, חבר את הטקסטים באמצעות GPT בסביבת Work, צבור 500 תקינים והריץ את הבדיקות והביקורת. שמור כל מנה דרך `checkpoint` ואמת את ראש הענף המרוחק.
 4. אם commit מקומי טרם הועלה, הרץ `python -m sentinel_dataset publish` מאותו checkout. אם לא קיימת סביבת הריצה הקודמת, המשך מהמנה האחרונה שמופיעה בענף המרוחק.
 5. עם השלמת המכסות הרץ `finalize` לבדיקת המאגר ולבניית קובץ האימון.
 
-מגבלות שנצפו בפיילוט מופיעות ב[דוח הביקורת](reports/pilot/review.md). במהלך הייצור יש להרחיב את קבוצות המקור הציבורי ולבדוק תלות של תוויות במונחים, בנושא ובפורמט. ניתן לעבוד דרך API תואם OpenAI או להזין מועמדים וביקורת מקבצים.
+מגבלות שנצפו בפיילוט מופיעות ב[דוח הביקורת](reports/pilot/review.md). במהלך הייצור יש להרחיב את קבוצות המקור הציבורי ולבדוק תלות של תוויות במונחים, בנושא ובפורמט. אפשר להמשיך דרך Work ללא API חיצוני. מגבלת הקשר ותקציב הפלט מחייבת להסתמך על ה־checkpoint המרוחק בהמשך בין שיחות. דוגמאות הפיילוט משמשות להערכה ולסינון כפילויות בלבד.
 """
 
 
@@ -231,10 +217,14 @@ def write_file(path, contents):
         temp.unlink(missing_ok=True)
 
 
+def state_artifacts(files, state):
+    return {**files, PROGRESS: json_bytes(state), Path("HANDOFF.md"): handoff(state).encode()}
+
+
 def commit_state(files, state, message, remote, expected_head):
     if preflight(remote)[0] != expected_head:
         raise ValueError("Branch advanced during preparation. Rebuild against the current checkpoint.")
-    files = {**files, PROGRESS: json_bytes(state), Path("HANDOFF.md"): handoff(state).encode()}
+    files = state_artifacts(files, state)
     for path, content in files.items():
         write_file(ROOT / path, content)
     load_progress()

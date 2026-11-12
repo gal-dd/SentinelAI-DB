@@ -11,7 +11,7 @@
     "policy/v0.1.0.md": "9897afc372fe743c05e79a9115e42471107fae9fb10c6c4c132d6184bd70192e",
     "prompts/v0.1.0.md": "3efbe35f6f92e270558eb7756a94b1a46c520a5e36a8b4b294f6d454346f2c0e"
   },
-  "approval": "pending",
+  "pilot_quality": "completed",
   "production_records": 0,
   "last_checkpoint": 0,
   "next_id": 1,

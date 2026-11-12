@@ -8,5 +8,6 @@
   "storm": {"title":"Thunderstorm Ingredients","publisher":"NOAA National Weather Service","url":"https://www.weather.gov/spotterguide/ingredients","license":"Public domain for NWS content unless otherwise noted","terms_url":"https://www.weather.gov/disclaimer"},
   "moon": {"title":"Moon Phases","publisher":"NASA Science","url":"https://science.nasa.gov/moon/moon-phases/","license":"NASA factual informational reuse terms","terms_url":"https://www.nasa.gov/nasa-brand-center/images-and-media/", "source_group_id":"nasa-moon"},
   "eclipse": {"title":"Eclipses and the Moon","publisher":"NASA Science","url":"https://science.nasa.gov/Moon/eclipses/","license":"NASA factual informational reuse terms","terms_url":"https://www.nasa.gov/nasa-brand-center/images-and-media/", "source_group_id":"nasa-moon"},
-  "planets": {"title":"About the Planets","publisher":"NASA Science","url":"https://science.nasa.gov/solar-system/planets/","license":"NASA factual informational reuse terms","terms_url":"https://www.nasa.gov/nasa-brand-center/images-and-media/"}
+  "planets": {"title":"About the Planets","publisher":"NASA Science","url":"https://science.nasa.gov/solar-system/planets/","license":"NASA factual informational reuse terms","terms_url":"https://www.nasa.gov/nasa-brand-center/images-and-media/"},
+  "sounding-rockets": {"title": "Sounding Rockets Overview", "publisher": "NASA", "url": "https://www.nasa.gov/soundingrockets/overview/", "license": "NASA factual informational reuse terms", "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/"}
 }

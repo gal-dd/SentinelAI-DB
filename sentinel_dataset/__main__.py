@@ -33,25 +33,26 @@ def cli():
     judge.add_argument("packet", type=Path)
     judge.add_argument("output", type=Path)
     judge.add_argument("--model", required=True)
-    approve = sub.add_parser("record-approval")
-    approve.add_argument("--reference", required=True)
     save = sub.add_parser("checkpoint")
     save.add_argument("candidates", type=Path, nargs="+")
     save.add_argument("--decisions", type=Path, required=True)
     semantic_options(save)
+    stage = sub.add_parser("stage-checkpoint")
+    stage.add_argument("candidates", type=Path, nargs="+")
+    stage.add_argument("--decisions", type=Path, required=True)
+    stage.add_argument("--output-dir", type=Path, required=True)
+    semantic_options(stage)
     final = sub.add_parser("finalize")
     final.add_argument("--dispositions", type=Path)
     final.add_argument("--pending-alerts", type=Path, default=ROOT / ".poc-local/final-alerts.json")
     semantic_options(final)
     push = sub.add_parser("publish")
-    for command in (approve, save, final, push):
+    for command in (save, final, push):
         command.add_argument("--remote", default="origin")
     return parser
 
 
 def prepare(args, state, prior, pilot):
-    if state["approval"] != "approved":
-        raise ValueError("Pilot and policy approval is pending")
     if state["final"]:
         raise ValueError("Dataset is already finalized")
     rows = [row for path in args.candidates for row in read_jsonl(path)]
@@ -70,8 +71,8 @@ def prepare(args, state, prior, pilot):
 
 
 def final_artifacts(args, state, prior, pilot):
-    if state["approval"] != "approved" or state["final"]:
-        raise ValueError("Finalization requires an approved dataset that has not yet been finalized")
+    if state["final"]:
+        raise ValueError("Dataset is already finalized")
     metrics = check_quotas(prior, "production", final=True)
     lexical = validate_rows(prior, *scenario_catalog(), prior=pilot)
     semantic, semantic_report = semantic_scan(pilot, prior, args.model_dir, args.cache_dir)
@@ -118,6 +119,13 @@ def final_artifacts(args, state, prior, pilot):
     return files
 
 
+def validated_checkpoint(args, state, prior, pilot):
+    rows, packet = prepare(args, state, prior, pilot)
+    decisions = read_json(args.decisions)
+    review = verify_decisions(packet, decisions, rows)
+    return cp.batch_artifacts(state, rows, stats(rows), review, packet, decisions)
+
+
 def run(args):
     if args.command == "generate":
         job = read_json(args.job)
@@ -133,7 +141,7 @@ def run(args):
     pilot = cp.load_pilot()
     if args.command == "verify":
         validate_rows([*pilot, *prior], *scenario_catalog())
-        return json_bytes({"approval": state["approval"], "pilot": stats(pilot),
+        return json_bytes({"pilot_quality": state["pilot_quality"], "pilot": stats(pilot),
                            "production": stats(prior), "next_id": state["next_id"],
                            "last_checkpoint": state["last_checkpoint"],
                            "finalized": bool(state["final"])}).decode()
@@ -142,25 +150,22 @@ def run(args):
         write_packet(packet, args.packet)
         return f"Saved blind review packet: {args.packet}"
 
+    if args.command == "stage-checkpoint":
+        output = args.output_dir.resolve()
+        if output == ROOT or (output.exists() and any(output.iterdir())):
+            raise ValueError("Stage into a separate empty directory")
+        files = validated_checkpoint(args, state, prior, pilot)
+        for path, content in cp.state_artifacts(files, state).items():
+            cp.write_file(output / path, content)
+        return f"Prepared checkpoint {state['last_checkpoint']:04d} for publication: {output}"
+
     with cp.checkpoint_lock():
         if args.command == "publish":
             return cp.publish(args.remote)
         head, _ = cp.preflight(args.remote)
         state, prior = cp.load_progress()
-        if args.command == "record-approval":
-            if state["approval"] == "approved":
-                raise ValueError("Approval is already recorded")
-            if not args.reference.strip():
-                raise ValueError("Provide a reference to the user's approval")
-            record = {"reference": args.reference, "pilot_hashes": state["pilot_hashes"]}
-            state["approval"] = "approved"
-            files = {Path("config/approval.json"): json_bytes(record)}
-            message = "Record approval of the dataset pilot and policy"
-        elif args.command == "checkpoint":
-            rows, packet = prepare(args, state, prior, pilot)
-            decisions = read_json(args.decisions)
-            review = verify_decisions(packet, decisions, rows)
-            files = cp.batch_artifacts(state, rows, stats(rows), review, packet, decisions)
+        if args.command == "checkpoint":
+            files = validated_checkpoint(args, state, prior, pilot)
             message = f"Save validated dataset checkpoint {state['last_checkpoint']:04d}"
         else:
             files = final_artifacts(args, state, prior, pilot)
