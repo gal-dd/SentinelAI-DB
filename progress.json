@@ -127,10 +127,10 @@
   },
   "draft_checkpoint": {
     "checkpoint": 3,
-    "records": 361,
-    "status": "pending_candidates_and_quality_review",
+    "records": 500,
+    "status": "pending_quality_review",
     "path": "drafts/batch-0003/candidates.jsonl",
-    "sha256": "ea158f0bde6a9bb6e2a278cede9be1a4c295e679bee2173d137b427fbc61fc7b",
+    "sha256": "9bbb7f5454c68a520e9d3af886dcc5e8f4dd2bd11bb1230436a4aabb0f8c90bd",
     "review_path": "drafts/batch-0003/review.json"
   }
 }
