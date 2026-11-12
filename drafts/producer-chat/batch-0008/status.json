@@ -1,0 +1,35 @@
+{
+  "status": "partial_draft",
+  "draft_batch": "0008",
+  "branch": "producer/chat",
+  "source_files": [
+    "drafts/producer-chat/batch-0008/part-low-001.jsonl",
+    "drafts/producer-chat/batch-0008/part-medium-001.jsonl",
+    "drafts/producer-chat/batch-0008/part-high-001.jsonl",
+    "drafts/producer-chat/batch-0008/part-critical-001.jsonl"
+  ],
+  "rows_written": 100,
+  "target": 500,
+  "labels": {
+    "נמוך": 25,
+    "בינוני": 25,
+    "גבוה": 25,
+    "חמור": 25
+  },
+  "lengths": {
+    "short": 4,
+    "sentence": 55,
+    "paragraph": 23,
+    "long": 18
+  },
+  "qa": {
+    "normalized_exact_duplicates": 0,
+    "compared_against": "3000 approved main checkpoint rows + 200 pilot rows + 500 batch-0007 draft rows",
+    "length_bucket_errors": 0,
+    "invalid_scenarios": 0,
+    "long_document_form_errors": 0,
+    "blind_label_review": "not performed"
+  },
+  "final_ids_assigned": false,
+  "next_step": "Generate 400 more GPT-authored texts as batch 0008 drafts, preferably more paragraph-length and varied topics. Do not alter checkpoints or Work-owned files; normalize and deduplicate against up-to-date main before merge."
+}
