@@ -122,6 +122,11 @@ def handoff(state):
                         "|---|---:|---:|---:|---:|\n")
         length_table += "".join(f"| {label} | " + " | ".join(map(str, cells)) + " |\n"
                                 for label, cells in next_plan.items())
+    draft = state.get("draft_checkpoint")
+    draft_note = ""
+    if draft:
+        draft_note = (f"\n[טיוטת המנה הבאה]({draft['path']}) מכילה {draft['records']} מועמדים. "
+                      f"[מצב הביקורת]({draft['review_path']}) מפרט את הבדיקות שבוצעו ואת ההמשך.\n")
     return f"""# המשך עבודה
 
 מטרת הריפו היא ליצור 100,000 רשומות בעברית לאימון מודל סיווג רגישות ניסויי עם ארבע רמות מאוזנות. ענף העבודה הוא `{BRANCH}`.
@@ -135,7 +140,7 @@ def handoff(state):
 | מנת ייצור אחרונה | {last_note} |
 | מזהה הייצור הבא | {state["next_id"]} |
 | JSON סופי | {final_status} |
-{length_table}
+{length_table}{draft_note}
 `data/` שומר רשומות. `metadata/` שומר מקור, תרחיש, נימוק וביקורת. `reports/` שומר תוצאות איכות. `config/` כולל מכסות, תרחישים ומקורות. `progress.json` כולל טווחי מזהים ובדיקות SHA-256. כל מנה ומצב ההתקדמות שלה נכנסים לאותו commit.
 
 1. פתח checkout נקי של ענף העבודה והריץ `python -m sentinel_dataset verify`.
@@ -172,6 +177,7 @@ def batch_artifacts(state, rows, metrics, review, packet, decisions):
         "checkpoint": index, "start_id": start, "end_id": end,
         "sha256": {path.as_posix(): payload_sha(content) for path, content in files.items()},
     })
+    state.pop("draft_checkpoint", None)
     state.update(last_checkpoint=index, production_records=end, next_id=end + 1)
     return files
 
