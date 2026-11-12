@@ -12,9 +12,20 @@
     "prompts/v0.1.0.md": "3efbe35f6f92e270558eb7756a94b1a46c520a5e36a8b4b294f6d454346f2c0e"
   },
   "pilot_quality": "completed",
-  "production_records": 0,
-  "last_checkpoint": 0,
-  "next_id": 1,
-  "checkpoints": [],
+  "production_records": 500,
+  "last_checkpoint": 1,
+  "next_id": 501,
+  "checkpoints": [
+    {
+      "checkpoint": 1,
+      "start_id": 1,
+      "end_id": 500,
+      "sha256": {
+        "data/checkpoints/batch-0001.jsonl": "64f91f54570c1450c1e19a18c486fe1f3e5f79d722adde1f0d29a8bdf84f895d",
+        "metadata/checkpoints/batch-0001.jsonl": "2caf43375c24362d29470f24ebec3ecc3495a9c6df9ad11be801df34820b5927",
+        "reports/checkpoints/batch-0001.json": "76ecbfa2dfa7910d15fe721cf5c43564a89be3e8a9e58ede6859eead2e090bc0"
+      }
+    }
+  ],
   "final": null
 }

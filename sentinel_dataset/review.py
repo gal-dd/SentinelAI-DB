@@ -1,5 +1,6 @@
 """Create deterministic, blind review packets and verify their decisions."""
 
+from collections import Counter
 from math import ceil
 import random
 
@@ -68,8 +69,10 @@ def verify_decisions(packet, decisions, rows):
             raise ValueError("Previous review metrics exceed the sample")
     total_reviewed = len(judgments) + sum(attempt["reviewed"] for attempt in attempts)
     total_disagreements = sum(attempt["disagreements"] for attempt in attempts)
+    modes = Counter(judgment.get("mode", "unspecified") for judgment in judgments.values())
     return {
         "reviewer": reviewer,
+        "review_modes": dict(modes),
         "random_sample_count": len(packet["random_sample"]),
         "targeted_sample_count": len(packet["targeted_sample"]),
         "reviewed": len(judgments),

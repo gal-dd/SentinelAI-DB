@@ -1,0 +1,1767 @@
+{
+  "checkpoint": 1,
+  "start_id": 1,
+  "end_id": 500,
+  "policy_version": "0.1.0",
+  "prompt_version": "0.1.0",
+  "metrics": {
+    "records": 500,
+    "label_lengths": {
+      "נמוך": [
+        13,
+        105,
+        5,
+        2
+      ],
+      "בינוני": [
+        1,
+        115,
+        5,
+        4
+      ],
+      "גבוה": [
+        1,
+        115,
+        6,
+        3
+      ],
+      "חמור": [
+        1,
+        113,
+        6,
+        5
+      ]
+    },
+    "labels": {
+      "נמוך": 125,
+      "בינוני": 125,
+      "גבוה": 125,
+      "חמור": 125
+    },
+    "lengths": {
+      "short": 16,
+      "sentence": 448,
+      "paragraph": 22,
+      "long": 14
+    },
+    "origins": {
+      "synthetic": 420,
+      "fictional_document": 76,
+      "public_adapted": 4
+    },
+    "styles": {
+      "lesson": 17,
+      "mail": 68,
+      "faq": 25,
+      "chat": 106,
+      "report": 44,
+      "qa": 13,
+      "transcript": 2,
+      "minutes": 28,
+      "schedule": 9,
+      "memo": 57,
+      "catalog": 10,
+      "log": 19,
+      "ticket": 27,
+      "notice": 30,
+      "field-note": 4,
+      "brief": 3,
+      "incident": 14,
+      "checklist": 10,
+      "glossary": 4,
+      "release": 1,
+      "explainer": 3,
+      "recipe": 2,
+      "manual": 1,
+      "worksheet": 1,
+      "editorial-note": 1,
+      "rulebook": 1
+    },
+    "scenario_count": 26,
+    "source_group_count": 26,
+    "edge_cases": 27,
+    "counterfactual_pairs": 4,
+    "records_with_latin": 8
+  },
+  "schema": "passed",
+  "normalized_exact_duplicates": 0,
+  "semantic": {
+    "status": "completed",
+    "model": "Xenova/multilingual-e5-small",
+    "reference_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+    "artifact_sha256": {
+      "model_int8.onnx": "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c",
+      "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+    },
+    "search": "exact_cosine_top_k",
+    "cosine_threshold": 0.92,
+    "neighbors_per_record": 12,
+    "indexed_records": 700,
+    "scanned_records": 500,
+    "candidate_pairs": 108
+  },
+  "similarity_alerts": [
+    {
+      "id": "019ba556fb10c0d905d676f0338fffda97972be5fbcfb77cc0de234d17d99c6c",
+      "records": [
+        "1d7bce8b9b099bc0827cbb9ffe294080febcfa6b3979e6a58126edb5c883ee27",
+        "7a6ccdacbe631dde62b7c8f4e6bb6cb6b9838a4af9cd5ea8407841a5be16424b"
+      ],
+      "method": "semantic",
+      "score": 0.92368,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "02756732ae71c5609a021dfa8e47935951c520f5ab9b8ccaa8d6a0bc502082b9",
+      "records": [
+        "11285427df96982fc8ea2ac6cc593d6a3b2ff4204490d565f7f70379f0e7652a",
+        "64b56f0d322d50907c7f5eeedac563b0e1e8a4e09de75ed41c490bb9b9f25bf0"
+      ],
+      "method": "semantic",
+      "score": 0.92199,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "048f18783b98d83d2b0607eb54d84ae6fa80d5ab59decb1cc72a19aa2bf9db6e",
+      "records": [
+        "fd2ff2371790f996244b1368cdb37db8d0712d37bfd63c72e25b300683d1ff44",
+        "ffa0e746fffbb5bd1705a1f5425f2a5ac8da51b2f3944957f77ecae903ee45f3"
+      ],
+      "method": "semantic",
+      "score": 0.9264,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "058b319ed83e1ef3d2de8d5bea33b00843e0734d67e77d445bde113beb795bef",
+      "records": [
+        "6ada316b3a1bb518a3d2049d3cd7d7cc95d9abadd6632d4201a9f342dc17a363",
+        "8efb93afa43a26c05b6effbe361a6cfd0c0589058d12efc036bd38038d8fdea9"
+      ],
+      "method": "semantic",
+      "score": 0.92408,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "0b1b1921244ef36928ce347ca254ffc07e53f7007f23dde0842973e488a329df",
+      "records": [
+        "3b09ec375ffa4a546a237f4f30f526e3842282a1cb16a24278f9aba6819b8aae",
+        "8efb93afa43a26c05b6effbe361a6cfd0c0589058d12efc036bd38038d8fdea9"
+      ],
+      "method": "semantic",
+      "score": 0.92435,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "0c4d181ebe5d595b5a6923892e66c7a3aaccfbcb5086e7e8a3bcf3a5219618b4",
+      "records": [
+        "47d819374876a0beb01ecf3b594fbf2f6ccd01115739a847b79a758c73f05746",
+        "ea656bb7765a5f6309fee126becbf559e786f99df57168ad991f540041fa2525"
+      ],
+      "method": "semantic",
+      "score": 0.92445,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "0f1feacc2d82d847ee838a2f190db22bd1d0efaea500039570d66ae094e2768c",
+      "records": [
+        "1039eaf35f67405ee429a393c42b595b2557015ce7954223c7d0ff717f4be6ab",
+        "8a25b5f3bdeec9db7720817383a79ceb76120e3195956b94feed63823620223b"
+      ],
+      "method": "semantic",
+      "score": 0.92203,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "12786e278c0eec87a00448d3d66e692713bdb265b621116a439019032f36f780",
+      "records": [
+        "290365f1acc9c2f61a5002fe788d74301d6c9f11093d18153b72d35ffa4ac9a7",
+        "5eeb36890f5c7e29621890d7d9f944abe6c36ab2b5ace4df53ef2b1ba5b09ef6"
+      ],
+      "method": "semantic",
+      "score": 0.92033,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "144350522f282e26f1c2376016f22470e37c3c5f5a06e54fc1020bb9dfa61bc9",
+      "records": [
+        "4a4032a11465b588f4b6914a7ed8d6e9390ead885489488578a485a1b7609952",
+        "c3951feda54e6c9a36a8bf0f2592d8ef96ad977fcc8a0948fb48371ecdfe907a"
+      ],
+      "method": "semantic",
+      "score": 0.92517,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "1550c398f36e8e8860039baf5ffdbd385829e1005c57337cefd333c4e341a7a4",
+      "records": [
+        "589110f4a0bf9880255fb05de8eacdb066fe903f76f4cd20c1294842db5cc827",
+        "d7631e707eb239a5972a072de3b04dedbf689dbc766c22f3dd7b04086b7bdfc0"
+      ],
+      "method": "semantic",
+      "score": 0.92439,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "162e28b5e241530a46d04e7e92175a6701dd7366297aee2f88db0ba5accda85a",
+      "records": [
+        "f5261ebba74c18a170575eb7d7a179ef548bd739728b9bd4ad87b882eafeb44c",
+        "f67ae2f23de6943d2d7cb4f70632b91b27f530cc136da8a8ea18e5dddc451872"
+      ],
+      "method": "semantic",
+      "score": 0.92031,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "18ccac1b3d3c03489e8bc975ef0b9cf72a97f37e0ef5ec68ee77fb4406592eaa",
+      "records": [
+        "b62f92bf44ca442d20c2d43afa18e1afb793521d8c063092dc7ec65ea617955a",
+        "f67ae2f23de6943d2d7cb4f70632b91b27f530cc136da8a8ea18e5dddc451872"
+      ],
+      "method": "semantic",
+      "score": 0.92844,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "18d73d941a8005cc006975756aedf23a9743adfdd6906234635ef44cc4b0db48",
+      "records": [
+        "2702c5cc908ca8c8669bbfd24c94d096b9056cd5ea81591db659b5951952df51",
+        "63c68cd6fe11e4f7139e59c9f9590a5bb8c2c4d7c2ce80efdda9c3c2c01d7d7d"
+      ],
+      "method": "semantic",
+      "score": 0.92036,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "18fbec02cdc777f802c12f32a86540a891f2cf4e4cc3e04ee1605b855b4b1fce",
+      "records": [
+        "2e139d5cd7afc0437731bb956f442f298e843e5b117d3944ddfd4109e8d1f3c1",
+        "fe8918f92ed96368b1cc327e9175dc99b2788eeb4187f1c87ae92739fe29a2f7"
+      ],
+      "method": "semantic",
+      "score": 0.92794,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "19c68c1d2823588d92fc3a9f55a01a1ad530d6f3fe64e82006507e35b7f5b6b3",
+      "records": [
+        "f5261ebba74c18a170575eb7d7a179ef548bd739728b9bd4ad87b882eafeb44c",
+        "ffa0e746fffbb5bd1705a1f5425f2a5ac8da51b2f3944957f77ecae903ee45f3"
+      ],
+      "method": "semantic",
+      "score": 0.92053,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "1a523977aee744b6981706f8a6a0e21fc80ecadba104b344529df57d6b2458bf",
+      "records": [
+        "07540455511bf82657a3f6321a9ad573d3385a0cbfb4b9eafd53422b1d84a9f9",
+        "92ac1e2e07761d77a01c1834583ae1ceb6f260f9d40f71cfea98aee56e633ba3"
+      ],
+      "method": "semantic",
+      "score": 0.92306,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "1a9bb7486d15da287dac8d5c5c393ad02ff1933f09eb33c69b14fb4f352f91f0",
+      "records": [
+        "11285427df96982fc8ea2ac6cc593d6a3b2ff4204490d565f7f70379f0e7652a",
+        "f5261ebba74c18a170575eb7d7a179ef548bd739728b9bd4ad87b882eafeb44c"
+      ],
+      "method": "semantic",
+      "score": 0.92125,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "1edc6986e070c24adfa701f5c55e8a4ba36389f8f9f82ad8bb4160fd4c4f1ab6",
+      "records": [
+        "3f687ba24a07919516fb8b46dc1a78e8b2e8b293172935db0207b73ccd5a9cec",
+        "c9347cc63cdc349731dfcd75c3aa3628f6e749a439a20095d414f6906c71c075"
+      ],
+      "method": "semantic",
+      "score": 0.92173,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "1f178242c03314b0de63b86290b64b3f67969b26d947a0d3611fce5fc3160907",
+      "records": [
+        "3ff6d071a228aa0a4f0e4e8e7d77ce4929324e07a5ae118fb653cf9b29ef224c",
+        "dffbcbb62bab627c5dfc2b980b3dc6684a419f3e3c8f07bfcfd0ee1896e73236"
+      ],
+      "method": "semantic",
+      "score": 0.92312,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "2153d6584ce66fb18bbc98eb914e5d105c5a62f0d6af5ba3985689c77e427406",
+      "records": [
+        "82784c6637b3c922c3a1ca7f35e5ee0157c3ed93ea8cc58a53f1ef408c182b13",
+        "f67ae2f23de6943d2d7cb4f70632b91b27f530cc136da8a8ea18e5dddc451872"
+      ],
+      "method": "semantic",
+      "score": 0.92687,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "23b16dbb627479eaa6c120662d6aad2ca1abeaa21497b236aa4b328a2ad1c9b3",
+      "records": [
+        "451a724a90a4012462703cff00ad851f3be7eff1a0aa17e9681b8020a03b81e5",
+        "90188ae78c5332b655ff009f2030af23a4faa32efe744d743e8c86fe4ecc4435"
+      ],
+      "method": "semantic",
+      "score": 0.92032,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "272882830db1ebb120a58d9a4571d710c82df3c51995653594fd063457c5ba4c",
+      "records": [
+        "82784c6637b3c922c3a1ca7f35e5ee0157c3ed93ea8cc58a53f1ef408c182b13",
+        "ffa0e746fffbb5bd1705a1f5425f2a5ac8da51b2f3944957f77ecae903ee45f3"
+      ],
+      "method": "semantic",
+      "score": 0.92069,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "290a0f3a5b381d58937050d68534cd9538ee5c3fe1872102a97dc121b6683f63",
+      "records": [
+        "a29202e48007eed001c7e739d1f35a5ce647d5e0a235ec2b95043a114276adad",
+        "a47bc653e8a31b57c472555573cee0845adbaf6043409f36950adbf211f5dd8f"
+      ],
+      "method": "semantic",
+      "score": 0.92096,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "2c8f352c7cdf5d49eb155397c583fb74a0fe6293d97252db817e05b140d22a98",
+      "records": [
+        "0966aae506cd01ecd3c9a0cc27ceaed01170d94879386907c46bcd3a97e936cc",
+        "6b1c22442c8f53af0a4e354378ff4518e1f9b6dc2433ae9370bc1a256cb7be65"
+      ],
+      "method": "semantic",
+      "score": 0.9231,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "36d28981a0d83703fa9e59166ad0a73ad1542a5ae43a81c3b8bbf479dd0d3bc1",
+      "records": [
+        "5ef2b6ff6793402399bfcab9510b37af33ff5daffb087e1e65f89581ed285775",
+        "bed13a7ee80f95d3da2a51803f425c55d5c7358c6fa547b60ce86b5c865d5fc2"
+      ],
+      "method": "semantic",
+      "score": 0.92063,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "395f5fe58792dd30179979971f7b6d96fa29861d2b4523719cb62ddd88c3e8f3",
+      "records": [
+        "a196951b5d07f408f53575f05678fea5ba55b220ab23ba86403c4c26eb353834",
+        "dffbcbb62bab627c5dfc2b980b3dc6684a419f3e3c8f07bfcfd0ee1896e73236"
+      ],
+      "method": "semantic",
+      "score": 0.92613,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "3ad662332920565aee0eeca374e93993d78a98be04a9a2d1333b2d6e4a77bb12",
+      "records": [
+        "725180f446b76cd039f059499aa7a55c95353b0ceb71b88c068675044b23b232",
+        "c9347cc63cdc349731dfcd75c3aa3628f6e749a439a20095d414f6906c71c075"
+      ],
+      "method": "semantic",
+      "score": 0.92025,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "3cb18a517c5ff38014871383c514e0790c748184715a1f13ab5ee25fb336f942",
+      "records": [
+        "4cbd595dcff2800eb0b4b85475854e19ca315b1e6d860f15744cd70c22e983cb",
+        "8a1145ae8543d733cdc8aaafc3f7fa64baf8a83178d05f4b9f94a0abf2f8f727"
+      ],
+      "method": "semantic",
+      "score": 0.92395,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "4bbf22822e3028aa0e9f96f7509a87e7e54329976213f7ba8b7b8a6575f9b0eb",
+      "records": [
+        "1960d6941bf75d557ebbde74a3e1253d6fa897c9234c2ee7bfdb300a2370ceba",
+        "1bae909283988a04cf7f7e9a6b76ea571160f85051b170d6cb391da2443bea48"
+      ],
+      "method": "semantic",
+      "score": 0.92007,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "4c17b8d4d05bf8525196a80d014292ffde40441fac97ebdd948d4137fdcffa8c",
+      "records": [
+        "0d639c7ce10cb222dd6960e4c5b452c8b1132ae14d019ec7a0e7777a060efe0f",
+        "5639e35fad1ff0500af4e1e160f4153cacc7b9a32ad7b641f32e23b4fcbda303"
+      ],
+      "method": "semantic",
+      "score": 0.92614,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "4e495afaeb6ee8e069ce9401012ece55b5f323f353bcf90c96b6d0707e42a326",
+      "records": [
+        "07256022e9051296c114403e0018d43f8369b278e511b259a14886240671928d",
+        "de803f1b9bb11c5f92a87495825f1b6c5a2f5d0a80ed48b622fe17dfca807b67"
+      ],
+      "method": "semantic",
+      "score": 0.97539,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "51fe9bbfd3414159a2fea1e8a34620cfadf17e5ef3af9888ab3ef382c8a0753d",
+      "records": [
+        "0966aae506cd01ecd3c9a0cc27ceaed01170d94879386907c46bcd3a97e936cc",
+        "b62f92bf44ca442d20c2d43afa18e1afb793521d8c063092dc7ec65ea617955a"
+      ],
+      "method": "semantic",
+      "score": 0.92003,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "52bd1e53394415e1818702588fa910e740ff12d752ea34116a3f057a033ba637",
+      "records": [
+        "ac18f61a9f6f4d2fba9e4d8a69bf98cd8b711cc2172b57ba9db6a001fbc13b58",
+        "b9cba8a82445db6dec21e35bd5b81b21ca99661f43a171de65a9853099ecf632"
+      ],
+      "method": "semantic",
+      "score": 0.92176,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "5473f4d8d5d588c9def3c5dc056a2665721f8975bf8d652ad95d4fddfcbafd87",
+      "records": [
+        "31456e34f0e867eb432cefbe7bbd178c5e0daabc9cdebdd2a754e02bc2696032",
+        "b62f92bf44ca442d20c2d43afa18e1afb793521d8c063092dc7ec65ea617955a"
+      ],
+      "method": "semantic",
+      "score": 0.92145,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "54a9c6ca533e9925c308de08914bc1fe218fee621de4f0e752ffb9c93f6b9e78",
+      "records": [
+        "732fdb1a7cf899982edc01a62556c645bdf206d69f9d4febe27d00b29a21af61",
+        "7e944c9eea574353c7c0049f5994d42e054e8535d679b108f9947271b0f4a69c"
+      ],
+      "method": "semantic",
+      "score": 0.92194,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "54f16619ad17753416f58d4daeaac3cc5858d3a9bac48a92b1077f0c380213a6",
+      "records": [
+        "28b685c718c81cfe3840e4a34cbd1bc905a6046ea39a160eea4472a3d22d97a0",
+        "8a25b5f3bdeec9db7720817383a79ceb76120e3195956b94feed63823620223b"
+      ],
+      "method": "semantic",
+      "score": 0.92031,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "5638fe70749708b75e731544cdf4e57d09ab2023f3d6ae35834a11ef13e73156",
+      "records": [
+        "19534b65abd5d464e4e4ce5d829632b6f4f2a49840507fe71b6213004d3ca0fd",
+        "d3867cd9620d8ecded7f8c407ad6992496eb9c767d054e6f50324264aff28103"
+      ],
+      "method": "semantic",
+      "score": 0.92804,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "59ac5979ab78836d2b62a7ddc6b6e08546e2d68806c9654ae77011ef1e6d09b6",
+      "records": [
+        "a196951b5d07f408f53575f05678fea5ba55b220ab23ba86403c4c26eb353834",
+        "d8aae9efa61b97ba511cd73a5d0e5a1ef09d5963ce52d242e69fe11edb2e27e2"
+      ],
+      "method": "semantic",
+      "score": 0.92009,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "5e5582b0f2242b32cc83ec11c20580d09e821df825d117d44c8cb473041de1cb",
+      "records": [
+        "82784c6637b3c922c3a1ca7f35e5ee0157c3ed93ea8cc58a53f1ef408c182b13",
+        "b62f92bf44ca442d20c2d43afa18e1afb793521d8c063092dc7ec65ea617955a"
+      ],
+      "method": "semantic",
+      "score": 0.9238,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "621e1efc1991fcca393cb0d1630a4272dd92094a1a4aba911758960f27e1e70a",
+      "records": [
+        "0d639c7ce10cb222dd6960e4c5b452c8b1132ae14d019ec7a0e7777a060efe0f",
+        "8efb93afa43a26c05b6effbe361a6cfd0c0589058d12efc036bd38038d8fdea9"
+      ],
+      "method": "semantic",
+      "score": 0.9201,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "692c1bd4f3914b966a78caf3a0c0ccffe635a807b661484a5fd45b97ee0bf251",
+      "records": [
+        "5e322b7dff4e8bc017a867ee88fa67d678d58bbae911606c5eb882490a048b48",
+        "947fb2216b03bc9c9a8c0a2514687dcbc014a73b6100fb94f4801614108742d2"
+      ],
+      "method": "semantic",
+      "score": 0.94831,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "6974ff5f79002335fed2b34c581269c3d6d9415f05b029ef56e1807c36055592",
+      "records": [
+        "0b628546b4c2cc186c627b4a1393d118a43be134059bd2d1372c2e4c5db61f2c",
+        "cc05e0e40a795f9cc74cac4dfe7fb562964820035130b7076588abee6958b12d"
+      ],
+      "method": "semantic",
+      "score": 0.92311,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "715ce50d884d0abe5c34265af5511468fa20806de4378dc331a9c09931f43021",
+      "records": [
+        "4a4032a11465b588f4b6914a7ed8d6e9390ead885489488578a485a1b7609952",
+        "9b90d6a1367209fae38a53c5fc31440bf6102e42800dac7261ab1288888354fd"
+      ],
+      "method": "semantic",
+      "score": 0.92695,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "7490df67f19d9b146697aada74adb585cc573c720a611229e6adc53dbb070bee",
+      "records": [
+        "b87752838e14cc9b3870ee6d183e6481c6291673c99bdc688f79217359c4075d",
+        "c9347cc63cdc349731dfcd75c3aa3628f6e749a439a20095d414f6906c71c075"
+      ],
+      "method": "semantic",
+      "score": 0.92136,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "75299e7c8579cc623332f489d9b3b6572f86584f211c0b4b7b53528d2f7ab20e",
+      "records": [
+        "8528cf13470bd6a57ce2b00b703cf5889c8abdb095c9c3e24f5aecb0f3777cbb",
+        "a158f3e8fd42a3fbdc63a2617119684b90f0d1cd318ab0c88f3dc5536385e288"
+      ],
+      "method": "semantic",
+      "score": 0.92307,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "7abb87746b197ec1316b36342df52da15e3585d81f514d9392bdda0341694cc2",
+      "records": [
+        "451a724a90a4012462703cff00ad851f3be7eff1a0aa17e9681b8020a03b81e5",
+        "6d91f96de824f406699e85784ec469dd7ee9bed4953da0e70f6144fd0f152ecb"
+      ],
+      "method": "semantic",
+      "score": 0.92119,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "818d8622fb1a6d40498926abc9355dc1785565700aa89b97f15c85abac3d1d62",
+      "records": [
+        "0178b5cff3f118832b3c7366054b30cb021bec5e6c9b9b410228b3cbedf3e264",
+        "92ac1e2e07761d77a01c1834583ae1ceb6f260f9d40f71cfea98aee56e633ba3"
+      ],
+      "method": "semantic",
+      "score": 0.92781,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "88f1dbe4d10dda6e7e4f7fa58d6c5f969ac272a32ca4fcb5d1ec920e4dbf0d4f",
+      "records": [
+        "47d819374876a0beb01ecf3b594fbf2f6ccd01115739a847b79a758c73f05746",
+        "7832c5f87f5e99e6bad5e3dcd790025058ec104fc1c36669e3f26842066e8ba3"
+      ],
+      "method": "semantic",
+      "score": 0.97068,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "8b2401ead8e14a4f1bcabf0b4aba9ff252a7721d9c0ef6dda58893880b44b972",
+      "records": [
+        "798c59f2da61fb81a2336c767b3a701a22f2c4831eecd82f3b393634381a1a68",
+        "b9cba8a82445db6dec21e35bd5b81b21ca99661f43a171de65a9853099ecf632"
+      ],
+      "method": "semantic",
+      "score": 0.92087,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "8cd92602088052a5b9a4bf81b83ba7b136c0aa377fa43a2488c923219b6ad370",
+      "records": [
+        "a567268c8dcf4d82165d9736fc9f7701509ca36ec71c73bc39490e8587ac621c",
+        "f9a36ac979f420b1aaa784026039fc7a78e4034e636cbe889dd437e055589f51"
+      ],
+      "method": "semantic",
+      "score": 0.92873,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "8d3f9c3518f61b6592c9c9d4bfe86699cad2d2d24df5389dfc1d4f9b95f0fd15",
+      "records": [
+        "07540455511bf82657a3f6321a9ad573d3385a0cbfb4b9eafd53422b1d84a9f9",
+        "1039eaf35f67405ee429a393c42b595b2557015ce7954223c7d0ff717f4be6ab"
+      ],
+      "method": "semantic",
+      "score": 0.92566,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "8d4fa6db0ad3e8adf4d356056cdaa6342716e1d59c520862efd722efe9f35008",
+      "records": [
+        "509d1a157052d01cb11531225698b66ca19a80fb6da78625a068268b86295ccf",
+        "58700dea6ce57a4214570d4efb2b51ca371853556c57494eab41e9fe752a4612"
+      ],
+      "method": "semantic",
+      "score": 0.92974,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "8e4999cb48d8dbfd44c5c818dff23ca9ab02c6b162603dc2de25f88c2473acc7",
+      "records": [
+        "72eeaf7b20b34283da867b10179887ff8d3dc43fd213a803eb73a5e3f75ec1b3",
+        "d2d245119506cee1eb9bdc756a4b8ec45c45c3213a613b3372130b3de5b28c9a"
+      ],
+      "method": "semantic",
+      "score": 0.92845,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "9309e3b327d595d772e1c04ed09a51ec2a2ccf2bd0dcf1001cf19e4253359def",
+      "records": [
+        "7a6ccdacbe631dde62b7c8f4e6bb6cb6b9838a4af9cd5ea8407841a5be16424b",
+        "b280a20af841b79424bae311fc1dccbcf136a330c735c6f397261c7bc2e2857f"
+      ],
+      "method": "semantic",
+      "score": 0.92435,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "98be5748cfba775d0d394b06fbaf93b4d4d071aa0de170b6b1884df78fb30115",
+      "records": [
+        "81564dfde91736ad53204a45a27852cbeab7c376dc3e75f4f23992b822f2d85c",
+        "8efb93afa43a26c05b6effbe361a6cfd0c0589058d12efc036bd38038d8fdea9"
+      ],
+      "method": "semantic",
+      "score": 0.92064,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "98dd265551f16d5f99b67b858c0997e75ec345ce37e5075fb33a67669fd30367",
+      "records": [
+        "2491b07a8f69d0a1ad6a21566eeab3007e6dc63657eb0cebadd14da4c0c40829",
+        "efe50c97960b0f16b25031b842b678a1f379a42d3be72cc3d746c780eb09107b"
+      ],
+      "method": "semantic",
+      "score": 0.92223,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "9b0f1e50c8ca6dd968b75a0febc8cb4f370f8d417ee40e0d54e77584b84ca6cd",
+      "records": [
+        "6bded30ad3f0aaa18b93d835abd8808bb8ccd75013d104010c837f685ae3f763",
+        "ddf71938d79c95a3d059f3436c3fa8a71d43d71cb6df0b4cc11a4776f380cf47"
+      ],
+      "method": "semantic",
+      "score": 0.94457,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "9e572d08c7cf7cf570ec4f36b3066f02bec626b96c281f627b84997e82955ddc",
+      "records": [
+        "0b628546b4c2cc186c627b4a1393d118a43be134059bd2d1372c2e4c5db61f2c",
+        "3b09ec375ffa4a546a237f4f30f526e3842282a1cb16a24278f9aba6819b8aae"
+      ],
+      "method": "semantic",
+      "score": 0.92308,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "9f37fbdfd938cd9799c80e0ad901cdfc3f0ed7e704f1a12cb95f75e3ad98084e",
+      "records": [
+        "798c59f2da61fb81a2336c767b3a701a22f2c4831eecd82f3b393634381a1a68",
+        "a4c35227184fc1179ef0cb851afd069aa31bc728102733a536678c830df94c82"
+      ],
+      "method": "semantic",
+      "score": 0.93072,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "a098b15b9ba30084e9dfc211c1db6f0ed5fd3feaf6f3450e87a6062e5000ded9",
+      "records": [
+        "827c6fb17122a9a14ce0b08ece5ae79b45ad7392da1f0f29faaa68f754f5fb9c",
+        "b62f92bf44ca442d20c2d43afa18e1afb793521d8c063092dc7ec65ea617955a"
+      ],
+      "method": "semantic",
+      "score": 0.92207,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "a0fee995f79725cc7102d9d34d869f1ecfe993fcc2647629310024d995e9758c",
+      "records": [
+        "3b09ec375ffa4a546a237f4f30f526e3842282a1cb16a24278f9aba6819b8aae",
+        "f5261ebba74c18a170575eb7d7a179ef548bd739728b9bd4ad87b882eafeb44c"
+      ],
+      "method": "semantic",
+      "score": 0.92067,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "a102eb58bb2047c248ca613035e45a8c2c52f02255ff8ad6ac27b41a4f4b5efc",
+      "records": [
+        "07540455511bf82657a3f6321a9ad573d3385a0cbfb4b9eafd53422b1d84a9f9",
+        "c49d94e0048222ab20110302d5f959e1bdf6cb5f47f339cfb4de6e56855333b2"
+      ],
+      "method": "semantic",
+      "score": 0.92362,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "a486474a71647606e47b9082505340c4d42ff5dd3729127c7c03739767baf059",
+      "records": [
+        "3b09ec375ffa4a546a237f4f30f526e3842282a1cb16a24278f9aba6819b8aae",
+        "fd2ff2371790f996244b1368cdb37db8d0712d37bfd63c72e25b300683d1ff44"
+      ],
+      "method": "semantic",
+      "score": 0.92089,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "a68745585508fd77ecf0113b95e2b0fba54d6f78480348529c925721325cdcda",
+      "records": [
+        "1a6447fc7f14c7790c1b41282ebc11a285bdb22a5035272286e0cb5c0cced349",
+        "98fa04b3cf3c31062cb5aec1ee2c16af24061868f420a05f8e332f168decd2eb"
+      ],
+      "method": "semantic",
+      "score": 0.92775,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "ac391b2cddbec27c6ef55a6c92e762faafc1655ea8cf53276168b2272048f9e8",
+      "records": [
+        "07540455511bf82657a3f6321a9ad573d3385a0cbfb4b9eafd53422b1d84a9f9",
+        "4a4032a11465b588f4b6914a7ed8d6e9390ead885489488578a485a1b7609952"
+      ],
+      "method": "semantic",
+      "score": 0.92142,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "ace86bff4faf04f5d5813dc18e2c954404294f7a595ce43bce8efb5aee3e329e",
+      "records": [
+        "1bae909283988a04cf7f7e9a6b76ea571160f85051b170d6cb391da2443bea48",
+        "42aaa0cef06188041e006c6453b78d400f253256f5ca65ede15a1f7cf852ee64"
+      ],
+      "method": "semantic",
+      "score": 0.92019,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "b03a5c4a2871f5f34b3ffaa253e1ce1d4fdc251e0ec78358c4c150b0b0974a4e",
+      "records": [
+        "0139e4f939f99181566eb309ff5ac0e4e955da3dfeb19eb47878e9ebe05885ce",
+        "58188e78bdf1cafadc3e6c8d30f77bea11fd329bff1ce380ebe0f8362de96636"
+      ],
+      "method": "semantic",
+      "score": 0.92389,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "b285f19347338b1d8f8d20bb959ee0eb46247a2b222ef7b9767ebbb19fc865d4",
+      "records": [
+        "29d70b8e9fcd5e01c9b776147f4bf50ca53b16a997355767f77f33697f68d88d",
+        "e9218ac666be79a759ac0c808606af71c2d77f7adda5f1fa6ea5559840799b31"
+      ],
+      "method": "semantic",
+      "score": 0.92007,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "b50b42165dada3fd6d3605419d5eebf6094cefcb23f8745b86d0c4e20dcf1781",
+      "records": [
+        "2539f0d77f0c875103257e4c40c9ceedd39b1c58140219b360c28e295c624ecf",
+        "d2f94754d656abb9f3fece7524d4897475ca07286c45294a94309c673f424f13"
+      ],
+      "method": "semantic",
+      "score": 0.92659,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "b53221a3d0ed163eee4b13a0c0fe49d50e25ca4ad4096656a570f1717648bcc3",
+      "records": [
+        "2702c5cc908ca8c8669bbfd24c94d096b9056cd5ea81591db659b5951952df51",
+        "a0f1f5affb2e4962250b7ced814cf7847dabbc6b7d10e3715a63a2bcaa97aefe"
+      ],
+      "method": "semantic",
+      "score": 0.93191,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "b5e7a7813a090a4162551844e69835ea04af03bf2c18daed420a5a9594f6857e",
+      "records": [
+        "2e139d5cd7afc0437731bb956f442f298e843e5b117d3944ddfd4109e8d1f3c1",
+        "c9347cc63cdc349731dfcd75c3aa3628f6e749a439a20095d414f6906c71c075"
+      ],
+      "method": "semantic",
+      "score": 0.92721,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "b864093c9ace65592cc302491096b22aad40c816dc24f48f4e228ca7e7675644",
+      "records": [
+        "4b9f68177511198cea7510abca45d9c07539044640e48d55cd857347d0b1c052",
+        "eb99e7bda18b5d2fd3cd9345aae7faff5b69b4694754f335a5ea916b876865ae"
+      ],
+      "method": "semantic",
+      "score": 0.92057,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "b872f58595ab8f3ab60eb52f3ff48f2dffa8b554d85c22a5d4cef21c9efc2b0c",
+      "records": [
+        "72eeaf7b20b34283da867b10179887ff8d3dc43fd213a803eb73a5e3f75ec1b3",
+        "9b90d6a1367209fae38a53c5fc31440bf6102e42800dac7261ab1288888354fd"
+      ],
+      "method": "semantic",
+      "score": 0.92451,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "b89746535f31c1bc296210fe5cc1c6304114f53fc5fcb3c765c36410386a828b",
+      "records": [
+        "a567268c8dcf4d82165d9736fc9f7701509ca36ec71c73bc39490e8587ac621c",
+        "e865c1e13b10aed862b461372f21b5b872ffb91b9404ad105531a5c7976304ae"
+      ],
+      "method": "semantic",
+      "score": 0.92211,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "b9e3254c9dd42d1cffc83ae25e975eef10eafc443fc74a69162040aaef81be52",
+      "records": [
+        "5b015d12e7b79a708be53e5b85edfae9963a4db653bba011c65567322bb6c033",
+        "6ada316b3a1bb518a3d2049d3cd7d7cc95d9abadd6632d4201a9f342dc17a363"
+      ],
+      "method": "semantic",
+      "score": 0.92263,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "baaafa53d241402ccc0b602e744f348c8228580f464b5384f00dfbaea120825c",
+      "records": [
+        "dea29a7d1eaefdc9cbec4503f2ef296a1e3ddf9f5081db3397162e16216e6221",
+        "f67ae2f23de6943d2d7cb4f70632b91b27f530cc136da8a8ea18e5dddc451872"
+      ],
+      "method": "semantic",
+      "score": 0.92035,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "c15f1c35a454dd0cccc92e5f3df3a7212cd400bc8f658577fc7480e715b5687b",
+      "records": [
+        "4cbd595dcff2800eb0b4b85475854e19ca315b1e6d860f15744cd70c22e983cb",
+        "8edb020957dcd2e3d0e304e97ae7d639cafa11ecaa2762a91652fbbc45b9a892"
+      ],
+      "method": "semantic",
+      "score": 0.92219,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "cbe97e2d01474210589032a0e21f2fa57ce53a79e8326740bcdf77f6bd2b4123",
+      "records": [
+        "5639e35fad1ff0500af4e1e160f4153cacc7b9a32ad7b641f32e23b4fcbda303",
+        "92ac1e2e07761d77a01c1834583ae1ceb6f260f9d40f71cfea98aee56e633ba3"
+      ],
+      "method": "semantic",
+      "score": 0.92046,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "cc32d4d6fef7f671c613e1a2c09d48f9f608af46e2c45c65080e9a000b3c0c3a",
+      "records": [
+        "2491b07a8f69d0a1ad6a21566eeab3007e6dc63657eb0cebadd14da4c0c40829",
+        "5eeb36890f5c7e29621890d7d9f944abe6c36ab2b5ace4df53ef2b1ba5b09ef6"
+      ],
+      "method": "semantic",
+      "score": 0.92029,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "cce94c0b7ca97b93504449d63c07fa13c97ed8015d969520ce1954e3c6bed279",
+      "records": [
+        "5e322b7dff4e8bc017a867ee88fa67d678d58bbae911606c5eb882490a048b48",
+        "a29202e48007eed001c7e739d1f35a5ce647d5e0a235ec2b95043a114276adad"
+      ],
+      "method": "semantic",
+      "score": 0.94789,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "ce2d96c061812a54e75e7e14384ce143d15a7d725d9206407bba3ec49fb9f69c",
+      "records": [
+        "7832c5f87f5e99e6bad5e3dcd790025058ec104fc1c36669e3f26842066e8ba3",
+        "ea656bb7765a5f6309fee126becbf559e786f99df57168ad991f540041fa2525"
+      ],
+      "method": "semantic",
+      "score": 0.92637,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "cebdb2b9c2831a423007d67715b9bf51224d091adea20be2545cca2f65949810",
+      "records": [
+        "39afd77c8d9e7abbeab7199194dc68c825d797ba5b84ba00c7d7f81c95e1195b",
+        "e743a3c1c16ed3fbfc4a7a361772332c81ddd04ad3e956298dff3426e6e181b9"
+      ],
+      "method": "semantic",
+      "score": 0.92251,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "d3bcfaae3f16c0b6b2b03d7ae4577caf7efd1548d10c2bee670d0fea819c7994",
+      "records": [
+        "2e139d5cd7afc0437731bb956f442f298e843e5b117d3944ddfd4109e8d1f3c1",
+        "b87752838e14cc9b3870ee6d183e6481c6291673c99bdc688f79217359c4075d"
+      ],
+      "method": "semantic",
+      "score": 0.92275,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "d99759ced262175e28578f89ad52d09032d457a736662c12a4c4294bcc55435c",
+      "records": [
+        "dcc8afe9637f5f1295f78e5e10a930b0b2bb3e06ae1aa0eb2ebfd531338457c9",
+        "fb004bcc7bf582f991dc0235ebe09fc1d3fae56b081faade3c8a6b1bb8eaac15"
+      ],
+      "method": "semantic",
+      "score": 0.92293,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "db3db688cf2b5a9fd6ec45c5ae2ad318d31265dcd4122cd7f0ad7135d6551b87",
+      "records": [
+        "1d7bce8b9b099bc0827cbb9ffe294080febcfa6b3979e6a58126edb5c883ee27",
+        "f67ae2f23de6943d2d7cb4f70632b91b27f530cc136da8a8ea18e5dddc451872"
+      ],
+      "method": "semantic",
+      "score": 0.92066,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "dbacd76c0d29843688693bb9512da5210fbce81e34517e54e14cb5f7538d53d8",
+      "records": [
+        "be95080a2d3e1123bb2d03fd9f26e4d1e2267c6a50ecd3ee39f981312d067789",
+        "bed13a7ee80f95d3da2a51803f425c55d5c7358c6fa547b60ce86b5c865d5fc2"
+      ],
+      "method": "semantic",
+      "score": 0.92185,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "dbca7541b9acec33d72ac5108b664dbbb0575712f7c5b80b333f2a57b62b60ec",
+      "records": [
+        "2e78e17efc154e5b9e7153a7be53d3acacbe9d5172e92457bfa0d43649d987b8",
+        "39afd77c8d9e7abbeab7199194dc68c825d797ba5b84ba00c7d7f81c95e1195b"
+      ],
+      "method": "semantic",
+      "score": 0.92455,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "e0a336b7a92ce9e4cacae0b0bf71bf5652c2b97811db6186b35749105fd8b6e7",
+      "records": [
+        "3b09ec375ffa4a546a237f4f30f526e3842282a1cb16a24278f9aba6819b8aae",
+        "f67ae2f23de6943d2d7cb4f70632b91b27f530cc136da8a8ea18e5dddc451872"
+      ],
+      "method": "semantic",
+      "score": 0.92349,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "e0f0594d713e9013a7ae303fa83ea2b23ee33dbb8b0411fc1f366bfdaa94e9c8",
+      "records": [
+        "2437a86469bb90ab7289adcff988eb6393da93440f54f27c6e2c9485d7382f9a",
+        "d7631e707eb239a5972a072de3b04dedbf689dbc766c22f3dd7b04086b7bdfc0"
+      ],
+      "method": "semantic",
+      "score": 0.93375,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "e3b2286641bef7e1ad8f03b54793b988ccba36f011bbd0cf8bf58b9371208311",
+      "records": [
+        "c9347cc63cdc349731dfcd75c3aa3628f6e749a439a20095d414f6906c71c075",
+        "cdc2324d7238e1a8942f6390aeeeaae69ccb98803f131058b35283d09c7a84c9"
+      ],
+      "method": "semantic",
+      "score": 0.92053,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "e48599dfe007a768d7df2973eb717777612384ef5bc64d2d57262912d471ccf3",
+      "records": [
+        "4211cd395135fd11656d91e3b561673bb29b29a1cdca5f1f1ec025d831f78b35",
+        "d60067903d7fe671ee1f4d1e2908d1e0a0e00b2608a5eaa805954f0a50f7a040"
+      ],
+      "method": "semantic",
+      "score": 0.92209,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "e64bb1dd7731f47442573d48f18d68499ab62acd0ac3ebb3da73d41872184c94",
+      "records": [
+        "32cad35eb2004d70504eb515aeff4743cdaf65dcf794a05b9429805e0d6262b9",
+        "d18c743b2dfcb8bbfc032ca14ff7408d06ba7b51d2303a6350d6ebf1b6167c0f"
+      ],
+      "method": "semantic",
+      "score": 0.92091,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "e6cc561f9550f9af12a39254e9a4575ef2bdd481b9b5b7421b319549cd5ea1c2",
+      "records": [
+        "3d71aeedd2e8d43706052d5298a797f944686043d9d7b2957506b5ea8602f9fb",
+        "c8adf89fb3c356f15d1fde41cf838527699de745ad7425273a5122da4e7e0aa9"
+      ],
+      "method": "semantic",
+      "score": 0.92415,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "e8307d4221ea28ffd6cebfaa3147186bac3f51f07c2a164d3557001d84788932",
+      "records": [
+        "73059364c8868e070f96d042ff3801d193b4e5c5d5f7a15c9e038761b17d70d4",
+        "c9f34c812268f0094222dcbe3875dce5f48299470a7f8b67c7b38b6782dde3be"
+      ],
+      "method": "semantic",
+      "score": 0.92063,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "eb1c56d109b74b3db03f3b5451e4314066b1e2acba7055620979f452a0bb48a8",
+      "records": [
+        "bda400a29c51756b1bcb717a3b2673437a981925ac193ed436d334ad83217d70",
+        "fd2ff2371790f996244b1368cdb37db8d0712d37bfd63c72e25b300683d1ff44"
+      ],
+      "method": "semantic",
+      "score": 0.931,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "eb43d7c30858bd578a209eea8a8091ceaa4b3238006363281e76af463e35e209",
+      "records": [
+        "3d71aeedd2e8d43706052d5298a797f944686043d9d7b2957506b5ea8602f9fb",
+        "f437420bff7fbf59ded61d341c512d702754b1b0a9b3e30ae8787135be208c71"
+      ],
+      "method": "semantic",
+      "score": 0.94345,
+      "different_labels": true,
+      "intentional_pair": true
+    },
+    {
+      "id": "ee1808da0973234eacd0eb9942445e4065db1c48fb6d6b9535725633afc498e1",
+      "records": [
+        "615d5aa68cddc8c64905a3cc5d9e422b27c68380b64f87f366dbcd0bb7a31087",
+        "622764ab08153b6ffeb2f8c66ff4263675e4d117f8cc8da02882ca1debb31afd"
+      ],
+      "method": "semantic",
+      "score": 0.92102,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "ef2bf60340e1c84410774a1d64fb3dcc8ba178ec74281392ab34ad6e4389d56e",
+      "records": [
+        "a47bc653e8a31b57c472555573cee0845adbaf6043409f36950adbf211f5dd8f",
+        "ab2cc4e6ae7196da238ed66ea1b62b474d508557b120f792f50c3c81fb2daf8a"
+      ],
+      "method": "semantic",
+      "score": 0.92699,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "ef654406a53cc7e3f59ef25829780c073de7176f39f2aa6caba820863f45085c",
+      "records": [
+        "a0f1f5affb2e4962250b7ced814cf7847dabbc6b7d10e3715a63a2bcaa97aefe",
+        "a55122cd1b879b6c9c54a813d6817eb899adcb2e24a6adf5c7498d8bdb108d07"
+      ],
+      "method": "semantic",
+      "score": 0.93407,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "f01da7965bbcd627e57b72cc7de553cab1f000666a1f9055297a7b16f5d0e45e",
+      "records": [
+        "9b90d6a1367209fae38a53c5fc31440bf6102e42800dac7261ab1288888354fd",
+        "c3951feda54e6c9a36a8bf0f2592d8ef96ad977fcc8a0948fb48371ecdfe907a"
+      ],
+      "method": "semantic",
+      "score": 0.92074,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "f64c8f6e398bdacc16b592463b2238489cf9ca5f176cb7dfdef2581e9413b564",
+      "records": [
+        "615936b85cd916e569353bd112db46c3e44a8cbebdede5fe06b58ee36c2856e5",
+        "9b90d6a1367209fae38a53c5fc31440bf6102e42800dac7261ab1288888354fd"
+      ],
+      "method": "semantic",
+      "score": 0.92098,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "f89405efe513f0b1cffd142e273ebbe119315bedb743e4b693f9c9a2de33e8ae",
+      "records": [
+        "7e944c9eea574353c7c0049f5994d42e054e8535d679b108f9947271b0f4a69c",
+        "d7631e707eb239a5972a072de3b04dedbf689dbc766c22f3dd7b04086b7bdfc0"
+      ],
+      "method": "semantic",
+      "score": 0.92329,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "f8c2cf7234a622b77fe83622d25961eb4fdb901e3fb0ed572e9e57ce56542d16",
+      "records": [
+        "2296e309d16857999ca2f00c3c4251ffede1ede8f4fc8a0e46af1123d6a80f90",
+        "8db5abf9c573b5e008cf6cf4c082978241e99549ca520de214fb9dad8a857a20"
+      ],
+      "method": "semantic",
+      "score": 0.92039,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "fa2b876d2278686aa121aab2966464cb1932331e7da381c221d6d9fa8aad63a5",
+      "records": [
+        "07540455511bf82657a3f6321a9ad573d3385a0cbfb4b9eafd53422b1d84a9f9",
+        "5639e35fad1ff0500af4e1e160f4153cacc7b9a32ad7b641f32e23b4fcbda303"
+      ],
+      "method": "semantic",
+      "score": 0.93105,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "fbc206907f357ec8718ff277036da6b0e2a77153147a26e59bc3ca2a4c06f6c8",
+      "records": [
+        "0d639c7ce10cb222dd6960e4c5b452c8b1132ae14d019ec7a0e7777a060efe0f",
+        "5b015d12e7b79a708be53e5b85edfae9963a4db653bba011c65567322bb6c033"
+      ],
+      "method": "semantic",
+      "score": 0.92176,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "fdcb902c212cd5122ee5ea3ed43748c1e58192da6b378dc66efbe188de4fcc74",
+      "records": [
+        "8edb020957dcd2e3d0e304e97ae7d639cafa11ecaa2762a91652fbbc45b9a892",
+        "db187bf7e80e9f4e87ca4d76fa8dfee781c5f492b41357a62e8d2d44571c442f"
+      ],
+      "method": "semantic",
+      "score": 0.9274,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "fdf43a63bf7917c07fda2340ac0466c513012fe71df3bb2204ace9a8a771892c",
+      "records": [
+        "2e78e17efc154e5b9e7153a7be53d3acacbe9d5172e92457bfa0d43649d987b8",
+        "922be96a3f77a522bed518709a92089753112afdf705c299283f5389b1fb1b94"
+      ],
+      "method": "semantic",
+      "score": 0.92397,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "fefef15fc753f94812d8d1a2e2fd9bcded56b2f09f9d5e9610da8a4cfdb1f2a2",
+      "records": [
+        "5639e35fad1ff0500af4e1e160f4153cacc7b9a32ad7b641f32e23b4fcbda303",
+        "725180f446b76cd039f059499aa7a55c95353b0ceb71b88c068675044b23b232"
+      ],
+      "method": "semantic",
+      "score": 0.92705,
+      "different_labels": false,
+      "intentional_pair": false
+    }
+  ],
+  "review": {
+    "reviewer": "GPT in ChatGPT Work, same-session review. No separate reviewer model.",
+    "review_modes": {
+      "targeted_same_session_context": 97,
+      "label_hidden_same_session": 59
+    },
+    "random_sample_count": 50,
+    "targeted_sample_count": 120,
+    "reviewed": 156,
+    "disagreements": 0,
+    "disagreement_rate": 0.009302325581395349,
+    "rejected": 0,
+    "corrected": 2,
+    "previous_attempts": [
+      {
+        "reviewed": 59,
+        "disagreements": 2,
+        "rejected": 2,
+        "corrected": 2
+      }
+    ],
+    "alert_dispositions": {
+      "019ba556fb10c0d905d676f0338fffda97972be5fbcfb77cc0de234d17d99c6c": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שינוי סדר קיטלוג מקומי לעומת תיאום פנימי למתנדבים."
+      },
+      "02756732ae71c5609a021dfa8e47935951c520f5ab9b8ccaa8d6a0bc502082b9": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: ייעוץ לימודי כללי לעומת ידע כללי על תרגום."
+      },
+      "048f18783b98d83d2b0607eb54d84ae6fa80d5ab59decb1cc72a19aa2bf9db6e": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: סידור פנימי של כלי מעבדה לעומת הכנה רגילה למסירה פנימית."
+      },
+      "058b319ed83e1ef3d2de8d5bea33b00843e0734d67e77d445bde113beb795bef": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תיאום סידור צוות לעומת קביעת שעת האזנה פנימית."
+      },
+      "0b1b1921244ef36928ce347ca254ffc07e53f7007f23dde0842973e488a329df": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: טיפול בשלטי צוות לעומת קביעת שעת האזנה פנימית."
+      },
+      "0c4d181ebe5d595b5a6923892e66c7a3aaccfbcb5086e7e8a3bcf3a5219618b4": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: נתון פנימי על אובדן כלל מסלולי הפינוי לעומת הסכם לא פומבי מפיל יחד את כל מסלולי המימון."
+      },
+      "0f1feacc2d82d847ee838a2f190db22bd1d0efaea500039570d66ae094e2768c": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תקרת פיצוי לפני דיון לעומת תנאי רכש פנימי."
+      },
+      "12786e278c0eec87a00448d3d66e692713bdb265b621116a439019032f36f780": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: החלטת התקשרות מהותית טרם הודעה לעומת החלטת תמחור הפצה פנימית."
+      },
+      "144350522f282e26f1c2376016f22470e37c3c5f5a06e54fc1020bb9dfa61bc9": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: זכות הפצה שלא פורסמה לעומת בלעדיות הפצה שלא פורסמה."
+      },
+      "1550c398f36e8e8860039baf5ffdbd385829e1005c57337cefd333c4e341a7a4": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שאלה יום יומית לעומת שיבוץ שגרתי לחדר."
+      },
+      "162e28b5e241530a46d04e7e92175a6701dd7366297aee2f88db0ba5accda85a": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שגרת הכנה לעומת סידור קובצי דמה."
+      },
+      "18ccac1b3d3c03489e8bc975ef0b9cf72a97f37e0ef5ec68ee77fb4406592eaa": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: החזרת דפי תרגול לעומת סידור קובצי דמה."
+      },
+      "18d73d941a8005cc006975756aedf23a9743adfdd6906234635ef44cc4b0db48": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תיאום צוות להפקה לעומת חומר פנימי להכנה."
+      },
+      "18fbec02cdc777f802c12f32a86540a891f2cf4e4cc3e04ee1605b855b4b1fce": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: סידור שגרתי לעומת שאלה על חלוקת זמן."
+      },
+      "19c68c1d2823588d92fc3a9f55a01a1ad530d6f3fe64e82006507e35b7f5b6b3": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שגרת הכנה לעומת הכנה רגילה למסירה פנימית."
+      },
+      "1a523977aee744b6981706f8a6a0e21fc80ecadba104b344529df57d6b2458bf": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: בקשת גישה לשדה קטלוג רגיל לעומת הקצאת עבודת עריכה."
+      },
+      "1a9bb7486d15da287dac8d5c5c393ad02ff1933f09eb33c69b14fb4f352f91f0": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: ייעוץ לימודי כללי לעומת שגרת הכנה."
+      },
+      "1edc6986e070c24adfa701f5c55e8a4ba36389f8f9f82ad8bb4160fd4c4f1ab6": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שאלת שימוש כללית באפליקציה לעומת תיאום צוות תחזוקה."
+      },
+      "1f178242c03314b0de63b86290b64b3f67969b26d947a0d3611fce5fc3160907": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: קבלת החלטה עסקית לפני פרסום לעומת עסקה מהותית טרם יידוע."
+      },
+      "2153d6584ce66fb18bbc98eb914e5d105c5a62f0d6af5ba3985689c77e427406": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: פרט תפעולי על קיטלוג לעומת סידור קובצי דמה."
+      },
+      "23b16dbb627479eaa6c120662d6aad2ca1abeaa21497b236aa4b328a2ad1c9b3": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: ביטול חוזה שטרם דווח לעומת החלטת ביטול מהותית טרם ההודעה."
+      },
+      "272882830db1ebb120a58d9a4571d710c82df3c51995653594fd063457c5ba4c": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: פרט תפעולי על קיטלוג לעומת הכנה רגילה למסירה פנימית."
+      },
+      "290a0f3a5b381d58937050d68534cd9538ee5c3fe1872102a97dc121b6683f63": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תור כיול פנימי שגרתי לעומת פגם תצוגה מקומי."
+      },
+      "2c8f352c7cdf5d49eb155397c583fb74a0fe6293d97252db817e05b140d22a98": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: החלטת חלוקת קבוצות שגרתית לעומת איסוף שגרתי של סקרי בודקים בסוף ההרצה."
+      },
+      "36d28981a0d83703fa9e59166ad0a73ad1542a5ae43a81c3b8bbf479dd0d3bc1": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: ממצא פנימי מכריע לגבי חלופת הפיתוח לעומת פיתוח חומר נבחר לפי ראיה לא פומבית."
+      },
+      "395f5fe58792dd30179979971f7b6d96fa29861d2b4523719cb62ddd88c3e8f3": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שינוי חלוקת אחריות משמעותית לעומת עסקה מהותית טרם יידוע."
+      },
+      "3ad662332920565aee0eeca374e93993d78a98be04a9a2d1333b2d6e4a77bb12": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: משימה תפעולית שגרתית של צוות ספרייה לעומת תיאום צוות תחזוקה."
+      },
+      "3cb18a517c5ff38014871383c514e0790c748184715a1f13ab5ee25fb336f942": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: ממצא מפר התחייבות לקוח לעומת כשל קבלה מפר התחייבות."
+      },
+      "4bbf22822e3028aa0e9f96f7509a87e7e54329976213f7ba8b7b8a6575f9b0eb": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: ביטול פרק בעל השפעה על חוזה לעומת מסירת עבודה שגרתית."
+      },
+      "4c17b8d4d05bf8525196a80d014292ffde40441fac97ebdd948d4137fdcffa8c": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שינוי בעלי תפקיד במשימה שגרתית לעומת תורנות הדרכה."
+      },
+      "4e495afaeb6ee8e069ce9401012ece55b5f323f353bcf90c96b6d0707e42a326": {
+        "status": "keep",
+        "reason": "אותו סידור של מסך התרגול מופיע באתר הפתוח מול לוח פנימי של צוות."
+      },
+      "51fe9bbfd3414159a2fea1e8a34620cfadf17e5ef3af9888ab3ef382c8a0753d": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: החלטת חלוקת קבוצות שגרתית לעומת החזרת דפי תרגול."
+      },
+      "52bd1e53394415e1818702588fa910e740ff12d752ea34116a3f057a033ba637": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: הפסקת קו שלא פורסמה לעומת משבר אצל לקוח שטרם הוכרז."
+      },
+      "5473f4d8d5d588c9def3c5dc056a2665721f8975bf8d652ad95d4fddfcbafd87": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: בדיקת שגרה לעומת החזרת דפי תרגול."
+      },
+      "54a9c6ca533e9925c308de08914bc1fe218fee621de4f0e752ffb9c93f6b9e78": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תיאום מדידת מגשים לעומת בקשת שינוי מקומית."
+      },
+      "54f16619ad17753416f58d4daeaac3cc5858d3a9bac48a92b1077f0c380213a6": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: עמדת מחיר פנימית לעומת תנאי רכש פנימי."
+      },
+      "5638fe70749708b75e731544cdf4e57d09ab2023f3d6ae35834a11ef13e73156": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: דוח פנימי מראה כשל שחזור חוזי מהותי לעומת ממצא לפני מסירה מחייב להשהות גרסה בגלל מסמך מחייב חסר."
+      },
+      "59ac5979ab78836d2b62a7ddc6b6e08546e2d68806c9654ae77011ef1e6d09b6": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שינוי חלוקת אחריות משמעותית לעומת מועד הודעה על מהלך חוזי שלא פורסם."
+      },
+      "5e5582b0f2242b32cc83ec11c20580d09e821df825d117d44c8cb473041de1cb": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: פרט תפעולי על קיטלוג לעומת החזרת דפי תרגול."
+      },
+      "621e1efc1991fcca393cb0d1630a4272dd92094a1a4aba911758960f27e1e70a": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שינוי בעלי תפקיד במשימה שגרתית לעומת קביעת שעת האזנה פנימית."
+      },
+      "692c1bd4f3914b966a78caf3a0c0ccffe635a807b661484a5fd45b97ee0bf251": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: מסקנה פנימית מהותית לעומת כותרת מנהלתית לצוות פנימי."
+      },
+      "6974ff5f79002335fed2b34c581269c3d6d9415f05b029ef56e1807c36055592": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שגרת פיתוח לעומת שלילה של השבתה ופעולת ניקוי בדיקה."
+      },
+      "715ce50d884d0abe5c34265af5511468fa20806de4378dc331a9c09931f43021": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: זכות הפצה שלא פורסמה לעומת החלפת ספק מהותית טרם יידוע."
+      },
+      "7490df67f19d9b146697aada74adb585cc573c720a611229e6adc53dbb070bee": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: עניין עבודה שגרתי לעומת תיאום צוות תחזוקה."
+      },
+      "75299e7c8579cc623332f489d9b3b6572f86584f211c0b4b7b53528d2f7ab20e": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תרגיל כתוביות פומבי לעומת סידור עריכה פנימי."
+      },
+      "7abb87746b197ec1316b36342df52da15e3585d81f514d9392bdda0341694cc2": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: ביטול חוזה שטרם דווח לעומת שינוי זכיין לפני פרסום."
+      },
+      "818d8622fb1a6d40498926abc9355dc1785565700aa89b97f15c85abac3d1d62": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: חלוקת עומס פנימית נקודתית לעומת הקצאת עבודת עריכה."
+      },
+      "88f1dbe4d10dda6e7e4f7fa58d6c5f969ac272a32ca4fcb5d1ec920e4dbf0d4f": {
+        "status": "keep",
+        "reason": "אותה סיבת ביטול פוגעת בחלופת נמל יחיד או בכל אמצעי הפינוי באזור, כולל הגיבויים."
+      },
+      "8b2401ead8e14a4f1bcabf0b4aba9ff252a7721d9c0ef6dda58893880b44b972": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: כשל באישור נתוני מחקר לעומת משבר אצל לקוח שטרם הוכרז."
+      },
+      "8cd92602088052a5b9a4bf81b83ba7b136c0aa377fa43a2488c923219b6ad370": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: כותרת תחביב פתוח לעומת המלצה כללית לצפייה."
+      },
+      "8d3f9c3518f61b6592c9c9d4bfe86699cad2d2d24df5389dfc1d4f9b95f0fd15": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: בקשת גישה לשדה קטלוג רגיל לעומת תקרת פיצוי לפני דיון."
+      },
+      "8d4fa6db0ad3e8adf4d356056cdaa6342716e1d59c520862efd722efe9f35008": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תוצאת בדיקה מסכנת התחייבות לעומת בקרת גיבוי פנימית חושפת פער בהתחייבות."
+      },
+      "8e4999cb48d8dbfd44c5c818dff23ca9ab02c6b162603dc2de25f88c2473acc7": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תיקון אות בממשק בדיקה לעומת חלון שינוי בסביבת בדיקות."
+      },
+      "9309e3b327d595d772e1c04ed09a51ec2a2ccf2bd0dcf1001cf19e4253359def": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תיאום פנימי למתנדבים לעומת חלוקת כיבוד משרדית."
+      },
+      "98be5748cfba775d0d394b06fbaf93b4d4d071aa0de170b6b1884df78fb30115": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שינוי חדר פנימי לעומת קביעת שעת האזנה פנימית."
+      },
+      "98dd265551f16d5f99b67b858c0997e75ec345ce37e5075fb33a67669fd30367": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שיחה יומיומית על כתוביות לעומת תצפית יומיומית."
+      },
+      "9b0f1e50c8ca6dd968b75a0febc8cb4f370f8d417ee40e0d54e77584b84ca6cd": {
+        "status": "keep",
+        "reason": "תוצאת פתיחת תמונות שגרתית בסביבת ההדרכה מתחלפת בכשל שלמות בחבילת לקוח שעוצר התקנה."
+      },
+      "9e572d08c7cf7cf570ec4f36b3066f02bec626b96c281f627b84997e82955ddc": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שגרת פיתוח לעומת טיפול בשלטי צוות."
+      },
+      "9f37fbdfd938cd9799c80e0ad901cdfc3f0ed7e704f1a12cb95f75e3ad98084e": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: כשל באישור נתוני מחקר לעומת תצפית חינוכית ללא ממצא ארגוני."
+      },
+      "a098b15b9ba30084e9dfc211c1db6f0ed5fd3feaf6f3450e87a6062e5000ded9": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תיעוד שגרתי של צוות תצוגה לעומת החזרת דפי תרגול."
+      },
+      "a0fee995f79725cc7102d9d34d869f1ecfe993fcc2647629310024d995e9758c": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: טיפול בשלטי צוות לעומת שגרת הכנה."
+      },
+      "a102eb58bb2047c248ca613035e45a8c2c52f02255ff8ad6ac27b41a4f4b5efc": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: בקשת גישה לשדה קטלוג רגיל לעומת סדר עבודה פנימי."
+      },
+      "a486474a71647606e47b9082505340c4d42ff5dd3729127c7c03739767baf059": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: טיפול בשלטי צוות לעומת סידור פנימי של כלי מעבדה."
+      },
+      "a68745585508fd77ecf0113b95e2b0fba54d6f78480348529c925721325cdcda": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: החלטה על החלפת ספק מרכזי לעומת החלטת הפסקה לפני דיווח."
+      },
+      "ac391b2cddbec27c6ef55a6c92e762faafc1655ea8cf53276168b2272048f9e8": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: בקשת גישה לשדה קטלוג רגיל לעומת זכות הפצה שלא פורסמה."
+      },
+      "ace86bff4faf04f5d5813dc18e2c954404294f7a595ce43bce8efb5aee3e329e": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: מסירת עבודה שגרתית לעומת רישום ציוד פנימי."
+      },
+      "b03a5c4a2871f5f34b3ffaa253e1ce1d4fdc251e0ec78358c4c150b0b0974a4e": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: ממצא קבלה משפיע על תעודה לעומת סבב קבלה מגלה חיוב כפול שעוצר קליטת לקוחות."
+      },
+      "b285f19347338b1d8f8d20bb959ee0eb46247a2b222ef7b9767ebbb19fc865d4": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תיאום עם סגל לעומת בקשת החלפה רגילה."
+      },
+      "b50b42165dada3fd6d3605419d5eebf6094cefcb23f8745b86d0c4e20dcf1781": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תיאום שגרתי לדלפק כרטיסים לעומת תוכנית עבודה פנימית על מוצגים רגילים."
+      },
+      "b53221a3d0ed163eee4b13a0c0fe49d50e25ca4ad4096656a570f1717648bcc3": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תיאום צוות להפקה לעומת אירוע פתוח."
+      },
+      "b5e7a7813a090a4162551844e69835ea04af03bf2c18daed420a5a9594f6857e": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: סידור שגרתי לעומת תיאום צוות תחזוקה."
+      },
+      "b864093c9ace65592cc302491096b22aad40c816dc24f48f4e228ca7e7675644": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: חלוקת מפתחות פנימית לעומת עדכון כלי מדידה שגרתי."
+      },
+      "b872f58595ab8f3ab60eb52f3ff48f2dffa8b554d85c22a5d4cef21c9efc2b0c": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תיקון אות בממשק בדיקה לעומת החלפת ספק מהותית טרם יידוע."
+      },
+      "b89746535f31c1bc296210fe5cc1c6304114f53fc5fcb3c765c36410386a828b": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: כותרת תחביב פתוח לעומת ברכה יומיומית ללא הקשר פנימי."
+      },
+      "b9e3254c9dd42d1cffc83ae25e975eef10eafc443fc74a69162040aaef81be52": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שיפור טופס מקומי לעומת תיאום סידור צוות."
+      },
+      "baaafa53d241402ccc0b602e744f348c8228580f464b5384f00dfbaea120825c": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: איסוף הערות עריכה לעומת סידור קובצי דמה."
+      },
+      "c15f1c35a454dd0cccc92e5f3df3a7212cd400bc8f658577fc7480e715b5687b": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: ממצא מפר התחייבות לקוח לעומת דוח קבלה פוסל חוזה משמעותי."
+      },
+      "cbe97e2d01474210589032a0e21f2fa57ce53a79e8326740bcdf77f6bd2b4123": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תורנות הדרכה לעומת הקצאת עבודת עריכה."
+      },
+      "cc32d4d6fef7f671c613e1a2c09d48f9f608af46e2c45c65080e9a000b3c0c3a": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שיחה יומיומית על כתוביות לעומת החלטת תמחור הפצה פנימית."
+      },
+      "cce94c0b7ca97b93504449d63c07fa13c97ed8015d969520ce1954e3c6bed279": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: מסקנה פנימית מהותית לעומת תור כיול פנימי שגרתי."
+      },
+      "ce2d96c061812a54e75e7e14384ce143d15a7d725d9206407bba3ec49fb9f69c": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: נתון פנימי על אובדן חלופת פינוי מקומית לעומת הסכם לא פומבי מפיל יחד את כל מסלולי המימון."
+      },
+      "cebdb2b9c2831a423007d67715b9bf51224d091adea20be2545cca2f65949810": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: בירור יומיומי לעומת שיבוץ מדריכים פנימי."
+      },
+      "d3bcfaae3f16c0b6b2b03d7ae4577caf7efd1548d10c2bee670d0fea819c7994": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: סידור שגרתי לעומת עניין עבודה שגרתי."
+      },
+      "d99759ced262175e28578f89ad52d09032d457a736662c12a4c4294bcc55435c": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: הקפאה של שירות משמעותי טרם פרסום לעומת הפסקת הסדר נסיעות מהותי."
+      },
+      "db3db688cf2b5a9fd6ec45c5ae2ad318d31265dcd4122cd7f0ad7135d6551b87": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שינוי סדר קיטלוג מקומי לעומת סידור קובצי דמה."
+      },
+      "dbacd76c0d29843688693bb9512da5210fbce81e34517e54e14cb5f7538d53d8": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: מדידה פנימית מבטלת אספקה חוזית לעומת פיתוח חומר נבחר לפי ראיה לא פומבית."
+      },
+      "dbca7541b9acec33d72ac5108b664dbbb0575712f7c5b80b333f2a57b62b60ec": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: השלמת תיאום פנים לעומת בירור יומיומי."
+      },
+      "e0a336b7a92ce9e4cacae0b0bf71bf5652c2b97811db6186b35749105fd8b6e7": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: טיפול בשלטי צוות לעומת סידור קובצי דמה."
+      },
+      "e0f0594d713e9013a7ae303fa83ea2b23ee33dbb8b0411fc1f366bfdaa94e9c8": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תיאום ציוד נקודתי לעומת שיבוץ שגרתי לחדר."
+      },
+      "e3b2286641bef7e1ad8f03b54793b988ccba36f011bbd0cf8bf58b9371208311": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תיאום צוות תחזוקה לעומת עבודה יומיומית פנימית."
+      },
+      "e48599dfe007a768d7df2973eb717777612384ef5bc64d2d57262912d471ccf3": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: הקצאת ציוד מקומית לעומת סידור פנימי למשתלה."
+      },
+      "e64bb1dd7731f47442573d48f18d68499ab62acd0ac3ebb3da73d41872184c94": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: כותרת למתכון ביתי לעומת כותרת תערוכה."
+      },
+      "e6cc561f9550f9af12a39254e9a4575ef2bdd481b9b5b7421b319549cd5ea1c2": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: קובץ צוות שגרתי לעומת הקובץ זמין לצוות בדיקה בלבד."
+      },
+      "e8307d4221ea28ffd6cebfaa3147186bac3f51f07c2a164d3557001d84788932": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: טבלה מספקת כתובת לכל מקור שנחשף לעומת הכרעה מינהלית שלא הוכרזה."
+      },
+      "eb1c56d109b74b3db03f3b5451e4314066b1e2acba7055620979f452a0bb48a8": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תחביב יומיומי לעומת סידור פנימי של כלי מעבדה."
+      },
+      "eb43d7c30858bd578a209eea8a8091ceaa4b3238006363281e76af463e35e209": {
+        "status": "keep",
+        "reason": "הנוסח שומר את תוכן הרשימה ומשנה את הגישה אליה מפרסום לכל המבקרים לתיקייה מוגבלת לצוות הקיטלוג."
+      },
+      "ee1808da0973234eacd0eb9942445e4065db1c48fb6d6b9535725633afc498e1": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: מונח פתוח לעומת מונח לימודי."
+      },
+      "ef2bf60340e1c84410774a1d64fb3dcc8ba178ec74281392ab34ad6e4389d56e": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: פגם תצוגה מקומי לעומת משימת טיוב רגילה."
+      },
+      "ef654406a53cc7e3f59ef25829780c073de7176f39f2aa6caba820863f45085c": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: אירוע פתוח לעומת שירות לקהל."
+      },
+      "f01da7965bbcd627e57b72cc7de553cab1f000666a1f9055297a7b16f5d0e45e": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: החלפת ספק מהותית טרם יידוע לעומת בלעדיות הפצה שלא פורסמה."
+      },
+      "f64c8f6e398bdacc16b592463b2238489cf9ca5f176cb7dfdef2581e9413b564": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: החלטה מהותית על תקציב לעומת החלפת ספק מהותית טרם יידוע."
+      },
+      "f89405efe513f0b1cffd142e273ebbe119315bedb743e4b693f9c9a2de33e8ae": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: בקשת שינוי מקומית לעומת שיבוץ שגרתי לחדר."
+      },
+      "f8c2cf7234a622b77fe83622d25961eb4fdb901e3fb0ed572e9e57ce56542d16": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: רשת איסוף חיונית תלויה בהסדר מוסתר לעומת תוכנית משמידה את כלל העדויות לפני ערר."
+      },
+      "fa2b876d2278686aa121aab2966464cb1932331e7da381c221d6d9fa8aad63a5": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: בקשת גישה לשדה קטלוג רגיל לעומת תורנות הדרכה."
+      },
+      "fbc206907f357ec8718ff277036da6b0e2a77153147a26e59bc3ca2a4c06f6c8": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: שינוי בעלי תפקיד במשימה שגרתית לעומת שיפור טופס מקומי."
+      },
+      "fdcb902c212cd5122ee5ea3ed43748c1e58192da6b378dc66efbe188de4fcc74": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: דוח קבלה פוסל חוזה משמעותי לעומת מגבלה שתכריע קבלה."
+      },
+      "fdf43a63bf7917c07fda2340ac0466c513012fe71df3bb2204ace9a8a771892c": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: השלמת תיאום פנים לעומת עצה כללית לארגון חלקים."
+      },
+      "fefef15fc753f94812d8d1a2e2fd9bcded56b2f09f9d5e9610da8a4cfdb1f2a2": {
+        "status": "keep",
+        "reason": "מוקדי המידע שונים: תורנות הדרכה לעומת משימה תפעולית שגרתית של צוות ספרייה."
+      }
+    },
+    "counterfactual_dispositions": {
+      "exhibit-print": {
+        "status": "keep",
+        "reason": "הנוסח שומר את תוכן הרשימה ומשנה את הגישה אליה מפרסום לכל המבקרים לתיקייה מוגבלת לצוות הקיטלוג."
+      },
+      "civic-screen": {
+        "status": "keep",
+        "reason": "אותו סידור של מסך התרגול מופיע באתר הפתוח מול לוח פנימי של צוות."
+      },
+      "orchard-photo": {
+        "status": "keep",
+        "reason": "תוצאת פתיחת תמונות שגרתית בסביבת ההדרכה מתחלפת בכשל שלמות בחבילת לקוח שעוצר התקנה."
+      },
+      "ferry-fallback": {
+        "status": "keep",
+        "reason": "אותה סיבת ביטול פוגעת בחלופת נמל יחיד או בכל אמצעי הפינוי באזור, כולל הגיבויים."
+      }
+    }
+  }
+}
