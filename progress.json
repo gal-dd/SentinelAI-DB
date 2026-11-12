@@ -148,9 +148,9 @@
   "parallel_drafts": {
     "work": {
       "checkpoint": 6,
-      "records": 120,
+      "records": 284,
       "path": "drafts/batch-0006/candidates.jsonl",
-      "sha256": "204277a4605dadf4886b0c05fdc773a55e0eed19426b6df44844915654d0b015",
+      "sha256": "55fdfbf38d5733fd6ed730a0a1548c0607731c4cc459b759e63dd7602d7944c6",
       "review_path": "drafts/batch-0006/review.json",
       "status": "awaiting_production_checkpoint_0005_before_assignment"
     }

@@ -7,82 +7,88 @@
     "production": 2000,
     "pilot": 200
   },
+  "producer_0005_snapshot": {
+    "commit": "0cf75e22253b06c527a0945ce48216103748627b",
+    "distinct_normalized_texts": 400,
+    "exact_duplicates": 0
+  },
   "schema": "passed",
   "document_form": "passed",
   "normalized_exact_duplicates": 0,
   "metrics": {
-    "records": 120,
+    "records": 284,
     "label_lengths": {
       "נמוך": [
-        0,
-        10,
-        16,
-        4
+        7,
+        26,
+        26,
+        12
       ],
       "בינוני": [
-        0,
-        10,
-        16,
-        4
+        7,
+        26,
+        26,
+        12
       ],
       "גבוה": [
-        0,
-        10,
-        16,
-        4
+        7,
+        26,
+        26,
+        12
       ],
       "חמור": [
-        0,
-        10,
-        16,
-        4
+        7,
+        26,
+        26,
+        12
       ]
     },
     "labels": {
-      "נמוך": 30,
-      "בינוני": 30,
-      "גבוה": 30,
-      "חמור": 30
+      "נמוך": 71,
+      "בינוני": 71,
+      "גבוה": 71,
+      "חמור": 71
     },
     "lengths": {
-      "short": 0,
-      "sentence": 40,
-      "paragraph": 64,
-      "long": 16
+      "short": 28,
+      "sentence": 104,
+      "paragraph": 104,
+      "long": 48
     },
     "origins": {
-      "synthetic": 70,
-      "fictional_document": 50
+      "synthetic": 178,
+      "fictional_document": 106
     },
     "styles": {
-      "manual": 3,
+      "manual": 5,
       "transcript": 2,
-      "letter": 5,
-      "lesson": 3,
-      "conversation": 2,
-      "ticket": 3,
-      "mail": 14,
-      "minutes": 7,
-      "report": 10,
-      "memo": 5,
-      "audit": 11,
-      "incident": 6,
-      "worksheet": 4,
-      "notice": 5,
-      "chat": 19,
-      "catalog": 4,
-      "faq": 2,
-      "field-note": 3,
-      "qa": 5,
-      "log": 4,
-      "lab-note": 2,
-      "interview": 1
+      "letter": 16,
+      "lesson": 8,
+      "conversation": 4,
+      "ticket": 8,
+      "mail": 29,
+      "minutes": 14,
+      "report": 17,
+      "memo": 15,
+      "audit": 27,
+      "incident": 15,
+      "worksheet": 10,
+      "notice": 11,
+      "chat": 45,
+      "catalog": 9,
+      "faq": 5,
+      "field-note": 6,
+      "qa": 9,
+      "log": 15,
+      "lab-note": 8,
+      "interview": 4,
+      "glossary": 2
     },
-    "scenario_count": 21,
-    "source_group_count": 21,
+    "scenario_count": 37,
+    "source_group_count": 37,
     "edge_cases": 2,
     "counterfactual_pairs": 0,
-    "records_with_latin": 4
+    "records_with_latin": 8
   },
   "provisional_quotas_assuming_checkpoint_0005_matches_plan": {
     "נמוך": [
@@ -112,28 +118,28 @@
   },
   "provisional_remaining_label_lengths": {
     "נמוך": [
-      7,
-      40,
-      27,
-      21
+      0,
+      24,
+      17,
+      13
     ],
     "בינוני": [
-      7,
-      40,
-      27,
-      21
+      0,
+      24,
+      17,
+      13
     ],
     "גבוה": [
-      7,
-      40,
-      27,
-      21
+      0,
+      24,
+      17,
+      13
     ],
     "חמור": [
-      7,
-      40,
-      27,
-      21
+      0,
+      24,
+      17,
+      13
     ]
   },
   "semantic_preliminary": {
@@ -147,14 +153,37 @@
     "search": "exact_cosine_top_k",
     "cosine_threshold": 0.92,
     "neighbors_per_record": 12,
-    "indexed_records": 2320,
-    "scanned_records": 120,
-    "candidate_pairs": 158
+    "indexed_records": 2484,
+    "scanned_records": 284,
+    "candidate_pairs": 536
   },
   "alerts_by_method": {
-    "semantic": 158
+    "semantic": 536
   },
-  "exceptional_alerts_preliminary": [],
+  "exceptional_alerts_preliminary": [
+    {
+      "id": "07155cc123d2b6df4d74e43f98e75af33e6bdbf8e324ff49b4c7a65087a41858",
+      "records": [
+        "5e322b7dff4e8bc017a867ee88fa67d678d58bbae911606c5eb882490a048b48",
+        "cba93145fb958fa4704cf39d5ae8160582cb2f06c1daa6bf7c420d8f7608f16f"
+      ],
+      "method": "semantic",
+      "score": 0.94652,
+      "different_labels": true,
+      "intentional_pair": false
+    },
+    {
+      "id": "169ede1319b6d8933d59764b3f6443250b48b0f2e148e54fdae0a919a50e0883",
+      "records": [
+        "2f448c152cc8d33e45e2d4b07187b448f586649d03176971f6952120780d3ad7",
+        "cba93145fb958fa4704cf39d5ae8160582cb2f06c1daa6bf7c420d8f7608f16f"
+      ],
+      "method": "semantic",
+      "score": 0.94435,
+      "different_labels": true,
+      "intentional_pair": false
+    }
+  ],
   "label_review": "pending",
   "resume": "Once 0005 is published, recompute quotas, cross-check its new records for duplicates, complete 500 candidates, and run normal checkpoint QA."
 }
