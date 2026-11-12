@@ -98,7 +98,7 @@ label הוא אחת מארבע הרמות, או reject כשאין הכרעה. st
             raise ValueError("Blind reviewer returned unexpected record IDs")
         judgments.update(response)
     comparisons = {}
-    for item in packet["alerts"]:
+    for item in packet.get("review_alerts", packet["alerts"]):
         comparisons[item["id"]] = {
             "texts": [packet["alert_texts"][key] for key in item["records"]],
             "intentional_pair": item["intentional_pair"],

@@ -25,7 +25,13 @@ def make_packet(rows, prior, scenarios, sources, model_dir, cache_dir, batch, pr
     picked.update(rng.sample(remaining_keys, max(0, random_count - len(picked))))
     targeted = {key for key, row in zip(keys, rows) if row["edge_case"] or row["pair_id"]}
     candidate_keys = set(keys)
-    targeted.update(key for hit in alerts for key in hit["records"] if key in candidate_keys)
+    # Embedding similarity is a screening signal, not a rejection criterion.
+    # Only high-risk pairs block a checkpoint pending semantic adjudication.
+    # Full alerts remain in quality reports for monitoring.
+    review_alerts = [hit for hit in alerts
+                     if hit["intentional_pair"] or hit["score"] >= 0.97
+                     or (hit["different_labels"] and hit["score"] >= 0.94)]
+    targeted.update(key for hit in review_alerts for key in hit["records"] if key in candidate_keys)
     pairs = {}
     for row in rows:
         if row["pair_id"]:
@@ -36,6 +42,7 @@ def make_packet(rows, prior, scenarios, sources, model_dir, cache_dir, batch, pr
         "targeted_sample": sorted(targeted),
         "texts": {key: by_key[key]["text"] for key in sorted(picked | targeted)},
         "alerts": alerts,
+        "review_alerts": review_alerts,
         "alert_texts": {key: by_key[key]["text"] for hit in alerts for key in hit["records"]},
         "counterfactual_pairs": {key: {member: by_key[member]["text"] for member in members}
                                  for key, members in pairs.items()},
@@ -59,7 +66,8 @@ def verify_decisions(packet, decisions, rows):
         if judgment.get("label") not in (*LABELS, "reject") or not str(judgment.get("reason", "")).strip():
             raise ValueError(f"Missing review label or reason for {key}")
     dispositions = decisions.get("alerts", {})
-    verify_pairs(dispositions, [item["id"] for item in packet["alerts"]], "similarity alerts")
+    required_alerts = packet.get("review_alerts", packet["alerts"])
+    verify_pairs(dispositions, [item["id"] for item in required_alerts], "high-risk similarity alerts")
     pair_dispositions = decisions.get("counterfactual_pairs", {})
     verify_pairs(pair_dispositions, packet["counterfactual_pairs"], "counterfactual pairs")
     if disagreements or rejected:
@@ -89,6 +97,9 @@ def verify_decisions(packet, decisions, rows):
         "corrected": sum(attempt["corrected"] for attempt in attempts),
         "previous_attempts": attempts,
         "alert_dispositions": dispositions,
+        "alert_reviewed_count": len(required_alerts),
+        "alert_unreviewed_count": len(packet["alerts"]) - len(required_alerts),
+        "similarity_policy": "screen_all_review_high_risk_v1",
         "counterfactual_dispositions": pair_dispositions,
     }
 

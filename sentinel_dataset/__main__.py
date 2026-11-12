@@ -96,7 +96,11 @@ def final_artifacts(args, state, prior, pilot):
             rejected += attempt["rejected"]
         corrected += review["corrected"]
     alerts = sorted(lexical + semantic, key=lambda item: item["id"])
-    pending = [item for item in alerts if item["id"] not in dispositions]
+    # Monitor all semantic neighbors; only unresolved high-risk alerts block finalization.
+    required = [item for item in alerts if item["intentional_pair"]
+                or item["score"] >= 0.97
+                or (item["different_labels"] and item["score"] >= 0.94)]
+    pending = [item for item in required if item["id"] not in dispositions]
     if pending:
         rows = {fingerprint(row): row["text"] for row in [*pilot, *prior]}
         needed = {key for item in pending for key in item["records"]}
@@ -116,6 +120,10 @@ def final_artifacts(args, state, prior, pilot):
     report = json_bytes({
         "metrics": metrics, "schema": "passed", "normalized_exact_duplicates": 0,
         "semantic": semantic_report, "similarity_alerts": alerts,
+        "similarity_policy": "monitor_all_review_high_risk_v1",
+        "alert_count_total": len(alerts),
+        "alert_count_high_risk": len(required),
+        "alert_count_unreviewed_routine": sum(item["id"] not in dispositions for item in alerts if item not in required),
         "alert_dispositions": {item["id"]: dispositions[item["id"]] for item in alerts},
         "label_review": {"reviewed": reviewed, "disagreements": disagreements,
                          "rejected": rejected, "corrected": corrected,
