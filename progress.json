@@ -12,9 +12,9 @@
     "prompts/v0.1.0.md": "3efbe35f6f92e270558eb7756a94b1a46c520a5e36a8b4b294f6d454346f2c0e"
   },
   "pilot_quality": "completed",
-  "production_records": 3000,
-  "last_checkpoint": 6,
-  "next_id": 3001,
+  "production_records": 3500,
+  "last_checkpoint": 7,
+  "next_id": 3501,
   "checkpoints": [
     {
       "checkpoint": 1,
@@ -75,6 +75,16 @@
         "metadata/checkpoints/batch-0006.jsonl": "610da5e50a88d8d0cfbd6bfa6eda2157c9c7a21a7e4498d3b9aafe072cb16de8",
         "reports/checkpoints/batch-0006.json": "6f474da591fb7d7a25e8091e4929b28d8c26b3b6ad081ca5c0e948ca27c2ca21"
       }
+    },
+    {
+      "checkpoint": 7,
+      "start_id": 3001,
+      "end_id": 3500,
+      "sha256": {
+        "data/checkpoints/batch-0007.jsonl": "85c68ae411e718555fe6d26fd0b2263380edf05e985da4adc8fb3cba916917db",
+        "metadata/checkpoints/batch-0007.jsonl": "8efd06f3fb9f67fc2d7788b2deefa95b58e48f34357f4dec60a307a85233d36d",
+        "reports/checkpoints/batch-0007.json": "36a2e00093bb79974b75b903baedf208eae4707d9a13a6ff93ce9c531b5a9597"
+      }
     }
   ],
   "final": null,
@@ -85,57 +95,57 @@
       "paragraph",
       "long"
     ],
-    "correction_horizon_records": 3500,
+    "correction_horizon_records": 4000,
     "accepted_label_lengths": {
       "נמוך": [
-        38,
-        300,
-        262,
-        150
+        44,
+        350,
+        306,
+        175
       ],
       "בינוני": [
-        38,
-        300,
-        262,
-        150
+        44,
+        350,
+        306,
+        175
       ],
       "גבוה": [
-        38,
-        300,
-        262,
-        150
+        44,
+        350,
+        306,
+        175
       ],
       "חמור": [
-        38,
-        300,
-        262,
-        150
+        44,
+        350,
+        306,
+        175
       ]
     },
     "remaining_label_lengths": {
       "נמוך": [
-        1212,
-        9700,
-        8488,
-        4850
+        1206,
+        9650,
+        8444,
+        4825
       ],
       "בינוני": [
-        1212,
-        9700,
-        8488,
-        4850
+        1206,
+        9650,
+        8444,
+        4825
       ],
       "גבוה": [
-        1212,
-        9700,
-        8488,
-        4850
+        1206,
+        9650,
+        8444,
+        4825
       ],
       "חמור": [
-        1212,
-        9700,
-        8488,
-        4850
+        1206,
+        9650,
+        8444,
+        4825
       ]
     },
     "next_checkpoint_label_lengths": {
