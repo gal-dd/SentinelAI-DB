@@ -1,0 +1,159 @@
+{
+  "checkpoint": 6,
+  "status": "draft",
+  "owner": "work",
+  "authoring": "GPT in Work. Python performed parsing and validation.",
+  "verified_against": {
+    "production": 2000,
+    "pilot": 200
+  },
+  "schema": "passed",
+  "document_form": "passed",
+  "normalized_exact_duplicates": 0,
+  "metrics": {
+    "records": 96,
+    "label_lengths": {
+      "נמוך": [
+        0,
+        10,
+        10,
+        4
+      ],
+      "בינוני": [
+        0,
+        10,
+        10,
+        4
+      ],
+      "גבוה": [
+        0,
+        10,
+        10,
+        4
+      ],
+      "חמור": [
+        0,
+        10,
+        10,
+        4
+      ]
+    },
+    "labels": {
+      "נמוך": 24,
+      "בינוני": 24,
+      "גבוה": 24,
+      "חמור": 24
+    },
+    "lengths": {
+      "short": 0,
+      "sentence": 40,
+      "paragraph": 40,
+      "long": 16
+    },
+    "origins": {
+      "synthetic": 56,
+      "fictional_document": 40
+    },
+    "styles": {
+      "manual": 2,
+      "transcript": 2,
+      "letter": 3,
+      "lesson": 3,
+      "conversation": 2,
+      "ticket": 3,
+      "mail": 11,
+      "minutes": 6,
+      "report": 8,
+      "memo": 4,
+      "audit": 9,
+      "incident": 5,
+      "worksheet": 3,
+      "notice": 4,
+      "chat": 15,
+      "catalog": 3,
+      "faq": 2,
+      "field-note": 3,
+      "qa": 3,
+      "log": 3,
+      "lab-note": 2
+    },
+    "scenario_count": 10,
+    "source_group_count": 10,
+    "edge_cases": 1,
+    "counterfactual_pairs": 0,
+    "records_with_latin": 3
+  },
+  "provisional_quotas_assuming_checkpoint_0005_matches_plan": {
+    "נמוך": [
+      7,
+      50,
+      43,
+      25
+    ],
+    "בינוני": [
+      7,
+      50,
+      43,
+      25
+    ],
+    "גבוה": [
+      7,
+      50,
+      43,
+      25
+    ],
+    "חמור": [
+      7,
+      50,
+      43,
+      25
+    ]
+  },
+  "provisional_remaining_label_lengths": {
+    "נמוך": [
+      7,
+      40,
+      33,
+      21
+    ],
+    "בינוני": [
+      7,
+      40,
+      33,
+      21
+    ],
+    "גבוה": [
+      7,
+      40,
+      33,
+      21
+    ],
+    "חמור": [
+      7,
+      40,
+      33,
+      21
+    ]
+  },
+  "semantic_preliminary": {
+    "status": "completed",
+    "model": "Xenova/multilingual-e5-small",
+    "reference_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+    "artifact_sha256": {
+      "model_int8.onnx": "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c",
+      "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+    },
+    "search": "exact_cosine_top_k",
+    "cosine_threshold": 0.92,
+    "neighbors_per_record": 12,
+    "indexed_records": 2296,
+    "scanned_records": 96,
+    "candidate_pairs": 123
+  },
+  "alerts_by_method": {
+    "semantic": 123
+  },
+  "exceptional_alerts_preliminary": [],
+  "label_review": "pending",
+  "resume": "Once 0005 is published, recompute quotas, cross-check its new records for duplicates, complete 500 candidates, and run normal checkpoint QA."
+}
