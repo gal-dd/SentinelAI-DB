@@ -12,9 +12,9 @@
     "prompts/v0.1.0.md": "3efbe35f6f92e270558eb7756a94b1a46c520a5e36a8b4b294f6d454346f2c0e"
   },
   "pilot_quality": "completed",
-  "production_records": 1000,
-  "last_checkpoint": 2,
-  "next_id": 1001,
+  "production_records": 1500,
+  "last_checkpoint": 3,
+  "next_id": 1501,
   "checkpoints": [
     {
       "checkpoint": 1,
@@ -35,6 +35,16 @@
         "metadata/checkpoints/batch-0002.jsonl": "1787ae97bc6f0ffc1147aeec8e6b1355a8cf03315e4acb84f0ff52f56fe8fd2b",
         "reports/checkpoints/batch-0002.json": "976a0f5cc00a9e04237c639a34e0a40bcb4a04768c32d64cde0ce975cc1e8f1f"
       }
+    },
+    {
+      "checkpoint": 3,
+      "start_id": 1001,
+      "end_id": 1500,
+      "sha256": {
+        "data/checkpoints/batch-0003.jsonl": "417a72b0338aa0c392550f09266a037f037a899db022071e1fe7af62e778a1f4",
+        "metadata/checkpoints/batch-0003.jsonl": "37fa68c318697a169f54c06b92085ea1afbd89b39e5900a2fd690e8a3f36632a",
+        "reports/checkpoints/batch-0003.json": "1849eac6d3098a91860825be8d1add2b451c7e7d9838c671d2e13c207d17fce3"
+      }
     }
   ],
   "final": null,
@@ -48,89 +58,81 @@
     "correction_horizon_records": 2500,
     "accepted_label_lengths": {
       "נמוך": [
-        18,
-        141,
-        58,
-        33
+        22,
+        177,
+        112,
+        64
       ],
       "בינוני": [
-        9,
-        149,
-        58,
-        34
+        16,
+        183,
+        112,
+        64
       ],
       "גבוה": [
-        9,
-        149,
-        59,
-        33
+        16,
+        183,
+        112,
+        64
       ],
       "חמור": [
-        9,
-        147,
-        59,
-        35
+        17,
+        181,
+        112,
+        65
       ]
     },
     "remaining_label_lengths": {
       "נמוך": [
-        1232,
-        9859,
-        8692,
-        4967
+        1228,
+        9823,
+        8638,
+        4936
       ],
       "בינוני": [
-        1241,
-        9851,
-        8692,
-        4966
+        1234,
+        9817,
+        8638,
+        4936
       ],
       "גבוה": [
-        1241,
-        9851,
-        8691,
-        4967
+        1234,
+        9817,
+        8638,
+        4936
       ],
       "חמור": [
-        1241,
-        9853,
-        8691,
-        4965
+        1233,
+        9819,
+        8638,
+        4935
       ]
     },
     "next_checkpoint_label_lengths": {
       "נמוך": [
-        4,
-        36,
-        54,
-        31
-      ],
-      "בינוני": [
-        7,
-        34,
-        54,
+        5,
+        37,
+        53,
         30
       ],
-      "גבוה": [
-        7,
-        34,
-        53,
-        31
-      ],
-      "חמור": [
+      "בינוני": [
         8,
         34,
         53,
         30
+      ],
+      "גבוה": [
+        8,
+        34,
+        53,
+        30
+      ],
+      "חמור": [
+        7,
+        35,
+        53,
+        30
       ]
     }
-  },
-  "draft_checkpoint": {
-    "checkpoint": 3,
-    "records": 500,
-    "status": "pending_quality_review",
-    "path": "drafts/batch-0003/candidates.jsonl",
-    "sha256": "9bbb7f5454c68a520e9d3af886dcc5e8f4dd2bd11bb1230436a4aabb0f8c90bd",
-    "review_path": "drafts/batch-0003/review.json"
   }
 }
