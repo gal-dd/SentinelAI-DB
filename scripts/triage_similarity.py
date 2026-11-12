@@ -50,9 +50,10 @@ def build_groups(alerts):
     groups = defaultdict(list)
     for item in alerts:
         groups[find(item["records"][0])].append(item)
+    for group in groups.values():
+        group.sort(key=lambda item: (RANK[priority(item)], -item["score"], item["id"]))
     return sorted(groups.values(), key=lambda group: (
-        min(RANK[priority(item)] for item in group), -len(group),
-        min(item["id"] for item in group)))
+        RANK[priority(group[0])], -len(group), min(item["id"] for item in group)))
 
 
 def load_texts(candidates):
