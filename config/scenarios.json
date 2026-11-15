@@ -1337,5 +1337,93 @@
     "styles": "official, conversational, educational",
     "distinction": "שפה דומה עם הקשר שאינו ביטחוני",
     "primary_domain": "general_negative_controls"
+  },
+  "missile-program-language": {
+    "domain": "מינוח ציבורי ותיעוד החלטות טיליות",
+    "background": "מערכת אבן־נוצה מנגישה לציבור דיווחים ומעדכנת כללי ציטוט לתוכנית בדיונית",
+    "facts": "מערכת אבן־נוצה מנגישה לציבור דיווחים ומעדכנת כללי ציטוט לתוכנית בדיונית",
+    "styles": "official, conversational, educational",
+    "distinction": "הסברה, עבודת תרגום, חיוב משפטי ושיתוף מקורות מוגנים",
+    "primary_domain": "missile_systems"
+  },
+  "missile-acceptance-appeal": {
+    "domain": "השגות ותיקון החלטות טיליות",
+    "background": "ועדת שביל־אבן מנהלת השגות על קבלת תוכניות ניסוי בדיוניות",
+    "facts": "ועדת שביל־אבן מנהלת השגות על קבלת תוכניות ניסוי בדיוניות",
+    "styles": "official, conversational, educational",
+    "distinction": "סדרי ערר, הכנת ישיבה, החלטת ערר וקשר חוצץ שמתבטל",
+    "primary_domain": "missile_systems"
+  },
+  "air-defense-public-consultation": {
+    "domain": "התייעצות ציבורית בתחום הגנה אווירית",
+    "background": "מינהלת צל־עמק מאמתת הערות, הבטחות ומסגרות פיקוח בין מוסדות בדיוניים",
+    "facts": "מינהלת צל־עמק מאמתת הערות, הבטחות ומסגרות פיקוח בין מוסדות בדיוניים",
+    "styles": "official, conversational, educational",
+    "distinction": "שקיפות, ריכוז שאלות, הסטת מדיניות והשלכות חוצות תוכניות",
+    "primary_domain": "missile_systems"
+  },
+  "ballistic-research-replication": {
+    "domain": "אימות חוזר במחקר בליסטי",
+    "background": "מכון שביט־נייר חוקר מקורות ותיעוד להשוואות עיוניות בלבד",
+    "facts": "מכון שביט־נייר חוקר מקורות ותיעוד להשוואות עיוניות בלבד",
+    "styles": "official, conversational, educational",
+    "distinction": "הסבר על שחזור מסקנה, תיעוד הצגה, תיקון משמעותי ומסמכים תלויים",
+    "primary_domain": "missile_systems"
+  },
+  "missile-transition-labor": {
+    "domain": "הכשרת עובדים ורציפות בתוכנית טילית",
+    "background": "צוות מסילה־כחולה מרכז הסדרי העברת ידע וכוח אדם בתוכנית טילית בדיונית",
+    "facts": "צוות מסילה־כחולה מרכז הסדרי העברת ידע וכוח אדם בתוכנית טילית בדיונית",
+    "styles": "official, conversational, educational",
+    "distinction": "הודעות מנהליות מול החלטות הסכם וחשיפת משתתפים מוגנים",
+    "primary_domain": "missile_systems"
+  },
+  "interceptor-claims-charter": {
+    "domain": "ניהול טענות ביחס למיירטים",
+    "background": "יוזמת מפרש־עיון מחברת מסמכים לתיאור מגבלות של טענות פומביות",
+    "facts": "יוזמת מפרש־עיון מחברת מסמכים לתיאור מגבלות של טענות פומביות",
+    "styles": "official, conversational, educational",
+    "distinction": "מידע גלוי, הכנה פנימית, ביטול ראיה מהותית, פגיעה כלל מערכתית",
+    "primary_domain": "missile_systems"
+  },
+  "drone-consent-archive": {
+    "domain": "ניהול תצלומי כטב״ם אזרחיים",
+    "background": "מרכז מזח־ענן מטפל בהסכמות ואחריות לשימוש מדעי בתצלומים",
+    "facts": "מרכז מזח־ענן מטפל בהסכמות ואחריות לשימוש מדעי בתצלומים",
+    "styles": "official, conversational, educational",
+    "distinction": "מידע גלוי, שגרה, זכויות ושיבוש הסכמה שיטתי",
+    "primary_domain": "uncrewed_aircraft"
+  },
+  "space-archive-handoff": {
+    "domain": "העברת ארכיון חיישני חלל",
+    "background": "תוכנית עדשה־שקטה מפעילה קטלוג אחריות לצורכי מחקר",
+    "facts": "תוכנית עדשה־שקטה מפעילה קטלוג אחריות לצורכי מחקר",
+    "styles": "official, conversational, educational",
+    "distinction": "תצוגה פתוחה, עבודת צוות, העברת בעלות ושלילת גישה רוחבית",
+    "primary_domain": "radar_sensors_space"
+  },
+  "communications-language": {
+    "domain": "שירותי תקשורת והחלטות גישה",
+    "background": "מוקד נוצה־חוט מרכז רישום אחריות בין ספקים וגופים",
+    "facts": "מוקד נוצה־חוט מרכז רישום אחריות בין ספקים וגופים",
+    "styles": "official, conversational, educational",
+    "distinction": "הדרכה, תפעול, בעלות על רשומות והעברת זהויות מוגנות",
+    "primary_domain": "cyber_communications_c2"
+  },
+  "defense-asset-warranty": {
+    "domain": "אחריות ושימוש בציוד ביטחוני כללי",
+    "background": "אגף מדף־ברזל מאמת התחייבויות ספק ותיעוד פגיעות עבודה",
+    "facts": "אגף מדף־ברזל מאמת התחייבויות ספק ותיעוד פגיעות עבודה",
+    "styles": "official, conversational, educational",
+    "distinction": "מושג פומבי, קליטה, הליך רכש וחשיפה מערכתית",
+    "primary_domain": "defense_logistics"
+  },
+  "civil-library-music": {
+    "domain": "השאלת ציוד מוזיקלי במרכז אזרחי",
+    "background": "ספריית מיתר־חלון מארחת קהל ומנהלת תיעוד זכויות",
+    "facts": "ספריית מיתר־חלון מארחת קהל ומנהלת תיעוד זכויות",
+    "styles": "official, conversational, educational",
+    "distinction": "תרבות, תיאום, התקשרות מהותית ושמירת תוקף ראיות",
+    "primary_domain": "general_negative_controls"
   }
 }
