@@ -1,0 +1,11 @@
+{
+  "batch": "0003",
+  "status": "partial_draft_not_ready_for_work",
+  "path": "drafts/chat/batch-0003/candidates.jsonl",
+  "records": 28,
+  "target": 500,
+  "remaining": 472,
+  "ids_assigned": false,
+  "production_files_modified": false,
+  "remaining_work": "Write 472 genuinely distinct examples to match all domain and label-length quotas; independently review blind labels, cross-draft overlap and near-similarity before handing to Work."
+}
