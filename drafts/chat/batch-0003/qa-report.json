@@ -1,5 +1,5 @@
 {
-  "status": "full_500_candidate_draft_pending_independent_editorial_QA",
+  "status": "500_candidates_created_blocked_by_editorial_similarity_review",
   "batch": "0003",
   "branch": "producer/chat-defense-v2",
   "records": 500,
@@ -47,10 +47,18 @@
     "exact_duplicates_vs_work_0002": 0,
     "exact_duplicates_vs_approved_v2": 0,
     "archive_v1_excluded": true,
-    "blind_label_review": "pending",
-    "semantic_domain_review": "pending",
-    "lexical_similarity_review": "pending",
-    "editorial_note": "Rewrites are formulaic. Semantic repetitions and suitability of long documents require editorial rewriting before production acceptance."
+    "blind_label_review": "not_performed",
+    "semantic_domain_review": "not_completed_independently",
+    "lexical_similarity_review": {
+      "status": "completed_warning",
+      "metric": "Jaccard unique normalized Hebrew word tokens",
+      "threshold": 0.73,
+      "total_pairs": 2307,
+      "affected_records": 280,
+      "note": "A flagged pair is not necessarily a semantic duplicate. However many long texts repeat whole editorial structure, so this is a substantive QA blocker."
+    },
+    "editorial_note": "Rewrites are formulaic. Semantic repetitions and suitability of long documents require editorial rewriting before production acceptance.",
+    "editorial_rewrite": "required_for_repetitive_long_form_clusters"
   },
   "initial_authored_preserved": 20,
   "initial_authored_not_in_final": 8,
