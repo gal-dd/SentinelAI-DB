@@ -1,0 +1,13 @@
+{
+  "batch": "0002",
+  "status": "500_candidates_authored_needs_editorial_review",
+  "draft_path": "drafts/chat/batch-0002/candidates.jsonl",
+  "qa_report": "drafts/chat/batch-0002/qa-report.json",
+  "records": 500,
+  "missile_count": 300,
+  "exact_duplicates": 0,
+  "near_similarity_pairs": 198,
+  "approved_records_added": 0,
+  "ids_assigned": false,
+  "note": "Worker owns final acceptance. Do not publish before editorial rewrite and blind QA."
+}
