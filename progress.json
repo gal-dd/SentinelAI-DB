@@ -4,10 +4,21 @@
   "pilot_records": 0,
   "pilot_hashes": {},
   "pilot_quality": "not_started",
-  "production_records": 0,
-  "last_checkpoint": 0,
-  "next_id": 1,
-  "checkpoints": [],
+  "production_records": 500,
+  "last_checkpoint": 1,
+  "next_id": 501,
+  "checkpoints": [
+    {
+      "checkpoint": 1,
+      "start_id": 1,
+      "end_id": 500,
+      "sha256": {
+        "data/checkpoints/batch-0001.jsonl": "8b57b2a82a376dd0c58ee3f667c4a53c9a7dbc4e377f7392df5067a93b467ed1",
+        "metadata/checkpoints/batch-0001.jsonl": "dd3d4da897fb35e6b4a9589dc35beb7c8c116a02d6229fd0f84e33e72e6eb9ed",
+        "reports/checkpoints/batch-0001.json": "536291dafe3fdb013b6694ade3606d3d171d52fff96fab4c0773f6b6a12518a3"
+      }
+    }
+  ],
   "final": null,
   "length_plan": {
     "length_order": [
@@ -19,54 +30,54 @@
     "correction_horizon_records": 2500,
     "accepted_label_lengths": {
       "נמוך": [
-        0,
-        0,
-        0,
-        0
+        6,
+        50,
+        44,
+        25
       ],
       "בינוני": [
-        0,
-        0,
-        0,
-        0
+        6,
+        50,
+        44,
+        25
       ],
       "גבוה": [
-        0,
-        0,
-        0,
-        0
+        6,
+        50,
+        44,
+        25
       ],
       "חמור": [
-        0,
-        0,
-        0,
-        0
+        6,
+        50,
+        44,
+        25
       ]
     },
     "remaining_label_lengths": {
       "נמוך": [
-        1250,
-        10000,
-        8750,
-        5000
+        1244,
+        9950,
+        8706,
+        4975
       ],
       "בינוני": [
-        1250,
-        10000,
-        8750,
-        5000
+        1244,
+        9950,
+        8706,
+        4975
       ],
       "גבוה": [
-        1250,
-        10000,
-        8750,
-        5000
+        1244,
+        9950,
+        8706,
+        4975
       ],
       "חמור": [
-        1250,
-        10000,
-        8750,
-        5000
+        1244,
+        9950,
+        8706,
+        4975
       ]
     },
     "next_checkpoint_label_lengths": {
@@ -96,64 +107,55 @@
       ]
     }
   },
-  "parallel_drafts": {
-    "work": {
-      "checkpoint": 1,
-      "records": 400,
-      "path": "drafts/work/batch-0001/candidates.jsonl",
-      "sha256": "dfffd1df295c62eff8166ee8f5f0cda3d5b21dcd9a165247f56b680c0a9e0750",
-      "review_path": "drafts/work/batch-0001/review.json",
-      "status": "partial_draft"
-    }
-  },
+  "parallel_drafts": {},
   "dataset_generation": "defense-focused-v2",
   "archive_path": "archive/general-v1",
   "domain_targets_file": "config/defense-domain-targets.json",
   "domain_counts": {
-    "missile_systems": 0,
-    "uncrewed_aircraft": 0,
-    "radar_sensors_space": 0,
-    "cyber_communications_c2": 0,
-    "defense_logistics": 0,
-    "general_negative_controls": 0
+    "missile_systems": 300,
+    "uncrewed_aircraft": 50,
+    "radar_sensors_space": 50,
+    "cyber_communications_c2": 50,
+    "defense_logistics": 25,
+    "general_negative_controls": 25
   },
   "domain_label_counts": {
     "missile_systems": {
-      "נמוך": 0,
-      "בינוני": 0,
-      "גבוה": 0,
-      "חמור": 0
+      "נמוך": 75,
+      "בינוני": 75,
+      "גבוה": 75,
+      "חמור": 75
     },
     "uncrewed_aircraft": {
-      "נמוך": 0,
-      "בינוני": 0,
-      "גבוה": 0,
-      "חמור": 0
+      "נמוך": 13,
+      "בינוני": 12,
+      "גבוה": 13,
+      "חמור": 12
     },
     "radar_sensors_space": {
-      "נמוך": 0,
-      "בינוני": 0,
-      "גבוה": 0,
-      "חמור": 0
+      "נמוך": 12,
+      "בינוני": 13,
+      "גבוה": 12,
+      "חמור": 13
     },
     "cyber_communications_c2": {
-      "נמוך": 0,
-      "בינוני": 0,
-      "גבוה": 0,
-      "חמור": 0
+      "נמוך": 13,
+      "בינוני": 12,
+      "גבוה": 13,
+      "חמור": 12
     },
     "defense_logistics": {
-      "נמוך": 0,
-      "בינוני": 0,
-      "גבוה": 0,
-      "חמור": 0
+      "נמוך": 6,
+      "בינוני": 6,
+      "גבוה": 6,
+      "חמור": 7
     },
     "general_negative_controls": {
-      "נמוך": 0,
-      "בינוני": 0,
-      "גבוה": 0,
-      "חמור": 0
+      "נמוך": 6,
+      "בינוני": 7,
+      "גבוה": 6,
+      "חמור": 6
     }
   },
-  "missile_domain_percentage": 0
+  "missile_domain_percentage": 60.0
 }
