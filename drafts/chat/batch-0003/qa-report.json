@@ -1,0 +1,38 @@
+{
+  "status": "partial_review_in_progress",
+  "requested_batch": "0003",
+  "records": 28,
+  "source": "manual_editorial_new_variations_inspired_by_prior_draft",
+  "comparison": {
+    "approved_v2": true,
+    "work_0002": true,
+    "chat_0002": true,
+    "archive_v1": false,
+    "exact_collisions": 0
+  },
+  "checks": {
+    "json_structure": "passed_for_partial",
+    "word_lengths": "passed_for_partial",
+    "semantic_domain_review": "manual_review_28_of_28",
+    "blind_label_review": "pending",
+    "similarity_full_scan": "pending",
+    "full_500_quotas": "not_met"
+  },
+  "counts": {
+    "by_label": {
+      "נמוך": 7,
+      "בינוני": 7,
+      "גבוה": 7,
+      "חמור": 7
+    },
+    "by_domain": {
+      "missile_systems": 8,
+      "uncrewed_aircraft": 4,
+      "radar_sensors_space": 4,
+      "cyber_communications_c2": 4,
+      "defense_logistics": 4,
+      "general_negative_controls": 4
+    }
+  },
+  "note": "Partial, not publishable to production. Needs 472 more genuine authored records and full independent QA."
+}
