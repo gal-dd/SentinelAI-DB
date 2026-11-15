@@ -1,38 +1,59 @@
 {
-  "status": "partial_review_in_progress",
-  "requested_batch": "0003",
-  "records": 28,
-  "source": "manual_editorial_new_variations_inspired_by_prior_draft",
-  "comparison": {
-    "approved_v2": true,
-    "work_0002": true,
-    "chat_0002": true,
-    "archive_v1": false,
-    "exact_collisions": 0
+  "status": "full_500_candidate_draft_pending_independent_editorial_QA",
+  "batch": "0003",
+  "branch": "producer/chat-defense-v2",
+  "records": 500,
+  "domain_counts": {
+    "missile_systems": 300,
+    "uncrewed_aircraft": 50,
+    "radar_sensors_space": 50,
+    "cyber_communications_c2": 50,
+    "defense_logistics": 25,
+    "general_negative_controls": 25
   },
-  "checks": {
-    "json_structure": "passed_for_partial",
-    "word_lengths": "passed_for_partial",
-    "semantic_domain_review": "manual_review_28_of_28",
-    "blind_label_review": "pending",
-    "similarity_full_scan": "pending",
-    "full_500_quotas": "not_met"
-  },
-  "counts": {
-    "by_label": {
-      "נמוך": 7,
-      "בינוני": 7,
-      "גבוה": 7,
-      "חמור": 7
+  "label_length_counts": {
+    "נמוך": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
     },
-    "by_domain": {
-      "missile_systems": 8,
-      "uncrewed_aircraft": 4,
-      "radar_sensors_space": 4,
-      "cyber_communications_c2": 4,
-      "defense_logistics": 4,
-      "general_negative_controls": 4
+    "בינוני": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "גבוה": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "חמור": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
     }
   },
-  "note": "Partial, not publishable to production. Needs 472 more genuine authored records and full independent QA."
+  "missile_percentage": 60,
+  "qa": {
+    "schema": "passed",
+    "length_quotas": "passed",
+    "domain_quotas": "passed",
+    "exact_duplicates_within_batch": 0,
+    "exact_duplicates_vs_chat_0002": 0,
+    "exact_duplicates_vs_work_0002": 0,
+    "exact_duplicates_vs_approved_v2": 0,
+    "archive_v1_excluded": true,
+    "blind_label_review": "pending",
+    "semantic_domain_review": "pending",
+    "lexical_similarity_review": "pending",
+    "editorial_note": "Rewrites are formulaic. Semantic repetitions and suitability of long documents require editorial rewriting before production acceptance."
+  },
+  "initial_authored_preserved": 20,
+  "initial_authored_not_in_final": 8,
+  "final_ids_assigned": false,
+  "published_to_production": false
 }
