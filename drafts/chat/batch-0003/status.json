@@ -1,6 +1,6 @@
 {
   "batch": "0003",
-  "status": "500_candidates_created_editorial_review_pending",
+  "status": "500_candidates_saved_editorial_rewrite_required_before_Work_intake",
   "records": 500,
   "missile_count": 300,
   "draft_path": "drafts/chat/batch-0003/candidates.jsonl",
@@ -8,8 +8,11 @@
   "ids_assigned": false,
   "production_modified": false,
   "remaining_work": [
-    "Review repetitive long documents and near similarities",
-    "Independent blind label QA and substantive domain QA",
-    "Compare against newly approved records prior to Work intake"
-  ]
+    "Review 2307 similarity alerts as semantic clusters; rewrite repetitive long-form narratives with distinct facts, evidence, and document genres",
+    "Run blind label review covering domain x label",
+    "Perform semantic domain review and verify missile-program substantive focus",
+    "Recheck active production before Work intake"
+  ],
+  "near_similarity_pairs": 2307,
+  "affected_records": 280
 }
