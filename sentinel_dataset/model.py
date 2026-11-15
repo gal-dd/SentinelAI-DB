@@ -6,6 +6,7 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 from .core import ROOT, PLAN, canonical, validate_rows
+from .domains import CONFIG, TARGETS
 
 
 def chat(model, system, payload):
@@ -47,6 +48,10 @@ def policy_text():
 
 
 def generate(model, job, scenarios, sources):
+    if job.get("primary_domain") not in TARGETS:
+        raise ValueError("Specify a valid primary_domain")
+    if job.get("origin") not in PLAN["production"]["allowed_origins"]:
+        raise ValueError("Select an origin allowed in defense v2 production")
     scenario_id = job["scenario_id"]
     if scenario_id not in scenarios:
         raise ValueError("Register the scenario before generating records")
@@ -56,23 +61,18 @@ def generate(model, job, scenarios, sources):
         raise ValueError("Generate 1–20 records per request")
     prompt = (ROOT / f"prompts/v{PLAN['prompt_version']}.md").read_text(encoding="utf-8")
     payload = {"job": job, "scenario": scenario, "length_buckets": PLAN["lengths"]}
-    public = job["origin"] == "public_adapted"
-    if public:
-        source_id = scenario.get("source_id", scenario_id)
-        if not job.get("source_notes") or source_id not in sources:
-            raise ValueError("Public generation requires verified source_notes and a registered source")
-        payload["registered_source"] = sources[source_id]
-        payload["source_id"] = source_id
     payload["source_group_id"] = scenario.get("source_group_id", scenario_id)
     production_guide = (ROOT / "prompts/production-text.md").read_text(encoding="utf-8")
-    answer = chat(model, prompt + "\n" + production_guide + "\n" + policy_text(), payload)
+    defense_guide = (ROOT / "prompts/defense-domain-production.md").read_text(encoding="utf-8")
+    answer = chat(model, "\n".join([prompt, production_guide, defense_guide, policy_text(),
+                                    "Include primary_domain on every record." ]), payload)
     rows = answer.get("records")
     if not isinstance(rows, list) or len(rows) != count:
         raise ValueError(f"Model must return exactly {count} candidates")
     for row in rows:
         if not isinstance(row, dict):
             raise ValueError("Generated rows must be JSON objects")
-        if any(row.get(key) != job[key] for key in ("origin", "scenario_id", "length")):
+        if any(row.get(key) != job[key] for key in ("origin", "scenario_id", "length", "primary_domain")):
             raise ValueError("Generated row differs from its requested scenario, origin or length")
         if job.get("label") and row.get("label") != job["label"]:
             raise ValueError("Generated row differs from the requested label")
@@ -97,6 +97,17 @@ label הוא אחת מארבע הרמות, או reject כשאין הכרעה. st
         if set(response) != set(batch):
             raise ValueError("Blind reviewer returned unexpected record IDs")
         judgments.update(response)
+    domain_texts = list(packet["domain_texts"].items())
+    domains = {}
+    for start in range(0, len(domain_texts), 12):
+        batch = dict(domain_texts[start:start + 12])
+        response = chat(model, "Assign each text its substantive primary domain. A passing mention is insufficient. "
+                        "Return JSON keyed by ID with primary_domain and reason (in Hebrew).",
+                        {"domain_rules": CONFIG["domain_assignment_rules"],
+                         "domains": CONFIG["domain_targets"], "texts": batch})
+        if set(response) != set(batch):
+            raise ValueError("Domain reviewer returned unexpected record IDs")
+        domains.update(response)
     comparisons = {}
     for item in packet.get("review_alerts", packet["alerts"]):
         comparisons[item["id"]] = {
@@ -114,6 +125,7 @@ label הוא אחת מארבע הרמות, או reject כשאין הכרעה. st
         "candidate_digest": packet["candidate_digest"],
         "reviewer": model,
         "records": judgments,
+        "domains": domains,
         "alerts": dispositions,
         "counterfactual_pairs": pairs,
     }

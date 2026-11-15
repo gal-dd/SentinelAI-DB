@@ -59,5 +59,9 @@ def validate_document_form(row):
     if not minimum:
         return
     segments = sum(word_count(part) >= 4 for part in SEGMENT_END.split(row["text"]))
+    if row["length"] == "long" and sum(
+        word_count(part) >= 12 for part in re.split(r"\n[ \t]*\n", row["text"])
+    ) < 2:
+        raise ValueError("long requires at least two developed paragraphs")
     if segments < minimum:
         raise ValueError(f"{row['length']} requires at least {minimum} substantial sentences or sections")

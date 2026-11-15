@@ -12,7 +12,9 @@ from .core import (PLAN, ROOT, check_quotas, export_rows, json_bytes, jsonl_byte
                    load_saved, metadata_rows, read_json)
 from .production import add_counts, plan_lengths
 
-BRANCH = "poc/security-classification-dataset"
+from .domains import CONFIG_PATH, TARGETS, require_coverage, verify_domain_review
+
+BRANCH = PLAN["branch"]
 CHECKPOINT_SIZE = PLAN["checkpoint_size"]
 FINAL_NAME = "synthetic_security_classification_100k.json"
 PILOT_DATA = Path("data/pilot/pilot.jsonl")
@@ -30,6 +32,11 @@ def payload_sha(content):
 
 
 def load_pilot(root=ROOT):
+    paths = (PILOT_DATA, PILOT_META, PILOT_REPORT)
+    if not any((root / path).exists() for path in paths):
+        return []
+    for path in paths:
+        active_path(root / path, root)
     rows = load_saved(root / PILOT_DATA, root / PILOT_META, 1)
     check_quotas(rows, "pilot")
     report = read_json(root / PILOT_REPORT)
@@ -42,17 +49,26 @@ def load_pilot(root=ROOT):
     return rows
 
 
+def active_path(path, root=ROOT):
+    archive = (root.resolve() / "archive")
+    if Path(path).resolve().is_relative_to(archive):
+        raise ValueError(f"Archive paths cannot be used for active dataset operations: {path}")
+    return path
+
+
 def pilot_hashes(root=ROOT):
     paths = (PILOT_DATA, PILOT_META, PILOT_REPORT, Path("reports/pilot/review.md"),
              Path("config/plan.json"), Path(f"policy/v{PLAN['policy_version']}.md"),
              Path(f"prompts/v{PLAN['prompt_version']}.md"))
-    return {path.as_posix(): file_sha(root / path) for path in paths}
+    return {path.as_posix(): file_sha(active_path(root / path, root)) for path in paths}
 
 
 def initial_state(root=ROOT):
-    return {"policy_version": PLAN["policy_version"], "prompt_version": PLAN["prompt_version"],
-            "pilot_records": len(load_pilot(root)), "pilot_hashes": pilot_hashes(root),
-            "pilot_quality": "completed", "production_records": 0, "last_checkpoint": 0,
+    pilot = load_pilot(root)
+    return {"dataset_generation": PLAN["dataset_generation"], "domain_targets_file": CONFIG_PATH,
+            "policy_version": PLAN["policy_version"], "prompt_version": PLAN["prompt_version"],
+            "pilot_records": len(pilot), "pilot_hashes": pilot_hashes(root) if pilot else {},
+            "pilot_quality": "completed" if pilot else "not_started", "production_records": 0, "last_checkpoint": 0,
             "next_id": 1, "checkpoints": [], "final": None}
 
 
@@ -65,9 +81,10 @@ def batch_paths(index):
 
 
 def load_progress(root=ROOT):
-    state = read_json(root / PROGRESS)
+    state = read_json(active_path(root / PROGRESS, root))
     base = initial_state(root)
-    for key in ("pilot_records", "pilot_hashes", "pilot_quality", "policy_version", "prompt_version"):
+    for key in ("pilot_records", "pilot_hashes", "pilot_quality", "policy_version", "prompt_version",
+                "dataset_generation", "domain_targets_file"):
         if state[key] != base[key]:
             raise ValueError(f"Invalid progress metadata: {key}")
     production = []
@@ -80,12 +97,18 @@ def load_progress(root=ROOT):
         if (batch["checkpoint"], batch["start_id"], batch["end_id"]) != (index, start, start + CHECKPOINT_SIZE - 1):
             raise ValueError(f"Invalid checkpoint range: {index}")
         expected_paths.update(paths)
-        if batch["sha256"] != {path.as_posix(): file_sha(root / path) for path in paths}:
+        if batch["sha256"] != {path.as_posix(): file_sha(active_path(root / path, root)) for path in paths}:
             raise ValueError(f"Checksum mismatch in checkpoint {index}")
         rows = load_saved(root / paths[0], root / paths[1], start)
         if len(rows) != CHECKPOINT_SIZE:
             raise ValueError(f"Incorrect checkpoint size: {index}")
         report = read_json(root / paths[2])
+        domains = require_coverage(rows)
+        if any(report.get(key) != value for key, value in domains.items()):
+            raise ValueError(f"Invalid domain metrics in checkpoint {index}")
+        domain_review = verify_domain_review(rows, index, report.get("domain_review", {}).get("records"))
+        if report["domain_review"] != domain_review:
+            raise ValueError(f"Invalid domain review in checkpoint {index}")
         if report["metrics"]["records"] != len(rows) or report["semantic"]["status"] != "completed":
             raise ValueError(f"Invalid checkpoint quality report: {index}")
         production.extend(rows)
@@ -96,13 +119,18 @@ def load_progress(root=ROOT):
     if state["production_records"] != len(production) or state["next_id"] != len(production) + 1:
         raise ValueError("Progress counts do not match checkpoint files")
     metrics = check_quotas(production, "production", final=bool(state["final"]))
+    domain_metrics = require_coverage(production, state["last_checkpoint"])
+    for key, value in domain_metrics.items():
+        if key in state and state[key] != value:
+            raise ValueError(f"Saved {key} differs from accepted records")
+        state[key] = value
     expected_plan = plan_lengths(metrics["label_lengths"])
     if "length_plan" in state and state["length_plan"] != expected_plan:
         raise ValueError("Saved length plan differs from the accepted records")
     state["length_plan"] = expected_plan
     if state["final"]:
         paths = (Path(FINAL_NAME), Path("reports/final.json"))
-        if state["final"] != {path.as_posix(): file_sha(root / path) for path in paths}:
+        if state["final"] != {path.as_posix(): file_sha(active_path(root / path, root)) for path in paths}:
             raise ValueError("Final artifact or report checksum mismatch")
         if read_json(root / paths[0]) != export_rows(production):
             raise ValueError("Final artifact differs from the checkpoint records")
@@ -127,6 +155,9 @@ def handoff(state):
     if draft:
         draft_note = (f"\n[טיוטת המנה הבאה]({draft['path']}) מכילה {draft['records']} מועמדים. "
                       f"[מצב הביקורת]({draft['review_path']}) מפרט את הבדיקות שבוצעו ואת ההמשך.\n")
+    pilot_status = "לא נוצר פיילוט v2" if not state["pilot_records"] else f'{state["pilot_records"]} רשומות הערכה'
+    missile_count = state["domain_counts"]["missile_systems"]
+    missile_pct = state["missile_domain_percentage"]
     return f"""# המשך עבודה
 
 מטרת הריפו היא ליצור 100,000 רשומות בעברית לאימון מודל סיווג רגישות ניסויי עם ארבע רמות מאוזנות. ענף העבודה הוא `{BRANCH}`.
@@ -135,7 +166,8 @@ def handoff(state):
 |---|---|
 | מדיניות | [v{PLAN["policy_version"]}](policy/v{PLAN["policy_version"]}.md) |
 | פרומפט | [v{PLAN["prompt_version"]}](prompts/v{PLAN["prompt_version"]}.md) |
-| פיילוט | {state["pilot_records"]} רשומות הערכה, בדיקות איכות הושלמו |
+| פיילוט | {pilot_status} |
+| רשומות טיליות | {missile_count:,} ({missile_pct:g}%) |
 | ייצור | {count:,} / 100,000 |
 | מנת ייצור אחרונה | {last_note} |
 | מזהה הייצור הבא | {state["next_id"]} |
@@ -144,16 +176,16 @@ def handoff(state):
 `data/` שומר רשומות. `metadata/` שומר מקור, תרחיש, נימוק וביקורת. `reports/` שומר תוצאות איכות. `config/` כולל מכסות, תרחישים ומקורות. `progress.json` כולל טווחי מזהים ובדיקות SHA-256. כל מנה ומצב ההתקדמות שלה נכנסים לאותו commit.
 
 1. פתח checkout נקי של ענף העבודה והריץ `python -m sentinel_dataset verify`.
-2. קרא [מדיניות](policy/v{PLAN["policy_version"]}.md), [דוח פיילוט](reports/pilot/review.md) ואת [הוראות ההפעלה](README.md). בדיקות הפיילוט הושלמו ואפשר להמשיך ישירות לייצור בכפוף לבדיקות האיכות.
+2. קרא את [הוראות הייצור של v2](prompts/WORKER_START_DEFENSE_V2.md), [המדיניות](policy/v{PLAN["policy_version"]}.md) ואת [הוראות ההפעלה](README.md).
 3. הכן תרחישים ומקורות מגוונים, חבר את הטקסטים באמצעות GPT בסביבת Work, צבור 500 תקינים והריץ את הבדיקות והביקורת. שמור כל מנה דרך `checkpoint` ואמת את ראש הענף המרוחק.
 4. אם commit מקומי טרם הועלה, הרץ `python -m sentinel_dataset publish` מאותו checkout. אם לא קיימת סביבת הריצה הקודמת, המשך מהמנה האחרונה שמופיעה בענף המרוחק.
 5. עם השלמת המכסות הרץ `finalize` לבדיקת המאגר ולבניית קובץ האימון.
 
-לפני כתיבת מנה נוספת, הרץ `python -m sentinel_dataset plan` וקרא את [הנחיות הכתיבה](prompts/production-text.md). השתמש ביעדי הסיווג והאורך שחושבו מהנתונים השמורים. דוח המנה האחרונה מפרט את כיסוי ביקורת התיוג ואת סוג הביקורת. מגבלות שנצפו בפיילוט מופיעות ב[דוח הביקורת](reports/pilot/review.md). במהלך הייצור יש להרחיב את קבוצות המקור הציבורי ולבדוק תלות של תוויות במונחים, בנושא ובפורמט. אפשר להמשיך דרך Work ללא API חיצוני. מגבלת הקשר ותקציב הפלט מחייבת להסתמך על ה־checkpoint המרוחק בהמשך בין שיחות. דוגמאות הפיילוט משמשות להערכה ולסינון כפילויות בלבד.
+תיקיית `archive/general-v1/` שמורה לשחזור היסטורי ומחוץ לקלטי הייצור, בדיקות האיכות והאימון. ראו [מניפסט הארכיון](archive/general-v1/archive-manifest.json). מנהל הפרסום מעדכן את קובצי הייצור ואת `progress.json`. טיוטות של Work נשמרות תחת `drafts/work/`, וטיוטות של שיחת ChatGPT תחת `drafts/chat/`. לפני כתיבת מנה נוספת הרץ `plan`, חשב את מכסות האורכים והתחומים וקרא את דוח האיכות האחרון.
 """
 
 
-def batch_artifacts(state, rows, metrics, review, packet, decisions):
+def batch_artifacts(state, rows, metrics, review, packet, decisions, domains, domain_review):
     index = state["last_checkpoint"] + 1
     start = state["next_id"]
     end = start + len(rows) - 1
@@ -171,6 +203,7 @@ def batch_artifacts(state, rows, metrics, review, packet, decisions):
         "policy_version": PLAN["policy_version"], "prompt_version": PLAN["prompt_version"],
         "metrics": metrics, "schema": "passed", "normalized_exact_duplicates": 0,
         "semantic": packet["semantic"], "similarity_alerts": packet["alerts"], "review": review,
+        **domains, "domain_review": domain_review,
     }
     files = {data: data_bytes, meta: meta_bytes, quality: json_bytes(report)}
     state["checkpoints"].append({
@@ -179,6 +212,11 @@ def batch_artifacts(state, rows, metrics, review, packet, decisions):
     })
     state.pop("draft_checkpoint", None)
     state.update(last_checkpoint=index, production_records=end, next_id=end + 1)
+    for domain in TARGETS:
+        state["domain_counts"][domain] += domains["domain_counts"][domain]
+        for label, count in domains["domain_label_counts"][domain].items():
+            state["domain_label_counts"][domain][label] += count
+    state["missile_domain_percentage"] = 100 * state["domain_counts"]["missile_systems"] / end
     return files
 
 
@@ -190,20 +228,20 @@ def git(*args):
     return result.stdout.strip()
 
 
-def remote_head(remote):
-    result = git("ls-remote", "--exit-code", "--heads", remote, f"refs/heads/{BRANCH}")
+def remote_head(remote, branch=BRANCH):
+    result = git("ls-remote", "--exit-code", "--heads", remote, f"refs/heads/{branch}")
     sha, ref = result.split("\t")
-    if ref != f"refs/heads/{BRANCH}" or not re.fullmatch(r"[0-9a-f]{40}", sha):
+    if ref != f"refs/heads/{branch}" or not re.fullmatch(r"[0-9a-f]{40}", sha):
         raise ValueError("Unexpected remote branch reference")
     return sha
 
 
-def preflight(remote, require_equal=True):
-    if git("branch", "--show-current") != BRANCH:
+def preflight(remote, require_equal=True, branch=BRANCH):
+    if branch != BRANCH or git("branch", "--show-current") != branch:
         raise ValueError(f"Check out {BRANCH}")
     if git("status", "--porcelain"):
         raise ValueError("Use a clean checkout; store input files under .poc-local/")
-    local, upstream = git("rev-parse", "HEAD"), remote_head(remote)
+    local, upstream = git("rev-parse", "HEAD"), remote_head(remote, branch)
     if require_equal and local != upstream:
         raise ValueError("Local and remote branch differ. Inspect the commits before creating a checkpoint.")
     return local, upstream
@@ -246,8 +284,8 @@ def state_artifacts(files, state):
     return {**files, PROGRESS: json_bytes(state), Path("HANDOFF.md"): handoff(state).encode()}
 
 
-def commit_state(files, state, message, remote, expected_head):
-    if preflight(remote)[0] != expected_head:
+def commit_state(files, state, message, remote, expected_head, branch=BRANCH):
+    if preflight(remote, branch=branch)[0] != expected_head:
         raise ValueError("Branch advanced during preparation. Rebuild against the current checkpoint.")
     files = state_artifacts(files, state)
     for path, content in files.items():
@@ -255,15 +293,15 @@ def commit_state(files, state, message, remote, expected_head):
     load_progress()
     git("add", "--", *(path.as_posix() for path in files))
     git("commit", "-m", message)
-    return publish(remote)
+    return publish(remote, branch)
 
 
-def publish(remote):
-    local, upstream = preflight(remote, require_equal=False)
+def publish(remote, branch=BRANCH):
+    local, upstream = preflight(remote, require_equal=False, branch=branch)
     load_progress()
     if local != upstream:
         git("merge-base", "--is-ancestor", upstream, local)
-        git("push", remote, f"HEAD:refs/heads/{BRANCH}")
-    if remote_head(remote) != local:
+        git("push", remote, f"HEAD:refs/heads/{branch}")
+    if remote_head(remote, branch) != local:
         raise ValueError("Remote branch does not match the local commit after push")
     return local

@@ -46,5 +46,5 @@
     "Use invented organizations, projects and examples. Never include real classified information, actionable missile/weapons construction, deployment, targeting, launch sequences, explosive fabrication, precise performance parameters, or operational vulnerabilities.",
     "Before checkpoint acceptance run domain coverage QA and review sampled assignments for contextual relevance. Numeric quotas alone do not prove semantic quality."
   ],
-  "existing_data": "Do not relabel or delete existing approved records automatically. Keep batches 008 and 009 pending a domain audit and rebalance decision."
+  "existing_data": "General v1 and its pilot are archived and excluded from all v2 inputs."
 }

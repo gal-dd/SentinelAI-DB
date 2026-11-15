@@ -16,7 +16,7 @@
       "paragraph",
       "long"
     ],
-    "correction_horizon_records": 4000,
+    "correction_horizon_records": 2500,
     "accepted_label_lengths": {
       "נמוך": [
         0,
@@ -99,5 +99,52 @@
   "parallel_drafts": {},
   "dataset_generation": "defense-focused-v2",
   "archive_path": "archive/general-v1",
-  "domain_targets_file": "config/defense-domain-targets.json"
+  "domain_targets_file": "config/defense-domain-targets.json",
+  "domain_counts": {
+    "missile_systems": 0,
+    "uncrewed_aircraft": 0,
+    "radar_sensors_space": 0,
+    "cyber_communications_c2": 0,
+    "defense_logistics": 0,
+    "general_negative_controls": 0
+  },
+  "domain_label_counts": {
+    "missile_systems": {
+      "נמוך": 0,
+      "בינוני": 0,
+      "גבוה": 0,
+      "חמור": 0
+    },
+    "uncrewed_aircraft": {
+      "נמוך": 0,
+      "בינוני": 0,
+      "גבוה": 0,
+      "חמור": 0
+    },
+    "radar_sensors_space": {
+      "נמוך": 0,
+      "בינוני": 0,
+      "גבוה": 0,
+      "חמור": 0
+    },
+    "cyber_communications_c2": {
+      "נמוך": 0,
+      "בינוני": 0,
+      "גבוה": 0,
+      "חמור": 0
+    },
+    "defense_logistics": {
+      "נמוך": 0,
+      "בינוני": 0,
+      "גבוה": 0,
+      "חמור": 0
+    },
+    "general_negative_controls": {
+      "נמוך": 0,
+      "בינוני": 0,
+      "גבוה": 0,
+      "חמור": 0
+    }
+  },
+  "missile_domain_percentage": 0
 }

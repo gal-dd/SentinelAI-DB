@@ -5,6 +5,7 @@ from math import ceil
 import random
 
 from .core import LABELS, PLAN, digest, fingerprint, json_bytes, validate_rows
+from .domains import review_sample
 from .semantic import semantic_scan
 
 
@@ -36,7 +37,9 @@ def make_packet(rows, prior, scenarios, sources, model_dir, cache_dir, batch, pr
     for row in rows:
         if row["pair_id"]:
             pairs.setdefault(row["pair_id"], []).append(fingerprint(row))
+    domain_sample = review_sample(rows, batch)
     return {
+        "domain_texts": {key: by_key[key]["text"] for key in domain_sample},
         "candidate_digest": digest(keys),
         "random_sample": sorted(picked),
         "targeted_sample": sorted(targeted),

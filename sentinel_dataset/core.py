@@ -14,7 +14,7 @@ LENGTHS = tuple(PLAN["lengths"])
 ORIGINS = tuple(PLAN["pilot"]["origins"])
 CANDIDATE_FIELDS = {
     "text", "label", "length", "origin", "scenario_id", "source_group_id",
-    "style", "rationale", "edge_case", "pair_id", "source_id",
+    "style", "rationale", "edge_case", "pair_id", "source_id", "primary_domain",
 }
 SLUG = re.compile(r"[a-z0-9][a-z0-9-]{0,95}\Z")
 HEBREW = re.compile(r"[א-ת]")
@@ -160,8 +160,11 @@ def validate_rows(rows, scenarios, sources, prior=()):
 
 
 def validate_row(row, scenarios, sources):
-    if not isinstance(row, dict) or row.keys() != CANDIDATE_FIELDS:
+    if not isinstance(row, dict) or not CANDIDATE_FIELDS <= row.keys() <= CANDIDATE_FIELDS | {"secondary_domains"}:
         raise ValueError("Unexpected candidate fields")
+    from .domains import validate_domains
+
+    validate_domains(row)
     for key in ("text", "label", "length", "origin", "scenario_id", "source_group_id", "style", "rationale"):
         if not isinstance(row[key], str) or not row[key].strip() or row[key].strip() != row[key]:
             raise ValueError(f"Expected a nonempty trimmed string for {key}")
@@ -222,7 +225,9 @@ def stats(rows):
 def check_quotas(rows, phase, final=False):
     actual = stats(rows)
     target = PLAN[phase]
-    origins = target.get("origins", target.get("proposed_origins"))
+    origins = target.get("origins", {})
+    if "allowed_origins" in target and set(actual["origins"]) - set(target["allowed_origins"]):
+        raise ValueError("Origin is not permitted for synthetic defense v2 production")
     exact = final or phase == "pilot"
     for label, cells in target["label_lengths"].items():
         for kind, count, limit in zip(LENGTHS, actual["label_lengths"][label], cells):
@@ -289,6 +294,8 @@ def load_saved(data_path, metadata_path, first_id):
         if details["policy_version"] != PLAN["policy_version"]:
             raise ValueError(f"Policy version mismatch in {metadata_path}")
         row = {key: details[key] for key in CANDIDATE_FIELDS - {"text", "label"}}
+        if "secondary_domains" in details:
+            row["secondary_domains"] = details["secondary_domains"]
         row.update(text=item["אובייקט"], label=item["סיווג"])
         rows.append(row)
     return rows

@@ -7,6 +7,7 @@ import sys
 from . import checkpoints as cp
 from .core import (PLAN, ROOT, check_quotas, export_rows, fingerprint, json_bytes, jsonl_bytes, read_json,
                    read_jsonl, scenario_catalog, stats, validate_row, validate_rows)
+from .domains import BATCH_TARGETS, coverage, require_coverage, verify_domain_review
 from .model import blind_review, generate
 from .production import validate_document_form
 from .review import make_packet, verify_decisions, verify_pairs, write_packet
@@ -52,6 +53,7 @@ def cli():
     push = sub.add_parser("publish")
     for command in (save, final, push):
         command.add_argument("--remote", default="origin")
+        command.add_argument("--branch", choices=[cp.BRANCH], default=cp.BRANCH)
     return parser
 
 
@@ -68,6 +70,7 @@ def prepare(args, state, prior, pilot):
     expected_lengths = state["length_plan"]["next_checkpoint_label_lengths"]
     if stats(rows)["label_lengths"] != expected_lengths:
         raise ValueError(f"Checkpoint does not match the planned label/length quotas: {expected_lengths}")
+    require_coverage(rows)
     check_quotas([*prior, *rows], "production")
     batch = state["last_checkpoint"] + 1
     previous_rate = (read_json(ROOT / cp.batch_paths(batch - 1)[2])["review"]["disagreement_rate"]
@@ -81,6 +84,7 @@ def final_artifacts(args, state, prior, pilot):
     if state["final"]:
         raise ValueError("Dataset is already finalized")
     metrics = check_quotas(prior, "production", final=True)
+    domains = require_coverage(prior, state["last_checkpoint"])
     lexical = validate_rows(prior, *scenario_catalog(), prior=pilot)
     semantic, semantic_report = semantic_scan(pilot, prior, args.model_dir, args.cache_dir)
     dispositions = {}
@@ -119,12 +123,13 @@ def final_artifacts(args, state, prior, pilot):
     data = b"[\n" + b",\n".join(jsonl_bytes([row]).rstrip(b"\n") for row in dataset) + b"\n]\n"
     report = json_bytes({
         "metrics": metrics, "schema": "passed", "normalized_exact_duplicates": 0,
+        **domains, "domain_review": {"status": "completed", "checkpoints": state["last_checkpoint"]},
         "semantic": semantic_report, "similarity_alerts": alerts,
         "similarity_policy": "monitor_all_review_high_risk_v1",
         "alert_count_total": len(alerts),
         "alert_count_high_risk": len(required),
         "alert_count_unreviewed_routine": sum(item["id"] not in dispositions for item in alerts if item not in required),
-        "alert_dispositions": {item["id"]: dispositions[item["id"]] for item in alerts},
+        "alert_dispositions": {item["id"]: dispositions[item["id"]] for item in alerts if item["id"] in dispositions},
         "label_review": {"reviewed": reviewed, "disagreements": disagreements,
                          "rejected": rejected, "corrected": corrected,
                          "disagreement_rate": disagreements / reviewed},
@@ -138,10 +143,19 @@ def validated_checkpoint(args, state, prior, pilot):
     rows, packet = prepare(args, state, prior, pilot)
     decisions = read_json(args.decisions)
     review = verify_decisions(packet, decisions, rows)
-    return cp.batch_artifacts(state, rows, stats(rows), review, packet, decisions)
+    domains = require_coverage(rows)
+    domain_review = verify_domain_review(rows, state["last_checkpoint"] + 1, decisions.get("domains"))
+    return cp.batch_artifacts(state, rows, stats(rows), review, packet, decisions, domains, domain_review)
 
 
 def run(args):
+    for name in ("drafts", "candidates"):
+        for path in getattr(args, name, ()):
+            cp.active_path(path)
+    for name in ("job", "output", "packet", "decisions", "output_dir", "dispositions",
+                 "pending_alerts", "model_dir", "cache_dir"):
+        if getattr(args, name, None) is not None:
+            cp.active_path(getattr(args, name))
     if args.command == "generate":
         job = read_json(args.job)
         rows = generate(args.model, job, *scenario_catalog())
@@ -155,7 +169,7 @@ def run(args):
     state, prior = cp.load_progress()
     pilot = cp.load_pilot()
     if args.command == "plan":
-        plan = state["length_plan"].copy()
+        plan = dict(state["length_plan"], next_checkpoint_domain_counts=BATCH_TARGETS if not state["final"] and state["production_records"] < 100000 else {})
         if args.drafts:
             rows = [row for path in args.drafts for row in read_jsonl(path)]
             validate_rows(rows, *scenario_catalog(), prior=[*pilot, *prior])
@@ -166,12 +180,17 @@ def run(args):
                    for label, cells in plan["next_checkpoint_label_lengths"].items()}
             if any(count < 0 for cells in gap.values() for count in cells):
                 raise ValueError(f"Drafts exceed a planned quota: {gap}")
-            plan.update(draft_records=len(rows), draft_label_lengths=actual, remaining_in_checkpoint=gap)
+            domain_metrics = coverage(rows)
+            domain_gap = {key: goal - domain_metrics["domain_counts"][key] for key, goal in BATCH_TARGETS.items()}
+            if min(domain_gap.values()) < 0:
+                raise ValueError(f"Drafts exceed a domain quota: {domain_gap}")
+            plan.update(draft_records=len(rows), draft_label_lengths=actual, remaining_in_checkpoint=gap,
+                        draft_domain_counts=domain_metrics["domain_counts"], remaining_domains=domain_gap)
         return json_bytes(plan).decode()
     if args.command == "verify":
         validate_rows([*pilot, *prior], *scenario_catalog())
         return json_bytes({"pilot_quality": state["pilot_quality"], "pilot": stats(pilot),
-                           "production": stats(prior), "next_id": state["next_id"],
+                           "production": {**stats(prior), **coverage(prior)}, "next_id": state["next_id"],
                            "last_checkpoint": state["last_checkpoint"],
                            "finalized": bool(state["final"])}).decode()
     if args.command == "prepare":
@@ -190,8 +209,8 @@ def run(args):
 
     with cp.checkpoint_lock():
         if args.command == "publish":
-            return cp.publish(args.remote)
-        head, _ = cp.preflight(args.remote)
+            return cp.publish(args.remote, args.branch)
+        head, _ = cp.preflight(args.remote, branch=args.branch)
         state, prior = cp.load_progress()
         if args.command == "checkpoint":
             files = validated_checkpoint(args, state, prior, pilot)
@@ -199,7 +218,7 @@ def run(args):
         else:
             files = final_artifacts(args, state, prior, pilot)
             message = "Assemble and validate the 100,000-record classification dataset"
-        return cp.commit_state(files, state, message, args.remote, head)
+        return cp.commit_state(files, state, message, args.remote, head, args.branch)
 
 
 def main():
