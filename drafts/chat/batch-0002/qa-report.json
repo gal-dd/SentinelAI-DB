@@ -1,0 +1,227 @@
+{
+  "status": "needs_editorial_rewrite_before_checkpoint",
+  "branch": "producer/chat-defense-v2",
+  "draft_batch": "0002",
+  "source": "ChatGPT parallel worker",
+  "records": 500,
+  "domain_targets": {
+    "missile_systems": 300,
+    "uncrewed_aircraft": 50,
+    "radar_sensors_space": 50,
+    "cyber_communications_c2": 50,
+    "defense_logistics": 25,
+    "general_negative_controls": 25
+  },
+  "domain_counts": {
+    "missile_systems": 300,
+    "uncrewed_aircraft": 50,
+    "radar_sensors_space": 50,
+    "cyber_communications_c2": 50,
+    "defense_logistics": 25,
+    "general_negative_controls": 25
+  },
+  "missile_share": 0.6,
+  "labels_and_lengths": {
+    "נמוך": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "בינוני": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "גבוה": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "חמור": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    }
+  },
+  "qa": {
+    "structure": "passed",
+    "schema_issues": [],
+    "normalized_exact_duplicates": 0,
+    "compared_to_current_active_draft_records": 500,
+    "compared_to_approved_v2_records": 500,
+    "old_archive_excluded": true,
+    "semantic_domain_sampling": "pending_manual_review",
+    "independent_label_review": "not_performed",
+    "lexical_near_similarity": {
+      "metric": "Jaccard on unique normalized word tokens",
+      "threshold": 0.73,
+      "total_pairs": 198,
+      "distinct_rows_affected": 122,
+      "top_pairs": [
+        {
+          "a": 67,
+          "b": 61,
+          "token_jaccard": 0.873
+        },
+        {
+          "a": 73,
+          "b": 61,
+          "token_jaccard": 0.872
+        },
+        {
+          "a": 68,
+          "b": 62,
+          "token_jaccard": 0.871
+        },
+        {
+          "a": 124,
+          "b": 118,
+          "token_jaccard": 0.871
+        },
+        {
+          "a": 74,
+          "b": 62,
+          "token_jaccard": 0.87
+        },
+        {
+          "a": 74,
+          "b": 65,
+          "token_jaccard": 0.87
+        },
+        {
+          "a": 498,
+          "b": 492,
+          "token_jaccard": 0.868
+        },
+        {
+          "a": 69,
+          "b": 63,
+          "token_jaccard": 0.866
+        },
+        {
+          "a": 64,
+          "b": 61,
+          "token_jaccard": 0.864
+        },
+        {
+          "a": 73,
+          "b": 64,
+          "token_jaccard": 0.864
+        },
+        {
+          "a": 497,
+          "b": 491,
+          "token_jaccard": 0.863
+        },
+        {
+          "a": 65,
+          "b": 62,
+          "token_jaccard": 0.862
+        },
+        {
+          "a": 74,
+          "b": 68,
+          "token_jaccard": 0.862
+        },
+        {
+          "a": 74,
+          "b": 71,
+          "token_jaccard": 0.862
+        },
+        {
+          "a": 375,
+          "b": 369,
+          "token_jaccard": 0.859
+        },
+        {
+          "a": 70,
+          "b": 61,
+          "token_jaccard": 0.856
+        },
+        {
+          "a": 73,
+          "b": 67,
+          "token_jaccard": 0.856
+        },
+        {
+          "a": 73,
+          "b": 70,
+          "token_jaccard": 0.856
+        },
+        {
+          "a": 68,
+          "b": 65,
+          "token_jaccard": 0.855
+        },
+        {
+          "a": 71,
+          "b": 62,
+          "token_jaccard": 0.855
+        },
+        {
+          "a": 71,
+          "b": 65,
+          "token_jaccard": 0.855
+        },
+        {
+          "a": 194,
+          "b": 188,
+          "token_jaccard": 0.853
+        },
+        {
+          "a": 372,
+          "b": 366,
+          "token_jaccard": 0.851
+        },
+        {
+          "a": 72,
+          "b": 63,
+          "token_jaccard": 0.85
+        },
+        {
+          "a": 125,
+          "b": 119,
+          "token_jaccard": 0.849
+        },
+        {
+          "a": 500,
+          "b": 494,
+          "token_jaccard": 0.849
+        },
+        {
+          "a": 67,
+          "b": 64,
+          "token_jaccard": 0.848
+        },
+        {
+          "a": 70,
+          "b": 64,
+          "token_jaccard": 0.848
+        },
+        {
+          "a": 75,
+          "b": 63,
+          "token_jaccard": 0.848
+        },
+        {
+          "a": 75,
+          "b": 66,
+          "token_jaccard": 0.848
+        }
+      ],
+      "note": "This is a review warning, not 198 confirmed semantic duplicates. High repetitive/template phrasing warrants rewriting before approval."
+    }
+  },
+  "published_to_main": false,
+  "final_ids_assigned": false,
+  "review_required": [
+    "Rewrite highly repetitive long-form documents with specific, independent fictional narrative context.",
+    "Perform a blind stratified label and domain review; do not auto-promote because counts pass.",
+    "Re-check duplicates against newly approved v2 records once Work publishes batch 0001.",
+    "Apply official checkpoint transformation and assign final IDs only on main with the Work publisher."
+  ]
+}
