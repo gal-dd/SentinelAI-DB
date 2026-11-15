@@ -1513,5 +1513,85 @@
     "styles": "official, conversational, educational",
     "distinction": "תוכן פתוח, תיאום, הסכמי שיתוף ופרטיות מרואיינים",
     "primary_domain": "general_negative_controls"
+  },
+  "missile-history-classroom": {
+    "domain": "היסטוריה ושפה טילית",
+    "background": "סדרת שיעורים בדיונית קו־גיר משתמשת באיורים ותצלומי ארכיון",
+    "facts": "סדרת שיעורים בדיונית קו־גיר משתמשת באיורים ותצלומי ארכיון",
+    "styles": "official, conversational, educational",
+    "distinction": "לימוד פומבי, ויכוח פנימי, גילוי בעל משמעות ומקור מוגן",
+    "primary_domain": "missile_systems"
+  },
+  "interceptor-dispute-bridge": {
+    "domain": "בוררות אחריות על קבלת מיירטים",
+    "background": "פורום בדיוני אבן־דקה מרכז הסכמות שנמסרות לגופים נפרדים",
+    "facts": "פורום בדיוני אבן־דקה מרכז הסכמות שנמסרות לגופים נפרדים",
+    "styles": "official, conversational, educational",
+    "distinction": "ציבוריות, שגרת הכנה, הכרעה יחידה ותלות מערכתית",
+    "primary_domain": "missile_systems"
+  },
+  "air-defense-transfer-notes": {
+    "domain": "העברת סמכות בתוכנית הגנה אווירית",
+    "background": "אשכול בדיוני שקד־אופק מנגיש רשומות החלטה לצוותים ולבודקים",
+    "facts": "אשכול בדיוני שקד־אופק מנגיש רשומות החלטה לצוותים ולבודקים",
+    "styles": "official, conversational, educational",
+    "distinction": "מושגים פומביים, חפיפה, שינוי בעלות ושלילת כלל מנגנוני הביקורת",
+    "primary_domain": "missile_systems"
+  },
+  "ballistic-public-education": {
+    "domain": "הוראה על מסלולים בליסטיים",
+    "background": "סדנת מעגל־צל אוספת תרגילי חשיבה עיוניים",
+    "facts": "סדנת מעגל־צל אוספת תרגילי חשיבה עיוניים",
+    "styles": "official, conversational, educational",
+    "distinction": "תצפית והנחה, תרגול, החלטת המשך ויושרת המקור",
+    "primary_domain": "missile_systems"
+  },
+  "missile-archive-consent": {
+    "domain": "זכויות בראיונות על ארכיוני תוכניות טילים",
+    "background": "מכון מסגרת־חול מנהל שיתוף חומרים בין קוראים וארכיונאים",
+    "facts": "מכון מסגרת־חול מנהל שיתוף חומרים בין קוראים וארכיונאים",
+    "styles": "official, conversational, educational",
+    "distinction": "עיון פתוח, תפעול, זכויות מחקר והצלבת הגנה",
+    "primary_domain": "missile_systems"
+  },
+  "drone-seasonal-study": {
+    "domain": "מחקר נופי באמצעות רחפן אזרחי",
+    "background": "מיזם כנף־גפן מפריד בין תצפית, הצגה והסכמה",
+    "facts": "מיזם כנף־גפן מפריד בין תצפית, הצגה והסכמה",
+    "styles": "official, conversational, educational",
+    "distinction": "לימוד, ארגון צוות, חוזה וחשיפה רוחבית",
+    "primary_domain": "uncrewed_aircraft"
+  },
+  "radar-coastal-archive": {
+    "domain": "ייחוס תצפיות מכ״ם לקטלוג חופים",
+    "background": "קבוצת קו־רך מתעדת איסוף, עיבוד ועדות מקור",
+    "facts": "קבוצת קו־רך מתעדת איסוף, עיבוד ועדות מקור",
+    "styles": "official, conversational, educational",
+    "distinction": "ידע פומבי, עבודה שוטפת, רישוי והיעדר אימות רוחבי",
+    "primary_domain": "radar_sensors_space"
+  },
+  "communications-room-archive": {
+    "domain": "תיעוד הודעות והחלטות במוקדים",
+    "background": "מיזם צליל־בד מנהל רישום עיוני של מסירה ואחריות",
+    "facts": "מיזם צליל־בד מנהל רישום עיוני של מסירה ואחריות",
+    "styles": "official, conversational, educational",
+    "distinction": "הסברה, עבודה פנימית, החלטת קבלה ושלילת ערר",
+    "primary_domain": "cyber_communications_c2"
+  },
+  "defense-warehouse-injury": {
+    "domain": "אחריות לוגיסטית על ציוד ביטחוני כללי",
+    "background": "מחסן סהר־עץ מרכז רכש והחזרות לצורכי מיגון",
+    "facts": "מחסן סהר־עץ מרכז רכש והחזרות לצורכי מיגון",
+    "styles": "official, conversational, educational",
+    "distinction": "קבלה שוטפת, החלטה מסחרית והעלמת ראיות לפגיעות",
+    "primary_domain": "defense_logistics"
+  },
+  "local-museum-sound": {
+    "domain": "ארכיון צלילים עירוני",
+    "background": "מרכז אגם־קול מקליט ראיונות וצלילים של יום יום",
+    "facts": "מרכז אגם־קול מקליט ראיונות וצלילים של יום יום",
+    "styles": "official, conversational, educational",
+    "distinction": "תוכן לציבור, הצעה מסחרית וחשיפת דיירים שהועברו להגנה",
+    "primary_domain": "general_negative_controls"
   }
 }
