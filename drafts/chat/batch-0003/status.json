@@ -1,11 +1,15 @@
 {
   "batch": "0003",
-  "status": "partial_draft_not_ready_for_work",
-  "path": "drafts/chat/batch-0003/candidates.jsonl",
-  "records": 28,
-  "target": 500,
-  "remaining": 472,
+  "status": "500_candidates_created_editorial_review_pending",
+  "records": 500,
+  "missile_count": 300,
+  "draft_path": "drafts/chat/batch-0003/candidates.jsonl",
+  "qa_report": "drafts/chat/batch-0003/qa-report.json",
   "ids_assigned": false,
-  "production_files_modified": false,
-  "remaining_work": "Write 472 genuinely distinct examples to match all domain and label-length quotas; independently review blind labels, cross-draft overlap and near-similarity before handing to Work."
+  "production_modified": false,
+  "remaining_work": [
+    "Review repetitive long documents and near similarities",
+    "Independent blind label QA and substantive domain QA",
+    "Compare against newly approved records prior to Work intake"
+  ]
 }
