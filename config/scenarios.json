@@ -1425,5 +1425,93 @@
     "styles": "official, conversational, educational",
     "distinction": "תרבות, תיאום, התקשרות מהותית ושמירת תוקף ראיות",
     "primary_domain": "general_negative_controls"
+  },
+  "missile-hearing-procedure": {
+    "domain": "ביקורת ציבורית על תוכניות טיליות",
+    "background": "מזכירות כרך־ירוק עורכת דיונים פתוחים לצד תיקי השגה בדיוניים",
+    "facts": "מזכירות כרך־ירוק עורכת דיונים פתוחים לצד תיקי השגה בדיוניים",
+    "styles": "official, conversational, educational",
+    "distinction": "חומר שפורסם, תיאום דיון, טיוטת הכרעה ויכולת ערעור כוללת",
+    "primary_domain": "missile_systems"
+  },
+  "interceptor-requirements-registry": {
+    "domain": "ניהול דרישות במיזם יירוט",
+    "background": "ארכיון קצה־זית מקשר החלטות, גרסאות ותיקי נימוקים",
+    "facts": "ארכיון קצה־זית מקשר החלטות, גרסאות ותיקי נימוקים",
+    "styles": "official, conversational, educational",
+    "distinction": "אופן קריאה, הכנת טופס, העברת אחריות ותלות מוסתרת",
+    "primary_domain": "missile_systems"
+  },
+  "ballistic-simulation-pedagogy": {
+    "domain": "הצגה עיונית של הנחות בליסטיות",
+    "background": "מרכז ענן־אפור מפריד בין דוגמה לימודית למחקר מוגבל",
+    "facts": "מרכז ענן־אפור מפריד בין דוגמה לימודית למחקר מוגבל",
+    "styles": "official, conversational, educational",
+    "distinction": "שאלות ידע, עריכה שגרתית, מחלוקת על תוקף וביטול הכרה כולל",
+    "primary_domain": "missile_systems"
+  },
+  "missile-safety-governance": {
+    "domain": "ניהול בטיחות של תוכניות טיליות בדיוניות",
+    "background": "ועדת צור־נייר מרכזת הוכחות פיקוח ומסמכי עצירת תהליך",
+    "facts": "ועדת צור־נייר מרכזת הוכחות פיקוח ומסמכי עצירת תהליך",
+    "styles": "official, conversational, educational",
+    "distinction": "כלל פומבי, הכנה פנימית, עצירה שטרם פורסמה ושלילת פיקוח עצמאית",
+    "primary_domain": "missile_systems"
+  },
+  "air-defense-reporting-mandate": {
+    "domain": "תיעוד סמכויות במנהלת הגנה אווירית",
+    "background": "אשכול חלון־שקד מנהל העברת תיקי סקירה בין גופי פיקוח בדיוניים",
+    "facts": "אשכול חלון־שקד מנהל העברת תיקי סקירה בין גופי פיקוח בדיוניים",
+    "styles": "official, conversational, educational",
+    "distinction": "מסמכי תפקידים, תיאום, שינוי ממשל וחסימת מסגרות גיבוי",
+    "primary_domain": "missile_systems"
+  },
+  "missile-historical-evidence": {
+    "domain": "היסטוריוגרפיה של תוכניות טיליות",
+    "background": "מכון טל־דף עובד עם מקורות פתוחים ואוספי ביקורת בדיוניים",
+    "facts": "מכון טל־דף עובד עם מקורות פתוחים ואוספי ביקורת בדיוניים",
+    "styles": "official, conversational, educational",
+    "distinction": "מקורות, שימור, הרשאת פרסום וזהות מוגנת",
+    "primary_domain": "missile_systems"
+  },
+  "drone-civil-evidence": {
+    "domain": "תיעוד עבודת רחפנים אזרחיים",
+    "background": "מרכז מטע־זכוכית משווה תיעוד סביבתי ותנאי הסכמה",
+    "facts": "מרכז מטע־זכוכית משווה תיעוד סביבתי ותנאי הסכמה",
+    "styles": "official, conversational, educational",
+    "distinction": "מידע פומבי, ארגון עבודת צוות, חוזה וחשיפת מקומות מוגנים",
+    "primary_domain": "uncrewed_aircraft"
+  },
+  "observatory-provenance": {
+    "domain": "ייחוס מסמכי חישה ולוויין",
+    "background": "תוכנית דף־תכלת מתעדת תחזוקת קטלוג חלל ונושאי קבלה",
+    "facts": "תוכנית דף־תכלת מתעדת תחזוקת קטלוג חלל ונושאי קבלה",
+    "styles": "official, conversational, educational",
+    "distinction": "תיאור ציבורי, טיפול שגרתי, המסלול החוזי ומניעת חקירה",
+    "primary_domain": "radar_sensors_space"
+  },
+  "control-log-ownership": {
+    "domain": "בקרת שירותי תקשורת ושליטה",
+    "background": "מנהלת חוט־סלע מרכזת הכרה תיעודית ותיקי מסירה",
+    "facts": "מנהלת חוט־סלע מרכזת הכרה תיעודית ותיקי מסירה",
+    "styles": "official, conversational, educational",
+    "distinction": "הסבר תהליך, תיאום, שינוי אחריות ושליטה בכל מסלולי הערר",
+    "primary_domain": "cyber_communications_c2"
+  },
+  "protective-supply-governance": {
+    "domain": "ניהול קליטת ציוד ביטחוני",
+    "background": "אגף שער־ליבנה מטפל בהחזרות ובמסמכי פיקוח על ציוד מיגון",
+    "facts": "אגף שער־ליבנה מטפל בהחזרות ובמסמכי פיקוח על ציוד מיגון",
+    "styles": "official, conversational, educational",
+    "distinction": "ידע פומבי, רישום, עיכוב תשלום וסיכול הוכחות רוחבי",
+    "primary_domain": "defense_logistics"
+  },
+  "civil-oral-history": {
+    "domain": "ארכיון קהילתי אזרחי",
+    "background": "מרכז עץ־סיפור אוסף ראיונות על גינון ומוזיקה",
+    "facts": "מרכז עץ־סיפור אוסף ראיונות על גינון ומוזיקה",
+    "styles": "official, conversational, educational",
+    "distinction": "תוכן פתוח, תיאום, הסכמי שיתוף ופרטיות מרואיינים",
+    "primary_domain": "general_negative_controls"
   }
 }

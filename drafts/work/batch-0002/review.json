@@ -8,133 +8,136 @@
   "normalized_exact_duplicates": 0,
   "active_approved_rows_compared": 500,
   "metrics": {
-    "records": 144,
+    "records": 264,
     "label_lengths": {
       "נמוך": [
         6,
-        20,
+        50,
         10,
         0
       ],
       "בינוני": [
         6,
-        20,
+        50,
         10,
         0
       ],
       "גבוה": [
         6,
-        20,
+        50,
         10,
         0
       ],
       "חמור": [
         6,
-        20,
+        50,
         10,
         0
       ]
     },
     "labels": {
-      "נמוך": 36,
-      "בינוני": 36,
-      "גבוה": 36,
-      "חמור": 36
+      "נמוך": 66,
+      "בינוני": 66,
+      "גבוה": 66,
+      "חמור": 66
     },
     "lengths": {
       "short": 24,
-      "sentence": 80,
+      "sentence": 200,
       "paragraph": 40,
       "long": 0
     },
     "origins": {
-      "synthetic": 144
+      "synthetic": 264
     },
     "styles": {
-      "question": 3,
+      "question": 8,
       "explanation": 1,
-      "worksheet": 3,
-      "faq": 4,
-      "notice": 4,
+      "worksheet": 4,
+      "faq": 7,
+      "notice": 6,
       "interview": 2,
-      "column": 1,
-      "lesson": 5,
-      "public-brief": 1,
-      "review": 2,
-      "glossary": 1,
-      "article": 3,
-      "personal": 1,
-      "chat": 10,
-      "task": 4,
-      "minutes": 6,
-      "email": 6,
+      "column": 2,
+      "lesson": 10,
+      "public-brief": 2,
+      "review": 3,
+      "glossary": 2,
+      "article": 6,
+      "personal": 2,
+      "chat": 20,
+      "task": 8,
+      "minutes": 10,
+      "email": 12,
       "note": 3,
       "lab-note": 2,
-      "handoff": 5,
-      "log": 4,
-      "memo": 13,
-      "report": 18,
-      "qa": 3,
-      "audit": 17,
-      "incident": 14,
+      "handoff": 7,
+      "log": 10,
+      "memo": 28,
+      "report": 31,
+      "qa": 6,
+      "audit": 31,
+      "incident": 25,
       "title": 4,
-      "calendar": 2,
-      "guide": 1,
-      "contract": 1
+      "calendar": 4,
+      "guide": 4,
+      "contract": 1,
+      "catalog": 1,
+      "public-note": 1,
+      "explainer": 1
     },
-    "scenario_count": 11,
-    "source_group_count": 11,
+    "scenario_count": 22,
+    "source_group_count": 22,
     "edge_cases": 0,
     "counterfactual_pairs": 0,
     "records_with_latin": 0
   },
   "domain_counts": {
-    "missile_systems": 88,
-    "uncrewed_aircraft": 16,
-    "radar_sensors_space": 16,
-    "cyber_communications_c2": 12,
-    "defense_logistics": 6,
-    "general_negative_controls": 6
+    "missile_systems": 160,
+    "uncrewed_aircraft": 28,
+    "radar_sensors_space": 28,
+    "cyber_communications_c2": 24,
+    "defense_logistics": 12,
+    "general_negative_controls": 12
   },
   "domain_label_counts": {
     "missile_systems": {
-      "נמוך": 22,
-      "בינוני": 22,
-      "גבוה": 22,
-      "חמור": 22
+      "נמוך": 40,
+      "בינוני": 40,
+      "גבוה": 40,
+      "חמור": 40
     },
     "uncrewed_aircraft": {
-      "נמוך": 4,
-      "בינוני": 4,
-      "גבוה": 4,
-      "חמור": 4
+      "נמוך": 7,
+      "בינוני": 7,
+      "גבוה": 7,
+      "חמור": 7
     },
     "radar_sensors_space": {
-      "נמוך": 4,
-      "בינוני": 4,
-      "גבוה": 4,
-      "חמור": 4
+      "נמוך": 7,
+      "בינוני": 7,
+      "גבוה": 7,
+      "חמור": 7
     },
     "cyber_communications_c2": {
-      "נמוך": 3,
-      "בינוני": 3,
-      "גבוה": 3,
-      "חמור": 3
+      "נמוך": 6,
+      "בינוני": 6,
+      "גבוה": 6,
+      "חמור": 6
     },
     "defense_logistics": {
-      "נמוך": 1,
-      "בינוני": 2,
-      "גבוה": 1,
-      "חמור": 2
+      "נמוך": 2,
+      "בינוני": 4,
+      "גבוה": 2,
+      "חמור": 4
     },
     "general_negative_controls": {
-      "נמוך": 2,
-      "בינוני": 1,
-      "גבוה": 2,
-      "חמור": 1
+      "נמוך": 4,
+      "בינוני": 2,
+      "גבוה": 4,
+      "חמור": 2
     }
   },
-  "missile_domain_percentage": 61.111111111111114,
+  "missile_domain_percentage": 60.60606060606061,
   "semantic_screening": {
     "status": "completed",
     "model": "Xenova/multilingual-e5-small",
@@ -146,9 +149,9 @@
     "search": "exact_cosine_top_k",
     "cosine_threshold": 0.92,
     "neighbors_per_record": 12,
-    "indexed_records": 644,
-    "scanned_records": 144,
-    "candidate_pairs": 145
+    "indexed_records": 764,
+    "scanned_records": 264,
+    "candidate_pairs": 203
   },
   "domain_review": {
     "status": "pending"
@@ -157,35 +160,35 @@
     "status": "pending"
   },
   "remaining_domains": {
-    "missile_systems": 212,
-    "uncrewed_aircraft": 34,
-    "radar_sensors_space": 34,
-    "cyber_communications_c2": 38,
-    "defense_logistics": 19,
-    "general_negative_controls": 19
+    "missile_systems": 140,
+    "uncrewed_aircraft": 22,
+    "radar_sensors_space": 22,
+    "cyber_communications_c2": 26,
+    "defense_logistics": 13,
+    "general_negative_controls": 13
   },
   "remaining_label_lengths": {
     "נמוך": [
       0,
-      30,
+      0,
       34,
       25
     ],
     "בינוני": [
       0,
-      30,
+      0,
       34,
       25
     ],
     "גבוה": [
       0,
-      30,
+      0,
       34,
       25
     ],
     "חמור": [
       0,
-      30,
+      0,
       34,
       25
     ]
