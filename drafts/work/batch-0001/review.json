@@ -1,0 +1,199 @@
+{
+  "status": "partial_draft",
+  "owner": "work",
+  "authoring": "GPT authored in Work",
+  "checkpoint": 1,
+  "schema": "passed",
+  "document_form": "passed",
+  "normalized_exact_duplicates": 0,
+  "active_approved_rows_compared": 0,
+  "metrics": {
+    "records": 224,
+    "label_lengths": {
+      "נמוך": [
+        6,
+        50,
+        0,
+        0
+      ],
+      "בינוני": [
+        6,
+        50,
+        0,
+        0
+      ],
+      "גבוה": [
+        6,
+        50,
+        0,
+        0
+      ],
+      "חמור": [
+        6,
+        50,
+        0,
+        0
+      ]
+    },
+    "labels": {
+      "נמוך": 56,
+      "בינוני": 56,
+      "גבוה": 56,
+      "חמור": 56
+    },
+    "lengths": {
+      "short": 24,
+      "sentence": 200,
+      "paragraph": 0,
+      "long": 0
+    },
+    "origins": {
+      "synthetic": 224
+    },
+    "styles": {
+      "glossary": 5,
+      "title": 2,
+      "question": 5,
+      "catalog": 2,
+      "chat": 15,
+      "task": 9,
+      "calendar": 3,
+      "memo": 27,
+      "note": 4,
+      "headline": 1,
+      "audit": 32,
+      "incident": 19,
+      "explainer": 8,
+      "textbook": 1,
+      "classroom": 1,
+      "faq": 5,
+      "column": 1,
+      "lesson": 10,
+      "public-note": 3,
+      "public-brief": 3,
+      "press": 1,
+      "article": 5,
+      "worksheet": 2,
+      "notice": 2,
+      "personal": 1,
+      "email": 15,
+      "minutes": 10,
+      "log": 7,
+      "handoff": 4,
+      "conversation": 1,
+      "report": 12,
+      "qa": 2,
+      "issue": 3,
+      "mail": 1,
+      "review": 1,
+      "contract": 1
+    },
+    "scenario_count": 18,
+    "source_group_count": 18,
+    "edge_cases": 0,
+    "counterfactual_pairs": 0,
+    "records_with_latin": 0
+  },
+  "domain_counts": {
+    "missile_systems": 136,
+    "uncrewed_aircraft": 24,
+    "radar_sensors_space": 24,
+    "cyber_communications_c2": 20,
+    "defense_logistics": 10,
+    "general_negative_controls": 10
+  },
+  "domain_label_counts": {
+    "missile_systems": {
+      "נמוך": 34,
+      "בינוני": 34,
+      "גבוה": 34,
+      "חמור": 34
+    },
+    "uncrewed_aircraft": {
+      "נמוך": 6,
+      "בינוני": 6,
+      "גבוה": 6,
+      "חמור": 6
+    },
+    "radar_sensors_space": {
+      "נמוך": 6,
+      "בינוני": 6,
+      "גבוה": 6,
+      "חמור": 6
+    },
+    "cyber_communications_c2": {
+      "נמוך": 5,
+      "בינוני": 5,
+      "גבוה": 5,
+      "חמור": 5
+    },
+    "defense_logistics": {
+      "נמוך": 2,
+      "בינוני": 3,
+      "גבוה": 2,
+      "חמור": 3
+    },
+    "general_negative_controls": {
+      "נמוך": 3,
+      "בינוני": 2,
+      "גבוה": 3,
+      "חמור": 2
+    }
+  },
+  "missile_domain_percentage": 60.714285714285715,
+  "semantic_screening": {
+    "status": "completed",
+    "model": "Xenova/multilingual-e5-small",
+    "reference_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+    "artifact_sha256": {
+      "model_int8.onnx": "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c",
+      "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+    },
+    "search": "exact_cosine_top_k",
+    "cosine_threshold": 0.92,
+    "neighbors_per_record": 12,
+    "indexed_records": 224,
+    "scanned_records": 224,
+    "candidate_pairs": 69
+  },
+  "domain_review": {
+    "status": "pending"
+  },
+  "label_review": {
+    "status": "pending"
+  },
+  "remaining_domains": {
+    "missile_systems": 164,
+    "uncrewed_aircraft": 26,
+    "radar_sensors_space": 26,
+    "cyber_communications_c2": 30,
+    "defense_logistics": 15,
+    "general_negative_controls": 15
+  },
+  "remaining_label_lengths": {
+    "נמוך": [
+      0,
+      0,
+      44,
+      25
+    ],
+    "בינוני": [
+      0,
+      0,
+      44,
+      25
+    ],
+    "גבוה": [
+      0,
+      0,
+      44,
+      25
+    ],
+    "חמור": [
+      0,
+      0,
+      44,
+      25
+    ]
+  }
+}

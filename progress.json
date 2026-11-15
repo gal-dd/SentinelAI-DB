@@ -96,7 +96,16 @@
       ]
     }
   },
-  "parallel_drafts": {},
+  "parallel_drafts": {
+    "work": {
+      "checkpoint": 1,
+      "records": 224,
+      "path": "drafts/work/batch-0001/candidates.jsonl",
+      "sha256": "149a07a8a9b7d036cb1e1026e28b169e397e57b76545f3a93a344385075bb57d",
+      "review_path": "drafts/work/batch-0001/review.json",
+      "status": "partial_draft"
+    }
+  },
   "dataset_generation": "defense-focused-v2",
   "archive_path": "archive/general-v1",
   "domain_targets_file": "config/defense-domain-targets.json",
