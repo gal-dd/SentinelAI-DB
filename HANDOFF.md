@@ -32,6 +32,6 @@
 
 ## טיוטה פעילה של מנה 0002
 
-ב[טיוטת Work](drafts/work/batch-0002/candidates.jsonl) שמורות 264 רשומות מועמדות. אין להן מזהי ייצור.
+ב[טיוטת Work](drafts/work/batch-0002/candidates.jsonl) שמורות 400 רשומות מועמדות. אין להן מזהי ייצור.
 קרא את [דוח הטיוטה](drafts/work/batch-0002/review.json) ואת `plan` עם קובץ המועמדים, והשלם מהיתרות.
 בצע `prepare` מחדש לאחר ההשלמה, ובדוק את `domain_texts`, את מדגם התיוג ואת ההתרעות החריגות לפני `stage-checkpoint`.

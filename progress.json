@@ -110,9 +110,9 @@
   "parallel_drafts": {
     "work": {
       "checkpoint": 2,
-      "records": 264,
+      "records": 400,
       "path": "drafts/work/batch-0002/candidates.jsonl",
-      "sha256": "31a3de835a78d7399817e47f7c68f360123e6b42f383a6ca5df2cd859f9e0489",
+      "sha256": "00a3f016233228c2086218fdff0145be56f1f9ab723ea797760bb7d6a3d44aab",
       "review_path": "drafts/work/batch-0002/review.json",
       "status": "partial_draft"
     }
