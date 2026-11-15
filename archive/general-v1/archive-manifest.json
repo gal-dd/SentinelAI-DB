@@ -1,0 +1,12 @@
+{
+  "title": "Pre-restart dataset archive",
+  "source_branch": "poc/security-classification-dataset",
+  "source_commit": "ea069b5ab409c5144084d490dfbcd240f69a9aec",
+  "archived_records": 4500,
+  "archived_batches": 9,
+  "archived_pilot": 200,
+  "archived_files": 69,
+  "kept_source_files": true,
+  "active_dataset_reset": true,
+  "notes": "All legacy data, pilot, metadata, reports, drafts, original progress and context preserved under archive/general-v1. Active production reset in this branch only. GitHub original branch unchanged."
+}
