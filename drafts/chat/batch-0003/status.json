@@ -1,6 +1,6 @@
 {
   "batch": "0003",
-  "status": "similarity_zero_pending_final_validation",
+  "status": "classification_materiality_repaired_final_checks",
   "records": 500,
   "missile_count": 300,
   "draft_path": "drafts/chat/batch-0003/candidates.jsonl",
