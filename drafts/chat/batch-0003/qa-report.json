@@ -1,5 +1,5 @@
 {
-  "status": "evidence_repair_complete_validation_continues",
+  "status": "targeted_long_semantic_rewrites_completed_remaining_review",
   "batch": "0003",
   "branch": "producer/chat-defense-v2",
   "records": 500,
@@ -51,17 +51,16 @@
     "semantic_domain_review": "not_completed",
     "lexical_similarity_review": {
       "status": "warning",
-      "metric": "Jaccard normalized unique word tokens",
       "threshold": 0.73,
-      "total_pairs": 135,
-      "affected_records": 188,
+      "metric": "Jaccard normalized word tokens",
+      "total_pairs": 101,
+      "affected_records": 154,
       "by_length": {
         "short": 0,
         "sentence": 23,
-        "paragraph": 49,
-        "long": 63
-      },
-      "note": "Alerts are not proven semantic duplicates; adjudication remains."
+        "paragraph": 50,
+        "long": 28
+      }
     },
     "editorial_note": "Numerical quotas and exact duplication checks passed. Meaning-based full text domain and blinded labeling remain open.",
     "editorial_rewrite": {
@@ -99,6 +98,11 @@
       "severe_multisystem_evidence_repairs": 10,
       "internal_vs_public_document_corrections": 20,
       "method": "Context-specific changes to label-discriminating claims"
+    },
+    "long_form_revision_round2": {
+      "reviewed": 100,
+      "flagged_and_rewritten": 73,
+      "method": "Diverse independent program-specific fictional governance circumstances, with distinct issue, evidence and consequence."
     }
   },
   "initial_authored_preserved": 20,
