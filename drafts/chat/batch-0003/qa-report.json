@@ -1,5 +1,5 @@
 {
-  "status": "targeted_long_semantic_rewrites_completed_remaining_review",
+  "status": "targeted_similarity_clusters_rewritten_quality_review_pending",
   "batch": "0003",
   "branch": "producer/chat-defense-v2",
   "records": 500,
@@ -50,19 +50,75 @@
     "blind_label_review": "not_completed",
     "semantic_domain_review": "not_completed",
     "lexical_similarity_review": {
-      "status": "warning",
+      "status": "completed",
       "threshold": 0.73,
-      "metric": "Jaccard normalized word tokens",
-      "total_pairs": 101,
-      "affected_records": 154,
-      "by_length": {
-        "short": 0,
-        "sentence": 23,
-        "paragraph": 50,
-        "long": 28
-      }
+      "metric": "Jaccard normalized unique word tokens",
+      "total_pairs": 12,
+      "affected_records": 24,
+      "unresolved_review_items": [
+        {
+          "a": 63,
+          "b": 122,
+          "score": 0.785
+        },
+        {
+          "a": 64,
+          "b": 123,
+          "score": 0.741
+        },
+        {
+          "a": 65,
+          "b": 124,
+          "score": 0.769
+        },
+        {
+          "a": 189,
+          "b": 248,
+          "score": 0.745
+        },
+        {
+          "a": 335,
+          "b": 346,
+          "score": 0.733
+        },
+        {
+          "a": 336,
+          "b": 347,
+          "score": 0.846
+        },
+        {
+          "a": 439,
+          "b": 497,
+          "score": 0.745
+        },
+        {
+          "a": 440,
+          "b": 498,
+          "score": 0.768
+        },
+        {
+          "a": 459,
+          "b": 469,
+          "score": 0.778
+        },
+        {
+          "a": 460,
+          "b": 470,
+          "score": 0.75
+        },
+        {
+          "a": 461,
+          "b": 471,
+          "score": 0.875
+        },
+        {
+          "a": 462,
+          "b": 472,
+          "score": 0.75
+        }
+      ]
     },
-    "editorial_note": "Numerical quotas and exact duplication checks passed. Meaning-based full text domain and blinded labeling remain open.",
+    "editorial_note": "Lexical similarity reduced with factual differentiation. Independent semantic and blind-label verification is necessary before production finalization.",
     "editorial_rewrite": {
       "records_reviewed": 100,
       "long_records_revised": 95,
@@ -103,6 +159,12 @@
       "reviewed": 100,
       "flagged_and_rewritten": 73,
       "method": "Diverse independent program-specific fictional governance circumstances, with distinct issue, evidence and consequence."
+    },
+    "targeted_similarity_revisions": {
+      "records_changed": 65,
+      "initial_pairs": 101,
+      "remaining_pairs": 12,
+      "method": "Greedy coverage of flagged pairs followed by rewrite with independent substantive context and lexical verification"
     }
   },
   "initial_authored_preserved": 20,
