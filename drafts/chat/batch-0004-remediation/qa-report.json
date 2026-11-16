@@ -1,0 +1,67 @@
+{
+  "batch": "0004",
+  "candidate_source": "drafts/work/batch-0004/candidates.jsonl",
+  "remediated_candidate_path": "drafts/chat/batch-0004-remediation/candidates.jsonl",
+  "rows": 500,
+  "changes": [
+    {
+      "row_1_based": 282,
+      "label": "נמוך",
+      "length": "paragraph -> short"
+    },
+    {
+      "row_1_based": 324,
+      "label": "בינוני",
+      "length": "paragraph -> short"
+    },
+    {
+      "row_1_based": 365,
+      "label": "גבוה",
+      "length": "paragraph -> short"
+    },
+    {
+      "row_1_based": 404,
+      "label": "חמור",
+      "length": "paragraph -> short"
+    }
+  ],
+  "distribution": {
+    "missile_systems": 300,
+    "uncrewed_aircraft": 50,
+    "radar_sensors_space": 50,
+    "cyber_communications_c2": 50,
+    "defense_logistics": 25,
+    "general_negative_controls": 25
+  },
+  "per_label_length": {
+    "short": 7,
+    "sentence": 50,
+    "paragraph": 43,
+    "long": 25
+  },
+  "checks": {
+    "expected_size": "passed",
+    "label_quotas": "passed",
+    "domain_quotas": "passed",
+    "word_count_bucket": "passed",
+    "scenario_registration": "passed",
+    "approved_v2_exact_duplicates": 0,
+    "within_draft_exact_duplicates": 0,
+    "counterfactual_pair_integrity": "passed",
+    "long_document_paragraph_split": "passed",
+    "lexical_token_jaccard_at_0_73": {
+      "within": 0,
+      "against_approved_v2_0001_0003": 0,
+      "against_chat_draft_0005": 0
+    }
+  },
+  "not_run": [
+    "Full python -m sentinel_dataset prepare/verify against the remediated file",
+    "Embedding semantic scan against 1500 approved records",
+    "Adjudication of six previously reported exceptional alerts",
+    "Blind label/domain editorial sample under repo protocol",
+    "Atomic production checkpoint generation and hash verification"
+  ],
+  "status": "technical_quotas_corrected_not_approved",
+  "note": "Previously completed semantic scan of ORIGINAL Work draft is stale for four edited rows. Do not reuse its completed status for this revision."
+}
