@@ -2,7 +2,6 @@
 
 from hashlib import sha256
 from pathlib import Path
-from tempfile import NamedTemporaryFile
 
 from .core import alert, digest
 
@@ -13,9 +12,12 @@ NEIGHBORS = 12
 
 
 def embeddings(rows, model_dir, cache_dir):
+    """Compute only missing exact-text vectors; persist per model-artifact revision."""
     import numpy as np
     import onnxruntime as ort
     from tokenizers import Tokenizer
+
+    from .embedding_cache import VectorCache, text_key
 
     model_dir = Path(model_dir)
     model_path = model_dir / "model_int8.onnx"
@@ -23,10 +25,10 @@ def embeddings(rows, model_dir, cache_dir):
     hashes = {}
     for path in (model_path, tokenizer_path):
         with path.open("rb") as stream:
-            for_hash = sha256()
+            hasher = sha256()
             for chunk in iter(lambda: stream.read(1024 * 1024), b""):
-                for_hash.update(chunk)
-        hashes[path.name] = for_hash.hexdigest()
+                hasher.update(chunk)
+        hashes[path.name] = hasher.hexdigest()
     cache = Path(cache_dir) / digest(hashes)
     cache.mkdir(parents=True, exist_ok=True)
     options = ort.SessionOptions()
@@ -36,36 +38,40 @@ def embeddings(rows, model_dir, cache_dir):
     tokenizer.enable_truncation(max_length=512)
     tokenizer.enable_padding(pad_id=1, pad_token="<pad>")
     session = None
-    results = []
-    for start in range(0, len(rows), 32):
-        texts = ["passage: " + row["text"] for row in rows[start:start + 32]]
-        path = cache / f"{digest(texts)}.npy"
-        if path.exists():
-            results.append(np.load(path, allow_pickle=False))
-            continue
-        if session is None:
-            session = ort.InferenceSession(str(model_path), sess_options=options,
-                                           providers=["CPUExecutionProvider"])
-        encodings = tokenizer.encode_batch(texts)
-        arrays = {
-            "input_ids": np.array([e.ids for e in encodings], dtype=np.int64),
-            "attention_mask": np.array([e.attention_mask for e in encodings], dtype=np.int64),
-            "token_type_ids": np.array([e.type_ids for e in encodings], dtype=np.int64),
-        }
-        inputs = {item.name: arrays[item.name] for item in session.get_inputs()}
-        hidden = session.run(["last_hidden_state"], inputs)[0]
-        mask = arrays["attention_mask"][..., None].astype(np.float32)
-        mean = (hidden * mask).sum(axis=1) / mask.sum(axis=1)
-        vectors = (mean / np.linalg.norm(mean, axis=1, keepdims=True)).astype(np.float32)
-        with NamedTemporaryFile(dir=cache, delete=False) as stream:
-            np.save(stream, vectors, allow_pickle=False)
-            temporary = Path(stream.name)
-        try:
-            temporary.replace(path)
-        finally:
-            temporary.unlink(missing_ok=True)
-        results.append(vectors)
-    return np.concatenate(results), hashes
+    vectors = []
+    database = VectorCache(cache / "per-text.sqlite3")
+    try:
+        for start in range(0, len(rows), 32):
+            texts = ["passage: " + row["text"] for row in rows[start:start + 32]]
+            keys = [text_key(text) for text in texts]
+            found = database.get_many(keys)
+            missing = [(key, text) for key, text in zip(keys, texts) if key not in found]
+            # Eliminate duplicate text within the same batch, too.
+            distinct = list({key: text for key, text in missing}.items())
+            if distinct:
+                if session is None:
+                    session = ort.InferenceSession(str(model_path), sess_options=options,
+                                                   providers=["CPUExecutionProvider"])
+                encodings = tokenizer.encode_batch([text for _, text in distinct])
+                arrays = {
+                    "input_ids": np.array([e.ids for e in encodings], dtype=np.int64),
+                    "attention_mask": np.array([e.attention_mask for e in encodings], dtype=np.int64),
+                    "token_type_ids": np.array([e.type_ids for e in encodings], dtype=np.int64),
+                }
+                inputs = {item.name: arrays[item.name] for item in session.get_inputs()}
+                hidden = session.run(["last_hidden_state"], inputs)[0]
+                mask = arrays["attention_mask"][..., None].astype(np.float32)
+                mean = (hidden * mask).sum(axis=1) / mask.sum(axis=1)
+                fresh = (mean / np.linalg.norm(mean, axis=1, keepdims=True)).astype(np.float32)
+                entries = list(zip([key for key, _ in distinct], fresh))
+                database.put_many(entries)
+                found.update(entries)
+            vectors.append(np.stack([found[key] for key in keys]))
+    finally:
+        database.close()
+    if not vectors:
+        return np.empty((0, 0), dtype=np.float32), hashes
+    return np.concatenate(vectors), hashes
 
 
 def semantic_scan(prior, rows, model_dir, cache_dir):
