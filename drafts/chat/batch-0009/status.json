@@ -16,5 +16,10 @@
     "Work embedding-based semantic similarity with alert adjudication",
     "Work editorial check for repeated fact patterns and document-level diversity",
     "Work align live checkpoint quotas then use repository-native checkpoint publication"
-  ]
+  ],
+  "last_editorial_recheck": {
+    "grammar_agreement_corrections": 12,
+    "candidate_file_updated": true,
+    "semantic_QA_pending": true
+  }
 }
