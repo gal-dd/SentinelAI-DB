@@ -1,24 +1,20 @@
 {
   "batch": "0006",
-  "state": "assigned_generation_blocked",
+  "state": "complete_draft_pending_independent_review",
   "owner": "chat_producer",
   "branch": "producer/chat-defense-v2",
-  "assigned_path": "drafts/chat/batch-0006/",
-  "records_committed": 0,
-  "expected_records": 500,
+  "records": 500,
+  "missile_records": 300,
+  "candidates": "drafts/chat/batch-0006/candidates.jsonl",
+  "qa_report": "drafts/chat/batch-0006/qa-report.json",
+  "ready_for_work_intake": true,
+  "ready_for_production": false,
   "production_modified": false,
   "ids_assigned": false,
-  "ready_for_work_intake": false,
-  "ready_for_production": false,
-  "reason": "Initial generated candidates failed length validation and content-diversity review; discarded rather than publishing low-quality records.",
-  "required_outputs_pending": [
-    "candidates.jsonl",
-    "successful_qa_report"
-  ],
-  "blocked_by": [
-    "Rewrite with document-level editorial diversity",
-    "Full repository schema and active-v2 dedup checks",
-    "Independent label and domain review",
-    "Lexical and semantic similarity review"
+  "remaining_work": [
+    "Work editorial review of labels, domains, repeated facts and document variety",
+    "Run and adjudicate semantic embedding alerts",
+    "Recalculate next production length quotas at actual intake date",
+    "Run repository checkpoint process on production branch only"
   ]
 }
