@@ -20,7 +20,7 @@ from .production import validate_document_form
 
 MIN_PARAGRAPH_WORDS = 12
 MIN_REPEATED_SENTENCE_WORDS = 10
-HEBREW_SENTENCE_BOUNDARY = re.compile(r"(?<=[.!?])\\s+")
+HEBREW_SENTENCE_BOUNDARY = re.compile(r"(?<=[.!?])\s+")
 SIMILARITY_THRESHOLD = 0.73
 
 
@@ -30,12 +30,12 @@ def _digest(text):
 
 def _blocks(text):
     """Exclude small shared fragments; retain substantive whole paragraphs."""
-    return [normalize(block) for block in re.split(r"\\n\\s*\\n", text)
+    return [normalize(block) for block in re.split(r"\n\s*\n", text)
             if len(normalize(block).split()) >= MIN_PARAGRAPH_WORDS]
 
 
 def _sentences(text):
-    return [normalize(sentence) for sentence in HEBREW_SENTENCE_BOUNDARY.split(text.replace("\\n", " "))
+    return [normalize(sentence) for sentence in HEBREW_SENTENCE_BOUNDARY.split(text.replace("\n", " "))
             if len(normalize(sentence).split()) >= MIN_REPEATED_SENTENCE_WORDS]
 
 
@@ -61,10 +61,8 @@ def analyze(rows, references=(), reference_names=(), expected_lengths=None, scen
     warnings = []
     length_counts = defaultdict(Counter)
     domains = Counter()
-    source_index = defaultdict(list)
     text_index = defaultdict(list)
     phrase_index = defaultdict(list)
-    phrase_kinds = {}
     for pos, row in enumerate(rows, 1):
         if not isinstance(row, dict) or not isinstance(row.get("text"), str):
             errors.append({"row": pos, "code": "invalid_row"})
@@ -79,12 +77,10 @@ def analyze(rows, references=(), reference_names=(), expected_lengths=None, scen
         domains[row.get("primary_domain", "?")] += 1
         key = normalize(text)
         text_index[key].append(pos)
-        source_index[row.get("source_group_id", "?")].append(pos)
         for kind, chunks in (("paragraph", _blocks(text)), ("sentence", _sentences(text))):
             for chunk in set(chunks):
                 phrase_index[(kind, chunk)].append(pos)
-                phrase_kinds[(kind, chunk)] = kind
-        if re.search(r"(?:רכזת|עורכת|מנהלת|מזכירת|אחראית)\\s+[^.:\\n]{0,35}\\s+ציין(?:\\s|$)", text):
+        if re.search(r"(?:רכזת|עורכת|מנהלת|מזכירת|אחראית)\s+[^.:\n]{0,35}\s+ציין(?:\s|$)", text):
             warnings.append({"row": pos, "code": "possible_gender_agreement"})
         if row.get("primary_domain") == "missile_systems" and not re.search(
                 r"טיל|יירוט|מיירט|בליסט|הגנה אווירית", text):
@@ -175,7 +171,7 @@ def main(argv=None):
                      reference_names=[str(p) for p in args.reference],
                      expected_lengths=expected)
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\\n",
+    args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n",
                            encoding="utf-8")
     print(json.dumps({"output": str(args.output), **report["summary"]}, ensure_ascii=False))
     return 2 if report["errors"] else 0
