@@ -1,6 +1,6 @@
 {
   "batch": "0003",
-  "status": "revised_long_form_waiting_final_qa",
+  "status": "lexical_clusters_resolved_waiting_semantic_label_review",
   "records": 500,
   "missile_count": 300,
   "draft_path": "drafts/chat/batch-0003/candidates.jsonl",
@@ -13,6 +13,6 @@
     "Independent semantic verification of 300 missile subjects without relying solely on domain anchors",
     "Refresh approved v2 and Work draft comparison at time of intake"
   ],
-  "near_similarity_pairs": 101,
-  "affected_records": 154
+  "near_similarity_pairs": 12,
+  "affected_records": 24
 }
