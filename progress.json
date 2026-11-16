@@ -4,9 +4,9 @@
   "pilot_records": 0,
   "pilot_hashes": {},
   "pilot_quality": "not_started",
-  "production_records": 1500,
-  "last_checkpoint": 3,
-  "next_id": 1501,
+  "production_records": 2000,
+  "last_checkpoint": 4,
+  "next_id": 2001,
   "checkpoints": [
     {
       "checkpoint": 1,
@@ -37,6 +37,16 @@
         "metadata/checkpoints/batch-0003.jsonl": "f1909ac48aa6cb1da177d9fd5e0cce501e61739c08cc46b4d8c77607560ac8c4",
         "reports/checkpoints/batch-0003.json": "76e1e8d461fef3da268ffabc8a0e457a416d7990611a0f55b7f4c410e6a82e6f"
       }
+    },
+    {
+      "checkpoint": 4,
+      "start_id": 1501,
+      "end_id": 2000,
+      "sha256": {
+        "data/checkpoints/batch-0004.jsonl": "4566a26484b305a1c6e8ff1cba5cf40981151cfbc7fd235a09bb5385ed2ba2f8",
+        "metadata/checkpoints/batch-0004.jsonl": "6393af9752f56db322de152211789f3d4ebe7c76d969b892c9ebf5e4bff33309",
+        "reports/checkpoints/batch-0004.json": "62f81fae03d6b57f34e04dd2d1ebb597b1e45da6410bebe25ff58dfe288635ab"
+      }
     }
   ],
   "final": null,
@@ -50,79 +60,79 @@
     "correction_horizon_records": 2500,
     "accepted_label_lengths": {
       "נמוך": [
-        18,
-        150,
-        132,
-        75
+        25,
+        200,
+        175,
+        100
       ],
       "בינוני": [
-        18,
-        150,
-        132,
-        75
+        25,
+        200,
+        175,
+        100
       ],
       "גבוה": [
-        18,
-        150,
-        132,
-        75
+        25,
+        200,
+        175,
+        100
       ],
       "חמור": [
-        18,
-        150,
-        132,
-        75
+        25,
+        200,
+        175,
+        100
       ]
     },
     "remaining_label_lengths": {
       "נמוך": [
-        1232,
-        9850,
-        8618,
-        4925
+        1225,
+        9800,
+        8575,
+        4900
       ],
       "בינוני": [
-        1232,
-        9850,
-        8618,
-        4925
+        1225,
+        9800,
+        8575,
+        4900
       ],
       "גבוה": [
-        1232,
-        9850,
-        8618,
-        4925
+        1225,
+        9800,
+        8575,
+        4900
       ],
       "חמור": [
-        1232,
-        9850,
-        8618,
-        4925
+        1225,
+        9800,
+        8575,
+        4900
       ]
     },
     "next_checkpoint_label_lengths": {
       "נמוך": [
-        7,
+        6,
         50,
-        43,
+        44,
         25
       ],
       "בינוני": [
-        7,
+        6,
         50,
-        43,
+        44,
         25
       ],
       "גבוה": [
-        7,
+        6,
         50,
-        43,
+        44,
         25
       ],
       "חמור": [
-        7,
+        6,
         50,
-        43,
+        44,
         25
       ]
     }
@@ -132,59 +142,63 @@
       "checkpoint": 4,
       "records": 500,
       "path": "drafts/work/batch-0004/candidates.jsonl",
-      "sha256": "dd89eccc0fb0be12d403e2db1ee6dd332e3fb55ffb4709db97ffad89c76e4524",
+      "sha256": "8dd1a93a084e2cb35ebc052b6ddb4e95c6eb4a0969087048dd186ad71b439d98",
       "review_path": "drafts/work/batch-0004/review.json",
-      "status": "complete_draft_pending_qa",
-      "status_path": "drafts/work/batch-0004/status.json"
+      "status": "published",
+      "status_path": "drafts/work/batch-0004/status.json",
+      "production_id_range": [
+        1501,
+        2000
+      ]
     }
   },
   "dataset_generation": "defense-focused-v2",
   "archive_path": "archive/general-v1",
   "domain_targets_file": "config/defense-domain-targets.json",
   "domain_counts": {
-    "missile_systems": 900,
-    "uncrewed_aircraft": 150,
-    "radar_sensors_space": 150,
-    "cyber_communications_c2": 150,
-    "defense_logistics": 75,
-    "general_negative_controls": 75
+    "missile_systems": 1200,
+    "uncrewed_aircraft": 200,
+    "radar_sensors_space": 200,
+    "cyber_communications_c2": 200,
+    "defense_logistics": 100,
+    "general_negative_controls": 100
   },
   "domain_label_counts": {
     "missile_systems": {
-      "נמוך": 225,
-      "בינוני": 225,
-      "גבוה": 225,
-      "חמור": 225
+      "נמוך": 300,
+      "בינוני": 301,
+      "גבוה": 299,
+      "חמור": 300
     },
     "uncrewed_aircraft": {
-      "נמוך": 39,
-      "בינוני": 36,
-      "גבוה": 39,
-      "חמור": 36
+      "נמוך": 52,
+      "בינוני": 48,
+      "גבוה": 52,
+      "חמור": 48
     },
     "radar_sensors_space": {
-      "נמוך": 36,
-      "בינוני": 39,
-      "גבוה": 36,
-      "חמור": 39
+      "נמוך": 49,
+      "בינוני": 51,
+      "גבוה": 48,
+      "חמור": 52
     },
     "cyber_communications_c2": {
-      "נמוך": 39,
-      "בינוני": 36,
-      "גבוה": 39,
-      "חמור": 36
+      "נמוך": 51,
+      "בינוני": 49,
+      "גבוה": 52,
+      "חמור": 48
     },
     "defense_logistics": {
-      "נמוך": 17,
-      "בינוני": 21,
-      "גבוה": 17,
-      "חמור": 20
+      "נמוך": 22,
+      "בינוני": 28,
+      "גבוה": 24,
+      "חמור": 26
     },
     "general_negative_controls": {
-      "נמוך": 19,
-      "בינוני": 18,
-      "גבוה": 19,
-      "חמור": 19
+      "נמוך": 26,
+      "בינוני": 23,
+      "גבוה": 25,
+      "חמור": 26
     }
   },
   "missile_domain_percentage": 60.0
