@@ -1,0 +1,20 @@
+{
+  "batch": "0004",
+  "state": "remediated_candidate_pending_semantic_and_blind_review",
+  "branch": "producer/chat-defense-v2",
+  "owner": "chat_remediation",
+  "source_owner": "work",
+  "records": 500,
+  "ready_for_checkpoint": false,
+  "ready_for_work_intake": false,
+  "production_modified": false,
+  "ids_assigned": false,
+  "qa_report": "drafts/chat/batch-0004-remediation/qa-report.json",
+  "candidates": "drafts/chat/batch-0004-remediation/candidates.jsonl",
+  "remaining_blockers": [
+    "New embedding QA for revised file",
+    "Review six exceptional original semantic alerts, recalculate revised alert set",
+    "Independent blind label and domain review",
+    "Perform repository checkpoint validation then atomic publish"
+  ]
+}
