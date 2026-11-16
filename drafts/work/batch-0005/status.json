@@ -1,16 +1,17 @@
 {
   "batch": "0005",
-  "status": "work_revision_pending_approval",
+  "status": "published_with_checkpoint_0005",
   "records": 500,
   "missile_declared": 300,
-  "production_ids_assigned": false,
-  "repaired": 43,
-  "remaining_original_findings": 445,
-  "candidate_sha256": "27ad5ebba7a39896e96c187260c51ef1da9e31e6734054362b723ade22557971",
-  "ready_for_production_checkpoint": false,
-  "pending": [
-    "Independent QA of retained and repaired texts from current acceptance packet",
-    "Individual review of required similarity pairs",
-    "Stage with repository checkpoint validator"
-  ]
+  "production_ids_assigned": true,
+  "repaired": 490,
+  "remaining_original_findings": 0,
+  "candidate_sha256": "4cf0f62f9a37e4aa59dec0d07c39cb8d6c777892979317c4ee1ee7ba28a77204",
+  "ready_for_production_checkpoint": true,
+  "pending": [],
+  "production_id_range": [
+    2001,
+    2500
+  ],
+  "checkpoint_report": "reports/checkpoints/batch-0005.json"
 }

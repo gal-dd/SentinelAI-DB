@@ -1,0 +1,20 @@
+{
+  "batch": "0006",
+  "status": "initial_repairs_in_progress",
+  "source_branch": "producer/chat-defense-v2",
+  "source_path": "drafts/chat/batch-0006/candidates.jsonl",
+  "source_candidate_blob": "4e7b726be77f9985184f930ac0119d226360ebfa",
+  "candidate_sha256": "aa54df5dcbd2da9857c13dae5f571ba2cabf428573712076fb63b6c3d3493df7",
+  "candidates": 500,
+  "missile_proposed": 300,
+  "initial_independent_rows_reviewed": 25,
+  "changed_rows": 19,
+  "production_ids_assigned": false,
+  "ready_for_production_checkpoint": false,
+  "pending": [
+    "Review and repair remaining source records",
+    "Match current per-label length quotas",
+    "Rerun E5 against accepted checkpoints 0001–0005",
+    "Resolve mandatory similarity pairs and stage checkpoint"
+  ]
+}

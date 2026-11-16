@@ -1,0 +1,25 @@
+{"position":1,"label":"נמוך","primary_domain":"missile_systems","evidence":"הודעה על פרסום מדריך פומבי לתוכניות יירוט.","issue":"","repaired":false}
+{"position":2,"label":"נמוך","primary_domain":"radar_sensors_space","evidence":"קטלוג גלוי לציבור על תצלומים שהופקו בלוויין.","issue":"","repaired":false}
+{"position":3,"label":"נמוך","primary_domain":"missile_systems","evidence":"מילון פומבי שנוצר עבור תחום המחקר הבליסטי.","issue":"","repaired":false}
+{"position":4,"label":"נמוך","primary_domain":"general_negative_controls","evidence":"קטלוג ציבורי לשירותי ספרייה עירונית.","issue":"","repaired":false}
+{"position":5,"label":"נמוך","primary_domain":"missile_systems","evidence":"פתיחת אתר חינוכי המסביר מערכות יירוט.","issue":"","repaired":false}
+{"position":6,"label":"נמוך","primary_domain":"missile_systems","evidence":"ידיעה על פתיחת תערוכה היסטורית של מיירטים.","issue":"","repaired":false}
+{"position":7,"label":"נמוך","primary_domain":"unclear","evidence":"הידיעה מציינת סקירת זכויות כללית שכבר פורסמה.","issue":"הפתיח מנוסח כתווית תיק. הקשר למחקר הטילי אינו מופיע בסקירה, ולא ברור באיזה הליך המשתתפים.","repaired":true}
+{"position":8,"label":"נמוך","primary_domain":"unclear","evidence":"נמסר לקהל תקציר שכבר אושר לפרסום.","issue":"״נמסר כי נמסר״ ומלל מנהלי קבוע. אין ממצא המתייחס ליומני תקשורת או בקרה.","repaired":true}
+{"position":9,"label":"נמוך","primary_domain":"unclear","evidence":"תקציר מאושר של דיון נמסר לקהל.","issue":"תקציר אינו מספר על תוכן שימוע המיירטים. אותה תבנית כמו שורה 8.","repaired":true}
+{"position":10,"label":"נמוך","primary_domain":"missile_systems","evidence":"מדריך גלוי לקריאת מסמכי תיעוד הניסויים של תוכנית המיירטים.","issue":"כותרת התיק צורפה לנוסחת דיווח, בלי המחשה איך קוראים מסמך ניסוי.","repaired":true}
+{"position":11,"label":"נמוך","primary_domain":"unclear","evidence":"חוברת מושגים שאושרה אכן הוצגה לציבור.","issue":"אין מושג שקשור לבקרת בטיחות טילית. פתיח ותוצאה חוזרים.","repaired":true}
+{"position":12,"label":"נמוך","primary_domain":"unclear","evidence":"מפגש ציבורי כלל דוגמאות לימודיות.","issue":"זיקת הדוגמאות לצילומי כטב״ם קיימת רק בכותרת התיק.","repaired":true}
+{"position":13,"label":"נמוך","primary_domain":"unclear","evidence":"חוברת מושגים גלויה הוצגה לקהל.","issue":"מערכת השליטה והבקרה אינה חלק מהעובדה; נוסח זהה לשורה 11.","repaired":true}
+{"position":14,"label":"נמוך","primary_domain":"unclear","evidence":"פורסמה סקירת זכויות כללית.","issue":"לא ברור מה זכותו של מי או האם הציוד שייך למסגרת ביטחונית. תוצאה זהה לשורה 7.","repaired":true}
+{"position":15,"label":"נמוך","primary_domain":"missile_systems","evidence":"מדריך גלוי לקריאת מסמכי תוכנית טילים שנסגרה.","issue":"תיאור המדריך זהה לשורה 10. דרוש מידע קונקרטי על מסמכי סיום.","repaired":true}
+{"position":16,"label":"נמוך","primary_domain":"unclear","evidence":"האתר מציג מסמכים היסטוריים שאושרו לפרסום.","issue":"אין אזכור לסוג מסמך הנוגע לאימות מיירטים. הנוסח חוזר בשורות 18 ו־24.","repaired":true}
+{"position":17,"label":"נמוך","primary_domain":"unclear","evidence":"הנושא התקבל בהרצאה פומבית על בקרה מוסדית.","issue":"בגוף הידיעה אין דרישה ממיירט או אופן מעקב אחריה. אותה תוצאה כמו שורות 19 ו־20.","repaired":true}
+{"position":18,"label":"נמוך","primary_domain":"unclear","evidence":"האתר פתוח ומציג מסמכים היסטוריים מאושרים.","issue":"תיאום מכ״ם מסומן רק בכותרת. חסר הסבר מה מוצג על תיעוד חיישנים.","repaired":true}
+{"position":19,"label":"נמוך","primary_domain":"unclear","evidence":"הרצאה פתוחה על בקרה מוסדית.","issue":"הניתוח הבליסטי מוזכר רק בפתיח. אין חומר לימודי שנוגע אליו.","repaired":true}
+{"position":20,"label":"נמוך","primary_domain":"general_negative_controls","evidence":"הרצאה פומבית בהקשר אזרחי של ארכיון מחקר מים.","issue":"ההרצאה אינה מפורטת בהקשר של ארכיון מים. אותה תבנית כמו שורות 17 ו־19.","repaired":true}
+{"position":21,"label":"נמוך","primary_domain":"unclear","evidence":"סקירה על זכויות המשתתפים פורסמה לקהל.","issue":"זהות המשתתפים או טיב הליך ההיוועצות אינם מוצגים. ההגנה האווירית רק בכותרת.","repaired":true}
+{"position":22,"label":"נמוך","primary_domain":"missile_systems","evidence":"קטלוג פתוח של תפקידי ועדות במנהלת הגנה אווירית.","issue":"תיאור מופשט בלי הסבר על ועדה כלשהי. הפתיח התבניתי מיותר.","repaired":true}
+{"position":23,"label":"נמוך","primary_domain":"unclear","evidence":"מדריך גלוי מסביר איך לקרוא מסמכים כלליים.","issue":"אין מסמך שימוע קונקרטי. התוצאה חוזרת בשורות 10 ו־15.","repaired":true}
+{"position":24,"label":"נמוך","primary_domain":"unclear","evidence":"מסמכים היסטוריים מאושרים הועלו לאתר פומבי.","issue":"אין מידע על סוג מחקר כטב״ם שבמסמכים. התוצאה זהה לשורות 16 ו־18.","repaired":true}
+{"position":25,"label":"נמוך","primary_domain":"unclear","evidence":"מדריך זמין לקהל מסביר כיצד לקרוא מסמכים כלליים.","issue":"אין מידע מה קוראים במדריך על שליטה ובקרה. אותה תבנית מופיעה בשלוש דוגמאות נוספות.","repaired":true}
