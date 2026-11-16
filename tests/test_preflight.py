@@ -50,6 +50,15 @@ class PreflightTests(unittest.TestCase):
                           scenarios={}, sources={})
         self.assertTrue(any(x["code"] == "length_quota" for x in out["errors"]))
 
+
+    def test_systemic_repetition_blocks_intake_without_rejecting_all_repeats(self):
+        repeated = "תיעוד הוועדה מבחין בין עובדות מאושרות לבין פירושים שונים ושומר את ההקשר המנהלי לביקורת עתידית."
+        texts = [candidate(repeated + "\n\n" + f"זה נספח נפרד מספר {i} לצורך בדיקה.") for i in range(4)]
+        report = self.scan(texts)
+        self.assertTrue(any(e["code"] == "systemic_repeated_prose" for e in report["errors"]))
+        self.assertEqual(report["status"], "blocked")
+        self.assertGreater(report["summary"]["repetition_affected_share"], 0.2)
+
     def test_substantial_fragments_only(self):
         self.assertEqual(_blocks("הערה קטנה\n\nעוד הערה"), [])
         sentence = "הוועדה תיעדה את החלטתה במסמך חתום והעבירה אותו לביקורת חיצונית לטובת בדיקה נוספת."
