@@ -120,11 +120,12 @@
   "parallel_drafts": {
     "work": {
       "checkpoint": 4,
-      "records": 440,
+      "records": 500,
       "path": "drafts/work/batch-0004/candidates.jsonl",
-      "sha256": "ff5690a9bfcde1373f5251b1806cfd4d761170cd7a9cfbcad1edcd506b6463eb",
+      "sha256": "dd89eccc0fb0be12d403e2db1ee6dd332e3fb55ffb4709db97ffad89c76e4524",
       "review_path": "drafts/work/batch-0004/review.json",
-      "status": "partial_draft"
+      "status": "complete_draft_pending_qa",
+      "status_path": "drafts/work/batch-0004/status.json"
     }
   },
   "dataset_generation": "defense-focused-v2",

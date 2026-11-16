@@ -1,0 +1,19 @@
+{
+  "checkpoint": 4,
+  "owner": "work",
+  "status": "complete_draft_pending_review",
+  "records": 500,
+  "missile_records": 300,
+  "candidates_sha256": "dd89eccc0fb0be12d403e2db1ee6dd332e3fb55ffb4709db97ffad89c76e4524",
+  "approved_reference_checkpoint": 2,
+  "approved_reference_records": 1000,
+  "review_path": "drafts/work/batch-0004/review.json",
+  "final_ids_assigned": false,
+  "published_to_production": false,
+  "pending": [
+    "Recalculate quotas after 0003",
+    "Rerun exact, lexical and semantic checks against approved 0003",
+    "Blind label and domain review",
+    "Resolve exceptional similarity alerts and counterfactual pair"
+  ]
+}
