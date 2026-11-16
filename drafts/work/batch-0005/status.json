@@ -1,0 +1,16 @@
+{
+  "batch": "0005",
+  "status": "work_revision_pending_approval",
+  "records": 500,
+  "missile_declared": 300,
+  "production_ids_assigned": false,
+  "repaired": 43,
+  "remaining_original_findings": 445,
+  "candidate_sha256": "27ad5ebba7a39896e96c187260c51ef1da9e31e6734054362b723ade22557971",
+  "ready_for_production_checkpoint": false,
+  "pending": [
+    "Independent QA of retained and repaired texts from current acceptance packet",
+    "Individual review of required similarity pairs",
+    "Stage with repository checkpoint validator"
+  ]
+}
