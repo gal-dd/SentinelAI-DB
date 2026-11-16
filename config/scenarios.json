@@ -1593,5 +1593,93 @@
     "styles": "official, conversational, educational",
     "distinction": "תוכן לציבור, הצעה מסחרית וחשיפת דיירים שהועברו להגנה",
     "primary_domain": "general_negative_controls"
+  },
+  "interceptor-concept-glossary": {
+    "domain": "מושגי יירוט ודיוק בפרסום",
+    "background": "מכון אבן־זהר מבקר פערים בין איור, מפרט מושגי ותיאור פומבי של מערכת יירוט בדיונית",
+    "facts": "מכון אבן־זהר מבקר פערים בין איור, מפרט מושגי ותיאור פומבי של מערכת יירוט בדיונית",
+    "styles": "official, conversational, educational",
+    "distinction": "לימוד, עריכה, גילוי שינוי מהותי וזכויות ציבור",
+    "primary_domain": "missile_systems"
+  },
+  "missile-history-exhibit": {
+    "domain": "היסטוריה טכנולוגית של טילים",
+    "background": "מרכז מרובע־שחר בונה ציר זמן על משפחות טילים ואימות מקורות בדיוניים",
+    "facts": "מרכז מרובע־שחר בונה ציר זמן על משפחות טילים ואימות מקורות בדיוניים",
+    "styles": "official, conversational, educational",
+    "distinction": "מידע פתוח, רישום פנימי, תיקון מחקרי וחשיפת זהות",
+    "primary_domain": "missile_systems"
+  },
+  "ballistic-observation-catalog": {
+    "domain": "תצפיות עיוניות על מסלולים בליסטיים",
+    "background": "סדנת ציר־כחול מבחינה בין הדמיה, רשומת תצפית ותנאי הסקה",
+    "facts": "סדנת ציר־כחול מבחינה בין הדמיה, רשומת תצפית ותנאי הסקה",
+    "styles": "official, conversational, educational",
+    "distinction": "מושגים, עיבוד, ייחוס ומניעת בדיקה ממקור יחיד",
+    "primary_domain": "missile_systems"
+  },
+  "defense-policy-publication": {
+    "domain": "הכרזות ומדיניות הגנה אווירית",
+    "background": "פורום שמי־ארז עוסק בהסברים לציבור ובסמכויות של פיקוח",
+    "facts": "פורום שמי־ארז עוסק בהסברים לציבור ובסמכויות של פיקוח",
+    "styles": "official, conversational, educational",
+    "distinction": "הבדל בין מדיניות פומבית, טיוטה, הכרעה עצורה וקשר אסטרטגי",
+    "primary_domain": "missile_systems"
+  },
+  "missile-program-retirement": {
+    "domain": "סיום מחזור חיים של תוכניות טיליות",
+    "background": "מיזם שובל־נחושת מחזיק רישומי סגירה, זכויות וארכיון טילי בדיוני",
+    "facts": "מיזם שובל־נחושת מחזיק רישומי סגירה, זכויות וארכיון טילי בדיוני",
+    "styles": "official, conversational, educational",
+    "distinction": "מידע גלוי, העברת תיק, שינוי החלטה ותלות של כמה מסגרות",
+    "primary_domain": "missile_systems"
+  },
+  "missile-test-evidence-ethics": {
+    "domain": "יושרת הראיות בתוכניות ניסוי טיליות",
+    "background": "מועצת נתיב־טל מגינה על עדויות ובודקת מוצא של מסמכים בדיוניים",
+    "facts": "מועצת נתיב־טל מגינה על עדויות ובודקת מוצא של מסמכים בדיוניים",
+    "styles": "official, conversational, educational",
+    "distinction": "כלל פתוח, טיפול פנימי, תוצאה לא פומבית ואובדן הגנה",
+    "primary_domain": "missile_systems"
+  },
+  "drone-restoration-monitoring": {
+    "domain": "רחפנים אזרחיים בניטור שיקום נוף",
+    "background": "מיזם כתר־חרוב מפתח חומרי תצפית והשוואת מקורות ללא נתוני טיסה מעשיים",
+    "facts": "מיזם כתר־חרוב מפתח חומרי תצפית והשוואת מקורות ללא נתוני טיסה מעשיים",
+    "styles": "official, conversational, educational",
+    "distinction": "תצפית פתוחה, מיון, תוקף חוזי ופרטיות מוגנת",
+    "primary_domain": "uncrewed_aircraft"
+  },
+  "satellite-cloud-curation": {
+    "domain": "אוצרות מדעית של תצפיות חלל",
+    "background": "קבוצת עיגול־גשם מתעדת מקורות ומסירת ארכיון עננים",
+    "facts": "קבוצת עיגול־גשם מתעדת מקורות ומסירת ארכיון עננים",
+    "styles": "official, conversational, educational",
+    "distinction": "מידע לימודי, סידור מקומי, רישוי וביטול אימות משותף",
+    "primary_domain": "radar_sensors_space"
+  },
+  "control-message-interpretation": {
+    "domain": "יומן תקשורת ושליטה",
+    "background": "מרכז רשת־ניר מבחין בין מסירה, מענה והרשאה, בתיעוד דמה בדיוני",
+    "facts": "מרכז רשת־ניר מבחין בין מסירה, מענה והרשאה, בתיעוד דמה בדיוני",
+    "styles": "official, conversational, educational",
+    "distinction": "תרגיל פתוח, בדיקת פנים, הפרת תנאי מסירה וזכאות רוחבית",
+    "primary_domain": "cyber_communications_c2"
+  },
+  "defense-supply-traceability": {
+    "domain": "תיעוד קליטת ציוד ביטחוני",
+    "background": "אגף שורש־מגן עוסק בהסכמי החזרת ציוד ובספרי קבלה דמיוניים",
+    "facts": "אגף שורש־מגן עוסק בהסכמי החזרת ציוד ובספרי קבלה דמיוניים",
+    "styles": "official, conversational, educational",
+    "distinction": "מושג ציבורי, דיווח, החלטת התקשרות וערעור רוחבי",
+    "primary_domain": "defense_logistics"
+  },
+  "theater-prop-collection": {
+    "domain": "אוסף אביזרי תיאטרון אזרחי",
+    "background": "סדנת חוט־קטיפה משאילה מוצגים ומתעדת תורמים",
+    "facts": "סדנת חוט־קטיפה משאילה מוצגים ומתעדת תורמים",
+    "styles": "official, conversational, educational",
+    "distinction": "תרבות, תורנות, זכויות ומידע מוגן",
+    "primary_domain": "general_negative_controls"
   }
 }
