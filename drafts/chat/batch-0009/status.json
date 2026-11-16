@@ -1,25 +1,28 @@
 {
   "batch": "0009",
-  "state": "complete_draft_pending_independent_review",
+  "state": "editorial_remediation_required",
   "owner": "chat_producer",
   "branch": "producer/chat-defense-v2",
   "records": 500,
   "missile_records": 300,
   "candidates": "drafts/chat/batch-0009/candidates.jsonl",
   "qa_report": "drafts/chat/batch-0009/qa-report.json",
-  "ready_for_work_intake": true,
+  "ready_for_work_intake": false,
   "ready_for_production": false,
   "production_modified": false,
   "ids_assigned": false,
   "remaining_work": [
-    "Work independent blind label and substantive domain review",
-    "Work embedding-based semantic similarity with alert adjudication",
-    "Work editorial check for repeated fact patterns and document-level diversity",
-    "Work align live checkpoint quotas then use repository-native checkpoint publication"
+    "Rewrite duplicated sentences/paragraphs with substantive scenario-specific evidence, not lexical substitutions",
+    "Re-run preflight and audit against adjacent active batches",
+    "Independent blind domain and label review",
+    "E5 embeddings semantic similarity and required pair adjudication",
+    "Live production quota alignment then repository checkpoint approval"
   ],
   "last_editorial_recheck": {
     "grammar_agreement_corrections": 12,
     "candidate_file_updated": true,
     "semantic_QA_pending": true
-  }
+  },
+  "diversity_audit": "drafts/chat/batch-0009/diversity-audit.json",
+  "note": "Previous lexical Jaccard checks passed but exact embedded sentence repetition was detected later; prior ready_for_work_intake flag is withdrawn."
 }
