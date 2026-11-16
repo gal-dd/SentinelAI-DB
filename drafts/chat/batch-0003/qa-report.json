@@ -1,5 +1,5 @@
 {
-  "status": "targeted_qa_improvements_saved_independent_review_required",
+  "status": "metadata_and_short_text_validated_remaining_semantic_QA",
   "batch": "0003",
   "branch": "producer/chat-defense-v2",
   "records": 500,
@@ -89,7 +89,11 @@
       "other_text_fixes": 5,
       "full_blind_label_review": "pending",
       "note": "This was an editorial stratified sample, not independent blind labeling of all 500."
-    }
+    },
+    "registered_scenarios": "500/500 resolved against production config/scenarios.json",
+    "slug_validity": "500/500 validated",
+    "actual_word_count": "official compatible Unicode normalization used",
+    "short_text_evidence_edits": 24
   },
   "initial_authored_preserved": 20,
   "initial_authored_not_in_final": 8,
