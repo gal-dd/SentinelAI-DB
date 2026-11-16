@@ -14,18 +14,18 @@
     "matches": 0
   },
   "metrics": {
-    "records": 281,
+    "records": 364,
     "label_lengths": {
       "נמוך": [
         6,
         50,
-        2,
+        44,
         10
       ],
       "בינוני": [
         6,
         50,
-        3,
+        44,
         10
       ],
       "גבוה": [
@@ -42,53 +42,56 @@
       ]
     },
     "labels": {
-      "נמוך": 68,
-      "בינוני": 69,
+      "נמוך": 110,
+      "בינוני": 110,
       "גבוה": 71,
       "חמור": 73
     },
     "lengths": {
       "short": 24,
       "sentence": 200,
-      "paragraph": 17,
+      "paragraph": 100,
       "long": 40
     },
     "origins": {
-      "synthetic": 281
+      "synthetic": 364
     },
     "styles": {
-      "question": 7,
-      "interview": 3,
-      "notice": 4,
-      "worksheet": 8,
-      "article": 6,
-      "lesson": 9,
-      "faq": 7,
-      "catalog": 4,
-      "guide": 6,
-      "chat": 21,
-      "handoff": 9,
-      "log": 14,
-      "memo": 33,
-      "email": 10,
+      "question": 8,
+      "interview": 7,
+      "notice": 6,
+      "worksheet": 15,
+      "article": 10,
+      "lesson": 14,
+      "faq": 12,
+      "catalog": 6,
+      "guide": 9,
+      "chat": 32,
+      "handoff": 15,
+      "log": 22,
+      "memo": 36,
+      "email": 17,
       "calendar": 1,
-      "task": 7,
+      "task": 8,
       "report": 30,
       "audit": 36,
-      "lab-note": 5,
+      "lab-note": 7,
       "incident": 28,
       "transcript": 4,
       "title": 3,
       "headline": 1,
       "note": 1,
-      "explainer": 3,
-      "public-brief": 2,
-      "personal": 3,
-      "minutes": 12,
+      "explainer": 5,
+      "public-brief": 3,
+      "personal": 4,
+      "minutes": 14,
       "contract": 1,
-      "glossary": 1,
-      "public-note": 1,
-      "qa": 1
+      "glossary": 2,
+      "public-note": 2,
+      "qa": 2,
+      "review": 1,
+      "opinion": 1,
+      "explanation": 1
     },
     "scenario_count": 21,
     "source_group_count": 21,
@@ -97,52 +100,52 @@
     "records_with_latin": 0
   },
   "domain_counts": {
-    "missile_systems": 172,
-    "uncrewed_aircraft": 26,
-    "radar_sensors_space": 26,
-    "cyber_communications_c2": 27,
-    "defense_logistics": 15,
-    "general_negative_controls": 15
+    "missile_systems": 220,
+    "uncrewed_aircraft": 35,
+    "radar_sensors_space": 35,
+    "cyber_communications_c2": 36,
+    "defense_logistics": 19,
+    "general_negative_controls": 19
   },
   "domain_label_counts": {
     "missile_systems": {
-      "נמוך": 42,
-      "בינוני": 43,
+      "נמוך": 66,
+      "בינוני": 67,
       "גבוה": 43,
       "חמור": 44
     },
     "uncrewed_aircraft": {
-      "נמוך": 7,
-      "בינוני": 6,
+      "נמוך": 12,
+      "בינוני": 10,
       "גבוה": 7,
       "חמור": 6
     },
     "radar_sensors_space": {
-      "נמוך": 7,
-      "בינוני": 6,
+      "נמוך": 12,
+      "בינוני": 10,
       "גבוה": 6,
       "חמור": 7
     },
     "cyber_communications_c2": {
-      "נמוך": 6,
-      "בינוני": 7,
+      "נמוך": 10,
+      "בינוני": 12,
       "גבוה": 7,
       "חמור": 7
     },
     "defense_logistics": {
-      "נמוך": 2,
-      "בינוני": 5,
+      "נמוך": 4,
+      "בינוני": 7,
       "גבוה": 5,
       "חמור": 3
     },
     "general_negative_controls": {
-      "נמוך": 4,
-      "בינוני": 2,
+      "נמוך": 6,
+      "בינוני": 4,
       "גבוה": 3,
       "חמור": 6
     }
   },
-  "missile_domain_percentage": 61.20996441281139,
+  "missile_domain_percentage": 60.43956043956044,
   "semantic_screening": {
     "status": "completed",
     "model": "Xenova/multilingual-e5-small",
@@ -154,9 +157,9 @@
     "search": "exact_cosine_top_k",
     "cosine_threshold": 0.92,
     "neighbors_per_record": 12,
-    "indexed_records": 1281,
-    "scanned_records": 281,
-    "candidate_pairs": 355
+    "indexed_records": 1364,
+    "scanned_records": 364,
+    "candidate_pairs": 414
   },
   "exceptional_alerts_pending": 6,
   "domain_review": {
@@ -166,24 +169,24 @@
     "status": "pending"
   },
   "remaining_domains": {
-    "missile_systems": 128,
-    "uncrewed_aircraft": 24,
-    "radar_sensors_space": 24,
-    "cyber_communications_c2": 23,
-    "defense_logistics": 10,
-    "general_negative_controls": 10
+    "missile_systems": 80,
+    "uncrewed_aircraft": 15,
+    "radar_sensors_space": 15,
+    "cyber_communications_c2": 14,
+    "defense_logistics": 6,
+    "general_negative_controls": 6
   },
   "provisional_remaining_label_lengths": {
     "נמוך": [
       0,
       0,
-      42,
+      0,
       15
     ],
     "בינוני": [
       0,
       0,
-      41,
+      0,
       15
     ],
     "גבוה": [
