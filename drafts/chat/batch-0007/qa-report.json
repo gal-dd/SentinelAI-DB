@@ -1,0 +1,105 @@
+{
+  "batch": "0007",
+  "producer_branch": "producer/chat-defense-v2",
+  "candidates_file": "drafts/chat/batch-0007/candidates.jsonl",
+  "owner": "chat_producer",
+  "records": 500,
+  "source_snapshot": {
+    "production_checkpoint": 3,
+    "approved_records": 1500,
+    "parallel_drafts_compared": [
+      "drafts/chat/batch-0004-remediation/candidates.jsonl",
+      "drafts/chat/batch-0005-remediation/candidates.jsonl",
+      "drafts/chat/batch-0006/candidates.jsonl"
+    ]
+  },
+  "domain_counts": {
+    "missile_systems": 300,
+    "uncrewed_aircraft": 50,
+    "radar_sensors_space": 50,
+    "cyber_communications_c2": 50,
+    "defense_logistics": 25,
+    "general_negative_controls": 25
+  },
+  "missile_percent": 60,
+  "label_counts": {
+    "נמוך": 125,
+    "בינוני": 125,
+    "גבוה": 125,
+    "חמור": 125
+  },
+  "label_length_counts": {
+    "נמוך": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "בינוני": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "גבוה": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "חמור": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    }
+  },
+  "checks_run": {
+    "jsonl_parse": "pass",
+    "count": "500/500",
+    "registered_scenarios_against_production_catalog": "500/500",
+    "metadata_and_source_groups": "pass",
+    "hebrew_no_latin": "500/500",
+    "length_buckets": "pass",
+    "long_multisection_format": "100/100",
+    "normalized_exact_duplicates": {
+      "within": 0,
+      "vs_approved_v2": 0,
+      "vs_remediated_0004": 0,
+      "vs_remediated_0005": 0,
+      "vs_0006": 0
+    },
+    "lexical_similarity": {
+      "method": "unique normalized token Jaccard",
+      "threshold": 0.73,
+      "within_pairs": 0,
+      "vs_approved_v2_pairs": 0,
+      "vs_remediated_0004_pairs": 0,
+      "vs_remediated_0005_pairs": 0,
+      "vs_0006_pairs": 0
+    },
+    "missile_term_screen": {
+      "matched": 300,
+      "total": 300,
+      "limitation": "Keyword presence does not prove semantic domain relevance"
+    }
+  },
+  "editorial_limitations": [
+    "The generation uses reusable textual patterns. Passing lexical Jaccard is not a guarantee of independent narrative diversity or labeling quality.",
+    "All high and critical records require independent evidence-based policy review, especially brief texts.",
+    "100 long documents have a multisection form but still need editorial review of content substance and repeated narratives."
+  ],
+  "not_run": [
+    "Repository Python prepare/verify/checkpoint command",
+    "Independent blind label and domain review",
+    "Embedding-based semantic duplicate scan",
+    "Final editorial copy review",
+    "Production checkpoint publication"
+  ],
+  "status": "candidate_draft_complete_pending_independent_review",
+  "ready_for_work_intake": true,
+  "ready_for_production": false,
+  "ids_assigned": false,
+  "production_modified": false,
+  "archive_general_v1_excluded": true
+}
