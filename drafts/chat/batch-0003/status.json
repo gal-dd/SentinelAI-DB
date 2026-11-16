@@ -1,6 +1,6 @@
 {
   "batch": "0003",
-  "status": "500_candidates_created_similarity_reduced_independent_review_pending",
+  "status": "long_form_rewritten_review_pending",
   "records": 500,
   "missile_count": 300,
   "draft_path": "drafts/chat/batch-0003/candidates.jsonl",
@@ -8,10 +8,11 @@
   "ids_assigned": false,
   "production_modified": false,
   "remaining_work": [
-    "Review remaining lexical clusters, especially long-form narrative repetition",
-    "Independent blind-label audit and domain-specific review of all 24 domain-label strata",
-    "Recheck Work draft and approved checkpoints immediately before production intake"
+    "Review remaining near-duplicate clusters semantically",
+    "Blind label validation for all 24 domain-label groups, especially ambiguous short texts",
+    "Full semantic review of 300 missile texts, not keyword-based",
+    "Recheck approved datasets immediately before Work integration"
   ],
-  "near_similarity_pairs": 231,
-  "affected_records": 173
+  "near_similarity_pairs": 117,
+  "affected_records": 152
 }
