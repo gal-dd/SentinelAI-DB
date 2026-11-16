@@ -1,6 +1,6 @@
 {
   "batch": "0005",
-  "status": "partial_draft_requires_qa",
+  "status": "partial_draft_100_records_lexically_valid_semantic_review_pending",
   "records": 100,
   "planned": 500,
   "missile_records": 60,
@@ -27,83 +27,13 @@
   "qa": {
     "length_bucket_and_schema": "initial_pass",
     "exact_duplicates_vs_approved_0001_0002_chat_0003_work_0004": 0,
-    "similarity_warnings": 14,
-    "similarity_details": [
-      [
-        21,
-        24,
-        0.79
-      ],
-      [
-        21,
-        25,
-        0.8
-      ],
-      [
-        24,
-        25,
-        0.81
-      ],
-      [
-        46,
-        48,
-        0.79
-      ],
-      [
-        46,
-        50,
-        0.81
-      ],
-      [
-        47,
-        49,
-        0.8
-      ],
-      [
-        48,
-        50,
-        0.82
-      ],
-      [
-        71,
-        74,
-        0.81
-      ],
-      [
-        71,
-        75,
-        0.79
-      ],
-      [
-        74,
-        75,
-        0.81
-      ],
-      [
-        96,
-        98,
-        0.81
-      ],
-      [
-        96,
-        99,
-        0.81
-      ],
-      [
-        97,
-        100,
-        0.81
-      ],
-      [
-        98,
-        99,
-        0.82
-      ]
-    ],
+    "similarity_warnings": 0,
+    "similarity_details": [],
     "semantic_review": "not_done",
     "blind_label_review": "not_done",
     "domain_review": "not_done",
-    "archive_v1_excluded": true
+    "archive_v1_excluded": true,
+    "long_text_editorial_repairs": 10
   },
   "note": "Partial producer draft, not ready for Work ingestion or production."
 }
