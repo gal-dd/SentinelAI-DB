@@ -1,0 +1,60 @@
+{
+  "batch": "0004",
+  "date": "2026-11-16",
+  "request": "Close QA and publish checkpoint 0004",
+  "production_snapshot": {
+    "last_checkpoint": 3,
+    "production_records": 1500
+  },
+  "validation_executed": {
+    "draft_rows": 500,
+    "approved_rows_compared": 1500,
+    "exact_normalized_duplicates_within_draft": 0,
+    "exact_normalized_duplicates_vs_active_approved": 0,
+    "unknown_scenario_ids": 0,
+    "invalid_origin_values": 0,
+    "word_bucket_mismatches": 0,
+    "long_document_paragraph_format_failures": 0,
+    "invalid_counterfactual_pairs": 0
+  },
+  "blocking_findings": [
+    {
+      "type": "quota_mismatch",
+      "detail": "Current live checkpoint plan requires per label [7,50,43,25], draft supplies [6,50,44,25]. Four row edits required."
+    },
+    {
+      "type": "semantic_exception_review",
+      "detail": "Work draft quality report documents six exceptional semantic similarity alerts without individual adjudication. Embedding model run and alert-level dispositions not completed here."
+    },
+    {
+      "type": "blind_label_review",
+      "detail": "Repository checkpoint contract requires judged random/targeted samples and 24 domain samples, not just metadata-level structural checks."
+    }
+  ],
+  "safe_action": "Not published; no false review decisions, no unverified SHA-256 manifest and no production checkpoint created",
+  "suggested_edits": [
+    {
+      "original_row": 282,
+      "label": "נמוך",
+      "replacement_text": "פורסם מילון מונחים ציבורי למיירטים"
+    },
+    {
+      "original_row": 324,
+      "label": "בינוני",
+      "replacement_text": "נקבעה הגהה פנימית למילון המיירטים"
+    },
+    {
+      "original_row": 365,
+      "label": "גבוה",
+      "replacement_text": "נעצרה התחייבות חוזית למיזם המיירטים"
+    },
+    {
+      "original_row": 404,
+      "label": "חמור",
+      "replacement_text": "הושמדו כל אסמכתאות ערר המיירטים"
+    }
+  ],
+  "note": "Suggested reductions are not applied or independently approved. They must be reviewed for factual continuity and classification evidence before replacing any row.",
+  "owner_files_modified": false,
+  "production_modified": false
+}
