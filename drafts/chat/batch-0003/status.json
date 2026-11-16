@@ -1,6 +1,6 @@
 {
   "batch": "0003",
-  "status": "classification_materiality_repaired_final_checks",
+  "status": "ready_for_work_intake",
   "records": 500,
   "missile_count": 300,
   "draft_path": "drafts/chat/batch-0003/candidates.jsonl",
@@ -8,11 +8,10 @@
   "ids_assigned": false,
   "production_modified": false,
   "remaining_work": [
-    "Semantic judgment on remaining near-similarity warnings and formulaic contexts",
-    "Independent blind label validation of all 500, including short items",
-    "Independent semantic verification of 300 missile subjects without relying solely on domain anchors",
-    "Refresh approved v2 and Work draft comparison at time of intake"
+    "Work acceptance: run independent blind label/domain review and semantic embedding QA; resolve any new findings",
+    "Work assigns final IDs and writes checkpoint 0003 with progress update",
+    "Verify production branch has not advanced before staging"
   ],
   "near_similarity_pairs": 0,
-  "affected_records": 24
+  "affected_records": 0
 }
