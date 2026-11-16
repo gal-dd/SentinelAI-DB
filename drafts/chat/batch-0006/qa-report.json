@@ -1,40 +1,107 @@
 {
   "batch": "0006",
-  "candidate_generation_attempt": {
-    "count": 500,
-    "domain_counts": {
-      "missile_systems": 300,
-      "uncrewed_aircraft": 50,
-      "radar_sensors_space": 50,
-      "cyber_communications_c2": 50,
-      "defense_logistics": 25,
-      "general_negative_controls": 25
-    },
-    "label_counts": {
-      "נמוך": 125,
-      "בינוני": 125,
-      "גבוה": 125,
-      "חמור": 125
-    },
-    "length_bucket_failures": 212,
-    "quality_gate": "FAILED",
-    "candidates_persisted": false,
-    "reason": "212 local bucket mismatches; repetitive template construction; unpublished."
+  "owner": "chat_producer",
+  "branch": "producer/chat-defense-v2",
+  "candidates": "drafts/chat/batch-0006/candidates.jsonl",
+  "production_reference": {
+    "last_checkpoint": 3,
+    "approved_v2_records": 1500
   },
-  "validated_checks": {
-    "branch_namespace_review": "passed",
-    "batch_conflict_review": "passed",
-    "production_progress_read": "passed",
-    "scenario_catalog_read": "passed",
-    "policy_read": "passed",
-    "full_schema_validation": "not_run",
-    "cross_dataset_exact_duplicates": "not_run",
-    "lexical_similarity": "not_run",
-    "semantic_similarity": "not_run",
-    "editorial_review": "failed_preliminary"
+  "records": 500,
+  "domain_counts": {
+    "missile_systems": 300,
+    "uncrewed_aircraft": 50,
+    "radar_sensors_space": 50,
+    "cyber_communications_c2": 50,
+    "defense_logistics": 25,
+    "general_negative_controls": 25
   },
-  "production_checkpoint_at_last_read": 3,
-  "production_records_at_last_read": 1500,
-  "archive_excluded": true,
-  "ready_for_work_intake": false
+  "missile_percentage": 60,
+  "label_counts": {
+    "נמוך": 125,
+    "בינוני": 125,
+    "גבוה": 125,
+    "חמור": 125
+  },
+  "label_length_counts": {
+    "נמוך": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "בינוני": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "גבוה": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "חמור": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    }
+  },
+  "checks_run": {
+    "jsonl_parse": "passed",
+    "row_count": "500/500",
+    "registered_scenarios_against_production_catalog": "500/500",
+    "source_group_and_identifier_structure": "passed",
+    "hebrew_and_no_latin_leaks": "500/500",
+    "word_count_buckets": "passed",
+    "long_multisection_form": "100/100",
+    "domain_counts": "passed",
+    "label_length_quota": "passed",
+    "exact_duplicates": {
+      "within": 0,
+      "vs_approved_v2_checkpoints_0001_0003": 0,
+      "vs_remediated_batch_0004": 0,
+      "vs_remediated_batch_0005": 0
+    },
+    "lexical_token_jaccard": {
+      "threshold": 0.73,
+      "within_batch_pairs": 0,
+      "vs_approved_v2_pairs": 0,
+      "vs_remediated_batch_0004_pairs": 0,
+      "vs_remediated_batch_0005_pairs": 0
+    },
+    "missile_keyword_context_check": {
+      "matching_missile_related_terms": 300,
+      "total_missile_rows": 300,
+      "limitation": "Keyword relevance is not an independent substantive domain review"
+    }
+  },
+  "quality_revisions": {
+    "initial_failure": "212 word-bucket mismatches in discarded preliminary generation; not persisted",
+    "second_generation_failures": 37,
+    "internal_lexical_alerts_before_revision": 139,
+    "internal_lexical_alerts_after_revision": 0,
+    "editorial_note": "Compositional construction remains evident in some documents; lexical threshold is not a sufficient diversity test."
+  },
+  "checks_not_run": [
+    "Actual repository python -m sentinel_dataset prepare and verify",
+    "Embedding semantic similarity against active v2 and parallel drafts",
+    "Independent blind label and domain review of required samples",
+    "Full document-level editorial audit for repetitive underlying structures",
+    "Publication checkpoint and final identifier assignment"
+  ],
+  "open_gates": [
+    "Work editorial review of labels, domains, repeated facts and document variety",
+    "Run and adjudicate semantic embedding alerts",
+    "Recalculate next production length quotas at actual intake date",
+    "Run repository checkpoint process on production branch only"
+  ],
+  "archive_general_v1_excluded": true,
+  "production_modified": false,
+  "final_ids_assigned": false,
+  "status": "candidate_draft_complete_pending_independent_QA",
+  "ready_for_work_intake": true,
+  "ready_for_production_checkpoint": false
 }
