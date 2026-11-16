@@ -1,0 +1,18 @@
+{
+  "batch": "0003",
+  "status": "published_with_checkpoint_0003",
+  "source_chat_commit": "739fb921fca185e20cecea9e37fed3b44e36fae1",
+  "work_draft_sha256": "ab9175051b44e936856c1cd1f106b8eea7f3a0f0ec96dd1effb596c663e6e007",
+  "records": 500,
+  "missile_count_proposed": 300,
+  "revised_records": 464,
+  "flagged_original_records_pending": 0,
+  "production_ids_assigned": true,
+  "ready_for_production_checkpoint": true,
+  "pending": [],
+  "production_id_range": [
+    1001,
+    1500
+  ],
+  "checkpoint_report": "reports/checkpoints/batch-0003.json"
+}
