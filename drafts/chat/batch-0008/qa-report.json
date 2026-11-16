@@ -1,0 +1,108 @@
+{
+  "batch": "0008",
+  "owner": "chat_producer",
+  "producer_branch": "producer/chat-defense-v2",
+  "candidates_file": "drafts/chat/batch-0008/candidates.jsonl",
+  "production_snapshot": {
+    "last_approved_checkpoint": 3,
+    "approved_records": 1500
+  },
+  "records": 500,
+  "domain_counts": {
+    "missile_systems": 300,
+    "uncrewed_aircraft": 50,
+    "radar_sensors_space": 50,
+    "cyber_communications_c2": 50,
+    "defense_logistics": 25,
+    "general_negative_controls": 25
+  },
+  "missile_percentage": 60,
+  "label_counts": {
+    "נמוך": 125,
+    "בינוני": 125,
+    "גבוה": 125,
+    "חמור": 125
+  },
+  "label_length_counts": {
+    "נמוך": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "בינוני": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "גבוה": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "חמור": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    }
+  },
+  "checks_actually_run": {
+    "jsonl_parse": "passed",
+    "row_count": "passed",
+    "schema_fields": "passed",
+    "registered_scenarios_domain_and_source_group_against_active_v2_catalog": "500/500",
+    "hebrew_and_no_latin": "500/500",
+    "length_buckets": "500/500",
+    "long_multisection_form": "100/100",
+    "normalized_exact_duplicates": {
+      "within": 0,
+      "vs_approved_v2_0001_through_0003": 0,
+      "vs_remediated_0004": 0,
+      "vs_remediated_0005": 0,
+      "vs_0006": 0,
+      "vs_0007": 0
+    },
+    "lexical_jaccard": {
+      "threshold": 0.73,
+      "within_batch": 0,
+      "vs_approved_v2": 0,
+      "vs_remediated_0004": 0,
+      "vs_remediated_0005": 0,
+      "vs_0006": 0,
+      "vs_0007": 0
+    },
+    "missile_term_screen": {
+      "matched": 300,
+      "total": 300,
+      "limitation": "Term screening does not replace substantive domain verification"
+    }
+  },
+  "revisions": {
+    "initial_validation": "Unregistered or domain-incompatible scenarios rejected before first file creation",
+    "initial_candidate_exact_duplicates": 2,
+    "internal_high_jaccard_pairs_before_rewrite": 41,
+    "internal_high_jaccard_pairs_after_rewrite": 0,
+    "additional_cross_batch_0007_pair_fixed": 1
+  },
+  "not_run": [
+    "independent blind review of domain and label evidence",
+    "embedding semantic similarity scan and exceptional alert dispositions",
+    "full editorial review of scenario and prose variety",
+    "python -m sentinel_dataset prepare, checkpoint, verify",
+    "production checkpoint and ID assignment"
+  ],
+  "editorial_risks": [
+    "Several rows use reused narrative frameworks and fact patterns; lexical overlap threshold cannot prove semantic uniqueness",
+    "Short critical records need independent judgment of evidence and exceptional impact",
+    "Long records need editorial evaluation for genuine substantive differences"
+  ],
+  "status": "technical_draft_complete_pending_independent_review",
+  "ready_for_work_intake": true,
+  "ready_for_production": false,
+  "archive_general_v1_excluded": true,
+  "production_modified": false,
+  "ids_assigned": false
+}
