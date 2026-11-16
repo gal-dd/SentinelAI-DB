@@ -1,0 +1,24 @@
+{
+  "batch": "0006",
+  "state": "assigned_generation_blocked",
+  "owner": "chat_producer",
+  "branch": "producer/chat-defense-v2",
+  "assigned_path": "drafts/chat/batch-0006/",
+  "records_committed": 0,
+  "expected_records": 500,
+  "production_modified": false,
+  "ids_assigned": false,
+  "ready_for_work_intake": false,
+  "ready_for_production": false,
+  "reason": "Initial generated candidates failed length validation and content-diversity review; discarded rather than publishing low-quality records.",
+  "required_outputs_pending": [
+    "candidates.jsonl",
+    "successful_qa_report"
+  ],
+  "blocked_by": [
+    "Rewrite with document-level editorial diversity",
+    "Full repository schema and active-v2 dedup checks",
+    "Independent label and domain review",
+    "Lexical and semantic similarity review"
+  ]
+}
