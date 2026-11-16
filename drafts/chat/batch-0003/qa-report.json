@@ -1,5 +1,5 @@
 {
-  "status": "materiality_and_systemic_consequences_repaired",
+  "status": "editorial_consistency_audited_pending_final_intake_report",
   "batch": "0003",
   "branch": "producer/chat-defense-v2",
   "records": 500,
@@ -114,6 +114,11 @@
       "nonpublic_high_material_effects_clarified": 10,
       "reason": "Requires explicit system-wide impact for severe and material unpublished decision for high",
       "checked_date": "2026-11-16"
+    },
+    "additional_contextual_edits": {
+      "high_nonpublic_clarifications": 8,
+      "low_public_contradiction_repaired": 0,
+      "medium_hypothetical_case_repaired": 1
     }
   },
   "initial_authored_preserved": 20,
