@@ -1,5 +1,5 @@
 {
-  "status": "metadata_and_short_text_validated_remaining_semantic_QA",
+  "status": "evidence_repair_complete_validation_continues",
   "batch": "0003",
   "branch": "producer/chat-defense-v2",
   "records": 500,
@@ -93,7 +93,13 @@
     "registered_scenarios": "500/500 resolved against production config/scenarios.json",
     "slug_validity": "500/500 validated",
     "actual_word_count": "official compatible Unicode normalization used",
-    "short_text_evidence_edits": 24
+    "short_text_evidence_edits": 24,
+    "targeted_label_evidence_repairs": {
+      "public_disclosure_clarifications": 14,
+      "severe_multisystem_evidence_repairs": 10,
+      "internal_vs_public_document_corrections": 20,
+      "method": "Context-specific changes to label-discriminating claims"
+    }
   },
   "initial_authored_preserved": 20,
   "initial_authored_not_in_final": 8,
