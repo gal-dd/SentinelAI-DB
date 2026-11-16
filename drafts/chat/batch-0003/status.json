@@ -1,6 +1,6 @@
 {
   "batch": "0003",
-  "status": "500_candidates_updated_pending_independent_full_QA",
+  "status": "metadata_schema_fixed_semantic_QA_open",
   "records": 500,
   "missile_count": 300,
   "draft_path": "drafts/chat/batch-0003/candidates.jsonl",
