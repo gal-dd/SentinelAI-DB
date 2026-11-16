@@ -99,10 +99,18 @@
     "Short critical records need independent judgment of evidence and exceptional impact",
     "Long records need editorial evaluation for genuine substantive differences"
   ],
-  "status": "technical_draft_complete_pending_independent_review",
-  "ready_for_work_intake": true,
+  "status": "editorial_remediation_required",
+  "ready_for_work_intake": false,
   "ready_for_production": false,
   "archive_general_v1_excluded": true,
   "production_modified": false,
-  "ids_assigned": false
+  "ids_assigned": false,
+  "superseding_diversity_audit": {
+    "path": "drafts/chat/batch-0008/diversity-audit.json",
+    "within_exact_substantial_repetition_groups": 151,
+    "affected_records": 226,
+    "share": 0.452,
+    "gate": "BLOCKED_FOR_EDITORIAL_REMEDIATION",
+    "note": "This audit supersedes earlier technical-ready conclusions. Jaccard >=0.73 absence did not reveal embedded sentence repetition."
+  }
 }
