@@ -113,5 +113,32 @@
   "ready_for_production_checkpoint": false,
   "archive_general_v1_excluded": true,
   "production_modified": false,
-  "ids_assigned": false
+  "ids_assigned": false,
+  "followup_audit": {
+    "type": "independent_structural_and_lexical_recheck_after_draft",
+    "prior_snapshot": "production checkpoint 0003 (1500 records), drafts 0004–0008",
+    "record_count": 500,
+    "structural_issues": 0,
+    "exact_duplicates_against_active_and_prior_drafts": 0,
+    "lexical_jaccard_threshold_0_73_pairs_against_active_and_prior_drafts": 0,
+    "within_batch_lexical_jaccard_pairs": 0,
+    "editorial_corrections": {
+      "agreement_errors_corrected": 12,
+      "row_numbers": [
+        11,
+        20,
+        23,
+        41,
+        161,
+        167,
+        257,
+        275,
+        296,
+        401,
+        416,
+        425
+      ]
+    },
+    "result": "technical QA passing; semantic and blind review not run"
+  }
 }
