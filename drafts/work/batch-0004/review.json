@@ -14,7 +14,7 @@
     "matches": 0
   },
   "metrics": {
-    "records": 364,
+    "records": 440,
     "label_lengths": {
       "נמוך": [
         6,
@@ -31,34 +31,34 @@
       "גבוה": [
         6,
         50,
-        5,
+        44,
         10
       ],
       "חמור": [
         6,
         50,
-        7,
+        44,
         10
       ]
     },
     "labels": {
       "נמוך": 110,
       "בינוני": 110,
-      "גבוה": 71,
-      "חמור": 73
+      "גבוה": 110,
+      "חמור": 110
     },
     "lengths": {
       "short": 24,
       "sentence": 200,
-      "paragraph": 100,
+      "paragraph": 176,
       "long": 40
     },
     "origins": {
-      "synthetic": 364
+      "synthetic": 440
     },
     "styles": {
       "question": 8,
-      "interview": 7,
+      "interview": 8,
       "notice": 6,
       "worksheet": 15,
       "article": 10,
@@ -69,26 +69,26 @@
       "chat": 32,
       "handoff": 15,
       "log": 22,
-      "memo": 36,
-      "email": 17,
+      "memo": 48,
+      "email": 21,
       "calendar": 1,
       "task": 8,
-      "report": 30,
-      "audit": 36,
-      "lab-note": 7,
-      "incident": 28,
-      "transcript": 4,
+      "report": 47,
+      "audit": 53,
+      "lab-note": 9,
+      "incident": 39,
+      "transcript": 7,
       "title": 3,
       "headline": 1,
       "note": 1,
       "explainer": 5,
       "public-brief": 3,
       "personal": 4,
-      "minutes": 14,
-      "contract": 1,
+      "minutes": 18,
+      "contract": 4,
       "glossary": 2,
       "public-note": 2,
-      "qa": 2,
+      "qa": 4,
       "review": 1,
       "opinion": 1,
       "explanation": 1
@@ -100,52 +100,52 @@
     "records_with_latin": 0
   },
   "domain_counts": {
-    "missile_systems": 220,
-    "uncrewed_aircraft": 35,
-    "radar_sensors_space": 35,
-    "cyber_communications_c2": 36,
-    "defense_logistics": 19,
-    "general_negative_controls": 19
+    "missile_systems": 264,
+    "uncrewed_aircraft": 44,
+    "radar_sensors_space": 44,
+    "cyber_communications_c2": 44,
+    "defense_logistics": 22,
+    "general_negative_controls": 22
   },
   "domain_label_counts": {
     "missile_systems": {
       "נמוך": 66,
       "בינוני": 67,
-      "גבוה": 43,
-      "חמור": 44
+      "גבוה": 65,
+      "חמור": 66
     },
     "uncrewed_aircraft": {
       "נמוך": 12,
       "בינוני": 10,
-      "גבוה": 7,
-      "חמור": 6
+      "גבוה": 12,
+      "חמור": 10
     },
     "radar_sensors_space": {
       "נמוך": 12,
       "בינוני": 10,
-      "גבוה": 6,
-      "חמור": 7
+      "גבוה": 10,
+      "חמור": 12
     },
     "cyber_communications_c2": {
       "נמוך": 10,
       "בינוני": 12,
-      "גבוה": 7,
-      "חמור": 7
+      "גבוה": 11,
+      "חמור": 11
     },
     "defense_logistics": {
       "נמוך": 4,
       "בינוני": 7,
-      "גבוה": 5,
-      "חמור": 3
+      "גבוה": 7,
+      "חמור": 4
     },
     "general_negative_controls": {
       "נמוך": 6,
       "בינוני": 4,
-      "גבוה": 3,
-      "חמור": 6
+      "גבוה": 5,
+      "חמור": 7
     }
   },
-  "missile_domain_percentage": 60.43956043956044,
+  "missile_domain_percentage": 60.0,
   "semantic_screening": {
     "status": "completed",
     "model": "Xenova/multilingual-e5-small",
@@ -157,9 +157,9 @@
     "search": "exact_cosine_top_k",
     "cosine_threshold": 0.92,
     "neighbors_per_record": 12,
-    "indexed_records": 1364,
-    "scanned_records": 364,
-    "candidate_pairs": 414
+    "indexed_records": 1440,
+    "scanned_records": 440,
+    "candidate_pairs": 486
   },
   "exceptional_alerts_pending": 6,
   "domain_review": {
@@ -169,12 +169,12 @@
     "status": "pending"
   },
   "remaining_domains": {
-    "missile_systems": 80,
-    "uncrewed_aircraft": 15,
-    "radar_sensors_space": 15,
-    "cyber_communications_c2": 14,
-    "defense_logistics": 6,
-    "general_negative_controls": 6
+    "missile_systems": 36,
+    "uncrewed_aircraft": 6,
+    "radar_sensors_space": 6,
+    "cyber_communications_c2": 6,
+    "defense_logistics": 3,
+    "general_negative_controls": 3
   },
   "provisional_remaining_label_lengths": {
     "נמוך": [
@@ -192,13 +192,13 @@
     "גבוה": [
       0,
       0,
-      39,
+      0,
       15
     ],
     "חמור": [
       0,
       0,
-      37,
+      0,
       15
     ]
   },
