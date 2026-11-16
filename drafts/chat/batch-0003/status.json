@@ -1,6 +1,6 @@
 {
   "batch": "0003",
-  "status": "evidence_repaired_full_quality_validation_pending",
+  "status": "revised_long_form_waiting_final_qa",
   "records": 500,
   "missile_count": 300,
   "draft_path": "drafts/chat/batch-0003/candidates.jsonl",
@@ -13,6 +13,6 @@
     "Independent semantic verification of 300 missile subjects without relying solely on domain anchors",
     "Refresh approved v2 and Work draft comparison at time of intake"
   ],
-  "near_similarity_pairs": 135,
-  "affected_records": 188
+  "near_similarity_pairs": 101,
+  "affected_records": 154
 }
