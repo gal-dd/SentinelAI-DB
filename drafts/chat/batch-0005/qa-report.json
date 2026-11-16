@@ -1,39 +1,131 @@
 {
   "batch": "0005",
-  "status": "partial_draft_100_records_lexically_valid_semantic_review_pending",
-  "records": 100,
-  "planned": 500,
-  "missile_records": 60,
+  "status": "ready_for_work_intake",
+  "ready_for_work_intake": true,
+  "ready_for_production_checkpoint": false,
+  "records": 500,
+  "producer_branch": "producer/chat-defense-v2",
+  "candidates_file": "drafts/chat/batch-0005/candidates.jsonl",
+  "final_ids_assigned": false,
+  "published_to_production": false,
+  "approved_reference_checkpoint": 3,
+  "approved_reference_records": 1500,
   "domain_counts": {
-    "missile_systems": 60,
-    "uncrewed_aircraft": 10,
-    "radar_sensors_space": 10,
-    "cyber_communications_c2": 10,
-    "defense_logistics": 5,
-    "general_negative_controls": 5
+    "missile_systems": 300,
+    "uncrewed_aircraft": 50,
+    "radar_sensors_space": 50,
+    "cyber_communications_c2": 50,
+    "defense_logistics": 25,
+    "general_negative_controls": 25
   },
-  "length_counts": {
-    "short": 4,
-    "sentence": 40,
-    "paragraph": 36,
-    "long": 20
+  "domain_label_counts": {
+    "missile_systems": {
+      "נמוך": 75,
+      "בינוני": 75,
+      "גבוה": 75,
+      "חמור": 75
+    },
+    "uncrewed_aircraft": {
+      "נמוך": 13,
+      "בינוני": 12,
+      "גבוה": 13,
+      "חמור": 12
+    },
+    "radar_sensors_space": {
+      "נמוך": 12,
+      "בינוני": 13,
+      "גבוה": 12,
+      "חמור": 13
+    },
+    "cyber_communications_c2": {
+      "נמוך": 13,
+      "בינוני": 12,
+      "גבוה": 13,
+      "חמור": 12
+    },
+    "defense_logistics": {
+      "נמוך": 6,
+      "בינוני": 7,
+      "גבוה": 6,
+      "חמור": 6
+    },
+    "general_negative_controls": {
+      "נמוך": 6,
+      "בינוני": 6,
+      "גבוה": 6,
+      "חמור": 7
+    }
   },
-  "label_counts": {
-    "נמוך": 25,
-    "בינוני": 25,
-    "גבוה": 25,
-    "חמור": 25
+  "label_length_counts": {
+    "נמוך": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "בינוני": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "גבוה": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "חמור": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    }
   },
+  "missile_percentage": 60,
   "qa": {
-    "length_bucket_and_schema": "initial_pass",
-    "exact_duplicates_vs_approved_0001_0002_chat_0003_work_0004": 0,
-    "similarity_warnings": 0,
-    "similarity_details": [],
-    "semantic_review": "not_done",
-    "blind_label_review": "not_done",
-    "domain_review": "not_done",
-    "archive_v1_excluded": true,
-    "long_text_editorial_repairs": 10
+    "schema": "passed",
+    "registered_scenarios": "500/500",
+    "origin_and_metadata": "passed",
+    "hebrew": "500/500",
+    "length_bucket_and_quotas": "passed",
+    "document_form": "passed",
+    "long_documents": 100,
+    "exact_duplicates_within_batch": 0,
+    "exact_duplicates_vs_approved_v2_0001_through_0003": 0,
+    "exact_duplicates_vs_work_0004": 0,
+    "lexical_similarity": {
+      "method": "Jaccard on normalized unique word tokens",
+      "threshold": 0.73,
+      "within_batch_pairs": 0,
+      "vs_production_v2_0001_through_0003_pairs": 0,
+      "vs_work_draft_0004_pairs": 0,
+      "status": "passed_at_specified_threshold"
+    },
+    "missile_domain_context_screen": {
+      "first_clause_missile_subject": 300,
+      "total_missile_rows": 300,
+      "review_limitation": "A topical first clause is not a substitute for independent contextual domain judgment"
+    },
+    "domain_label_strata": {
+      "count": 24,
+      "coverage": "all six domains crossed with all four labels",
+      "independent_blind_review": "pending"
+    },
+    "required_followups": [
+      "Work independently checks all label assignments against policy, especially short texts and exceptional impact evidence",
+      "Work verifies substantive domain membership and missile focus, rather than keyword presence",
+      "Work runs repository semantic similarity embeddings against current production and Work drafts",
+      "Work performs stylistic and grammar review; template-driven repetition can remain below lexical threshold",
+      "Work verifies checkpoint 0004 status and recalculates quotas before eventual 0005 publication"
+    ],
+    "archive_general_v1_excluded": true
   },
-  "note": "Partial producer draft, not ready for Work ingestion or production."
+  "editorial_changes": {
+    "original_records_preserved": 100,
+    "added_records": 400,
+    "short_missile_domain_repairs": 16,
+    "similarity_cluster_rewrites": 57
+  },
+  "note": "This is a complete technically valid candidate draft; not an independently approved production checkpoint."
 }
