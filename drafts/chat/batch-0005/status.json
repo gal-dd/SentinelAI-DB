@@ -1,6 +1,6 @@
 {
   "batch": "0005",
-  "state": "partial_draft",
+  "state": "partial_draft_100_records_qa_in_progress",
   "records": 100,
   "target_records": 500,
   "missile_records": 60,
@@ -8,8 +8,8 @@
   "production_modified": false,
   "ids_assigned": false,
   "remaining_work": [
-    "expand to 500 with quotas, prioritizing unique long texts",
-    "resolve similarity warnings and validate labels and domain",
-    "run full QA and refresh overlap comparison before Work intake"
+    "Generate remaining 400 records with all required final quotas including sufficient missile long-form examples",
+    "Independent label and domain audit across all 500",
+    "Semantic similarity audit against Work and approved v2"
   ]
 }
