@@ -1,0 +1,19 @@
+{
+  "batch": "0005",
+  "state": "remediated_candidate_pending_semantic_and_blind_review",
+  "owner": "chat_producer",
+  "branch": "producer/chat-defense-v2",
+  "records": 500,
+  "candidates": "drafts/chat/batch-0005-remediation/candidates.jsonl",
+  "qa_report": "drafts/chat/batch-0005-remediation/qa-report.json",
+  "production_modified": false,
+  "ids_assigned": false,
+  "ready_for_work_intake": true,
+  "ready_for_production": false,
+  "blocking_checks": [
+    "independent blind policy label/domain review",
+    "embedding similarity review and high-risk dispositions",
+    "checkpoint 0004 publication",
+    "checkpoint 0005 production-aware quota and final validation"
+  ]
+}
