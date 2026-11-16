@@ -1,0 +1,83 @@
+{
+  "review_scope": "independent secondary screening of Work batch 0004 and Chat batch 0005; not publication approval",
+  "reviewed_at": "2026-11-16",
+  "production_snapshot": {
+    "last_checkpoint": 3,
+    "production_records": 1500
+  },
+  "batch_0004": {
+    "owner": "work",
+    "source_branch": "poc/defense-focused-v2",
+    "records": 500,
+    "missile_records": 300,
+    "schema_reported": "passed",
+    "semantic_embedding_screen_reported": {
+      "indexed_records": 1500,
+      "candidate_pairs": 533,
+      "exceptional_alerts_pending": 6,
+      "review_status": "pending"
+    },
+    "review_risks": [
+      "Existing report explicitly states 0003 had not been incorporated in approved comparisons; rerun required against latest production",
+      "Six exceptional semantic alerts require individual decisions",
+      "One counterfactual pair requires validation",
+      "24 domain samples and 57 label samples remain to be reviewed",
+      "Some missile-tagged entries describe history and public terminology: determine individually whether subject is substantive enough"
+    ],
+    "non_destructive_screen": {
+      "long_documents": 100,
+      "min_normalized_words": 73,
+      "max_normalized_words": 94,
+      "note": "Heuristic token counts, not repository word_count; no definitive schema test performed in this review"
+    },
+    "readiness": "NOT_READY_FOR_CHECKPOINT"
+  },
+  "batch_0005": {
+    "owner": "chat_producer",
+    "source_branch": "producer/chat-defense-v2",
+    "records": 500,
+    "missile_records": 300,
+    "previous_report": {
+      "schema": "passed",
+      "exact_duplicates_within": 0,
+      "exact_duplicates_vs_approved_0001_0003": 0,
+      "exact_duplicates_vs_work_0004": 0,
+      "lexical_jaccard_threshold": 0.73,
+      "lexical_pairs_at_threshold": 0
+    },
+    "non_destructive_screen": {
+      "long_documents": 100,
+      "min_normalized_words": 78,
+      "max_normalized_words": 180,
+      "repeated_seven_token_prefixes": {
+        "maximum_occurrences": 5,
+        "example": "הוועדה בתוכנית היירוט אבן מרווה התכנסה לבחינת"
+      },
+      "note": "Several repeated lead-in patterns warrant template-style review; not definitive semantic duplication"
+    },
+    "review_risks": [
+      "Complete independent blind label review, especially exceptional impact for critical classification",
+      "Complete substantive domain review for all missile rows or an independently sampled and justified protocol",
+      "Run embedding similarity against latest approved checkpoint plus work 0004 and within draft",
+      "Review repeated prose scaffolds in long texts",
+      "Do not publish until 0004 is accepted and production plan is recomputed"
+    ],
+    "readiness": "TECHNICAL_DRAFT_READY_BUT_NOT_PRODUCTION_APPROVED"
+  },
+  "excluded": [
+    "archive/general-v1"
+  ],
+  "tests_not_performed_in_this_audit": [
+    "Full repository CLI verify/prepare",
+    "Independent embedding inference",
+    "Complete editorial review of 1000 records",
+    "Full duplicate comparison against all historical v2 candidates"
+  ],
+  "mutation_scope": "chat audit file only; neither candidate set nor production progress changed",
+  "handoff_order": [
+    "Work resolves 0004 exception alerts and reruns 0003-aware QA",
+    "Work independently reviews and publishes 0004 if passing",
+    "Chat 0005 undergoes new production-aware and cross-draft QA; rewrite only flagged candidates if warranted",
+    "Work publishes 0005 after independent acceptance"
+  ]
+}
