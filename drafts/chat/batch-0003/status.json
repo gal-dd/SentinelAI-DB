@@ -1,6 +1,6 @@
 {
   "batch": "0003",
-  "status": "final_similarity_repairs_saved",
+  "status": "similarity_zero_pending_final_validation",
   "records": 500,
   "missile_count": 300,
   "draft_path": "drafts/chat/batch-0003/candidates.jsonl",
@@ -13,6 +13,6 @@
     "Independent semantic verification of 300 missile subjects without relying solely on domain anchors",
     "Refresh approved v2 and Work draft comparison at time of intake"
   ],
-  "near_similarity_pairs": 1,
+  "near_similarity_pairs": 0,
   "affected_records": 24
 }
