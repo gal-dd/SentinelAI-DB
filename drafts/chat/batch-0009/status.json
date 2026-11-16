@@ -1,0 +1,20 @@
+{
+  "batch": "0009",
+  "state": "complete_draft_pending_independent_review",
+  "owner": "chat_producer",
+  "branch": "producer/chat-defense-v2",
+  "records": 500,
+  "missile_records": 300,
+  "candidates": "drafts/chat/batch-0009/candidates.jsonl",
+  "qa_report": "drafts/chat/batch-0009/qa-report.json",
+  "ready_for_work_intake": true,
+  "ready_for_production": false,
+  "production_modified": false,
+  "ids_assigned": false,
+  "remaining_work": [
+    "Work independent blind label and substantive domain review",
+    "Work embedding-based semantic similarity with alert adjudication",
+    "Work editorial check for repeated fact patterns and document-level diversity",
+    "Work align live checkpoint quotas then use repository-native checkpoint publication"
+  ]
+}
