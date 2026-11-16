@@ -1,5 +1,5 @@
 {
-  "status": "editorial_consistency_audited_pending_final_intake_report",
+  "status": "ready_for_work_intake",
   "batch": "0003",
   "branch": "producer/chat-defense-v2",
   "records": 500,
@@ -51,10 +51,9 @@
     "semantic_domain_review": "not_completed",
     "lexical_similarity_review": {
       "status": "passed",
+      "metric": "Jaccard unique normalized word tokens",
       "threshold": 0.73,
-      "metric": "Jaccard normalized unique-word tokens",
-      "total_pairs": 0,
-      "affected_records": 0
+      "within_batch_pairs": 0
     },
     "editorial_note": "Lexical similarity reduced with factual differentiation. Independent semantic and blind-label verification is necessary before production finalization.",
     "editorial_rewrite": {
@@ -119,10 +118,281 @@
       "high_nonpublic_clarifications": 8,
       "low_public_contradiction_repaired": 0,
       "medium_hypothetical_case_repaired": 1
+    },
+    "technical_intake_validation": {
+      "status": "passed",
+      "records": 500,
+      "valid_schema": 500,
+      "registered_scenarios": 500,
+      "allowed_metadata": 500,
+      "hebrew_content": 500,
+      "word_length_quota": "passed",
+      "document_form_validated": 276,
+      "primary_domain_quota": "passed",
+      "labels_per_class": 125,
+      "exact_duplicates_within": 0,
+      "exact_duplicates_vs_approved_v2": 0,
+      "approved_v2_records_compared": 1000,
+      "archive_general_v1_excluded": true
+    },
+    "domain_focus_screen": {
+      "status": "passed_contextual_screen",
+      "missile_candidate_texts_checked": 300,
+      "with_missile_program_as_first_clause_topic": 300,
+      "limitation": "Textual subject-screen is not independent semantic embedding verification"
+    },
+    "stratified_editorial_review": {
+      "status": "sample_prepared_for_work_verification",
+      "strata": 24,
+      "samples": [
+        {
+          "candidate_position": 38,
+          "primary_domain": "missile_systems",
+          "proposed_label": "נמוך",
+          "text_excerpt": "דף הדרכה המתייחס לפרסום דוחות על הגנה טילית במסגרת מיזם הטילים חצב נכתב בידי צוות הארכיון. המסמך מבחין בין מסקנה מבוססת לבין השערה ובוחן את משמעות ההחלטה מבחינת אחריות מוסדית. התוכן הוצג בתערוכה פומבית והסתמך על מקורות גלויים. כל המידע נועד",
+          "domain_reason": "Missile/air-defense program governance, records, research or policy is the subject",
+          "classification_evidence_to_check": "Public release or educational context"
+        },
+        {
+          "candidate_position": 163,
+          "primary_domain": "missile_systems",
+          "proposed_label": "בינוני",
+          "text_excerpt": "סקירה מנהלית המתייחס לממשל תוכנית יירוט במסגרת תוכנית הטילים גפן נכתב בידי צוות הבקרה. המסמך מבחין בין מסקנה מבוססת לבין השערה ובוחן את משמעות ההחלטה מבחינת אחריות מוסדית. הוחלט לחלק משימות כתיבה בתוך הצוות בלבד. המפגש הבא יוקדש לבדיקה חוזר",
+          "domain_reason": "Missile/air-defense program governance, records, research or policy is the subject",
+          "classification_evidence_to_check": "Routine internal task without material impact"
+        },
+        {
+          "candidate_position": 288,
+          "primary_domain": "missile_systems",
+          "proposed_label": "גבוה",
+          "text_excerpt": "דף הדרכה המתייחס לזכויות מחקר בליסטי עיוני במסגרת מיזם הטילים חצב נכתב בידי הנהלת הפרויקט. המסמך מבחין בין מסקנה מבוססת לבין השערה ובוחן את משמעות ההחלטה מבחינת אחריות מוסדית. התקבלה החלטה לא פומבית לשנות התחייבות מרכזית לשנה הבאה. ההתחייבו",
+          "domain_reason": "Missile/air-defense program governance, records, research or policy is the subject",
+          "classification_evidence_to_check": "Nonpublic material project/contract/research decision"
+        },
+        {
+          "candidate_position": 413,
+          "primary_domain": "missile_systems",
+          "proposed_label": "חמור",
+          "text_excerpt": "בתוכנית ההגנה הטילית שקד־ענן הוכנה סיכום ועדה בנושא בדיקת אחריות למסמך מדיניות. עורכי התיק בדקו אם החתימה המקורית הוחלפה בהעתק ללא אישור, וביקשו להבין מה ידוע מתוך המסמכים. מסמכי אחריות של כמה תוכניות חושפים תלות בשירות יחיד שהופסק בלי גיבו",
+          "domain_reason": "Missile/air-defense program governance, records, research or policy is the subject",
+          "classification_evidence_to_check": "Explicit cross-program systemic loss or protected identity exposure"
+        },
+        {
+          "candidate_position": 82,
+          "primary_domain": "uncrewed_aircraft",
+          "proposed_label": "נמוך",
+          "text_excerpt": "במסגרת תוכנית הכטבם הבדיונית: הצוות פרסם מידע פומבי על תוכנית מיפוי סביבה באמצעות כלי בלתי מאויש: ממשל נתוני תצפית אזרחיים.",
+          "domain_reason": "uncrewed_aircraft is the primary project or service domain",
+          "classification_evidence_to_check": "Public release or educational context"
+        },
+        {
+          "candidate_position": 207,
+          "primary_domain": "uncrewed_aircraft",
+          "proposed_label": "בינוני",
+          "text_excerpt": "במסגרת תוכנית הכטבם הבדיונית: מנהלת המשמרת ביקשה לתאם מסלול לימוד אתיקה לכלים לא מאוישים: חלוקת אחריות על מידע.",
+          "domain_reason": "uncrewed_aircraft is the primary project or service domain",
+          "classification_evidence_to_check": "Routine internal task without material impact"
+        },
+        {
+          "candidate_position": 332,
+          "primary_domain": "uncrewed_aircraft",
+          "proposed_label": "גבוה",
+          "text_excerpt": "בהנהלת תוכנית הכטבמים כרם־צל התקבלה החלטה לא פומבית לעצור מימון מהותי של בקרת תיקי מחקר שהועברו לארכיון, והשותפים טרם עודכנו.",
+          "domain_reason": "uncrewed_aircraft is the primary project or service domain",
+          "classification_evidence_to_check": "Nonpublic material project/contract/research decision"
+        },
+        {
+          "candidate_position": 457,
+          "primary_domain": "uncrewed_aircraft",
+          "proposed_label": "חמור",
+          "text_excerpt": "בבדיקת מיזם רחפנים נוף־גן הוכח שכמה תוכניות של שימור הסכמות מצולמים איבדו יחד גיבוי מוסדי שהובטח כעצמאי, ללא חלופה.",
+          "domain_reason": "uncrewed_aircraft is the primary project or service domain",
+          "classification_evidence_to_check": "Explicit cross-program systemic loss or protected identity exposure"
+        },
+        {
+          "candidate_position": 95,
+          "primary_domain": "radar_sensors_space",
+          "proposed_label": "נמוך",
+          "text_excerpt": "במסגרת תוכנית חיישני החלל הבדיונית: הצוות פרסם מידע פומבי על רשת מחקר לוויינים מדומים: הסכמי שיתוף נתונים.",
+          "domain_reason": "radar_sensors_space is the primary project or service domain",
+          "classification_evidence_to_check": "Public release or educational context"
+        },
+        {
+          "candidate_position": 219,
+          "primary_domain": "radar_sensors_space",
+          "proposed_label": "בינוני",
+          "text_excerpt": "במסגרת תוכנית חיישני החלל הבדיונית: מנהלת המשמרת ביקשה לתאם תוכנית רכש מנהלית של מערך מכ״ם: הערכת תנאי אחריות.",
+          "domain_reason": "radar_sensors_space is the primary project or service domain",
+          "classification_evidence_to_check": "Routine internal task without material impact"
+        },
+        {
+          "candidate_position": 345,
+          "primary_domain": "radar_sensors_space",
+          "proposed_label": "גבוה",
+          "text_excerpt": "בדוח פנימי שטרם פורסם על מיזם לוויין תכלת נמצא כי תחזית התקציב הסתמכה על אישור שפג; ההשקעה הוקפאה.",
+          "domain_reason": "radar_sensors_space is the primary project or service domain",
+          "classification_evidence_to_check": "Nonpublic material project/contract/research decision"
+        },
+        {
+          "candidate_position": 469,
+          "primary_domain": "radar_sensors_space",
+          "proposed_label": "חמור",
+          "text_excerpt": "במיזם חיישני תצפית שקד הוכח ששלושה מחקרים עצמאיים חלקו מפתח זיהוי אחד, והצלבתו חשפה את משתתפיהם המוגנים.",
+          "domain_reason": "radar_sensors_space is the primary project or service domain",
+          "classification_evidence_to_check": "Explicit cross-program systemic loss or protected identity exposure"
+        },
+        {
+          "candidate_position": 107,
+          "primary_domain": "cyber_communications_c2",
+          "proposed_label": "נמוך",
+          "text_excerpt": "הודעת ועדה המתייחס לארכיון מסרים במסגרת מיזם הבקרה גפן נכתב בידי צוות הבקרה. המסמך מבחין בין מסקנה מבוססת לבין השערה ובוחן את משמעות ההחלטה מבחינת אחריות מוסדית. הדוח אושר לפרסום ואינו חושף עובדות שטרם נמסרו. אין בדיווח יכולות או נתונים מוג",
+          "domain_reason": "cyber_communications_c2 is the primary project or service domain",
+          "classification_evidence_to_check": "Public release or educational context"
+        },
+        {
+          "candidate_position": 232,
+          "primary_domain": "cyber_communications_c2",
+          "proposed_label": "בינוני",
+          "text_excerpt": "חוות דעת של מערכת המסרים נחל־צל בחנה את הבהרת שמות סטטוסים בחוברת הדרכה. הנושא התעורר לאחר שהתברר שיש מחלוקת סביב שני עורכים בחרו מונחים שונים, והיא הועברה לבדיקת הגורם האחראי. נבחר סדר בדיקה מקומי לטפסים לפני סדנת ההדרכה הבאה. המשתתפים תיע",
+          "domain_reason": "cyber_communications_c2 is the primary project or service domain",
+          "classification_evidence_to_check": "Routine internal task without material impact"
+        },
+        {
+          "candidate_position": 357,
+          "primary_domain": "cyber_communications_c2",
+          "proposed_label": "גבוה",
+          "text_excerpt": "במיזם השליטה ובקרה תכלת־ניר הוכנה סקירת תיעוד בנושא הסכם שירות ארכוב התראות. עורכי התיק בדקו אם הספק טרם אישר מסירת תוצרי דמה, וביקשו להבין מה ידוע מתוך המסמכים. סקירת זכויות פנימית העלתה שהתנאי המרכזי בחוזה השירות אינו מתקיים. נקבע לעצור ה",
+          "domain_reason": "cyber_communications_c2 is the primary project or service domain",
+          "classification_evidence_to_check": "Nonpublic material project/contract/research decision"
+        },
+        {
+          "candidate_position": 482,
+          "primary_domain": "cyber_communications_c2",
+          "proposed_label": "חמור",
+          "text_excerpt": "בתוכנית התקשורת לבנה־שביל הוגשה בקשה לבקר את פרטיות במאגרי שאלוני משתמשים, מתוך חשש לבלבול בין טיוטה לבין החלטה מחייבת. ברקע עמדה שאלת שתי קבוצות קיבלו מפתחות שיוך חופפים. שלושה גופי פיקוח קיבלו דוחות המציגים מקורות תקציב עצמאיים, אולם כל ה",
+          "domain_reason": "cyber_communications_c2 is the primary project or service domain",
+          "classification_evidence_to_check": "Explicit cross-program systemic loss or protected identity exposure"
+        },
+        {
+          "candidate_position": 117,
+          "primary_domain": "defense_logistics",
+          "proposed_label": "נמוך",
+          "text_excerpt": "במערך המיגון נחל־קשת הוכנה תזכיר ביקורת בנושא תהליך בקשת החזרי ציוד. עורכי התיק בדקו אם שדה אחריות השתנה בטופס הדמה, וביקשו להבין מה ידוע מתוך המסמכים.\n\nפרסום פתוח הציג לקוראים את ההבדל בין תיעוד היסטורי לבין ניסוח הסברתי שנכתב בדיעבד. לכל ",
+          "domain_reason": "defense_logistics is the primary project or service domain",
+          "classification_evidence_to_check": "Public release or educational context"
+        },
+        {
+          "candidate_position": 241,
+          "primary_domain": "defense_logistics",
+          "proposed_label": "בינוני",
+          "text_excerpt": "במערך הרכש מגן־אור הוכנה מכתב שותפים בנושא בקרת מסמכי אחריות לציוד מיגון. עורכי התיק בדקו אם מועד קבלה וחשבונית הוחלפו, וביקשו להבין מה ידוע מתוך המסמכים.\n\nצוות התיעוד החליט לאחד סימוני גרסאות, להעביר הערות למזכירות ולשמור עותק ישן לצורך הש",
+          "domain_reason": "defense_logistics is the primary project or service domain",
+          "classification_evidence_to_check": "Routine internal task without material impact"
+        },
+        {
+          "candidate_position": 367,
+          "primary_domain": "defense_logistics",
+          "proposed_label": "גבוה",
+          "text_excerpt": "במערך הבטיחות שדה־רימון התכנסה רכזת הבטיחות לדיון על תיעוד חפיפות של צוותי הדרכה ביטחוניים. בידי המשתתפים היה פנקס השתתפות, שלגביו נרשמה מחלוקת: שמות של שני מפגשי הכשרה התחלפו.\n\nבחינה פנימית גילתה שהסכם המימון שעליו נשענו ההתחייבויות לשנה ה",
+          "domain_reason": "defense_logistics is the primary project or service domain",
+          "classification_evidence_to_check": "Nonpublic material project/contract/research decision"
+        },
+        {
+          "candidate_position": 491,
+          "primary_domain": "defense_logistics",
+          "proposed_label": "חמור",
+          "text_excerpt": "בדיון על תיעוד חוזה ספק בתחום המיגון בתוכנית מיזם הציוד כרמל־דרך ביקשו המשתתפים לעיין במסמכי המקור. במיוחד נבדקה הטענה הנוגעת לנספח התחייבות נותר מחוץ לתיק.\n\nבביקורת משותפת נמצא שמפתח שיוך אחד מאפשר לזהות משתתפים שהובטחה להם אנונימיות בכמה ",
+          "domain_reason": "defense_logistics is the primary project or service domain",
+          "classification_evidence_to_check": "Explicit cross-program systemic loss or protected identity exposure"
+        },
+        {
+          "candidate_position": 123,
+          "primary_domain": "general_negative_controls",
+          "proposed_label": "נמוך",
+          "text_excerpt": "תערוכה פתוחה במוזיאון הקהילתי נחל־חן מוקדשת לאוספי נייר שיצרו תושבי השכונה. קטלוג התצוגה מציג מפות צבע, עטיפות וסימני דפוס ממקורות ציבוריים שכבר ניתנה הרשאה להצגתם. לצורך ההנגשה הוכנו גם ציורים חדשים המסומנים כהמחשה, כדי שלא ייראו כמסמכי מק",
+          "domain_reason": "Civilian library/cultural/education context is central",
+          "classification_evidence_to_check": "Public release or educational context"
+        },
+        {
+          "candidate_position": 248,
+          "primary_domain": "general_negative_controls",
+          "proposed_label": "בינוני",
+          "text_excerpt": "מזכר פנים של צוות החוגים במרכז קהילתי אבן־צור עוסק בהעברת שיעור רישום לחדר גדול יותר. רכזת החוגים גילתה שבמערכת השיבוץ נקבעו שתי פעילויות באותו חדר, וביקשה מן המדריכים להשוות את היומנים לפני הדפסת לוח חדש.\n\nבישיבה נקבע שמזכירות המרכז תעדכן ",
+          "domain_reason": "Civilian library/cultural/education context is central",
+          "classification_evidence_to_check": "Routine internal task without material impact"
+        },
+        {
+          "candidate_position": 373,
+          "primary_domain": "general_negative_controls",
+          "proposed_label": "גבוה",
+          "text_excerpt": "במרכז החוגים כרם־שחר הוגשה בקשה לבקר את שיבוץ חדרים לצוותי הדרכה, מתוך חשש לבלבול בין טיוטה לבין החלטה מחייבת. ברקע עמדה שאלת שני שיעורים נקבעו באותו חדר.\n\nהחלטת הנהלה שלא הועברה לשותפים ביטלה מסלול מחקר שמומן מראש, בעקבות פער יסודי בזכויות",
+          "domain_reason": "Civilian library/cultural/education context is central",
+          "classification_evidence_to_check": "Nonpublic material project/contract/research decision"
+        },
+        {
+          "candidate_position": 497,
+          "primary_domain": "general_negative_controls",
+          "proposed_label": "חמור",
+          "text_excerpt": "דוח ביקורת פנימי של קרן המלגות הבדיונית חוף־גפן עוסק בהתחייבויות פרטיות למשתתפים בשלוש תוכניות חינוך עצמאיות. לכל תוכנית הובטח שמזהי הלומדים ישמרו בנפרד, ושאנשי תוכניות אחרות לא יוכלו לקשור רשומות לשמות.\n\nבמהלך ביקורת על דוחות שנמסרו לוועדו",
+          "domain_reason": "Civilian library/cultural/education context is central",
+          "classification_evidence_to_check": "Explicit cross-program systemic loss or protected identity exposure"
+        }
+      ],
+      "blind_labeling_not_independently_certified": true
+    },
+    "acceptance_boundary": {
+      "can_stage_in_Work": true,
+      "final_ids_assigned": false,
+      "independent_blind_label_verification": "Work publisher acceptance step",
+      "semantic_embedding_similarity": "Work publisher acceptance step",
+      "checkpoint_creation": "Work publisher only",
+      "note": "Draft ready to be ingested for Work QA, not represented as a finished/approved checkpoint."
     }
   },
   "initial_authored_preserved": 20,
   "initial_authored_not_in_final": 8,
   "final_ids_assigned": false,
-  "published_to_production": false
+  "published_to_production": false,
+  "ready_for_work_intake": true,
+  "ready_for_production_checkpoint": false,
+  "last_checked_production_checkpoint": 2,
+  "last_checked_production_records": 1000,
+  "domain_label_counts": {
+    "missile_systems": {
+      "נמוך": 75,
+      "בינוני": 75,
+      "גבוה": 75,
+      "חמור": 75
+    },
+    "uncrewed_aircraft": {
+      "נמוך": 13,
+      "בינוני": 12,
+      "גבוה": 13,
+      "חמור": 12
+    },
+    "radar_sensors_space": {
+      "נמוך": 12,
+      "בינוני": 13,
+      "גבוה": 12,
+      "חמור": 13
+    },
+    "cyber_communications_c2": {
+      "נמוך": 13,
+      "בינוני": 12,
+      "גבוה": 13,
+      "חמור": 12
+    },
+    "defense_logistics": {
+      "נמוך": 6,
+      "בינוני": 7,
+      "גבוה": 6,
+      "חמור": 6
+    },
+    "general_negative_controls": {
+      "נמוך": 6,
+      "בינוני": 6,
+      "גבוה": 6,
+      "חמור": 7
+    }
+  }
 }
