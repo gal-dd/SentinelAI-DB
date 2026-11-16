@@ -1,0 +1,40 @@
+{
+  "batch": "0006",
+  "candidate_generation_attempt": {
+    "count": 500,
+    "domain_counts": {
+      "missile_systems": 300,
+      "uncrewed_aircraft": 50,
+      "radar_sensors_space": 50,
+      "cyber_communications_c2": 50,
+      "defense_logistics": 25,
+      "general_negative_controls": 25
+    },
+    "label_counts": {
+      "נמוך": 125,
+      "בינוני": 125,
+      "גבוה": 125,
+      "חמור": 125
+    },
+    "length_bucket_failures": 212,
+    "quality_gate": "FAILED",
+    "candidates_persisted": false,
+    "reason": "212 local bucket mismatches; repetitive template construction; unpublished."
+  },
+  "validated_checks": {
+    "branch_namespace_review": "passed",
+    "batch_conflict_review": "passed",
+    "production_progress_read": "passed",
+    "scenario_catalog_read": "passed",
+    "policy_read": "passed",
+    "full_schema_validation": "not_run",
+    "cross_dataset_exact_duplicates": "not_run",
+    "lexical_similarity": "not_run",
+    "semantic_similarity": "not_run",
+    "editorial_review": "failed_preliminary"
+  },
+  "production_checkpoint_at_last_read": 3,
+  "production_records_at_last_read": 1500,
+  "archive_excluded": true,
+  "ready_for_work_intake": false
+}
