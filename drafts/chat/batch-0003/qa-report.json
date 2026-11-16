@@ -1,5 +1,5 @@
 {
-  "status": "lexical_similarity_zero_final_validation_in_progress",
+  "status": "materiality_and_systemic_consequences_repaired",
   "batch": "0003",
   "branch": "producer/chat-defense-v2",
   "records": 500,
@@ -108,6 +108,12 @@
       "rewritten": 12,
       "method": "Factual semantic differentiation for same-label overlap, preserving domain and length",
       "remaining_pairs": 1
+    },
+    "classification_evidence_final_repairs": {
+      "single_program_severe_escalations_corrected": 10,
+      "nonpublic_high_material_effects_clarified": 10,
+      "reason": "Requires explicit system-wide impact for severe and material unpublished decision for high",
+      "checked_date": "2026-11-16"
     }
   },
   "initial_authored_preserved": 20,
