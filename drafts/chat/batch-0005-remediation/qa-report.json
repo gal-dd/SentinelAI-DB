@@ -1,0 +1,90 @@
+{
+  "batch": "0005",
+  "revision": "editorial-remediation-1",
+  "source": "drafts/chat/batch-0005/candidates.jsonl",
+  "candidates": "drafts/chat/batch-0005-remediation/candidates.jsonl",
+  "reviewed_against": "production checkpoint 0003 + remediated candidate batch 0004",
+  "records": 500,
+  "changed_candidate_rows": [
+    21,
+    22,
+    23,
+    46,
+    47,
+    71,
+    72,
+    73,
+    96,
+    97,
+    144,
+    244,
+    344,
+    425,
+    444,
+    471,
+    498
+  ],
+  "change_count": 17,
+  "counts": {
+    "domains": {
+      "missile_systems": 300,
+      "uncrewed_aircraft": 50,
+      "radar_sensors_space": 50,
+      "cyber_communications_c2": 50,
+      "defense_logistics": 25,
+      "general_negative_controls": 25
+    },
+    "labels": {
+      "נמוך": 125,
+      "בינוני": 125,
+      "גבוה": 125,
+      "חמור": 125
+    },
+    "label_lengths_each": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "long_documents": 100,
+    "long_min_paragraphs": 3
+  },
+  "checks_actually_run": {
+    "row_count": "pass",
+    "length_bucket": "pass",
+    "scenario_ids_and_source_groups_against_production_catalog": "pass",
+    "normalized_exact_duplicates_within_batch": 0,
+    "normalized_exact_duplicates_against_approved_v2_0001_0003": 0,
+    "normalized_exact_duplicates_against_remediated_batch_0004": 0,
+    "lexical_similarity": {
+      "method": "NFKC normalized unique token Jaccard",
+      "threshold": 0.73,
+      "within_batch_pairs": 0,
+      "against_approved_v2_pairs": 0,
+      "against_remediated_0004_pairs": 0
+    },
+    "long_paragraph_layout": "pass"
+  },
+  "editorial_observations": [
+    "Ten long-document lead paragraphs rewritten to reduce recurring boilerplate",
+    "Seven short texts rewritten to clarify subject or exceptional scope",
+    "The corpus may still contain template-driven repetition below lexical threshold; full human editorial review not completed"
+  ],
+  "environment_findings": {
+    "chat_catalog_not_in_sync_with_production": "29 scenario IDs referenced by draft not in chat branch catalog but all registered on production branch",
+    "production_last_approved_checkpoint_at_review": 3,
+    "production_approved_rows": 1500
+  },
+  "open_gates": [
+    "Complete independent blind policy-label and substantive domain judgment with required sample",
+    "Run multilingual embedding semantic similarity with current production and revised 0004",
+    "Resolve all exceptional semantic similarity alerts",
+    "Confirm checkpoint 0004 production acceptance and recalculate checkpoint 0005 length requirements",
+    "Run actual repository prepare/checkpoint/verify and publish only if passing"
+  ],
+  "status": "TECHNICALLY_REPAIRED_NOT_PRODUCTION_APPROVED",
+  "archived_general_v1_excluded": true,
+  "production_modified": false,
+  "ids_assigned": false,
+  "note": "No embedding QA, complete editorial blind review, or repository checkpoint command was performed; report does not assert these steps passed."
+}
