@@ -21,7 +21,7 @@ from .production import validate_document_form
 MIN_PARAGRAPH_WORDS = 12
 MIN_REPEATED_SENTENCE_WORDS = 10
 HEBREW_SENTENCE_BOUNDARY = re.compile(r"(?<=[.!?])\s+")
-SIMILARITY_THRESHOLD = 0.73
+MAX_REPEATED_ROW_SHARE = 0.20  # Gate for widespread reused substantive prose
 
 
 def _digest(text):
@@ -137,6 +137,12 @@ def analyze(rows, references=(), reference_names=(), expected_lengths=None, scen
     # Deterministic groups for editorial review. No claim of semantic deduplication.
     groups = [w for w in warnings if w["code"].startswith("repeated_")]
     affected = sorted({row for group in groups for row in group["rows"]})
+    repeated_share = len(affected) / len(rows) if rows else 0.0
+    if repeated_share > MAX_REPEATED_ROW_SHARE:
+        errors.append({"code": "systemic_repeated_prose",
+                       "affected_rows": len(affected),
+                       "share": round(repeated_share, 4),
+                       "max_share": MAX_REPEATED_ROW_SHARE})
     return {
         "schema_version": 1, "status": "blocked" if errors else "preflight_pass_with_review",
         "records": len(rows), "reference_records": ref_count,
@@ -145,7 +151,8 @@ def analyze(rows, references=(), reference_names=(), expected_lengths=None, scen
         "expected_label_lengths": expected_lengths,
         "errors": errors, "warnings": warnings,
         "summary": {"blocking_errors": len(errors), "review_warnings": len(warnings),
-                    "repetition_groups": len(groups), "repetition_affected_rows": len(affected)},
+                    "repetition_groups": len(groups), "repetition_affected_rows": len(affected),
+                    "repetition_affected_share": round(repeated_share, 4)},
         "requires": ["semantic embedding scan", "independent blind label/domain review",
                      "editorial review of repeated meaning and evidence",
                      "repository-native checkpoint validation before publication"],
