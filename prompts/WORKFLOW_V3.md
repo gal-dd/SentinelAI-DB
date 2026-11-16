@@ -16,8 +16,8 @@ This document supplements, not replaces, the canonical policy, checkpoint contra
 Example:
 
 ```bash
-python -m sentinel_dataset.preflight drafts/chat/batch-0007/candidates.jsonl \\
-  --reference drafts/chat/batch-0006/candidates.jsonl \\
+python -m sentinel_dataset.preflight drafts/chat/batch-0007/candidates.jsonl \
+  --reference drafts/chat/batch-0006/candidates.jsonl \
   --output .poc-local/preflight-0007.json
 ```
 
@@ -30,3 +30,32 @@ Store candidate rows, invalid rows, number of exact matches, repeated-substance 
 ## Ownership and failure policy
 
 If many records repeat the same facts or fail blind labeling, stop individual Work rewrites and send an indexed correction packet to Producer. A candidate batch remains a draft until required review decisions are complete. Work or a future session can resume from repository files without relying on chat context.
+
+## Efficient local similarity workflow
+
+The revised `sentinel_dataset.semantic.embeddings` uses a local SQLite cache at
+`.poc-local/embeddings/<model-and-tokenizer-digest>/per-text.sqlite3`.
+The cache key is the SHA-256 of the **exact prefixed input text** (including
+`passage: `). Changing a single record recomputes its vector but reuses all
+unmodified vectors. Model artifact changes create a different cache namespace.
+Do not commit the cache DB to Git.
+
+After the existing repository `prepare` command writes a review packet,
+prepare a navigation-only component report:
+
+```bash
+python -m sentinel_dataset.alert_triage .poc-local/packet.json \
+  --output .poc-local/alert-groups.json
+```
+
+The grouping report preserves original `alert_ids` and highlights high-risk
+pairs under the final-scan thresholds as a navigation aid. The checkpoint
+reviewer must still enforce the actual `review` and `checkpoint` policy
+and record every mandatory pair decision.
+
+**Cross-branch caution:** `producer/chat-defense-v2` may hold an out-of-date
+`progress.json`. For production intake quotas, obtain a fresh copy of
+`poc/defense-focused-v2` progress, pass it explicitly via
+`--progress .poc-local/latest-progress.json`, and verify it again at
+publication. A preflight based on the Producer branch's older progress is
+not production approval.
