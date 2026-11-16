@@ -1,15 +1,21 @@
 {
   "batch": "0005",
-  "state": "partial_draft_100_records_qa_in_progress",
-  "records": 100,
-  "target_records": 500,
-  "missile_records": 60,
+  "state": "ready_for_work_intake",
+  "owner": "chat_producer",
   "branch": "producer/chat-defense-v2",
+  "records": 500,
+  "missile_records": 300,
+  "qa_report": "drafts/chat/batch-0005/qa-report.json",
+  "candidates": "drafts/chat/batch-0005/candidates.jsonl",
   "production_modified": false,
   "ids_assigned": false,
+  "approved_reference_checkpoint": 3,
+  "ready_for_work_intake": true,
+  "ready_for_production": false,
+  "lexical_similarity_pairs": 0,
   "remaining_work": [
-    "Generate remaining 400 records with all required final quotas including sufficient missile long-form examples",
-    "Independent label and domain audit across all 500",
-    "Semantic similarity audit against Work and approved v2"
+    "Work blind classification/domain review",
+    "Work semantic-embedding deduplication and style audit",
+    "Work production checkpoint publishing only after prior checkpoint 0004 acceptance"
   ]
 }
