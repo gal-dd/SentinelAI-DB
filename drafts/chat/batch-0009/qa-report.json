@@ -1,0 +1,117 @@
+{
+  "batch": "0009",
+  "owner": "chat_producer",
+  "producer_branch": "producer/chat-defense-v2",
+  "candidates_file": "drafts/chat/batch-0009/candidates.jsonl",
+  "records": 500,
+  "production_reference": {
+    "last_approved_checkpoint": 3,
+    "production_records": 1500
+  },
+  "domain_counts": {
+    "missile_systems": 300,
+    "uncrewed_aircraft": 50,
+    "radar_sensors_space": 50,
+    "cyber_communications_c2": 50,
+    "defense_logistics": 25,
+    "general_negative_controls": 25
+  },
+  "missile_percentage": 60,
+  "label_counts": {
+    "נמוך": 125,
+    "בינוני": 125,
+    "גבוה": 125,
+    "חמור": 125
+  },
+  "label_length_counts": {
+    "נמוך": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "בינוני": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "גבוה": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "חמור": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    }
+  },
+  "checks_actually_run": {
+    "jsonl_parse": "pass",
+    "row_count": "500/500",
+    "schema_fields": "pass",
+    "registered_scenarios_and_domain_against_active_catalog": "500/500",
+    "source_groups": "pass",
+    "hebrew_without_latin_text": "500/500",
+    "length_buckets": "500/500",
+    "long_multisection_form": "100/100",
+    "exact_normalized_duplicates": {
+      "within": 0,
+      "against_approved_v2_checkpoints_0001_0003": 0,
+      "against_remediated_0004": 0,
+      "against_remediated_0005": 0,
+      "against_drafts_0006_0007_0008": 0
+    },
+    "lexical_jaccard": {
+      "threshold": 0.73,
+      "within_batch_pairs": 0,
+      "against_approved_v2_pairs": 0,
+      "against_remediated_0004_pairs": 0,
+      "against_remediated_0005_pairs": 0,
+      "against_0006_pairs": 0,
+      "against_0007_pairs": 0,
+      "against_0008_pairs": 0
+    },
+    "missile_keyword_context": {
+      "matching": 300,
+      "total": 300,
+      "limitation": "Lexical topicality is not independent semantic primary-domain verification"
+    }
+  },
+  "corrections": {
+    "initial_exact_duplicates": 11,
+    "initial_within_batch_lexical_pairs_at_0_73": 93,
+    "repair_passes": [
+      93,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "edited_rows_during_lexical_repair": 79,
+    "additional_missile_context_revision": 1
+  },
+  "checks_not_run": [
+    "Repository Python prepare/verify/checkpoint workflow",
+    "Independent blind content label and domain review",
+    "Embedding semantic similarity scan against approved dataset and drafts",
+    "Alert adjudication under semantic policy",
+    "Full human editorial audit for formulaic or repetitive fact patterns",
+    "Final checkpoint publication and ID allocation"
+  ],
+  "editorial_risks": [
+    "A lexical screen alone does not establish conceptual variety; repeated scenario and consequence structures require substantive review.",
+    "Some texts are generated through reusable patterns and require independent editorial evaluation.",
+    "Critical-level short examples require case-by-case assessment of exceptional impact."
+  ],
+  "status": "technical_draft_complete_pending_independent_review",
+  "ready_for_work_intake": true,
+  "ready_for_production_checkpoint": false,
+  "archive_general_v1_excluded": true,
+  "production_modified": false,
+  "ids_assigned": false
+}
