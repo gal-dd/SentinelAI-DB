@@ -4,7 +4,11 @@
 
 | מסמך | תוכן |
 |---|---|
-| [HANDOFF.md](HANDOFF.md) | מצב ההתקדמות ופקודות המשך |
+| [PROJECT_STATUS.md](PROJECT_STATUS.md) | מצב ניהולי ומקורות אמת |
+| [TECHNICAL_STATUS.md](TECHNICAL_STATUS.md) | בדיקות תשתית וחסמים |
+| [WORK_COORDINATION.md](WORK_COORDINATION.md) | תיאום והעברת אחריות |
+| [AGENTS.md](AGENTS.md) | כללי עבודה במאגר |
+| [HANDOFF.md](HANDOFF.md) | מסמך ייצור היסטורי; יש להשוות ל־progress.json |
 | [מדיניות התיוג](policy/v0.1.0.md) | הגדרות רגישות, הכרעות ומקרי קצה |
 | [מכסות התחומים](config/defense-domain-targets.json) | 60% תוכן שעוסק מהותית במערכות טיליות |
 | [הוראות הייצור](prompts/WORKER_START_DEFENSE_V2.md) | כתיבה, בידוד הארכיון ושיתוף עבודה |
@@ -12,15 +16,77 @@
 
 ## פתיחה ושחזור
 
-דרושים Python 3.10 ומעלה ו־Git עם גישה לריפו וכתיבה לענף העבודה. הפקודות הבאות מתאימות ל־Bash. ב־PowerShell אפשר להשתמש בנתיבים רגילים ולהגדיר משתני סביבה באמצעות `$env:VARIABLE`.
+סדרת Python המוסכמת לפיתוח כללי היא **3.13**, עם עדכון patch בתוך הסדרה. המקור הוא [.python-version](.python-version); גם CI קורא אותו. ההרצות המקומיות האחרונות השתמשו ב־3.13.14. זו אינה נעילה של סביבת מנוע הדמיון או התחייבות לתאימות כל תלויותיו.
+
+דרושים Git ו־Python 3.13 עם מודול `venv`. התחילו משורש checkout של ענף `poc/defense-focused-v2`. פקודת clone משותפת לשתי המערכות:
 
 ```bash
 git clone --branch poc/defense-focused-v2 https://github.com/gal-dd/SentinelAI-DB.git
 cd SentinelAI-DB
-python -m sentinel_dataset verify
 ```
 
-הבדיקה קוראת את `progress.json`, מאמתת SHA-256, התאמה בין הנתונים למטא־דאטה, מזהים רציפים ומכסות, ומחפשת כפילויות מנורמלות. נקודת ההמשך היא `next_id`. השתמשו ב־`git log -1 -- HANDOFF.md` כדי לאתר את commit ההתקדמות האחרון. אם עובדים באמצעות GitHub API, צרו עץ מלא מול ה־HEAD הקיים, commit בן יחיד, ועדכנו את הענף ב־fast-forward. קראו שוב את ראש הענף ואמתו את ה־SHA.
+### Windows — PowerShell
+
+```powershell
+py -0p
+py -3.13 -m venv .venv-dev
+.\.venv-dev\Scripts\python.exe --version
+.\.venv-dev\Scripts\python.exe -B scripts/check_infrastructure.py
+.\.venv-dev\Scripts\python.exe -B -m unittest discover -s tests -p test_infrastructure.py -v
+```
+
+אפשר להפעיל `./.venv-dev/Scripts/Activate.ps1` ואז להשתמש ב־`python`; ההפעלה אינה חובה ואין צורך לשנות ExecutionPolicy. אם יצירת הסביבה או בדיקות זמניות נכשלות ב־`PermissionError`, בדקו הרשאות לתיקיית העבודה ול־Windows Temp; זו אינה בהכרח שגיאת קוד.
+
+### Linux — Bash
+
+התקינו Python 3.13 ו־venv באמצעות מנהל המערכת/החבילות המתאים להפצה. אם `python3.13 -m venv` מדווח ש־ensurepip/venv חסר, התקינו את חבילת venv התואמת. אין להחליף את Python של מערכת ההפעלה.
+
+```bash
+python3.13 -m venv .venv-dev
+.venv-dev/bin/python --version
+.venv-dev/bin/python -B scripts/check_infrastructure.py
+.venv-dev/bin/python -B -m unittest discover -s tests -p test_infrastructure.py -v
+```
+
+אפשר להפעיל `source .venv-dev/bin/activate` ואז להשתמש ב־`python`. אין צורך ב־`pip install` לצורך פיתוח ובדיקות התשתית הכלליות. `.venv-dev/` מוחרגת מ־Git; אין להעתיק סביבה ממחשב או ממערכת הפעלה אחרת. אם קיימת `.venv` ממפרש אחר, השאירו אותה ובחרו במפורש את המפרש של `.venv-dev`.
+
+### בדיקות תוכנה כלליות
+
+הפקודה האחידה משורש המאגר, באמצעות המפרש הנבחר, היא:
+
+```bash
+python -B scripts/check_infrastructure.py
+python -B -m unittest discover -s tests -p test_infrastructure.py -v
+```
+
+הבודק משתמש בספרייה התקנית בלבד ומחזיר קוד יציאה שונה מאפס בכשל. הוא קורא קבצים מנוהלים ב־Git וגם קבצים חדשים שאינם מוחרגים, ללא הרצת קוד הפרויקט:
+
+- תחביר כל קובצי Python, באמצעות compilation בזיכרון וללא bytecode.
+- UTF-8 ו־JSON תחת `config/`, כולל דחיית מפתחות כפולים ו־NaN/Infinity. נתונים, מטא־דאטה, דוחות וטיוטות אינם מפוענחים.
+- קיום יעדים מקומיים בקישורי Markdown inline ובתמונות, במסמכי השורש ותחת `docs/`. קישורים יחסיים נפתרים מתיקיית המסמך; קישורים חיצוניים וקוד אינם נבדקים. נבדק קיום הנתיב בלבד, ללא anchors, קישורי reference, HTML או יעדים עם סוגריים מקוננים. מסמכי ארכיון, פרומפטים ומדיניות אינם נסרקים.
+
+ב־[workflow התשתית](.github/workflows/infrastructure.yml) אותן שתי פקודות רצות על Windows ו־Ubuntu ב־Python 3.13, ב־push וב־pull request לענף הייצור. ההרשאות הן `contents: read`; אין התקנת מנוע, הורדת מודל או הרצת תהליך ייצור. אין זו בדיקת תוכן או כשירות לפרסום.
+
+להרצת כל בדיקות היחידה הקיימות בענף הנוכחי:
+
+```bash
+python -B -m unittest discover -s tests -v
+```
+
+סוויטת ענף הטיוטות עשויה להזדקק לתלויות המנוע ול־`SENTINEL_E5_MODEL_DIR`; אינה חלק מ־CI התשתית הזה. הוראות המנוע בהמשך נפרדות מהקמת סביבת הפיתוח הכללית.
+
+### מבנה המאגר ושחזור נתונים
+
+| נתיב | תפקיד |
+|---|---|
+| `sentinel_dataset/` | קוד תהליך הנתונים וה־CLI |
+| `scripts/`, `tests/` | כלי עזר ובדיקות תוכנה |
+| `config/`, `policy/`, `prompts/` | הגדרות ותוכן מנוהלים; שינוי רק בהיקף שאושר |
+| `data/`, `metadata/`, `reports/`, `drafts/` | נתונים, דוחות וטיוטות; אינם קבצים זמניים למחיקה |
+| `archive/` | היסטוריית v1 השמורה ללא שינוי |
+| `.poc-local/`, `.venv-dev/` | משאבים מקומיים המוחרגים מ־Git |
+
+אימות הנתונים הוא פעולה נפרדת: `python -m sentinel_dataset verify` קוראת את `progress.json`, מאמתת SHA-256, התאמה בין הנתונים למטא־דאטה, מזהים רציפים ומכסות, ומחפשת כפילויות מנורמלות. נקודת ההמשך היא `next_id`. מצב הניהול נמצא ב־[PROJECT_STATUS.md](PROJECT_STATUS.md); יש להשוות את HANDOFF ההיסטורי למצב ההתקדמות הנוכחי.
 
 ## התקנת מנוע הדמיון המקומי
 
