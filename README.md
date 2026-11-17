@@ -10,9 +10,32 @@
 | [הוראות הייצור](prompts/WORKER_START_DEFENSE_V2.md) | כתיבה, בידוד הארכיון ושיתוף עבודה |
 | [מניפסט הארכיון](archive/general-v1/archive-manifest.json) | מאגר v1 שנשמר בצד |
 
-## פתיחה ושחזור
+## פיתוח בענף הטיוטות
 
-דרושים Python 3.10 ומעלה ו־Git עם גישה לריפו וכתיבה לענף העבודה. הפקודות הבאות מתאימות ל־Bash. ב־PowerShell אפשר להשתמש בנתיבים רגילים ולהגדיר משתני סביבה באמצעות `$env:VARIABLE`.
+מסמך זה נמצא בענף `producer/chat-defense-v2`. קראו תחילה [AGENTS.md](AGENTS.md) ואת [מסמכי הניהול בענף הייצור](https://github.com/gal-dd/SentinelAI-DB/blob/poc/defense-focused-v2/PROJECT_STATUS.md). Python המוסכם לפיתוח כללי הוא **3.13**; המקור הוא [.python-version](.python-version).
+
+Windows/PowerShell, משורש checkout זה:
+
+```powershell
+py -3.13 -m venv .venv-dev
+.\.venv-dev\Scripts\python.exe --version
+```
+
+Linux/Bash, לאחר התקנת Python 3.13 ו־venv המתאים להפצה:
+
+```bash
+python3.13 -m venv .venv-dev
+.venv-dev/bin/python --version
+```
+
+אין צורך להפעיל venv אם משתמשים במפרש במפורש, ואין להעתיק סביבה בין מחשבים. `.venv-dev`, מפתחות ותוצרים מקומיים מוחרגים מ־Git. סוויטת ענף זה דורשת גם תלויות מנוע: בסקירה הקודמת 20 בדיקות עברו וטעינת מודול המטמון נכשלה בגלל numpy חסר; אין להציג את כל הסוויטה כעוברת. בדיקת E5 דורשת גם נכסי מודל ו־`SENTINEL_E5_MODEL_DIR`. לא בוצעה כאן התקנה או הרצה חוזרת.
+
+בודק התשתית ו־GitHub Actions קיימים בענף הייצור בלבד; פקודותיו אינן זמינות ב־checkout זה. תוצאות, בדיקות שלא בוצעו וחסמים מרוכזים ב־[TECHNICAL_STATUS.md המרכזי](https://github.com/gal-dd/SentinelAI-DB/blob/poc/defense-focused-v2/TECHNICAL_STATUS.md).
+
+ההוראות הבאות מתארות את תהליך הנתונים וכוללות פקודות לענף הייצור. הן אינן הרשאה לייצר או לפרסם נתונים מתוך ענף הטיוטות.
+## שחזור ייצור — בענף הייצור בלבד
+
+לפיתוח כללי השתמשו ב־Python 3.13 וב־Git. יש לבצע את פקודות שחזור הייצור הבאות ב־checkout נפרד של ענף הייצור. הפקודות הבאות מתאימות ל־Bash. ב־PowerShell אפשר להשתמש בנתיבים רגילים ולהגדיר משתני סביבה באמצעות `$env:VARIABLE`.
 
 ```bash
 git clone --branch poc/defense-focused-v2 https://github.com/gal-dd/SentinelAI-DB.git
