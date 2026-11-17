@@ -159,8 +159,7 @@ def run(args):
     if args.command == "generate":
         job = read_json(args.job)
         rows = generate(args.model, job, *scenario_catalog())
-        with args.output.open("xb") as out:
-            out.write(jsonl_bytes(rows))
+        cp.write_file(args.output, jsonl_bytes(rows), overwrite=False)
         return f"Generated {len(rows)} candidates"
     if args.command == "review":
         cp.write_file(args.output, json_bytes(blind_review(args.model, read_json(args.packet))))

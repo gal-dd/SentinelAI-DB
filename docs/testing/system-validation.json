@@ -1,0 +1,140 @@
+{
+  "scope": "civilian synthetic fixtures; isolated files and child processes; no live network",
+  "python": "3.13.14",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "baseline": {
+    "phase": "before_fix",
+    "tests": 2,
+    "failures": 2,
+    "errors": 0,
+    "seconds": 0.078153,
+    "failed_tests": [
+      "test_system_io.SystemIOTests.test_partial_write_failure_preserves_target_and_cleans_temporary_file",
+      "test_system_io.SystemIOTests.test_generate_serialization_failure_does_not_reserve_output"
+    ]
+  },
+  "verification": {
+    "tests": 21,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 5.078389,
+    "cases": [
+      {
+        "id": "test_system_io.SystemIOTests.test_cli_rejects_bad_job_without_traceback_or_output",
+        "outcome": "passed",
+        "seconds": 0.744699
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_exclusive_publication_failure_leaves_no_empty_output",
+        "outcome": "passed",
+        "seconds": 0.004677
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_exclusive_publication_race_preserves_competing_writer",
+        "outcome": "passed",
+        "seconds": 0.664918
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_generate_preserves_existing_output",
+        "outcome": "passed",
+        "seconds": 0.026025
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_generate_serialization_failure_does_not_reserve_output",
+        "outcome": "passed",
+        "seconds": 0.038708
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_git_wrapper_uses_only_isolated_repository_and_surfaces_errors",
+        "outcome": "passed",
+        "seconds": 0.997301
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_http_bad_json_response_is_rejected_without_real_request",
+        "outcome": "passed",
+        "seconds": 0.003408
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_http_transport_errors_do_not_escape_as_raw_network_errors",
+        "outcome": "passed",
+        "seconds": 0.004939
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_interruption_after_exclusive_link_leaves_complete_output",
+        "outcome": "passed",
+        "seconds": 0.413049
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_interruption_after_replace_leaves_complete_new_file",
+        "outcome": "passed",
+        "seconds": 0.372683
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_interruption_before_exclusive_link_leaves_no_reserved_output",
+        "outcome": "passed",
+        "seconds": 0.406577
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_interruption_before_replace_keeps_old_file_and_retry_succeeds",
+        "outcome": "passed",
+        "seconds": 0.777107
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_json_and_jsonl_roundtrip_unicode_and_newlines",
+        "outcome": "passed",
+        "seconds": 0.046806
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_lock_contention_and_recovery_after_process_kill",
+        "outcome": "passed",
+        "seconds": 0.38369
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_lock_is_released_after_exception",
+        "outcome": "passed",
+        "seconds": 0.003504
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_malformed_and_truncated_json_are_rejected_without_mutation",
+        "outcome": "passed",
+        "seconds": 0.119667
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_missing_input_and_directory_destination_fail_cleanly",
+        "outcome": "passed",
+        "seconds": 0.009554
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_partial_two_file_operation_can_resume_without_global_rollback",
+        "outcome": "passed",
+        "seconds": 0.039357
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_partial_write_failure_preserves_target_and_cleans_temporary_file",
+        "outcome": "passed",
+        "seconds": 0.009784
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_remote_response_shape_is_rejected",
+        "outcome": "passed",
+        "seconds": 0.002593
+      },
+      {
+        "id": "test_system_io.SystemIOTests.test_replace_failure_keeps_original_and_cleans_temporary_file",
+        "outcome": "passed",
+        "seconds": 0.008476
+      }
+    ]
+  },
+  "prior_verification": {
+    "tests": 18,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 4.638654
+  },
+  "date": "2026-11-17",
+  "base_commit": "7b54a01a6bd6517d0244b463019f183e474168e3",
+  "timing": "time.perf_counter; suite execution excludes interpreter startup and imports"
+}

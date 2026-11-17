@@ -29,3 +29,5 @@ jobs:
         run: python -B scripts/check_infrastructure.py
       - name: Test infrastructure checker
         run: python -B -m unittest discover -s tests -p test_infrastructure.py -v
+      - name: Test isolated civilian system I/O
+        run: python -B -m unittest discover -s tests -p test_system_io.py -v

@@ -269,15 +269,23 @@ def checkpoint_lock():
         yield
 
 
-def write_file(path, contents):
+def write_file(path, contents, *, overwrite=True):
+    """Publish complete bytes atomically; optionally refuse an existing target."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    with NamedTemporaryFile(dir=path.parent, delete=False) as stream:
-        stream.write(contents)
-        temp = Path(stream.name)
+    temp = None
     try:
-        temp.replace(path)
+        with NamedTemporaryFile(dir=path.parent, delete=False) as stream:
+            temp = Path(stream.name)
+            stream.write(contents)
+        if overwrite:
+            temp.replace(path)
+        else:
+            # Same-directory hard link publishes complete bytes exclusively,
+            # without an exists-then-write race or an empty reserved output.
+            os.link(temp, path)
     finally:
-        temp.unlink(missing_ok=True)
+        if temp is not None:
+            temp.unlink(missing_ok=True)
 
 
 def state_artifacts(files, state):
