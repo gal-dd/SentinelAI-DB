@@ -39,7 +39,10 @@ class VectorCache:
             for key, dimension, raw in self.connection.execute(query, batch):
                 if len(raw) != 4 * dimension:
                     raise ValueError("Embedding cache dimension mismatch")
-                results[key] = np.frombuffer(raw, dtype=np.float32).copy()
+                array = np.frombuffer(raw, dtype=np.float32).copy()
+                if not np.isfinite(array).all():
+                    raise ValueError("Expected finite embedding cache values")
+                results[key] = array
         return results
 
     def put_many(self, records):
@@ -51,6 +54,8 @@ class VectorCache:
             array = np.asarray(vector, dtype=np.float32)
             if array.ndim != 1 or not array.size:
                 raise ValueError("Expected a nonempty 1-D embedding")
+            if not np.isfinite(array).all():
+                raise ValueError("Expected finite embedding cache values")
             prepared.append((key, int(array.shape[0]), array.tobytes()))
         self.connection.executemany(
             "INSERT OR REPLACE INTO embeddings(text_hash, dimension, vector) VALUES (?, ?, ?)",

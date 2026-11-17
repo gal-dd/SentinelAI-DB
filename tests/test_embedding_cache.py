@@ -1,5 +1,6 @@
 """Local SQLite per-text embedding cache tests (no ONNX model required)."""
 import os
+from contextlib import closing
 from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
@@ -33,6 +34,33 @@ class VectorCacheTests(unittest.TestCase):
 
     def test_key_is_sensitive_to_text_content(self):
         self.assertNotEqual(text_key("passage: א"), text_key("passage: ב"))
+
+    def test_nonfinite_batch_is_rejected_before_any_write(self):
+        with TemporaryDirectory() as tmp, closing(VectorCache(Path(tmp) / "vectors.sqlite3")) as cache:
+            key = text_key("Town library hours")
+            original = np.array([0.6, 0.8], dtype=np.float32)
+            cache.put_many([(key, original)])
+            for value in (np.nan, np.inf, -np.inf):
+                with self.subTest(value=value):
+                    with self.assertRaisesRegex(ValueError, "finite"):
+                        cache.put_many([
+                            (key, np.array([1.0, 0.0], dtype=np.float32)),
+                            (text_key("City park opening"), np.array([value, 1.0], dtype=np.float32)),
+                        ])
+                    np.testing.assert_array_equal(cache.get_many([key])[key], original)
+                    self.assertEqual(cache.get_many([text_key("City park opening")]), {})
+
+    def test_nonfinite_persisted_vectors_are_rejected_on_read(self):
+        with TemporaryDirectory() as tmp, closing(VectorCache(Path(tmp) / "vectors.sqlite3")) as cache:
+            key = text_key("Community library notice")
+            cache.put_many([(key, np.array([0.6, 0.8], dtype=np.float32))])
+            for value in (np.nan, np.inf, -np.inf):
+                with self.subTest(value=value):
+                    raw = np.array([value, 1.0], dtype=np.float32).tobytes()
+                    cache.connection.execute("UPDATE embeddings SET vector = ?", (raw,))
+                    cache.connection.commit()
+                    with self.assertRaisesRegex(ValueError, "finite"):
+                        cache.get_many([key])
 
 
 @unittest.skipUnless(os.environ.get("SENTINEL_E5_MODEL_DIR"), "Pinned model assets not configured")
