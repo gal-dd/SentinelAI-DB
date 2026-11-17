@@ -18,10 +18,14 @@ Example:
 ```bash
 python -m sentinel_dataset.preflight drafts/chat/batch-0007/candidates.jsonl \
   --reference drafts/chat/batch-0006/candidates.jsonl \
+  --reference .poc-local/active-v2-approved.jsonl \
+  --progress .poc-local/latest-progress.json \
+  --scenarios .poc-local/latest-scenarios.json \
+  --batch 7 \
   --output .poc-local/preflight-0007.json
 ```
 
-The default quota check uses live `progress.json`. Run `--skip-live-quotas` only to inspect an older candidate batch independently, never to approve production. Reference files accept both candidate `text` and published `אובייקט` field shapes. The preflight does **not** replace semantic E5 screening or independent judgment. Its current fast lexical checks cover exact matches and repeated complete sentences/paragraphs; deep paraphrases can evade them.
+The default quota check reads the checkout’s `progress.json`. Pass a verified production snapshot explicitly when running from the Producer branch. For a later batch, `--batch` projects quotas assuming each preceding batch meets its plan. Recalculate the actual next quota after those batches are accepted. Use `--skip-live-quotas` for exploratory inspection only. Reference files accept both candidate `text` and published `אובייקט` field shapes. The preflight does **not** replace semantic E5 screening or independent judgment. Its current fast lexical checks cover exact matches and repeated complete sentences/paragraphs; deep paraphrases can evade them.
 
 ## Efficiency metrics to record
 
@@ -34,10 +38,10 @@ If many records repeat the same facts or fail blind labeling, stop individual Wo
 ## Efficient local similarity workflow
 
 The revised `sentinel_dataset.semantic.embeddings` uses a local SQLite cache at
-`.poc-local/embeddings/<model-and-tokenizer-digest>/per-text.sqlite3`.
+`.poc-local/embeddings/<inference-namespace-digest>/per-text.sqlite3`.
 The cache key is the SHA-256 of the **exact prefixed input text** (including
 `passage: `). Changing a single record recomputes its vector but reuses all
-unmodified vectors. Model artifact changes create a different cache namespace.
+unmodified vectors. The namespace includes artifact digests, the inference recipe and library versions. INT8 inference runs one input at a time so the cached vector is independent of neighboring examples. The semantic report records cached input occurrences and newly computed unique vectors. Use `SENTINEL_E5_MODEL_DIR` to run the optional native model regression test with local assets.
 Do not commit the cache DB to Git.
 
 After the existing repository `prepare` command writes a review packet,
@@ -49,7 +53,7 @@ python -m sentinel_dataset.alert_triage .poc-local/packet.json \
 ```
 
 The grouping report preserves original `alert_ids` and highlights high-risk
-pairs under the final-scan thresholds as a navigation aid. The checkpoint
+pairs from the packet’s `review_alerts` as a navigation aid. The checkpoint
 reviewer must still enforce the actual `review` and `checkpoint` policy
 and record every mandatory pair decision.
 
@@ -57,5 +61,4 @@ and record every mandatory pair decision.
 `progress.json`. For production intake quotas, obtain a fresh copy of
 `poc/defense-focused-v2` progress, pass it explicitly via
 `--progress .poc-local/latest-progress.json`, and verify it again at
-publication. A preflight based on the Producer branch's older progress is
-not production approval.
+publication. Pass the matching active production catalogue through `--scenarios` when the branches differ. A projected snapshot is producer QA only.

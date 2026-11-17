@@ -64,6 +64,21 @@ class PreflightTests(unittest.TestCase):
         sentence = "הוועדה תיעדה את החלטתה במסמך חתום והעבירה אותו לביקורת חיצונית לטובת בדיקה נוספת."
         self.assertEqual(len(_sentences(sentence)), 1)
 
+    def test_invalid_mapping_fields_are_reported(self):
+        report = analyze([candidate("טקסט", label={})], scenarios={}, sources={})
+        self.assertEqual(report["errors"][0]["code"], "schema_or_document")
+
+    def test_named_references_do_not_silently_truncate(self):
+        with self.assertRaises(ValueError):
+            analyze([], references=[[], []], reference_names=["first"], scenarios={}, sources={})
+
+    def test_reused_sentence_in_reference(self):
+        reused = "הוועדה תיעדה את החלטתה במסמך חתום והעבירה אותו לביקורת חיצונית לטובת בדיקה נוספת."
+        report = self.scan([candidate("כותרת מזכר\n" + reused + " המפגש תם.")],
+                           references=[[{"אובייקט": reused + " חברי הוועדה יצאו."}]])
+        self.assertTrue(any(x["code"] == "repeated_sentence_reference"
+                            for x in report["warnings"]))
+
 
 if __name__ == "__main__":
     unittest.main()

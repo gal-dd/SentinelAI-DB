@@ -9,13 +9,16 @@ MODEL = "Xenova/multilingual-e5-small"
 REVISION = "761b726dd34fb83930e26aab4e9ac3899aa1fa78"
 THRESHOLD = 0.92
 NEIGHBORS = 12
+CACHE_RECIPE = "int8-cpu-single-input-mean-l2-f32-v1"
 
 
-def embeddings(rows, model_dir, cache_dir):
+def embeddings(rows, model_dir, cache_dir, cache_metrics=None):
     """Compute only missing exact-text vectors; persist per model-artifact revision."""
     import numpy as np
     import onnxruntime as ort
-    from tokenizers import Tokenizer
+    from tokenizers import Tokenizer, __version__ as tokenizer_version
+
+    ort.disable_telemetry_events()
 
     from .embedding_cache import VectorCache, text_key
 
@@ -29,15 +32,20 @@ def embeddings(rows, model_dir, cache_dir):
             for chunk in iter(lambda: stream.read(1024 * 1024), b""):
                 hasher.update(chunk)
         hashes[path.name] = hasher.hexdigest()
-    cache = Path(cache_dir) / digest(hashes)
+    namespace = {
+        "artifacts": hashes,
+        "recipe": CACHE_RECIPE,
+        "onnxruntime": ort.__version__,
+        "tokenizers": tokenizer_version,
+        "numpy": np.__version__,
+    }
+    cache = Path(cache_dir) / digest(namespace)
     cache.mkdir(parents=True, exist_ok=True)
     options = ort.SessionOptions()
     options.intra_op_num_threads = 2
     options.inter_op_num_threads = 1
-    tokenizer = Tokenizer.from_file(str(tokenizer_path))
-    tokenizer.enable_truncation(max_length=512)
-    tokenizer.enable_padding(pad_id=1, pad_token="<pad>")
-    session = None
+    session = tokenizer = None
+    hits = computed = 0
     vectors = []
     database = VectorCache(cache / "per-text.sqlite3")
     try:
@@ -45,30 +53,39 @@ def embeddings(rows, model_dir, cache_dir):
             texts = ["passage: " + row["text"] for row in rows[start:start + 32]]
             keys = [text_key(text) for text in texts]
             found = database.get_many(keys)
-            missing = [(key, text) for key, text in zip(keys, texts) if key not in found]
-            # Eliminate duplicate text within the same batch, too.
-            distinct = list({key: text for key, text in missing}.items())
-            if distinct:
-                if session is None:
-                    session = ort.InferenceSession(str(model_path), sess_options=options,
-                                                   providers=["CPUExecutionProvider"])
-                encodings = tokenizer.encode_batch([text for _, text in distinct])
+            hits += sum(key in found for key in keys)
+            missing = {key: text for key, text in zip(keys, texts) if key not in found}
+            if missing and session is None:
+                tokenizer = Tokenizer.from_file(str(tokenizer_path))
+                tokenizer.enable_truncation(max_length=512)
+                session = ort.InferenceSession(str(model_path), sess_options=options,
+                                               providers=["CPUExecutionProvider"])
+                input_names = [item.name for item in session.get_inputs()]
+            entries = []
+            for key, text in missing.items():
+                # Dynamic INT8 activation quantization depends on neighboring batch
+                # members. A single input makes a cached vector independent of them.
+                encoding = tokenizer.encode(text)
                 arrays = {
-                    "input_ids": np.array([e.ids for e in encodings], dtype=np.int64),
-                    "attention_mask": np.array([e.attention_mask for e in encodings], dtype=np.int64),
-                    "token_type_ids": np.array([e.type_ids for e in encodings], dtype=np.int64),
+                    "input_ids": [encoding.ids],
+                    "attention_mask": [encoding.attention_mask],
+                    "token_type_ids": [encoding.type_ids],
                 }
-                inputs = {item.name: arrays[item.name] for item in session.get_inputs()}
+                inputs = {name: np.asarray(arrays[name], dtype=np.int64) for name in input_names}
                 hidden = session.run(["last_hidden_state"], inputs)[0]
-                mask = arrays["attention_mask"][..., None].astype(np.float32)
+                mask = inputs["attention_mask"][..., None].astype(np.float32)
                 mean = (hidden * mask).sum(axis=1) / mask.sum(axis=1)
-                fresh = (mean / np.linalg.norm(mean, axis=1, keepdims=True)).astype(np.float32)
-                entries = list(zip([key for key, _ in distinct], fresh))
+                vector = (mean / np.linalg.norm(mean, axis=1, keepdims=True))[0].astype(np.float32)
+                entries.append((key, vector))
+            if entries:
                 database.put_many(entries)
                 found.update(entries)
+                computed += len(entries)
             vectors.append(np.stack([found[key] for key in keys]))
     finally:
         database.close()
+    if cache_metrics is not None:
+        cache_metrics.update(recipe=CACHE_RECIPE, cached_input_occurrences=hits, computed_unique_vectors=computed)
     if not vectors:
         return np.empty((0, 0), dtype=np.float32), hashes
     return np.concatenate(vectors), hashes
@@ -77,12 +94,16 @@ def embeddings(rows, model_dir, cache_dir):
 def semantic_scan(prior, rows, model_dir, cache_dir):
     import numpy as np
 
-    vectors, hashes = embeddings([*prior, *rows], model_dir, cache_dir)
+    cache_metrics = {}
+    vectors, hashes = embeddings([*prior, *rows], model_dir, cache_dir, cache_metrics)
     size = len(vectors)
     new = len(prior)
     all_rows = [*prior, *rows]
     k = min(NEIGHBORS + 1, size)
-    if size <= 3000:
+    if not size:
+        indices = values = []
+        method = "exact_cosine_top_k"
+    elif size <= 3000:
         scores = vectors[new:] @ vectors.T
         indices = np.argsort(-scores, axis=1, kind="stable")[:, :k]
         values = np.take_along_axis(scores, indices, axis=1)
@@ -108,9 +129,10 @@ def semantic_scan(prior, rows, model_dir, cache_dir):
         "model": MODEL,
         "reference_revision": REVISION,
         "artifact_sha256": hashes,
+        "embedding_cache": cache_metrics,
         "search": method,
         "cosine_threshold": THRESHOLD,
-        "neighbors_per_record": k - 1,
+        "neighbors_per_record": max(0, k - 1),
         "indexed_records": size,
         "scanned_records": len(rows),
         "candidate_pairs": len(alerts),

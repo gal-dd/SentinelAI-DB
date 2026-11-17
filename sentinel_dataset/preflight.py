@@ -14,13 +14,13 @@ from pathlib import Path
 import re
 
 from . import checkpoints as cp
-from .core import PLAN, ROOT, normalize, read_json, read_jsonl, validate_row, word_count
+from .core import PLAN, ROOT, normalize, read_json, read_jsonl, scenario_catalog, validate_row
 from .domains import BATCH_TARGETS
-from .production import validate_document_form
+from .production import TARGET_TOTAL, add_counts, plan_lengths, validate_document_form
 
 MIN_PARAGRAPH_WORDS = 12
 MIN_REPEATED_SENTENCE_WORDS = 10
-HEBREW_SENTENCE_BOUNDARY = re.compile(r"(?<=[.!?])\s+")
+HEBREW_SENTENCE_BOUNDARY = re.compile(r"(?<=[.!?…׃])\s+|\n+")
 MAX_REPEATED_ROW_SHARE = 0.20  # Gate for widespread reused substantive prose
 
 
@@ -35,28 +35,33 @@ def _blocks(text):
 
 
 def _sentences(text):
-    return [normalize(sentence) for sentence in HEBREW_SENTENCE_BOUNDARY.split(text.replace("\n", " "))
+    return [normalize(sentence) for sentence in HEBREW_SENTENCE_BOUNDARY.split(text)
             if len(normalize(sentence).split()) >= MIN_REPEATED_SENTENCE_WORDS]
 
 
-def _token_set(text):
-    return set(normalize(text).split())
-
-
-def _jaccard(a, b):
-    common = len(a & b)
-    return common / (len(a) + len(b) - common) if a or b else 1.0
-
-
-def _quota_from_state(state):
-    return state["length_plan"]["next_checkpoint_label_lengths"]
+def _quota_from_state(state, batch=None):
+    plan = state["length_plan"]
+    next_batch = state["last_checkpoint"] + 1
+    if batch is None or batch == next_batch:
+        return plan["next_checkpoint_label_lengths"]
+    if not next_batch < batch <= TARGET_TOTAL // PLAN["checkpoint_size"]:
+        raise ValueError("Batch must be an upcoming checkpoint within the production target")
+    for _ in range(next_batch, batch):
+        accepted = add_counts(plan["accepted_label_lengths"], plan["next_checkpoint_label_lengths"])
+        plan = plan_lengths(accepted)
+    return plan["next_checkpoint_label_lengths"]
 
 
 def analyze(rows, references=(), reference_names=(), expected_lengths=None, scenarios=None, sources=None):
     """Return a stable, finite QA report with 1-based candidate positions."""
     if scenarios is None or sources is None:
-        from .core import scenario_catalog
         scenarios, sources = scenario_catalog()
+    references = tuple(references)
+    reference_names = tuple(reference_names)
+    if reference_names and len(reference_names) != len(references):
+        raise ValueError("Expected one name per reference")
+    if not reference_names:
+        reference_names = tuple(f"reference-{i}" for i in range(1, len(references) + 1))
     errors = []
     warnings = []
     length_counts = defaultdict(Counter)
@@ -73,12 +78,13 @@ def analyze(rows, references=(), reference_names=(), expected_lengths=None, scen
             validate_document_form(row)
         except (ValueError, KeyError, TypeError) as exc:
             errors.append({"row": pos, "code": "schema_or_document", "detail": str(exc)})
+            continue
         length_counts[row.get("label", "?")][row.get("length", "?")] += 1
         domains[row.get("primary_domain", "?")] += 1
         key = normalize(text)
         text_index[key].append(pos)
         for kind, chunks in (("paragraph", _blocks(text)), ("sentence", _sentences(text))):
-            for chunk in set(chunks):
+            for chunk in sorted(set(chunks)):
                 phrase_index[(kind, chunk)].append(pos)
         if re.search(r"(?:רכזת|עורכת|מנהלת|מזכירת|אחראית)\s+[^.:\n]{0,35}\s+ציין(?:\s|$)", text):
             warnings.append({"row": pos, "code": "possible_gender_agreement"})
@@ -120,19 +126,20 @@ def analyze(rows, references=(), reference_names=(), expected_lengths=None, scen
                 continue
             ref_count += 1
             prior_exact[normalize(text)].append({"file": name, "row": pos})
-            for block in set(_blocks(text)):
-                prior_phrase[block].append({"file": name, "row": pos})
+            for kind, chunks in (("paragraph", _blocks(text)), ("sentence", _sentences(text))):
+                for chunk in set(chunks):
+                    prior_phrase[kind, chunk].append({"file": name, "row": pos})
     for key, positions in text_index.items():
         if key in prior_exact:
             for pos in positions:
                 errors.append({"code": "exact_duplicate_reference", "row": pos,
                                "matches": prior_exact[key][:10], "match_count": len(prior_exact[key])})
     for (kind, chunk), positions in phrase_index.items():
-        if kind == "paragraph" and chunk in prior_phrase:
-            warnings.append({"code": "repeated_paragraph_reference",
+        if (kind, chunk) in prior_phrase:
+            warnings.append({"code": f"repeated_{kind}_reference",
                              "rows": sorted(set(positions)), "digest": _digest(chunk),
-                             "matches": prior_phrase[chunk][:10],
-                             "match_count": len(prior_phrase[chunk])})
+                             "matches": prior_phrase[kind, chunk][:10],
+                             "match_count": len(prior_phrase[kind, chunk])})
 
     # Deterministic groups for editorial review. No claim of semantic deduplication.
     groups = [w for w in warnings if w["code"].startswith("repeated_")]
@@ -166,17 +173,36 @@ def main(argv=None):
     parser.add_argument("--reference", type=Path, action="append", default=[])
     parser.add_argument("--progress", type=Path, default=ROOT / "progress.json")
     parser.add_argument("--output", type=Path, required=True)
-    parser.add_argument("--skip-live-quotas", action="store_true",
+    parser.add_argument("--scenarios", type=Path, help="Use a verified active v2 scenario catalogue.")
+    quotas = parser.add_mutually_exclusive_group()
+    quotas.add_argument("--batch", type=int,
+                        help="Project length quotas from --progress for an upcoming batch.")
+    quotas.add_argument("--skip-live-quotas", action="store_true",
                         help="For draft inspection only, not final intake.")
     args = parser.parse_args(argv)
-    for path in [args.candidates, *args.reference, args.progress, args.output]:
+    for path in [args.candidates, *args.reference, args.progress, args.output, args.scenarios]:
+        if path is None:
+            continue
         cp.active_path(path)
     rows = read_jsonl(args.candidates)
     reference_rows = [read_jsonl(path) for path in args.reference]
-    expected = None if args.skip_live_quotas else _quota_from_state(read_json(args.progress))
+    state = None if args.skip_live_quotas else read_json(args.progress)
+    try:
+        expected = None if state is None else _quota_from_state(state, args.batch)
+    except ValueError as exc:
+        parser.error(str(exc))
+    scenarios, sources = scenario_catalog()
+    if args.scenarios is not None:
+        scenarios = read_json(args.scenarios)
     report = analyze(rows, references=reference_rows,
                      reference_names=[str(p) for p in args.reference],
-                     expected_lengths=expected)
+                     expected_lengths=expected, scenarios=scenarios, sources=sources)
+    report["quota_basis"] = {
+        "reference_checkpoint": None if state is None else state["last_checkpoint"],
+        "batch": None if state is None else args.batch or state["last_checkpoint"] + 1,
+        "mode": ("skipped" if state is None else "projected"
+                 if args.batch and args.batch > state["last_checkpoint"] + 1 else "next_checkpoint"),
+    }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n",
                            encoding="utf-8")

@@ -14,6 +14,9 @@
 
 ## Quality-first production
 
+- Close the remediation queues in existing batches before creating a later batch. Keep corrected records and their evidence in the owner draft.
+- Before expanding a cohort, vary the actor, what happened, the concrete consequence and the document format. After each cohort, inspect full repeated sentences and paragraph groups against earlier cohorts. If a group shares a decisive fact, replace that fact with a genuinely different scenario-supported event.
+
 - Create actual distinct fictional facts, scenarios, document types and consequences; not one template repeated with different nouns.
 - Every record must carry sufficient evidence to justify its label. Security jargon alone never establishes sensitivity.
 - The topic must substantially match `primary_domain`; missile mention alone is insufficient.
@@ -26,6 +29,6 @@
 
 Run `python -m sentinel_dataset.preflight` for the draft with references to the active v2 draft files and available approved v2 production content. Never use archived v1 data.
 
-Resolve blocking errors; review repeated-paragraph and repeated-sentence groups. Run E5 when the local model is available, and preserve unresolved semantic alerts for Work. No claim of semantic QA if it was not executed.
+Use the current production progress and scenario catalogue explicitly when the Producer branch lags. Future length plans are projections. Resolve blocking errors and review each repeated-paragraph or repeated-sentence group. Run E5 when the local model is available, and preserve unresolved semantic alerts for Work. No claim of semantic QA if it was not executed.
 
-Save candidates, a truthful QA report, and status under `drafts/chat/batch-NNNN/`; mark `ready_for_work_intake` only when technical preflight is complete and its remaining review requirements are documented. Report commit SHA and remaining work.
+Save candidates, a truthful QA report, and status under `drafts/chat/batch-NNNN/`; mark `ready_for_work_intake` only when technical preflight passes, known editorial defects are resolved, and the remaining independent review requirements are documented. Report commit SHA and remaining work.

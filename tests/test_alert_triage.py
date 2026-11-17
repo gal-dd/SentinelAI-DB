@@ -31,6 +31,13 @@ class AlertTriageTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             group_alerts([{"id": "a", "records": ["one"]}])
 
+    def test_packet_required_alert_ids_are_authoritative(self):
+        alerts = [{"id": "a", "records": ["x", "y"], "score": 0.99, "method": "semantic"}]
+        self.assertEqual(group_alerts(alerts, [])["mandatory_alert_count"], 0)
+        self.assertEqual(group_alerts(alerts, ["a"])["mandatory_alert_count"], 1)
+        with self.assertRaises(ValueError):
+            group_alerts(alerts, ["missing"])
+
 
 if __name__ == "__main__":
     unittest.main()
