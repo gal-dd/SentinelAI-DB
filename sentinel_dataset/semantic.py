@@ -8,6 +8,7 @@ from .core import alert, digest
 
 MODEL = "Xenova/multilingual-e5-small"
 REVISION = "761b726dd34fb83930e26aab4e9ac3899aa1fa78"
+EMBEDDING_DIMENSION = 384
 THRESHOLD = 0.92
 NEIGHBORS = 12
 
@@ -41,7 +42,13 @@ def embeddings(rows, model_dir, cache_dir):
         texts = ["passage: " + row["text"] for row in rows[start:start + 32]]
         path = cache / f"{digest(texts)}.npy"
         if path.exists():
-            results.append(np.load(path, allow_pickle=False))
+            cached = np.load(path, allow_pickle=False)
+            if (not isinstance(cached, np.ndarray)
+                    or cached.shape != (len(texts), EMBEDDING_DIMENSION)
+                    or cached.dtype != np.float32
+                    or not np.isfinite(cached).all()):
+                raise ValueError(f"Invalid embedding cache array: {path}")
+            results.append(cached)
             continue
         if session is None:
             session = ort.InferenceSession(str(model_path), sess_options=options,
