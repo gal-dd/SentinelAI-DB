@@ -1,0 +1,377 @@
+{
+  "date": "2026-11-19",
+  "cycle": 1,
+  "new_records": 100,
+  "origin": "synthetic",
+  "metrics": {
+    "records": 100,
+    "label_lengths": {
+      "נמוך": [
+        2,
+        15,
+        6,
+        2
+      ],
+      "בינוני": [
+        2,
+        15,
+        6,
+        2
+      ],
+      "גבוה": [
+        2,
+        15,
+        6,
+        2
+      ],
+      "חמור": [
+        1,
+        16,
+        6,
+        2
+      ]
+    },
+    "labels": {
+      "נמוך": 25,
+      "בינוני": 25,
+      "גבוה": 25,
+      "חמור": 25
+    },
+    "lengths": {
+      "short": 7,
+      "sentence": 61,
+      "paragraph": 24,
+      "long": 8
+    },
+    "origins": {
+      "synthetic": 100
+    },
+    "styles": {
+      "notice": 7,
+      "work-note": 85,
+      "narrative": 8
+    },
+    "scenario_count": 100,
+    "source_group_count": 100,
+    "edge_cases": 0,
+    "counterfactual_pairs": 0,
+    "records_with_latin": 0
+  },
+  "candidate_sha256": "6d140dbcb7ca91f22b00802a841a393137616a22de262e545a8507779f8a7534",
+  "base_producer_commit": "1c3dda050aa8aef5b0efae3622780d0d2aebbd7e",
+  "schema_validation": "passed",
+  "document_form_validation": "passed",
+  "normalized_exact_duplicates": 0,
+  "lexical_alerts": [],
+  "repeated_substantial_sentences": [],
+  "semantic": {
+    "status": "completed",
+    "model": "Xenova/multilingual-e5-small",
+    "reference_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+    "artifact_sha256": {
+      "model_int8.onnx": "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c",
+      "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+    },
+    "search": "exact_cosine_top_k",
+    "cosine_threshold": 0.92,
+    "neighbors_per_record": 12,
+    "indexed_records": 257,
+    "scanned_records": 100,
+    "candidate_pairs": 25
+  },
+  "semantic_alerts": [
+    {
+      "id": "030f68a74351f22c888f83948e5c5a6f678281f9bef34d5ac22234ca1f1d0e01",
+      "records": [
+        "0f34ee9cd97befbaad2b416d247de233d36991f51e85c581230b894d781e8cc4",
+        "e9232f68ba297e4a87f95b303b405fc9e31b4c53554c7dd303ee64b3301f8a20"
+      ],
+      "method": "semantic",
+      "score": 0.93599,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "046e674fc79425ab56dd67fdf335aa607cad5eb0ceb63e180895c3b6d684d229",
+      "records": [
+        "55c44b5bc60eefbd2a42d1910f76d71cf6fd8dc279694a9c92bd6e93d3fbf131",
+        "cbbba57ba06ab1fea64cccdfc7b252f51f481bc4d27da6a7fa3d39fe3970b3aa"
+      ],
+      "method": "semantic",
+      "score": 0.92272,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "0bf747f704d44138f6e2bb39b761761bbb05a2b02b3ace40a62bd0f227b8dd5b",
+      "records": [
+        "103749284c2a8d6d27e2710d25ba0510267e87232065dfc16008c79aa2d39c05",
+        "86be9ffc3967b9bbb7d310377aeac349f43574cae1052a60a8c7c7b26b9579c8"
+      ],
+      "method": "semantic",
+      "score": 0.94372,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "15d04636949cb3170e432003400f304284225aa9354b787b522b0dbf973657ce",
+      "records": [
+        "c5fb4282e61d873ca23d221ee4f882173c2e55a3880ddd1b352968c711d4813a",
+        "f108bc94ef3cf32244347cadbfe03decbade945d0b00114e4a51b3dc1b307338"
+      ],
+      "method": "semantic",
+      "score": 0.92026,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "1ad3b20ec9f5bd11d191037a12ffbdccc319723143d1d2517b784767fd4b0a57",
+      "records": [
+        "2937c317c8ee3ef77202905c4e160746b00edfd846d920bac0131445e6b763c8",
+        "6cbe2b1f11a4bf892829969d13f43a73addc39e2e29d71b6104deb9697294934"
+      ],
+      "method": "semantic",
+      "score": 0.93122,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "33809773be664fa37328fb23d4958d4e216a323f1980032a249f8e04edad6cff",
+      "records": [
+        "751abdb928343f453a93514165848f0c6f8674f03f22d5abfacf62aa92d2fbf0",
+        "bb0258cba5bbe85b0f7a1769796ed9cd8c6e76d7b2ec80004848917d9fd52597"
+      ],
+      "method": "semantic",
+      "score": 0.95794,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "3ef60cb2c56b3c27bdec12b9c42dd9d7a11aa50e6755deecb4dd7ac25002e264",
+      "records": [
+        "1b1092fcb19f717f340a603a8947171da7bd6e318458031957879f5e6f89e978",
+        "857043df11cc3cf92497d4813ef55a4144b79a86289497e6b214b164b267108a"
+      ],
+      "method": "semantic",
+      "score": 0.92894,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "42777294118e143284abe6dd12259b5df8f85a4d956d6edb74069995c170a4f0",
+      "records": [
+        "93993969458e8ad7c85b10f2f6f14ef2afee26f298349abdc64ea8ce6dc5dd2c",
+        "f108bc94ef3cf32244347cadbfe03decbade945d0b00114e4a51b3dc1b307338"
+      ],
+      "method": "semantic",
+      "score": 0.92061,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "63912a19055ddedb216fd394b88fd6b308f18e296a504cc1cd70f8626ba9079a",
+      "records": [
+        "14e4835dd3048ccba20968db31f817576aa115457500fe19ed7a8738d0ad9df6",
+        "2937c317c8ee3ef77202905c4e160746b00edfd846d920bac0131445e6b763c8"
+      ],
+      "method": "semantic",
+      "score": 0.9276,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "6ca1b44cb89c18dee07807a47d8d1279ab60cd4259819637d410cbd8e1072c56",
+      "records": [
+        "2937c317c8ee3ef77202905c4e160746b00edfd846d920bac0131445e6b763c8",
+        "f2a8cc26dafdf08e82b70732e3a159db25da8e18125b6a52a4bf74b77ce47b55"
+      ],
+      "method": "semantic",
+      "score": 0.92934,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "7690046a705a578cf857a00c1082eb038e1a63c9945136988f7e4c96bf9319ff",
+      "records": [
+        "42ccbcd3dd8accd8ae50a9d795e123b49f18771d2a49d9f9d7ff1eed17aec27d",
+        "678dd2a3c43d903e29cca8b0752648bf833e1b3454169304f7db2a7b2787c356"
+      ],
+      "method": "semantic",
+      "score": 0.95829,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "7d02071b071fb0735bd7b89bab0f3d82a15e8fe47ef6b574b2f76fadd381eae7",
+      "records": [
+        "1b1092fcb19f717f340a603a8947171da7bd6e318458031957879f5e6f89e978",
+        "5af05542d63e0d89bf1c6692bd9e548e5b7101539aa8f5ee6b90193b0f461df1"
+      ],
+      "method": "semantic",
+      "score": 0.92247,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "8814ea0c66e9dda46af1469cfb2dad203e3c6d5568952ca3fb2592b49628b80e",
+      "records": [
+        "00d7df8996fa94420fdcc65483f1011a882b151b67b17ff2f7743a2cbf227bd7",
+        "9c8c37ac146eb9944c6cae23af2af2cfbbc131c2f68fbc5e5c71a74d7e0d8c17"
+      ],
+      "method": "semantic",
+      "score": 0.93327,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "892808fcfa6e0e9cb5757d5aa53188227d3193cca39475189dfd5a3e1444ccef",
+      "records": [
+        "862eff65bfe18f234d090017c46925cf8d79be29eb8c438096014ee7c43d4230",
+        "a6996a391afb58e41f1bf509088a3c26fe6ffd00c7cf7b18548fddea55e7e035"
+      ],
+      "method": "semantic",
+      "score": 0.93238,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "97aea0ab2e4ce8d62dfff0c2fcae518c404f2bfadbae14dd72a0cb57d5bd53df",
+      "records": [
+        "3b81e10ff4fa20b9af902052b5c368dc95d96714f4c0d37f83e9abfcb45541e5",
+        "678dd2a3c43d903e29cca8b0752648bf833e1b3454169304f7db2a7b2787c356"
+      ],
+      "method": "semantic",
+      "score": 0.92464,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "b85415a41623f3b365946968250110c50ecdb4f48bb61f541d0fdcfcf3651c91",
+      "records": [
+        "92ff61ffcc7df832b44e3f792a8c3d3cec127430efc08e341d4f52035f3804a1",
+        "bde30383bd9153d77d21dcaa55fc655d0becb7a8cef1c098395a8caffef66df6"
+      ],
+      "method": "semantic",
+      "score": 0.92013,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "b9562c172c32a7fd6b310e711c92626f3fff4428bda5efb2bb7297f0c9c82083",
+      "records": [
+        "9709e6d375b576437048b3de3291c95103c689298feac603d7137c8baf08f08c",
+        "d72355b347e8fa88bfadede7f866a43d50e75df998fc5c16134490750554f94a"
+      ],
+      "method": "semantic",
+      "score": 0.92653,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "bf3327211e4cdea391e203fc9d162222ae56019cade13c6bb001b713de950ec3",
+      "records": [
+        "cb36a52a5fa1c59fcaad54652b047b25d0e194740a207179aac4fd8e93b813bd",
+        "e9232f68ba297e4a87f95b303b405fc9e31b4c53554c7dd303ee64b3301f8a20"
+      ],
+      "method": "semantic",
+      "score": 0.93251,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "c0e80bad426d5fe44aed9afcaa1af8c3108a397c3ed32977c2a35091c318110e",
+      "records": [
+        "482f3d50e8822e1b51768bd2dcbbb03976abe502214ae2cfdbccab24e3572571",
+        "678dd2a3c43d903e29cca8b0752648bf833e1b3454169304f7db2a7b2787c356"
+      ],
+      "method": "semantic",
+      "score": 0.92959,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "c823f091caa6554dedfebcc155b4023a95474fabbb4908ff346e638954ce87cf",
+      "records": [
+        "18c3b8e6f5df884e0551a00ca80594233dc62abaea77a6128d74d6f0b0373990",
+        "a544b99d24887fd024426262c4d30500336c57e2686b7c82439373456306a3ab"
+      ],
+      "method": "semantic",
+      "score": 0.92273,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "c9beac27eb661201f6f1b6ec962cdf5d37cc8b7c818d5d1e2e43bda9ec59bf23",
+      "records": [
+        "6eb34c8fb2c4b91877c920ded2491436c45dddfbebd4782e0fb61e522e9582a3",
+        "f108bc94ef3cf32244347cadbfe03decbade945d0b00114e4a51b3dc1b307338"
+      ],
+      "method": "semantic",
+      "score": 0.92738,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "cd7086d423c2f65c75c952fd471926d71ae794d8ac6e797a9d98d706964f1327",
+      "records": [
+        "3f132ce81d31fa76b11dda19eb03b091768f9d622094cf3749a14cd68612eb47",
+        "92ff61ffcc7df832b44e3f792a8c3d3cec127430efc08e341d4f52035f3804a1"
+      ],
+      "method": "semantic",
+      "score": 0.95417,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "e6fa8472416a0b606d9878247934f7997a771aabddc85f909aa8630f60cc9b2e",
+      "records": [
+        "0eb3ed57add701a9ce0a21d573e08ccf756be3b7c603063c72498275e44e8e63",
+        "6816134e33b216e3e5eb8cad17a32dd03a0f930ff5e0f73b67fddd6de58d6fa9"
+      ],
+      "method": "semantic",
+      "score": 0.92652,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "e9d9ddac62b2f55327ceb9eb7456f4ea3d3e172111bed9445fbe630f0883ce7a",
+      "records": [
+        "3b81e10ff4fa20b9af902052b5c368dc95d96714f4c0d37f83e9abfcb45541e5",
+        "6816134e33b216e3e5eb8cad17a32dd03a0f930ff5e0f73b67fddd6de58d6fa9"
+      ],
+      "method": "semantic",
+      "score": 0.92442,
+      "different_labels": false,
+      "intentional_pair": false
+    },
+    {
+      "id": "f23d5ad86af6c4b93d2412b62c1924b801380563e72a08903e703057e7f1ef66",
+      "records": [
+        "88ad987798c9b8a551abde6958551844fc3abbf427764c90aef01a06a32a1221",
+        "9a8f1bdcf34fc1fb974074bb796908bb4856705202798449e8ebad436a5a9119"
+      ],
+      "method": "semantic",
+      "score": 0.9434,
+      "different_labels": false,
+      "intentional_pair": false
+    }
+  ],
+  "mandatory_review_alerts": [],
+  "semantic_scope": "157 references: 60 prior standalone + 97 unheld public Work 0006 + earlier new cycles; excludes held records and production 0001–0005.",
+  "author_review": "Texts authored and read by the assistant; labels proposed using policy v0.1.0. No independent/blind human or model review claimed.",
+  "publication_approved": false,
+  "production_ids_assigned": false,
+  "pending": [
+    "Independent label and domain review",
+    "Disposition of mandatory semantic pairs",
+    "Production policy and quotas: separate civilian draft is not a defense-v2 checkpoint"
+  ],
+  "held_rows_or_decisions_modified": 0,
+  "infrastructure_modified": false,
+  "not_run": [
+    "Unit/infrastructure suites",
+    "production scan",
+    "prepare/checkpoint"
+  ],
+  "runtime": "Existing Python 3.12 and pre-existing ONNX/tokenizers/numpy; no installs or model downloads."
+}
