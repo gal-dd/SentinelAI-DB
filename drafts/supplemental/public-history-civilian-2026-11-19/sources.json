@@ -1,0 +1,65 @@
+{
+  "goddard": {
+    "title": "95 Years Ago: Goddard’s First Liquid-Fueled Rocket",
+    "publisher": "NASA",
+    "url": "https://www.nasa.gov/history/95-years-ago-goddards-first-liquid-fueled-rocket/",
+    "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "license": "Original Hebrew paraphrase; no source text or images redistributed; no source license grant inferred.",
+    "source_group_id": "recovery-public-goddard",
+    "verified_on": "2026-11-19",
+    "verification": "Official publisher page retrieved by web search/open; claim-specific evidence in qa-report.json."
+  },
+  "explorer": {
+    "title": "Story of Explorer 1",
+    "publisher": "NASA",
+    "url": "https://www.nasa.gov/history/story-of-explorer-1/",
+    "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "license": "Original Hebrew paraphrase; no source text or images redistributed; no source license grant inferred.",
+    "source_group_id": "recovery-public-explorer",
+    "verified_on": "2026-11-19",
+    "verification": "Official publisher page retrieved by web search/open; claim-specific evidence in qa-report.json."
+  },
+  "nike": {
+    "title": "Nike Missile Site SF-88",
+    "publisher": "National Park Service",
+    "url": "https://www.nps.gov/places/000/nike-missile-site-sf-88.htm",
+    "terms_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+    "license": "Original Hebrew paraphrase; no source text or images redistributed; no source license grant inferred.",
+    "source_group_id": "recovery-public-nike",
+    "verified_on": "2026-11-19",
+    "verification": "Official publisher page retrieved by web search/open; claim-specific evidence in qa-report.json."
+  },
+  "v2": {
+    "title": "V-2 Missile",
+    "publisher": "Smithsonian National Air and Space Museum",
+    "url": "https://airandspace.si.edu/collection-objects/missile-surface-surface-v-2-4/nasm_A19600342000",
+    "terms_url": "https://www.si.edu/termsofuse",
+    "license": "Original Hebrew paraphrase; no source text or images redistributed; no source license grant inferred.",
+    "source_group_id": "recovery-public-v2",
+    "verified_on": "2026-11-19",
+    "verification": "Official publisher page retrieved by web search/open; claim-specific evidence in qa-report.json.",
+    "corroborating_urls": [
+      "https://airandspace.si.edu/stories/editorial/wonder-weapons-and-slave-labor"
+    ]
+  },
+  "mercury": {
+    "title": "Mercury-Redstone Launch Vehicle",
+    "publisher": "NASA",
+    "url": "https://www.nasa.gov/history/mercury-redstone-launch-vehicle/",
+    "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "license": "Original Hebrew paraphrase; no source text or images redistributed; no source license grant inferred.",
+    "source_group_id": "recovery-public-mercury",
+    "verified_on": "2026-11-19",
+    "verification": "Official publisher page retrieved by web search/open; claim-specific evidence in qa-report.json."
+  },
+  "sounding": {
+    "title": "Sounding Rockets",
+    "publisher": "NASA Science",
+    "url": "https://science.nasa.gov/heliophysics/programs/sounding-rockets/",
+    "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "license": "Original Hebrew paraphrase; no source text or images redistributed; no source license grant inferred.",
+    "source_group_id": "recovery-public-sounding",
+    "verified_on": "2026-11-19",
+    "verification": "Official publisher page retrieved by web search/open; claim-specific evidence in qa-report.json."
+  }
+}

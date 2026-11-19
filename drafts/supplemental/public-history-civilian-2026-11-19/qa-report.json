@@ -1,0 +1,321 @@
+{
+  "date": "2026-11-19",
+  "branch": "producer/chat-defense-v2",
+  "base_commit": "18ec58736c61d2fa3b79570af745f824fb580bff",
+  "status": "standalone_draft_not_approved_for_production",
+  "publication_approved": false,
+  "new_records": 60,
+  "factual_public_records": 12,
+  "synthetic_civilian_records": 48,
+  "production_ids_assigned": false,
+  "replaces_held_records": false,
+  "candidate_sha256": "da24c3dc3a8059a3b8b5cb56cf1e25b1d539f1daf9c1bacf70589b616238473e",
+  "metrics": {
+    "records": 60,
+    "label_lengths": {
+      "נמוך": [
+        1,
+        6,
+        5,
+        3
+      ],
+      "בינוני": [
+        1,
+        6,
+        5,
+        3
+      ],
+      "גבוה": [
+        1,
+        6,
+        5,
+        3
+      ],
+      "חמור": [
+        1,
+        6,
+        5,
+        3
+      ]
+    },
+    "labels": {
+      "נמוך": 15,
+      "בינוני": 15,
+      "גבוה": 15,
+      "חמור": 15
+    },
+    "lengths": {
+      "short": 4,
+      "sentence": 24,
+      "paragraph": 20,
+      "long": 12
+    },
+    "origins": {
+      "public_adapted": 12,
+      "synthetic": 48
+    },
+    "styles": {
+      "notice": 4,
+      "explainer": 1,
+      "catalog": 1,
+      "article": 2,
+      "timeline": 1,
+      "lesson": 1,
+      "archive-note": 2,
+      "historical-summary": 1,
+      "glossary": 1,
+      "historical-essay": 1,
+      "guide": 1,
+      "interview": 1,
+      "email": 2,
+      "log": 2,
+      "minutes": 2,
+      "memo": 1,
+      "qa": 1,
+      "task-note": 1,
+      "report": 1,
+      "handover": 1,
+      "procedure-note": 1,
+      "discussion": 1,
+      "work-summary": 1,
+      "decision": 1,
+      "finance-note": 1,
+      "audit-note": 1,
+      "contract-note": 1,
+      "research-summary": 1,
+      "permissions-report": 1,
+      "procurement": 1,
+      "meeting-record": 1,
+      "finance-review": 1,
+      "privacy-review": 1,
+      "appeal-decision": 1,
+      "project-risk": 1,
+      "internal-report": 1,
+      "contract-brief": 1,
+      "access-review": 1,
+      "privacy-finding": 1,
+      "dependency": 1,
+      "identity-review": 1,
+      "continuity": 1,
+      "linkage": 1,
+      "board-decision": 1,
+      "research-note": 1,
+      "systemic-review": 1,
+      "committee-note": 1,
+      "archive-report": 1,
+      "privacy-incident": 1,
+      "protected-record": 1,
+      "continuity-brief": 1,
+      "identity-appendix": 1
+    },
+    "scenario_count": 60,
+    "source_group_count": 54,
+    "edge_cases": 0,
+    "counterfactual_pairs": 0,
+    "records_with_latin": 0
+  },
+  "checks": {
+    "validate_row": {
+      "passed": 60
+    },
+    "validate_document_form": {
+      "passed": 60
+    },
+    "validate_rows": {
+      "passed": true,
+      "scope": "60 new rows only; separate in-memory scenario/source catalogs",
+      "alerts": []
+    },
+    "normalized_exact_duplicates": 0,
+    "repeated_substantial_sentences": [],
+    "semantic_scan": {
+      "scope": "60 supplemental rows against themselves and the 97 unheld public Work 0006 rows; not production or 0007–0009",
+      "metrics": {
+        "status": "completed",
+        "model": "Xenova/multilingual-e5-small",
+        "reference_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+        "artifact_sha256": {
+          "model_int8.onnx": "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c",
+          "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+        },
+        "search": "exact_cosine_top_k",
+        "cosine_threshold": 0.92,
+        "neighbors_per_record": 12,
+        "indexed_records": 157,
+        "scanned_records": 60,
+        "candidate_pairs": 2
+      },
+      "alerts": [
+        {
+          "id": "3b3866b72544d69ef864938d71f0beb0b7e05aad98c82793380340d5c1ea551d",
+          "records": [
+            "0eb3ed57add701a9ce0a21d573e08ccf756be3b7c603063c72498275e44e8e63",
+            "5d10da008268411ed50c1b83ee18f1afa30abf18de96060b53b0b21e37a4ce1b"
+          ],
+          "method": "semantic",
+          "score": 0.92402,
+          "different_labels": false,
+          "intentional_pair": false
+        },
+        {
+          "id": "6ab0058f1d784a15e0d420d28546f99b6d2d23c6ad5d57faa1ecdfa523dbb244",
+          "records": [
+            "88ad987798c9b8a551abde6958551844fc3abbf427764c90aef01a06a32a1221",
+            "ef6c6d5b8e7a524fef41ee79738195c3caa60bbe8cf20f688145b5ef62658f04"
+          ],
+          "method": "semantic",
+          "score": 0.92045,
+          "different_labels": false,
+          "intentional_pair": false
+        }
+      ],
+      "mandatory_review_alerts": []
+    },
+    "fact_source_review": {
+      "1": {
+        "source": "goddard",
+        "claims": [
+          "Goddard researched rockets"
+        ],
+        "evidence": "NASA biography describes his theoretical and experimental rocketry research.",
+        "source_url": "https://www.nasa.gov/history/95-years-ago-goddards-first-liquid-fueled-rocket/",
+        "checked_on": "2026-11-19",
+        "status": "supported_by_public_primary_source"
+      },
+      "2": {
+        "source": "explorer",
+        "claims": [
+          "Explorer 1 data contributed to discovery of the Van Allen radiation belts"
+        ],
+        "evidence": "NASA Story of Explorer 1, science discussion near conclusion.",
+        "source_url": "https://www.nasa.gov/history/story-of-explorer-1/",
+        "checked_on": "2026-11-19",
+        "status": "supported_by_public_primary_source"
+      },
+      "3": {
+        "source": "nike",
+        "claims": [
+          "SF-88 preserved in Marin Headlands as a Cold War site"
+        ],
+        "evidence": "NPS SF-88 page, historical overview.",
+        "source_url": "https://www.nps.gov/places/000/nike-missile-site-sf-88.htm",
+        "checked_on": "2026-11-19",
+        "status": "supported_by_public_primary_source"
+      },
+      "4": {
+        "source": "v2",
+        "claims": [
+          "V-2 manufacturing involved forced labor and camp prisoners"
+        ],
+        "evidence": "Smithsonian collection record and Wonder Weapons and Slave Labor by Michael Neufeld.",
+        "source_url": "https://airandspace.si.edu/collection-objects/missile-surface-surface-v-2-4/nasm_A19600342000",
+        "checked_on": "2026-11-19",
+        "status": "supported_by_public_primary_source"
+      },
+      "5": {
+        "source": "mercury",
+        "claims": [
+          "Mercury-Redstone carried Alan Shepard in May 1961; first American in space"
+        ],
+        "evidence": "NASA Mercury-Redstone chronology: 5 May 1961 MR-3.",
+        "source_url": "https://www.nasa.gov/history/mercury-redstone-launch-vehicle/",
+        "checked_on": "2026-11-19",
+        "status": "supported_by_public_primary_source"
+      },
+      "6": {
+        "source": "sounding",
+        "claims": [
+          "Sounding rocket missions support student training through analysis and publication"
+        ],
+        "evidence": "NASA Science Sounding Rockets, education paragraph.",
+        "source_url": "https://science.nasa.gov/heliophysics/programs/sounding-rockets/",
+        "checked_on": "2026-11-19",
+        "status": "supported_by_public_primary_source"
+      },
+      "7": {
+        "source": "goddard",
+        "claims": [
+          "Smithsonian published Goddard research manuscript in 1919"
+        ],
+        "evidence": "NASA Goddard history, research support and publication paragraph.",
+        "source_url": "https://www.nasa.gov/history/95-years-ago-goddards-first-liquid-fueled-rocket/",
+        "checked_on": "2026-11-19",
+        "status": "supported_by_public_primary_source"
+      },
+      "8": {
+        "source": "explorer",
+        "claims": [
+          "Transmission ended May 1958; satellite remained in orbit until March 1970"
+        ],
+        "evidence": "NASA Story of Explorer 1, end-of-mission paragraph.",
+        "source_url": "https://www.nasa.gov/history/story-of-explorer-1/",
+        "checked_on": "2026-11-19",
+        "status": "supported_by_public_primary_source"
+      },
+      "9": {
+        "source": "mercury",
+        "claims": [
+          "Army group transferred to NASA in July 1960; Marshall took responsibility for Mercury-Redstone"
+        ],
+        "evidence": "NASA Mercury-Redstone history, 1 July 1960 paragraph and chronology.",
+        "source_url": "https://www.nasa.gov/history/mercury-redstone-launch-vehicle/",
+        "checked_on": "2026-11-19",
+        "status": "supported_by_public_primary_source"
+      },
+      "10": {
+        "source": "nike",
+        "claims": [
+          "Nike sites intended as defense against bombers; preserved landscape evidence"
+        ],
+        "evidence": "NPS SF-88 overview. The text makes no claim about current military operations.",
+        "source_url": "https://www.nps.gov/places/000/nike-missile-site-sf-88.htm",
+        "checked_on": "2026-11-19",
+        "status": "supported_by_public_primary_source"
+      },
+      "11": {
+        "source": "v2",
+        "claims": [
+          "A-4 designation; V-2 public naming November 1944 after operational use began"
+        ],
+        "evidence": "Smithsonian V-2 collection historical description.",
+        "source_url": "https://airandspace.si.edu/collection-objects/missile-surface-surface-v-2-4/nasm_A19600342000",
+        "checked_on": "2026-11-19",
+        "status": "supported_by_public_primary_source"
+      },
+      "13": {
+        "source": "goddard",
+        "claims": [
+          "16 March 1926 first successful liquid-fueled rocket at Auburn",
+          "Smithsonian supported and published Goddard before that flight"
+        ],
+        "evidence": "NASA Goddard historical article; institutional reading explicitly identified as interpretation, not a new historical event.",
+        "source_url": "https://www.nasa.gov/history/95-years-ago-goddards-first-liquid-fueled-rocket/",
+        "checked_on": "2026-11-19",
+        "status": "supported_by_public_primary_source"
+      }
+    }
+  },
+  "label_review": "Author checked proposed labels against policy v0.1.0; not independent or blind review.",
+  "production_incompatibility": [
+    "Separate mixed public/history/civilian draft; public_adapted is not permitted by current defense-v2 production origin policy.",
+    "Not a 500-row checkpoint and does not claim defense domain or production length quota compliance."
+  ],
+  "pending": [
+    "Independent label/domain review",
+    "Mandatory semantic pair adjudication",
+    "Dataset-level split planning preserving source groups",
+    "Relevant production cross-reference scan before any future intake"
+  ],
+  "not_run": [
+    "prepare/checkpoint for supplemental draft",
+    "unit/infrastructure suites",
+    "independent human review",
+    "production dataset scan"
+  ],
+  "final_verification": {
+    "json_and_jsonl_parse": "passed",
+    "candidate_sha256_matches": "passed",
+    "git_diff_check": "passed",
+    "source_config_and_policy_unchanged": true
+  }
+}
