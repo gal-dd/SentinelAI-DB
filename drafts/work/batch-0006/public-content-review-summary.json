@@ -23,5 +23,25 @@
   "targeted_edit_checks": "Only text and derived length changed; rows outside the editorial scope retained byte-for-byte. Old rows were not removed or reordered.",
   "reviewer": "Codex assistant; not an independent human or blind label reviewer",
   "screening_vs_reading": "All 500 rows received a conservative scope decision. All 125 low-label texts were fully read; nonlow rows were held conservatively rather than represented as fully language-reviewed.",
-  "public_scope_limit": "Public/descriptive scope is assessed from supplied text. Statements about publication inside synthetic examples were not verified against external sources."
+  "public_scope_limit": "Public/descriptive scope is assessed from supplied text. Statements about publication inside synthetic examples were not verified against external sources.",
+  "closure_attempt": {
+    "date": "2026-11-19",
+    "base_commit": "cbfbe2d31ecb36199eee429928cd69b0ab007643",
+    "output_candidate_sha256_git_lf": "cac10fb2a3a80adfa0ee9c0bf5c79ddef00849b722f419d3776b53a283ad1b02",
+    "corrected_records": 3,
+    "published_records": 0,
+    "remaining_publication_review_records": 500,
+    "existing_human_review_records": 403,
+    "existing_human_holds_automatically_cleared": 0,
+    "outcome": "not_closed",
+    "unmet_conditions": [
+      "500 appropriately reviewed in-scope records unavailable",
+      "nonlow label/length quota cells require held-record changes or appropriately reviewed replacements",
+      "independent label/domain and semantic pair decisions incomplete"
+    ],
+    "progress_updated": false,
+    "corrected_records_this_task": 5
+  },
+  "current_candidate_sha256_git_lf": "cac10fb2a3a80adfa0ee9c0bf5c79ddef00849b722f419d3776b53a283ad1b02",
+  "prior_language_review_results_are_historical": true
 }
