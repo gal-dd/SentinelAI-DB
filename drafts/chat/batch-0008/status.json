@@ -27,7 +27,7 @@
     "changes": "drafts/chat/batch-0008/public-content-changes.jsonl",
     "human_queue": "drafts/chat/batch-0008/human-review-queue.jsonl",
     "input_candidate_git_blob": "49863b1826eecc81e85155e5e709820d1fcb7eba",
-    "current_candidate_sha256_git_lf": "905ceee0492ddf5fd06d00c1926654c6c84ebb6129afc39ac8a6abb04902c3e3",
+    "current_candidate_sha256_git_lf": "c3331501f7baa3ed3879b719ca9455beb5d828236db3d8b6b64f1e28ffa487a3",
     "counts": {
       "scope_screened_records": 500,
       "public_language_reviewed_records": 125,
@@ -36,5 +36,23 @@
       "human_review_required_records": 427
     },
     "publication_approved": false
+  },
+  "closure_attempt": {
+    "date": "2026-11-19",
+    "base_commit": "85484b8b089bfd754864463b79380ceba60c9bde",
+    "output_candidate_sha256_git_lf": "c3331501f7baa3ed3879b719ca9455beb5d828236db3d8b6b64f1e28ffa487a3",
+    "corrected_records": 3,
+    "corrected_records_this_task": 4,
+    "published_records": 0,
+    "remaining_publication_review_records": 500,
+    "existing_human_review_records": 427,
+    "existing_human_holds_automatically_cleared": 0,
+    "outcome": "not_closed",
+    "unmet_conditions": [
+      "500 appropriately reviewed in-scope records unavailable",
+      "nonlow label/length quota cells require held-record changes or appropriately reviewed replacements",
+      "independent label/domain and semantic pair decisions incomplete"
+    ],
+    "progress_updated": false
   }
 }
