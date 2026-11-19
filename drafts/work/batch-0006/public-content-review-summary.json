@@ -42,6 +42,14 @@
     "progress_updated": false,
     "corrected_records_this_task": 5
   },
-  "current_candidate_sha256_git_lf": "cac10fb2a3a80adfa0ee9c0bf5c79ddef00849b722f419d3776b53a283ad1b02",
-  "prior_language_review_results_are_historical": true
+  "current_candidate_sha256_git_lf": "cc0fb3e8c5d9363f3e95198b220ca7e4a696930a7ae3c30bbad8c103b00ad6ca",
+  "prior_language_review_results_are_historical": true,
+  "cloud_recovery": {
+    "review_path": "drafts/work/batch-0006/cloud-recovery-review.json",
+    "candidate_sha256": "cc0fb3e8c5d9363f3e95198b220ca7e4a696930a7ae3c30bbad8c103b00ad6ca",
+    "corrected_records": 70,
+    "human_review_records": 403,
+    "publication_approved": false,
+    "prior_reports_and_decisions": "Historical; not rerun or transferred as approval of the new text."
+  }
 }

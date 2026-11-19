@@ -7111,5 +7111,13 @@
       "public_semantic_high_risk_pairs_before": 3,
       "public_semantic_high_risk_pairs_after": 3
     }
-  ]
+  ],
+  "cloud_recovery": {
+    "review_path": "drafts/work/batch-0006/cloud-recovery-review.json",
+    "candidate_sha256": "cc0fb3e8c5d9363f3e95198b220ca7e4a696930a7ae3c30bbad8c103b00ad6ca",
+    "corrected_records": 70,
+    "human_review_records": 403,
+    "publication_approved": false,
+    "prior_reports_and_decisions": "Historical; not rerun or transferred as approval of the new text."
+  }
 }

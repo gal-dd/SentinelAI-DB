@@ -4,7 +4,7 @@
   "source_branch": "producer/chat-defense-v2",
   "source_path": "drafts/chat/batch-0006/candidates.jsonl",
   "source_candidate_blob": "4e7b726be77f9985184f930ac0119d226360ebfa",
-  "candidate_sha256": "cac10fb2a3a80adfa0ee9c0bf5c79ddef00849b722f419d3776b53a283ad1b02",
+  "candidate_sha256": "cc0fb3e8c5d9363f3e95198b220ca7e4a696930a7ae3c30bbad8c103b00ad6ca",
   "candidates": 500,
   "missile_proposed": 300,
   "initial_independent_rows_reviewed": 25,
@@ -24,7 +24,7 @@
     "changes": "drafts/work/batch-0006/public-content-changes.jsonl",
     "human_queue": "drafts/work/batch-0006/human-review-queue.jsonl",
     "input_candidate_git_blob": "4471717ff9162451093405dd6e99845f00cea275",
-    "current_candidate_sha256_git_lf": "cac10fb2a3a80adfa0ee9c0bf5c79ddef00849b722f419d3776b53a283ad1b02",
+    "current_candidate_sha256_git_lf": "cc0fb3e8c5d9363f3e95198b220ca7e4a696930a7ae3c30bbad8c103b00ad6ca",
     "counts": {
       "scope_screened_records": 500,
       "public_language_reviewed_records": 118,
@@ -58,5 +58,13 @@
     ],
     "progress_updated": false,
     "corrected_records_this_task": 5
+  },
+  "cloud_recovery": {
+    "review_path": "drafts/work/batch-0006/cloud-recovery-review.json",
+    "candidate_sha256": "cc0fb3e8c5d9363f3e95198b220ca7e4a696930a7ae3c30bbad8c103b00ad6ca",
+    "corrected_records": 70,
+    "human_review_records": 403,
+    "publication_approved": false,
+    "prior_reports_and_decisions": "Historical; not rerun or transferred as approval of the new text."
   }
 }
