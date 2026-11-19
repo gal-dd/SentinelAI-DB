@@ -19,5 +19,22 @@
     "Live production quota alignment then repository checkpoint approval"
   ],
   "diversity_audit": "drafts/chat/batch-0008/diversity-audit.json",
-  "note": "Previous lexical Jaccard checks passed but exact embedded sentence repetition was detected later; prior ready_for_work_intake flag is withdrawn."
+  "note": "Previous lexical Jaccard checks passed but exact embedded sentence repetition was detected later; prior ready_for_work_intake flag is withdrawn.",
+  "public_content_review": {
+    "date": "2026-11-19",
+    "summary": "drafts/chat/batch-0008/public-content-review-summary.json",
+    "decisions": "drafts/chat/batch-0008/public-content-review.jsonl",
+    "changes": "drafts/chat/batch-0008/public-content-changes.jsonl",
+    "human_queue": "drafts/chat/batch-0008/human-review-queue.jsonl",
+    "input_candidate_git_blob": "49863b1826eecc81e85155e5e709820d1fcb7eba",
+    "current_candidate_sha256_git_lf": "905ceee0492ddf5fd06d00c1926654c6c84ebb6129afc39ac8a6abb04902c3e3",
+    "counts": {
+      "scope_screened_records": 500,
+      "public_language_reviewed_records": 125,
+      "corrected_records": 21,
+      "approved_public_language_only_records": 73,
+      "human_review_required_records": 427
+    },
+    "publication_approved": false
+  }
 }

@@ -24,5 +24,22 @@
     "semantic_QA_pending": true
   },
   "diversity_audit": "drafts/chat/batch-0009/diversity-audit.json",
-  "note": "Previous lexical Jaccard checks passed but exact embedded sentence repetition was detected later; prior ready_for_work_intake flag is withdrawn."
+  "note": "Previous lexical Jaccard checks passed but exact embedded sentence repetition was detected later; prior ready_for_work_intake flag is withdrawn.",
+  "public_content_review": {
+    "date": "2026-11-19",
+    "summary": "drafts/chat/batch-0009/public-content-review-summary.json",
+    "decisions": "drafts/chat/batch-0009/public-content-review.jsonl",
+    "changes": "drafts/chat/batch-0009/public-content-changes.jsonl",
+    "human_queue": "drafts/chat/batch-0009/human-review-queue.jsonl",
+    "input_candidate_git_blob": "1a33731c177634b0f76992137b99c2922b370c6a",
+    "current_candidate_sha256_git_lf": "348ac2bfa187b7d0f14cc5057e58de308b56cea9bc8bdefefffd8c4e2b4861af",
+    "counts": {
+      "scope_screened_records": 500,
+      "public_language_reviewed_records": 123,
+      "corrected_records": 22,
+      "approved_public_language_only_records": 62,
+      "human_review_required_records": 438
+    },
+    "publication_approved": false
+  }
 }

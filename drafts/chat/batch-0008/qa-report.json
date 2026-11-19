@@ -112,5 +112,13 @@
     "share": 0.452,
     "gate": "BLOCKED_FOR_EDITORIAL_REMEDIATION",
     "note": "This audit supersedes earlier technical-ready conclusions. Jaccard >=0.73 absence did not reveal embedded sentence repetition."
+  },
+  "historical_checks_applicability": {
+    "candidate_git_blob": "49863b1826eecc81e85155e5e709820d1fcb7eba",
+    "candidate_sha256_git_lf": "89fa5499779151536d61943d6eee984d234ee8c30560afc4029254eb1a815636",
+    "current_candidate_sha256_git_lf": "905ceee0492ddf5fd06d00c1926654c6c84ebb6129afc39ac8a6abb04902c3e3",
+    "checks_not_rerun_after_public_language_edits": true,
+    "new_review_summary": "drafts/chat/batch-0008/public-content-review-summary.json",
+    "note": "Existing QA metrics remain historical input-version evidence; they do not validate the edited candidates or approve publication."
   }
 }
