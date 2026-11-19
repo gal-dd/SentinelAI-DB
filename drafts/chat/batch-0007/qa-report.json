@@ -232,7 +232,8 @@
             }
           },
           "missile_domain_percentage": 60.0
-        }
+        },
+        "scope": "Declared domain metadata counts only, not contextual domain approval."
       },
       "full_batch_label_length_quota": {
         "status": "failed",
@@ -4273,7 +4274,8 @@
             }
           },
           "missile_domain_percentage": 60.0
-        }
+        },
+        "scope": "Declared domain metadata counts only, not contextual domain approval."
       },
       "full_batch_label_length_quota": {
         "status": "failed",
@@ -8127,14 +8129,26 @@
       "checkpoint/stage-checkpoint/publication after failed prerequisites"
     ],
     "progress_updated": false,
-    "corrected_records_this_task": 2
+    "corrected_records_this_task": 2,
+    "quota_reference": {
+      "last_published_checkpoint": 5,
+      "source": "progress.json current next-checkpoint plan",
+      "later_batch_quota_status": "provisional until preceding batches actually publish; recompute after each publication"
+    },
+    "changed_public_label_policy_check": {
+      "label": "low retained",
+      "reason": "The rewritten examples are public educational or archival synthetic descriptions, without a disclosed internal protected fact; this is not independent blind review."
+    },
+    "prior_language_approvals_do_not_apply_automatically_to_rewritten_records": true
   },
   "closure_attempt_history": [
     {
       "input_candidate_sha256_git_lf": "0f929962183b34d701aa2fd88d3c366131c7028f3336fc413822d57485a63804",
       "output_candidate_sha256_git_lf": "71e51221a4e99a720761063c9d307226318bac029633b77b31f8fb03a9584947",
       "corrected_records": 1,
-      "published_records": 0
+      "published_records": 0,
+      "public_semantic_high_risk_pairs_before": 1,
+      "public_semantic_high_risk_pairs_after": 1
     }
   ]
 }
