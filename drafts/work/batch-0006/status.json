@@ -1,14 +1,14 @@
 {
   "batch": "0006",
-  "status": "initial_repairs_in_progress",
+  "status": "public_language_review_complete_human_review_required",
   "source_branch": "producer/chat-defense-v2",
   "source_path": "drafts/chat/batch-0006/candidates.jsonl",
   "source_candidate_blob": "4e7b726be77f9985184f930ac0119d226360ebfa",
-  "candidate_sha256": "aa54df5dcbd2da9857c13dae5f571ba2cabf428573712076fb63b6c3d3493df7",
+  "candidate_sha256": "22ec4618a72d77967ddaab94b4d76baf07529d410068c2a6ade67b964cb04498",
   "candidates": 500,
   "missile_proposed": 300,
   "initial_independent_rows_reviewed": 25,
-  "changed_rows": 19,
+  "changed_rows": 31,
   "production_ids_assigned": false,
   "ready_for_production_checkpoint": false,
   "pending": [
@@ -16,5 +16,29 @@
     "Match current per-label length quotas",
     "Rerun E5 against accepted checkpoints 0001–0005",
     "Resolve mandatory similarity pairs and stage checkpoint"
-  ]
+  ],
+  "public_content_review": {
+    "date": "2026-11-19",
+    "summary": "drafts/work/batch-0006/public-content-review-summary.json",
+    "decisions": "drafts/work/batch-0006/public-content-review.jsonl",
+    "changes": "drafts/work/batch-0006/public-content-changes.jsonl",
+    "human_queue": "drafts/work/batch-0006/human-review-queue.jsonl",
+    "input_candidate_git_blob": "4471717ff9162451093405dd6e99845f00cea275",
+    "current_candidate_sha256_git_lf": "22ec4618a72d77967ddaab94b4d76baf07529d410068c2a6ade67b964cb04498",
+    "counts": {
+      "scope_screened_records": 500,
+      "public_language_reviewed_records": 118,
+      "corrected_records": 12,
+      "approved_public_language_only_records": 97,
+      "human_review_required_records": 403
+    },
+    "publication_approved": false
+  },
+  "initial_intake_status": {
+    "status": "initial_repairs_in_progress",
+    "candidate_sha256": "aa54df5dcbd2da9857c13dae5f571ba2cabf428573712076fb63b6c3d3493df7",
+    "initial_independent_rows_reviewed": 25,
+    "changed_rows": 19
+  },
+  "initial_work_changed_rows": 19
 }

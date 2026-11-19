@@ -357,5 +357,13 @@
       43,
       25
     ]
+  },
+  "historical_checks_applicability": {
+    "candidate_git_blob": "4471717ff9162451093405dd6e99845f00cea275",
+    "candidate_sha256_git_lf": "aa54df5dcbd2da9857c13dae5f571ba2cabf428573712076fb63b6c3d3493df7",
+    "current_candidate_sha256_git_lf": "22ec4618a72d77967ddaab94b4d76baf07529d410068c2a6ade67b964cb04498",
+    "checks_not_rerun_after_public_language_edits": true,
+    "new_review_summary": "drafts/work/batch-0006/public-content-review-summary.json",
+    "note": "Existing QA metrics remain historical input-version evidence; they do not validate the edited candidates or approve publication."
   }
 }

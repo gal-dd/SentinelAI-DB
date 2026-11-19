@@ -258,5 +258,9 @@
     "reported_candidates": 500,
     "reported_indexed_records": 2500,
     "conclusion": "Counts are consistent; this is a code-and-report interpretation, not a rerun or verification of actual reference records."
-  }
+  },
+  "snapshot_status": "historical_before_public_language_review_2026-11-19",
+  "current_candidate_snapshot": false,
+  "superseded_by": "PUBLIC_CONTENT_REVIEW_0006_0009.md and per-batch public-content-review-summary.json; original version mappings are retained as historical evidence.",
+  "public_review_producer_commit": "97e831c9b4daeda1899bb152723e42f75f7b3cd7"
 }
