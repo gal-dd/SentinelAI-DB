@@ -1,0 +1,802 @@
+{
+  "civil-exp-09-001-open-anthology": {
+    "source_group_id": "civil-exp-09-001-open-anthology",
+    "description": "open-anthology",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-002-toy-vault": {
+    "source_group_id": "civil-exp-09-002-toy-vault",
+    "description": "toy-vault",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-003-fictional-disciplinary-letter": {
+    "source_group_id": "civil-exp-09-003-fictional-disciplinary-letter",
+    "description": "fictional-disciplinary-letter",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-004-public-case-study": {
+    "source_group_id": "civil-exp-09-004-public-case-study",
+    "description": "public-case-study",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-005-imaginary-profit-table": {
+    "source_group_id": "civil-exp-09-005-imaginary-profit-table",
+    "description": "imaginary-profit-table",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-006-open-approved-interview": {
+    "source_group_id": "civil-exp-09-006-open-approved-interview",
+    "description": "open-approved-interview",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-007-fictional-resignation": {
+    "source_group_id": "civil-exp-09-007-fictional-resignation",
+    "description": "fictional-resignation",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-008-public-alias-discussion": {
+    "source_group_id": "civil-exp-09-008-public-alias-discussion",
+    "description": "public-alias-discussion",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-009-sample-employment-form": {
+    "source_group_id": "civil-exp-09-009-sample-employment-form",
+    "description": "sample-employment-form",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-010-public-reuse-permission": {
+    "source_group_id": "civil-exp-09-010-public-reuse-permission",
+    "description": "public-reuse-permission",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-011-fictional-salary-dispute": {
+    "source_group_id": "civil-exp-09-011-fictional-salary-dispute",
+    "description": "fictional-salary-dispute",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-012-open-lesson-source": {
+    "source_group_id": "civil-exp-09-012-open-lesson-source",
+    "description": "open-lesson-source",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-013-public-recorded-script": {
+    "source_group_id": "civil-exp-09-013-public-recorded-script",
+    "description": "public-recorded-script",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-014-public-award-rules": {
+    "source_group_id": "civil-exp-09-014-public-award-rules",
+    "description": "public-award-rules",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-015-fictional-contract-end": {
+    "source_group_id": "civil-exp-09-015-fictional-contract-end",
+    "description": "fictional-contract-end",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-016-open-privacy-metaphor": {
+    "source_group_id": "civil-exp-09-016-open-privacy-metaphor",
+    "description": "open-privacy-metaphor",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-017-public-collection-count": {
+    "source_group_id": "civil-exp-09-017-public-collection-count",
+    "description": "public-collection-count",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-018-demo-suspension": {
+    "source_group_id": "civil-exp-09-018-demo-suspension",
+    "description": "demo-suspension",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-019-fictional-eligibility": {
+    "source_group_id": "civil-exp-09-019-fictional-eligibility",
+    "description": "fictional-eligibility",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-020-open-duplicate-example": {
+    "source_group_id": "civil-exp-09-020-open-duplicate-example",
+    "description": "open-duplicate-example",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-021-public-archive-permission": {
+    "source_group_id": "civil-exp-09-021-public-archive-permission",
+    "description": "public-archive-permission",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-022-open-synthetic-roster": {
+    "source_group_id": "civil-exp-09-022-open-synthetic-roster",
+    "description": "open-synthetic-roster",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-023-public-rights-story": {
+    "source_group_id": "civil-exp-09-023-public-rights-story",
+    "description": "public-rights-story",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-024-open-imaginary-chronicle": {
+    "source_group_id": "civil-exp-09-024-open-imaginary-chronicle",
+    "description": "open-imaginary-chronicle",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-025-public-no-personal-bridge": {
+    "source_group_id": "civil-exp-09-025-public-no-personal-bridge",
+    "description": "public-no-personal-bridge",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-026-routine-annotation-sheet": {
+    "source_group_id": "civil-exp-09-026-routine-annotation-sheet",
+    "description": "routine-annotation-sheet",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-027-internal-example-check": {
+    "source_group_id": "civil-exp-09-027-internal-example-check",
+    "description": "internal-example-check",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-028-routine-supplier-word": {
+    "source_group_id": "civil-exp-09-028-routine-supplier-word",
+    "description": "routine-supplier-word",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-029-internal-secret-joke": {
+    "source_group_id": "civil-exp-09-029-internal-secret-joke",
+    "description": "internal-secret-joke",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-030-routine-minimum-print": {
+    "source_group_id": "civil-exp-09-030-routine-minimum-print",
+    "description": "routine-minimum-print",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-031-possible-change-only": {
+    "source_group_id": "civil-exp-09-031-possible-change-only",
+    "description": "possible-change-only",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-032-routine-data-example": {
+    "source_group_id": "civil-exp-09-032-routine-data-example",
+    "description": "routine-data-example",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-033-internal-approval-query": {
+    "source_group_id": "civil-exp-09-033-internal-approval-query",
+    "description": "internal-approval-query",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-034-routine-demo-evaluation": {
+    "source_group_id": "civil-exp-09-034-routine-demo-evaluation",
+    "description": "routine-demo-evaluation",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-035-local-handover-only": {
+    "source_group_id": "civil-exp-09-035-local-handover-only",
+    "description": "local-handover-only",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-036-routine-archive-word": {
+    "source_group_id": "civil-exp-09-036-routine-archive-word",
+    "description": "routine-archive-word",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-037-unresolved-clarity": {
+    "source_group_id": "civil-exp-09-037-unresolved-clarity",
+    "description": "unresolved-clarity",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-038-routine-staff-quotation": {
+    "source_group_id": "civil-exp-09-038-routine-staff-quotation",
+    "description": "routine-staff-quotation",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-039-internal-task-version": {
+    "source_group_id": "civil-exp-09-039-internal-task-version",
+    "description": "internal-task-version",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-040-routine-credit-question": {
+    "source_group_id": "civil-exp-09-040-routine-credit-question",
+    "description": "routine-credit-question",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-041-routine-permission-review": {
+    "source_group_id": "civil-exp-09-041-routine-permission-review",
+    "description": "routine-permission-review",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-042-staff-sample-choice": {
+    "source_group_id": "civil-exp-09-042-staff-sample-choice",
+    "description": "staff-sample-choice",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-043-routine-internal-number": {
+    "source_group_id": "civil-exp-09-043-routine-internal-number",
+    "description": "routine-internal-number",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-044-internal-local-mistake": {
+    "source_group_id": "civil-exp-09-044-internal-local-mistake",
+    "description": "internal-local-mistake",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-045-routine-hypothetical-order": {
+    "source_group_id": "civil-exp-09-045-routine-hypothetical-order",
+    "description": "routine-hypothetical-order",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-046-internal-no-impact-evidence": {
+    "source_group_id": "civil-exp-09-046-internal-no-impact-evidence",
+    "description": "internal-no-impact-evidence",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-047-routine-example-name": {
+    "source_group_id": "civil-exp-09-047-routine-example-name",
+    "description": "routine-example-name",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-048-internal-public-material-only": {
+    "source_group_id": "civil-exp-09-048-internal-public-material-only",
+    "description": "internal-public-material-only",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-049-routine-question-without-fact": {
+    "source_group_id": "civil-exp-09-049-routine-question-without-fact",
+    "description": "routine-question-without-fact",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-050-routine-access-request-only": {
+    "source_group_id": "civil-exp-09-050-routine-access-request-only",
+    "description": "routine-access-request-only",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-051-signed-private-loss": {
+    "source_group_id": "civil-exp-09-051-signed-private-loss",
+    "description": "signed-private-loss",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-052-private-settlement-mandate": {
+    "source_group_id": "civil-exp-09-052-private-settlement-mandate",
+    "description": "private-settlement-mandate",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-053-public-title-private-veto": {
+    "source_group_id": "civil-exp-09-053-public-title-private-veto",
+    "description": "public-title-private-veto",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-054-question-with-admission-result": {
+    "source_group_id": "civil-exp-09-054-question-with-admission-result",
+    "description": "question-with-admission-result",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-055-speculation-with-signed-proof": {
+    "source_group_id": "civil-exp-09-055-speculation-with-signed-proof",
+    "description": "speculation-with-signed-proof",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-056-public-contract-private-floor": {
+    "source_group_id": "civil-exp-09-056-public-contract-private-floor",
+    "description": "public-contract-private-floor",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-057-draft-with-binding-appeal": {
+    "source_group_id": "civil-exp-09-057-draft-with-binding-appeal",
+    "description": "draft-with-binding-appeal",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-058-uncertain-message-proven-leak": {
+    "source_group_id": "civil-exp-09-058-uncertain-message-proven-leak",
+    "description": "uncertain-message-proven-leak",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-059-known-plan-private-cancel": {
+    "source_group_id": "civil-exp-09-059-known-plan-private-cancel",
+    "description": "known-plan-private-cancel",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-060-private-quote-decision": {
+    "source_group_id": "civil-exp-09-060-private-quote-decision",
+    "description": "private-quote-decision",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-061-public-data-private-conclusion": {
+    "source_group_id": "civil-exp-09-061-public-data-private-conclusion",
+    "description": "public-data-private-conclusion",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-062-question-final-refund": {
+    "source_group_id": "civil-exp-09-062-question-final-refund",
+    "description": "question-final-refund",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-063-routine-format-private-content": {
+    "source_group_id": "civil-exp-09-063-routine-format-private-content",
+    "description": "routine-format-private-content",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-064-unreleased-source-invalidity": {
+    "source_group_id": "civil-exp-09-064-unreleased-source-invalidity",
+    "description": "unreleased-source-invalidity",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-065-uncertain-style-final-bid": {
+    "source_group_id": "civil-exp-09-065-uncertain-style-final-bid",
+    "description": "uncertain-style-final-bid",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-066-question-with-rights-reversal": {
+    "source_group_id": "civil-exp-09-066-question-with-rights-reversal",
+    "description": "question-with-rights-reversal",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-067-public-company-private-terms": {
+    "source_group_id": "civil-exp-09-067-public-company-private-terms",
+    "description": "public-company-private-terms",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-068-upcoming-review-known-failure": {
+    "source_group_id": "civil-exp-09-068-upcoming-review-known-failure",
+    "description": "upcoming-review-known-failure",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-069-proposed-wording-known-withdrawal": {
+    "source_group_id": "civil-exp-09-069-proposed-wording-known-withdrawal",
+    "description": "proposed-wording-known-withdrawal",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-070-routine-task-major-outcome": {
+    "source_group_id": "civil-exp-09-070-routine-task-major-outcome",
+    "description": "routine-task-major-outcome",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-071-private-constraint-revealed": {
+    "source_group_id": "civil-exp-09-071-private-constraint-revealed",
+    "description": "private-constraint-revealed",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-072-question-after-verification": {
+    "source_group_id": "civil-exp-09-072-question-after-verification",
+    "description": "question-after-verification",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-073-training-with-nonpublic-result": {
+    "source_group_id": "civil-exp-09-073-training-with-nonpublic-result",
+    "description": "training-with-nonpublic-result",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-074-public-text-private-option": {
+    "source_group_id": "civil-exp-09-074-public-text-private-option",
+    "description": "public-text-private-option",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-075-signed-decision-in-draft": {
+    "source_group_id": "civil-exp-09-075-signed-decision-in-draft",
+    "description": "signed-decision-in-draft",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-076-full-protected-link-confirmed": {
+    "source_group_id": "civil-exp-09-076-full-protected-link-confirmed",
+    "description": "full-protected-link-confirmed",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-077-joint-shutdown-binding": {
+    "source_group_id": "civil-exp-09-077-joint-shutdown-binding",
+    "description": "joint-shutdown-binding",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-078-public-signers-private-bridge": {
+    "source_group_id": "civil-exp-09-078-public-signers-private-bridge",
+    "description": "public-signers-private-bridge",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-079-question-with-confirmed-key": {
+    "source_group_id": "civil-exp-09-079-question-with-confirmed-key",
+    "description": "question-with-confirmed-key",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-080-routine-layout-total-breach": {
+    "source_group_id": "civil-exp-09-080-routine-layout-total-breach",
+    "description": "routine-layout-total-breach",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-081-uncertain-title-known-deletion": {
+    "source_group_id": "civil-exp-09-081-uncertain-title-known-deletion",
+    "description": "uncertain-title-known-deletion",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-082-public-program-hidden-dependence": {
+    "source_group_id": "civil-exp-09-082-public-program-hidden-dependence",
+    "description": "public-program-hidden-dependence",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-083-future-contact-present-proof": {
+    "source_group_id": "civil-exp-09-083-future-contact-present-proof",
+    "description": "future-contact-present-proof",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-084-fictional-training-protected-in-story": {
+    "source_group_id": "civil-exp-09-084-fictional-training-protected-in-story",
+    "description": "fictional-training-protected-in-story",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-085-known-names-new-risk": {
+    "source_group_id": "civil-exp-09-085-known-names-new-risk",
+    "description": "known-names-new-risk",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-086-possible-issue-fixed-proof": {
+    "source_group_id": "civil-exp-09-086-possible-issue-fixed-proof",
+    "description": "possible-issue-fixed-proof",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-087-quote-of-systemic-decision": {
+    "source_group_id": "civil-exp-09-087-quote-of-systemic-decision",
+    "description": "quote-of-systemic-decision",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-088-public-summary-protected-annex": {
+    "source_group_id": "civil-exp-09-088-public-summary-protected-annex",
+    "description": "public-summary-protected-annex",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-089-draft-heading-binding-impact": {
+    "source_group_id": "civil-exp-09-089-draft-heading-binding-impact",
+    "description": "draft-heading-binding-impact",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-090-routine-request-guarded-families": {
+    "source_group_id": "civil-exp-09-090-routine-request-guarded-families",
+    "description": "routine-request-guarded-families",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-091-conditional-phrasing-proven-stop": {
+    "source_group_id": "civil-exp-09-091-conditional-phrasing-proven-stop",
+    "description": "conditional-phrasing-proven-stop",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-092-anonymous-votes-with-link": {
+    "source_group_id": "civil-exp-09-092-anonymous-votes-with-link",
+    "description": "anonymous-votes-with-link",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-093-future-delete-no-unknowns": {
+    "source_group_id": "civil-exp-09-093-future-delete-no-unknowns",
+    "description": "future-delete-no-unknowns",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-094-question-about-publishing-bridge": {
+    "source_group_id": "civil-exp-09-094-question-about-publishing-bridge",
+    "description": "question-about-publishing-bridge",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-095-public-data-nonpublic-identity-map": {
+    "source_group_id": "civil-exp-09-095-public-data-nonpublic-identity-map",
+    "description": "public-data-nonpublic-identity-map",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-096-private-linkage-not-public-name": {
+    "source_group_id": "civil-exp-09-096-private-linkage-not-public-name",
+    "description": "private-linkage-not-public-name",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-097-question-with-binding-systemic-loss": {
+    "source_group_id": "civil-exp-09-097-question-with-binding-systemic-loss",
+    "description": "question-with-binding-systemic-loss",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-098-routine-proofreading-protected-bridge": {
+    "source_group_id": "civil-exp-09-098-routine-proofreading-protected-bridge",
+    "description": "routine-proofreading-protected-bridge",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-099-public-center-hidden-commonality": {
+    "source_group_id": "civil-exp-09-099-public-center-hidden-commonality",
+    "description": "public-center-hidden-commonality",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  },
+  "civil-exp-09-100-protected-content-with-demo-title": {
+    "source_group_id": "civil-exp-09-100-protected-content-with-demo-title",
+    "description": "protected-content-with-demo-title",
+    "source_id": null,
+    "fictional": true,
+    "cycle": 9,
+    "scope": "Independently authored civilian synthetic example; not a real organization, person, credential or event."
+  }
+}
