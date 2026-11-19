@@ -1,0 +1,86 @@
+{
+  "exp-rosetta": {
+    "title": "Rosetta factsheet",
+    "publisher": "European Space Agency",
+    "url": "https://www.esa.int/articles/about-us/directorates/science/rosetta/rosetta-factsheet",
+    "source_group_id": "civil-exp-public-rosetta",
+    "license": "Original Hebrew factual paraphrase; source text and images are not redistributed; no source license grant is inferred.",
+    "terms_url": "https://www.esa.int/Services/Terms_and_conditions",
+    "verified_on": "2026-11-19",
+    "verification": "Official publisher page retrieved using web search/open in this run; each associated draft was checked against the supported claims.",
+    "supported_claims": [
+      "Launch 2 March 2004; origin of Rosetta and Philae names; original and revised target; arrival 6 August 2014; Philae landing 12 November 2014; mission end 30 September 2016."
+    ],
+    "interpretation_note": "Educational observations about reading chronology or continued use of collected data are author explanations, not additional mission events."
+  },
+  "exp-apollo": {
+    "title": "Apollo 11 Mission Overview",
+    "publisher": "NASA",
+    "url": "https://www.nasa.gov/history/apollo-11-mission-overview/",
+    "source_group_id": "civil-exp-public-apollo",
+    "license": "Original Hebrew factual paraphrase; source text and images are not redistributed; no source license grant is inferred.",
+    "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "verified_on": "2026-11-19",
+    "verification": "Official publisher page retrieved using web search/open in this run; each associated draft was checked against the supported claims.",
+    "supported_claims": [
+      "Crew of three; launch 16 July 1969; return 24 July 1969; roles of Armstrong, Aldrin and Collins; lunar samples and experiments; goodwill messages from 73 countries."
+    ],
+    "interpretation_note": "Educational observations about reading chronology or continued use of collected data are author explanations, not additional mission events."
+  },
+  "exp-voyager": {
+    "title": "Voyager Mission Overview",
+    "publisher": "NASA Science",
+    "url": "https://science.nasa.gov/mission/voyager/mission-overview/",
+    "source_group_id": "civil-exp-public-voyager",
+    "license": "Original Hebrew factual paraphrase; source text and images are not redistributed; no source license grant is inferred.",
+    "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "verified_on": "2026-11-19",
+    "verification": "Official publisher page retrieved using web search/open in this run; each associated draft was checked against the supported claims.",
+    "supported_claims": [
+      "Voyager 2 launch 20 August 1977; Voyager 1 launch 5 September 1977; interstellar entries August 2012 and 5 November 2018; golden records; exploration of giant planets."
+    ],
+    "interpretation_note": "Educational observations about reading chronology or continued use of collected data are author explanations, not additional mission events."
+  },
+  "exp-hubble": {
+    "title": "A Chronology of the Hubble Space Telescope",
+    "publisher": "NASA History",
+    "url": "https://www.nasa.gov/history/hubble/chron.html",
+    "source_group_id": "civil-exp-public-hubble",
+    "license": "Original Hebrew factual paraphrase; source text and images are not redistributed; no source license grant is inferred.",
+    "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "verified_on": "2026-11-19",
+    "verification": "Official publisher page retrieved using web search/open in this run; each associated draft was checked against the supported claims.",
+    "supported_claims": [
+      "Named after Edwin Hubble in 1983; launch aboard Discovery 24 April 1990; planned 1986 launch delayed by Challenger loss; December 1993 corrective optics servicing."
+    ],
+    "interpretation_note": "Educational observations about reading chronology or continued use of collected data are author explanations, not additional mission events."
+  },
+  "exp-sputnik": {
+    "title": "Dawn of the Space Age",
+    "publisher": "NASA History",
+    "url": "https://www.nasa.gov/history/dawn-of-the-space-age/",
+    "source_group_id": "civil-exp-public-sputnik",
+    "license": "Original Hebrew factual paraphrase; source text and images are not redistributed; no source license grant is inferred.",
+    "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "verified_on": "2026-11-19",
+    "verification": "Official publisher page retrieved using web search/open in this run; each associated draft was checked against the supported claims.",
+    "supported_claims": [
+      "Sputnik 1 launched 4 October 1957; first artificial Earth satellite; political and scientific context of the space race."
+    ],
+    "interpretation_note": "Educational observations about reading chronology or continued use of collected data are author explanations, not additional mission events."
+  },
+  "exp-gaia": {
+    "title": "Gaia mission",
+    "publisher": "European Space Agency",
+    "url": "https://www.esa.int/missions/about-us/directorates/science/gaia/gaia",
+    "source_group_id": "civil-exp-public-gaia",
+    "license": "Original Hebrew factual paraphrase; source text and images are not redistributed; no source license grant is inferred.",
+    "terms_url": "https://www.esa.int/Services/Terms_and_conditions",
+    "verified_on": "2026-11-19",
+    "verification": "Official publisher page retrieved using web search/open in this run; each associated draft was checked against the supported claims.",
+    "supported_claims": [
+      "Launch 19 December 2013; three-dimensional Milky Way mapping; measurements of motions, brightness, temperature and composition; end of science observations 15 January 2025."
+    ],
+    "interpretation_note": "Educational observations about reading chronology or continued use of collected data are author explanations, not additional mission events."
+  }
+}
