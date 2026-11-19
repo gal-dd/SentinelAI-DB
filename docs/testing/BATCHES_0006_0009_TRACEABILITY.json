@@ -1,0 +1,262 @@
+{
+  "date": "2026-11-19",
+  "scope": "Git version traceability of batches 0006-0009; documentation only",
+  "production_base": "568917d19d8ddacb71a4389ff252f506cfc78989",
+  "producer_base": "287d2724f10b2acefcab262d8d7cd3d185072317",
+  "structural_evidence_commit": "568917d19d8ddacb71a4389ff252f506cfc78989",
+  "structural_checks_rerun": false,
+  "candidate_sha256_method": "Reused from prior committed inventory; not recalculated in this follow-up. Git object IDs read from object metadata.",
+  "limits": [
+    "Matching candidate Git blobs at report commits establishes committed version alignment, not proof of actual audit execution or content approval.",
+    "Historical references to other batches were read from reports only; batches 0001-0005 were not opened."
+  ],
+  "snapshots": [
+    {
+      "tree": "DB",
+      "batch": "0006",
+      "candidate_path": "drafts/work/batch-0006/candidates.jsonl",
+      "candidate_git_blob": "4471717ff9162451093405dd6e99845f00cea275",
+      "candidate_sha256_git_bytes_from_prior_inventory": "aa54df5dcbd2da9857c13dae5f571ba2cabf428573712076fb63b6c3d3493df7",
+      "candidate_last_change_commit": "7321940354d8bb102f44493bd32a7c4cc9331032",
+      "candidate_unchanged_since_structural_evidence": true,
+      "evidence_files": [
+        {
+          "path": "drafts/work/batch-0006/blind-review.jsonl",
+          "git_blob": "9cedbabaad8251e91063d60689c4626c7862d7f4",
+          "last_change_commit": "7321940354d8bb102f44493bd32a7c4cc9331032",
+          "candidate_git_blob_at_evidence_commit": "4471717ff9162451093405dd6e99845f00cea275",
+          "candidate_alignment": "same",
+          "input_scope_note": "Initial review of 25 positions saved alongside 19 candidate changes; not independent approval of the revised Work candidates."
+        },
+        {
+          "path": "drafts/work/batch-0006/qa-report.json",
+          "git_blob": "5ac4e5fffc9847fbe2a4b14787ca1adcb6f1026b",
+          "last_change_commit": "7321940354d8bb102f44493bd32a7c4cc9331032",
+          "candidate_git_blob_at_evidence_commit": "4471717ff9162451093405dd6e99845f00cea275",
+          "candidate_alignment": "same",
+          "report_revision_history": [
+            {
+              "commit": "7321940354d8bb102f44493bd32a7c4cc9331032",
+              "candidate_git_blob": "4471717ff9162451093405dd6e99845f00cea275",
+              "alignment_with_current_candidate": "same"
+            }
+          ],
+          "input_scope_note": "The envelope records Work candidates, but its baseline subsection describes the Chat source blob 4e7b726be77f9985184f930ac0119d226360ebfa before 19 Work changes. Same-commit candidate alignment does not bind baseline results to Work."
+        },
+        {
+          "path": "drafts/work/batch-0006/status.json",
+          "git_blob": "05a367a464390d6355b08323cdd6cd12dd90f8c0",
+          "last_change_commit": "7321940354d8bb102f44493bd32a7c4cc9331032",
+          "candidate_git_blob_at_evidence_commit": "4471717ff9162451093405dd6e99845f00cea275",
+          "candidate_alignment": "same"
+        }
+      ]
+    },
+    {
+      "tree": "Producer",
+      "batch": "0006",
+      "candidate_path": "drafts/chat/batch-0006/candidates.jsonl",
+      "candidate_git_blob": "4e7b726be77f9985184f930ac0119d226360ebfa",
+      "candidate_sha256_git_bytes_from_prior_inventory": "708f957d66d826a3ba535b1b4adcc48ad2b1c5d9aeb651f3184f6af350ca48e6",
+      "candidate_last_change_commit": "af2169a3b85f252c5aa1bf9cf838cea55c8c29ef",
+      "candidate_unchanged_since_structural_evidence": true,
+      "evidence_files": [
+        {
+          "path": "drafts/chat/batch-0006/qa-report.json",
+          "git_blob": "134d4912c2bfb73400e5e47152aedec5cd3706af",
+          "last_change_commit": "76edb575ba91d2ac0817847f80a716816e916b67",
+          "candidate_git_blob_at_evidence_commit": "4e7b726be77f9985184f930ac0119d226360ebfa",
+          "candidate_alignment": "same",
+          "report_revision_history": [
+            {
+              "commit": "76edb575ba91d2ac0817847f80a716816e916b67",
+              "candidate_git_blob": "4e7b726be77f9985184f930ac0119d226360ebfa",
+              "alignment_with_current_candidate": "same"
+            },
+            {
+              "commit": "f1c0c181254053ddac036ae838533b2ed092e934",
+              "candidate_git_blob": null,
+              "alignment_with_current_candidate": "absent"
+            }
+          ]
+        },
+        {
+          "path": "drafts/chat/batch-0006/status.json",
+          "git_blob": "989e690ae4eea2e3ec8d66767f957e396f4800fa",
+          "last_change_commit": "7801e2792b38692334c9bba9e32e9fc3dd06b808",
+          "candidate_git_blob_at_evidence_commit": "4e7b726be77f9985184f930ac0119d226360ebfa",
+          "candidate_alignment": "same"
+        }
+      ]
+    },
+    {
+      "tree": "Producer",
+      "batch": "0007",
+      "candidate_path": "drafts/chat/batch-0007/candidates.jsonl",
+      "candidate_git_blob": "c0ef3099df665e829021cf1f033f889fff925ff5",
+      "candidate_sha256_git_bytes_from_prior_inventory": "358087acaaf86964ad9cd00c36195dd8d8b90fef0bdb86e91743de058bdf745b",
+      "candidate_last_change_commit": "ccc15fbefad342b76f112d7c7d620f17437521c4",
+      "candidate_unchanged_since_structural_evidence": true,
+      "evidence_files": [
+        {
+          "path": "drafts/chat/batch-0007/diversity-audit.json",
+          "git_blob": "0883a82e1ab635be732e2564c4a83f0e17c7d0f1",
+          "last_change_commit": "b53d51dbb58b1ba70291db55a8ff8fcd5f1ce5bb",
+          "candidate_git_blob_at_evidence_commit": "c0ef3099df665e829021cf1f033f889fff925ff5",
+          "candidate_alignment": "same"
+        },
+        {
+          "path": "drafts/chat/batch-0007/qa-report.json",
+          "git_blob": "c7ccc0313317006b70789f6a89ca031d67c697c6",
+          "last_change_commit": "3a821467fc58054cea773d6ab85f1b0c22512549",
+          "candidate_git_blob_at_evidence_commit": "c0ef3099df665e829021cf1f033f889fff925ff5",
+          "candidate_alignment": "same",
+          "report_revision_history": [
+            {
+              "commit": "3a821467fc58054cea773d6ab85f1b0c22512549",
+              "candidate_git_blob": "c0ef3099df665e829021cf1f033f889fff925ff5",
+              "alignment_with_current_candidate": "same"
+            },
+            {
+              "commit": "cac3d9d9c154b25281de833ceb0a031ad709b9e9",
+              "candidate_git_blob": "c0ef3099df665e829021cf1f033f889fff925ff5",
+              "alignment_with_current_candidate": "same"
+            }
+          ]
+        },
+        {
+          "path": "drafts/chat/batch-0007/remediation-queue.json",
+          "git_blob": "181e7efa2dc52b2b6182f11542d03ea54961046f",
+          "last_change_commit": "24a3e0422ddca272f4f82a3ee8fbdbeb82e90096",
+          "candidate_git_blob_at_evidence_commit": "c0ef3099df665e829021cf1f033f889fff925ff5",
+          "candidate_alignment": "same"
+        },
+        {
+          "path": "drafts/chat/batch-0007/status.json",
+          "git_blob": "8a1ea2cddc77865df3260dc6b4ff50134e5db22a",
+          "last_change_commit": "28c7fbd19a052cf336d8857e1cf1331ab9db66ea",
+          "candidate_git_blob_at_evidence_commit": "c0ef3099df665e829021cf1f033f889fff925ff5",
+          "candidate_alignment": "same"
+        }
+      ]
+    },
+    {
+      "tree": "Producer",
+      "batch": "0008",
+      "candidate_path": "drafts/chat/batch-0008/candidates.jsonl",
+      "candidate_git_blob": "49863b1826eecc81e85155e5e709820d1fcb7eba",
+      "candidate_sha256_git_bytes_from_prior_inventory": "89fa5499779151536d61943d6eee984d234ee8c30560afc4029254eb1a815636",
+      "candidate_last_change_commit": "f7c02fe5d985d3f5069fd0f55ec227b4180e802b",
+      "candidate_unchanged_since_structural_evidence": true,
+      "evidence_files": [
+        {
+          "path": "drafts/chat/batch-0008/diversity-audit.json",
+          "git_blob": "1b0c0327f39c460a19b6b977a82c4cd993b7a699",
+          "last_change_commit": "1a114f35716afb7f898d638474517796c9dd999c",
+          "candidate_git_blob_at_evidence_commit": "49863b1826eecc81e85155e5e709820d1fcb7eba",
+          "candidate_alignment": "same"
+        },
+        {
+          "path": "drafts/chat/batch-0008/qa-report.json",
+          "git_blob": "0f4d32c74fcf18852c958649eeb4343f19dd8c48",
+          "last_change_commit": "59bb221f17b3c67f9242c61a4671e63e293d14e2",
+          "candidate_git_blob_at_evidence_commit": "49863b1826eecc81e85155e5e709820d1fcb7eba",
+          "candidate_alignment": "same",
+          "report_revision_history": [
+            {
+              "commit": "59bb221f17b3c67f9242c61a4671e63e293d14e2",
+              "candidate_git_blob": "49863b1826eecc81e85155e5e709820d1fcb7eba",
+              "alignment_with_current_candidate": "same"
+            },
+            {
+              "commit": "206b311ee8b1e56a7db96c71c8499ab002234d9b",
+              "candidate_git_blob": "49863b1826eecc81e85155e5e709820d1fcb7eba",
+              "alignment_with_current_candidate": "same"
+            }
+          ]
+        },
+        {
+          "path": "drafts/chat/batch-0008/remediation-queue.json",
+          "git_blob": "001b0782701af67419fa108db29fcc127417a885",
+          "last_change_commit": "29a22a6ef0a039d5ad0d137c8c6c7001f60f482a",
+          "candidate_git_blob_at_evidence_commit": "49863b1826eecc81e85155e5e709820d1fcb7eba",
+          "candidate_alignment": "same"
+        },
+        {
+          "path": "drafts/chat/batch-0008/status.json",
+          "git_blob": "55a3ac60ceaafeced3e7340b71da1e0f0e3776bc",
+          "last_change_commit": "e41b2214b70917cb86c06a2b0e4fb3ee381ab77a",
+          "candidate_git_blob_at_evidence_commit": "49863b1826eecc81e85155e5e709820d1fcb7eba",
+          "candidate_alignment": "same"
+        }
+      ]
+    },
+    {
+      "tree": "Producer",
+      "batch": "0009",
+      "candidate_path": "drafts/chat/batch-0009/candidates.jsonl",
+      "candidate_git_blob": "1a33731c177634b0f76992137b99c2922b370c6a",
+      "candidate_sha256_git_bytes_from_prior_inventory": "d803abcbf56433461035239c7fffeaf66fe7a44592057edde0008208ea8fb6b2",
+      "candidate_last_change_commit": "5857eb097b926757d4c013758ca8f6044eaf0de5",
+      "candidate_unchanged_since_structural_evidence": true,
+      "evidence_files": [
+        {
+          "path": "drafts/chat/batch-0009/diversity-audit.json",
+          "git_blob": "aa2b165d35b6f5488706480f1052cbe100cbba90",
+          "last_change_commit": "917f01b13dca7fe5a88ab39b51615084d75b71d9",
+          "candidate_git_blob_at_evidence_commit": "1a33731c177634b0f76992137b99c2922b370c6a",
+          "candidate_alignment": "same"
+        },
+        {
+          "path": "drafts/chat/batch-0009/qa-report.json",
+          "git_blob": "0b0744a753c6431655c63b8c928eb3dd46cd5988",
+          "last_change_commit": "dacaf576523df1cf596422f074558608fdc2618d",
+          "candidate_git_blob_at_evidence_commit": "1a33731c177634b0f76992137b99c2922b370c6a",
+          "candidate_alignment": "same",
+          "report_revision_history": [
+            {
+              "commit": "dacaf576523df1cf596422f074558608fdc2618d",
+              "candidate_git_blob": "1a33731c177634b0f76992137b99c2922b370c6a",
+              "alignment_with_current_candidate": "same"
+            },
+            {
+              "commit": "44569dbb87f652de0f84f215e760c26cc0ba3bcb",
+              "candidate_git_blob": "1a33731c177634b0f76992137b99c2922b370c6a",
+              "alignment_with_current_candidate": "same"
+            },
+            {
+              "commit": "1651a08aa51bf95c2ada7394a00078ab5868ab8d",
+              "candidate_git_blob": "a3c57b3ff5f595778b82359b6b1cdb3fd46cb9ee",
+              "alignment_with_current_candidate": "different"
+            }
+          ]
+        },
+        {
+          "path": "drafts/chat/batch-0009/remediation-queue.json",
+          "git_blob": "dbe656f6dcd147b1bbd77397f7d2816a320c4d74",
+          "last_change_commit": "8bed264352834620e39433e0b0ec8253ec1e44cf",
+          "candidate_git_blob_at_evidence_commit": "1a33731c177634b0f76992137b99c2922b370c6a",
+          "candidate_alignment": "same"
+        },
+        {
+          "path": "drafts/chat/batch-0009/status.json",
+          "git_blob": "bfa085ce50d06145c1d8553c4f93f5d05714467c",
+          "last_change_commit": "24d7ebc2b7732e2f7874a7fda075058eaa33799f",
+          "candidate_git_blob_at_evidence_commit": "1a33731c177634b0f76992137b99c2922b370c6a",
+          "candidate_alignment": "same"
+        }
+      ]
+    }
+  ],
+  "e5_baseline_interpretation": {
+    "definition_commit": "7321940354d8bb102f44493bd32a7c4cc9331032",
+    "definition_path": "sentinel_dataset/semantic.py",
+    "definition_git_blob": "5a870b5b75e950e9698043e024722ae49916e657",
+    "indexed_records_definition": "len(vectors), where vectors, hashes = embeddings([*prior, *rows], model_dir, cache_dir)",
+    "scanned_records_definition": "len(rows)",
+    "reported_reference_records": 2000,
+    "reported_candidates": 500,
+    "reported_indexed_records": 2500,
+    "conclusion": "Counts are consistent; this is a code-and-report interpretation, not a rerun or verification of actual reference records."
+  }
+}
