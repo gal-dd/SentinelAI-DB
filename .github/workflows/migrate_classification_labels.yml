@@ -1,0 +1,64 @@
+name: Migrate producer classification labels
+
+on:
+  push:
+    branches: [producer/chat-defense-v2]
+    paths:
+      - scripts/migrate_classification_labels.py
+      - .github/workflows/migrate_classification_labels.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Migrate labels in active producer files
+        run: python -B scripts/migrate_classification_labels.py
+      - name: Validate producer code and classification tests
+        run: |
+          python -B -m compileall -q sentinel_dataset scripts
+          python -B -m unittest discover -s tests -p test_defense_v2.py -v
+      - name: Confirm no legacy classification label values remain in drafts
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          old = {"נמוך", "בינוני", "גבוה", "חמור"}
+          def walk(v, key=None):
+              if isinstance(v, dict):
+                  return any(walk(item, k) for k, item in v.items())
+              if isinstance(v, list):
+                  return any(walk(item, key) for item in v)
+              return key in {"label", "סיווג", "classification", "expected_label", "predicted_label"} and v in old
+          for path in Path("drafts").rglob("*"):
+              if not path.is_file() or path.suffix not in (".json", ".jsonl"):
+                  continue
+              if path.suffix == ".json":
+                  values = [json.loads(path.read_text(encoding="utf-8"))]
+              else:
+                  values = [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l.strip()]
+              if any(walk(value) for value in values):
+                  raise SystemExit(f"Legacy classification label in {path}")
+          print("Producer draft label audit passed")
+          PY
+      - name: Commit verified migration
+        shell: bash
+        run: |
+          git diff --check
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data metadata reports drafts config progress.json 2>/dev/null || git add data metadata reports drafts config
+          if ! git diff --cached --quiet; then
+            git commit -m "data: migrate producer labels to canonical Hebrew levels"
+            git push origin HEAD:producer/chat-defense-v2
+          fi
