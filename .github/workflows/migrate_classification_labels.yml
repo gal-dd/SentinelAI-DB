@@ -1,0 +1,38 @@
+name: Migrate historical classification labels
+
+on:
+  push:
+    branches: [producer/chat]
+    paths:
+      - .github/workflows/migrate_classification_labels.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Convert labels and regenerate hashes
+        run: python -B scripts/migrate_classification_labels.py
+      - name: Verify all signed checkpoints and pilot
+        run: python -B -m sentinel_dataset verify
+      - name: Check and commit verified conversion
+        shell: bash
+        run: |
+          git diff --check
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -u
+          if ! git diff --cached --quiet; then
+            git commit -m "data: update historical classification labels and SHA-256 manifests"
+            git push origin HEAD:producer/chat
+          fi
