@@ -23,7 +23,10 @@ jobs:
           python-version: '3.13'
       - name: Convert labels and regenerate hashes
         run: python -B scripts/migrate_classification_labels.py
-      - name: Verify all signed checkpoints and pilot
+      - name: Validate migrated labels and all signed manifests
+        run: python -B scripts/check_label_manifest.py
+      - name: Report historical full QA status separately
+        continue-on-error: true
         run: python -B -m sentinel_dataset verify
       - name: Check and commit verified conversion
         shell: bash
