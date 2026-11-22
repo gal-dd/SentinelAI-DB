@@ -5,7 +5,7 @@ from unittest.mock import patch
 from sentinel_dataset.preflight import analyze, _blocks, _sentences
 
 
-def candidate(text, label="נמוך", length="paragraph", domain="missile_systems"):
+def candidate(text, label="בלמס", length="paragraph", domain="missile_systems"):
     return {"text": text, "label": label, "length": length, "primary_domain": domain}
 
 
@@ -46,7 +46,7 @@ class PreflightTests(unittest.TestCase):
             "sentinel_dataset.preflight.validate_document_form"
         ):
             out = analyze([candidate("מסמך קצר", length="short")],
-                          expected_lengths={"נמוך": [7, 50, 43, 25]},
+                          expected_lengths={"בלמס": [7, 50, 43, 25]},
                           scenarios={}, sources={})
         self.assertTrue(any(x["code"] == "length_quota" for x in out["errors"]))
 
