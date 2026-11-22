@@ -1,0 +1,34 @@
+{
+  "mg-nike": {
+    "title": "Nike Missile Site SF-88",
+    "publisher": "National Park Service",
+    "url": "https://www.nps.gov/places/000/nike-missile-site-sf-88.htm",
+    "license": "Original Hebrew factual paraphrase",
+    "terms_url": "https://www.nps.gov/places/000/nike-missile-site-sf-88.htm",
+    "source_group_id": "mg-source-nike"
+  },
+  "mg-v2": {
+    "title": "Missile, Surface-to-Surface, V-2 (A-4)",
+    "publisher": "Smithsonian Institution",
+    "url": "https://www.si.edu/object/nasm_A19600342000",
+    "license": "Original Hebrew factual paraphrase",
+    "terms_url": "https://www.si.edu/object/nasm_A19600342000",
+    "source_group_id": "mg-source-v2"
+  },
+  "mg-cuba": {
+    "title": "Cuban Missile Crisis",
+    "publisher": "US National Archives",
+    "url": "https://www.archives.gov/news/topics/cuban-missile-crisis",
+    "license": "Original Hebrew factual paraphrase",
+    "terms_url": "https://www.archives.gov/news/topics/cuban-missile-crisis",
+    "source_group_id": "mg-source-cuba"
+  },
+  "mg-inf": {
+    "title": "A/50/377, section on the INF Treaty",
+    "publisher": "United Nations",
+    "url": "https://digitallibrary.un.org/record/199960/files/A_50_377-EN.pdf",
+    "license": "Original Hebrew factual paraphrase",
+    "terms_url": "https://digitallibrary.un.org/record/199960/files/A_50_377-EN.pdf",
+    "source_group_id": "mg-source-inf"
+  }
+}

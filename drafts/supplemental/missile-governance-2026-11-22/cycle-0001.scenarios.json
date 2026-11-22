@@ -1,0 +1,602 @@
+{
+  "mg-20261122-01-1": {
+    "source_group_id": "mg-source-nike",
+    "source_id": "mg-nike",
+    "description": "עקיבות מדידות",
+    "fictional": false
+  },
+  "mg-20261122-01-2": {
+    "source_group_id": "mg-20261122-family-01",
+    "source_id": null,
+    "description": "עקיבות מדידות",
+    "fictional": true
+  },
+  "mg-20261122-01-3": {
+    "source_group_id": "mg-20261122-family-01",
+    "source_id": null,
+    "description": "עקיבות מדידות",
+    "fictional": true
+  },
+  "mg-20261122-01-4": {
+    "source_group_id": "mg-20261122-family-01",
+    "source_id": null,
+    "description": "עקיבות מדידות",
+    "fictional": true
+  },
+  "mg-20261122-02-1": {
+    "source_group_id": "mg-source-v2",
+    "source_id": "mg-v2",
+    "description": "תוקף חתימה",
+    "fictional": false
+  },
+  "mg-20261122-02-2": {
+    "source_group_id": "mg-20261122-family-02",
+    "source_id": null,
+    "description": "תוקף חתימה",
+    "fictional": true
+  },
+  "mg-20261122-02-3": {
+    "source_group_id": "mg-20261122-family-02",
+    "source_id": null,
+    "description": "תוקף חתימה",
+    "fictional": true
+  },
+  "mg-20261122-02-4": {
+    "source_group_id": "mg-20261122-family-02",
+    "source_id": null,
+    "description": "תוקף חתימה",
+    "fictional": true
+  },
+  "mg-20261122-03-1": {
+    "source_group_id": "mg-source-cuba",
+    "source_id": "mg-cuba",
+    "description": "גרסת דרישות",
+    "fictional": false
+  },
+  "mg-20261122-03-2": {
+    "source_group_id": "mg-20261122-family-03",
+    "source_id": null,
+    "description": "גרסת דרישות",
+    "fictional": true
+  },
+  "mg-20261122-03-3": {
+    "source_group_id": "mg-20261122-family-03",
+    "source_id": null,
+    "description": "גרסת דרישות",
+    "fictional": true
+  },
+  "mg-20261122-03-4": {
+    "source_group_id": "mg-20261122-family-03",
+    "source_id": null,
+    "description": "גרסת דרישות",
+    "fictional": true
+  },
+  "mg-20261122-04-1": {
+    "source_group_id": "mg-source-inf",
+    "source_id": "mg-inf",
+    "description": "יומן הסתייגויות",
+    "fictional": false
+  },
+  "mg-20261122-04-2": {
+    "source_group_id": "mg-20261122-family-04",
+    "source_id": null,
+    "description": "יומן הסתייגויות",
+    "fictional": true
+  },
+  "mg-20261122-04-3": {
+    "source_group_id": "mg-20261122-family-04",
+    "source_id": null,
+    "description": "יומן הסתייגויות",
+    "fictional": true
+  },
+  "mg-20261122-04-4": {
+    "source_group_id": "mg-20261122-family-04",
+    "source_id": null,
+    "description": "יומן הסתייגויות",
+    "fictional": true
+  },
+  "mg-20261122-05-1": {
+    "source_group_id": "mg-source-inf",
+    "source_id": "mg-inf",
+    "description": "ספק ביקורת",
+    "fictional": false
+  },
+  "mg-20261122-05-2": {
+    "source_group_id": "mg-20261122-family-05",
+    "source_id": null,
+    "description": "ספק ביקורת",
+    "fictional": true
+  },
+  "mg-20261122-05-3": {
+    "source_group_id": "mg-20261122-family-05",
+    "source_id": null,
+    "description": "ספק ביקורת",
+    "fictional": true
+  },
+  "mg-20261122-05-4": {
+    "source_group_id": "mg-20261122-family-05",
+    "source_id": null,
+    "description": "ספק ביקורת",
+    "fictional": true
+  },
+  "mg-20261122-06-1": {
+    "source_group_id": "mg-20261122-family-06",
+    "source_id": null,
+    "description": "תקציב שימור",
+    "fictional": true
+  },
+  "mg-20261122-06-2": {
+    "source_group_id": "mg-20261122-family-06",
+    "source_id": null,
+    "description": "תקציב שימור",
+    "fictional": true
+  },
+  "mg-20261122-06-3": {
+    "source_group_id": "mg-20261122-family-06",
+    "source_id": null,
+    "description": "תקציב שימור",
+    "fictional": true
+  },
+  "mg-20261122-06-4": {
+    "source_group_id": "mg-20261122-family-06",
+    "source_id": null,
+    "description": "תקציב שימור",
+    "fictional": true
+  },
+  "mg-20261122-07-1": {
+    "source_group_id": "mg-20261122-family-07",
+    "source_id": null,
+    "description": "גיבוי ארכיון",
+    "fictional": true
+  },
+  "mg-20261122-07-2": {
+    "source_group_id": "mg-20261122-family-07",
+    "source_id": null,
+    "description": "גיבוי ארכיון",
+    "fictional": true
+  },
+  "mg-20261122-07-3": {
+    "source_group_id": "mg-20261122-family-07",
+    "source_id": null,
+    "description": "גיבוי ארכיון",
+    "fictional": true
+  },
+  "mg-20261122-07-4": {
+    "source_group_id": "mg-20261122-family-07",
+    "source_id": null,
+    "description": "גיבוי ארכיון",
+    "fictional": true
+  },
+  "mg-20261122-08-1": {
+    "source_group_id": "mg-20261122-family-08",
+    "source_id": null,
+    "description": "חיסיון חוקרים",
+    "fictional": true
+  },
+  "mg-20261122-08-2": {
+    "source_group_id": "mg-20261122-family-08",
+    "source_id": null,
+    "description": "חיסיון חוקרים",
+    "fictional": true
+  },
+  "mg-20261122-08-3": {
+    "source_group_id": "mg-20261122-family-08",
+    "source_id": null,
+    "description": "חיסיון חוקרים",
+    "fictional": true
+  },
+  "mg-20261122-08-4": {
+    "source_group_id": "mg-20261122-family-08",
+    "source_id": null,
+    "description": "חיסיון חוקרים",
+    "fictional": true
+  },
+  "mg-20261122-09-1": {
+    "source_group_id": "mg-20261122-family-09",
+    "source_id": null,
+    "description": "בחירת ועדה",
+    "fictional": true
+  },
+  "mg-20261122-09-2": {
+    "source_group_id": "mg-20261122-family-09",
+    "source_id": null,
+    "description": "בחירת ועדה",
+    "fictional": true
+  },
+  "mg-20261122-09-3": {
+    "source_group_id": "mg-20261122-family-09",
+    "source_id": null,
+    "description": "בחירת ועדה",
+    "fictional": true
+  },
+  "mg-20261122-09-4": {
+    "source_group_id": "mg-20261122-family-09",
+    "source_id": null,
+    "description": "בחירת ועדה",
+    "fictional": true
+  },
+  "mg-20261122-10-1": {
+    "source_group_id": "mg-20261122-family-10",
+    "source_id": null,
+    "description": "תרגום חוזה",
+    "fictional": true
+  },
+  "mg-20261122-10-2": {
+    "source_group_id": "mg-20261122-family-10",
+    "source_id": null,
+    "description": "תרגום חוזה",
+    "fictional": true
+  },
+  "mg-20261122-10-3": {
+    "source_group_id": "mg-20261122-family-10",
+    "source_id": null,
+    "description": "תרגום חוזה",
+    "fictional": true
+  },
+  "mg-20261122-10-4": {
+    "source_group_id": "mg-20261122-family-10",
+    "source_id": null,
+    "description": "תרגום חוזה",
+    "fictional": true
+  },
+  "mg-20261122-11-1": {
+    "source_group_id": "mg-20261122-family-11",
+    "source_id": null,
+    "description": "היתר צילום",
+    "fictional": true
+  },
+  "mg-20261122-11-2": {
+    "source_group_id": "mg-20261122-family-11",
+    "source_id": null,
+    "description": "היתר צילום",
+    "fictional": true
+  },
+  "mg-20261122-11-3": {
+    "source_group_id": "mg-20261122-family-11",
+    "source_id": null,
+    "description": "היתר צילום",
+    "fictional": true
+  },
+  "mg-20261122-11-4": {
+    "source_group_id": "mg-20261122-family-11",
+    "source_id": null,
+    "description": "היתר צילום",
+    "fictional": true
+  },
+  "mg-20261122-12-1": {
+    "source_group_id": "mg-20261122-family-12",
+    "source_id": null,
+    "description": "מעמד מדגם",
+    "fictional": true
+  },
+  "mg-20261122-12-2": {
+    "source_group_id": "mg-20261122-family-12",
+    "source_id": null,
+    "description": "מעמד מדגם",
+    "fictional": true
+  },
+  "mg-20261122-12-3": {
+    "source_group_id": "mg-20261122-family-12",
+    "source_id": null,
+    "description": "מעמד מדגם",
+    "fictional": true
+  },
+  "mg-20261122-12-4": {
+    "source_group_id": "mg-20261122-family-12",
+    "source_id": null,
+    "description": "מעמד מדגם",
+    "fictional": true
+  },
+  "mg-20261122-13-1": {
+    "source_group_id": "mg-20261122-family-13",
+    "source_id": null,
+    "description": "רצף מסירה",
+    "fictional": true
+  },
+  "mg-20261122-13-2": {
+    "source_group_id": "mg-20261122-family-13",
+    "source_id": null,
+    "description": "רצף מסירה",
+    "fictional": true
+  },
+  "mg-20261122-13-3": {
+    "source_group_id": "mg-20261122-family-13",
+    "source_id": null,
+    "description": "רצף מסירה",
+    "fictional": true
+  },
+  "mg-20261122-13-4": {
+    "source_group_id": "mg-20261122-family-13",
+    "source_id": null,
+    "description": "רצף מסירה",
+    "fictional": true
+  },
+  "mg-20261122-14-1": {
+    "source_group_id": "mg-20261122-family-14",
+    "source_id": null,
+    "description": "מועדי ערר",
+    "fictional": true
+  },
+  "mg-20261122-14-2": {
+    "source_group_id": "mg-20261122-family-14",
+    "source_id": null,
+    "description": "מועדי ערר",
+    "fictional": true
+  },
+  "mg-20261122-14-3": {
+    "source_group_id": "mg-20261122-family-14",
+    "source_id": null,
+    "description": "מועדי ערר",
+    "fictional": true
+  },
+  "mg-20261122-14-4": {
+    "source_group_id": "mg-20261122-family-14",
+    "source_id": null,
+    "description": "מועדי ערר",
+    "fictional": true
+  },
+  "mg-20261122-15-1": {
+    "source_group_id": "mg-20261122-family-15",
+    "source_id": null,
+    "description": "תיעוד פסילות",
+    "fictional": true
+  },
+  "mg-20261122-15-2": {
+    "source_group_id": "mg-20261122-family-15",
+    "source_id": null,
+    "description": "תיעוד פסילות",
+    "fictional": true
+  },
+  "mg-20261122-15-3": {
+    "source_group_id": "mg-20261122-family-15",
+    "source_id": null,
+    "description": "תיעוד פסילות",
+    "fictional": true
+  },
+  "mg-20261122-15-4": {
+    "source_group_id": "mg-20261122-family-15",
+    "source_id": null,
+    "description": "תיעוד פסילות",
+    "fictional": true
+  },
+  "mg-20261122-16-1": {
+    "source_group_id": "mg-20261122-family-16",
+    "source_id": null,
+    "description": "מועד פרסום",
+    "fictional": true
+  },
+  "mg-20261122-16-2": {
+    "source_group_id": "mg-20261122-family-16",
+    "source_id": null,
+    "description": "מועד פרסום",
+    "fictional": true
+  },
+  "mg-20261122-16-3": {
+    "source_group_id": "mg-20261122-family-16",
+    "source_id": null,
+    "description": "מועד פרסום",
+    "fictional": true
+  },
+  "mg-20261122-16-4": {
+    "source_group_id": "mg-20261122-family-16",
+    "source_id": null,
+    "description": "מועד פרסום",
+    "fictional": true
+  },
+  "mg-20261122-17-1": {
+    "source_group_id": "mg-20261122-family-17",
+    "source_id": null,
+    "description": "רציפות ביקורת",
+    "fictional": true
+  },
+  "mg-20261122-17-2": {
+    "source_group_id": "mg-20261122-family-17",
+    "source_id": null,
+    "description": "רציפות ביקורת",
+    "fictional": true
+  },
+  "mg-20261122-17-3": {
+    "source_group_id": "mg-20261122-family-17",
+    "source_id": null,
+    "description": "רציפות ביקורת",
+    "fictional": true
+  },
+  "mg-20261122-17-4": {
+    "source_group_id": "mg-20261122-family-17",
+    "source_id": null,
+    "description": "רציפות ביקורת",
+    "fictional": true
+  },
+  "mg-20261122-18-1": {
+    "source_group_id": "mg-20261122-family-18",
+    "source_id": null,
+    "description": "שחזור החלטות",
+    "fictional": true
+  },
+  "mg-20261122-18-2": {
+    "source_group_id": "mg-20261122-family-18",
+    "source_id": null,
+    "description": "שחזור החלטות",
+    "fictional": true
+  },
+  "mg-20261122-18-3": {
+    "source_group_id": "mg-20261122-family-18",
+    "source_id": null,
+    "description": "שחזור החלטות",
+    "fictional": true
+  },
+  "mg-20261122-18-4": {
+    "source_group_id": "mg-20261122-family-18",
+    "source_id": null,
+    "description": "שחזור החלטות",
+    "fictional": true
+  },
+  "mg-20261122-19-1": {
+    "source_group_id": "mg-20261122-family-19",
+    "source_id": null,
+    "description": "זכות תגובה",
+    "fictional": true
+  },
+  "mg-20261122-19-2": {
+    "source_group_id": "mg-20261122-family-19",
+    "source_id": null,
+    "description": "זכות תגובה",
+    "fictional": true
+  },
+  "mg-20261122-19-3": {
+    "source_group_id": "mg-20261122-family-19",
+    "source_id": null,
+    "description": "זכות תגובה",
+    "fictional": true
+  },
+  "mg-20261122-19-4": {
+    "source_group_id": "mg-20261122-family-19",
+    "source_id": null,
+    "description": "זכות תגובה",
+    "fictional": true
+  },
+  "mg-20261122-20-1": {
+    "source_group_id": "mg-20261122-family-20",
+    "source_id": null,
+    "description": "חשיפת הצבעה",
+    "fictional": true
+  },
+  "mg-20261122-20-2": {
+    "source_group_id": "mg-20261122-family-20",
+    "source_id": null,
+    "description": "חשיפת הצבעה",
+    "fictional": true
+  },
+  "mg-20261122-20-3": {
+    "source_group_id": "mg-20261122-family-20",
+    "source_id": null,
+    "description": "חשיפת הצבעה",
+    "fictional": true
+  },
+  "mg-20261122-20-4": {
+    "source_group_id": "mg-20261122-family-20",
+    "source_id": null,
+    "description": "חשיפת הצבעה",
+    "fictional": true
+  },
+  "mg-20261122-21-1": {
+    "source_group_id": "mg-20261122-family-21",
+    "source_id": null,
+    "description": "מקור מצג",
+    "fictional": true
+  },
+  "mg-20261122-21-2": {
+    "source_group_id": "mg-20261122-family-21",
+    "source_id": null,
+    "description": "מקור מצג",
+    "fictional": true
+  },
+  "mg-20261122-21-3": {
+    "source_group_id": "mg-20261122-family-21",
+    "source_id": null,
+    "description": "מקור מצג",
+    "fictional": true
+  },
+  "mg-20261122-21-4": {
+    "source_group_id": "mg-20261122-family-21",
+    "source_id": null,
+    "description": "מקור מצג",
+    "fictional": true
+  },
+  "mg-20261122-22-1": {
+    "source_group_id": "mg-20261122-family-22",
+    "source_id": null,
+    "description": "דיון השאלה",
+    "fictional": true
+  },
+  "mg-20261122-22-2": {
+    "source_group_id": "mg-20261122-family-22",
+    "source_id": null,
+    "description": "דיון השאלה",
+    "fictional": true
+  },
+  "mg-20261122-22-3": {
+    "source_group_id": "mg-20261122-family-22",
+    "source_id": null,
+    "description": "דיון השאלה",
+    "fictional": true
+  },
+  "mg-20261122-22-4": {
+    "source_group_id": "mg-20261122-family-22",
+    "source_id": null,
+    "description": "דיון השאלה",
+    "fictional": true
+  },
+  "mg-20261122-23-1": {
+    "source_group_id": "mg-20261122-family-23",
+    "source_id": null,
+    "description": "הפרדת תפקידים",
+    "fictional": true
+  },
+  "mg-20261122-23-2": {
+    "source_group_id": "mg-20261122-family-23",
+    "source_id": null,
+    "description": "הפרדת תפקידים",
+    "fictional": true
+  },
+  "mg-20261122-23-3": {
+    "source_group_id": "mg-20261122-family-23",
+    "source_id": null,
+    "description": "הפרדת תפקידים",
+    "fictional": true
+  },
+  "mg-20261122-23-4": {
+    "source_group_id": "mg-20261122-family-23",
+    "source_id": null,
+    "description": "הפרדת תפקידים",
+    "fictional": true
+  },
+  "mg-20261122-24-1": {
+    "source_group_id": "mg-20261122-family-24",
+    "source_id": null,
+    "description": "העברת זכויות",
+    "fictional": true
+  },
+  "mg-20261122-24-2": {
+    "source_group_id": "mg-20261122-family-24",
+    "source_id": null,
+    "description": "העברת זכויות",
+    "fictional": true
+  },
+  "mg-20261122-24-3": {
+    "source_group_id": "mg-20261122-family-24",
+    "source_id": null,
+    "description": "העברת זכויות",
+    "fictional": true
+  },
+  "mg-20261122-24-4": {
+    "source_group_id": "mg-20261122-family-24",
+    "source_id": null,
+    "description": "העברת זכויות",
+    "fictional": true
+  },
+  "mg-20261122-25-1": {
+    "source_group_id": "mg-20261122-family-25",
+    "source_id": null,
+    "description": "הסכמת עדים",
+    "fictional": true
+  },
+  "mg-20261122-25-2": {
+    "source_group_id": "mg-20261122-family-25",
+    "source_id": null,
+    "description": "הסכמת עדים",
+    "fictional": true
+  },
+  "mg-20261122-25-3": {
+    "source_group_id": "mg-20261122-family-25",
+    "source_id": null,
+    "description": "הסכמת עדים",
+    "fictional": true
+  },
+  "mg-20261122-25-4": {
+    "source_group_id": "mg-20261122-family-25",
+    "source_id": null,
+    "description": "הסכמת עדים",
+    "fictional": true
+  }
+}
