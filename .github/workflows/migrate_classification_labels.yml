@@ -1,0 +1,41 @@
+name: Migrate classification labels
+
+on:
+  push:
+    branches: [poc/defense-focused-v2]
+    paths:
+      - scripts/migrate_classification_labels.py
+      - .github/workflows/migrate_classification_labels.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Migrate active label fields and rebuild integrity manifest
+        run: python -B scripts/migrate_classification_labels.py
+      - name: Verify dataset and signed checkpoints
+        run: python -B -m sentinel_dataset verify
+      - name: Run classification and domain tests
+        run: python -B -m unittest discover -s tests -p test_defense_v2.py -v
+      - name: Check staged changes and publish migration
+        shell: bash
+        run: |
+          git diff --check
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data metadata reports drafts config progress.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: migrate classification labels and rebuild SHA-256 manifests"
+            git push origin HEAD:poc/defense-focused-v2
+          fi
