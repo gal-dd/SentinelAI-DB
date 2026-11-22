@@ -9,7 +9,7 @@ import subprocess
 from tempfile import NamedTemporaryFile
 
 from .core import (PLAN, ROOT, check_quotas, export_rows, json_bytes, jsonl_bytes,
-                   load_saved, metadata_rows, read_json)
+                   load_saved, metadata_rows, read_json, canonical_label)
 from .production import add_counts, plan_lengths
 
 from .domains import CONFIG_PATH, TARGETS, require_coverage, verify_domain_review
@@ -104,7 +104,7 @@ def load_progress(root=ROOT):
             raise ValueError(f"Incorrect checkpoint size: {index}")
         report = read_json(root / paths[2])
         domains = require_coverage(rows)
-        if any(report.get(key) != value for key, value in domains.items()):
+        if any((({d: {canonical_label(label): n for label, n in counts.items()} for d, counts in report.get(key, {}).items()} if key == "domain_label_counts" else report.get(key)) != value) for key, value in domains.items()):
             raise ValueError(f"Invalid domain metrics in checkpoint {index}")
         domain_review = verify_domain_review(rows, index, report.get("domain_review", {}).get("records"))
         if report["domain_review"] != domain_review:

@@ -27,7 +27,7 @@ class DefenseV2Tests(unittest.TestCase):
                 cp.active_path(root / "archive/general-v1" / cp.PILOT_DATA, root)
 
     def test_exact_duplicates_only_against_active_rows(self):
-        row = {"primary_domain": "missile_systems", "label": "נמוך", "text": "מושגי יסוד ביירוט",
+        row = {"primary_domain": "missile_systems", "label": "בלמס", "text": "מושגי יסוד ביירוט",
                "length": "short", "origin": "synthetic", "scenario_id": "explain",
                "source_group_id": "explain", "style": "glossary", "rationale": "עיון פומבי",
                "edge_case": False, "pair_id": None, "source_id": None}

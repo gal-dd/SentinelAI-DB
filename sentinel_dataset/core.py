@@ -10,6 +10,12 @@ import unicodedata
 ROOT = Path(__file__).resolve().parents[1]
 PLAN = json.loads((ROOT / "config/plan.json").read_text(encoding="utf-8"))
 LABELS = tuple(PLAN["pilot"]["label_lengths"])
+# Preserve previously signed checkpoint review identities while exposing canonical labels.
+LEGACY_LABELS = {"בלמס": "נמוך", "שמור": "בינוני", "סודי": "גבוה", "סודי ביותר": "חמור"}
+CANONICAL_LABELS = {old: new for new, old in LEGACY_LABELS.items()}
+
+def canonical_label(value):
+    return CANONICAL_LABELS.get(value, value)
 LENGTHS = tuple(PLAN["lengths"])
 ORIGINS = tuple(PLAN["pilot"]["origins"])
 CANDIDATE_FIELDS = {
@@ -66,7 +72,11 @@ def length_of(text):
 
 
 def fingerprint(row):
-    return digest(row)
+    # Checkpoint review evidence was signed with the original labels.
+    # Keep those digest identities stable for historical and newly reviewed rows.
+    legacy_row = dict(row)
+    legacy_row["label"] = LEGACY_LABELS.get(row["label"], row["label"])
+    return digest(legacy_row)
 
 
 def shape(text):
@@ -193,7 +203,7 @@ def validate_row(row, scenarios, sources):
         source = sources.get(row["source_id"])
         if not source or not all(source.get(k) for k in ("title", "publisher", "url", "license", "terms_url")):
             raise ValueError("Public content requires a registered source and terms")
-        if row["label"] != "נמוך":
+        if row["label"] != "בלמס":
             raise ValueError("Public adaptations contain only public facts")
         if row["source_id"] != scenario.get("source_id", row["scenario_id"]):
             raise ValueError("Public source differs from its registered scenario")
@@ -296,6 +306,6 @@ def load_saved(data_path, metadata_path, first_id):
         row = {key: details[key] for key in CANDIDATE_FIELDS - {"text", "label"}}
         if "secondary_domains" in details:
             row["secondary_domains"] = details["secondary_domains"]
-        row.update(text=item["אובייקט"], label=item["סיווג"])
+        row.update(text=item["אובייקט"], label=canonical_label(item["סיווג"]))
         rows.append(row)
     return rows
