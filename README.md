@@ -1,6 +1,6 @@
 # SentinelAI-DB
 
-תהליך ייצור ושחזור של מאגר POC לסיווג רגישות טקסט בעברית. ארבע הרמות הן נמוך, בינוני, גבוה וחמור. הטקסטים הפנימיים בדיוניים. היעד הוא 100,000 רשומות מאוזנות.
+תהליך ייצור ושחזור של מאגר POC לסיווג רגישות טקסט בעברית. ארבע הרמות הן בלמס, שמור, סודי וסודי ביותר. הטקסטים הפנימיים בדיוניים. היעד הוא 100,000 רשומות מאוזנות.
 
 | מסמך | תוכן |
 |---|---|
@@ -71,7 +71,7 @@ curl -fL "$base/onnx/model_int8.onnx" -o .poc-local/e5/model_int8.onnx
 דוגמת `.poc-local/job.json`:
 
 ```json
-{"scenario_id":"YOUR_REGISTERED_SCENARIO","primary_domain":"missile_systems","label":"בינוני","length":"sentence","origin":"synthetic","count":8}
+{"scenario_id":"YOUR_REGISTERED_SCENARIO","primary_domain":"missile_systems","label":"שמור","length":"sentence","origin":"synthetic","count":8}
 ```
 
 אפשר להגדיר `labels` במקום `label` עבור קבוצה שמכילה יותר מרמה אחת. זוג נגדי חייב להופיע בשלמותו באותה קריאה ובאותה מנת checkpoint. שמרו כל קריאה בקובץ נפרד. הכניסו למנה 500 מועמדים בדיוק אחרי סינון מקדים, בהתאם למכסות שנותרו ב־`config/plan.json` ובפלט `verify`.
