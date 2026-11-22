@@ -1,0 +1,31 @@
+name: Draft intake reconciliation
+
+on:
+  push:
+    branches: [poc/defense-focused-v2]
+    paths:
+      - scripts/audit_draft_intake.py
+      - .github/workflows/draft_intake_reconciliation.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version-file: .python-version
+      - name: Fetch producer draft branch read-only
+        run: git fetch origin refs/heads/producer/chat-defense-v2:refs/remotes/origin/producer/chat-defense-v2
+      - name: Validate external cohort and report draft readiness
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -B -m scripts.audit_draft_intake
