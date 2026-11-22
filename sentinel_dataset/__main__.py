@@ -67,6 +67,8 @@ def prepare(args, state, prior, pilot):
     for row in rows:
         validate_row(row, scenarios, sources)
         validate_document_form(row)
+    from .core import reject_external_text_duplicates
+    reject_external_text_duplicates(rows, cp.load_external_imports(state))
     expected_lengths = state["length_plan"]["next_checkpoint_label_lengths"]
     if stats(rows)["label_lengths"] != expected_lengths:
         raise ValueError(f"Checkpoint does not match the planned label/length quotas: {expected_lengths}")
