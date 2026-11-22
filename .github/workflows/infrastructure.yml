@@ -1,5 +1,9 @@
 name: Infrastructure
 
+env:
+  PYTHONIOENCODING: utf-8
+  PYTHONUTF8: '1'
+
 on:
   push:
     branches: [poc/defense-focused-v2]
