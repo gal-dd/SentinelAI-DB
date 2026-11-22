@@ -39,6 +39,13 @@ class DefenseV2Tests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "Exact duplicate"):
                 validate_rows([row], {"explain": {}}, {}, [row])
 
+    def test_external_exact_text_guard_uses_canonical_normalization(self):
+        from sentinel_dataset.core import reject_external_text_duplicates
+        imported = [{"ID": 2501, "אובייקט": "מוזיאון  טילים ציבורי", "סיווג": "בלמס"}]
+        with self.assertRaisesRegex(ValueError, "external ID 2501"):
+            reject_external_text_duplicates([{"text": "מוזיאון טילים ציבורי"}], imported)
+        reject_external_text_duplicates([{"text": "מאמר היסטורי נוסף"}], imported)
+
     def test_domain_counts_and_missile_floor(self):
         rows = self.rows()
         metrics = require_coverage(rows)
