@@ -59,6 +59,21 @@ def normalize(text):
     return " ".join(WORD.findall(stripped))
 
 
+def reject_external_text_duplicates(candidates, external_rows):
+    """Prevent adding reviewed candidates already present in unreviewed external imports.
+
+    External items use the published {ID, אובייקט, סיווג} schema and must not
+    be treated as previously approved review records.
+    """
+    existing = {normalize(row["אובייקט"]): row["ID"] for row in external_rows}
+    for position, row in enumerate(candidates, 1):
+        previous_id = existing.get(normalize(row["text"]))
+        if previous_id is not None:
+            raise ValueError(
+                f"Candidate {position}: exact normalized text duplicate of external ID {previous_id}"
+            )
+
+
 def word_count(text):
     return len(normalize(text).split())
 
