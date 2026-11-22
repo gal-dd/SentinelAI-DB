@@ -21,25 +21,25 @@
     "final_ids_assigned": false
   },
   "label_length_matrix": {
-    "נמוך": {
+    "בלמס": {
       "short": 6,
       "sentence": 50,
       "paragraph": 44,
       "long": 25
     },
-    "בינוני": {
+    "שמור": {
       "short": 6,
       "sentence": 50,
       "paragraph": 44,
       "long": 25
     },
-    "גבוה": {
+    "סודי": {
       "short": 6,
       "sentence": 50,
       "paragraph": 44,
       "long": 25
     },
-    "חמור": {
+    "סודי ביותר": {
       "short": 6,
       "sentence": 50,
       "paragraph": 44,
@@ -61,168 +61,168 @@
     "samples": [
       {
         "record": 1,
-        "label": "נמוך",
+        "label": "בלמס",
         "length": "short",
         "scenario": "public-data-workshop",
         "opening": "מדריך ציבורי למיון פסולת"
       },
       {
         "record": 8,
-        "label": "נמוך",
+        "label": "בלמס",
         "length": "long",
         "scenario": "botany",
         "opening": "עלון המרכז מספר על מתנדבים שבנו ערוגת תבלינים משותפת בחצר הקהילתית. הפרויקט כלל בחירה של צ"
       },
       {
         "record": 36,
-        "label": "נמוך",
+        "label": "בלמס",
         "length": "sentence",
         "scenario": "public-data-workshop",
         "opening": "בחוג האמנות הכינו הילדים קישוטי נייר עם דגמים חוזרים של משולשים."
       },
       {
         "record": 71,
-        "label": "נמוך",
+        "label": "בלמס",
         "length": "paragraph",
         "scenario": "river",
         "opening": "במרכז המבקרים הוצגה מפה מאוירת של נחל דמיוני. לאורך המפה סומנו גשרים, ספסלים ועצים שאינם ק"
       },
       {
         "record": 101,
-        "label": "נמוך",
+        "label": "בלמס",
         "length": "sentence",
         "scenario": "library",
         "opening": "במרכז המבקרים הכינו פינת התנסות בקריאת לוחות זמנים של אוטובוסים דמיוניים. כל ילד בחר תחנה "
       },
       {
         "record": 125,
-        "label": "נמוך",
+        "label": "בלמס",
         "length": "paragraph",
         "scenario": "museum",
         "opening": "במרכז המדעי פתחו תחנה המוקדשת למבנה של פתיתי שלג. על המסך הוצגו איורים מוגדלים וציורים שנו"
       },
       {
         "record": 126,
-        "label": "בינוני",
+        "label": "שמור",
         "length": "short",
         "scenario": "civic-currents-board",
         "opening": "סיכום חפיפה לצוות האירוע"
       },
       {
         "record": 133,
-        "label": "בינוני",
+        "label": "שמור",
         "length": "paragraph",
         "scenario": "stage",
         "opening": "במהלך חזרת המופע נמצא שבדף הבמה מופיע סדר כניסות ישן. מנהלת הבמה ביקשה לבדוק את הגרסה שאוש"
       },
       {
         "record": 161,
-        "label": "בינוני",
+        "label": "שמור",
         "length": "paragraph",
         "scenario": "library",
         "opening": "המדריכים התבקשו לספור את כרטיסי התרגול לפני חלוקת הערכות למשתתפים. הספירה תיערך לפי סוגי ה"
       },
       {
         "record": 196,
-        "label": "בינוני",
+        "label": "שמור",
         "length": "paragraph",
         "scenario": "school",
         "opening": "המדריכה בדקה את כרטיסי המשחק שיכללו בערכת ההכשרה וגילתה שני כרטיסים כפולים. היא ביקשה להחל"
       },
       {
         "record": 226,
-        "label": "בינוני",
+        "label": "שמור",
         "length": "sentence",
         "scenario": "school",
         "opening": "במרכז ההוראה התבקשו המדריכים לעדכן את דפי התרגול לשנת הלימודים החדשה. חלק מהדפים הציגו איו"
       },
       {
         "record": 250,
-        "label": "בינוני",
+        "label": "שמור",
         "length": "long",
         "scenario": "school",
         "opening": "בחדרי ההדרכה של מרכז למידה הותקנו לאחרונה מסכים חדשים. חלק מן המדריכים הבחינו שכותרות ארוכ"
       },
       {
         "record": 251,
-        "label": "גבוה",
+        "label": "סודי",
         "length": "short",
         "scenario": "coop",
         "opening": "הערכת שווי פנימית לפני רכישה"
       },
       {
         "record": 258,
-        "label": "גבוה",
+        "label": "סודי",
         "length": "long",
         "scenario": "coop",
         "opening": "ההנהלה החליטה לדחות את החתימה בעקבות סעיף בעלות שלא הופיע בהסכם הראשוני. בנספח שהועבר לביק"
       },
       {
         "record": 286,
-        "label": "גבוה",
+        "label": "סודי",
         "length": "sentence",
         "scenario": "coop",
         "opening": "המזכר הפנימי מפרט את גבולות הפיצוי שהחברה אישרה למשא ומתן הקרוב."
       },
       {
         "record": 321,
-        "label": "גבוה",
+        "label": "סודי",
         "length": "paragraph",
         "scenario": "coop",
         "opening": "צוות הביקורת מצא שחלק מהשעות שהספק דיווח עליהן לא תואמות לרישומי השירות. הנהלת הלקוח עצרה "
       },
       {
         "record": 351,
-        "label": "גבוה",
+        "label": "סודי",
         "length": "paragraph",
         "scenario": "coop",
         "opening": "בישיבת הנהלת מרכז השירות הוצג דוח חדש על עלויות של הרחבת המוקד. הדוח הראה שהמחיר שהוצע ללק"
       },
       {
         "record": 375,
-        "label": "גבוה",
+        "label": "סודי",
         "length": "paragraph",
         "scenario": "coop",
         "opening": "במיזם ארגוני להחלפת מערכת מידע נערך מבחן קבלה שהראה שהגרסה החדשה אינה מטפלת כראוי במספר סו"
       },
       {
         "record": 376,
-        "label": "חמור",
+        "label": "סודי ביותר",
         "length": "short",
         "scenario": "grid",
         "opening": "אובדן מלא של נתוני המקור"
       },
       {
         "record": 383,
-        "label": "חמור",
+        "label": "סודי ביותר",
         "length": "sentence",
         "scenario": "helpdesk",
         "opening": "כל נתיבי השירות הנגישים הושבתו משום שנשענו על אותה הרשאה שפג תוקפה."
       },
       {
         "record": 411,
-        "label": "חמור",
+        "label": "סודי ביותר",
         "length": "sentence",
         "scenario": "school",
         "opening": "שלוש ועדות ערעור נפרדות איבדו יחד סמכות בעקבות ביטול אישור מרכזי."
       },
       {
         "record": 446,
-        "label": "חמור",
+        "label": "סודי ביותר",
         "length": "paragraph",
         "scenario": "coop",
         "opening": "בתוכנית מלגות הוצגו ארבע קרנות כמסלולי מימון חלופיים. נספח התקשרות מאפשר לגוף אחד לבטל את "
       },
       {
         "record": 476,
-        "label": "חמור",
+        "label": "סודי ביותר",
         "length": "paragraph",
         "scenario": "press",
         "opening": "ספריית העדויות העבירה קובצי תמלול עם כינויים בלבד. יחד איתם נשלח בטעות גיליון שמציג את כל "
       },
       {
         "record": 500,
-        "label": "חמור",
+        "label": "סודי ביותר",
         "length": "long",
         "scenario": "museum",
         "opening": "במוזיאון שימור היו אמורים להישמר מסמכי מקור בכל אחד משלושת מוסדות השותפות. בעת מעבר למאגר "

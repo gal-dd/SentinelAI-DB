@@ -5,10 +5,10 @@
   "records": 500,
   "candidates_path": "drafts/producer-chat/batch-0005/candidates.jsonl",
   "labels": {
-    "נמוך": 125,
-    "בינוני": 125,
-    "גבוה": 125,
-    "חמור": 125
+    "בלמס": 125,
+    "שמור": 125,
+    "סודי": 125,
+    "סודי ביותר": 125
   },
   "lengths": {
     "short": 25,

@@ -1,50 +1,50 @@
-{"text":"תוכנית פומבית לשבוע הקומיקס","length":"short","label":"נמוך","scenario_id":"library"}
-{"text":"תיאור מסלול הפסלים העירוני","length":"short","label":"נמוך","scenario_id":"museum"}
-{"text":"כרזת תערוכת צילומי שמיים","length":"short","label":"נמוך","scenario_id":"botany"}
-{"text":"דף פעילות ללימוד צבעים","length":"short","label":"נמוך","scenario_id":"maps"}
-{"text":"איור גלוי של תחנת רכבת","length":"short","label":"נמוך","scenario_id":"civic-currents-board"}
-{"text":"ביריד הספרייה הוצגו כריכות מקוריות שעיצבו תלמידים לסיפורים מומצאים.","length":"sentence","label":"נמוך","scenario_id":"school"}
-{"text":"במדריך הציבורי לפארק מסומן מיקומן של ברזיות ושל פינות ישיבה.","length":"sentence","label":"נמוך","scenario_id":"river"}
-{"text":"המרצה הציגה שתי תמונות של קשת בענן והסבירה כיצד נוצרות טיפות באור.","length":"sentence","label":"נמוך","scenario_id":"sound"}
-{"text":"התלמידים השוו בין מפות של ארצות דמיוניות ובחרו מקרא ברור.","length":"sentence","label":"נמוך","scenario_id":"library"}
-{"text":"במרכז המבקרים הוצבה תיבת רעיונות לשמות חדשים של שבילי הגינה.","length":"sentence","label":"נמוך","scenario_id":"museum"}
-{"text":"בחוג האמנות הכינו הילדים קישוטי נייר עם דגמים חוזרים של משולשים.","length":"sentence","label":"נמוך","scenario_id":"botany"}
-{"text":"באתר המוזיאון מופיע לוח הרצאות פתוחות על ציור עתיק וקרמיקה.","length":"sentence","label":"נמוך","scenario_id":"maps"}
-{"text":"המדריכה ביקשה לתאר צורת ענן בלי לנחש את מזג האוויר של מחר.","length":"sentence","label":"נמוך","scenario_id":"civic-currents-board"}
-{"text":"בשבוע המדע הציגו תלמידים דגם מקרטון של גלגל מים עתיק.","length":"sentence","label":"נמוך","scenario_id":"school"}
-{"text":"החוברת מציעה תרגיל בסידור צילומים של עונות השנה לפי סדר.","length":"sentence","label":"נמוך","scenario_id":"river"}
-{"text":"בפינת המשחקים מלמדים לקרוא כותרות ומקרא של גרף עמודות פשוט.","length":"sentence","label":"נמוך","scenario_id":"sound"}
-{"text":"מתנדבי הגינה תלו שלט המספר על סוגי הפרחים שנשתלו באביב.","length":"sentence","label":"נמוך","scenario_id":"library"}
-{"text":"בתערוכת המוזיקה מוצגים איורים של כלי נשיפה מתקופות שונות.","length":"sentence","label":"נמוך","scenario_id":"museum"}
-{"text":"הספרייה חילקה כרטיסי משחק עם משפטים מסיפורים שכתבו תלמידי החוג.","length":"sentence","label":"נמוך","scenario_id":"botany"}
-{"text":"בית הספר פרסם לוח פתוח של שעות ההצגות בפסטיבל הילדים.","length":"sentence","label":"נמוך","scenario_id":"maps"}
-{"text":"בסיור הטבע הוצגו תצלומי ציפורים ונערך משחק זיהוי לפי צורת המקור.","length":"sentence","label":"נמוך","scenario_id":"civic-currents-board"}
-{"text":"בדף ההסברים מתוארת הדרך להכין פסיפס מנייר צבעוני.","length":"sentence","label":"נמוך","scenario_id":"school"}
-{"text":"הקהל הוזמן להציע כותרת לתצלום פומבי של גשר בשעת שקיעה.","length":"sentence","label":"נמוך","scenario_id":"river"}
-{"text":"בחצר המתנ״ס הציבו דגם קטן של כיכר עירונית מחומרים ממוחזרים.","length":"sentence","label":"נמוך","scenario_id":"sound"}
-{"text":"משחק האותיות מאפשר לסדר מילים מקוריות על מפה של כפר מומצא.","length":"sentence","label":"נמוך","scenario_id":"library"}
-{"text":"במוזיאון המדע מוצג שעון חול שקוף לצד איור של שעון שמש.","length":"sentence","label":"נמוך","scenario_id":"museum"}
-{"text":"בעלון העירוני מופיעים ציורים של תמרורים והסבר על משמעותם להולכי רגל.","length":"sentence","label":"נמוך","scenario_id":"botany"}
-{"text":"במפגש הקריאה הקריאה מדריכה סיפור מקורי על סירה שהפליגה בין איים.","length":"sentence","label":"נמוך","scenario_id":"maps"}
-{"text":"על שולחן התצוגה הונחו העתקים של מטבעות עתיקים לצורך תרגול השוואה.","length":"sentence","label":"נמוך","scenario_id":"civic-currents-board"}
-{"text":"הילדים ציירו קווים המתארים את קצב המנגינה ששמעו בפעילות.","length":"sentence","label":"נמוך","scenario_id":"school"}
-{"text":"מרכז האומנות מציע לצפות בגלריה מקוונת של ציורי נוף חדשים.","length":"sentence","label":"נמוך","scenario_id":"river"}
-{"text":"המורה הסבירה כיצד משתמשים בציר אופקי כדי לקרוא תרשים של גבהים.","length":"sentence","label":"נמוך","scenario_id":"sound"}
-{"text":"ביום הקהילה התקיימה סדנה פתוחה לציור פרפרים ודמויות יער.","length":"sentence","label":"נמוך","scenario_id":"library"}
-{"text":"התערוכה מציגה את ההבדלים בין אריזות נייר ממוחזר לבין אריזות חדשות.","length":"sentence","label":"נמוך","scenario_id":"museum"}
-{"text":"בחוברת הכיתה מסומנות תחנות דמיוניות של רכבת שמחברת בין ארבע ערים.","length":"sentence","label":"נמוך","scenario_id":"botany"}
-{"text":"המדריך הציג גלויות היסטוריות שכבר פורסמו בספרי לימוד.","length":"sentence","label":"נמוך","scenario_id":"maps"}
-{"text":"בית התרבות הזמין תושבים לערב של הקראת סיפורים מקוריים.","length":"sentence","label":"נמוך","scenario_id":"civic-currents-board"}
-{"text":"באתר העירייה מוצגת מפה של נתיבי אופניים פתוחים לציבור.","length":"sentence","label":"נמוך","scenario_id":"school"}
-{"text":"ילדי החוג בנו דגם של בית עץ ומיקמו סביבו עצי נייר.","length":"sentence","label":"נמוך","scenario_id":"river"}
-{"text":"בסדנת צילום הסבירו כיצד המרחק מן העצם משנה את גודלו בתמונה.","length":"sentence","label":"נמוך","scenario_id":"sound"}
-{"text":"התלמידים מיינו חפצים מצוירים לפי צורות גאומטריות ולא לפי מחירם.","length":"sentence","label":"נמוך","scenario_id":"library"}
-{"text":"עלון הגן מספר על פריחת החרציות ומפנה לאיורים ציבוריים של הצמח.","length":"sentence","label":"נמוך","scenario_id":"museum"}
-{"text":"מרכז המדע מזמין משפחות למשחק שבו משווים בין דגמי גשרים מנייר.","length":"sentence","label":"נמוך","scenario_id":"botany"}
-{"text":"במופע החוצות הוקראו שירים מקוריים שכתבו משתתפי סדנת הכתיבה.","length":"sentence","label":"נמוך","scenario_id":"maps"}
-{"text":"בפעילות ספרייה פתוחה התבקשו הילדים להתאים בין איורים של ספרים לבין כותרות שהומצאו במיוחד למפגש. לאחר מכן כל קבוצה יצרה כריכה חדשה לסיפור שבחרה. המדריכה הסבירה שכל האפשרויות מתקבלות אם אפשר להסביר את הבחירה.","length":"paragraph","label":"נמוך","scenario_id":"civic-currents-board"}
-{"text":"במרכז המבקרים הוצגה מפה מאוירת של נחל דמיוני. לאורך המפה סומנו גשרים, ספסלים ועצים שאינם קיימים במציאות. המשתתפים התבקשו לכתוב הוראות הגעה לתחנה שבחרו, בלי להשתמש בכתובות אמיתיות.","length":"paragraph","label":"נמוך","scenario_id":"school"}
-{"text":"בתערוכת כלי הנגינה הוצבו דגמים של כלי הקשה מחומרים קלים. המבקרים השוו את צורתם והאזינו להקלטות שנוצרו עבור הפעילות. ליד כל דגם הופיע תיאור קצר שאפשר לקרוא גם ללא האזנה.","length":"paragraph","label":"נמוך","scenario_id":"river"}
-{"text":"בבית הספר הונח לוח תצפית שבו התלמידים רשמו אילו צללים ראו בחצר בשעות שונות. הם תיארו את הכיוון ואת האורך המשוער בלי לנסות למדוד בדיוק. לאחר מכן השוו את התוצאות בדיון פתוח בכיתה.","length":"paragraph","label":"נמוך","scenario_id":"sound"}
-{"text":"במוזיאון המדע הוצגו איורים של שכבות סלע לצד דגמים צבעוניים. המדריך ביקש מן הקהל לזהות היכן מופיע אותו דגם בשני הייצוגים. ההדגמה מיועדת ללימוד צורות ואינה מתארת אתר חפירה מוגבל.","length":"paragraph","label":"נמוך","scenario_id":"library"}
-{"text":"בסדנת הכתיבה הציגו למשתתפים דמות של רובוט שמנסה למצוא גינה בעיר דמיונית. כל קבוצה בחרה מכשול אחר וכתבה כיצד הדמות פותרת אותו. הקטעים הוצגו על לוח פומבי ללא שמות משפחה.","length":"paragraph","label":"נמוך","scenario_id":"museum"}
+{"label":"בלמס","length":"short","scenario_id":"library","text":"תוכנית פומבית לשבוע הקומיקס"}
+{"label":"בלמס","length":"short","scenario_id":"museum","text":"תיאור מסלול הפסלים העירוני"}
+{"label":"בלמס","length":"short","scenario_id":"botany","text":"כרזת תערוכת צילומי שמיים"}
+{"label":"בלמס","length":"short","scenario_id":"maps","text":"דף פעילות ללימוד צבעים"}
+{"label":"בלמס","length":"short","scenario_id":"civic-currents-board","text":"איור גלוי של תחנת רכבת"}
+{"label":"בלמס","length":"sentence","scenario_id":"school","text":"ביריד הספרייה הוצגו כריכות מקוריות שעיצבו תלמידים לסיפורים מומצאים."}
+{"label":"בלמס","length":"sentence","scenario_id":"river","text":"במדריך הציבורי לפארק מסומן מיקומן של ברזיות ושל פינות ישיבה."}
+{"label":"בלמס","length":"sentence","scenario_id":"sound","text":"המרצה הציגה שתי תמונות של קשת בענן והסבירה כיצד נוצרות טיפות באור."}
+{"label":"בלמס","length":"sentence","scenario_id":"library","text":"התלמידים השוו בין מפות של ארצות דמיוניות ובחרו מקרא ברור."}
+{"label":"בלמס","length":"sentence","scenario_id":"museum","text":"במרכז המבקרים הוצבה תיבת רעיונות לשמות חדשים של שבילי הגינה."}
+{"label":"בלמס","length":"sentence","scenario_id":"botany","text":"בחוג האמנות הכינו הילדים קישוטי נייר עם דגמים חוזרים של משולשים."}
+{"label":"בלמס","length":"sentence","scenario_id":"maps","text":"באתר המוזיאון מופיע לוח הרצאות פתוחות על ציור עתיק וקרמיקה."}
+{"label":"בלמס","length":"sentence","scenario_id":"civic-currents-board","text":"המדריכה ביקשה לתאר צורת ענן בלי לנחש את מזג האוויר של מחר."}
+{"label":"בלמס","length":"sentence","scenario_id":"school","text":"בשבוע המדע הציגו תלמידים דגם מקרטון של גלגל מים עתיק."}
+{"label":"בלמס","length":"sentence","scenario_id":"river","text":"החוברת מציעה תרגיל בסידור צילומים של עונות השנה לפי סדר."}
+{"label":"בלמס","length":"sentence","scenario_id":"sound","text":"בפינת המשחקים מלמדים לקרוא כותרות ומקרא של גרף עמודות פשוט."}
+{"label":"בלמס","length":"sentence","scenario_id":"library","text":"מתנדבי הגינה תלו שלט המספר על סוגי הפרחים שנשתלו באביב."}
+{"label":"בלמס","length":"sentence","scenario_id":"museum","text":"בתערוכת המוזיקה מוצגים איורים של כלי נשיפה מתקופות שונות."}
+{"label":"בלמס","length":"sentence","scenario_id":"botany","text":"הספרייה חילקה כרטיסי משחק עם משפטים מסיפורים שכתבו תלמידי החוג."}
+{"label":"בלמס","length":"sentence","scenario_id":"maps","text":"בית הספר פרסם לוח פתוח של שעות ההצגות בפסטיבל הילדים."}
+{"label":"בלמס","length":"sentence","scenario_id":"civic-currents-board","text":"בסיור הטבע הוצגו תצלומי ציפורים ונערך משחק זיהוי לפי צורת המקור."}
+{"label":"בלמס","length":"sentence","scenario_id":"school","text":"בדף ההסברים מתוארת הדרך להכין פסיפס מנייר צבעוני."}
+{"label":"בלמס","length":"sentence","scenario_id":"river","text":"הקהל הוזמן להציע כותרת לתצלום פומבי של גשר בשעת שקיעה."}
+{"label":"בלמס","length":"sentence","scenario_id":"sound","text":"בחצר המתנ״ס הציבו דגם קטן של כיכר עירונית מחומרים ממוחזרים."}
+{"label":"בלמס","length":"sentence","scenario_id":"library","text":"משחק האותיות מאפשר לסדר מילים מקוריות על מפה של כפר מומצא."}
+{"label":"בלמס","length":"sentence","scenario_id":"museum","text":"במוזיאון המדע מוצג שעון חול שקוף לצד איור של שעון שמש."}
+{"label":"בלמס","length":"sentence","scenario_id":"botany","text":"בעלון העירוני מופיעים ציורים של תמרורים והסבר על משמעותם להולכי רגל."}
+{"label":"בלמס","length":"sentence","scenario_id":"maps","text":"במפגש הקריאה הקריאה מדריכה סיפור מקורי על סירה שהפליגה בין איים."}
+{"label":"בלמס","length":"sentence","scenario_id":"civic-currents-board","text":"על שולחן התצוגה הונחו העתקים של מטבעות עתיקים לצורך תרגול השוואה."}
+{"label":"בלמס","length":"sentence","scenario_id":"school","text":"הילדים ציירו קווים המתארים את קצב המנגינה ששמעו בפעילות."}
+{"label":"בלמס","length":"sentence","scenario_id":"river","text":"מרכז האומנות מציע לצפות בגלריה מקוונת של ציורי נוף חדשים."}
+{"label":"בלמס","length":"sentence","scenario_id":"sound","text":"המורה הסבירה כיצד משתמשים בציר אופקי כדי לקרוא תרשים של גבהים."}
+{"label":"בלמס","length":"sentence","scenario_id":"library","text":"ביום הקהילה התקיימה סדנה פתוחה לציור פרפרים ודמויות יער."}
+{"label":"בלמס","length":"sentence","scenario_id":"museum","text":"התערוכה מציגה את ההבדלים בין אריזות נייר ממוחזר לבין אריזות חדשות."}
+{"label":"בלמס","length":"sentence","scenario_id":"botany","text":"בחוברת הכיתה מסומנות תחנות דמיוניות של רכבת שמחברת בין ארבע ערים."}
+{"label":"בלמס","length":"sentence","scenario_id":"maps","text":"המדריך הציג גלויות היסטוריות שכבר פורסמו בספרי לימוד."}
+{"label":"בלמס","length":"sentence","scenario_id":"civic-currents-board","text":"בית התרבות הזמין תושבים לערב של הקראת סיפורים מקוריים."}
+{"label":"בלמס","length":"sentence","scenario_id":"school","text":"באתר העירייה מוצגת מפה של נתיבי אופניים פתוחים לציבור."}
+{"label":"בלמס","length":"sentence","scenario_id":"river","text":"ילדי החוג בנו דגם של בית עץ ומיקמו סביבו עצי נייר."}
+{"label":"בלמס","length":"sentence","scenario_id":"sound","text":"בסדנת צילום הסבירו כיצד המרחק מן העצם משנה את גודלו בתמונה."}
+{"label":"בלמס","length":"sentence","scenario_id":"library","text":"התלמידים מיינו חפצים מצוירים לפי צורות גאומטריות ולא לפי מחירם."}
+{"label":"בלמס","length":"sentence","scenario_id":"museum","text":"עלון הגן מספר על פריחת החרציות ומפנה לאיורים ציבוריים של הצמח."}
+{"label":"בלמס","length":"sentence","scenario_id":"botany","text":"מרכז המדע מזמין משפחות למשחק שבו משווים בין דגמי גשרים מנייר."}
+{"label":"בלמס","length":"sentence","scenario_id":"maps","text":"במופע החוצות הוקראו שירים מקוריים שכתבו משתתפי סדנת הכתיבה."}
+{"label":"בלמס","length":"paragraph","scenario_id":"civic-currents-board","text":"בפעילות ספרייה פתוחה התבקשו הילדים להתאים בין איורים של ספרים לבין כותרות שהומצאו במיוחד למפגש. לאחר מכן כל קבוצה יצרה כריכה חדשה לסיפור שבחרה. המדריכה הסבירה שכל האפשרויות מתקבלות אם אפשר להסביר את הבחירה."}
+{"label":"בלמס","length":"paragraph","scenario_id":"school","text":"במרכז המבקרים הוצגה מפה מאוירת של נחל דמיוני. לאורך המפה סומנו גשרים, ספסלים ועצים שאינם קיימים במציאות. המשתתפים התבקשו לכתוב הוראות הגעה לתחנה שבחרו, בלי להשתמש בכתובות אמיתיות."}
+{"label":"בלמס","length":"paragraph","scenario_id":"river","text":"בתערוכת כלי הנגינה הוצבו דגמים של כלי הקשה מחומרים קלים. המבקרים השוו את צורתם והאזינו להקלטות שנוצרו עבור הפעילות. ליד כל דגם הופיע תיאור קצר שאפשר לקרוא גם ללא האזנה."}
+{"label":"בלמס","length":"paragraph","scenario_id":"sound","text":"בבית הספר הונח לוח תצפית שבו התלמידים רשמו אילו צללים ראו בחצר בשעות שונות. הם תיארו את הכיוון ואת האורך המשוער בלי לנסות למדוד בדיוק. לאחר מכן השוו את התוצאות בדיון פתוח בכיתה."}
+{"label":"בלמס","length":"paragraph","scenario_id":"library","text":"במוזיאון המדע הוצגו איורים של שכבות סלע לצד דגמים צבעוניים. המדריך ביקש מן הקהל לזהות היכן מופיע אותו דגם בשני הייצוגים. ההדגמה מיועדת ללימוד צורות ואינה מתארת אתר חפירה מוגבל."}
+{"label":"בלמס","length":"paragraph","scenario_id":"museum","text":"בסדנת הכתיבה הציגו למשתתפים דמות של רובוט שמנסה למצוא גינה בעיר דמיונית. כל קבוצה בחרה מכשול אחר וכתבה כיצד הדמות פותרת אותו. הקטעים הוצגו על לוח פומבי ללא שמות משפחה."}
