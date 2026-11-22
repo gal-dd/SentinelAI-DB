@@ -3,7 +3,7 @@
 from collections import Counter
 import random
 
-from .core import LABELS, PLAN, ROOT, fingerprint, read_json
+from .core import LABELS, PLAN, ROOT, fingerprint, read_json, LEGACY_LABELS
 
 CONFIG_PATH = "config/defense-domain-targets.json"
 CONFIG = read_json(ROOT / CONFIG_PATH)
@@ -64,7 +64,7 @@ def review_sample(rows, batch):
         key = (row["primary_domain"], row["label"])
         cells.setdefault(key, []).append(fingerprint(row))
     rng = random.Random(PLAN["seed"] + batch)
-    return sorted(rng.choice(sorted(cells[cell])) for cell in sorted(cells))
+    return sorted(rng.choice(sorted(cells[cell])) for cell in sorted(cells, key=lambda cell: (cell[0], LEGACY_LABELS.get(cell[1], cell[1]))))
 
 
 def verify_domain_review(rows, batch, judgments):
