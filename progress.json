@@ -3,12 +3,12 @@
   "prompt_version": "0.1.0",
   "pilot_records": 200,
   "pilot_hashes": {
-    "data/pilot/pilot.jsonl": "38b4444a3c2ffdf3680e4cbf75f4f1d47615eb82123a49348c942771a0bac9dc",
-    "metadata/pilot/pilot.jsonl": "3423b1e33529327fa793f532fd885d8be0416d77894afbc3e106a19e308b9a0b",
-    "reports/pilot/quality.json": "8075da7b50065c9207c2c1b7fcd302ac56f7f80d2ee140c33642586ca2dfb32e",
+    "data/pilot/pilot.jsonl": "e22df1ddd1877498d7a9686f3a81e9e209faee320c43bbaea13a48f9ebde1657",
+    "metadata/pilot/pilot.jsonl": "a853126c00fcdba293c5877047c25515f0c886047b89ca9437861b3e4c13c4a9",
+    "reports/pilot/quality.json": "82b23895552c18573a07a6e55f6a2923f29c3fcf25227348d259eb8a2ff9c9af",
     "reports/pilot/review.md": "c98ad8a1c4564c5016984ad70d59aef3d3af615bf79f4316c6edf9b3aacf47bc",
-    "config/plan.json": "18a409e73e41b241e60b22633baacf6ab1f9bfe8924dc18cc12dd16cf63f078c",
-    "policy/v0.1.0.md": "9897afc372fe743c05e79a9115e42471107fae9fb10c6c4c132d6184bd70192e",
+    "config/plan.json": "d6cefc38291f2c5b163fa8af3e5d2005ccf89e799515fce786e2509cd5477ed5",
+    "policy/v0.1.0.md": "6d87230257f8251ca705e414021f87dfe68254a016e98ae253a8158fcea69f09",
     "prompts/v0.1.0.md": "3efbe35f6f92e270558eb7756a94b1a46c520a5e36a8b4b294f6d454346f2c0e"
   },
   "pilot_quality": "completed",
@@ -21,9 +21,9 @@
       "start_id": 1,
       "end_id": 500,
       "sha256": {
-        "data/checkpoints/batch-0001.jsonl": "64f91f54570c1450c1e19a18c486fe1f3e5f79d722adde1f0d29a8bdf84f895d",
-        "metadata/checkpoints/batch-0001.jsonl": "2caf43375c24362d29470f24ebec3ecc3495a9c6df9ad11be801df34820b5927",
-        "reports/checkpoints/batch-0001.json": "76ecbfa2dfa7910d15fe721cf5c43564a89be3e8a9e58ede6859eead2e090bc0"
+        "data/checkpoints/batch-0001.jsonl": "fa6e5ce85f27b98b9bfd9f6c2dc01877a9c48a1c1193f20371fba94a0c719fda",
+        "metadata/checkpoints/batch-0001.jsonl": "8a978af27bd411ad28e53b1e68d1c43889202a06ae2b6294a7c89cbff63251e0",
+        "reports/checkpoints/batch-0001.json": "781a8e05c41a6984f6ae5c8406014525ed4e6ff72fc4d18cc55d48f1978c025e"
       }
     },
     {
@@ -31,9 +31,9 @@
       "start_id": 501,
       "end_id": 1000,
       "sha256": {
-        "data/checkpoints/batch-0002.jsonl": "5a1fa55d1a48737affe974b51edb54116f313d5bc17ac264b308001195d83cdd",
-        "metadata/checkpoints/batch-0002.jsonl": "1787ae97bc6f0ffc1147aeec8e6b1355a8cf03315e4acb84f0ff52f56fe8fd2b",
-        "reports/checkpoints/batch-0002.json": "976a0f5cc00a9e04237c639a34e0a40bcb4a04768c32d64cde0ce975cc1e8f1f"
+        "data/checkpoints/batch-0002.jsonl": "9dae73a6e9b43ae0591f1fdbee309beba4ee0e8fa898ff566be050ea03fe5497",
+        "metadata/checkpoints/batch-0002.jsonl": "bfc582cd009df68c25a0a79f07623d765e5f4d49d9ca8abc6a92ab2233bf9990",
+        "reports/checkpoints/batch-0002.json": "33e308a0e3f85c0fd8ea527e78413c00ef2977f6d226d036e45af376cdfe8d3a"
       }
     },
     {
@@ -41,9 +41,9 @@
       "start_id": 1001,
       "end_id": 1500,
       "sha256": {
-        "data/checkpoints/batch-0003.jsonl": "6fa53c544f46448638afc0a0931ad026621ecff5c2e479796e563069278d9a06",
-        "metadata/checkpoints/batch-0003.jsonl": "e9bce0d4a4a21b2a9a8952ddfc12fe116318d13b94f8d2f66eaa5fd6bcb5f21b",
-        "reports/checkpoints/batch-0003.json": "d19daaff03fe67c2db29a9c0f999197c59c913dd5bfb4be7eb3a6c0bdddccb9f"
+        "data/checkpoints/batch-0003.jsonl": "b3f0a1c6e876ef1d65701a729668c51da57223c72f920abc9031e4859da690b8",
+        "metadata/checkpoints/batch-0003.jsonl": "61af00b8855535b53bb01b73223aa0f7526e7ff7adc484e08d307b2ccfdfe122",
+        "reports/checkpoints/batch-0003.json": "85143aa211ec922d1fa7e052a077bec711dbff8992227e86a2bfac36e7b4d509"
       }
     },
     {
@@ -51,9 +51,9 @@
       "start_id": 1501,
       "end_id": 2000,
       "sha256": {
-        "data/checkpoints/batch-0004.jsonl": "34795166bff4cab5f27a58df8d8a9dcec564f03915f358a27a2a2ab4e51de622",
-        "metadata/checkpoints/batch-0004.jsonl": "02ceaaff4aa7343315ca7970535f9a6261d4c1739890c4b41d497acdc7e4b0f6",
-        "reports/checkpoints/batch-0004.json": "f3d76df75e66cdb92382e4eb1309ed1e88c4dc7e6faff872d6b9323ec15be791"
+        "data/checkpoints/batch-0004.jsonl": "56fb8fbb56bd4c9ed6da5d907214fa5ceb1737c3fed2393df711b486bd122ff9",
+        "metadata/checkpoints/batch-0004.jsonl": "195ff228d59efc0a320e46137d8dd7e14b14ef16f99575ee1392bed4e24df92f",
+        "reports/checkpoints/batch-0004.json": "32678986bb72c9ecb9a1904e7eee2537e13e415003a14753df13118a21983686"
       }
     },
     {
@@ -61,9 +61,9 @@
       "start_id": 2001,
       "end_id": 2500,
       "sha256": {
-        "data/checkpoints/batch-0005.jsonl": "8a4749c19155b58156321008350783c65a07a2b654381488852240f67b2b85ee",
-        "metadata/checkpoints/batch-0005.jsonl": "939d522f59dbf699eef9b3f3d152efbf230e64677829246835c3b5d989918d3a",
-        "reports/checkpoints/batch-0005.json": "93abf6b0087c6e661334548c7edbbaf56085a44945b8615a67752263b7da2423"
+        "data/checkpoints/batch-0005.jsonl": "2de6b7420e2a1e34baa5478757d4dccee71c6cdea7388316c19f901d6e9eaeb9",
+        "metadata/checkpoints/batch-0005.jsonl": "247618ab5c24143d9b24b1c1be27a0c754a768017d24dfdec7e984ca9dbd2cc3",
+        "reports/checkpoints/batch-0005.json": "ac1cb3a0deca0981dc2290a886f150e36df7694e209f8eb7da4d0640981916bb"
       }
     },
     {
@@ -71,9 +71,9 @@
       "start_id": 2501,
       "end_id": 3000,
       "sha256": {
-        "data/checkpoints/batch-0006.jsonl": "0c1ca71ba6e46a6b734e76833c99a223bbb7370462595bc70fa36033d689a25a",
-        "metadata/checkpoints/batch-0006.jsonl": "610da5e50a88d8d0cfbd6bfa6eda2157c9c7a21a7e4498d3b9aafe072cb16de8",
-        "reports/checkpoints/batch-0006.json": "6f474da591fb7d7a25e8091e4929b28d8c26b3b6ad081ca5c0e948ca27c2ca21"
+        "data/checkpoints/batch-0006.jsonl": "1c82f03f4eab048aa1c91290bb0d1fcbd508f88a1a0fd6027c4d05b996b272f1",
+        "metadata/checkpoints/batch-0006.jsonl": "3a7ac7cd87ca5506ad9bd15c4751c8c6692ef419e8a935e43672e0e70e56825b",
+        "reports/checkpoints/batch-0006.json": "8a0b30d3bc58afb2f1499e89be286acd07aed128b45f4e585723e63cac65e5f9"
       }
     },
     {
@@ -81,9 +81,9 @@
       "start_id": 3001,
       "end_id": 3500,
       "sha256": {
-        "data/checkpoints/batch-0007.jsonl": "85c68ae411e718555fe6d26fd0b2263380edf05e985da4adc8fb3cba916917db",
-        "metadata/checkpoints/batch-0007.jsonl": "8efd06f3fb9f67fc2d7788b2deefa95b58e48f34357f4dec60a307a85233d36d",
-        "reports/checkpoints/batch-0007.json": "36a2e00093bb79974b75b903baedf208eae4707d9a13a6ff93ce9c531b5a9597"
+        "data/checkpoints/batch-0007.jsonl": "20c5b10f5ba3bc8ef2b78a1e8088e1b1076f2e45a9e064cde203e9daea9ce43c",
+        "metadata/checkpoints/batch-0007.jsonl": "4800828c9c3d1f26e292153afc7b7bc7543ed34170e76f7d208b14a00606df2f",
+        "reports/checkpoints/batch-0007.json": "050dc7ced8eebc0df747fd55556a1d4850243cb7069beb6b3350fa4b6b294db0"
       }
     },
     {
@@ -91,9 +91,9 @@
       "start_id": 3501,
       "end_id": 4000,
       "sha256": {
-        "data/checkpoints/batch-0008.jsonl": "7a074539802e48bbea3be9d9a1dce94573ca6f5921b6ce8b27f82be9afe62a39",
+        "data/checkpoints/batch-0008.jsonl": "dd34f3b22ed96610372134bceaf07cab8d4941a12dd6ee6db3db9bc62649a311",
         "metadata/checkpoints/batch-0008.jsonl": "eba13a605a46fdccd764443d40b52524f0d1fc92a796a7dd272a223923460229",
-        "reports/checkpoints/batch-0008.json": "96ef189527be171fa95faf7761133af6a5c1dc711c19457e728335575709d864"
+        "reports/checkpoints/batch-0008.json": "c84cfe2966c7c75323838bae79419dbe59b871d7243ade0d4b72861868075825"
       }
     },
     {
@@ -101,9 +101,9 @@
       "start_id": 4001,
       "end_id": 4500,
       "sha256": {
-        "data/checkpoints/batch-0009.jsonl": "24c8a4ecdc691b7b1f8b4cf285ac38157660add909996b5985da67ca8bb8fa12",
+        "data/checkpoints/batch-0009.jsonl": "0fc8c9174662548330cc9e5c9463d2b176bfa3276251093c0018acc163ee82a9",
         "metadata/checkpoints/batch-0009.jsonl": "8fc4ff71d0fd662b83f906bb08156ec328bde0c7984021b5d79c0f55eef0ee9b",
-        "reports/checkpoints/batch-0009.json": "183855bfa3062c530cec64751fc57f17141805e7f5962cbcee7fbb763cf06c3d"
+        "reports/checkpoints/batch-0009.json": "a74f1bdb3acb0a9c8b9e3dc1a48575b15755de83a6ace4c61e630dad18f239e4"
       }
     }
   ],

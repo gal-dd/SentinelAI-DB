@@ -5,25 +5,25 @@
   "metrics": {
     "records": 200,
     "label_lengths": {
-      "נמוך": [
+      "בלמס": [
         3,
         20,
         17,
         10
       ],
-      "בינוני": [
+      "שמור": [
         2,
         20,
         18,
         10
       ],
-      "גבוה": [
+      "סודי": [
         3,
         20,
         17,
         10
       ],
-      "חמור": [
+      "סודי ביותר": [
         2,
         20,
         18,
@@ -31,10 +31,10 @@
       ]
     },
     "labels": {
-      "נמוך": 50,
-      "בינוני": 50,
-      "גבוה": 50,
-      "חמור": 50
+      "בלמס": 50,
+      "שמור": 50,
+      "סודי": 50,
+      "סודי ביותר": 50
     },
     "lengths": {
       "short": 10,
@@ -575,7 +575,7 @@
     "release_status": "awaiting_user_approval"
   },
   "data_hashes": {
-    "data/pilot/pilot.jsonl": "38b4444a3c2ffdf3680e4cbf75f4f1d47615eb82123a49348c942771a0bac9dc",
-    "metadata/pilot/pilot.jsonl": "3423b1e33529327fa793f532fd885d8be0416d77894afbc3e106a19e308b9a0b"
+    "data/pilot/pilot.jsonl": "e22df1ddd1877498d7a9686f3a81e9e209faee320c43bbaea13a48f9ebde1657",
+    "metadata/pilot/pilot.jsonl": "a853126c00fcdba293c5877047c25515f0c886047b89ca9437861b3e4c13c4a9"
   }
 }
