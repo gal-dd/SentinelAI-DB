@@ -1,0 +1,34 @@
+{
+  "import_id": "external-2026-11-22-3600",
+  "target_repo": "gal-dd/SentinelAI-DB",
+  "target_branch": "poc/defense-focused-v2",
+  "date": "2026-11-22",
+  "source_filename": "synthetic_security_classification_accumulating (1).json",
+  "source_sha256": "3f7f5c32b8f54d25a1b21328a0e325a4a4ea537aca699a09889253c7dfbb5fc8",
+  "prepared_jsonl_file": "external-import-3600.jsonl",
+  "prepared_sha256": "7106e9e856bd523e1db95b58309ccc283ea5a277ee5b037f19dc286a98fc7e98",
+  "record_count": 3600,
+  "original_id_range": [
+    1,
+    3600
+  ],
+  "assigned_id_range": [
+    2501,
+    6100
+  ],
+  "expected_existing_production_records": 2500,
+  "expected_final_production_records": 6100,
+  "label_counts": {
+    "בלמס": 900,
+    "שמור": 900,
+    "סודי": 900,
+    "סודי ביותר": 900
+  },
+  "text_modified": false,
+  "labels_modified": false,
+  "ids_reassigned": true,
+  "content_quality_review": "not_performed_per_user_request",
+  "external_provenance": "user_supplied_file",
+  "source_quality": "unverified",
+  "checkpoint_policy": "keep existing signed checkpoints intact; record external import separately; do not represent as reviewed checkpoints"
+}

@@ -1,5 +1,6 @@
 """Read and publish checkpoint state as one verified Git commit."""
 
+from collections import Counter
 from contextlib import contextmanager
 from hashlib import sha256
 from pathlib import Path
@@ -8,8 +9,8 @@ import re
 import subprocess
 from tempfile import NamedTemporaryFile
 
-from .core import (PLAN, ROOT, check_quotas, export_rows, json_bytes, jsonl_bytes,
-                   load_saved, metadata_rows, read_json, canonical_label)
+from .core import (LABELS, PLAN, ROOT, check_quotas, export_rows, json_bytes, jsonl_bytes,
+                   load_saved, metadata_rows, read_json, read_jsonl, canonical_label)
 from .production import add_counts, plan_lengths
 
 from .domains import CONFIG_PATH, TARGETS, require_coverage, verify_domain_review
@@ -80,6 +81,58 @@ def batch_paths(index):
     )
 
 
+def load_external_imports(state, root=ROOT):
+    """Verify external files and their metadata without applying content QA."""
+    rows = []
+    for entry in state.get("external_imports", ()):
+        manifest_path = Path(entry["manifest"])
+        if (manifest_path.is_absolute() or ".." in manifest_path.parts
+                or manifest_path.parts[:2] != ("data", "external-imports")
+                or not (root / manifest_path).resolve().is_relative_to(root.resolve() / "data/external-imports")):
+            raise ValueError("Invalid external manifest path")
+        if file_sha(root / manifest_path) != entry["manifest_sha256"]:
+            raise ValueError("External manifest checksum mismatch")
+        manifest = read_json(root / manifest_path)
+        name = manifest["prepared_jsonl_file"]
+        if not name or Path(name).name != name:
+            raise ValueError("Invalid external data filename")
+        path = root / manifest_path.parent / name
+        if not path.resolve().is_relative_to(root.resolve() / "data/external-imports"):
+            raise ValueError("Invalid external data path")
+        if (manifest["external_provenance"] != "user_supplied_file"
+                or manifest["content_quality_review"] != "not_performed_per_user_request"):
+            raise ValueError("Unexpected external import provenance or review status")
+        if file_sha(path) != manifest["prepared_sha256"]:
+            raise ValueError("External data checksum mismatch")
+        records = read_jsonl(path)
+        start, end = manifest["assigned_id_range"]
+        if (type(start) is not int or type(end) is not int or start < 1 or end < start
+                or len(records) != end - start + 1 or len(records) != manifest["record_count"]):
+            raise ValueError("External import range or count mismatch")
+        labels = Counter()
+        for expected_id, row in enumerate(records, start):
+            if (not isinstance(row, dict) or set(row) != {"ID", "אובייקט", "סיווג"}
+                    or type(row["ID"]) is not int or row["ID"] != expected_id
+                    or not isinstance(row["אובייקט"], str) or row["סיווג"] not in LABELS):
+                raise ValueError(f"Invalid external record structure or ID at {expected_id}")
+            labels[row["סיווג"]] += 1
+        if dict(labels) != manifest["label_counts"]:
+            raise ValueError("External import label counts mismatch")
+        rows.extend(records)
+    return rows
+
+
+def export_production(state, reviewed, external):
+    """Combine production cohorts while preserving all allocated IDs."""
+    checkpoint_rows = iter(reviewed)
+    dataset = list(external)
+    for batch in state["checkpoints"]:
+        start, end = batch["start_id"], batch["end_id"]
+        rows = [next(checkpoint_rows) for _ in range(end - start + 1)]
+        dataset.extend(export_rows(rows, start))
+    return sorted(dataset, key=lambda row: row["ID"])
+
+
 def load_progress(root=ROOT):
     state = read_json(active_path(root / PROGRESS, root))
     base = initial_state(root)
@@ -88,14 +141,18 @@ def load_progress(root=ROOT):
         if state[key] != base[key]:
             raise ValueError(f"Invalid progress metadata: {key}")
     production = []
+    checkpoint_end = 0
+    ranges = []
     expected_paths = set()
     if state["last_checkpoint"] != len(state["checkpoints"]):
         raise ValueError("Checkpoint count mismatch")
     for index, batch in enumerate(state["checkpoints"], 1):
         paths = batch_paths(index)
-        start = (index - 1) * CHECKPOINT_SIZE + 1
-        if (batch["checkpoint"], batch["start_id"], batch["end_id"]) != (index, start, start + CHECKPOINT_SIZE - 1):
+        start, end = batch["start_id"], batch["end_id"]
+        if batch["checkpoint"] != index or start <= checkpoint_end or end != start + CHECKPOINT_SIZE - 1:
             raise ValueError(f"Invalid checkpoint range: {index}")
+        checkpoint_end = end
+        ranges.append((start, end))
         expected_paths.update(paths)
         if batch["sha256"] != {path.as_posix(): file_sha(active_path(root / path, root)) for path in paths}:
             raise ValueError(f"Checksum mismatch in checkpoint {index}")
@@ -116,7 +173,13 @@ def load_progress(root=ROOT):
         for path in (root / folder / "checkpoints").glob(f"batch-*.{extension}"):
             if path.relative_to(root) not in expected_paths:
                 raise ValueError(f"Checkpoint file not recorded in progress: {path}")
-    if state["production_records"] != len(production) or state["next_id"] != len(production) + 1:
+    external = load_external_imports(state, root)
+    ids = sorted([row["ID"] for row in external]
+                 + [id_ for start, end in ranges for id_ in range(start, end + 1)])
+    count = len(production) + len(external)
+    if any(actual != expected for expected, actual in enumerate(ids, 1)):
+        raise ValueError("Production ID gap or overlap")
+    if state["production_records"] != count or state["next_id"] != count + 1:
         raise ValueError("Progress counts do not match checkpoint files")
     metrics = check_quotas(production, "production", final=bool(state["final"]))
     domain_metrics = require_coverage(production, state["last_checkpoint"])
@@ -132,7 +195,7 @@ def load_progress(root=ROOT):
         paths = (Path(FINAL_NAME), Path("reports/final.json"))
         if state["final"] != {path.as_posix(): file_sha(active_path(root / path, root)) for path in paths}:
             raise ValueError("Final artifact or report checksum mismatch")
-        if read_json(root / paths[0]) != export_rows(production):
+        if read_json(root / paths[0]) != export_production(state, production, external):
             raise ValueError("Final artifact differs from the checkpoint records")
     return state, production
 
@@ -216,7 +279,7 @@ def batch_artifacts(state, rows, metrics, review, packet, decisions, domains, do
         state["domain_counts"][domain] += domains["domain_counts"][domain]
         for label, count in domains["domain_label_counts"][domain].items():
             state["domain_label_counts"][domain][label] += count
-    state["missile_domain_percentage"] = 100 * state["domain_counts"]["missile_systems"] / end
+    state["missile_domain_percentage"] = 100 * state["domain_counts"]["missile_systems"] / sum(state["domain_counts"].values())
     return files
 
 

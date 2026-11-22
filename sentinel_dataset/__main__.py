@@ -5,7 +5,7 @@ from pathlib import Path
 import sys
 
 from . import checkpoints as cp
-from .core import (PLAN, ROOT, check_quotas, export_rows, fingerprint, json_bytes, jsonl_bytes, read_json,
+from .core import (PLAN, ROOT, check_quotas, fingerprint, json_bytes, jsonl_bytes, read_json,
                    read_jsonl, scenario_catalog, stats, validate_row, validate_rows)
 from .domains import BATCH_TARGETS, coverage, require_coverage, verify_domain_review
 from .model import blind_review, generate
@@ -116,13 +116,16 @@ def final_artifacts(args, state, prior, pilot):
         extra = read_json(args.dispositions)
         verify_pairs(extra, [item["id"] for item in pending], "final-scan alerts")
         dispositions.update(extra)
-    dataset = export_rows(prior)
+    external = cp.load_external_imports(state)
+    dataset = cp.export_production(state, prior, external)
     data_path = Path(cp.FINAL_NAME)
     report_path = Path("reports/final.json")
     # One compact JSON object per line keeps the array readable and the file small.
     data = b"[\n" + b",\n".join(jsonl_bytes([row]).rstrip(b"\n") for row in dataset) + b"\n]\n"
     report = json_bytes({
         "metrics": metrics, "schema": "passed", "normalized_exact_duplicates": 0,
+        "reviewed_metrics_scope": "reviewed checkpoints only",
+        "production_records": len(dataset), "external_records_without_content_review": len(external),
         **domains, "domain_review": {"status": "completed", "checkpoints": state["last_checkpoint"]},
         "semantic": semantic_report, "similarity_alerts": alerts,
         "similarity_policy": "monitor_all_review_high_risk_v1",
@@ -168,7 +171,7 @@ def run(args):
     state, prior = cp.load_progress()
     pilot = cp.load_pilot()
     if args.command == "plan":
-        plan = dict(state["length_plan"], next_checkpoint_domain_counts=BATCH_TARGETS if not state["final"] and state["production_records"] < 100000 else {})
+        plan = dict(state["length_plan"], next_checkpoint_domain_counts=BATCH_TARGETS if not state["final"] and len(prior) < 100000 else {})
         if args.drafts:
             rows = [row for path in args.drafts for row in read_jsonl(path)]
             validate_rows(rows, *scenario_catalog(), prior=[*pilot, *prior])
@@ -188,8 +191,17 @@ def run(args):
         return json_bytes(plan).decode()
     if args.command == "verify":
         validate_rows([*pilot, *prior], *scenario_catalog())
+        external = cp.load_external_imports(state)
+        reviewed = {**stats(prior), **coverage(prior)}
+        labels = reviewed["labels"].copy()
+        for row in external:
+            labels[row["סיווג"]] += 1
         return json_bytes({"pilot_quality": state["pilot_quality"], "pilot": stats(pilot),
-                           "production": {**stats(prior), **coverage(prior)}, "next_id": state["next_id"],
+                           "production": ({"records": state["production_records"], "labels": labels}
+                                          if external else reviewed),
+                           "reviewed_checkpoints": reviewed,
+                           "external_records_without_content_review": len(external),
+                           "next_id": state["next_id"],
                            "last_checkpoint": state["last_checkpoint"],
                            "finalized": bool(state["final"])}).decode()
     if args.command == "prepare":

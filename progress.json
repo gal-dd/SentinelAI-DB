@@ -4,9 +4,9 @@
   "pilot_records": 0,
   "pilot_hashes": {},
   "pilot_quality": "not_started",
-  "production_records": 2500,
+  "production_records": 6100,
   "last_checkpoint": 5,
-  "next_id": 2501,
+  "next_id": 6101,
   "checkpoints": [
     {
       "checkpoint": 1,
@@ -221,5 +221,11 @@
       "סודי ביותר": 33
     }
   },
-  "missile_domain_percentage": 60.0
+  "missile_domain_percentage": 60.0,
+  "external_imports": [
+    {
+      "manifest": "data/external-imports/external-2026-11-22-3600/manifest.json",
+      "manifest_sha256": "2b13584e7e237d9d7f564638ead3f50f74c198131318a8cf04a451a5ce28d6a8"
+    }
+  ]
 }
