@@ -66,5 +66,55 @@
     "human_review_records": 403,
     "publication_approved": false,
     "prior_reports_and_decisions": "Historical; not rerun or transferred as approval of the new text."
+  },
+  "classification_migration_audit": {
+    "date": "2026-11-22",
+    "status": "canonical_labels_verified_not_publication_approval",
+    "canonical_labels": [
+      "בלמס",
+      "שמור",
+      "סודי",
+      "סודי ביותר"
+    ],
+    "verified_candidate_git_blob_sha": "23ee30c0fb3b75aca5ce8fa82850a526ced49f14",
+    "candidate_records": 500,
+    "unrecognized_label_records": 0,
+    "observed_label_length_counts": {
+      "בלמס": [
+        7,
+        50,
+        43,
+        25
+      ],
+      "שמור": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "סודי": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "סודי ביותר": [
+        6,
+        50,
+        44,
+        25
+      ]
+    },
+    "current_next_checkpoint_expected_per_label": [
+      7,
+      50,
+      43,
+      25
+    ],
+    "matches_next_checkpoint_label_length_quota": false,
+    "existing_human_review_queue_records": 403,
+    "ready_for_production": false,
+    "prior_candidate_sha256_and_pre_migration_qa": "historical_before_label_migration; do not treat as validation of post-migration bytes",
+    "verification_scope": "read-only label/schema/count inspection; no new independent content, semantic, or full production gate approval"
   }
 }
