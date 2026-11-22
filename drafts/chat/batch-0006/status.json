@@ -16,5 +16,21 @@
     "Run and adjudicate semantic embedding alerts",
     "Recalculate next production length quotas at actual intake date",
     "Run repository checkpoint process on production branch only"
-  ]
+  ],
+  "classification_migration_audit": {
+    "date": "2026-11-22",
+    "status": "canonical_labels_verified_historical_producer_copy",
+    "canonical_labels": [
+      "בלמס",
+      "שמור",
+      "סודי",
+      "סודי ביותר"
+    ],
+    "verified_candidate_git_blob_sha": "769301ba9e77d1a14520934570161e7bf6a4120c",
+    "candidate_records": 500,
+    "unrecognized_label_records": 0,
+    "ready_for_production": false,
+    "authoritative_0006_copy": "drafts/work/batch-0006/candidates.jsonl on poc/defense-focused-v2",
+    "prior_qa_and_sha256": "historical_before_label_migration; not post-migration approval"
+  }
 }
