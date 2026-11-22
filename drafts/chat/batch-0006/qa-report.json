@@ -18,31 +18,31 @@
   },
   "missile_percentage": 60,
   "label_counts": {
-    "נמוך": 125,
-    "בינוני": 125,
-    "גבוה": 125,
-    "חמור": 125
+    "בלמס": 125,
+    "שמור": 125,
+    "סודי": 125,
+    "סודי ביותר": 125
   },
   "label_length_counts": {
-    "נמוך": {
+    "בלמס": {
       "short": 6,
       "sentence": 50,
       "paragraph": 44,
       "long": 25
     },
-    "בינוני": {
+    "שמור": {
       "short": 6,
       "sentence": 50,
       "paragraph": 44,
       "long": 25
     },
-    "גבוה": {
+    "סודי": {
       "short": 6,
       "sentence": 50,
       "paragraph": 44,
       "long": 25
     },
-    "חמור": {
+    "סודי ביותר": {
       "short": 6,
       "sentence": 50,
       "paragraph": 44,

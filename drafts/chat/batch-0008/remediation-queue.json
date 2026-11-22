@@ -1822,7 +1822,7 @@
   "row_queue": [
     {
       "row": 234,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -1838,7 +1838,7 @@
     },
     {
       "row": 115,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -1853,7 +1853,7 @@
     },
     {
       "row": 242,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -1868,7 +1868,7 @@
     },
     {
       "row": 365,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -1883,7 +1883,7 @@
     },
     {
       "row": 107,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -1897,7 +1897,7 @@
     },
     {
       "row": 110,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -1911,7 +1911,7 @@
     },
     {
       "row": 121,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -1925,7 +1925,7 @@
     },
     {
       "row": 124,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "general_negative_controls",
       "length": "long",
       "repeated_group_ids": [
@@ -1939,7 +1939,7 @@
     },
     {
       "row": 125,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -1953,7 +1953,7 @@
     },
     {
       "row": 230,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -1967,7 +1967,7 @@
     },
     {
       "row": 359,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -1981,7 +1981,7 @@
     },
     {
       "row": 364,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "defense_logistics",
       "length": "long",
       "repeated_group_ids": [
@@ -1995,7 +1995,7 @@
     },
     {
       "row": 488,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2009,7 +2009,7 @@
     },
     {
       "row": 494,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2023,7 +2023,7 @@
     },
     {
       "row": 498,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2037,7 +2037,7 @@
     },
     {
       "row": 111,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2050,7 +2050,7 @@
     },
     {
       "row": 117,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2063,7 +2063,7 @@
     },
     {
       "row": 118,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "uncrewed_aircraft",
       "length": "long",
       "repeated_group_ids": [
@@ -2076,7 +2076,7 @@
     },
     {
       "row": 119,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2089,7 +2089,7 @@
     },
     {
       "row": 228,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2102,7 +2102,7 @@
     },
     {
       "row": 233,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "defense_logistics",
       "length": "long",
       "repeated_group_ids": [
@@ -2115,7 +2115,7 @@
     },
     {
       "row": 235,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2128,7 +2128,7 @@
     },
     {
       "row": 236,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "radar_sensors_space",
       "length": "long",
       "repeated_group_ids": [
@@ -2141,7 +2141,7 @@
     },
     {
       "row": 238,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2154,7 +2154,7 @@
     },
     {
       "row": 244,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2167,7 +2167,7 @@
     },
     {
       "row": 357,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2180,7 +2180,7 @@
     },
     {
       "row": 363,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2193,7 +2193,7 @@
     },
     {
       "row": 366,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2206,7 +2206,7 @@
     },
     {
       "row": 368,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "general_negative_controls",
       "length": "long",
       "repeated_group_ids": [
@@ -2219,7 +2219,7 @@
     },
     {
       "row": 369,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2232,7 +2232,7 @@
     },
     {
       "row": 371,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2245,7 +2245,7 @@
     },
     {
       "row": 372,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2258,7 +2258,7 @@
     },
     {
       "row": 476,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "uncrewed_aircraft",
       "length": "long",
       "repeated_group_ids": [
@@ -2271,7 +2271,7 @@
     },
     {
       "row": 484,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2284,7 +2284,7 @@
     },
     {
       "row": 492,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2297,7 +2297,7 @@
     },
     {
       "row": 497,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "general_negative_controls",
       "length": "long",
       "repeated_group_ids": [
@@ -2310,7 +2310,7 @@
     },
     {
       "row": 103,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "uncrewed_aircraft",
       "length": "long",
       "repeated_group_ids": [
@@ -2322,7 +2322,7 @@
     },
     {
       "row": 104,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2334,7 +2334,7 @@
     },
     {
       "row": 105,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "defense_logistics",
       "length": "long",
       "repeated_group_ids": [
@@ -2346,7 +2346,7 @@
     },
     {
       "row": 106,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2358,7 +2358,7 @@
     },
     {
       "row": 109,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "general_negative_controls",
       "length": "long",
       "repeated_group_ids": [
@@ -2370,7 +2370,7 @@
     },
     {
       "row": 113,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2382,7 +2382,7 @@
     },
     {
       "row": 122,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2394,7 +2394,7 @@
     },
     {
       "row": 123,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "radar_sensors_space",
       "length": "long",
       "repeated_group_ids": [
@@ -2406,7 +2406,7 @@
     },
     {
       "row": 231,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "uncrewed_aircraft",
       "length": "long",
       "repeated_group_ids": [
@@ -2418,7 +2418,7 @@
     },
     {
       "row": 232,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2430,7 +2430,7 @@
     },
     {
       "row": 237,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "general_negative_controls",
       "length": "long",
       "repeated_group_ids": [
@@ -2442,7 +2442,7 @@
     },
     {
       "row": 241,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2454,7 +2454,7 @@
     },
     {
       "row": 247,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "uncrewed_aircraft",
       "length": "long",
       "repeated_group_ids": [
@@ -2466,7 +2466,7 @@
     },
     {
       "row": 250,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2478,7 +2478,7 @@
     },
     {
       "row": 352,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "radar_sensors_space",
       "length": "long",
       "repeated_group_ids": [
@@ -2490,7 +2490,7 @@
     },
     {
       "row": 354,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "radar_sensors_space",
       "length": "long",
       "repeated_group_ids": [
@@ -2502,7 +2502,7 @@
     },
     {
       "row": 355,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2514,7 +2514,7 @@
     },
     {
       "row": 358,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "cyber_communications_c2",
       "length": "long",
       "repeated_group_ids": [
@@ -2526,7 +2526,7 @@
     },
     {
       "row": 361,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2538,7 +2538,7 @@
     },
     {
       "row": 362,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "uncrewed_aircraft",
       "length": "long",
       "repeated_group_ids": [
@@ -2550,7 +2550,7 @@
     },
     {
       "row": 367,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "radar_sensors_space",
       "length": "long",
       "repeated_group_ids": [
@@ -2562,7 +2562,7 @@
     },
     {
       "row": 370,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2574,7 +2574,7 @@
     },
     {
       "row": 375,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "cyber_communications_c2",
       "length": "long",
       "repeated_group_ids": [
@@ -2586,7 +2586,7 @@
     },
     {
       "row": 477,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2598,7 +2598,7 @@
     },
     {
       "row": 478,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "defense_logistics",
       "length": "long",
       "repeated_group_ids": [
@@ -2610,7 +2610,7 @@
     },
     {
       "row": 479,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2622,7 +2622,7 @@
     },
     {
       "row": 482,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2634,7 +2634,7 @@
     },
     {
       "row": 483,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "radar_sensors_space",
       "length": "long",
       "repeated_group_ids": [
@@ -2646,7 +2646,7 @@
     },
     {
       "row": 486,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2658,7 +2658,7 @@
     },
     {
       "row": 490,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2670,7 +2670,7 @@
     },
     {
       "row": 496,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "radar_sensors_space",
       "length": "long",
       "repeated_group_ids": [
@@ -2682,7 +2682,7 @@
     },
     {
       "row": 500,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2694,7 +2694,7 @@
     },
     {
       "row": 75,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -2705,7 +2705,7 @@
     },
     {
       "row": 102,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2716,7 +2716,7 @@
     },
     {
       "row": 108,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "radar_sensors_space",
       "length": "long",
       "repeated_group_ids": [
@@ -2727,7 +2727,7 @@
     },
     {
       "row": 112,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2738,7 +2738,7 @@
     },
     {
       "row": 114,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "cyber_communications_c2",
       "length": "long",
       "repeated_group_ids": [
@@ -2749,7 +2749,7 @@
     },
     {
       "row": 116,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "cyber_communications_c2",
       "length": "long",
       "repeated_group_ids": [
@@ -2760,7 +2760,7 @@
     },
     {
       "row": 120,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "defense_logistics",
       "length": "long",
       "repeated_group_ids": [
@@ -2771,7 +2771,7 @@
     },
     {
       "row": 226,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2782,7 +2782,7 @@
     },
     {
       "row": 227,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "cyber_communications_c2",
       "length": "long",
       "repeated_group_ids": [
@@ -2793,7 +2793,7 @@
     },
     {
       "row": 240,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2804,7 +2804,7 @@
     },
     {
       "row": 246,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2815,7 +2815,7 @@
     },
     {
       "row": 324,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -2826,7 +2826,7 @@
     },
     {
       "row": 328,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -2837,7 +2837,7 @@
     },
     {
       "row": 351,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2848,7 +2848,7 @@
     },
     {
       "row": 356,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2859,7 +2859,7 @@
     },
     {
       "row": 360,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "cyber_communications_c2",
       "length": "long",
       "repeated_group_ids": [
@@ -2870,7 +2870,7 @@
     },
     {
       "row": 374,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2881,7 +2881,7 @@
     },
     {
       "row": 438,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -2892,7 +2892,7 @@
     },
     {
       "row": 443,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -2903,7 +2903,7 @@
     },
     {
       "row": 447,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -2914,7 +2914,7 @@
     },
     {
       "row": 450,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -2925,7 +2925,7 @@
     },
     {
       "row": 455,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -2936,7 +2936,7 @@
     },
     {
       "row": 480,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2947,7 +2947,7 @@
     },
     {
       "row": 481,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "radar_sensors_space",
       "length": "long",
       "repeated_group_ids": [
@@ -2958,7 +2958,7 @@
     },
     {
       "row": 491,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "uncrewed_aircraft",
       "length": "long",
       "repeated_group_ids": [
@@ -2969,7 +2969,7 @@
     },
     {
       "row": 493,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "defense_logistics",
       "length": "long",
       "repeated_group_ids": [
@@ -2980,7 +2980,7 @@
     },
     {
       "row": 495,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -2991,7 +2991,7 @@
     },
     {
       "row": 499,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "radar_sensors_space",
       "length": "long",
       "repeated_group_ids": [
@@ -3002,7 +3002,7 @@
     },
     {
       "row": 59,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3012,7 +3012,7 @@
     },
     {
       "row": 66,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3022,7 +3022,7 @@
     },
     {
       "row": 69,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3032,7 +3032,7 @@
     },
     {
       "row": 76,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3042,7 +3042,7 @@
     },
     {
       "row": 84,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3052,7 +3052,7 @@
     },
     {
       "row": 92,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3062,7 +3062,7 @@
     },
     {
       "row": 94,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3072,7 +3072,7 @@
     },
     {
       "row": 101,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "cyber_communications_c2",
       "length": "long",
       "repeated_group_ids": [
@@ -3082,7 +3082,7 @@
     },
     {
       "row": 210,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3092,7 +3092,7 @@
     },
     {
       "row": 222,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3102,7 +3102,7 @@
     },
     {
       "row": 229,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "cyber_communications_c2",
       "length": "long",
       "repeated_group_ids": [
@@ -3112,7 +3112,7 @@
     },
     {
       "row": 243,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "cyber_communications_c2",
       "length": "long",
       "repeated_group_ids": [
@@ -3122,7 +3122,7 @@
     },
     {
       "row": 245,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "cyber_communications_c2",
       "length": "long",
       "repeated_group_ids": [
@@ -3132,7 +3132,7 @@
     },
     {
       "row": 248,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -3142,7 +3142,7 @@
     },
     {
       "row": 249,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "defense_logistics",
       "length": "long",
       "repeated_group_ids": [
@@ -3152,7 +3152,7 @@
     },
     {
       "row": 307,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "general_negative_controls",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3162,7 +3162,7 @@
     },
     {
       "row": 310,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3172,7 +3172,7 @@
     },
     {
       "row": 314,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3182,7 +3182,7 @@
     },
     {
       "row": 315,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "uncrewed_aircraft",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3192,7 +3192,7 @@
     },
     {
       "row": 316,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3202,7 +3202,7 @@
     },
     {
       "row": 318,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3212,7 +3212,7 @@
     },
     {
       "row": 321,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3222,7 +3222,7 @@
     },
     {
       "row": 322,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "radar_sensors_space",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3232,7 +3232,7 @@
     },
     {
       "row": 325,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3242,7 +3242,7 @@
     },
     {
       "row": 326,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3252,7 +3252,7 @@
     },
     {
       "row": 327,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "cyber_communications_c2",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3262,7 +3262,7 @@
     },
     {
       "row": 329,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "cyber_communications_c2",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3272,7 +3272,7 @@
     },
     {
       "row": 331,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "uncrewed_aircraft",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3282,7 +3282,7 @@
     },
     {
       "row": 332,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3292,7 +3292,7 @@
     },
     {
       "row": 335,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3302,7 +3302,7 @@
     },
     {
       "row": 338,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "radar_sensors_space",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3312,7 +3312,7 @@
     },
     {
       "row": 339,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3322,7 +3322,7 @@
     },
     {
       "row": 341,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3332,7 +3332,7 @@
     },
     {
       "row": 349,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "uncrewed_aircraft",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3342,7 +3342,7 @@
     },
     {
       "row": 353,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -3352,7 +3352,7 @@
     },
     {
       "row": 373,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "cyber_communications_c2",
       "length": "long",
       "repeated_group_ids": [
@@ -3362,7 +3362,7 @@
     },
     {
       "row": 433,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "radar_sensors_space",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3372,7 +3372,7 @@
     },
     {
       "row": 439,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3382,7 +3382,7 @@
     },
     {
       "row": 440,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3392,7 +3392,7 @@
     },
     {
       "row": 442,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "cyber_communications_c2",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3402,7 +3402,7 @@
     },
     {
       "row": 446,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "uncrewed_aircraft",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3412,7 +3412,7 @@
     },
     {
       "row": 448,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3422,7 +3422,7 @@
     },
     {
       "row": 449,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "radar_sensors_space",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3432,7 +3432,7 @@
     },
     {
       "row": 452,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "general_negative_controls",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3442,7 +3442,7 @@
     },
     {
       "row": 453,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3452,7 +3452,7 @@
     },
     {
       "row": 454,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3462,7 +3462,7 @@
     },
     {
       "row": 457,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3472,7 +3472,7 @@
     },
     {
       "row": 459,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3482,7 +3482,7 @@
     },
     {
       "row": 460,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "uncrewed_aircraft",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3492,7 +3492,7 @@
     },
     {
       "row": 461,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3502,7 +3502,7 @@
     },
     {
       "row": 466,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3512,7 +3512,7 @@
     },
     {
       "row": 467,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "radar_sensors_space",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3522,7 +3522,7 @@
     },
     {
       "row": 469,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3532,7 +3532,7 @@
     },
     {
       "row": 470,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3542,7 +3542,7 @@
     },
     {
       "row": 471,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3552,7 +3552,7 @@
     },
     {
       "row": 472,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "cyber_communications_c2",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3562,7 +3562,7 @@
     },
     {
       "row": 473,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3572,7 +3572,7 @@
     },
     {
       "row": 474,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "cyber_communications_c2",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3582,7 +3582,7 @@
     },
     {
       "row": 485,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "long",
       "repeated_group_ids": [
@@ -3592,7 +3592,7 @@
     },
     {
       "row": 487,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "cyber_communications_c2",
       "length": "long",
       "repeated_group_ids": [
@@ -3602,7 +3602,7 @@
     },
     {
       "row": 489,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "cyber_communications_c2",
       "length": "long",
       "repeated_group_ids": [
@@ -3612,7 +3612,7 @@
     },
     {
       "row": 65,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3621,7 +3621,7 @@
     },
     {
       "row": 71,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3630,7 +3630,7 @@
     },
     {
       "row": 72,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "uncrewed_aircraft",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3639,7 +3639,7 @@
     },
     {
       "row": 73,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3648,7 +3648,7 @@
     },
     {
       "row": 74,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "uncrewed_aircraft",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3657,7 +3657,7 @@
     },
     {
       "row": 77,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "radar_sensors_space",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3666,7 +3666,7 @@
     },
     {
       "row": 78,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3675,7 +3675,7 @@
     },
     {
       "row": 79,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "radar_sensors_space",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3684,7 +3684,7 @@
     },
     {
       "row": 81,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3693,7 +3693,7 @@
     },
     {
       "row": 82,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3702,7 +3702,7 @@
     },
     {
       "row": 85,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "cyber_communications_c2",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3711,7 +3711,7 @@
     },
     {
       "row": 86,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3720,7 +3720,7 @@
     },
     {
       "row": 87,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "uncrewed_aircraft",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3729,7 +3729,7 @@
     },
     {
       "row": 88,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3738,7 +3738,7 @@
     },
     {
       "row": 90,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "uncrewed_aircraft",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3747,7 +3747,7 @@
     },
     {
       "row": 93,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "radar_sensors_space",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3756,7 +3756,7 @@
     },
     {
       "row": 96,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3765,7 +3765,7 @@
     },
     {
       "row": 98,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3774,7 +3774,7 @@
     },
     {
       "row": 99,
-      "label": "נמוך",
+      "label": "בלמס",
       "domain": "cyber_communications_c2",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3783,7 +3783,7 @@
     },
     {
       "row": 182,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "cyber_communications_c2",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3792,7 +3792,7 @@
     },
     {
       "row": 183,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3801,7 +3801,7 @@
     },
     {
       "row": 185,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3810,7 +3810,7 @@
     },
     {
       "row": 189,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3819,7 +3819,7 @@
     },
     {
       "row": 190,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "radar_sensors_space",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3828,7 +3828,7 @@
     },
     {
       "row": 191,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3837,7 +3837,7 @@
     },
     {
       "row": 192,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "radar_sensors_space",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3846,7 +3846,7 @@
     },
     {
       "row": 194,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3855,7 +3855,7 @@
     },
     {
       "row": 196,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3864,7 +3864,7 @@
     },
     {
       "row": 198,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3873,7 +3873,7 @@
     },
     {
       "row": 204,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3882,7 +3882,7 @@
     },
     {
       "row": 205,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3891,7 +3891,7 @@
     },
     {
       "row": 207,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3900,7 +3900,7 @@
     },
     {
       "row": 211,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3909,7 +3909,7 @@
     },
     {
       "row": 213,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3918,7 +3918,7 @@
     },
     {
       "row": 214,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "cyber_communications_c2",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3927,7 +3927,7 @@
     },
     {
       "row": 219,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3936,7 +3936,7 @@
     },
     {
       "row": 224,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3945,7 +3945,7 @@
     },
     {
       "row": 225,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3954,7 +3954,7 @@
     },
     {
       "row": 239,
-      "label": "בינוני",
+      "label": "שמור",
       "domain": "radar_sensors_space",
       "length": "long",
       "repeated_group_ids": [
@@ -3963,7 +3963,7 @@
     },
     {
       "row": 309,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3972,7 +3972,7 @@
     },
     {
       "row": 311,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3981,7 +3981,7 @@
     },
     {
       "row": 313,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "cyber_communications_c2",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3990,7 +3990,7 @@
     },
     {
       "row": 317,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "uncrewed_aircraft",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -3999,7 +3999,7 @@
     },
     {
       "row": 320,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "radar_sensors_space",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4008,7 +4008,7 @@
     },
     {
       "row": 323,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "general_negative_controls",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4017,7 +4017,7 @@
     },
     {
       "row": 334,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4026,7 +4026,7 @@
     },
     {
       "row": 337,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4035,7 +4035,7 @@
     },
     {
       "row": 340,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4044,7 +4044,7 @@
     },
     {
       "row": 342,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "cyber_communications_c2",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4053,7 +4053,7 @@
     },
     {
       "row": 344,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "cyber_communications_c2",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4062,7 +4062,7 @@
     },
     {
       "row": 345,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4071,7 +4071,7 @@
     },
     {
       "row": 348,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "defense_logistics",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4080,7 +4080,7 @@
     },
     {
       "row": 350,
-      "label": "גבוה",
+      "label": "סודי",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4089,7 +4089,7 @@
     },
     {
       "row": 432,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4098,7 +4098,7 @@
     },
     {
       "row": 434,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4107,7 +4107,7 @@
     },
     {
       "row": 435,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "radar_sensors_space",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4116,7 +4116,7 @@
     },
     {
       "row": 436,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "general_negative_controls",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4125,7 +4125,7 @@
     },
     {
       "row": 437,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4134,7 +4134,7 @@
     },
     {
       "row": 441,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4143,7 +4143,7 @@
     },
     {
       "row": 445,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4152,7 +4152,7 @@
     },
     {
       "row": 451,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "radar_sensors_space",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4161,7 +4161,7 @@
     },
     {
       "row": 456,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "cyber_communications_c2",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4170,7 +4170,7 @@
     },
     {
       "row": 458,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "cyber_communications_c2",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4179,7 +4179,7 @@
     },
     {
       "row": 462,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "uncrewed_aircraft",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4188,7 +4188,7 @@
     },
     {
       "row": 463,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4197,7 +4197,7 @@
     },
     {
       "row": 464,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4206,7 +4206,7 @@
     },
     {
       "row": 465,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "radar_sensors_space",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4215,7 +4215,7 @@
     },
     {
       "row": 468,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "general_negative_controls",
       "length": "paragraph",
       "repeated_group_ids": [
@@ -4224,7 +4224,7 @@
     },
     {
       "row": 475,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "domain": "missile_systems",
       "length": "paragraph",
       "repeated_group_ids": [

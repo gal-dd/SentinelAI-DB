@@ -6,22 +6,22 @@
   "changes": [
     {
       "row_1_based": 282,
-      "label": "נמוך",
+      "label": "בלמס",
       "length": "paragraph -> short"
     },
     {
       "row_1_based": 324,
-      "label": "בינוני",
+      "label": "שמור",
       "length": "paragraph -> short"
     },
     {
       "row_1_based": 365,
-      "label": "גבוה",
+      "label": "סודי",
       "length": "paragraph -> short"
     },
     {
       "row_1_based": 404,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "length": "paragraph -> short"
     }
   ],

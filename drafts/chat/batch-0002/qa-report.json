@@ -22,25 +22,25 @@
   },
   "missile_share": 0.6,
   "labels_and_lengths": {
-    "נמוך": {
+    "בלמס": {
       "short": 6,
       "sentence": 50,
       "paragraph": 44,
       "long": 25
     },
-    "בינוני": {
+    "שמור": {
       "short": 6,
       "sentence": 50,
       "paragraph": 44,
       "long": 25
     },
-    "גבוה": {
+    "סודי": {
       "short": 6,
       "sentence": 50,
       "paragraph": 44,
       "long": 25
     },
-    "חמור": {
+    "סודי ביותר": {
       "short": 6,
       "sentence": 50,
       "paragraph": 44,

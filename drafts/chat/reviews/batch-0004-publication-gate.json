@@ -35,22 +35,22 @@
   "suggested_edits": [
     {
       "original_row": 282,
-      "label": "נמוך",
+      "label": "בלמס",
       "replacement_text": "פורסם מילון מונחים ציבורי למיירטים"
     },
     {
       "original_row": 324,
-      "label": "בינוני",
+      "label": "שמור",
       "replacement_text": "נקבעה הגהה פנימית למילון המיירטים"
     },
     {
       "original_row": 365,
-      "label": "גבוה",
+      "label": "סודי",
       "replacement_text": "נעצרה התחייבות חוזית למיזם המיירטים"
     },
     {
       "original_row": 404,
-      "label": "חמור",
+      "label": "סודי ביותר",
       "replacement_text": "הושמדו כל אסמכתאות ערר המיירטים"
     }
   ],
