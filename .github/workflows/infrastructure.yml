@@ -17,7 +17,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v7
         with:
@@ -31,3 +31,8 @@ jobs:
         run: python -B -m unittest discover -s tests -p test_infrastructure.py -v
       - name: Test isolated civilian system I/O
         run: python -B -m unittest discover -s tests -p test_system_io.py -v
+
+      - name: Test classification and domain compatibility
+        run: python -B -m unittest discover -s tests -p test_defense_v2.py -v
+      - name: Verify signed production checkpoints with canonical labels
+        run: python -B -m sentinel_dataset verify
