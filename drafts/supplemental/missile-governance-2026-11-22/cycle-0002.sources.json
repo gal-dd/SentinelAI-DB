@@ -1,0 +1,18 @@
+{
+  "mg2-nike": {
+    "title": "Historic Nike Missile Site",
+    "publisher": "National Park Service",
+    "url": "https://www.nps.gov/places/historic-nike-missile-site.htm",
+    "terms_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+    "license": "Original factual paraphrase",
+    "source_group_id": "mg2-source-nike"
+  },
+  "mg2-v2": {
+    "title": "V-2 (A-4), Lifting Eyes",
+    "publisher": "Smithsonian Institution",
+    "url": "https://www.si.edu/object/nasm_A19600342001",
+    "terms_url": "https://www.si.edu/termsofuse",
+    "license": "Original factual paraphrase",
+    "source_group_id": "mg2-source-v2"
+  }
+}

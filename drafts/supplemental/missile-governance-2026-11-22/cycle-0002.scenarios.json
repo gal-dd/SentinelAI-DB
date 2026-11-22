@@ -1,0 +1,602 @@
+{
+  "mg-20261122-c02-01-1": {
+    "source_group_id": "mg2-source-nike",
+    "source_id": "mg2-nike",
+    "description": "ייחוס תצלומים",
+    "fictional": false
+  },
+  "mg-20261122-c02-01-2": {
+    "source_group_id": "mg-20261122-c02-family-01",
+    "source_id": null,
+    "description": "ייחוס תצלומים",
+    "fictional": true
+  },
+  "mg-20261122-c02-01-3": {
+    "source_group_id": "mg-20261122-c02-family-01",
+    "source_id": null,
+    "description": "ייחוס תצלומים",
+    "fictional": true
+  },
+  "mg-20261122-c02-01-4": {
+    "source_group_id": "mg-20261122-c02-family-01",
+    "source_id": null,
+    "description": "ייחוס תצלומים",
+    "fictional": true
+  },
+  "mg-20261122-c02-02-1": {
+    "source_group_id": "mg2-source-v2",
+    "source_id": "mg2-v2",
+    "description": "ריאיון עם גמלאי",
+    "fictional": false
+  },
+  "mg-20261122-c02-02-2": {
+    "source_group_id": "mg-20261122-c02-family-02",
+    "source_id": null,
+    "description": "ריאיון עם גמלאי",
+    "fictional": true
+  },
+  "mg-20261122-c02-02-3": {
+    "source_group_id": "mg-20261122-c02-family-02",
+    "source_id": null,
+    "description": "ריאיון עם גמלאי",
+    "fictional": true
+  },
+  "mg-20261122-c02-02-4": {
+    "source_group_id": "mg-20261122-c02-family-02",
+    "source_id": null,
+    "description": "ריאיון עם גמלאי",
+    "fictional": true
+  },
+  "mg-20261122-c02-03-1": {
+    "source_group_id": "mg-20261122-c02-family-03",
+    "source_id": null,
+    "description": "פריט מושאל",
+    "fictional": true
+  },
+  "mg-20261122-c02-03-2": {
+    "source_group_id": "mg-20261122-c02-family-03",
+    "source_id": null,
+    "description": "פריט מושאל",
+    "fictional": true
+  },
+  "mg-20261122-c02-03-3": {
+    "source_group_id": "mg-20261122-c02-family-03",
+    "source_id": null,
+    "description": "פריט מושאל",
+    "fictional": true
+  },
+  "mg-20261122-c02-03-4": {
+    "source_group_id": "mg-20261122-c02-family-03",
+    "source_id": null,
+    "description": "פריט מושאל",
+    "fictional": true
+  },
+  "mg-20261122-c02-04-1": {
+    "source_group_id": "mg-20261122-c02-family-04",
+    "source_id": null,
+    "description": "כרטוס לקהל",
+    "fictional": true
+  },
+  "mg-20261122-c02-04-2": {
+    "source_group_id": "mg-20261122-c02-family-04",
+    "source_id": null,
+    "description": "כרטוס לקהל",
+    "fictional": true
+  },
+  "mg-20261122-c02-04-3": {
+    "source_group_id": "mg-20261122-c02-family-04",
+    "source_id": null,
+    "description": "כרטוס לקהל",
+    "fictional": true
+  },
+  "mg-20261122-c02-04-4": {
+    "source_group_id": "mg-20261122-c02-family-04",
+    "source_id": null,
+    "description": "כרטוס לקהל",
+    "fictional": true
+  },
+  "mg-20261122-c02-05-1": {
+    "source_group_id": "mg-20261122-c02-family-05",
+    "source_id": null,
+    "description": "שימור חומרי כרזה",
+    "fictional": true
+  },
+  "mg-20261122-c02-05-2": {
+    "source_group_id": "mg-20261122-c02-family-05",
+    "source_id": null,
+    "description": "שימור חומרי כרזה",
+    "fictional": true
+  },
+  "mg-20261122-c02-05-3": {
+    "source_group_id": "mg-20261122-c02-family-05",
+    "source_id": null,
+    "description": "שימור חומרי כרזה",
+    "fictional": true
+  },
+  "mg-20261122-c02-05-4": {
+    "source_group_id": "mg-20261122-c02-family-05",
+    "source_id": null,
+    "description": "שימור חומרי כרזה",
+    "fictional": true
+  },
+  "mg-20261122-c02-06-1": {
+    "source_group_id": "mg-20261122-c02-family-06",
+    "source_id": null,
+    "description": "קול קורא",
+    "fictional": true
+  },
+  "mg-20261122-c02-06-2": {
+    "source_group_id": "mg-20261122-c02-family-06",
+    "source_id": null,
+    "description": "קול קורא",
+    "fictional": true
+  },
+  "mg-20261122-c02-06-3": {
+    "source_group_id": "mg-20261122-c02-family-06",
+    "source_id": null,
+    "description": "קול קורא",
+    "fictional": true
+  },
+  "mg-20261122-c02-06-4": {
+    "source_group_id": "mg-20261122-c02-family-06",
+    "source_id": null,
+    "description": "קול קורא",
+    "fictional": true
+  },
+  "mg-20261122-c02-07-1": {
+    "source_group_id": "mg-20261122-c02-family-07",
+    "source_id": null,
+    "description": "ניגוד בהצהרה",
+    "fictional": true
+  },
+  "mg-20261122-c02-07-2": {
+    "source_group_id": "mg-20261122-c02-family-07",
+    "source_id": null,
+    "description": "ניגוד בהצהרה",
+    "fictional": true
+  },
+  "mg-20261122-c02-07-3": {
+    "source_group_id": "mg-20261122-c02-family-07",
+    "source_id": null,
+    "description": "ניגוד בהצהרה",
+    "fictional": true
+  },
+  "mg-20261122-c02-07-4": {
+    "source_group_id": "mg-20261122-c02-family-07",
+    "source_id": null,
+    "description": "ניגוד בהצהרה",
+    "fictional": true
+  },
+  "mg-20261122-c02-08-1": {
+    "source_group_id": "mg-20261122-c02-family-08",
+    "source_id": null,
+    "description": "העברת אוסף",
+    "fictional": true
+  },
+  "mg-20261122-c02-08-2": {
+    "source_group_id": "mg-20261122-c02-family-08",
+    "source_id": null,
+    "description": "העברת אוסף",
+    "fictional": true
+  },
+  "mg-20261122-c02-08-3": {
+    "source_group_id": "mg-20261122-c02-family-08",
+    "source_id": null,
+    "description": "העברת אוסף",
+    "fictional": true
+  },
+  "mg-20261122-c02-08-4": {
+    "source_group_id": "mg-20261122-c02-family-08",
+    "source_id": null,
+    "description": "העברת אוסף",
+    "fictional": true
+  },
+  "mg-20261122-c02-09-1": {
+    "source_group_id": "mg-20261122-c02-family-09",
+    "source_id": null,
+    "description": "כתוביות",
+    "fictional": true
+  },
+  "mg-20261122-c02-09-2": {
+    "source_group_id": "mg-20261122-c02-family-09",
+    "source_id": null,
+    "description": "כתוביות",
+    "fictional": true
+  },
+  "mg-20261122-c02-09-3": {
+    "source_group_id": "mg-20261122-c02-family-09",
+    "source_id": null,
+    "description": "כתוביות",
+    "fictional": true
+  },
+  "mg-20261122-c02-09-4": {
+    "source_group_id": "mg-20261122-c02-family-09",
+    "source_id": null,
+    "description": "כתוביות",
+    "fictional": true
+  },
+  "mg-20261122-c02-10-1": {
+    "source_group_id": "mg-20261122-c02-family-10",
+    "source_id": null,
+    "description": "זמני כינוס",
+    "fictional": true
+  },
+  "mg-20261122-c02-10-2": {
+    "source_group_id": "mg-20261122-c02-family-10",
+    "source_id": null,
+    "description": "זמני כינוס",
+    "fictional": true
+  },
+  "mg-20261122-c02-10-3": {
+    "source_group_id": "mg-20261122-c02-family-10",
+    "source_id": null,
+    "description": "זמני כינוס",
+    "fictional": true
+  },
+  "mg-20261122-c02-10-4": {
+    "source_group_id": "mg-20261122-c02-family-10",
+    "source_id": null,
+    "description": "זמני כינוס",
+    "fictional": true
+  },
+  "mg-20261122-c02-11-1": {
+    "source_group_id": "mg-20261122-c02-family-11",
+    "source_id": null,
+    "description": "בחירת כותרת",
+    "fictional": true
+  },
+  "mg-20261122-c02-11-2": {
+    "source_group_id": "mg-20261122-c02-family-11",
+    "source_id": null,
+    "description": "בחירת כותרת",
+    "fictional": true
+  },
+  "mg-20261122-c02-11-3": {
+    "source_group_id": "mg-20261122-c02-family-11",
+    "source_id": null,
+    "description": "בחירת כותרת",
+    "fictional": true
+  },
+  "mg-20261122-c02-11-4": {
+    "source_group_id": "mg-20261122-c02-family-11",
+    "source_id": null,
+    "description": "בחירת כותרת",
+    "fictional": true
+  },
+  "mg-20261122-c02-12-1": {
+    "source_group_id": "mg-20261122-c02-family-12",
+    "source_id": null,
+    "description": "קליטת מכתבים",
+    "fictional": true
+  },
+  "mg-20261122-c02-12-2": {
+    "source_group_id": "mg-20261122-c02-family-12",
+    "source_id": null,
+    "description": "קליטת מכתבים",
+    "fictional": true
+  },
+  "mg-20261122-c02-12-3": {
+    "source_group_id": "mg-20261122-c02-family-12",
+    "source_id": null,
+    "description": "קליטת מכתבים",
+    "fictional": true
+  },
+  "mg-20261122-c02-12-4": {
+    "source_group_id": "mg-20261122-c02-family-12",
+    "source_id": null,
+    "description": "קליטת מכתבים",
+    "fictional": true
+  },
+  "mg-20261122-c02-13-1": {
+    "source_group_id": "mg-20261122-c02-family-13",
+    "source_id": null,
+    "description": "מדד חינוכי",
+    "fictional": true
+  },
+  "mg-20261122-c02-13-2": {
+    "source_group_id": "mg-20261122-c02-family-13",
+    "source_id": null,
+    "description": "מדד חינוכי",
+    "fictional": true
+  },
+  "mg-20261122-c02-13-3": {
+    "source_group_id": "mg-20261122-c02-family-13",
+    "source_id": null,
+    "description": "מדד חינוכי",
+    "fictional": true
+  },
+  "mg-20261122-c02-13-4": {
+    "source_group_id": "mg-20261122-c02-family-13",
+    "source_id": null,
+    "description": "מדד חינוכי",
+    "fictional": true
+  },
+  "mg-20261122-c02-14-1": {
+    "source_group_id": "mg-20261122-c02-family-14",
+    "source_id": null,
+    "description": "הרשאת קטלוג",
+    "fictional": true
+  },
+  "mg-20261122-c02-14-2": {
+    "source_group_id": "mg-20261122-c02-family-14",
+    "source_id": null,
+    "description": "הרשאת קטלוג",
+    "fictional": true
+  },
+  "mg-20261122-c02-14-3": {
+    "source_group_id": "mg-20261122-c02-family-14",
+    "source_id": null,
+    "description": "הרשאת קטלוג",
+    "fictional": true
+  },
+  "mg-20261122-c02-14-4": {
+    "source_group_id": "mg-20261122-c02-family-14",
+    "source_id": null,
+    "description": "הרשאת קטלוג",
+    "fictional": true
+  },
+  "mg-20261122-c02-15-1": {
+    "source_group_id": "mg-20261122-c02-family-15",
+    "source_id": null,
+    "description": "חומר לימוד",
+    "fictional": true
+  },
+  "mg-20261122-c02-15-2": {
+    "source_group_id": "mg-20261122-c02-family-15",
+    "source_id": null,
+    "description": "חומר לימוד",
+    "fictional": true
+  },
+  "mg-20261122-c02-15-3": {
+    "source_group_id": "mg-20261122-c02-family-15",
+    "source_id": null,
+    "description": "חומר לימוד",
+    "fictional": true
+  },
+  "mg-20261122-c02-15-4": {
+    "source_group_id": "mg-20261122-c02-family-15",
+    "source_id": null,
+    "description": "חומר לימוד",
+    "fictional": true
+  },
+  "mg-20261122-c02-16-1": {
+    "source_group_id": "mg-20261122-c02-family-16",
+    "source_id": null,
+    "description": "החלטת פרישה",
+    "fictional": true
+  },
+  "mg-20261122-c02-16-2": {
+    "source_group_id": "mg-20261122-c02-family-16",
+    "source_id": null,
+    "description": "החלטת פרישה",
+    "fictional": true
+  },
+  "mg-20261122-c02-16-3": {
+    "source_group_id": "mg-20261122-c02-family-16",
+    "source_id": null,
+    "description": "החלטת פרישה",
+    "fictional": true
+  },
+  "mg-20261122-c02-16-4": {
+    "source_group_id": "mg-20261122-c02-family-16",
+    "source_id": null,
+    "description": "החלטת פרישה",
+    "fictional": true
+  },
+  "mg-20261122-c02-17-1": {
+    "source_group_id": "mg-20261122-c02-family-17",
+    "source_id": null,
+    "description": "מעמד עברית",
+    "fictional": true
+  },
+  "mg-20261122-c02-17-2": {
+    "source_group_id": "mg-20261122-c02-family-17",
+    "source_id": null,
+    "description": "מעמד עברית",
+    "fictional": true
+  },
+  "mg-20261122-c02-17-3": {
+    "source_group_id": "mg-20261122-c02-family-17",
+    "source_id": null,
+    "description": "מעמד עברית",
+    "fictional": true
+  },
+  "mg-20261122-c02-17-4": {
+    "source_group_id": "mg-20261122-c02-family-17",
+    "source_id": null,
+    "description": "מעמד עברית",
+    "fictional": true
+  },
+  "mg-20261122-c02-18-1": {
+    "source_group_id": "mg-20261122-c02-family-18",
+    "source_id": null,
+    "description": "בדיקת תצלומים",
+    "fictional": true
+  },
+  "mg-20261122-c02-18-2": {
+    "source_group_id": "mg-20261122-c02-family-18",
+    "source_id": null,
+    "description": "בדיקת תצלומים",
+    "fictional": true
+  },
+  "mg-20261122-c02-18-3": {
+    "source_group_id": "mg-20261122-c02-family-18",
+    "source_id": null,
+    "description": "בדיקת תצלומים",
+    "fictional": true
+  },
+  "mg-20261122-c02-18-4": {
+    "source_group_id": "mg-20261122-c02-family-18",
+    "source_id": null,
+    "description": "בדיקת תצלומים",
+    "fictional": true
+  },
+  "mg-20261122-c02-19-1": {
+    "source_group_id": "mg-20261122-c02-family-19",
+    "source_id": null,
+    "description": "בקשת הסרה",
+    "fictional": true
+  },
+  "mg-20261122-c02-19-2": {
+    "source_group_id": "mg-20261122-c02-family-19",
+    "source_id": null,
+    "description": "בקשת הסרה",
+    "fictional": true
+  },
+  "mg-20261122-c02-19-3": {
+    "source_group_id": "mg-20261122-c02-family-19",
+    "source_id": null,
+    "description": "בקשת הסרה",
+    "fictional": true
+  },
+  "mg-20261122-c02-19-4": {
+    "source_group_id": "mg-20261122-c02-family-19",
+    "source_id": null,
+    "description": "בקשת הסרה",
+    "fictional": true
+  },
+  "mg-20261122-c02-20-1": {
+    "source_group_id": "mg-20261122-c02-family-20",
+    "source_id": null,
+    "description": "רישיון הקראה",
+    "fictional": true
+  },
+  "mg-20261122-c02-20-2": {
+    "source_group_id": "mg-20261122-c02-family-20",
+    "source_id": null,
+    "description": "רישיון הקראה",
+    "fictional": true
+  },
+  "mg-20261122-c02-20-3": {
+    "source_group_id": "mg-20261122-c02-family-20",
+    "source_id": null,
+    "description": "רישיון הקראה",
+    "fictional": true
+  },
+  "mg-20261122-c02-20-4": {
+    "source_group_id": "mg-20261122-c02-family-20",
+    "source_id": null,
+    "description": "רישיון הקראה",
+    "fictional": true
+  },
+  "mg-20261122-c02-21-1": {
+    "source_group_id": "mg-20261122-c02-family-21",
+    "source_id": null,
+    "description": "גרסת כתב עת",
+    "fictional": true
+  },
+  "mg-20261122-c02-21-2": {
+    "source_group_id": "mg-20261122-c02-family-21",
+    "source_id": null,
+    "description": "גרסת כתב עת",
+    "fictional": true
+  },
+  "mg-20261122-c02-21-3": {
+    "source_group_id": "mg-20261122-c02-family-21",
+    "source_id": null,
+    "description": "גרסת כתב עת",
+    "fictional": true
+  },
+  "mg-20261122-c02-21-4": {
+    "source_group_id": "mg-20261122-c02-family-21",
+    "source_id": null,
+    "description": "גרסת כתב עת",
+    "fictional": true
+  },
+  "mg-20261122-c02-22-1": {
+    "source_group_id": "mg-20261122-c02-family-22",
+    "source_id": null,
+    "description": "חלוקת תפקידים",
+    "fictional": true
+  },
+  "mg-20261122-c02-22-2": {
+    "source_group_id": "mg-20261122-c02-family-22",
+    "source_id": null,
+    "description": "חלוקת תפקידים",
+    "fictional": true
+  },
+  "mg-20261122-c02-22-3": {
+    "source_group_id": "mg-20261122-c02-family-22",
+    "source_id": null,
+    "description": "חלוקת תפקידים",
+    "fictional": true
+  },
+  "mg-20261122-c02-22-4": {
+    "source_group_id": "mg-20261122-c02-family-22",
+    "source_id": null,
+    "description": "חלוקת תפקידים",
+    "fictional": true
+  },
+  "mg-20261122-c02-23-1": {
+    "source_group_id": "mg-20261122-c02-family-23",
+    "source_id": null,
+    "description": "פנקס הוצאות",
+    "fictional": true
+  },
+  "mg-20261122-c02-23-2": {
+    "source_group_id": "mg-20261122-c02-family-23",
+    "source_id": null,
+    "description": "פנקס הוצאות",
+    "fictional": true
+  },
+  "mg-20261122-c02-23-3": {
+    "source_group_id": "mg-20261122-c02-family-23",
+    "source_id": null,
+    "description": "פנקס הוצאות",
+    "fictional": true
+  },
+  "mg-20261122-c02-23-4": {
+    "source_group_id": "mg-20261122-c02-family-23",
+    "source_id": null,
+    "description": "פנקס הוצאות",
+    "fictional": true
+  },
+  "mg-20261122-c02-24-1": {
+    "source_group_id": "mg-20261122-c02-family-24",
+    "source_id": null,
+    "description": "בעלות על קול",
+    "fictional": true
+  },
+  "mg-20261122-c02-24-2": {
+    "source_group_id": "mg-20261122-c02-family-24",
+    "source_id": null,
+    "description": "בעלות על קול",
+    "fictional": true
+  },
+  "mg-20261122-c02-24-3": {
+    "source_group_id": "mg-20261122-c02-family-24",
+    "source_id": null,
+    "description": "בעלות על קול",
+    "fictional": true
+  },
+  "mg-20261122-c02-24-4": {
+    "source_group_id": "mg-20261122-c02-family-24",
+    "source_id": null,
+    "description": "בעלות על קול",
+    "fictional": true
+  },
+  "mg-20261122-c02-25-1": {
+    "source_group_id": "mg-20261122-c02-family-25",
+    "source_id": null,
+    "description": "הקפאת מלגה",
+    "fictional": true
+  },
+  "mg-20261122-c02-25-2": {
+    "source_group_id": "mg-20261122-c02-family-25",
+    "source_id": null,
+    "description": "הקפאת מלגה",
+    "fictional": true
+  },
+  "mg-20261122-c02-25-3": {
+    "source_group_id": "mg-20261122-c02-family-25",
+    "source_id": null,
+    "description": "הקפאת מלגה",
+    "fictional": true
+  },
+  "mg-20261122-c02-25-4": {
+    "source_group_id": "mg-20261122-c02-family-25",
+    "source_id": null,
+    "description": "הקפאת מלגה",
+    "fictional": true
+  }
+}
