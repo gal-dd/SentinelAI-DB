@@ -1,0 +1,250 @@
+{
+  "batch": 7,
+  "status": "incomplete_unpublished",
+  "base_commit": "96750facd0c1c1bd306e992ad428b40a43651f6a",
+  "production_records": 6600,
+  "last_checkpoint": 6,
+  "next_id": 6601,
+  "references": {
+    "checkpoint_records": 3000,
+    "imported_records": 3600
+  },
+  "reviewer_limit": "Separate AI reviewer agents received unlabeled text; same model family, no independent model or human validation.",
+  "blind_reviews_by_cohort": {
+    "legacy": {
+      "reviewed": 67,
+      "passed_content_review": 3
+    },
+    "new": {
+      "reviewed": 83,
+      "passed_content_review": 64
+    },
+    "intake": {
+      "reviewed": 74,
+      "passed_content_review": 15
+    },
+    "second": {
+      "reviewed": 53,
+      "passed_content_review": 37
+    }
+  },
+  "legacy_draft": {
+    "base_commit": "188ff889fadcdd39d3d569d0e78f92dd498fc9f7",
+    "historical_holds_preserved": 433,
+    "semantic_alerts_in_unfiltered_legacy_draft": 2831
+  },
+  "quota_gaps": {
+    "records": 392,
+    "label_lengths": {
+      "בלמס": [
+        2,
+        31,
+        30,
+        18
+      ],
+      "שמור": [
+        6,
+        44,
+        37,
+        23
+      ],
+      "סודי": [
+        5,
+        41,
+        32,
+        20
+      ],
+      "סודי ביותר": [
+        5,
+        44,
+        35,
+        19
+      ]
+    },
+    "domain_counts": {
+      "missile_systems": 251,
+      "uncrewed_aircraft": 37,
+      "radar_sensors_space": 39,
+      "cyber_communications_c2": 35,
+      "defense_logistics": 18,
+      "general_negative_controls": 12
+    }
+  },
+  "retained_metrics": {
+    "records": 108,
+    "label_lengths": {
+      "בלמס": [
+        4,
+        19,
+        14,
+        7
+      ],
+      "שמור": [
+        0,
+        6,
+        7,
+        2
+      ],
+      "סודי": [
+        1,
+        9,
+        12,
+        5
+      ],
+      "סודי ביותר": [
+        1,
+        6,
+        9,
+        6
+      ]
+    },
+    "labels": {
+      "בלמס": 44,
+      "שמור": 15,
+      "סודי": 27,
+      "סודי ביותר": 22
+    },
+    "lengths": {
+      "short": 6,
+      "sentence": 40,
+      "paragraph": 42,
+      "long": 20
+    },
+    "origins": {
+      "synthetic": 108
+    },
+    "styles": {
+      "minutes": 9,
+      "alert": 4,
+      "classroom": 2,
+      "podcast": 1,
+      "forum": 1,
+      "workbook": 8,
+      "column": 2,
+      "chat": 5,
+      "handoff": 4,
+      "thread": 1,
+      "memo": 7,
+      "report": 19,
+      "findings": 11,
+      "help": 1,
+      "ticket": 2,
+      "faq": 2,
+      "notice": 3,
+      "caption": 1,
+      "qa": 3,
+      "explainer": 2,
+      "interview": 1,
+      "email": 2,
+      "log": 4,
+      "memorandum": 1,
+      "guide": 4,
+      "transcript": 2,
+      "glossary": 1,
+      "catalog": 2,
+      "lecture": 1,
+      "worksheet": 2
+    },
+    "scenario_count": 104,
+    "source_group_count": 104,
+    "edge_cases": 0,
+    "counterfactual_pairs": 0,
+    "records_with_latin": 0,
+    "domain_counts": {
+      "missile_systems": 49,
+      "uncrewed_aircraft": 13,
+      "radar_sensors_space": 11,
+      "cyber_communications_c2": 15,
+      "defense_logistics": 7,
+      "general_negative_controls": 13
+    },
+    "domain_label_counts": {
+      "missile_systems": {
+        "בלמס": 19,
+        "שמור": 7,
+        "סודי": 14,
+        "סודי ביותר": 9
+      },
+      "uncrewed_aircraft": {
+        "בלמס": 5,
+        "שמור": 2,
+        "סודי": 3,
+        "סודי ביותר": 3
+      },
+      "radar_sensors_space": {
+        "בלמס": 4,
+        "שמור": 1,
+        "סודי": 3,
+        "סודי ביותר": 3
+      },
+      "cyber_communications_c2": {
+        "בלמס": 7,
+        "שמור": 2,
+        "סודי": 3,
+        "סודי ביותר": 3
+      },
+      "defense_logistics": {
+        "בלמס": 2,
+        "שמור": 1,
+        "סודי": 2,
+        "סודי ביותר": 2
+      },
+      "general_negative_controls": {
+        "בלמס": 7,
+        "שמור": 2,
+        "סודי": 2,
+        "סודי ביותר": 2
+      }
+    },
+    "missile_domain_percentage": 45.370370370370374
+  },
+  "new_written_records": 92,
+  "exact_normalized_duplicates": 0,
+  "schema_and_document_form": "passed",
+  "lexical_alerts": 0,
+  "semantic": {
+    "status": "completed",
+    "model": "Xenova/multilingual-e5-small",
+    "reference_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+    "artifact_sha256": {
+      "model_int8.onnx": "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c",
+      "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+    },
+    "search": "hnsw_cosine_top_k",
+    "cosine_threshold": 0.92,
+    "neighbors_per_record": 12,
+    "indexed_records": 6708,
+    "scanned_records": 108,
+    "candidate_pairs": 107
+  },
+  "high_risk_alerts": 0,
+  "excluded_by_reason": {
+    "blind_content_review": 75,
+    "quota_overflow": 1,
+    "high_risk_similarity": 4
+  },
+  "historical_progress_sha256": "39d029093549022b53ad02e36881445e7da31038307c2382762050529f59b503",
+  "files_sha256": {
+    "candidates.jsonl": "70e0a0d07c00d4d1e67f28f8848c4d7fb0a52d1b38f8b0495c8a33fa9cebeca8",
+    "scenarios.json": "b20292293780e0ce10ea026f88a070b73e3d8c5778a3ecdea21f3c9154387dcc",
+    "review.jsonl": "d2392131f8bf1f692aa4c65369b0681d4fca35cb4983df8508d020497bd4d9f8"
+  },
+  "verification": {
+    "base_verify": "passed; six checkpoint hashes and the external import manifest/file verified",
+    "unit_tests": {
+      "passed": 39,
+      "failed": 0,
+      "skipped": 0
+    },
+    "infrastructure": {
+      "result": "passed",
+      "scope": "materialized active files and linked documentation from GitHub",
+      "errors": 0
+    },
+    "prepare": {
+      "result": "blocked",
+      "error": "Expected exactly 500 candidate rows"
+    }
+  },
+  "candidate_status": "Passed intake checks for assembly. No production IDs assigned. Full-batch review packet and stage-checkpoint require 500 quota-matched rows."
+}

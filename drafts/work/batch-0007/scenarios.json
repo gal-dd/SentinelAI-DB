@@ -1,0 +1,646 @@
+{
+  "batch-0007-interceptor-prototype-withdrawal": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "נחשפת החלטה פנימית לגנוז אב־טיפוס.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-interceptor-prototype-withdrawal"
+  },
+  "batch-0007-interceptor-witness-disclosure": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "זוהו כלל עדי המיירטים שהוגנו.",
+    "styles": "alert",
+    "source_group_id": "batch-0007-interceptor-witness-disclosure"
+  },
+  "batch-0007-missile-rhetoric": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "השוואה לימודית בין שפה עיתונאית לסיווג טילים.",
+    "styles": "classroom",
+    "source_group_id": "batch-0007-missile-rhetoric"
+  },
+  "batch-0007-interceptor-meaning": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר פומבי כללי על הבחנה בסוגי מערכות.",
+    "styles": "podcast",
+    "source_group_id": "batch-0007-interceptor-meaning"
+  },
+  "batch-0007-missile-history-periodization": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ויכוח גלוי על חלוקת תולדות התחום לתקופות.",
+    "styles": "forum",
+    "source_group_id": "batch-0007-missile-history-periodization"
+  },
+  "batch-0007-interception-drawing-interpretation": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תרגיל פתוח על ההבדל בין איור להוכחת תוצאה.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-interception-drawing-interpretation"
+  },
+  "batch-0007-missile-program-announcement-stages": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "טור גלוי על שלבים שונים בהכרזה על מיזם מיירטים.",
+    "styles": "column",
+    "source_group_id": "batch-0007-missile-program-announcement-stages"
+  },
+  "batch-0007-historical-terms": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "טקסט לימודי העוסק בהבחנה בין מונחים בתקופות שונות.",
+    "styles": "column",
+    "source_group_id": "batch-0007-historical-terms"
+  },
+  "batch-0007-missile-certification-roles": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "חלוקת עבודה שגרתית בצוות.",
+    "styles": "chat",
+    "source_group_id": "batch-0007-missile-certification-roles"
+  },
+  "batch-0007-interceptor-onboarding-index": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסדרת משימות חפיפה קטנות לצוות.",
+    "styles": "handoff",
+    "source_group_id": "batch-0007-interceptor-onboarding-index"
+  },
+  "batch-0007-interceptor-roundtable-roles": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תיאום ישיבת עמיתים ומשימות מקומיות.",
+    "styles": "thread",
+    "source_group_id": "batch-0007-interceptor-roundtable-roles"
+  },
+  "batch-0007-interceptor-verification-contract": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "החלטה על דחיית אבן דרך בפרויקט.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-interceptor-verification-contract"
+  },
+  "batch-0007-interceptor-insurance-funding": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ביטול התחייבות כספית ליבתית בפרויקט יחיד.",
+    "styles": "memo",
+    "source_group_id": "batch-0007-interceptor-insurance-funding"
+  },
+  "batch-0007-missile-course-budget-suspension": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הקפאת מסלול ההכשרה במיזם בעקבות ממצא מהותי שטרם פורסם.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-missile-course-budget-suspension"
+  },
+  "batch-0007-interceptor-evidence-reclassification": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ממצא פנימי שהוביל לביטול החלטת קבלה בפרויקט.",
+    "styles": "memo",
+    "source_group_id": "batch-0007-interceptor-evidence-reclassification"
+  },
+  "batch-0007-missile-program-remedy": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "החלטת ביטול שלב מהותי בעקבות כשל בבקרת ראיות בפרויקט אחד.",
+    "styles": "report",
+    "source_group_id": "batch-0007-missile-program-remedy"
+  },
+  "batch-0007-interceptors-protected-panels": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "טבלת שיוך חושפת את כל מוסרי העדות המוגנים בכמה מיזמי יירוט.",
+    "styles": "alert",
+    "source_group_id": "batch-0007-interceptors-protected-panels"
+  },
+  "batch-0007-missile-cross-program-certification-loss": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "כל שלוש תוכניות המיירטים איבדו את מסלול ההסמכה היחיד שלהן.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-missile-cross-program-certification-loss"
+  },
+  "batch-0007-missile-compensation-collective-loss": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "השבתה רוחבית של בירור הפיצויים בכל תוכניות ההסמכה.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-missile-compensation-collective-loss"
+  },
+  "batch-0007-drone-and-weather-note": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ידע פתוח על תיעוד מזג אוויר בתוצר צילום אזרחי.",
+    "styles": "help",
+    "source_group_id": "batch-0007-drone-and-weather-note"
+  },
+  "batch-0007-drone-orthophoto-file-fix": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תיאום מקומי לסידור שכבות תצלומי רחפן.",
+    "styles": "chat",
+    "source_group_id": "batch-0007-drone-orthophoto-file-fix"
+  },
+  "batch-0007-drone-ecology-collection-discard": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "מחיקת תוצאות מחקר פנימית שמשנה מסלול פרויקט.",
+    "styles": "report",
+    "source_group_id": "batch-0007-drone-ecology-collection-discard"
+  },
+  "batch-0007-drone-rescue-survivor-identity": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "נחשפה זהות מאגר שלם של נפגעים שהובטחה להם אנונימיות.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-drone-rescue-survivor-identity"
+  },
+  "batch-0007-satellite-borders-reading": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר לימודי פומבי על מקור שכבות מפה.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-satellite-borders-reading"
+  },
+  "batch-0007-satellite-forest-baseline-bias": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תגלית פנימית שפסלה תוצר מחקר לווייני ומשנה תוצר משמעותי.",
+    "styles": "report",
+    "source_group_id": "batch-0007-satellite-forest-baseline-bias"
+  },
+  "batch-0007-satellites-forestry-register-loss": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "איבוד חריג ובלתי הפיך של בסיס ביקורת רוחבי.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-satellites-forestry-register-loss"
+  },
+  "batch-0007-message-acknowledgment": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הבחנה מושגית בלבד על אישור מסירה.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-message-acknowledgment"
+  },
+  "batch-0007-communications-demo-label": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "טיפול שגרתי בתווית של תצוגת דמה.",
+    "styles": "ticket",
+    "source_group_id": "batch-0007-communications-demo-label"
+  },
+  "batch-0007-communications-contract-suspension": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הנהלה עצרה פרויקט תקשורת עקב פער מהותי שנקבע בבדיקה פנימית.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-communications-contract-suspension"
+  },
+  "batch-0007-support-messaging-anonymous-origin": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "חשיפה רוחבית של זהויות מוגנות בהודעות שירות אזרחיות.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-support-messaging-anonymous-origin"
+  },
+  "batch-0007-procurement-life-cycle-model": {
+    "primary_domain": "defense_logistics",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר פומבי על עלות מחזור חיים ברכש ציוד מגן.",
+    "styles": "faq",
+    "source_group_id": "batch-0007-procurement-life-cycle-model"
+  },
+  "batch-0007-protective-equipment-paperwork": {
+    "primary_domain": "defense_logistics",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "טיפול שגרתי בשדות של טופס החזרה.",
+    "styles": "handoff",
+    "source_group_id": "batch-0007-protective-equipment-paperwork"
+  },
+  "batch-0007-protective-gear-eligibility": {
+    "primary_domain": "defense_logistics",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ביטול מרכזי של תוצאות רכש שטרם פורסם.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-protective-gear-eligibility"
+  },
+  "batch-0007-defense-gear-recall-proof": {
+    "primary_domain": "defense_logistics",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "אובדן רוחבי ובלתי הפיך של יכולת לבצע קריאת החזרה.",
+    "styles": "report",
+    "source_group_id": "batch-0007-defense-gear-recall-proof"
+  },
+  "batch-0007-library-book-returns": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הודעה אזרחית פומבית ושגרתית.",
+    "styles": "notice",
+    "source_group_id": "batch-0007-library-book-returns"
+  },
+  "batch-0007-community-pottery-labels": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "חלוקת תפקידים פנימית שגרתית בחוג קהילתי.",
+    "styles": "chat",
+    "source_group_id": "batch-0007-community-pottery-labels"
+  },
+  "batch-0007-municipal-theatre-audit": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ממצא פנימי עם השלכה מהותית על פעילות אזרחית.",
+    "styles": "memo",
+    "source_group_id": "batch-0007-municipal-theatre-audit"
+  },
+  "batch-0007-foster-placement-publication": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "קישור רוחבי של כל המשפחות שמוגנות בהליך אזרחי.",
+    "styles": "report",
+    "source_group_id": "batch-0007-foster-placement-publication"
+  },
+  "batch-0007-interceptor-taxonomy": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "כותרת שיעור מושגי.",
+    "styles": "caption",
+    "source_group_id": "batch-0007-interceptor-taxonomy"
+  },
+  "batch-0007-missile-range-concept": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הבחנה מילונית פומבית ללא ערכים אופרטיביים.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-missile-range-concept"
+  },
+  "batch-0007-missile-multilingual-name": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תשובת תרגום פומבית על שם משפחה של מיירטים.",
+    "styles": "qa",
+    "source_group_id": "batch-0007-missile-multilingual-name"
+  },
+  "batch-0007-missile-defense-budget-reading": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר כיצד לקרוא תקציב ציבורי ברמת התוכנית.",
+    "styles": "explainer",
+    "source_group_id": "batch-0007-missile-defense-budget-reading"
+  },
+  "batch-0007-missile-policy-timeline": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תרגיל פתוח על שלבי קבלת החלטה היסטורית.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-missile-policy-timeline"
+  },
+  "batch-0007-protected-airspace-history": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "שיחה לימודית על שאלת מחקר היסטורית ולא על אופן הפעלה.",
+    "styles": "interview",
+    "source_group_id": "batch-0007-protected-airspace-history"
+  },
+  "batch-0007-missile-assurance-template-types": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תיקון מנהלי מקומי בביקורת קבלה.",
+    "styles": "handoff",
+    "source_group_id": "batch-0007-missile-assurance-template-types"
+  },
+  "batch-0007-interceptor-learning-roles": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "שיבוץ מתלמד מקומי בצוות.",
+    "styles": "chat",
+    "source_group_id": "batch-0007-interceptor-learning-roles"
+  },
+  "batch-0007-missile-parts-glossary-maintenance": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "עריכת מילון פנימי של צוות בלי חשיפת פרטים טכניים.",
+    "styles": "email",
+    "source_group_id": "batch-0007-missile-parts-glossary-maintenance"
+  },
+  "batch-0007-missile-training-question-triage": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תרגול עיוני פנימי והקצאת תפקידים שגרתית.",
+    "styles": "log",
+    "source_group_id": "batch-0007-missile-training-question-triage"
+  },
+  "batch-0007-missile-development-external-license": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "מיזם יחיד איבד זכות ליבה ולכן נעצר.",
+    "styles": "report",
+    "source_group_id": "batch-0007-missile-development-external-license"
+  },
+  "batch-0007-missile-announcement-reversal": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הנהלה גנזה החלטה משמעותית לפני הפרסום.",
+    "styles": "memorandum",
+    "source_group_id": "batch-0007-missile-announcement-reversal"
+  },
+  "batch-0007-interception-safety-audit-conflict": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תוצאות ביקורת פנימית פסלו את אישור התוכנית.",
+    "styles": "memo",
+    "source_group_id": "batch-0007-interception-safety-audit-conflict"
+  },
+  "batch-0007-missile-substitute-program-funding": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "החלטה פנימית לסיים תוכנית אחת בעקבות שינוי מימון.",
+    "styles": "memo",
+    "source_group_id": "batch-0007-missile-substitute-program-funding"
+  },
+  "batch-0007-missile-test-compensation-no-appeal": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "כל התוכניות איבדו מסלול ערר יחיד ונעדר מסלול חלופי.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-missile-test-compensation-no-appeal"
+  },
+  "batch-0007-missile-reparations-link-retaliation": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הנתונים שנמסרו מבטלים הגנה על קבוצת פונים שלמה.",
+    "styles": "alert",
+    "source_group_id": "batch-0007-missile-reparations-link-retaliation"
+  },
+  "batch-0007-missile-safety-evidence-chain-loss": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "אובדן ראיות מערכתי ובלתי הפיך בכל התוכניות.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-missile-safety-evidence-chain-loss"
+  },
+  "batch-0007-shoreline-drone-photo-context": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הדרכה פומבית לקריאה נכונה של תמונות רחפן.",
+    "styles": "guide",
+    "source_group_id": "batch-0007-shoreline-drone-photo-context"
+  },
+  "batch-0007-drone-training-demo-returns": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "רישום ציוד הדרכה פנימי שגרתי.",
+    "styles": "log",
+    "source_group_id": "batch-0007-drone-training-demo-returns"
+  },
+  "batch-0007-drone-survey-bias-repeat": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ממצא פנימי פסל תוצר ליבה והוביל לעצירת פרסום של פרויקט יחיד.",
+    "styles": "report",
+    "source_group_id": "batch-0007-drone-survey-bias-repeat"
+  },
+  "batch-0007-drone-counting-landowner-identities": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "שיוך רוחבי שמפר הגנת זהות של קבוצה שלמה.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-drone-counting-landowner-identities"
+  },
+  "batch-0007-satellite-cloud-sequence": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר פומבי על פרשנות לרצף דימויים לווייניים.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-satellite-cloud-sequence"
+  },
+  "batch-0007-satellite-geography-instructor-copy": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תיאום פנים שגרתי לחומרי הדרכה.",
+    "styles": "handoff",
+    "source_group_id": "batch-0007-satellite-geography-instructor-copy"
+  },
+  "batch-0007-space-imagery-planning-void": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "בוטל מוצר ליבה משיקולי תקפות לפני מסירה.",
+    "styles": "memo",
+    "source_group_id": "batch-0007-space-imagery-planning-void"
+  },
+  "batch-0007-satellite-unique-climate-history-loss": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "אובדן מערכתי של כל סדרות האימות מכמה צוותים.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-satellite-unique-climate-history-loss"
+  },
+  "batch-0007-communications-privacy-roles": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר פומבי על הבדל בין סודיות לתקינות הודעה.",
+    "styles": "guide",
+    "source_group_id": "batch-0007-communications-privacy-roles"
+  },
+  "batch-0007-communications-training-qa-assignment": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "שינוי משימה מקומי בהדרכה.",
+    "styles": "ticket",
+    "source_group_id": "batch-0007-communications-training-qa-assignment"
+  },
+  "batch-0007-helpdesk-receipt-double-count": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תוצאה פנימית שפסלה עמידה בחוזה מהותי.",
+    "styles": "report",
+    "source_group_id": "batch-0007-helpdesk-receipt-double-count"
+  },
+  "batch-0007-youth-chat-anonymity-wide": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "כל הפניות בערוצי ייעוץ מוגנים נחשפו באמצעות הקישור.",
+    "styles": "report",
+    "source_group_id": "batch-0007-youth-chat-anonymity-wide"
+  },
+  "batch-0007-defense-supply-stock-warranty": {
+    "primary_domain": "defense_logistics",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תשובה ציבורית על אופן קריאת סעיף אחריות.",
+    "styles": "faq",
+    "source_group_id": "batch-0007-defense-supply-stock-warranty"
+  },
+  "batch-0007-protective-gear-last-minute-bid": {
+    "primary_domain": "defense_logistics",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "בחירת חלופה משמעותית לאחר פגם מהותי בהצעה.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-protective-gear-last-minute-bid"
+  },
+  "batch-0007-defense-gear-shared-service-collapse": {
+    "primary_domain": "defense_logistics",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "כשל שירות חריג ורוחבי במספר גופי רכש.",
+    "styles": "report",
+    "source_group_id": "batch-0007-defense-gear-shared-service-collapse"
+  },
+  "batch-0007-community-tree-walk": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הודעת הדרכה פומבית על סיור עצים.",
+    "styles": "guide",
+    "source_group_id": "batch-0007-community-tree-walk"
+  },
+  "batch-0007-choir-music-folders": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תיאום פנים יומיומי של מקהלה.",
+    "styles": "chat",
+    "source_group_id": "batch-0007-choir-music-folders"
+  },
+  "batch-0007-dance-course-instructors-contract": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "בדיקה פנימית הובילה לביטול מחזור ולפיצוי מהותי.",
+    "styles": "report",
+    "source_group_id": "batch-0007-dance-course-instructors-contract"
+  },
+  "batch-0007-civic-legal-aid-protected-families": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "נחשפו כל משקי הבית שקיבלו אישור הגנת מקום מגורים.",
+    "styles": "alert",
+    "source_group_id": "batch-0007-civic-legal-aid-protected-families"
+  },
+  "batch-0007-missile-taxonomy-overlap": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר פומבי על צירי מיון שונים של טילים.",
+    "styles": "classroom",
+    "source_group_id": "batch-0007-missile-taxonomy-overlap"
+  },
+  "batch-0007-missile-public-claim-source": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר גלוי על מקורות להערכת טענה על מיירט.",
+    "styles": "explainer",
+    "source_group_id": "batch-0007-missile-public-claim-source"
+  },
+  "batch-0007-missile-designation-family": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "שיחה ציבורית שבה הבדלי שמות בין משפחה לדגם.",
+    "styles": "transcript",
+    "source_group_id": "batch-0007-missile-designation-family"
+  },
+  "batch-0007-interceptor-oversight-stakeholders": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תרגיל אזרחות פתוח על תפקידי בקרה והחלטה.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-interceptor-oversight-stakeholders"
+  },
+  "batch-0007-missile-budget-estimate-overturn": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ממצא פנימי הפך החלטה תקציבית מהותית.",
+    "styles": "report",
+    "source_group_id": "batch-0007-missile-budget-estimate-overturn"
+  },
+  "batch-0007-missile-acceptance-basis-change": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "גילוי שינוי בסיס קבלה עצר מסירה במיזם יחיד.",
+    "styles": "email",
+    "source_group_id": "batch-0007-missile-acceptance-basis-change"
+  },
+  "batch-0007-interceptor-training-reimbursement": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ממצא פיננסי פנימי ששינה החלטת פיתוח.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-interceptor-training-reimbursement"
+  },
+  "batch-0007-interceptor-pledged-funds-gap": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תקציב ייצור של מיזם יחיד הופסק בעקבות הכרעה פנימית.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-interceptor-pledged-funds-gap"
+  },
+  "batch-0007-interception-protected-board-doxxing": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "חשיפת כל חברי הוועדות להליך הגנה מאוחד.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-interception-protected-board-doxxing"
+  },
+  "batch-0007-missile-training-pension-all": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "שינוי פנימי שמבטל בבת אחת זכאות בענף רב־תוכניות.",
+    "styles": "report",
+    "source_group_id": "batch-0007-missile-training-pension-all"
+  },
+  "batch-0007-drone-imagery-length-shadows": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "שיעור פומבי על פירוש תצלום רחפן.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-drone-imagery-length-shadows"
+  },
+  "batch-0007-drone-transport-program-stop": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "החלטה פנימית על עצירת מיזם אזרחי בעקבות כשל בבדיקת תוקף.",
+    "styles": "report",
+    "source_group_id": "batch-0007-drone-transport-program-stop"
+  },
+  "batch-0007-drone-residents-location-disclosure": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "איחוד טבלאות מזהה את כל בעלי האתרים שקיבלו אנונימיות.",
+    "styles": "report",
+    "source_group_id": "batch-0007-drone-residents-location-disclosure"
+  },
+  "batch-0007-radar-story-echo": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "המחשה פתוחה של משמעות החזר חישה.",
+    "styles": "guide",
+    "source_group_id": "batch-0007-radar-story-echo"
+  },
+  "batch-0007-satellite-tide-park-map-void": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ממצא פנימי עצר שימוש מהותי במוצר של מיזם יחיד.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-satellite-tide-park-map-void"
+  },
+  "batch-0007-satellite-refuge-research-cohort": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "נחשפו כלל האתרים שתוכנית מוגנת התחייבה לאתר בלי לאפשר זיהוי.",
+    "styles": "report",
+    "source_group_id": "batch-0007-satellite-refuge-research-cohort"
+  },
+  "batch-0007-service-notifications-accessibility": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "בדיקה פנימית גילתה פגם שביטל מעבר לשירות חדש.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-service-notifications-accessibility"
+  },
+  "batch-0007-civic-reporting-whistleblower-correlation": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "נחשפו כלל הפונים המוגנים בכמה ערוצי תלונות.",
+    "styles": "report",
+    "source_group_id": "batch-0007-civic-reporting-whistleblower-correlation"
+  }
+}
