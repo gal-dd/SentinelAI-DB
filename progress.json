@@ -4,9 +4,9 @@
   "pilot_records": 0,
   "pilot_hashes": {},
   "pilot_quality": "not_started",
-  "production_records": 6100,
-  "last_checkpoint": 5,
-  "next_id": 6101,
+  "production_records": 6600,
+  "last_checkpoint": 6,
+  "next_id": 6601,
   "checkpoints": [
     {
       "checkpoint": 1,
@@ -57,6 +57,16 @@
         "metadata/checkpoints/batch-0005.jsonl": "05e9395ce35aa5156e27d7b0c9e9eaaf8986bdb36992ff6d90f8f26d6fdcd3a3",
         "reports/checkpoints/batch-0005.json": "d8f4e7071d0585fb4088c6d640ae3570498502b26c0530f95bf8ea57e30de005"
       }
+    },
+    {
+      "checkpoint": 6,
+      "start_id": 6101,
+      "end_id": 6600,
+      "sha256": {
+        "data/checkpoints/batch-0006.jsonl": "44c297dc1d8d8666ef4d6d74faa3188bd22a13aae04e3d32f4d8ecd6882f69b6",
+        "metadata/checkpoints/batch-0006.jsonl": "f16056e92cb839db2fcdd27ab0c474496a99fa1223171ccc2e2e60126bfafdfb",
+        "reports/checkpoints/batch-0006.json": "26d950311daf8ed054e6a400e05bbaf2dce181c336e5c9b43e48940eac6a7b81"
+      }
     }
   ],
   "final": null,
@@ -67,82 +77,82 @@
       "paragraph",
       "long"
     ],
-    "correction_horizon_records": 3000,
+    "correction_horizon_records": 3500,
     "accepted_label_lengths": {
       "בלמס": [
-        31,
-        250,
-        219,
-        125
+        38,
+        300,
+        262,
+        150
       ],
       "שמור": [
-        31,
-        250,
-        219,
-        125
+        38,
+        300,
+        262,
+        150
       ],
       "סודי": [
-        31,
-        250,
-        219,
-        125
+        38,
+        300,
+        262,
+        150
       ],
       "סודי ביותר": [
-        31,
-        250,
-        219,
-        125
+        38,
+        300,
+        262,
+        150
       ]
     },
     "remaining_label_lengths": {
       "בלמס": [
-        1219,
-        9750,
-        8531,
-        4875
+        1212,
+        9700,
+        8488,
+        4850
       ],
       "שמור": [
-        1219,
-        9750,
-        8531,
-        4875
+        1212,
+        9700,
+        8488,
+        4850
       ],
       "סודי": [
-        1219,
-        9750,
-        8531,
-        4875
+        1212,
+        9700,
+        8488,
+        4850
       ],
       "סודי ביותר": [
-        1219,
-        9750,
-        8531,
-        4875
+        1212,
+        9700,
+        8488,
+        4850
       ]
     },
     "next_checkpoint_label_lengths": {
       "בלמס": [
-        7,
+        6,
         50,
-        43,
+        44,
         25
       ],
       "שמור": [
-        7,
+        6,
         50,
-        43,
+        44,
         25
       ],
       "סודי": [
-        7,
+        6,
         50,
-        43,
+        44,
         25
       ],
       "סודי ביותר": [
-        7,
+        6,
         50,
-        43,
+        44,
         25
       ]
     }
@@ -176,49 +186,49 @@
   "archive_path": "archive/general-v1",
   "domain_targets_file": "config/defense-domain-targets.json",
   "domain_counts": {
-    "missile_systems": 1500,
-    "uncrewed_aircraft": 250,
-    "radar_sensors_space": 250,
-    "cyber_communications_c2": 250,
-    "defense_logistics": 125,
-    "general_negative_controls": 125
+    "missile_systems": 1800,
+    "uncrewed_aircraft": 300,
+    "radar_sensors_space": 300,
+    "cyber_communications_c2": 300,
+    "defense_logistics": 150,
+    "general_negative_controls": 150
   },
   "domain_label_counts": {
     "missile_systems": {
-      "בלמס": 375,
-      "שמור": 376,
-      "סודי": 374,
-      "סודי ביותר": 375
+      "בלמס": 481,
+      "שמור": 447,
+      "סודי": 434,
+      "סודי ביותר": 438
     },
     "uncrewed_aircraft": {
-      "בלמס": 65,
-      "שמור": 60,
-      "סודי": 65,
-      "סודי ביותר": 60
+      "בלמס": 70,
+      "שמור": 71,
+      "סודי": 80,
+      "סודי ביותר": 79
     },
     "radar_sensors_space": {
-      "בלמס": 61,
-      "שמור": 64,
-      "סודי": 60,
-      "סודי ביותר": 65
+      "בלמס": 67,
+      "שמור": 75,
+      "סודי": 75,
+      "סודי ביותר": 83
     },
     "cyber_communications_c2": {
-      "בלמס": 64,
-      "שמור": 61,
-      "סודי": 65,
-      "סודי ביותר": 60
+      "בלמס": 69,
+      "שמור": 71,
+      "סודי": 81,
+      "סודי ביותר": 79
     },
     "defense_logistics": {
-      "בלמס": 28,
-      "שמור": 35,
-      "סודי": 30,
-      "סודי ביותר": 32
+      "בלמס": 29,
+      "שמור": 42,
+      "סודי": 42,
+      "סודי ביותר": 37
     },
     "general_negative_controls": {
-      "בלמס": 32,
-      "שמור": 29,
-      "סודי": 31,
-      "סודי ביותר": 33
+      "בלמס": 34,
+      "שמור": 44,
+      "סודי": 38,
+      "סודי ביותר": 34
     }
   },
   "missile_domain_percentage": 60.0,
