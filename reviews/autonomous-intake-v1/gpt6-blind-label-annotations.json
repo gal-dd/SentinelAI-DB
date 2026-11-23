@@ -3,6 +3,7 @@
   "auditor": "GPT-6 (same AI family as content author; not independent-model assessment)",
   "scope": "Text-only blind first pass on artifact 14858657761; annotations mapped to fingerprint prefixes. Unknown fingerprints must be reviewed and cannot be auto-approved.",
   "labels": {
+    "65549951": "שמור",
     "71219244": "שמור",
     "045d33fb": "סודי",
     "05fa1a9f": "שמור",
@@ -103,7 +104,9 @@
     "f6c2fc73": "שמור",
     "fa125684": "שמור",
     "fa2b3f6d": "בלמס",
-    "fb4c81d0": "סודי"
+    "fb4c81d0": "סודי",
+    "2acac86d": "בלמס",
+    "68ab9374": "סודי"
   },
   "domains": {
     "08feae8a": "general_negative_controls",
@@ -129,7 +132,14 @@
     "ba3ec84d": "uncrewed_aircraft",
     "beaab410": "missile_systems",
     "d0de9b1e": "cyber_communications_c2",
-    "d6be51b6": "cyber_communications_c2"
+    "d6be51b6": "cyber_communications_c2",
+    "bd550e16": "missile_systems",
+    "a5aa1fdf": "missile_systems"
   },
-  "requires_recheck_on_changed_text": true
+  "requires_recheck_on_changed_text": true,
+  "latest_artifact_run": 45266790404,
+  "latest_blind_sample_size": 100,
+  "latest_domain_sample_size": 24,
+  "latest_e5_full_baseline_high_risk": 0,
+  "latest_artifact_file": "github-actions-artifact-14864435519.zip"
 }
