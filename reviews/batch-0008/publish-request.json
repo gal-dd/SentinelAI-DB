@@ -1,0 +1,9 @@
+{
+  "checkpoint": 8,
+  "expected_production_before": 7100,
+  "expected_production_after": 7600,
+  "source": "drafts/chat/batch-0008/batch-0008-candidates.jsonl",
+  "candidate_git_blob": "29f0bb0dc70dd6b9b86b43e382147ac23cbfdddb",
+  "authorization": "User explicitly requested guarded publication after required quality gates",
+  "review_scope": "Same-model sampled review; do not bypass live E5, exact sample, staging, or verification gates"
+}

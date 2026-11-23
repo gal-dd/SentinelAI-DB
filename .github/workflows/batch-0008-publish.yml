@@ -1,6 +1,10 @@
 name: Publish SentinelAI batch 0008 after 0007
 
 on:
+  push:
+    branches: [producer/chat-batch-0008-v1]
+    paths:
+      - reviews/batch-0008/publish-request.json
   pull_request:
     branches: [poc/defense-focused-v2]
     paths:
@@ -38,6 +42,10 @@ jobs:
           assert data["expected_production_before"] == 7100
           assert data["expected_production_after"] == 7600
           assert data["source"] == "drafts/chat/batch-0008/batch-0008-candidates.jsonl"
+          import subprocess
+          actual=subprocess.check_output(["git","hash-object",data["source"]],text=True).strip()
+          if actual != data["candidate_git_blob"]:
+              raise SystemExit("Candidate blob changed after release request")
           print("Release request verified")
           PY
           git fetch origin poc/defense-focused-v2
