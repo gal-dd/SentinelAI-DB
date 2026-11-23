@@ -4,11 +4,15 @@ on:
   pull_request:
     branches: [poc/defense-focused-v2]
     paths:
-      - drafts/chat/batch-0008/**
+      - drafts/chat/batch-0008/batch-0008-candidates.jsonl
       - scripts/batch_0008_e5_audit.py
       - config/scenarios.json
       - .github/workflows/batch-0008-e5.yml
   workflow_dispatch:
+
+concurrency:
+  group: batch-0008-e5-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
@@ -55,6 +59,24 @@ jobs:
             --model-dir .poc-local/e5 \
             --cache-dir .poc-local/embeddings \
             --output .poc-local/batch-0008-e5.json
+      - name: Run official production prepare and print blind sample keys
+        run: |
+          python -B -m sentinel_dataset prepare \
+            drafts/chat/batch-0008/batch-0008-candidates.jsonl \
+            --model-dir .poc-local/e5 \
+            --packet .poc-local/batch-0008-official-packet.json
+          python - <<'PY'
+          import json
+          p=json.load(open(".poc-local/batch-0008-official-packet.json", encoding="utf-8"))
+          print("PREPARE_SUMMARY", json.dumps(
+              {"labels":len(p["texts"]), "domains":len(p["domain_texts"]),
+               "high_risk":len(p["review_alerts"]), "pair_count":len(p["counterfactual_pairs"])},
+              ensure_ascii=False))
+          for k,text in p["texts"].items():
+              print("BLIND_LABEL", json.dumps({"fingerprint":k,"text":text}, ensure_ascii=False))
+          for k,text in p["domain_texts"].items():
+              print("BLIND_DOMAIN", json.dumps({"fingerprint":k,"text":text}, ensure_ascii=False))
+          PY
       - name: Upload full E5 review evidence
         if: always()
         uses: actions/upload-artifact@v4
@@ -62,6 +84,7 @@ jobs:
           name: batch-0008-e5-evidence
           path: |
             .poc-local/batch-0008-e5.json
+            .poc-local/batch-0008-official-packet.json
             .poc-local/production-verify.log
           if-no-files-found: ignore
           retention-days: 7
