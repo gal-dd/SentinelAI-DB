@@ -3494,5 +3494,210 @@
     "source_group_id": "autointake-20261123-079",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
     "fictional": true
+  },
+  "autointake-20261123-080": {
+    "source_group_id": "autointake-20261123-080",
+    "description": "תיאום פנימי שגרתי במסגרת בדיונית",
+    "fictional": true
+  },
+  "autointake-20261123-081": {
+    "source_group_id": "autointake-20261123-081",
+    "description": "תיאום פנימי של חומר הדרכה",
+    "fictional": true
+  },
+  "autointake-20261123-082": {
+    "source_group_id": "autointake-20261123-082",
+    "description": "שינוי מנהלתי מקומי",
+    "fictional": true
+  },
+  "autointake-20261123-083": {
+    "source_group_id": "autointake-20261123-083",
+    "description": "טיפול שגרתי בחומר לימוד",
+    "fictional": true
+  },
+  "autointake-20261123-084": {
+    "source_group_id": "autointake-20261123-084",
+    "description": "תיאום צוותי ללא השלכה מהותית",
+    "fictional": true
+  },
+  "autointake-20261123-085": {
+    "source_group_id": "autointake-20261123-085",
+    "description": "החלטת עריכה פנימית",
+    "fictional": true
+  },
+  "autointake-20261123-086": {
+    "source_group_id": "autointake-20261123-086",
+    "description": "תיקון ארכוב שגרתי",
+    "fictional": true
+  },
+  "autointake-20261123-087": {
+    "source_group_id": "autointake-20261123-087",
+    "description": "תכנון הוראה פנימי",
+    "fictional": true
+  },
+  "autointake-20261123-088": {
+    "source_group_id": "autointake-20261123-088",
+    "description": "חפיפה וניהול תערוכה",
+    "fictional": true
+  },
+  "autointake-20261123-089": {
+    "source_group_id": "autointake-20261123-089",
+    "description": "תוכנית הכנה לימודית שגרתית",
+    "fictional": true
+  },
+  "autointake-20261123-090": {
+    "source_group_id": "autointake-20261123-090",
+    "description": "ממצא פנימי מהותי המשנה החלטת פרויקט",
+    "fictional": true
+  },
+  "autointake-20261123-091": {
+    "source_group_id": "autointake-20261123-091",
+    "description": "סודי",
+    "fictional": true
+  },
+  "autointake-20261123-092": {
+    "source_group_id": "autointake-20261123-092",
+    "description": "ממצא פנימי מהותי המשנה החלטת פרויקט",
+    "fictional": true
+  },
+  "autointake-20261123-093": {
+    "source_group_id": "autointake-20261123-093",
+    "description": "ממצא תקציבי מהותי",
+    "fictional": true
+  },
+  "autointake-20261123-094": {
+    "source_group_id": "autointake-20261123-094",
+    "description": "פגיעה מהותית ברישוי",
+    "fictional": true
+  },
+  "autointake-20261123-095": {
+    "source_group_id": "autointake-20261123-095",
+    "description": "החלטה משמעותית בחוזה",
+    "fictional": true
+  },
+  "autointake-20261123-096": {
+    "source_group_id": "autointake-20261123-096",
+    "description": "ממצא זכויות בעל השלכה",
+    "fictional": true
+  },
+  "autointake-20261123-097": {
+    "source_group_id": "autointake-20261123-097",
+    "description": "עצירת פרסום מהותי",
+    "fictional": true
+  },
+  "autointake-20261123-098": {
+    "source_group_id": "autointake-20261123-098",
+    "description": "שינוי מסחרי מהותי",
+    "fictional": true
+  },
+  "autointake-20261123-099": {
+    "source_group_id": "autointake-20261123-099",
+    "description": "ממצא שמשנה החלטת מימון",
+    "fictional": true
+  },
+  "autointake-20261123-100": {
+    "source_group_id": "autointake-20261123-100",
+    "description": "החלטת תקציב לא פומבית",
+    "fictional": true
+  },
+  "autointake-20261123-101": {
+    "source_group_id": "autointake-20261123-101",
+    "description": "החלטת התקשרות מהותית שלא פורסמה",
+    "fictional": true
+  },
+  "autointake-20261123-102": {
+    "source_group_id": "autointake-20261123-102",
+    "description": "סיכון זכויות מהותי לפרויקט",
+    "fictional": true
+  },
+  "autointake-20261123-103": {
+    "source_group_id": "autointake-20261123-103",
+    "description": "ממצא מימון מהותי",
+    "fictional": true
+  },
+  "autointake-20261123-104": {
+    "source_group_id": "autointake-20261123-104",
+    "description": "השלכה מסחרית מהותית",
+    "fictional": true
+  },
+  "autointake-20261123-105": {
+    "source_group_id": "autointake-20261123-105",
+    "description": "חשיפה מערכתית חריגה או פגיעה בהגנה רוחבית",
+    "fictional": true
+  },
+  "autointake-20261123-106": {
+    "source_group_id": "autointake-20261123-106",
+    "description": "חשיפה מערכתית חריגה או פגיעה בהגנה רוחבית",
+    "fictional": true
+  },
+  "autointake-20261123-107": {
+    "source_group_id": "autointake-20261123-107",
+    "description": "חשיפה מערכתית חריגה או פגיעה בהגנה רוחבית",
+    "fictional": true
+  },
+  "autointake-20261123-108": {
+    "source_group_id": "autointake-20261123-108",
+    "description": "חשיפה מערכתית חריגה או פגיעה בהגנה רוחבית",
+    "fictional": true
+  },
+  "autointake-20261123-109": {
+    "source_group_id": "autointake-20261123-109",
+    "description": "חשיפה מערכתית חריגה או פגיעה בהגנה רוחבית",
+    "fictional": true
+  },
+  "autointake-20261123-110": {
+    "source_group_id": "autointake-20261123-110",
+    "description": "חשיפה מערכתית חריגה או פגיעה בהגנה רוחבית",
+    "fictional": true
+  },
+  "autointake-20261123-111": {
+    "source_group_id": "autointake-20261123-111",
+    "description": "תלות חריגה בהבטחות הגנה",
+    "fictional": true
+  },
+  "autointake-20261123-112": {
+    "source_group_id": "autointake-20261123-112",
+    "description": "תלות מערכתית בעלת השלכה חריגה",
+    "fictional": true
+  },
+  "autointake-20261123-113": {
+    "source_group_id": "autointake-20261123-113",
+    "description": "קישור חד ערכי בין זהויות מוגנות",
+    "fictional": true
+  },
+  "autointake-20261123-114": {
+    "source_group_id": "autointake-20261123-114",
+    "description": "תלות מערכתית בזכויות תורמים",
+    "fictional": true
+  },
+  "autointake-20261123-115": {
+    "source_group_id": "autointake-20261123-115",
+    "description": "הפרת הגנה רוחבית על משתתפים",
+    "fictional": true
+  },
+  "autointake-20261123-116": {
+    "source_group_id": "autointake-20261123-116",
+    "description": "תלות משפטית חוצת מוסדות",
+    "fictional": true
+  },
+  "autointake-20261123-117": {
+    "source_group_id": "autointake-20261123-117",
+    "description": "חיבור מזהה שמבטל הפרדה מגינה",
+    "fictional": true
+  },
+  "autointake-20261123-118": {
+    "source_group_id": "autointake-20261123-118",
+    "description": "תלות משפטית חריגה",
+    "fictional": true
+  },
+  "autointake-20261123-119": {
+    "source_group_id": "autointake-20261123-119",
+    "description": "חשיפת זהויות רוחבית של משתתפים מוגנים",
+    "fictional": true
+  },
+  "autointake-20261123-120": {
+    "source_group_id": "autointake-20261123-120",
+    "description": "תלות משפטית רחבה עם השלכה חריגה",
+    "fictional": true
   }
 }
