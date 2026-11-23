@@ -16,7 +16,7 @@ jobs:
   e5-screen:
     name: E5 semantic screening (not publication)
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     env:
       PYTHONIOENCODING: utf-8
       PYTHONUTF8: '1'
@@ -65,8 +65,60 @@ jobs:
                    "different_labels": hit["different_labels"]}, ensure_ascii=False))
           print("E5 screening complete; this does NOT approve a checkpoint.")
           PY
+      - name: Compare candidate embeddings against all 6,100 production records
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from sentinel_dataset import checkpoints as cp
+          from sentinel_dataset.core import read_jsonl, fingerprint
+          from sentinel_dataset.semantic import semantic_scan
+
+          state, signed = cp.load_progress()
+          imported = cp.load_external_imports(state)
+          if len(signed) != 2500 or len(imported) != 3600:
+              raise ValueError(f"Unexpected production baseline: signed={len(signed)}, imported={len(imported)}")
+          external_rows = [
+              {"text": item["אובייקט"], "label": item["סיווג"],
+               "pair_id": None, "source_group_id": f"external-{item['ID']}"}
+              for item in imported
+          ]
+          candidates = read_jsonl(Path("drafts/autonomous-intake-v1/batch-0006-candidates.jsonl"))
+          reference = [*signed, *external_rows]
+          alerts, metrics = semantic_scan(reference, candidates,
+              Path(".poc-local/e5"), Path(".poc-local/embeddings"))
+          important = [a for a in alerts if a["intentional_pair"] or a["score"] >= 0.97
+                       or (a["different_labels"] and a["score"] >= 0.94)]
+          reference_fingerprints = {fingerprint(r) for r in reference}
+          candidates_fingerprints = {fingerprint(r) for r in candidates}
+          text_lookup = {fingerprint(r): r["text"] for r in [*reference, *candidates]}
+          def represent(a):
+              return {
+                  **a,
+                  "texts": [text_lookup[k] for k in a["records"]],
+                  "matched_external_or_signed": any(k in reference_fingerprints for k in a["records"]),
+                  "candidate_in_pair": any(k in candidates_fingerprints for k in a["records"])
+              }
+          top = sorted(alerts, key=lambda a: a["score"], reverse=True)[:80]
+          report = {
+              "baseline": {"signed": len(signed), "external": len(imported),
+                           "candidate": len(candidates)},
+              "semantic": metrics,
+              "all_alerts": len(alerts),
+              "high_risk": len(important),
+              "high_risk_pairs": [represent(a) for a in important],
+              "top_80_pairs": [represent(a) for a in top],
+              "status": "semantic_screen_only_not_publication_approval"
+          }
+          path = Path(".poc-local/full-baseline-e5-report.json")
+          path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print("FULL_BASELINE", json.dumps({"records": 6100,
+              "candidates": len(candidates), "alerts": len(alerts),
+              "high_risk": len(important), "highest_score":
+              max((a["score"] for a in alerts), default=0)}, ensure_ascii=False))
+          PY
       - uses: actions/upload-artifact@v4
         with:
           name: autonomous-intake-e5-review-packet
-          path: .poc-local/packet.json
+          path: |\n          .poc-local/packet.json\n          .poc-local/full-baseline-e5-report.json
           retention-days: 7
