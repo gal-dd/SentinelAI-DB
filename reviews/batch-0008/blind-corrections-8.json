@@ -1,0 +1,62 @@
+{
+  "reviewer": "same ChatGPT model; not independent",
+  "count": 8,
+  "changes": [
+    {
+      "position": 369,
+      "scenario_id": "chat8v7b-004",
+      "old_text": "נשלחה רשימת תיקונים למדריך הטילים.",
+      "new_text": "נשלחה פנימית רשימת תיקונים למדריך הטילים.",
+      "reason": "Clarify classification evidence and correct Hebrew grammar after blind review"
+    },
+    {
+      "position": 370,
+      "scenario_id": "chat8v7b-005",
+      "old_text": "הופצה טיוטת לוח לסמינר טילים.",
+      "new_text": "הופצה פנימית טיוטת לוח לסמינר טילים.",
+      "reason": "Clarify classification evidence and correct Hebrew grammar after blind review"
+    },
+    {
+      "position": 13,
+      "scenario_id": "chat8v1-013",
+      "old_text": "בוטל תקציב מחקר טילים חסוי.",
+      "new_text": "בוטל בחשאי מימון טילים מרכזי.",
+      "reason": "Clarify classification evidence and correct Hebrew grammar after blind review"
+    },
+    {
+      "position": 459,
+      "scenario_id": "chat8v7d-004",
+      "old_text": "אוחדו בחשאי זהויות מרואייני תוכניות הטילים.",
+      "new_text": "נחשפו קשרי זהות עדי טילים מוגנים.",
+      "reason": "Clarify classification evidence and correct Hebrew grammar after blind review"
+    },
+    {
+      "position": 443,
+      "scenario_id": "chat8v7c-033",
+      "old_text": "בקרן אזרחית למחקר תרבות הוחלט לדחות ספר מרכזי לאחר שנמצאה מחלוקת מהותית על בעלות בתצלומים.",
+      "new_text": "בקרן אזרחית למחקר תרבות הוחלט לדחות ספר מרכזי לאחר שנמצאה מחלוקת מהותית על בעלות בתצלומים. החלטת ההנהלה לא נמסרה לשותפים.",
+      "reason": "Clarify classification evidence and correct Hebrew grammar after blind review"
+    },
+    {
+      "position": 87,
+      "scenario_id": "chat8v2-047",
+      "old_text": "חוות דעת מצאה שכל הגנות הפרטיות במיזם תיעוד מערכות יירוט תלויים בהסכם יחיד שפג, בלי שהמשתתפים ידעו על כך.",
+      "new_text": "חוות דעת מצאה שכל הגנות הפרטיות במיזם תיעוד מערכות יירוט תלויות בהסכם יחיד שפג, בלי שהמשתתפים ידעו על כך.",
+      "reason": "Clarify classification evidence and correct Hebrew grammar after blind review"
+    },
+    {
+      "position": 416,
+      "scenario_id": "chat8v7c-006",
+      "old_text": "הנהלת מרכז מורשת חלל עצרה פרויקט ספר גדול כשהתגלה שהרישיון לתצלומי לוויינים אינו חל על ההפצה המתוכננת.",
+      "new_text": "הנהלת מרכז מורשת חלל עצרה פרויקט ספר גדול כשהתגלה שהרישיון לתצלומי לוויינים אינו חל על ההפצה המתוכננת. ההחלטה טרם נמסרה למפיץ.",
+      "reason": "Clarify classification evidence and correct Hebrew grammar after blind review"
+    },
+    {
+      "position": 415,
+      "scenario_id": "chat8v7c-005",
+      "old_text": "נדחה פרסום דוח טילים חסוי.",
+      "new_text": "נדחה בחשאי פרסום דוח טילים מרכזי.",
+      "reason": "Clarify classification evidence and correct Hebrew grammar after blind review"
+    }
+  ]
+}
