@@ -1,0 +1,45 @@
+{
+  "reason": "50-text AI screen found ambiguity in a short source row; review of new short rows found weak standalone evidence",
+  "changes": [
+    {
+      "position": 231,
+      "scenario_id": "intake-supp-20261123-034",
+      "label": "סודי",
+      "before": "בוררות הטילים שללה מהמכון זכויות.",
+      "after": "בוררות חסויה ביטלה חוזה טילים מרכזי.",
+      "reason": "Short text must expose the classification-relevant fact without outside context"
+    },
+    {
+      "position": 355,
+      "scenario_id": "autointake-20261123-080",
+      "label": "שמור",
+      "before": "תוקן לוח הישיבות למחקר הטילים.",
+      "after": "בצוות הטילים עודכן סידור הישיבות הפנימי.",
+      "reason": "Short text must expose the classification-relevant fact without outside context"
+    },
+    {
+      "position": 427,
+      "scenario_id": "autointake-20261123-152",
+      "label": "שמור",
+      "before": "עודכן יומן ההדרכה במרכז החלל.",
+      "after": "במרכז החלל עודכן לוח העבודה הפנימי.",
+      "reason": "Short text must expose the classification-relevant fact without outside context"
+    },
+    {
+      "position": 464,
+      "scenario_id": "autointake-20261123-189",
+      "label": "סודי",
+      "before": "בוטל חוזה תקשורת מרכזי לאחר ביקורת.",
+      "after": "הוקפא בחשאי חוזה תקשורת מהותי.",
+      "reason": "Short text must expose the classification-relevant fact without outside context"
+    },
+    {
+      "position": 475,
+      "scenario_id": "autointake-20261123-200",
+      "label": "סודי ביותר",
+      "before": "קישור המאגרים חושף את כל העדים.",
+      "after": "קישור מאגרים חושף קבוצות עדים מוגנות.",
+      "reason": "Short text must expose the classification-relevant fact without outside context"
+    }
+  ]
+}
