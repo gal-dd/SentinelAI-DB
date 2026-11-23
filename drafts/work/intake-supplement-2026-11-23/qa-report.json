@@ -1,0 +1,899 @@
+{
+  "status": "draft_only",
+  "production_head_at_screening": "2e17e5cebfa90abec3defbef6c325bd85ff8e627",
+  "production_records": 6100,
+  "base_draft_records": 426,
+  "authored": 80,
+  "retained": 76,
+  "excluded": 4,
+  "metrics": {
+    "records": 76,
+    "label_lengths": {
+      "בלמס": [
+        0,
+        0,
+        0,
+        16
+      ],
+      "שמור": [
+        3,
+        6,
+        5,
+        5
+      ],
+      "סודי": [
+        4,
+        6,
+        5,
+        5
+      ],
+      "סודי ביותר": [
+        4,
+        6,
+        5,
+        6
+      ]
+    },
+    "labels": {
+      "בלמס": 16,
+      "שמור": 19,
+      "סודי": 20,
+      "סודי ביותר": 21
+    },
+    "lengths": {
+      "short": 11,
+      "sentence": 18,
+      "paragraph": 15,
+      "long": 32
+    },
+    "origins": {
+      "synthetic": 16,
+      "fictional_document": 60
+    },
+    "styles": {
+      "lecture": 1,
+      "dialogue": 1,
+      "editorial": 1,
+      "museum-audio": 1,
+      "course-transcript": 1,
+      "public-newsletter": 1,
+      "public-workshop": 1,
+      "public-interview": 1,
+      "column": 1,
+      "public-archive-record": 1,
+      "education-material": 1,
+      "policy-explainer": 1,
+      "desk-note": 1,
+      "shift-card": 1,
+      "editorial-task": 1,
+      "message": 1,
+      "prep-note": 1,
+      "desk-log": 1,
+      "receipt": 1,
+      "internal-mail": 1,
+      "note": 1,
+      "archive-diary": 1,
+      "meeting-log": 1,
+      "memo": 1,
+      "handoff": 1,
+      "transcript": 1,
+      "service-diary": 1,
+      "internal-note": 1,
+      "production-notes": 1,
+      "staff-dialogue": 1,
+      "board-note": 1,
+      "legal-note": 1,
+      "audit-finding": 1,
+      "tender-note": 1,
+      "internal-email": 1,
+      "lawyer-memo": 1,
+      "hearing-note": 1,
+      "director-record": 1,
+      "investigation-note": 1,
+      "internal-summary": 1,
+      "interview-note": 1,
+      "financial-report": 1,
+      "note-to-counsel": 1,
+      "procurement-file": 1,
+      "hearing-transcript": 1,
+      "tender-opinion": 1,
+      "grant-review": 1,
+      "board-transcript": 1,
+      "finance-review": 1,
+      "sealed-finding": 1,
+      "trustee-notice": 1,
+      "registry-finding": 1,
+      "case-note": 1,
+      "investigation-memo": 1,
+      "legal-alert": 1,
+      "trustees-mail": 1,
+      "registry-report": 1,
+      "finance-diary": 1,
+      "counsel-letter": 1,
+      "review-note": 1,
+      "internal-legal-summary": 1,
+      "national-audit-fiction": 1,
+      "case-file": 1,
+      "notice-from-board": 1,
+      "legal-transcript": 1,
+      "audit-letter": 1,
+      "legal-analysis": 1,
+      "internal-case-diary": 1,
+      "public-panel": 1,
+      "public-notice": 1,
+      "public-guide": 1,
+      "reader-letter": 1,
+      "internal-workshop": 1,
+      "client-letter": 1,
+      "ethics-investigation": 1,
+      "governance-audit": 1
+    },
+    "scenario_count": 76,
+    "source_group_count": 76,
+    "edge_cases": 0,
+    "counterfactual_pairs": 0,
+    "records_with_latin": 0
+  },
+  "combined_draft_records": 502,
+  "production_requirement": {
+    "checkpoint_size": 500,
+    "domain_targets": {
+      "missile_systems": 300,
+      "uncrewed_aircraft": 50,
+      "radar_sensors_space": 50,
+      "cyber_communications_c2": 50,
+      "defense_logistics": 25,
+      "general_negative_controls": 25
+    },
+    "label_length_plan": {
+      "בלמס": [
+        7,
+        50,
+        43,
+        25
+      ],
+      "שמור": [
+        7,
+        50,
+        43,
+        25
+      ],
+      "סודי": [
+        7,
+        50,
+        43,
+        25
+      ],
+      "סודי ביותר": [
+        7,
+        50,
+        43,
+        25
+      ]
+    }
+  },
+  "domain_counts_combined": {
+    "missile_systems": 361,
+    "uncrewed_aircraft": 24,
+    "radar_sensors_space": 22,
+    "cyber_communications_c2": 24,
+    "defense_logistics": 10,
+    "general_negative_controls": 61
+  },
+  "checks": {
+    "normalized_exact_duplicates_remaining": 0,
+    "character_level_and_structure_alerts": 0,
+    "initial_semantic_scan": {
+      "status": "completed",
+      "model": "Xenova/multilingual-e5-small",
+      "reference_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+      "artifact_sha256": {
+        "model_int8.onnx": "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c",
+        "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+      },
+      "search": "hnsw_cosine_top_k",
+      "cosine_threshold": 0.92,
+      "neighbors_per_record": 12,
+      "indexed_records": 6606,
+      "scanned_records": 80,
+      "candidate_pairs": 188
+    },
+    "retained_semantic_scan": {
+      "status": "completed",
+      "model": "Xenova/multilingual-e5-small",
+      "reference_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+      "artifact_sha256": {
+        "model_int8.onnx": "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c",
+        "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+      },
+      "search": "hnsw_cosine_top_k",
+      "cosine_threshold": 0.92,
+      "neighbors_per_record": 12,
+      "indexed_records": 6602,
+      "scanned_records": 76,
+      "candidate_pairs": 138
+    },
+    "retained_mandatory_e5_alerts": 0,
+    "draft_and_production_reference_records": 6526
+  },
+  "draft_decisions": [
+    {
+      "input_position": 1,
+      "hash": "4ff51612c1e823dac8d8b9797ab4901694a08d55eacdcac3d510578efcb9936b",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 1
+    },
+    {
+      "input_position": 2,
+      "hash": "bf5a1a02e2002e09043bfd84aea9aacc0a794e9858ac7c887295f9641c605ae9",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 2
+    },
+    {
+      "input_position": 3,
+      "hash": "c1d50c5eddcd5d91d50daeeef7e3c9e958ef53f10d5494368a9addbc3e698805",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 3
+    },
+    {
+      "input_position": 4,
+      "hash": "719bd5cee1ae0b46ef1b93d2052a38067c1e0463257c74b0db196714cb270173",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 4
+    },
+    {
+      "input_position": 5,
+      "hash": "1418b691e62193b57dc59478c8fbfc9c5e3798425a76616bb0de9f739a337851",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 5
+    },
+    {
+      "input_position": 6,
+      "hash": "24a2967e420c0ed580eed7ec2bc93a6356abb21e8c0965567c5134e2ee4eb559",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 6
+    },
+    {
+      "input_position": 7,
+      "hash": "5ccc059ab4d72784a31d697844c6f76b55d9e91f373cd4af0660ba9abb2bad79",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 7
+    },
+    {
+      "input_position": 8,
+      "hash": "a02a1dc57f991224db0817d342cf205371a88bb3642645f16c56e0aa53195282",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 8
+    },
+    {
+      "input_position": 9,
+      "hash": "50b6e3a0d559d7e4397aef963af5afdbf971b4f356cd169ba5787a9047f20ade",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 9
+    },
+    {
+      "input_position": 10,
+      "hash": "ca3d5ba8c56d3685a804754b2f2464d2bbb7f437093233d2fee1c161b7aea72c",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 10
+    },
+    {
+      "input_position": 11,
+      "hash": "1e607ccf5de085b06d98c6fda940fc75b3eb5ee9bca415a11031f5039c45fba1",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 11
+    },
+    {
+      "input_position": 12,
+      "hash": "3d29053e6bb946900137e3868520e65fc253ed6a0680827b91a690dc9bc045ea",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 12
+    },
+    {
+      "input_position": 13,
+      "hash": "2e88f2b23b8aad40255203d199cbe43b775fb74f36b7b4ae95fe5618b4182dd6",
+      "label": "שמור",
+      "length": "short",
+      "status": "draft",
+      "draft_position": 13
+    },
+    {
+      "input_position": 14,
+      "hash": "4c809df956306bd1393f917b04ca5a3a5a9af6e13df47a3dd12f54d0c92bdbbc",
+      "label": "שמור",
+      "length": "short",
+      "status": "draft",
+      "draft_position": 14
+    },
+    {
+      "input_position": 15,
+      "hash": "c36bae330e16dcb6dd0c4e6f657341144b02c4c94a59f30be2367fda1c7cc69d",
+      "label": "שמור",
+      "length": "short",
+      "status": "draft",
+      "draft_position": 15
+    },
+    {
+      "input_position": 16,
+      "hash": "8d8f4b09cea6b210f31a084b2dac5084f59dc43c8e32044352a60162cfa20ac9",
+      "label": "שמור",
+      "length": "short",
+      "status": "excluded",
+      "reason": "mandatory_similarity_review",
+      "alerts": [
+        {
+          "id": "697423d5a97d80db45cac4cb6f0be452e0ed8d61fc47d9d5bab5dcb86ffa4aa5",
+          "method": "semantic",
+          "score": 0.94224,
+          "different_labels": true
+        }
+      ]
+    },
+    {
+      "input_position": 17,
+      "hash": "30afbb99840a1e7c9f440bae5a6d0351d7c743119f2ce11976c5e821894b5832",
+      "label": "שמור",
+      "length": "short",
+      "status": "excluded",
+      "reason": "mandatory_similarity_review",
+      "alerts": [
+        {
+          "id": "91819c6fcfb685df37ae5d6eb5ca8c65feb5644d4dd2c60322566b0b61347c79",
+          "method": "semantic",
+          "score": 0.95431,
+          "different_labels": true
+        }
+      ]
+    },
+    {
+      "input_position": 18,
+      "hash": "d6858d4c3d023216d8a1f337cf0c399d6fbfaf5dfeb8752bf9ce440855c63441",
+      "label": "שמור",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 16
+    },
+    {
+      "input_position": 19,
+      "hash": "948c1b859f78bc8676b8509132336d3153bbfe4e13caabfaff83be1fa9c343cb",
+      "label": "שמור",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 17
+    },
+    {
+      "input_position": 20,
+      "hash": "44f5ef18c33bf84cadd20e33af4b55ba55b32501280cfd3378dc235cc9bd8915",
+      "label": "שמור",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 18
+    },
+    {
+      "input_position": 21,
+      "hash": "5b488fd80036e34868f04ed3e90faaefb7d8eb021d03935afb1a3ebb8cae4b3f",
+      "label": "שמור",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 19
+    },
+    {
+      "input_position": 22,
+      "hash": "71739d3d6656458c9c4c2eb0ab94ff88484ad4c88ba9e21abe3e0fb0e76c40ce",
+      "label": "שמור",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 20
+    },
+    {
+      "input_position": 23,
+      "hash": "02be2881a0fc006f4ab13ed6e11593a7e253a8cc514e8565948cf4fbd798fd38",
+      "label": "שמור",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 21
+    },
+    {
+      "input_position": 24,
+      "hash": "750d6b3ccdd31a94361b7f6f23189e8b90618ba5520ef4b28e45d8bc083f2e83",
+      "label": "שמור",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 22
+    },
+    {
+      "input_position": 25,
+      "hash": "31e1f43870f98b135b9ac3ed1dcff1bd1c9b64d8085df385a97a7f8c631ca433",
+      "label": "שמור",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 23
+    },
+    {
+      "input_position": 26,
+      "hash": "f62835840615b10459b57b115d60fdf64942fbcfc44a97b6eba5f4ffbbafa429",
+      "label": "שמור",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 24
+    },
+    {
+      "input_position": 27,
+      "hash": "140ad486a8dbe7fa7dfdf397886d08fd44fbf2cd4088dc2d6b3787a84a9f91f2",
+      "label": "שמור",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 25
+    },
+    {
+      "input_position": 28,
+      "hash": "cc8d1ec1748b1e7b9772b75347d742d4b2ad996359dc06bc70041bd56d58af1a",
+      "label": "שמור",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 26
+    },
+    {
+      "input_position": 29,
+      "hash": "a9e53b9a2d54045773b65acb7c3436439a44783381886cb26bf56c8afec8ae9f",
+      "label": "שמור",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 27
+    },
+    {
+      "input_position": 30,
+      "hash": "5582421e756ac83ce5f1bf7522a33bf7dc9f585d520905db8761fed71f59492f",
+      "label": "שמור",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 28
+    },
+    {
+      "input_position": 31,
+      "hash": "cb64c6d687a7ed340d95bf599b3dcd9a72ed95cb197d41b84cd9c0ab86f84a2d",
+      "label": "שמור",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 29
+    },
+    {
+      "input_position": 32,
+      "hash": "d3ee82509a2af10bdaae8856d0be5da90b19efc31bca7307fbdd91bf76a69af3",
+      "label": "שמור",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 30
+    },
+    {
+      "input_position": 33,
+      "hash": "5d2813b2a100b5ea57d31d79e02ff982e3970f72b293f868510e366ea152fe65",
+      "label": "סודי",
+      "length": "short",
+      "status": "draft",
+      "draft_position": 31
+    },
+    {
+      "input_position": 34,
+      "hash": "2b381599c1a5eb36b7ebc02c629352275c25cecd2ce78e9e37a25d455494146f",
+      "label": "סודי",
+      "length": "short",
+      "status": "draft",
+      "draft_position": 32
+    },
+    {
+      "input_position": 35,
+      "hash": "f1e3b436d84fa372bfcbcaf06c91467092d9ab2fcd685bd1109a4127fe798018",
+      "label": "סודי",
+      "length": "short",
+      "status": "draft",
+      "draft_position": 33
+    },
+    {
+      "input_position": 36,
+      "hash": "133429561870ce11a03696786761887bca58b9742b8f4ab0653c4ba4f9bc059d",
+      "label": "סודי",
+      "length": "short",
+      "status": "excluded",
+      "reason": "mandatory_similarity_review",
+      "alerts": [
+        {
+          "id": "e4bf7c9222f11ac5f52d8d32bb83194ae787a538e68027cd57248467cbd8999e",
+          "method": "semantic",
+          "score": 0.94308,
+          "different_labels": true
+        }
+      ]
+    },
+    {
+      "input_position": 37,
+      "hash": "556489234b2480d768bbd4d5694022d0b7be5c9a06964c3437185e4b2bfcb220",
+      "label": "סודי",
+      "length": "short",
+      "status": "draft",
+      "draft_position": 34
+    },
+    {
+      "input_position": 38,
+      "hash": "025427aba6bb7145d270b7fe42268d27d294be6efd7f2b2e4740bfe52e5b99cc",
+      "label": "סודי",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 35
+    },
+    {
+      "input_position": 39,
+      "hash": "bd550e16f3ed618fe48f23a08457f4de13220947ce09d3c0fe20fc4826b3bb64",
+      "label": "סודי",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 36
+    },
+    {
+      "input_position": 40,
+      "hash": "171e7423382ef21a2370dce3e856b2fd99c1e233f9de11b8c0015da353d45e9d",
+      "label": "סודי",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 37
+    },
+    {
+      "input_position": 41,
+      "hash": "c1f470f5fdb8973bc8726215d822f69fba45b0e00213ae8f7b261d91d4ecfedd",
+      "label": "סודי",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 38
+    },
+    {
+      "input_position": 42,
+      "hash": "62d36a19dce8cb069b1515f169e38c3b75d08da565af4363594f45b4f8b22ca9",
+      "label": "סודי",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 39
+    },
+    {
+      "input_position": 43,
+      "hash": "da183f95a298e125dd4ac30f677552d33c84cfcc323f1ab7501b9810b5ca9ca8",
+      "label": "סודי",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 40
+    },
+    {
+      "input_position": 44,
+      "hash": "1ef2d93fdf3a2b487a9988958326869f6e1851e15a6342508873bef7a92200a7",
+      "label": "סודי",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 41
+    },
+    {
+      "input_position": 45,
+      "hash": "1390f1e50c42f12173b44973545f887ce1a1852ba96e8a8236bac42093d0a132",
+      "label": "סודי",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 42
+    },
+    {
+      "input_position": 46,
+      "hash": "0a6e17412d3e6bbfafd0e6bcb34e034fb1b420ede0ad19303326447fcde99466",
+      "label": "סודי",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 43
+    },
+    {
+      "input_position": 47,
+      "hash": "85a8829ca1ab35062eca28d036dd92ebf6054ff1d337e8c78859dba4c61413aa",
+      "label": "סודי",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 44
+    },
+    {
+      "input_position": 48,
+      "hash": "daf69a750112bf5cb073c00926ef1ff68f99629ebbee9bab603b023d4786d573",
+      "label": "סודי",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 45
+    },
+    {
+      "input_position": 49,
+      "hash": "beaab410c62926e8d5a87effffe5d7790fdcf8d7a31f88a11fd040559eaedb07",
+      "label": "סודי",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 46
+    },
+    {
+      "input_position": 50,
+      "hash": "94fb7640e4bb69551d73fc2726315dc27cddac9f2234e0ab571890fec5ee48b8",
+      "label": "סודי",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 47
+    },
+    {
+      "input_position": 51,
+      "hash": "9ebaef93795b54e3d4b65e3a8b22d6d7561a1ed83bc5945d0d4cdc8a89834270",
+      "label": "סודי",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 48
+    },
+    {
+      "input_position": 52,
+      "hash": "fb4c81d026383ae6e70c5c8f46fac513bcbbe6af7bcf4d4a411c0f64d583373d",
+      "label": "סודי",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 49
+    },
+    {
+      "input_position": 53,
+      "hash": "818d060cca0b1afe8d32861c1ab292e7f67854a3a46f42d052aaa57d7e300a34",
+      "label": "סודי ביותר",
+      "length": "short",
+      "status": "draft",
+      "draft_position": 50
+    },
+    {
+      "input_position": 54,
+      "hash": "29721fa3cb70ceca19d0c2217368547706a3850d52a546f4584fe01905ed5645",
+      "label": "סודי ביותר",
+      "length": "short",
+      "status": "draft",
+      "draft_position": 51
+    },
+    {
+      "input_position": 55,
+      "hash": "a7ca570685c002cd620d2e05480eb2e42cf20a95499fbd616d4ec6e1ac121bdf",
+      "label": "סודי ביותר",
+      "length": "short",
+      "status": "draft",
+      "draft_position": 52
+    },
+    {
+      "input_position": 56,
+      "hash": "fa416c1716f48a78bc4aa4d4da04852c4cd40e274862d1b9eae73dbf4d076d5a",
+      "label": "סודי ביותר",
+      "length": "short",
+      "status": "excluded",
+      "reason": "mandatory_similarity_review",
+      "alerts": [
+        {
+          "id": "e4bf7c9222f11ac5f52d8d32bb83194ae787a538e68027cd57248467cbd8999e",
+          "method": "semantic",
+          "score": 0.94308,
+          "different_labels": true
+        }
+      ]
+    },
+    {
+      "input_position": 57,
+      "hash": "9d480feee8b83fc6a8aa5874d814b73bfd4090e075abbeff14f053b59fe81cc5",
+      "label": "סודי ביותר",
+      "length": "short",
+      "status": "draft",
+      "draft_position": 53
+    },
+    {
+      "input_position": 58,
+      "hash": "1414fa3ae271fe3dc05a07903976cc204abb97c232fb841be2c81061608f5e4a",
+      "label": "סודי ביותר",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 54
+    },
+    {
+      "input_position": 59,
+      "hash": "bc4eba678a70b617c049d6eaf5ece3cab1e1c5046a69d5654ee250243cf8a7c2",
+      "label": "סודי ביותר",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 55
+    },
+    {
+      "input_position": 60,
+      "hash": "722973c6c84c8e764b9bb94d219dedb31d8a818690b873b737a89b40d624251e",
+      "label": "סודי ביותר",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 56
+    },
+    {
+      "input_position": 61,
+      "hash": "48e1d6d5456bebd92582109792cb5d74ec190238a29ddfc6c87b6494784cd9e7",
+      "label": "סודי ביותר",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 57
+    },
+    {
+      "input_position": 62,
+      "hash": "ae93373fc915c15ee8943908200b4504e6da454a29a7c7db94405cc5ee430377",
+      "label": "סודי ביותר",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 58
+    },
+    {
+      "input_position": 63,
+      "hash": "a2887191e1bbccd1e91136dfa8b16c65bf5969845e4892035ee651e882b3332a",
+      "label": "סודי ביותר",
+      "length": "sentence",
+      "status": "draft",
+      "draft_position": 59
+    },
+    {
+      "input_position": 64,
+      "hash": "f90f612f877a371de897b7ca7944c15931dd508daff268218b33fd5735db7c77",
+      "label": "סודי ביותר",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 60
+    },
+    {
+      "input_position": 65,
+      "hash": "446c97590735aea4cbcbb14c602d07603fb7d4a926c21987230e86f895ed0b41",
+      "label": "סודי ביותר",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 61
+    },
+    {
+      "input_position": 66,
+      "hash": "c76f44204f20e44581f9d9eeef671a125e4fbeec47c51bd9a458d9d17b4be60a",
+      "label": "סודי ביותר",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 62
+    },
+    {
+      "input_position": 67,
+      "hash": "dea4e7f73206d25d0cb0d427fb7ba8dc1e2dab5344694adb65ec512723d5b31e",
+      "label": "סודי ביותר",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 63
+    },
+    {
+      "input_position": 68,
+      "hash": "9b47648203f86c02c43b60a3ce019a74b648374de29c870b83de3de38fd9eaa4",
+      "label": "סודי ביותר",
+      "length": "paragraph",
+      "status": "draft",
+      "draft_position": 64
+    },
+    {
+      "input_position": 69,
+      "hash": "63a63523313b048f8b3430afc059db3617c05774858f7e3c09c15d8f3c77e34a",
+      "label": "סודי ביותר",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 65
+    },
+    {
+      "input_position": 70,
+      "hash": "2b148de4b450b44abf0f2d5fbfe172f453ccb8c14fa21b839578eebb500bcd68",
+      "label": "סודי ביותר",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 66
+    },
+    {
+      "input_position": 71,
+      "hash": "ec9b3d5a61ea07b60119bf3ec626891fda761493e8946dfbbf1f3943ad30a58b",
+      "label": "סודי ביותר",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 67
+    },
+    {
+      "input_position": 72,
+      "hash": "9786758bf67ad48694d41949502f6f08ec73e4220b8f3c31bfd2aba92ec64c28",
+      "label": "סודי ביותר",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 68
+    },
+    {
+      "input_position": 73,
+      "hash": "5f4e7e15dfc041e37e1540be90edcc071abf3bd293f17949b494598fcb7af2ef",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 69
+    },
+    {
+      "input_position": 74,
+      "hash": "ad041df904bf5bd1eef2cfa670e17baafe279f48934befa67b1b6f44316b5d7f",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 70
+    },
+    {
+      "input_position": 75,
+      "hash": "b647871484862cc82ad36185398456ed049133834aace5c0ddd1598757771e6a",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 71
+    },
+    {
+      "input_position": 76,
+      "hash": "2e6194e137188c59b325cb2d6ec07a2a0434d45cec101b6e36b0bf64d6a1cf40",
+      "label": "בלמס",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 72
+    },
+    {
+      "input_position": 77,
+      "hash": "2a5d14dc805ef946d5386b61924b0fb0f29d0571a3f2746b869989cc2e7ed57b",
+      "label": "שמור",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 73
+    },
+    {
+      "input_position": 78,
+      "hash": "57ae3a3155bd6b0eee44b5fcac5eb716901b348205d7d934361238867d894ee5",
+      "label": "סודי",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 74
+    },
+    {
+      "input_position": 79,
+      "hash": "5bd7944291f10147864a7def64ec3c9c79bf1d7a40cf89d99841e51e0c93c9ba",
+      "label": "סודי ביותר",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 75
+    },
+    {
+      "input_position": 80,
+      "hash": "e564865303b9709d2f4b655496752b596a71417d2316312338119a7bfa2b83f9",
+      "label": "סודי ביותר",
+      "length": "long",
+      "status": "draft",
+      "draft_position": 76
+    }
+  ],
+  "independent_blind_review": "pending",
+  "production_ids_assigned": false,
+  "sha256": {
+    "candidates.jsonl": "a0099a4876871080d808e80774bec22bac4cabe52f6473a6278f585886b82be6",
+    "scenarios.json": "b676b5e90eefef92bd55015243e64ab799d62fe501f8c86d3a9a0f70f76f4dbd"
+  }
+}
