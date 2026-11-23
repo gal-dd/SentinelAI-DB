@@ -1,0 +1,55 @@
+{
+  "batch": 8,
+  "owner": "ChatGPT main conversation",
+  "branch": "producer/chat-batch-0008-v1",
+  "source_baseline": {
+    "production_branch": "poc/defense-focused-v2",
+    "production_records": 6600,
+    "last_checkpoint": 6,
+    "next_id": 6601
+  },
+  "files": [
+    "drafts/chat/batch-0008/candidates-wave-0001.jsonl",
+    "drafts/chat/batch-0008/scenarios-wave-0001.json"
+  ],
+  "candidates": 40,
+  "exact_domain_distribution": {
+    "missile_systems": 24,
+    "uncrewed_aircraft": 4,
+    "radar_sensors_space": 4,
+    "cyber_communications_c2": 4,
+    "defense_logistics": 2,
+    "general_negative_controls": 2
+  },
+  "labels": {
+    "בלמס": 10,
+    "שמור": 10,
+    "סודי": 10,
+    "סודי ביותר": 10
+  },
+  "length_per_label": {
+    "short": 1,
+    "sentence": 4,
+    "paragraph": 3,
+    "long": 2
+  },
+  "checks": {
+    "jsonl_parsed": 40,
+    "unique_normalized_texts": 40,
+    "normalized_exact_duplicates_vs_6600_production": 0,
+    "length_bucket_violations": 0,
+    "document_structure_violations": 0
+  },
+  "review": {
+    "blind_label_review": "pending",
+    "semantic_E5": "pending",
+    "contextual_domain_review": "pending",
+    "not_a_production_batch": true
+  },
+  "division_of_work": {
+    "Work": "batch-0007 complete publication",
+    "ChatGPT": "batch-0008 drafts only",
+    "production_branch_writes_by_this_worker": false
+  },
+  "next_action": "After batch-0007 is published, refresh quota plans and similarity baseline before assembling 500 and publishing batch-0008."
+}
