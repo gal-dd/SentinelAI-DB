@@ -1685,177 +1685,211 @@
   "autointake-20261123-001": {
     "source_group_id": "autointake-20261123-001",
     "description": "הודעת תיאום פנימית שגרתית",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-002": {
     "source_group_id": "autointake-20261123-002",
     "description": "החלטה ארגונית פנימית מקומית",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-003": {
     "source_group_id": "autointake-20261123-003",
     "description": "החלטה מהותית בחוזה שטרם פורסמה",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-004": {
     "source_group_id": "autointake-20261123-004",
     "description": "ממצא לא פומבי המשנה מסלול פרויקט",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-005": {
     "source_group_id": "autointake-20261123-005",
     "description": "קישור מוגן בעל השלכה חריגה על זהויות בדויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-006": {
     "source_group_id": "autointake-20261123-006",
     "description": "חשיפת זיהוי רוחבית בדיונית של קבוצות מוגנות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-007": {
     "source_group_id": "autointake-20261123-007",
     "description": "תיקון ארגוני שגרתי",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-008": {
     "source_group_id": "autointake-20261123-008",
     "description": "חלוקת משימות פנימית מצומצמת",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-009": {
     "source_group_id": "autointake-20261123-009",
     "description": "שינוי מהותי בתקציב שלא פורסם",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-010": {
     "source_group_id": "autointake-20261123-010",
     "description": "ממצא פנימי בעל השפעה מהותית על מחקר ומימון",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-011": {
     "source_group_id": "autointake-20261123-011",
     "description": "תלות סמויה רחבה בעלת השלכה חריגה",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-012": {
     "source_group_id": "autointake-20261123-012",
     "description": "תלות משפטית מערכתית חריגה בארגון בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-013": {
     "source_group_id": "autointake-20261123-013",
     "description": "סידור עבודה פנימי שגרתי",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-014": {
     "source_group_id": "autointake-20261123-014",
     "description": "משימת עריכה פנימית ללא השלכה משמעותית",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-015": {
     "source_group_id": "autointake-20261123-015",
     "description": "החלטת מכרז לא פומבית בעלת השלכה מהותית",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-016": {
     "source_group_id": "autointake-20261123-016",
     "description": "גילוי פנימי המשנה פרויקט משמעותי",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-017": {
     "source_group_id": "autointake-20261123-017",
     "description": "פוטנציאל חשיפה רוחבית של זהויות מוגנות",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-018": {
     "source_group_id": "autointake-20261123-018",
     "description": "חשיפה מערכתית של זהויות שהופרדו להגנה",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-019": {
     "source_group_id": "autointake-20261123-019",
     "description": "הזמנת ציוד שגרתית",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-020": {
     "source_group_id": "autointake-20261123-020",
     "description": "סידור תפעולי מקומי",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-021": {
     "source_group_id": "autointake-20261123-021",
     "description": "עצירת חוזה מהותית לא פומבית",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-022": {
     "source_group_id": "autointake-20261123-022",
     "description": "ממצא כספי מהותי לפרויקט יחיד",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-023": {
     "source_group_id": "autointake-20261123-023",
     "description": "תלות חוזית רוחבית ומוגנת",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-024": {
     "source_group_id": "autointake-20261123-024",
     "description": "שינוי פנימי שגרתי בהנגשת תיעוד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-025": {
     "source_group_id": "autointake-20261123-025",
     "description": "תיאום ארגוני פנימי בתחום תיעוד טילים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-026": {
     "source_group_id": "autointake-20261123-026",
     "description": "החלטת פרויקט מהותית שלא פורסמה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-027": {
     "source_group_id": "autointake-20261123-027",
     "description": "ממצא מהותי בפרויקט יחיד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-028": {
     "source_group_id": "autointake-20261123-028",
     "description": "סיכון רוחבי חריג לזכויות במוסדות בדיוניים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-029": {
     "source_group_id": "autointake-20261123-029",
     "description": "תלות משפטית רוחבית וחריגה בחומר ארכיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-01-2": {
     "source_group_id": "mg-20261122-family-01",
     "source_id": null,
     "description": "עקיבות מדידות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-02-2": {
     "source_group_id": "mg-20261122-family-02",
     "source_id": null,
     "description": "תוקף חתימה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-03-2": {
     "source_group_id": "mg-20261122-family-03",
     "source_id": null,
     "description": "גרסת דרישות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-04-2": {
     "source_group_id": "mg-20261122-family-04",
     "source_id": null,
     "description": "יומן הסתייגויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-05-2": {
     "source_group_id": "mg-20261122-family-05",
     "source_id": null,
     "description": "ספק ביקורת",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-06-1": {
     "source_group_id": "mg-20261122-family-06",
@@ -1867,7 +1901,8 @@
     "source_group_id": "mg-20261122-family-06",
     "source_id": null,
     "description": "תקציב שימור",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-07-1": {
     "source_group_id": "mg-20261122-family-07",
@@ -1879,7 +1914,8 @@
     "source_group_id": "mg-20261122-family-07",
     "source_id": null,
     "description": "גיבוי ארכיון",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-08-1": {
     "source_group_id": "mg-20261122-family-08",
@@ -1891,7 +1927,8 @@
     "source_group_id": "mg-20261122-family-08",
     "source_id": null,
     "description": "חיסיון חוקרים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-09-1": {
     "source_group_id": "mg-20261122-family-09",
@@ -1903,7 +1940,8 @@
     "source_group_id": "mg-20261122-family-09",
     "source_id": null,
     "description": "בחירת ועדה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-10-1": {
     "source_group_id": "mg-20261122-family-10",
@@ -1915,7 +1953,8 @@
     "source_group_id": "mg-20261122-family-10",
     "source_id": null,
     "description": "תרגום חוזה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-11-1": {
     "source_group_id": "mg-20261122-family-11",
@@ -1933,7 +1972,8 @@
     "source_group_id": "mg-20261122-family-12",
     "source_id": null,
     "description": "מעמד מדגם",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-13-1": {
     "source_group_id": "mg-20261122-family-13",
@@ -1969,7 +2009,8 @@
     "source_group_id": "mg-20261122-family-17",
     "source_id": null,
     "description": "רציפות ביקורת",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-18-1": {
     "source_group_id": "mg-20261122-family-18",
@@ -1981,7 +2022,8 @@
     "source_group_id": "mg-20261122-family-18",
     "source_id": null,
     "description": "שחזור החלטות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-20-1": {
     "source_group_id": "mg-20261122-family-20",
@@ -2017,19 +2059,22 @@
     "source_group_id": "mg-20261122-c02-family-01",
     "source_id": null,
     "description": "ייחוס תצלומים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-c02-02-2": {
     "source_group_id": "mg-20261122-c02-family-02",
     "source_id": null,
     "description": "ריאיון עם גמלאי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-c02-03-2": {
     "source_group_id": "mg-20261122-c02-family-03",
     "source_id": null,
     "description": "פריט מושאל",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-c02-04-1": {
     "source_group_id": "mg-20261122-c02-family-04",
@@ -2041,7 +2086,8 @@
     "source_group_id": "mg-20261122-c02-family-04",
     "source_id": null,
     "description": "כרטוס לקהל",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-c02-05-1": {
     "source_group_id": "mg-20261122-c02-family-05",
@@ -2053,7 +2099,8 @@
     "source_group_id": "mg-20261122-c02-family-05",
     "source_id": null,
     "description": "שימור חומרי כרזה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-c02-06-1": {
     "source_group_id": "mg-20261122-c02-family-06",
@@ -2083,7 +2130,8 @@
     "source_group_id": "mg-20261122-c02-family-09",
     "source_id": null,
     "description": "כתוביות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "mg-20261122-c02-10-1": {
     "source_group_id": "mg-20261122-c02-family-10",
@@ -2175,168 +2223,192 @@
     "source_id": null,
     "description": "הנחיות לימודיות בדיוניות ללא מידע ארגוני ממשי",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-015": {
     "source_group_id": "recovery-20261119-015",
     "source_id": null,
     "description": "ריאיון מומצא על תהליך יצירה שכבר פורסם במלואו",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-016": {
     "source_group_id": "recovery-20261119-016",
     "source_id": null,
     "description": "שיבוץ פנימי שגרתי מקומי",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-017": {
     "source_group_id": "recovery-20261119-017",
     "source_id": null,
     "description": "תיאום עבודה פנימי ללא השלכה מהותית",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-018": {
     "source_group_id": "recovery-20261119-018",
     "source_id": null,
     "description": "טיפול שגרתי נקודתי בהרשאה",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-019": {
     "source_group_id": "recovery-20261119-019",
     "source_id": null,
     "description": "בירור מנהלי פנימי ללא החלטה רחבה",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-020": {
     "source_group_id": "recovery-20261119-020",
     "source_id": null,
     "description": "תקלה מקומית שאינה משנה זכויות או החלטה מהותית",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-021": {
     "source_group_id": "recovery-20261119-021",
     "source_id": null,
     "description": "מצב מנהלי של תהליך אישור שגרתי",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-022": {
     "source_group_id": "recovery-20261119-022",
     "source_id": null,
     "description": "חלוקת משימות פנימית מצומצמת",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-023": {
     "source_group_id": "recovery-20261119-023",
     "source_id": null,
     "description": "בדיקת הרשאה שגרתית ללא חשיפת תוכן מוגן",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-024": {
     "source_group_id": "recovery-20261119-024",
     "source_id": null,
     "description": "החלפה מקומית של אחריות תפעולית שגרתית",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-025": {
     "source_group_id": "recovery-20261119-025",
     "source_id": null,
     "description": "דיון עבודה מקומי שטרם הוכרע",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-026": {
     "source_group_id": "recovery-20261119-026",
     "source_id": null,
     "description": "רישום תיקון שגרתי במערכת מנהלית",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-027": {
     "source_group_id": "recovery-20261119-027",
     "source_id": null,
     "description": "תיעוד פנימי מצומצם לשימור רצף עבודה",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-028": {
     "source_group_id": "recovery-20261119-028",
     "source_id": null,
     "description": "הליך מקומי שגרתי עם תחום גישה מוגבל",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-029": {
     "source_group_id": "recovery-20261119-029",
     "source_id": null,
     "description": "בחינת נוחות של תהליך מקומי ללא השלכה רחבה",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-030": {
     "source_group_id": "recovery-20261119-030",
     "source_id": null,
     "description": "תיאום מנהלי בין שני צוותים בלי תלות חריגה",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-031": {
     "source_group_id": "recovery-20261119-031",
     "source_id": null,
     "description": "החלטת סגירה פנימית מהותית לפרויקט",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-032": {
     "source_group_id": "recovery-20261119-032",
     "source_id": null,
     "description": "מחיר סף פנימי המשפיע על משא ומתן",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-033": {
     "source_group_id": "recovery-20261119-033",
     "source_id": null,
     "description": "ממצא פנימי משנה החלטה מהותית על זכויות",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-034": {
     "source_group_id": "recovery-20261119-034",
     "source_id": null,
     "description": "הכרעת התקשרות שטרם נמסרה לצד השני",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-035": {
     "source_group_id": "recovery-20261119-035",
     "source_id": null,
     "description": "תוצאת מחקר לא פומבית משנה כיוון פרויקט אזרחי",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-036": {
     "source_group_id": "recovery-20261119-036",
     "source_id": null,
     "description": "תקלה משמעותית בהרשאות נחשפה כעובדה פנימית",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-037": {
     "source_group_id": "recovery-20261119-037",
     "source_id": null,
     "description": "מידע פנימי מכריע בהתקשרות אחת",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-038": {
     "source_group_id": "recovery-20261119-038",
@@ -2399,7 +2471,8 @@
     "source_id": null,
     "description": "מיפוי מבטל בפועל אנונימיות שנועדה להגנה",
     "fictional": true,
-    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs.",
+    "domain": "מידע כללי לדוגמאות נגדיות"
   },
   "recovery-20261119-047": {
     "source_group_id": "recovery-20261119-047",
@@ -2533,1696 +2606,2024 @@
     "source_group_id": "intake-20261123-missile-006",
     "source_id": null,
     "description": "הערת קריאה למאמרי היסטוריה פתוחים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-007": {
     "source_group_id": "intake-20261123-missile-007",
     "source_id": null,
     "description": "דוגמה לימודית בדיונית על השוואת מקורות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-008": {
     "source_group_id": "intake-20261123-missile-008",
     "source_id": null,
     "description": "מסגרת כללית לשיחה ציבורית על הסכמים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-009": {
     "source_group_id": "intake-20261123-missile-009",
     "source_id": null,
     "description": "הדרכה פומבית בדיונית על חומר ארכיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-010": {
     "source_group_id": "intake-20261123-missile-010",
     "source_id": null,
     "description": "דיון ציבורי בדיוני על תיעוד תעשייתי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-011": {
     "source_group_id": "intake-20261123-missile-011",
     "source_id": null,
     "description": "תיאום פנימי מקומי ללא ממצא מוגן",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-012": {
     "source_group_id": "intake-20261123-missile-012",
     "source_id": null,
     "description": "תיקון מנהלי שגרתי בתיעוד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-013": {
     "source_group_id": "intake-20261123-missile-013",
     "source_id": null,
     "description": "משימת תיעוד פנימית רגילה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-014": {
     "source_group_id": "intake-20261123-missile-014",
     "source_id": null,
     "description": "שיבוץ פנימי מקומי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-015": {
     "source_group_id": "intake-20261123-missile-015",
     "source_id": null,
     "description": "בקשת עותק שגרתית עם השלכה מקומית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-016": {
     "source_group_id": "intake-20261123-missile-016",
     "source_id": null,
     "description": "סדר יום פנימי ובקשת תיעוד שגרתית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-017": {
     "source_group_id": "intake-20261123-missile-017",
     "source_id": null,
     "description": "איסוף פנימי שוטף של חומר קיים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-018": {
     "source_group_id": "intake-20261123-missile-018",
     "source_id": null,
     "description": "העברת טיפול מנהלית בתוך צוות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-019": {
     "source_group_id": "intake-20261123-missile-019",
     "source_id": null,
     "description": "חלוקת מטלות פנימית מקומית בארכיון",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-020": {
     "source_group_id": "intake-20261123-missile-020",
     "source_id": null,
     "description": "הכנת פגישה פנימית שגרתית בתחום הרכש",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-021": {
     "source_group_id": "intake-20261123-missile-021",
     "source_id": null,
     "description": "החלטה פנימית מהותית על חוזה יחיד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-022": {
     "source_group_id": "intake-20261123-missile-022",
     "source_id": null,
     "description": "עובדה פנימית המשנה החלטת תמחור בפרויקט",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-023": {
     "source_group_id": "intake-20261123-missile-023",
     "source_id": null,
     "description": "הכרעה מהותית בזכויות של מסמך פרויקט יחיד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-024": {
     "source_group_id": "intake-20261123-missile-024",
     "source_id": null,
     "description": "החלטה פנימית לשנות מסקנה מרכזית בפרויקט",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-025": {
     "source_group_id": "intake-20261123-missile-025",
     "source_id": null,
     "description": "כשל תקציבי מאומת בעל השפעה מהותית מקומית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-026": {
     "source_group_id": "intake-20261123-missile-026",
     "source_id": null,
     "description": "ביטול תשלום מהותי בעקבות מסמך חוזי תקף",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-027": {
     "source_group_id": "intake-20261123-missile-027",
     "source_id": null,
     "description": "חזרה פנימית מממצא שהכתיב מסלול מחקר אחד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-028": {
     "source_group_id": "intake-20261123-missile-028",
     "source_id": null,
     "description": "הכרעה מהותית בתביעה של ספק יחיד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-029": {
     "source_group_id": "intake-20261123-missile-029",
     "source_id": null,
     "description": "ביקורת פנימית שמשנה מימון של יוזמת תיעוד אחת",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-030": {
     "source_group_id": "intake-20261123-missile-030",
     "source_id": null,
     "description": "החלטה פנימית לבטל יעד חוזי מהותי בפרויקט אחד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-031": {
     "source_group_id": "intake-20261123-missile-031",
     "source_id": null,
     "description": "קישור מפורש שחושף עדה מוגנת במקרה בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-032": {
     "source_group_id": "intake-20261123-missile-032",
     "source_id": null,
     "description": "חשיפת זהותו של מקור שקיבל הגנה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-033": {
     "source_group_id": "intake-20261123-missile-033",
     "source_id": null,
     "description": "זיהוי מלא של חומר מוגן החושף קבוצת עדים בדיונית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-034": {
     "source_group_id": "intake-20261123-missile-034",
     "source_id": null,
     "description": "החלטה רוחבית מוגדרת שמחייבת ביטול כל התוכניות הנדונות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-035": {
     "source_group_id": "intake-20261123-missile-035",
     "source_id": null,
     "description": "תלות משפטית סמויה המבטלת מערכת אישורים שלמה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-036": {
     "source_group_id": "intake-20261123-missile-036",
     "source_id": null,
     "description": "ראיה קונקרטית לכשל רוחבי מחייב בתוקף חוזים בדיוניים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-037": {
     "source_group_id": "intake-20261123-missile-037",
     "source_id": null,
     "description": "קישור חד ערכי לזהות שהופרדה להגנת עדה בדיונית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-038": {
     "source_group_id": "intake-20261123-missile-038",
     "source_id": null,
     "description": "החלטת רוחב שמבטלת מסלולי מימון ללא חלופה חוקית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-039": {
     "source_group_id": "intake-20261123-missile-039",
     "source_id": null,
     "description": "שיוך המבטל הגנת זהות של עדה בדיונית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-040": {
     "source_group_id": "intake-20261123-missile-040",
     "source_id": null,
     "description": "מסמך בדיוני על ביטול רוחבי מוכרע ללא חלופת המשך",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-041": {
     "source_group_id": "intake-20261123-missile-041",
     "source_id": null,
     "description": "הבחנה עקרונית בתחום ההיסטוריה של מדיניות הטילים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-042": {
     "source_group_id": "intake-20261123-missile-042",
     "source_id": null,
     "description": "דיון מדעי מושגי באמצעות המחשה לימודית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-043": {
     "source_group_id": "intake-20261123-missile-043",
     "source_id": null,
     "description": "דיון ציבורי בדיוני על עלויות של תוכניות טילים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-044": {
     "source_group_id": "intake-20261123-missile-044",
     "source_id": null,
     "description": "הגהה פנימית של מסמך על אמנת טילים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-045": {
     "source_group_id": "intake-20261123-missile-045",
     "source_id": null,
     "description": "תיאום פנימי שגרתי בתיעוד סוגיה משפטית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-046": {
     "source_group_id": "intake-20261123-missile-046",
     "source_id": null,
     "description": "עדכון שגרתי בתוך צוות על סידור חומר",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-047": {
     "source_group_id": "intake-20261123-missile-047",
     "source_id": null,
     "description": "תיאום פנימי של אירוע למידת מדיניות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-048": {
     "source_group_id": "intake-20261123-missile-048",
     "source_id": null,
     "description": "מטלת תיעוד פנימית שתוצאתה מקומית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-049": {
     "source_group_id": "intake-20261123-missile-049",
     "source_id": null,
     "description": "בקשה ממחלקה שכנה לשיפור עותק עבודה שגרתי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-050": {
     "source_group_id": "intake-20261123-missile-050",
     "source_id": null,
     "description": "החלטת מחקר פנימית המשפיעה על מענק אחד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-051": {
     "source_group_id": "intake-20261123-missile-051",
     "source_id": null,
     "description": "ממצא בדיני עבודה עם השפעה על סכסוך יחיד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-052": {
     "source_group_id": "intake-20261123-missile-052",
     "source_id": null,
     "description": "שינוי מהותי בפרויקט בעקבות הונאה חשבונאית בדיונית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-053": {
     "source_group_id": "intake-20261123-missile-053",
     "source_id": null,
     "description": "פסילה מהותית של פריט מרכזי והשלכה חוזית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-054": {
     "source_group_id": "intake-20261123-missile-054",
     "source_id": null,
     "description": "חשיפה של סיבת עצירה פנימית בפרויקט משפטי אחד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-055": {
     "source_group_id": "intake-20261123-missile-055",
     "source_id": null,
     "description": "תיעוד פנימי על בסיס ראייתי ששינה החלטה מהותית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-056": {
     "source_group_id": "intake-20261123-missile-056",
     "source_id": null,
     "description": "חשיפה מוכחת של קבוצת מקורות מוגנים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-057": {
     "source_group_id": "intake-20261123-missile-057",
     "source_id": null,
     "description": "ביטול רוחבי ללא חלופה חוקית בדיונית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-058": {
     "source_group_id": "intake-20261123-missile-058",
     "source_id": null,
     "description": "שלילת המימון של קבוצה שלמה של תוכניות בדיוניות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-059": {
     "source_group_id": "intake-20261123-missile-059",
     "source_id": null,
     "description": "מפת שיוך מפורשת לעדויות בדיוניות בחיסיון",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-060": {
     "source_group_id": "intake-20261123-missile-060",
     "source_id": null,
     "description": "תלות משפטית סמויה שגוררת סגירה רוחבית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-061": {
     "source_group_id": "intake-20261123-missile-061",
     "source_id": null,
     "description": "חשיפה רוחבית לנתוני שייכות של נפגעים מוגנים בדיוניים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-001": {
     "source_group_id": "intake-supp-20261123-001",
     "description": "קריאה ביקורתית במקורות היסטוריים פתוחים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-002": {
     "source_group_id": "intake-supp-20261123-002",
     "description": "הסבר לימודי בדיוני על מסגרת דיווח",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-003": {
     "source_group_id": "intake-supp-20261123-003",
     "description": "בחינת בחירות עריכה בדיון ציבורי וכללי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-004": {
     "source_group_id": "intake-supp-20261123-004",
     "description": "תסריט פומבי בדיוני על ההיסטוריה התעשייתית של הטילים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-005": {
     "source_group_id": "intake-supp-20261123-005",
     "description": "קריאת מסמכים ציבוריים באמצעות חקיקה בדיונית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-006": {
     "source_group_id": "intake-supp-20261123-006",
     "description": "עלון בדיוני על מפגש קהילתי העוסק במדיניות טילים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-007": {
     "source_group_id": "intake-supp-20261123-007",
     "description": "הדרכה פומבית על הצגה של איור מדעי כללי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-008": {
     "source_group_id": "intake-supp-20261123-008",
     "description": "ראיון בדיוני לשימור זיכרון ציבורי בתחום הטילים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-009": {
     "source_group_id": "intake-supp-20261123-009",
     "description": "דיון היסטורי כללי על נקודת המבט של הכותב",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-010": {
     "source_group_id": "intake-supp-20261123-010",
     "description": "דף מבוא פומבי המשווה בין מסמכים היסטוריים בדיוניים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-011": {
     "source_group_id": "intake-supp-20261123-011",
     "description": "תרגיל כלכלה כללי לקהל ללא נתוני פרויקט אמיתי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-012": {
     "source_group_id": "intake-supp-20261123-012",
     "description": "דיון פומבי בדיוני בשפה של הסכמים הנוגעים לטילים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-013": {
     "source_group_id": "intake-supp-20261123-013",
     "description": "הערת טיפול פנימית על תיעוד בתחום",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-014": {
     "source_group_id": "intake-supp-20261123-014",
     "description": "רישום עבודה צוותי מקומי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-015": {
     "source_group_id": "intake-supp-20261123-015",
     "description": "מטלת איסוף פנימית בתחום התיעוד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-018": {
     "source_group_id": "intake-supp-20261123-018",
     "description": "בקשת תיקון לא מהותית בקובץ עבודה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-019": {
     "source_group_id": "intake-supp-20261123-019",
     "description": "הכנה מקומית לדיון בתחום החקיקה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-020": {
     "source_group_id": "intake-supp-20261123-020",
     "description": "רישום חלוקת תפקידים פנימית בארכיון",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-021": {
     "source_group_id": "intake-supp-20261123-021",
     "description": "תיעוד מסירה פנימית שגרתית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-022": {
     "source_group_id": "intake-supp-20261123-022",
     "description": "תיקון טכני מנהלי שאינו משנה תוכן",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-023": {
     "source_group_id": "intake-supp-20261123-023",
     "description": "דיווח מקומי על עריכה בפנים הארגון",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-024": {
     "source_group_id": "intake-supp-20261123-024",
     "description": "סיכום שגרתי של טיפול צוותי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-025": {
     "source_group_id": "intake-supp-20261123-025",
     "description": "סיכום הכנה פנימית לשיעור על אמנות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-026": {
     "source_group_id": "intake-supp-20261123-026",
     "description": "החלטה פנימית מצומצמת על אופן ארגון מסמכים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-027": {
     "source_group_id": "intake-supp-20261123-027",
     "description": "העברת אסמכתאות פנימית בשגרה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-028": {
     "source_group_id": "intake-supp-20261123-028",
     "description": "תרגול פנימי של סידור תמלול היסטורי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-029": {
     "source_group_id": "intake-supp-20261123-029",
     "description": "רישום פנימי על הכנת תיק תקציבי קיים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-030": {
     "source_group_id": "intake-supp-20261123-030",
     "description": "הכנת חומר פנימית ושגרתית לישיבה על מדיניות טילים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-031": {
     "source_group_id": "intake-supp-20261123-031",
     "description": "הפקה פנימית רגילה של תערוכה היסטורית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-032": {
     "source_group_id": "intake-supp-20261123-032",
     "description": "שיחה פנימית שגרתית על ארכוב חומרי תוכנית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-033": {
     "source_group_id": "intake-supp-20261123-033",
     "description": "שינוי מהותי פנימי בחוזה יחיד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-034": {
     "source_group_id": "intake-supp-20261123-034",
     "description": "הכרעה פנימית מהותית בפרויקט ספציפי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-035": {
     "source_group_id": "intake-supp-20261123-035",
     "description": "ממצא פנימי המבטל החלטת התקשרות אחת",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-037": {
     "source_group_id": "intake-supp-20261123-037",
     "description": "החלטת זכייה רגישה שטרם פורסמה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-038": {
     "source_group_id": "intake-supp-20261123-038",
     "description": "הכרעה חוזית מהותית בפרויקט אחד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-039": {
     "source_group_id": "intake-supp-20261123-039",
     "description": "ממצא פנימי ששינה הקצאה בפרויקט",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-040": {
     "source_group_id": "intake-supp-20261123-040",
     "description": "החלטה תקציבית שלא פורסמה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-041": {
     "source_group_id": "intake-supp-20261123-041",
     "description": "עצירת פרסום מהותי בפרויקט יחיד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-042": {
     "source_group_id": "intake-supp-20261123-042",
     "description": "ממצא נקודתי עם השלכה חוזית מהותית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-043": {
     "source_group_id": "intake-supp-20261123-043",
     "description": "ביטול התחייבות מהותית לפני פרסום",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-044": {
     "source_group_id": "intake-supp-20261123-044",
     "description": "חשיפת ראיה מכרעת בתיק אזרחי בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-045": {
     "source_group_id": "intake-supp-20261123-045",
     "description": "השלכה פנימית מהותית על זכות במענק אחד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-046": {
     "source_group_id": "intake-supp-20261123-046",
     "description": "הוראה פנימית לשמור ראיה הגוררת עצירת עסקה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-047": {
     "source_group_id": "intake-supp-20261123-047",
     "description": "החלטה פנימית לתקן זכייה במכרז אחד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-048": {
     "source_group_id": "intake-supp-20261123-048",
     "description": "עדות פנימית לשינוי מהותי במסקנת מחקר יחיד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-049": {
     "source_group_id": "intake-supp-20261123-049",
     "description": "הכרעת תמחור פנימית בנוגע למציע מסוים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-050": {
     "source_group_id": "intake-supp-20261123-050",
     "description": "נסיגה ממענק חד פרויקטלי בעקבות חוות דעת פנימית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-051": {
     "source_group_id": "intake-supp-20261123-051",
     "description": "החלטה פנימית שמשנה זכות של הגוף המממן בפרויקט יחיד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-052": {
     "source_group_id": "intake-supp-20261123-052",
     "description": "ממצא כספי פנימי שמבטל התקשרות נקודתית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-053": {
     "source_group_id": "intake-supp-20261123-053",
     "description": "חשיפת זהות מקור מוגן בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-054": {
     "source_group_id": "intake-supp-20261123-054",
     "description": "שלילת ערבויות של מערך שלם",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-055": {
     "source_group_id": "intake-supp-20261123-055",
     "description": "חשיפת כלל המקורות המוגנים במקרה בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-057": {
     "source_group_id": "intake-supp-20261123-057",
     "description": "הסרת הגנה מזהות עד בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-058": {
     "source_group_id": "intake-supp-20261123-058",
     "description": "גילוי טבלה המבטלת אנונימיות של קבוצה מוגנת",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-059": {
     "source_group_id": "intake-supp-20261123-059",
     "description": "תלות רוחבית סמויה ועצירה מחייבת ללא חלופה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-060": {
     "source_group_id": "intake-supp-20261123-060",
     "description": "תלות רוחבית שנקבעה והשלכה יוצאת דופן",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-061": {
     "source_group_id": "intake-supp-20261123-061",
     "description": "שיוך המבטל אנונימיות קבוצתית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-062": {
     "source_group_id": "intake-supp-20261123-062",
     "description": "ביטול רוחבי בעל השלכה חריגה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-063": {
     "source_group_id": "intake-supp-20261123-063",
     "description": "ביטול מערכתי מחייב בתקצוב ללא חלופה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-064": {
     "source_group_id": "intake-supp-20261123-064",
     "description": "חשיפה של קבוצת משתתפים שנשמרה תחת חיסיון",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-065": {
     "source_group_id": "intake-supp-20261123-065",
     "description": "ביטול רוחבי מוגדר מכוח תלות שלא נחשפה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-066": {
     "source_group_id": "intake-supp-20261123-066",
     "description": "חשיפה פנימית של מבנה שמבטל פעילות מנהלית שלמה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-067": {
     "source_group_id": "intake-supp-20261123-067",
     "description": "שיוך שחושף קבוצה מוגנת בבדיקה בדיונית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-068": {
     "source_group_id": "intake-supp-20261123-068",
     "description": "תוצאה חריגה הנוגעת לכל מסלולי מענק במערך",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-069": {
     "source_group_id": "intake-supp-20261123-069",
     "description": "בירור המדגים ביטול חיסיון של כלל אנשי עדות בדיוניים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-070": {
     "source_group_id": "intake-supp-20261123-070",
     "description": "הכרעה רוחבית ללא אפשרות למלא את הסמכות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-071": {
     "source_group_id": "intake-supp-20261123-071",
     "description": "מקור סמכות נסתר שהכרעת בוררות מבטלת לכל התוכניות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-072": {
     "source_group_id": "intake-supp-20261123-072",
     "description": "אובדן חיסיון קבוצתי מאומת במקרה בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-073": {
     "source_group_id": "intake-supp-20261123-073",
     "description": "שיחה בדיונית על המשמעות של מועדים בהיסטוריה הטילית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-074": {
     "source_group_id": "intake-supp-20261123-074",
     "description": "הזמנה פתוחה לדיון בדיוני על תולדות החקיקה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-075": {
     "source_group_id": "intake-supp-20261123-075",
     "description": "תרגיל פומבי על דיווחי חברות בדיוניות בתחום הטילים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-076": {
     "source_group_id": "intake-supp-20261123-076",
     "description": "מכתב בדיוני פומבי שעוסק בכתיבה לציבור על תוכניות טילים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-077": {
     "source_group_id": "intake-supp-20261123-077",
     "description": "הכנת חומר מנהלית רגילה לחומר לימוד בנושא טילים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-078": {
     "source_group_id": "intake-supp-20261123-078",
     "description": "הכרעה פנימית בתביעה מהותית יחידה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-079": {
     "source_group_id": "intake-supp-20261123-079",
     "description": "גילוי השיוך המלא של זהויות מוגנות בתחקיר בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-supp-20261123-080": {
     "source_group_id": "intake-supp-20261123-080",
     "description": "ממצא סופי המבטל בבת אחת מערך מנהלי שלם",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-030": {
     "source_group_id": "autointake-20261123-030",
     "description": "תיאום פנימי שגרתי בארגון הבדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-031": {
     "source_group_id": "autointake-20261123-031",
     "description": "תיאום פנימי שגרתי בארגון הבדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-032": {
     "source_group_id": "autointake-20261123-032",
     "description": "תיאום פנימי שגרתי בארגון הבדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-033": {
     "source_group_id": "autointake-20261123-033",
     "description": "תיאום פנימי שגרתי בארגון הבדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-034": {
     "source_group_id": "autointake-20261123-034",
     "description": "תיאום פנימי שגרתי בארגון הבדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-035": {
     "source_group_id": "autointake-20261123-035",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-036": {
     "source_group_id": "autointake-20261123-036",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-037": {
     "source_group_id": "autointake-20261123-037",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-038": {
     "source_group_id": "autointake-20261123-038",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-039": {
     "source_group_id": "autointake-20261123-039",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-040": {
     "source_group_id": "autointake-20261123-040",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-041": {
     "source_group_id": "autointake-20261123-041",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-042": {
     "source_group_id": "autointake-20261123-042",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-043": {
     "source_group_id": "autointake-20261123-043",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-044": {
     "source_group_id": "autointake-20261123-044",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-045": {
     "source_group_id": "autointake-20261123-045",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-046": {
     "source_group_id": "autointake-20261123-046",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-047": {
     "source_group_id": "autointake-20261123-047",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-048": {
     "source_group_id": "autointake-20261123-048",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-049": {
     "source_group_id": "autointake-20261123-049",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-050": {
     "source_group_id": "autointake-20261123-050",
     "description": "תיאום פנימי שגרתי בארגון הבדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-051": {
     "source_group_id": "autointake-20261123-051",
     "description": "תיאום פנימי שגרתי בארגון הבדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-052": {
     "source_group_id": "autointake-20261123-052",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-053": {
     "source_group_id": "autointake-20261123-053",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-054": {
     "source_group_id": "autointake-20261123-054",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-055": {
     "source_group_id": "autointake-20261123-055",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-056": {
     "source_group_id": "autointake-20261123-056",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-057": {
     "source_group_id": "autointake-20261123-057",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-058": {
     "source_group_id": "autointake-20261123-058",
     "description": "תיאום פנימי שגרתי בארגון הבדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-059": {
     "source_group_id": "autointake-20261123-059",
     "description": "תיאום פנימי שגרתי בארגון הבדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-060": {
     "source_group_id": "autointake-20261123-060",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-061": {
     "source_group_id": "autointake-20261123-061",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-062": {
     "source_group_id": "autointake-20261123-062",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-063": {
     "source_group_id": "autointake-20261123-063",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-064": {
     "source_group_id": "autointake-20261123-064",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-065": {
     "source_group_id": "autointake-20261123-065",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-066": {
     "source_group_id": "autointake-20261123-066",
     "description": "תיאום פנימי שגרתי בארגון הבדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-067": {
     "source_group_id": "autointake-20261123-067",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-068": {
     "source_group_id": "autointake-20261123-068",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-069": {
     "source_group_id": "autointake-20261123-069",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-070": {
     "source_group_id": "autointake-20261123-070",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-071": {
     "source_group_id": "autointake-20261123-071",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-072": {
     "source_group_id": "autointake-20261123-072",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-073": {
     "source_group_id": "autointake-20261123-073",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-074": {
     "source_group_id": "autointake-20261123-074",
     "description": "תיאום פנימי שגרתי בארגון הבדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-075": {
     "source_group_id": "autointake-20261123-075",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-076": {
     "source_group_id": "autointake-20261123-076",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-077": {
     "source_group_id": "autointake-20261123-077",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-078": {
     "source_group_id": "autointake-20261123-078",
     "description": "החלטה לא פומבית בעלת השלכה מהותית על מיזם בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-079": {
     "source_group_id": "autointake-20261123-079",
     "description": "תלות רוחבית בדיונית בעלת השלכה חריגה על זכויות והתחייבויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-080": {
     "source_group_id": "autointake-20261123-080",
     "description": "תיאום פנימי שגרתי במסגרת בדיונית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-081": {
     "source_group_id": "autointake-20261123-081",
     "description": "תיאום פנימי של חומר הדרכה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-082": {
     "source_group_id": "autointake-20261123-082",
     "description": "שינוי מנהלתי מקומי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-083": {
     "source_group_id": "autointake-20261123-083",
     "description": "טיפול שגרתי בחומר לימוד",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-084": {
     "source_group_id": "autointake-20261123-084",
     "description": "תיאום צוותי ללא השלכה מהותית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-085": {
     "source_group_id": "autointake-20261123-085",
     "description": "החלטת עריכה פנימית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-086": {
     "source_group_id": "autointake-20261123-086",
     "description": "תיקון ארכוב שגרתי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-087": {
     "source_group_id": "autointake-20261123-087",
     "description": "תכנון הוראה פנימי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-088": {
     "source_group_id": "autointake-20261123-088",
     "description": "חפיפה וניהול תערוכה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-089": {
     "source_group_id": "autointake-20261123-089",
     "description": "תוכנית הכנה לימודית שגרתית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-090": {
     "source_group_id": "autointake-20261123-090",
     "description": "ממצא פנימי מהותי המשנה החלטת פרויקט",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-091": {
     "source_group_id": "autointake-20261123-091",
     "description": "סודי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-092": {
     "source_group_id": "autointake-20261123-092",
     "description": "ממצא פנימי מהותי המשנה החלטת פרויקט",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-093": {
     "source_group_id": "autointake-20261123-093",
     "description": "ממצא תקציבי מהותי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-094": {
     "source_group_id": "autointake-20261123-094",
     "description": "פגיעה מהותית ברישוי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-095": {
     "source_group_id": "autointake-20261123-095",
     "description": "החלטה משמעותית בחוזה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-096": {
     "source_group_id": "autointake-20261123-096",
     "description": "ממצא זכויות בעל השלכה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-097": {
     "source_group_id": "autointake-20261123-097",
     "description": "עצירת פרסום מהותי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-098": {
     "source_group_id": "autointake-20261123-098",
     "description": "שינוי מסחרי מהותי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-099": {
     "source_group_id": "autointake-20261123-099",
     "description": "ממצא שמשנה החלטת מימון",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-100": {
     "source_group_id": "autointake-20261123-100",
     "description": "החלטת תקציב לא פומבית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-101": {
     "source_group_id": "autointake-20261123-101",
     "description": "החלטת התקשרות מהותית שלא פורסמה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-102": {
     "source_group_id": "autointake-20261123-102",
     "description": "סיכון זכויות מהותי לפרויקט",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-103": {
     "source_group_id": "autointake-20261123-103",
     "description": "ממצא מימון מהותי",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-104": {
     "source_group_id": "autointake-20261123-104",
     "description": "השלכה מסחרית מהותית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-105": {
     "source_group_id": "autointake-20261123-105",
     "description": "חשיפה מערכתית חריגה או פגיעה בהגנה רוחבית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-106": {
     "source_group_id": "autointake-20261123-106",
     "description": "חשיפה מערכתית חריגה או פגיעה בהגנה רוחבית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-107": {
     "source_group_id": "autointake-20261123-107",
     "description": "חשיפה מערכתית חריגה או פגיעה בהגנה רוחבית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-108": {
     "source_group_id": "autointake-20261123-108",
     "description": "חשיפה מערכתית חריגה או פגיעה בהגנה רוחבית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-109": {
     "source_group_id": "autointake-20261123-109",
     "description": "חשיפה מערכתית חריגה או פגיעה בהגנה רוחבית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-110": {
     "source_group_id": "autointake-20261123-110",
     "description": "חשיפה מערכתית חריגה או פגיעה בהגנה רוחבית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-111": {
     "source_group_id": "autointake-20261123-111",
     "description": "תלות חריגה בהבטחות הגנה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-112": {
     "source_group_id": "autointake-20261123-112",
     "description": "תלות מערכתית בעלת השלכה חריגה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-113": {
     "source_group_id": "autointake-20261123-113",
     "description": "קישור חד ערכי בין זהויות מוגנות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-114": {
     "source_group_id": "autointake-20261123-114",
     "description": "תלות מערכתית בזכויות תורמים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-115": {
     "source_group_id": "autointake-20261123-115",
     "description": "הפרת הגנה רוחבית על משתתפים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-116": {
     "source_group_id": "autointake-20261123-116",
     "description": "תלות משפטית חוצת מוסדות",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-117": {
     "source_group_id": "autointake-20261123-117",
     "description": "חיבור מזהה שמבטל הפרדה מגינה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-118": {
     "source_group_id": "autointake-20261123-118",
     "description": "תלות משפטית חריגה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-119": {
     "source_group_id": "autointake-20261123-119",
     "description": "חשיפת זהויות רוחבית של משתתפים מוגנים",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-120": {
     "source_group_id": "autointake-20261123-120",
     "description": "תלות משפטית רחבה עם השלכה חריגה",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "autointake-20261123-121": {
     "source_group_id": "autointake-20261123-121",
     "description": "תיאום הדרכה",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-122": {
     "source_group_id": "autointake-20261123-122",
     "description": "סידור תוכנית פנימי",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-123": {
     "source_group_id": "autointake-20261123-123",
     "description": "בקשה מנהלתית שגרתית",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-124": {
     "source_group_id": "autointake-20261123-124",
     "description": "סידור חומרי קריאה",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-125": {
     "source_group_id": "autointake-20261123-125",
     "description": "החלטה לוגיסטית מקומית",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-126": {
     "source_group_id": "autointake-20261123-126",
     "description": "תוכנית עבודה פנימית",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-127": {
     "source_group_id": "autointake-20261123-127",
     "description": "חפיפה פנימית להכנת כנס",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-128": {
     "source_group_id": "autointake-20261123-128",
     "description": "ממצא לא פומבי המוביל לשינוי מהותי בפרויקט",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-129": {
     "source_group_id": "autointake-20261123-129",
     "description": "ממצא לא פומבי המוביל לשינוי מהותי בפרויקט",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-130": {
     "source_group_id": "autointake-20261123-130",
     "description": "פגם חוזי משמעותי",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-131": {
     "source_group_id": "autointake-20261123-131",
     "description": "שינוי תקציבי מהותי",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-132": {
     "source_group_id": "autointake-20261123-132",
     "description": "ממצא זכויות שלא פורסם",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-133": {
     "source_group_id": "autointake-20261123-133",
     "description": "החלטה כספית מהותית",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-134": {
     "source_group_id": "autointake-20261123-134",
     "description": "ביטול התרחבות לא פומבי",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-135": {
     "source_group_id": "autointake-20261123-135",
     "description": "ממצא מימון מהותי",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-136": {
     "source_group_id": "autointake-20261123-136",
     "description": "סוגיית רישוי מהותית לפרויקט",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-137": {
     "source_group_id": "autointake-20261123-137",
     "description": "ביטול הליך רכש מהותי",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-138": {
     "source_group_id": "autointake-20261123-138",
     "description": "חשיפה מערכתית חריגה של זכויות או זהויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-139": {
     "source_group_id": "autointake-20261123-139",
     "description": "חשיפה מערכתית חריגה של זכויות או זהויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-140": {
     "source_group_id": "autointake-20261123-140",
     "description": "חשיפה מערכתית חריגה של זכויות או זהויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-141": {
     "source_group_id": "autointake-20261123-141",
     "description": "חשיפה מערכתית חריגה של זכויות או זהויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-142": {
     "source_group_id": "autointake-20261123-142",
     "description": "קישור זהויות מוגנות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-143": {
     "source_group_id": "autointake-20261123-143",
     "description": "תלות משפטית חוצת מוסדות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-144": {
     "source_group_id": "autointake-20261123-144",
     "description": "חשיפת זהויות רוחבית",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-145": {
     "source_group_id": "autointake-20261123-145",
     "description": "תלות מימון רוחבית חריגה",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-146": {
     "source_group_id": "autointake-20261123-146",
     "description": "סיכון רוחבי לזכויות משתתפים",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-147": {
     "source_group_id": "autointake-20261123-147",
     "description": "פגיעה חריגה בהגנת מרואיינים",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-148": {
     "source_group_id": "autointake-20261123-148",
     "description": "תלות רישוי מערכתית",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-149": {
     "source_group_id": "autointake-20261123-149",
     "description": "הפרת פרטיות חוצת מחקרים",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-150": {
     "source_group_id": "autointake-20261123-150",
     "description": "תלות חוזית מערכתית חריגה",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-151": {
     "source_group_id": "autointake-20261123-151",
     "description": "תלות מוסדית רחבה בזכויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
   },
   "autointake-20261123-152": {
     "source_group_id": "autointake-20261123-152",
     "description": "תיאום פנימי שגרתי בדיוני",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-153": {
     "source_group_id": "autointake-20261123-153",
     "description": "תכנון לימוד פנימי",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-154": {
     "source_group_id": "autointake-20261123-154",
     "description": "הנחיה עריכתית שגרתית",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-155": {
     "source_group_id": "autointake-20261123-155",
     "description": "תיאום עבודה חינוכי",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-156": {
     "source_group_id": "autointake-20261123-156",
     "description": "שינוי מנהלתי מקומי",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-157": {
     "source_group_id": "autointake-20261123-157",
     "description": "הכנת תערוכה פנימית",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-158": {
     "source_group_id": "autointake-20261123-158",
     "description": "תיאום שגרתי של סדנה",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-159": {
     "source_group_id": "autointake-20261123-159",
     "description": "החלטה לא פומבית בעלת השפעה מהותית",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-160": {
     "source_group_id": "autointake-20261123-160",
     "description": "החלטה לא פומבית בעלת השפעה מהותית",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-161": {
     "source_group_id": "autointake-20261123-161",
     "description": "החלטה תקציבית מהותית",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-162": {
     "source_group_id": "autointake-20261123-162",
     "description": "פגם רישוי המשנה תוכנית",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-163": {
     "source_group_id": "autointake-20261123-163",
     "description": "ממצא חוזי בעל השלכה",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-164": {
     "source_group_id": "autointake-20261123-164",
     "description": "שינוי מהותי בהתחייבות",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-165": {
     "source_group_id": "autointake-20261123-165",
     "description": "עצירת פרסום משמעותית",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-166": {
     "source_group_id": "autointake-20261123-166",
     "description": "סכסוך זכויות מהותי",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-167": {
     "source_group_id": "autointake-20261123-167",
     "description": "פגיעה מהותית במימון",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-168": {
     "source_group_id": "autointake-20261123-168",
     "description": "ממצא בקרה המשנה חוזה",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-169": {
     "source_group_id": "autointake-20261123-169",
     "description": "קישור או תלות רוחבית בהגנות וזכויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-170": {
     "source_group_id": "autointake-20261123-170",
     "description": "קישור או תלות רוחבית בהגנות וזכויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-171": {
     "source_group_id": "autointake-20261123-171",
     "description": "קישור או תלות רוחבית בהגנות וזכויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-172": {
     "source_group_id": "autointake-20261123-172",
     "description": "קישור או תלות רוחבית בהגנות וזכויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-173": {
     "source_group_id": "autointake-20261123-173",
     "description": "תלות רישוי רוחבית",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-174": {
     "source_group_id": "autointake-20261123-174",
     "description": "פגיעה חוצת מוסדות בפרטיות",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-175": {
     "source_group_id": "autointake-20261123-175",
     "description": "תלות מימון חריגה",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-176": {
     "source_group_id": "autointake-20261123-176",
     "description": "קישור מוגן חריג",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-177": {
     "source_group_id": "autointake-20261123-177",
     "description": "סיכון זכויות רוחבי",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-178": {
     "source_group_id": "autointake-20261123-178",
     "description": "סיכון זיהוי מערכתי",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-179": {
     "source_group_id": "autointake-20261123-179",
     "description": "תלות חוצת ארכיונים",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-180": {
     "source_group_id": "autointake-20261123-180",
     "description": "חשיפת זהויות בין מוסדות",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-181": {
     "source_group_id": "autointake-20261123-181",
     "description": "תלות משפטית מערכתית חריגה",
-    "fictional": true
+    "fictional": true,
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
   },
   "autointake-20261123-182": {
     "source_group_id": "autointake-20261123-182",
     "description": "שינוי שגרתי בתוכן הדרכה",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-183": {
     "source_group_id": "autointake-20261123-183",
     "description": "ניהול מסמכים מקומי",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-184": {
     "source_group_id": "autointake-20261123-184",
     "description": "הנחיה פדגוגית פנימית",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-185": {
     "source_group_id": "autointake-20261123-185",
     "description": "תכנון תפעולי שגרתי",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-186": {
     "source_group_id": "autointake-20261123-186",
     "description": "תיאום לוח זמנים פנימי",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-187": {
     "source_group_id": "autointake-20261123-187",
     "description": "הכנת פעילות ציבורית פנימית",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-188": {
     "source_group_id": "autointake-20261123-188",
     "description": "תכנון שיעור פנימי שגרתי",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-189": {
     "source_group_id": "autointake-20261123-189",
     "description": "ממצא מהותי שלא פורסם",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-190": {
     "source_group_id": "autointake-20261123-190",
     "description": "ממצא מהותי שלא פורסם",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-191": {
     "source_group_id": "autointake-20261123-191",
     "description": "ממצא חוזי מהותי",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-192": {
     "source_group_id": "autointake-20261123-192",
     "description": "החלטה מהותית בניהול מחקר",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-193": {
     "source_group_id": "autointake-20261123-193",
     "description": "פער תקציבי משנה פרויקט",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-194": {
     "source_group_id": "autointake-20261123-194",
     "description": "ממצא זכויות בעל השלכה",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-195": {
     "source_group_id": "autointake-20261123-195",
     "description": "פגם משפטי בהסכם",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-196": {
     "source_group_id": "autointake-20261123-196",
     "description": "החלטה תקציבית לא פומבית",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-197": {
     "source_group_id": "autointake-20261123-197",
     "description": "פגם זכויות משמעותי",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-198": {
     "source_group_id": "autointake-20261123-198",
     "description": "ממצא מסחרי מהותי",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-199": {
     "source_group_id": "autointake-20261123-199",
     "description": "החלטה עסקית לא פומבית",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-200": {
     "source_group_id": "autointake-20261123-200",
     "description": "פגיעה חריגה חוצת תוכניות בזכויות או בהגנה על זהויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-201": {
     "source_group_id": "autointake-20261123-201",
     "description": "פגיעה חריגה חוצת תוכניות בזכויות או בהגנה על זהויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-202": {
     "source_group_id": "autointake-20261123-202",
     "description": "פגיעה חריגה חוצת תוכניות בזכויות או בהגנה על זהויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-203": {
     "source_group_id": "autointake-20261123-203",
     "description": "פגיעה חריגה חוצת תוכניות בזכויות או בהגנה על זהויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-204": {
     "source_group_id": "autointake-20261123-204",
     "description": "פגיעה חריגה חוצת תוכניות בזכויות או בהגנה על זהויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-205": {
     "source_group_id": "autointake-20261123-205",
     "description": "פגיעה חריגה חוצת תוכניות בזכויות או בהגנה על זהויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-206": {
     "source_group_id": "autointake-20261123-206",
     "description": "קישור זיהוי רוחבי",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-207": {
     "source_group_id": "autointake-20261123-207",
     "description": "תלות משפטית חוצת מוסדות",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-208": {
     "source_group_id": "autointake-20261123-208",
     "description": "פגיעה רוחבית בזכויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-209": {
     "source_group_id": "autointake-20261123-209",
     "description": "קישור חריג בין זהויות מוגנות",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-210": {
     "source_group_id": "autointake-20261123-210",
     "description": "תלות חוזית מערכתית",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-211": {
     "source_group_id": "autointake-20261123-211",
     "description": "סיכון פרטיות רוחבי",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-212": {
     "source_group_id": "autointake-20261123-212",
     "description": "תלות מערכתית בזכויות שימוש",
-    "fictional": true
+    "fictional": true,
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
   },
   "autointake-20261123-213": {
     "source_group_id": "autointake-20261123-213",
     "description": "עדכון מנהלתי של ספקים",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-214": {
     "source_group_id": "autointake-20261123-214",
     "description": "תיאום בטיחות פנימי",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-215": {
     "source_group_id": "autointake-20261123-215",
     "description": "תכנון עבודה לוגיסטי שגרתי",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-216": {
     "source_group_id": "autointake-20261123-216",
     "description": "היערכות מנהלתית לאירוע",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-217": {
     "source_group_id": "autointake-20261123-217",
     "description": "החלטה לא פומבית בעלת השפעה מהותית על רכש",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-218": {
     "source_group_id": "autointake-20261123-218",
     "description": "עצירת רכש משמעותית",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-219": {
     "source_group_id": "autointake-20261123-219",
     "description": "פגם משמעותי בהתקשרות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-220": {
     "source_group_id": "autointake-20261123-220",
     "description": "מידע מסחרי פנימי בעל השפעה",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-221": {
     "source_group_id": "autointake-20261123-221",
     "description": "חריגה כספית מהותית",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-222": {
     "source_group_id": "autointake-20261123-222",
     "description": "פגם ביטוחי בעל השלכה מהותית",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-223": {
     "source_group_id": "autointake-20261123-223",
     "description": "פגיעה מערכתית בזכויות או בהגנה על זהויות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-224": {
     "source_group_id": "autointake-20261123-224",
     "description": "תלות חוזית בעלת השלכה מערכתית",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   },
   "autointake-20261123-225": {
     "source_group_id": "autointake-20261123-225",
     "description": "קישור רוחבי של זהויות מוגנות",
-    "fictional": true
+    "fictional": true,
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
   }
 }
