@@ -6,7 +6,9 @@ Any newly sampled or changed fingerprint fails closed.
 import argparse
 import json
 from pathlib import Path
+import sys
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from sentinel_dataset.core import fingerprint, read_jsonl
 
 LABELS = {"בלמס", "שמור", "סודי", "סודי ביותר"}
