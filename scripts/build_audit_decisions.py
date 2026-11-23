@@ -103,7 +103,7 @@ def main():
         "previous_attempts": [],
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2)+"\\n", encoding="utf-8")
+    args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
     print(json.dumps({"reviewed_labels": len(judgments), "domain_reviews": len(domains),
                       "high_risk_adjudicated": len(manual_alerts), "disagreements": 0}, ensure_ascii=False))
 
