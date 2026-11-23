@@ -1,0 +1,155 @@
+{
+  "review_type": "single-model_text_only_blind_first_pass",
+  "independent_model": false,
+  "sample_size": 24,
+  "total_candidates": 500,
+  "agreements": 24,
+  "disagreements": 0,
+  "scope": "label and content plausibility sampled, not E5; not official independent blinded review",
+  "reviews": [
+    {
+      "row_position": 11,
+      "predicted_label": "בלמס",
+      "explanation": "פרסום שאלות ותשובות פתוח לקהל.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 65,
+      "predicted_label": "בלמס",
+      "explanation": "חוברת פומבית ותרגיל לימודי ללא מידע פנימי.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 74,
+      "predicted_label": "בלמס",
+      "explanation": "תרגיל לימודי פתוח בדיוני על מכתבים ואישורים.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 94,
+      "predicted_label": "בלמס",
+      "explanation": "מקרא מושגים פתוח ללא נתוני ארגון מוגנים.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 120,
+      "predicted_label": "בלמס",
+      "explanation": "ראיון וסדנה ציבוריים ללא חשיפת מידע פנימי.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 135,
+      "predicted_label": "שמור",
+      "explanation": "תיאום מנהלתי מקומי של הודעת סדנה.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 142,
+      "predicted_label": "סודי",
+      "explanation": "פסילת הצעה מהותית בשל ניגוד עניינים לפני פרסום.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 143,
+      "predicted_label": "סודי ביותר",
+      "explanation": "ממצא מאפשר חשיפה ישירה של קבוצת מתלוננות מוגנת.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 271,
+      "predicted_label": "בלמס",
+      "explanation": "מכתב לקוראים העוסק ברשימה שפורסמה ובהפניות פומביות.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 364,
+      "predicted_label": "שמור",
+      "explanation": "החלטות פנימיות של צוות הוראה על עריכה וחלוקת עבודה.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 379,
+      "predicted_label": "סודי",
+      "explanation": "החלטה שלא פורסמה להקפיא התקשרות מהותית בשל זכויות.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 395,
+      "predicted_label": "סודי ביותר",
+      "explanation": "תלות משותפת בין מוסדות רבים העלולה לפגוע בזכויות קבוצות מוגנות.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 402,
+      "predicted_label": "שמור",
+      "explanation": "תיאום משימות צוות לקראת פעילות ציבורית.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 412,
+      "predicted_label": "סודי",
+      "explanation": "אי תקינות מכרז מהותית והקפאת חוזה טרם הודעה.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 426,
+      "predicted_label": "סודי ביותר",
+      "explanation": "תלות רוחבית לא גלויה בהגנות על זכויות משתתפים רבים.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 433,
+      "predicted_label": "שמור",
+      "explanation": "עדכון פנימי שגרתי של תוכנית סדנה.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 443,
+      "predicted_label": "סודי",
+      "explanation": "ביטול התקשרות והחלפת תקציב עקב ממצא לא פומבי.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 456,
+      "predicted_label": "סודי ביותר",
+      "explanation": "רישיון בסיס משותף שפקיעתו פוגעת בזכויות מספר מוסדות.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 463,
+      "predicted_label": "שמור",
+      "explanation": "חלוקת משימות ועריכה פנימית של תוכנית לימוד.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 474,
+      "predicted_label": "סודי",
+      "explanation": "עצירת פרויקט מהותי בגלל מחלוקת זכויות שלא פורסמה.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 487,
+      "predicted_label": "סודי ביותר",
+      "explanation": "תנאי רישוי חוצה מוסדות עם פגיעה רחבה בזכויות משפחות.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 491,
+      "predicted_label": "שמור",
+      "explanation": "החלטות תפעול שגרתיות להכנת פעילות ציבורית.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 497,
+      "predicted_label": "סודי",
+      "explanation": "פגם חוזי מהותי המשנה החלטת פרויקט יחיד.",
+      "agrees_with_candidate": true
+    },
+    {
+      "row_position": 500,
+      "predicted_label": "סודי ביותר",
+      "explanation": "רשומת ניהול חושפת קשר בין זהויות מוגנות במספר קבוצות.",
+      "agrees_with_candidate": true
+    }
+  ]
+}
