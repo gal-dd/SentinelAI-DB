@@ -6,6 +6,7 @@ on:
     paths:
       - drafts/chat/batch-0008/batch-0008-candidates.jsonl
       - scripts/batch_0008_e5_audit.py
+      - scripts/validate_batch_0008.py
       - config/scenarios.json
       - .github/workflows/batch-0008-e5.yml
   workflow_dispatch:
@@ -29,6 +30,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version-file: .python-version
+      - name: Validate exact schema, domain and label quotas
+        run: python -B scripts/validate_batch_0008.py --candidates drafts/chat/batch-0008/batch-0008-candidates.jsonl --report .poc-local/structural-qa.json
       - name: Install open semantic model dependencies
         run: python -m pip install -r requirements-semantic.txt
       - name: Download verified pinned ONNX model
@@ -84,6 +87,7 @@ jobs:
           name: batch-0008-e5-evidence
           path: |
             .poc-local/batch-0008-e5.json
+            .poc-local/structural-qa.json
             .poc-local/batch-0008-official-packet.json
             .poc-local/production-verify.log
           if-no-files-found: ignore
