@@ -26,6 +26,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
           persist-credentials: true
       - uses: actions/setup-python@v5
         with:
@@ -54,6 +55,14 @@ jobs:
         run: |
           cd .poc-local/production
           python -B -m sentinel_dataset verify > ../production-verify.log
+          python - <<'PY'
+          import json
+          p=json.load(open("progress.json",encoding="utf-8"))
+          actual=(p["production_records"],p["last_checkpoint"],p["next_id"])
+          if actual!=(7100,7,7101):
+              raise SystemExit(f"Unexpected live production baseline: {actual}")
+          print("LIVE_BASELINE_0008",actual)
+          PY
       - name: Run E5 similarity including all signed and external records
         run: |
           python -B scripts/batch_0008_e5_audit.py \
@@ -64,10 +73,30 @@ jobs:
             --output .poc-local/batch-0008-e5.json
       - name: Run official production prepare and print blind sample keys
         run: |
-          python -B -m sentinel_dataset prepare \
-            drafts/chat/batch-0008/batch-0008-candidates.jsonl \
-            --model-dir .poc-local/e5 \
-            --packet .poc-local/batch-0008-official-packet.json
+          python - <<'PY'
+          import json,pathlib
+          root=pathlib.Path(".poc-local/production")
+          dest=root/"config/scenarios.json"
+          live=json.loads(dest.read_text(encoding="utf-8"))
+          source=json.loads(pathlib.Path("config/scenarios.json").read_text(encoding="utf-8"))
+          rows=[json.loads(line) for line in pathlib.Path("drafts/chat/batch-0008/batch-0008-candidates.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
+          for row in rows:
+              key=row["scenario_id"]
+              info=source.get(key)
+              if not info or not info.get("domain"):
+                  raise SystemExit(f"Missing scenario {key}")
+              if key in live and live[key]!=info:
+                  raise SystemExit(f"Live scenario conflict: {key}")
+              live[key]=info
+          dest.write_text(json.dumps(live,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          PY
+          (
+            cd .poc-local/production
+            python -B -m sentinel_dataset prepare \
+              "$GITHUB_WORKSPACE/drafts/chat/batch-0008/batch-0008-candidates.jsonl" \
+              --model-dir "$GITHUB_WORKSPACE/.poc-local/e5" \
+              --packet "$GITHUB_WORKSPACE/.poc-local/batch-0008-official-packet.json"
+          )
           python - <<'PY'
           import json
           p=json.load(open(".poc-local/batch-0008-official-packet.json", encoding="utf-8"))
