@@ -1,0 +1,172 @@
+{
+  "review_type": "same_chat_blind_text_only_label_review",
+  "separate_model": false,
+  "sample_size": 26,
+  "agreements": 25,
+  "conflicts": [
+    {
+      "position": 231,
+      "proposed": "סודי",
+      "judged": "reject",
+      "reason": "השלילה עשויה להיות ציבורית או פנימית; אין די בטקסט כדי לקבוע רגישות."
+    }
+  ],
+  "results": [
+    {
+      "position": 1,
+      "predicted_label": "בלמס",
+      "reason": "קטלוג פומבי של תצלומים.",
+      "agrees": true
+    },
+    {
+      "position": 2,
+      "predicted_label": "בלמס",
+      "reason": "פורסם מילון פומבי.",
+      "agrees": true
+    },
+    {
+      "position": 18,
+      "predicted_label": "בלמס",
+      "reason": "הסבר באתר פתוח על מונחים ומועדים.",
+      "agrees": true
+    },
+    {
+      "position": 24,
+      "predicted_label": "בלמס",
+      "reason": "תרגול פתוח ומדומה של הליך שימוע.",
+      "agrees": true
+    },
+    {
+      "position": 35,
+      "predicted_label": "בלמס",
+      "reason": "חידון פומבי של מוזיאון בדיוני.",
+      "agrees": true
+    },
+    {
+      "position": 52,
+      "predicted_label": "בלמס",
+      "reason": "דף תיקונים פומבי לסדרת גלויות.",
+      "agrees": true
+    },
+    {
+      "position": 59,
+      "predicted_label": "בלמס",
+      "reason": "תערוכה פומבית על שינויים במועד.",
+      "agrees": true
+    },
+    {
+      "position": 69,
+      "predicted_label": "בלמס",
+      "reason": "חומר פתוח של מועדון קריאה.",
+      "agrees": true
+    },
+    {
+      "position": 86,
+      "predicted_label": "בלמס",
+      "reason": "דיון פומבי על הבחנה בין עובדה להשערה.",
+      "agrees": true
+    },
+    {
+      "position": 103,
+      "predicted_label": "שמור",
+      "reason": "בקשה פנימית שגרתית לעריכת אינדקס.",
+      "agrees": true
+    },
+    {
+      "position": 137,
+      "predicted_label": "סודי",
+      "reason": "מחיר סף לא פומבי ומהותי במשא ומתן.",
+      "agrees": true
+    },
+    {
+      "position": 150,
+      "predicted_label": "שמור",
+      "reason": "בקשה פנימית לעדכון סדר נספחים.",
+      "agrees": true
+    },
+    {
+      "position": 154,
+      "predicted_label": "שמור",
+      "reason": "תיאום פנימי של מועד וסדר ישיבה.",
+      "agrees": true
+    },
+    {
+      "position": 171,
+      "predicted_label": "סודי ביותר",
+      "reason": "קישור ישיר בין רשומת שמות לבין רשימת עדים אנונימיים מוגנים.",
+      "agrees": true
+    },
+    {
+      "position": 206,
+      "predicted_label": "בלמס",
+      "reason": "סדנת מדע בדיונית על קריאת המחשה כללית.",
+      "agrees": true
+    },
+    {
+      "position": 212,
+      "predicted_label": "שמור",
+      "reason": "הערת עבודה פנימית להגיה.",
+      "agrees": true
+    },
+    {
+      "position": 231,
+      "predicted_label": "reject",
+      "reason": "השלילה עשויה להיות ציבורית או פנימית; אין די בטקסט כדי לקבוע רגישות.",
+      "agrees": false
+    },
+    {
+      "position": 251,
+      "predicted_label": "סודי ביותר",
+      "reason": "מרשם חושף את כלל המודיעים, שהם קבוצה מוגנת.",
+      "agrees": true
+    },
+    {
+      "position": 335,
+      "predicted_label": "סודי",
+      "reason": "דחיית פרויקט מרכזי עקב ממצא זכויות שאינו פומבי.",
+      "agrees": true
+    },
+    {
+      "position": 361,
+      "predicted_label": "שמור",
+      "reason": "תיקון פנימי שגרתי של שמות קבצים.",
+      "agrees": true
+    },
+    {
+      "position": 363,
+      "predicted_label": "שמור",
+      "reason": "חלוקת משימות פנימית לקראת תערוכה ציבורית.",
+      "agrees": true
+    },
+    {
+      "position": 414,
+      "predicted_label": "סודי ביותר",
+      "reason": "ביטול רישוי רוחבי עלול להפקיע זכויות מוגנות של כמה משפחות.",
+      "agrees": true
+    },
+    {
+      "position": 439,
+      "predicted_label": "סודי",
+      "reason": "עיכוב מהותי של פרויקט בעקבות פער תקציבי לא פומבי.",
+      "agrees": true
+    },
+    {
+      "position": 472,
+      "predicted_label": "סודי",
+      "reason": "עצירת הפצה וחוזה בשל מגבלת זכויות משמעותית לא פומבית.",
+      "agrees": true
+    },
+    {
+      "position": 481,
+      "predicted_label": "סודי ביותר",
+      "reason": "קישור בין שמות בדויים חושף קבוצות מרואיינים מוגנות.",
+      "agrees": true
+    },
+    {
+      "position": 486,
+      "predicted_label": "סודי ביותר",
+      "reason": "קישור בין מאגרי עדויות מפר הבטחות הגנה לכלל המשתתפים.",
+      "agrees": true
+    }
+  ]
+}
