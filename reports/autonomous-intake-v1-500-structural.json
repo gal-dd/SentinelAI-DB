@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-23",
+  "branch": "experiment/autonomous-intake-v1",
+  "production_branch": "poc/defense-focused-v2",
+  "candidate_count": 500,
+  "old_selected": 275,
+  "new_generated": 225,
+  "production_records_unchanged": 6100,
+  "next_id_unassigned": 6101,
+  "source_files": [
+    "drafts/autonomous-intake-v1/structural-selection-0354.jsonl",
+    "drafts/autonomous-intake-v1/candidates-0003-missile.jsonl",
+    "drafts/autonomous-intake-v1/candidates-0004-uncrewed.jsonl",
+    "drafts/autonomous-intake-v1/candidates-0005-radar.jsonl",
+    "drafts/autonomous-intake-v1/candidates-0006-cyber.jsonl",
+    "drafts/autonomous-intake-v1/candidates-0007-logistics.jsonl"
+  ],
+  "checks": {
+    "jsonl_parse": "passed",
+    "row_structure": "passed_via_current_turn_equivalent_checks",
+    "length_buckets": "passed",
+    "paragraph_and_long_structure": "passed",
+    "normalized_exact_duplicates_within_batch": 0,
+    "domain_exact_targets": "passed",
+    "label_length_exact_targets": "passed",
+    "domain_label_coverage": 24,
+    "independent_blind_review": "not_performed",
+    "semantic_E5": "not_performed",
+    "external_production_duplicate_scan_for_new_rows": "not_performed",
+    "checkpoint": "not_run"
+  },
+  "publication_approved": false
+}

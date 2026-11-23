@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "status": "rewritten_pending_e5_rerun",
+  "candidate_position": 77,
+  "source_scenario": "missile-test-records",
+  "old_text": "פורסמה סקירת תוכנית טילים",
+  "new_text": "מוזיאון פרסם כרזות על ניסויי טילים",
+  "reason": "One E5 cross-label high-risk match against production entry 'עדכון יומן פגישות ניסויי הטיל' scored 0.94083. Rewrote to an unambiguously public museum content example. Requires fresh E5 verification.",
+  "production_unchanged": 6100
+}

@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-23",
+  "repository": "gal-dd/SentinelAI-DB",
+  "experimental_branch": "experiment/autonomous-intake-v1",
+  "production_branch": "poc/defense-focused-v2",
+  "result": "500_structurally_valid_candidates_NOT_PRODUCTION_READY",
+  "source_candidate_count": 502,
+  "selected_existing_candidates": 275,
+  "new_ai_authored_candidates": 225,
+  "final_batch_path": "drafts/autonomous-intake-v1/batch-0006-candidates.jsonl",
+  "production_records_before_and_after": 6100,
+  "next_id_not_allocated": 6101,
+  "structural_validation": {
+    "final_count": 500,
+    "domain_counts": {
+      "missile_systems": 300,
+      "uncrewed_aircraft": 50,
+      "radar_sensors_space": 50,
+      "cyber_communications_c2": 50,
+      "defense_logistics": 25,
+      "general_negative_controls": 25
+    },
+    "each_label_count": 125,
+    "domain_label_cells": 24,
+    "candidate_length_mismatches": 0,
+    "normalized_exact_duplicates_within_batch": 0,
+    "normalized_exact_duplicates_vs_all_6100_production": 0,
+    "comparison_production_count": 6100,
+    "noncompliant_domain_or_length_quotas": 0
+  },
+  "editorial_work": {
+    "old_BLMS_phrases_replaced": 13,
+    "short_label_evidence_clarified": 5,
+    "five_word_sequences_occurring_in_three_or_more_final_records": 0,
+    "logs": [
+      "reports/autonomous-intake-v1-rewritten-public-records.json",
+      "reports/autonomous-intake-v1-short-clarifications.json"
+    ]
+  },
+  "sample_review": {
+    "method": "single ChatGPT model; text-only blind first pass; NOT a truly separate independent model",
+    "examples_examined": 50,
+    "initial_agreements": 49,
+    "initial_rejections_or_ambiguities": 1,
+    "ambiguous_example_revised": true,
+    "no_independent_rerun_of_random_sample": true,
+    "sample_reports": [
+      "reports/autonomous-intake-v1-ai-label-sample-24.json",
+      "reports/autonomous-intake-v1-ai-label-sample-extra-26.json"
+    ]
+  },
+  "exploratory_similarity": {
+    "method": "word and bigram TF-IDF cosine; not semantic E5",
+    "candidate_nearest_neighbor_threshold_0_58_count": 0,
+    "does_not_validate_semantic_distinctness": true
+  },
+  "qualitative_risks": [
+    "Many new examples share museum/archive, contracting, privacy and licensing premises. Topic and scenario diversity remain unverified.",
+    "One-model sample review is not independent review of producer outputs.",
+    "Precise topic/domain relevance must be judged from content, not merely metadata or occurrence of 'missile'.",
+    "Existing 3,600 externally imported production rows had no independent content QA, which does not imply these candidates are reviewed."
+  ],
+  "outstanding_gates": [
+    "Run the repository's exact validate_rows/validate_document_form and `python -m sentinel_dataset prepare` in a Python environment with the E5 model.",
+    "Inspect and independently adjudicate the actual E5 high-risk pairs, without rubber-stamping.",
+    "Perform genuine separate-model blind review for classification, domain, and relevance; reject and replace any uncertain or low-quality row.",
+    "Run checkpoint from a clean, up-to-date production branch, verify output and only then push."
+  ],
+  "publication_approved": false
+}

@@ -1,0 +1,53 @@
+name: Autonomous intake structural QA
+
+on:
+  pull_request:
+    branches: [poc/defense-focused-v2]
+    paths:
+      - scripts/plan_intake.py
+      - tests/test_plan_intake.py
+      - drafts/autonomous-intake-v1/**
+      - config/scenarios.json
+      - .github/workflows/autonomous-intake-validate.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-intake:
+    name: Validate 500-candidate assembly
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Run quota selection unit tests
+        run: python -B -m unittest discover -s tests -p test_plan_intake.py -v
+      - name: Validate and reconstruct full candidate batch
+        run: |
+          python -B scripts/plan_intake.py \
+            drafts/autonomous-intake-v1/batch-0006-candidates.jsonl \
+            --out /tmp/selection.jsonl \
+            --report /tmp/intake-report.json
+      - name: Confirm exact checkpoint size and quota cells
+        run: |
+          python - <<'PY'
+          import json
+          with open("/tmp/intake-report.json", encoding="utf-8") as handle:
+              result = json.load(handle)
+          assert result["selected_count"] == 500, result
+          assert result["target_count"] == 500, result
+          assert result["missing_domains"] == {}, result
+          assert result["missing_label_lengths"] == {}, result
+          assert result["missing_domain_labels"] == [], result
+          assert result["status"] == "structural_only_not_reviewed"
+          with open("/tmp/selection.jsonl", encoding="utf-8") as handle:
+              rows = [json.loads(line) for line in handle if line.strip()]
+          assert len(rows) == 500
+          print("PASS: 500 valid candidates selected (not publication approval)")
+          PY

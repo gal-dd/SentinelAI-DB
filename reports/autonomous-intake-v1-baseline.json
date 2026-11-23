@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-11-23",
+  "production_branch": "poc/defense-focused-v2",
+  "production_records": 6100,
+  "next_id": 6101,
+  "sources": [
+    "drafts/work/intake-2026-11-23/candidates.jsonl",
+    "drafts/work/intake-supplement-2026-11-23/candidates.jsonl"
+  ],
+  "source_candidates": 502,
+  "structurally_selectable": 275,
+  "structurally_unselected": 227,
+  "structural_gap": 225,
+  "missing_domain_counts": {
+    "missile_systems": 63,
+    "uncrewed_aircraft": 46,
+    "radar_sensors_space": 45,
+    "cyber_communications_c2": 46,
+    "defense_logistics": 25,
+    "general_negative_controls": 0
+  },
+  "missing_label_lengths": {
+    "שמור/short": 2,
+    "שמור/sentence": 15,
+    "שמור/paragraph": 27,
+    "שמור/long": 12,
+    "סודי/short": 1,
+    "סודי/sentence": 34,
+    "סודי/paragraph": 31,
+    "סודי/long": 15,
+    "סודי ביותר/short": 2,
+    "סודי ביותר/sentence": 40,
+    "סודי ביותר/paragraph": 32,
+    "סודי ביותר/long": 14
+  },
+  "selected_counts_by_label": {
+    "בלמס": 125,
+    "שמור": 69,
+    "סודי": 44,
+    "סודי ביותר": 37
+  },
+  "note": "Maximum-flow quota feasibility calculation on current metadata. Does not imply content approval or independent review. A future final selection must also satisfy coverage of all 24 domain-label cells."
+}

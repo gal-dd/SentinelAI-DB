@@ -1,0 +1,34 @@
+{
+  "source_candidates": 581,
+  "structural_candidates": 354,
+  "new_created_total": 79,
+  "missing_domains": {
+    "missile_systems": 41,
+    "uncrewed_aircraft": 31,
+    "radar_sensors_space": 30,
+    "cyber_communications_c2": 31,
+    "defense_logistics": 13,
+    "general_negative_controls": 0
+  },
+  "missing_label_lengths": {
+    "שמור/short": 2,
+    "שמור/paragraph": 22,
+    "שמור/long": 11,
+    "סודי/short": 1,
+    "סודי/sentence": 9,
+    "סודי/paragraph": 27,
+    "סודי/long": 15,
+    "סודי ביותר/short": 1,
+    "סודי ביותר/sentence": 20,
+    "סודי ביותר/paragraph": 29,
+    "סודי ביותר/long": 9
+  },
+  "domain_label_coverage": 24,
+  "invalid_count": 0,
+  "production_records_unchanged": 6100,
+  "quality_status": "not_blind_reviewed",
+  "source_paths": [
+    "drafts/autonomous-intake-v1/structural-selection-0304.jsonl",
+    "drafts/autonomous-intake-v1/candidates-0002.jsonl"
+  ]
+}
