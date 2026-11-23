@@ -4159,5 +4159,70 @@
     "source_group_id": "autointake-20261123-212",
     "description": "תלות מערכתית בזכויות שימוש",
     "fictional": true
+  },
+  "autointake-20261123-213": {
+    "source_group_id": "autointake-20261123-213",
+    "description": "עדכון מנהלתי של ספקים",
+    "fictional": true
+  },
+  "autointake-20261123-214": {
+    "source_group_id": "autointake-20261123-214",
+    "description": "תיאום בטיחות פנימי",
+    "fictional": true
+  },
+  "autointake-20261123-215": {
+    "source_group_id": "autointake-20261123-215",
+    "description": "תכנון עבודה לוגיסטי שגרתי",
+    "fictional": true
+  },
+  "autointake-20261123-216": {
+    "source_group_id": "autointake-20261123-216",
+    "description": "היערכות מנהלתית לאירוע",
+    "fictional": true
+  },
+  "autointake-20261123-217": {
+    "source_group_id": "autointake-20261123-217",
+    "description": "החלטה לא פומבית בעלת השפעה מהותית על רכש",
+    "fictional": true
+  },
+  "autointake-20261123-218": {
+    "source_group_id": "autointake-20261123-218",
+    "description": "עצירת רכש משמעותית",
+    "fictional": true
+  },
+  "autointake-20261123-219": {
+    "source_group_id": "autointake-20261123-219",
+    "description": "פגם משמעותי בהתקשרות",
+    "fictional": true
+  },
+  "autointake-20261123-220": {
+    "source_group_id": "autointake-20261123-220",
+    "description": "מידע מסחרי פנימי בעל השפעה",
+    "fictional": true
+  },
+  "autointake-20261123-221": {
+    "source_group_id": "autointake-20261123-221",
+    "description": "חריגה כספית מהותית",
+    "fictional": true
+  },
+  "autointake-20261123-222": {
+    "source_group_id": "autointake-20261123-222",
+    "description": "פגם ביטוחי בעל השלכה מהותית",
+    "fictional": true
+  },
+  "autointake-20261123-223": {
+    "source_group_id": "autointake-20261123-223",
+    "description": "פגיעה מערכתית בזכויות או בהגנה על זהויות",
+    "fictional": true
+  },
+  "autointake-20261123-224": {
+    "source_group_id": "autointake-20261123-224",
+    "description": "תלות חוזית בעלת השלכה מערכתית",
+    "fictional": true
+  },
+  "autointake-20261123-225": {
+    "source_group_id": "autointake-20261123-225",
+    "description": "קישור רוחבי של זהויות מוגנות",
+    "fictional": true
   }
 }
