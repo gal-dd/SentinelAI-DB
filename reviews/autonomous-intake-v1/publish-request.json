@@ -20,5 +20,7 @@
     "zero_unresolved_high_risk_E5",
     "staged_checkpoint_verify",
     "push_and_remote_confirm"
-  ]
+  ],
+  "retry": 2,
+  "retry_note": "Fix required scenario domain metadata (401 entries); no candidate texts or labels changed."
 }
