@@ -2582,7 +2582,8 @@
     "source_group_id": "intake-20261123-missile-002",
     "source_id": null,
     "description": "שאלת לימוד על כתיבה היסטורית",
-    "fictional": true
+    "fictional": true,
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
   },
   "intake-20261123-missile-003": {
     "source_group_id": "intake-20261123-missile-003",
@@ -4625,5 +4626,3877 @@
     "description": "קישור רוחבי של זהויות מוגנות",
     "fictional": true,
     "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
+  },
+  "batch-0007-interceptor-prototype-withdrawal": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "נחשפת החלטה פנימית לגנוז אב־טיפוס.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-interceptor-prototype-withdrawal",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interceptor-witness-disclosure": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "זוהו כלל עדי המיירטים שהוגנו.",
+    "styles": "alert",
+    "source_group_id": "batch-0007-interceptor-witness-disclosure",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-rhetoric": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "השוואה לימודית בין שפה עיתונאית לסיווג טילים.",
+    "styles": "classroom",
+    "source_group_id": "batch-0007-missile-rhetoric",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interceptor-meaning": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר פומבי כללי על הבחנה בסוגי מערכות.",
+    "styles": "podcast",
+    "source_group_id": "batch-0007-interceptor-meaning",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-history-periodization": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ויכוח גלוי על חלוקת תולדות התחום לתקופות.",
+    "styles": "forum",
+    "source_group_id": "batch-0007-missile-history-periodization",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interception-drawing-interpretation": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תרגיל פתוח על ההבדל בין איור להוכחת תוצאה.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-interception-drawing-interpretation",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-program-announcement-stages": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "טור גלוי על שלבים שונים בהכרזה על מיזם מיירטים.",
+    "styles": "column",
+    "source_group_id": "batch-0007-missile-program-announcement-stages",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-historical-terms": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "טקסט לימודי העוסק בהבחנה בין מונחים בתקופות שונות.",
+    "styles": "column",
+    "source_group_id": "batch-0007-historical-terms",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-certification-roles": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "חלוקת עבודה שגרתית בצוות.",
+    "styles": "chat",
+    "source_group_id": "batch-0007-missile-certification-roles",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interceptor-onboarding-index": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסדרת משימות חפיפה קטנות לצוות.",
+    "styles": "handoff",
+    "source_group_id": "batch-0007-interceptor-onboarding-index",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interceptor-roundtable-roles": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תיאום ישיבת עמיתים ומשימות מקומיות.",
+    "styles": "thread",
+    "source_group_id": "batch-0007-interceptor-roundtable-roles",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interceptor-verification-contract": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "החלטה על דחיית אבן דרך בפרויקט.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-interceptor-verification-contract",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interceptor-insurance-funding": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ביטול התחייבות כספית ליבתית בפרויקט יחיד.",
+    "styles": "memo",
+    "source_group_id": "batch-0007-interceptor-insurance-funding",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-course-budget-suspension": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הקפאת מסלול ההכשרה במיזם בעקבות ממצא מהותי שטרם פורסם.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-missile-course-budget-suspension",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interceptor-evidence-reclassification": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ממצא פנימי שהוביל לביטול החלטת קבלה בפרויקט.",
+    "styles": "memo",
+    "source_group_id": "batch-0007-interceptor-evidence-reclassification",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-program-remedy": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "החלטת ביטול שלב מהותי בעקבות כשל בבקרת ראיות בפרויקט אחד.",
+    "styles": "report",
+    "source_group_id": "batch-0007-missile-program-remedy",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interceptors-protected-panels": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "טבלת שיוך חושפת את כל מוסרי העדות המוגנים בכמה מיזמי יירוט.",
+    "styles": "alert",
+    "source_group_id": "batch-0007-interceptors-protected-panels",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-cross-program-certification-loss": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "כל שלוש תוכניות המיירטים איבדו את מסלול ההסמכה היחיד שלהן.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-missile-cross-program-certification-loss",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-compensation-collective-loss": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "השבתה רוחבית של בירור הפיצויים בכל תוכניות ההסמכה.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-missile-compensation-collective-loss",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-drone-and-weather-note": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ידע פתוח על תיעוד מזג אוויר בתוצר צילום אזרחי.",
+    "styles": "help",
+    "source_group_id": "batch-0007-drone-and-weather-note",
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
+  },
+  "batch-0007-drone-orthophoto-file-fix": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תיאום מקומי לסידור שכבות תצלומי רחפן.",
+    "styles": "chat",
+    "source_group_id": "batch-0007-drone-orthophoto-file-fix",
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
+  },
+  "batch-0007-drone-ecology-collection-discard": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "מחיקת תוצאות מחקר פנימית שמשנה מסלול פרויקט.",
+    "styles": "report",
+    "source_group_id": "batch-0007-drone-ecology-collection-discard",
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
+  },
+  "batch-0007-drone-rescue-survivor-identity": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "נחשפה זהות מאגר שלם של נפגעים שהובטחה להם אנונימיות.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-drone-rescue-survivor-identity",
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
+  },
+  "batch-0007-satellite-borders-reading": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר לימודי פומבי על מקור שכבות מפה.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-satellite-borders-reading",
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
+  },
+  "batch-0007-satellite-forest-baseline-bias": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תגלית פנימית שפסלה תוצר מחקר לווייני ומשנה תוצר משמעותי.",
+    "styles": "report",
+    "source_group_id": "batch-0007-satellite-forest-baseline-bias",
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
+  },
+  "batch-0007-satellites-forestry-register-loss": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "איבוד חריג ובלתי הפיך של בסיס ביקורת רוחבי.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-satellites-forestry-register-loss",
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
+  },
+  "batch-0007-message-acknowledgment": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הבחנה מושגית בלבד על אישור מסירה.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-message-acknowledgment",
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
+  },
+  "batch-0007-communications-demo-label": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "טיפול שגרתי בתווית של תצוגת דמה.",
+    "styles": "ticket",
+    "source_group_id": "batch-0007-communications-demo-label",
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
+  },
+  "batch-0007-communications-contract-suspension": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הנהלה עצרה פרויקט תקשורת עקב פער מהותי שנקבע בבדיקה פנימית.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-communications-contract-suspension",
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
+  },
+  "batch-0007-support-messaging-anonymous-origin": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "חשיפה רוחבית של זהויות מוגנות בהודעות שירות אזרחיות.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-support-messaging-anonymous-origin",
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
+  },
+  "batch-0007-procurement-life-cycle-model": {
+    "primary_domain": "defense_logistics",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר פומבי על עלות מחזור חיים ברכש ציוד מגן.",
+    "styles": "faq",
+    "source_group_id": "batch-0007-procurement-life-cycle-model",
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
+  },
+  "batch-0007-protective-equipment-paperwork": {
+    "primary_domain": "defense_logistics",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "טיפול שגרתי בשדות של טופס החזרה.",
+    "styles": "handoff",
+    "source_group_id": "batch-0007-protective-equipment-paperwork",
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
+  },
+  "batch-0007-protective-gear-eligibility": {
+    "primary_domain": "defense_logistics",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ביטול מרכזי של תוצאות רכש שטרם פורסם.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-protective-gear-eligibility",
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
+  },
+  "batch-0007-defense-gear-recall-proof": {
+    "primary_domain": "defense_logistics",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "אובדן רוחבי ובלתי הפיך של יכולת לבצע קריאת החזרה.",
+    "styles": "report",
+    "source_group_id": "batch-0007-defense-gear-recall-proof",
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
+  },
+  "batch-0007-library-book-returns": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הודעה אזרחית פומבית ושגרתית.",
+    "styles": "notice",
+    "source_group_id": "batch-0007-library-book-returns",
+    "domain": "מידע כללי לדוגמאות נגדיות"
+  },
+  "batch-0007-community-pottery-labels": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "חלוקת תפקידים פנימית שגרתית בחוג קהילתי.",
+    "styles": "chat",
+    "source_group_id": "batch-0007-community-pottery-labels",
+    "domain": "מידע כללי לדוגמאות נגדיות"
+  },
+  "batch-0007-municipal-theatre-audit": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ממצא פנימי עם השלכה מהותית על פעילות אזרחית.",
+    "styles": "memo",
+    "source_group_id": "batch-0007-municipal-theatre-audit",
+    "domain": "מידע כללי לדוגמאות נגדיות"
+  },
+  "batch-0007-foster-placement-publication": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "קישור רוחבי של כל המשפחות שמוגנות בהליך אזרחי.",
+    "styles": "report",
+    "source_group_id": "batch-0007-foster-placement-publication",
+    "domain": "מידע כללי לדוגמאות נגדיות"
+  },
+  "batch-0007-interceptor-taxonomy": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "כותרת שיעור מושגי.",
+    "styles": "caption",
+    "source_group_id": "batch-0007-interceptor-taxonomy",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-range-concept": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הבחנה מילונית פומבית ללא ערכים אופרטיביים.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-missile-range-concept",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-multilingual-name": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תשובת תרגום פומבית על שם משפחה של מיירטים.",
+    "styles": "qa",
+    "source_group_id": "batch-0007-missile-multilingual-name",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-defense-budget-reading": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר כיצד לקרוא תקציב ציבורי ברמת התוכנית.",
+    "styles": "explainer",
+    "source_group_id": "batch-0007-missile-defense-budget-reading",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-policy-timeline": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תרגיל פתוח על שלבי קבלת החלטה היסטורית.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-missile-policy-timeline",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-protected-airspace-history": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "שיחה לימודית על שאלת מחקר היסטורית ולא על אופן הפעלה.",
+    "styles": "interview",
+    "source_group_id": "batch-0007-protected-airspace-history",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-assurance-template-types": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תיקון מנהלי מקומי בביקורת קבלה.",
+    "styles": "handoff",
+    "source_group_id": "batch-0007-missile-assurance-template-types",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interceptor-learning-roles": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "שיבוץ מתלמד מקומי בצוות.",
+    "styles": "chat",
+    "source_group_id": "batch-0007-interceptor-learning-roles",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-parts-glossary-maintenance": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "עריכת מילון פנימי של צוות בלי חשיפת פרטים טכניים.",
+    "styles": "email",
+    "source_group_id": "batch-0007-missile-parts-glossary-maintenance",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-training-question-triage": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תרגול עיוני פנימי והקצאת תפקידים שגרתית.",
+    "styles": "log",
+    "source_group_id": "batch-0007-missile-training-question-triage",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-development-external-license": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "מיזם יחיד איבד זכות ליבה ולכן נעצר.",
+    "styles": "report",
+    "source_group_id": "batch-0007-missile-development-external-license",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-announcement-reversal": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הנהלה גנזה החלטה משמעותית לפני הפרסום.",
+    "styles": "memorandum",
+    "source_group_id": "batch-0007-missile-announcement-reversal",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interception-safety-audit-conflict": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תוצאות ביקורת פנימית פסלו את אישור התוכנית.",
+    "styles": "memo",
+    "source_group_id": "batch-0007-interception-safety-audit-conflict",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-substitute-program-funding": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "החלטה פנימית לסיים תוכנית אחת בעקבות שינוי מימון.",
+    "styles": "memo",
+    "source_group_id": "batch-0007-missile-substitute-program-funding",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-test-compensation-no-appeal": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "כל התוכניות איבדו מסלול ערר יחיד ונעדר מסלול חלופי.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-missile-test-compensation-no-appeal",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-reparations-link-retaliation": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הנתונים שנמסרו מבטלים הגנה על קבוצת פונים שלמה.",
+    "styles": "alert",
+    "source_group_id": "batch-0007-missile-reparations-link-retaliation",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-safety-evidence-chain-loss": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "אובדן ראיות מערכתי ובלתי הפיך בכל התוכניות.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-missile-safety-evidence-chain-loss",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-shoreline-drone-photo-context": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הדרכה פומבית לקריאה נכונה של תמונות רחפן.",
+    "styles": "guide",
+    "source_group_id": "batch-0007-shoreline-drone-photo-context",
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
+  },
+  "batch-0007-drone-training-demo-returns": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "רישום ציוד הדרכה פנימי שגרתי.",
+    "styles": "log",
+    "source_group_id": "batch-0007-drone-training-demo-returns",
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
+  },
+  "batch-0007-drone-survey-bias-repeat": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ממצא פנימי פסל תוצר ליבה והוביל לעצירת פרסום של פרויקט יחיד.",
+    "styles": "report",
+    "source_group_id": "batch-0007-drone-survey-bias-repeat",
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
+  },
+  "batch-0007-drone-counting-landowner-identities": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "שיוך רוחבי שמפר הגנת זהות של קבוצה שלמה.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-drone-counting-landowner-identities",
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
+  },
+  "batch-0007-satellite-cloud-sequence": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר פומבי על פרשנות לרצף דימויים לווייניים.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-satellite-cloud-sequence",
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
+  },
+  "batch-0007-satellite-geography-instructor-copy": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תיאום פנים שגרתי לחומרי הדרכה.",
+    "styles": "handoff",
+    "source_group_id": "batch-0007-satellite-geography-instructor-copy",
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
+  },
+  "batch-0007-space-imagery-planning-void": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "בוטל מוצר ליבה משיקולי תקפות לפני מסירה.",
+    "styles": "memo",
+    "source_group_id": "batch-0007-space-imagery-planning-void",
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
+  },
+  "batch-0007-satellite-unique-climate-history-loss": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "אובדן מערכתי של כל סדרות האימות מכמה צוותים.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-satellite-unique-climate-history-loss",
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
+  },
+  "batch-0007-communications-privacy-roles": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר פומבי על הבדל בין סודיות לתקינות הודעה.",
+    "styles": "guide",
+    "source_group_id": "batch-0007-communications-privacy-roles",
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
+  },
+  "batch-0007-communications-training-qa-assignment": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "שינוי משימה מקומי בהדרכה.",
+    "styles": "ticket",
+    "source_group_id": "batch-0007-communications-training-qa-assignment",
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
+  },
+  "batch-0007-helpdesk-receipt-double-count": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תוצאה פנימית שפסלה עמידה בחוזה מהותי.",
+    "styles": "report",
+    "source_group_id": "batch-0007-helpdesk-receipt-double-count",
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
+  },
+  "batch-0007-youth-chat-anonymity-wide": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "כל הפניות בערוצי ייעוץ מוגנים נחשפו באמצעות הקישור.",
+    "styles": "report",
+    "source_group_id": "batch-0007-youth-chat-anonymity-wide",
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
+  },
+  "batch-0007-defense-supply-stock-warranty": {
+    "primary_domain": "defense_logistics",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תשובה ציבורית על אופן קריאת סעיף אחריות.",
+    "styles": "faq",
+    "source_group_id": "batch-0007-defense-supply-stock-warranty",
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
+  },
+  "batch-0007-protective-gear-last-minute-bid": {
+    "primary_domain": "defense_logistics",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "בחירת חלופה משמעותית לאחר פגם מהותי בהצעה.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-protective-gear-last-minute-bid",
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
+  },
+  "batch-0007-defense-gear-shared-service-collapse": {
+    "primary_domain": "defense_logistics",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "כשל שירות חריג ורוחבי במספר גופי רכש.",
+    "styles": "report",
+    "source_group_id": "batch-0007-defense-gear-shared-service-collapse",
+    "domain": "רכש, בטיחות ולוגיסטיקה ביטחונית"
+  },
+  "batch-0007-community-tree-walk": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הודעת הדרכה פומבית על סיור עצים.",
+    "styles": "guide",
+    "source_group_id": "batch-0007-community-tree-walk",
+    "domain": "מידע כללי לדוגמאות נגדיות"
+  },
+  "batch-0007-choir-music-folders": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תיאום פנים יומיומי של מקהלה.",
+    "styles": "chat",
+    "source_group_id": "batch-0007-choir-music-folders",
+    "domain": "מידע כללי לדוגמאות נגדיות"
+  },
+  "batch-0007-dance-course-instructors-contract": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "בדיקה פנימית הובילה לביטול מחזור ולפיצוי מהותי.",
+    "styles": "report",
+    "source_group_id": "batch-0007-dance-course-instructors-contract",
+    "domain": "מידע כללי לדוגמאות נגדיות"
+  },
+  "batch-0007-civic-legal-aid-protected-families": {
+    "primary_domain": "general_negative_controls",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "נחשפו כל משקי הבית שקיבלו אישור הגנת מקום מגורים.",
+    "styles": "alert",
+    "source_group_id": "batch-0007-civic-legal-aid-protected-families",
+    "domain": "מידע כללי לדוגמאות נגדיות"
+  },
+  "batch-0007-missile-taxonomy-overlap": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר פומבי על צירי מיון שונים של טילים.",
+    "styles": "classroom",
+    "source_group_id": "batch-0007-missile-taxonomy-overlap",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-public-claim-source": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "הסבר גלוי על מקורות להערכת טענה על מיירט.",
+    "styles": "explainer",
+    "source_group_id": "batch-0007-missile-public-claim-source",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-designation-family": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "שיחה ציבורית שבה הבדלי שמות בין משפחה לדגם.",
+    "styles": "transcript",
+    "source_group_id": "batch-0007-missile-designation-family",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interceptor-oversight-stakeholders": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תרגיל אזרחות פתוח על תפקידי בקרה והחלטה.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-interceptor-oversight-stakeholders",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-budget-estimate-overturn": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ממצא פנימי הפך החלטה תקציבית מהותית.",
+    "styles": "report",
+    "source_group_id": "batch-0007-missile-budget-estimate-overturn",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-acceptance-basis-change": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "גילוי שינוי בסיס קבלה עצר מסירה במיזם יחיד.",
+    "styles": "email",
+    "source_group_id": "batch-0007-missile-acceptance-basis-change",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interceptor-training-reimbursement": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ממצא פיננסי פנימי ששינה החלטת פיתוח.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-interceptor-training-reimbursement",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interceptor-pledged-funds-gap": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "תקציב ייצור של מיזם יחיד הופסק בעקבות הכרעה פנימית.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-interceptor-pledged-funds-gap",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-interception-protected-board-doxxing": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "חשיפת כל חברי הוועדות להליך הגנה מאוחד.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-interception-protected-board-doxxing",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-missile-training-pension-all": {
+    "primary_domain": "missile_systems",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "שינוי פנימי שמבטל בבת אחת זכאות בענף רב־תוכניות.",
+    "styles": "report",
+    "source_group_id": "batch-0007-missile-training-pension-all",
+    "domain": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית"
+  },
+  "batch-0007-drone-imagery-length-shadows": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "שיעור פומבי על פירוש תצלום רחפן.",
+    "styles": "workbook",
+    "source_group_id": "batch-0007-drone-imagery-length-shadows",
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
+  },
+  "batch-0007-drone-transport-program-stop": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "החלטה פנימית על עצירת מיזם אזרחי בעקבות כשל בבדיקת תוקף.",
+    "styles": "report",
+    "source_group_id": "batch-0007-drone-transport-program-stop",
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
+  },
+  "batch-0007-drone-residents-location-disclosure": {
+    "primary_domain": "uncrewed_aircraft",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "איחוד טבלאות מזהה את כל בעלי האתרים שקיבלו אנונימיות.",
+    "styles": "report",
+    "source_group_id": "batch-0007-drone-residents-location-disclosure",
+    "domain": "רחפנים, כטב״מים ומערכות אוויריות"
+  },
+  "batch-0007-radar-story-echo": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "המחשה פתוחה של משמעות החזר חישה.",
+    "styles": "guide",
+    "source_group_id": "batch-0007-radar-story-echo",
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
+  },
+  "batch-0007-satellite-tide-park-map-void": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "ממצא פנימי עצר שימוש מהותי במוצר של מיזם יחיד.",
+    "styles": "findings",
+    "source_group_id": "batch-0007-satellite-tide-park-map-void",
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
+  },
+  "batch-0007-satellite-refuge-research-cohort": {
+    "primary_domain": "radar_sensors_space",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "נחשפו כלל האתרים שתוכנית מוגנת התחייבה לאתר בלי לאפשר זיהוי.",
+    "styles": "report",
+    "source_group_id": "batch-0007-satellite-refuge-research-cohort",
+    "domain": "מכ״ם, חיישנים, לוויינים ומערכות חלל"
+  },
+  "batch-0007-service-notifications-accessibility": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "בדיקה פנימית גילתה פגם שביטל מעבר לשירות חדש.",
+    "styles": "minutes",
+    "source_group_id": "batch-0007-service-notifications-accessibility",
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
+  },
+  "batch-0007-civic-reporting-whistleblower-correlation": {
+    "primary_domain": "cyber_communications_c2",
+    "background": "תרחיש סינתטי; כל ההתרחשויות הארגוניות בדיוניות.",
+    "facts": "נחשפו כלל הפונים המוגנים בכמה ערוצי תלונות.",
+    "styles": "report",
+    "source_group_id": "batch-0007-civic-reporting-whistleblower-correlation",
+    "domain": "תקשורת, סייבר ושליטה ובקרה"
+  },
+  "batch-0007-resume-a-002": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "חינוך לווייני",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כותרת לקורס פתוח.",
+    "source_group_id": "batch-0007-resume-a-002",
+    "styles": "caption"
+  },
+  "batch-0007-resume-a-003": {
+    "primary_domain": "missile_systems",
+    "domain": "מונחי קבלת מיירט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הפרדת שני מושגים בטיוטה פנימית.",
+    "source_group_id": "batch-0007-resume-a-003",
+    "styles": "note"
+  },
+  "batch-0007-resume-a-005": {
+    "primary_domain": "missile_systems",
+    "domain": "היסטוריית דרישות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון תיעוד פנימי שגרתי.",
+    "source_group_id": "batch-0007-resume-a-005",
+    "styles": "note"
+  },
+  "batch-0007-resume-a-010": {
+    "primary_domain": "missile_systems",
+    "domain": "אימות אב טיפוס",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "נפסלה הערכה של אב טיפוס אחד.",
+    "source_group_id": "batch-0007-resume-a-010",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-f-009": {
+    "primary_domain": "missile_systems",
+    "domain": "החזרה מהחלטת קבלה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ביטול החלטה מהותית של תוכנית אחת.",
+    "source_group_id": "batch-0007-resume-f-009",
+    "styles": "note"
+  },
+  "batch-0007-resume-f-010": {
+    "primary_domain": "missile_systems",
+    "domain": "ביטול מסלול הערכה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פסילת מסלול ההסמכה של מיזם אחד.",
+    "source_group_id": "batch-0007-resume-f-010",
+    "styles": "alert"
+  },
+  "batch-0007-resume-a-011": {
+    "primary_domain": "defense_logistics",
+    "domain": "רכש ביטחוני",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ביטול זכייה פנימי.",
+    "source_group_id": "batch-0007-resume-a-011",
+    "styles": "notice"
+  },
+  "batch-0007-resume-a-012": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "מיזם משלוחים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "עצירת מיזם בשל פער תקפות.",
+    "source_group_id": "batch-0007-resume-a-012",
+    "styles": "notice"
+  },
+  "batch-0007-resume-a-015": {
+    "primary_domain": "missile_systems",
+    "domain": "חקירה רב מערכתית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "זיהוי כלל העדים המוגנים.",
+    "source_group_id": "batch-0007-resume-a-015",
+    "styles": "alert"
+  },
+  "batch-0007-resume-d-004": {
+    "primary_domain": "missile_systems",
+    "domain": "זיהוי שורתי לכל העדים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "נחשפו כל עדי מערך היירוט.",
+    "source_group_id": "batch-0007-resume-d-004",
+    "styles": "alert"
+  },
+  "batch-0007-resume-f-014": {
+    "primary_domain": "missile_systems",
+    "domain": "קריסת מנגנון הכרה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל הגוף איבד מנגנון הכרה.",
+    "source_group_id": "batch-0007-resume-f-014",
+    "styles": "alert"
+  },
+  "batch-0007-resume-f-015": {
+    "primary_domain": "missile_systems",
+    "domain": "נחשפה אנונימיות של קבוצה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מלוא קבוצת המקורות המוגנים נחשפה.",
+    "source_group_id": "batch-0007-resume-f-015",
+    "styles": "alert"
+  },
+  "batch-0007-resume-o-007": {
+    "primary_domain": "missile_systems",
+    "domain": "זיוף כולל של סמכות טילית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל מסלול ההערכה זויף.",
+    "source_group_id": "batch-0007-resume-o-007",
+    "styles": "alert"
+  },
+  "batch-0007-resume-a-019": {
+    "primary_domain": "missile_systems",
+    "domain": "מושגי קבלה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר לימודי על פירוש ראיות תוכנית.",
+    "source_group_id": "batch-0007-resume-a-019",
+    "styles": "qa"
+  },
+  "batch-0007-resume-a-020": {
+    "primary_domain": "missile_systems",
+    "domain": "מונחי טילאות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ידע מילוני פתוח.",
+    "source_group_id": "batch-0007-resume-a-020",
+    "styles": "definition"
+  },
+  "batch-0007-resume-a-021": {
+    "primary_domain": "missile_systems",
+    "domain": "הסתייגות בדוח פומבי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ניתוח עיתונות היסטורית פיקטיבית.",
+    "source_group_id": "batch-0007-resume-a-021",
+    "styles": "column"
+  },
+  "batch-0007-resume-a-022": {
+    "primary_domain": "missile_systems",
+    "domain": "אזרחות ופיקוח",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מושג ציבורי על מוסדות הפיקוח.",
+    "source_group_id": "batch-0007-resume-a-022",
+    "styles": "guide"
+  },
+  "batch-0007-resume-a-023": {
+    "primary_domain": "missile_systems",
+    "domain": "שינוי פירוש מונח",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הגדרה פומבית עם דוגמה.",
+    "source_group_id": "batch-0007-resume-a-023",
+    "styles": "glossary"
+  },
+  "batch-0007-resume-a-024": {
+    "primary_domain": "missile_systems",
+    "domain": "תולדות הרטוריקה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מושג תקשורתי לימודי.",
+    "source_group_id": "batch-0007-resume-a-024",
+    "styles": "lesson"
+  },
+  "batch-0007-resume-a-025": {
+    "primary_domain": "missile_systems",
+    "domain": "ניהול מיזם ציבורי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תרגיל מבוא כללי.",
+    "source_group_id": "batch-0007-resume-a-025",
+    "styles": "worksheet"
+  },
+  "batch-0007-resume-a-026": {
+    "primary_domain": "missile_systems",
+    "domain": "כלכלת הטילאות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הבהרת מושג תקציבי פומבי.",
+    "source_group_id": "batch-0007-resume-a-026",
+    "styles": "talk"
+  },
+  "batch-0007-resume-a-028": {
+    "primary_domain": "missile_systems",
+    "domain": "תיאום ציבורי בתחום יירוט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "דוגמה אזרחית פתוחה לתפקיד מוסדי.",
+    "source_group_id": "batch-0007-resume-a-028",
+    "styles": "discussion"
+  },
+  "batch-0007-resume-a-029": {
+    "primary_domain": "missile_systems",
+    "domain": "מיון תעשייתי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מושג ציבורי על פעילות תעשייתית.",
+    "source_group_id": "batch-0007-resume-a-029",
+    "styles": "column"
+  },
+  "batch-0007-resume-a-030": {
+    "primary_domain": "missile_systems",
+    "domain": "תיאור מערך לעומת טיל",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מושג לימודי המובחן בהקשר.",
+    "source_group_id": "batch-0007-resume-a-030",
+    "styles": "workbook"
+  },
+  "batch-0007-resume-a-031": {
+    "primary_domain": "missile_systems",
+    "domain": "פירוש הצלחת יירוט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר תקשורתי גלוי.",
+    "source_group_id": "batch-0007-resume-a-031",
+    "styles": "interview"
+  },
+  "batch-0007-resume-a-032": {
+    "primary_domain": "missile_systems",
+    "domain": "מפת החלטות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "דיון פומבי מדומה על ממשל תוכנית.",
+    "source_group_id": "batch-0007-resume-a-032",
+    "styles": "qa"
+  },
+  "batch-0007-resume-d-007": {
+    "primary_domain": "missile_systems",
+    "domain": "הצגת חזון כללי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר לימודי גלוי על מסמכי תוכנית.",
+    "source_group_id": "batch-0007-resume-d-007",
+    "styles": "guide"
+  },
+  "batch-0007-resume-d-008": {
+    "primary_domain": "missile_systems",
+    "domain": "בחירה בהשוואת משפחות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על ייחוס קבוצות טילים.",
+    "source_group_id": "batch-0007-resume-d-008",
+    "styles": "workbook"
+  },
+  "batch-0007-resume-d-009": {
+    "primary_domain": "missile_systems",
+    "domain": "תכלית מוצהרת מול תקצוב",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "עיון פומבי בהבדל בין מדיניות להקצאה.",
+    "source_group_id": "batch-0007-resume-d-009",
+    "styles": "debate"
+  },
+  "batch-0007-resume-d-011": {
+    "primary_domain": "missile_systems",
+    "domain": "מיתוג לעומת יעוד",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מושג חינוכי על ציר זמן.",
+    "source_group_id": "batch-0007-resume-d-011",
+    "styles": "lesson"
+  },
+  "batch-0007-resume-f-016": {
+    "primary_domain": "missile_systems",
+    "domain": "שמות אסכולות בתחום יירוט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "דיון פומבי על משמעות הדורות.",
+    "source_group_id": "batch-0007-resume-f-016",
+    "styles": "forum"
+  },
+  "batch-0007-resume-f-017": {
+    "primary_domain": "missile_systems",
+    "domain": "הצבעה ציבורית לפני מחקר",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "עקרון מינהלי כללי.",
+    "source_group_id": "batch-0007-resume-f-017",
+    "styles": "explanation"
+  },
+  "batch-0007-resume-a-033": {
+    "primary_domain": "missile_systems",
+    "domain": "נוהל קבלת ממצא",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "בהירות פנימית לגבי הליך בדיקה.",
+    "source_group_id": "batch-0007-resume-a-033",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-a-034": {
+    "primary_domain": "missile_systems",
+    "domain": "תיק תלויות מימון",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שאלת שיוך מסמך לצורכי בקרת פנים.",
+    "source_group_id": "batch-0007-resume-a-034",
+    "styles": "memo"
+  },
+  "batch-0007-resume-a-036": {
+    "primary_domain": "missile_systems",
+    "domain": "פיצול ראיית התאמה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ניהול תיעוד שגרתי ללא חשיפת תוצאה מהותית.",
+    "source_group_id": "batch-0007-resume-a-036",
+    "styles": "email"
+  },
+  "batch-0007-resume-a-037": {
+    "primary_domain": "missile_systems",
+    "domain": "תרגול הכרה מוסדית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון נקודתי של שאלת חפיפה.",
+    "source_group_id": "batch-0007-resume-a-037",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-a-039": {
+    "primary_domain": "missile_systems",
+    "domain": "תרחישי ניהול טילים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פעילות פנימית שגרתית להכשרת מבקרים.",
+    "source_group_id": "batch-0007-resume-a-039",
+    "styles": "memo"
+  },
+  "batch-0007-resume-a-040": {
+    "primary_domain": "missile_systems",
+    "domain": "הפרדת השאלות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "התאמת עמודות במעקב פנימי.",
+    "source_group_id": "batch-0007-resume-a-040",
+    "styles": "note"
+  },
+  "batch-0007-resume-a-041": {
+    "primary_domain": "missile_systems",
+    "domain": "הדרכת פיקוח מחקר",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "סידור חומר פנימי שמבהיר טיב דרישה.",
+    "source_group_id": "batch-0007-resume-a-041",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-a-042": {
+    "primary_domain": "missile_systems",
+    "domain": "מעקב אימות קבלה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיאום בקבוצת הערכה שגרתית.",
+    "source_group_id": "batch-0007-resume-a-042",
+    "styles": "email"
+  },
+  "batch-0007-resume-a-043": {
+    "primary_domain": "missile_systems",
+    "domain": "בקרת גרסאות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הבהרת מקור לגרסה בשימוש פנימי.",
+    "source_group_id": "batch-0007-resume-a-043",
+    "styles": "note"
+  },
+  "batch-0007-resume-a-044": {
+    "primary_domain": "missile_systems",
+    "domain": "ניהול מסלול הסמכה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "חידוד שאלה שגרתית בצוות פנימי.",
+    "source_group_id": "batch-0007-resume-a-044",
+    "styles": "chat"
+  },
+  "batch-0007-resume-a-045": {
+    "primary_domain": "missile_systems",
+    "domain": "מדריך פנימי לתוכנית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "רישום הערה שולית לפני הפצה פנימית.",
+    "source_group_id": "batch-0007-resume-a-045",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-a-046": {
+    "primary_domain": "missile_systems",
+    "domain": "דף שלבי סקר",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שינוי קטן לחומר רקע על תוכנית יירוט.",
+    "source_group_id": "batch-0007-resume-a-046",
+    "styles": "memo"
+  },
+  "batch-0007-resume-d-012": {
+    "primary_domain": "missile_systems",
+    "domain": "טבלת השוואה פנימית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "טיוב שגרתי של שאלת ביקורת.",
+    "source_group_id": "batch-0007-resume-d-012",
+    "styles": "memo"
+  },
+  "batch-0007-resume-d-014": {
+    "primary_domain": "missile_systems",
+    "domain": "חידוד תרגיל מנהלי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שינוי נקודתי בצוות פנימי.",
+    "source_group_id": "batch-0007-resume-d-014",
+    "styles": "chat"
+  },
+  "batch-0007-resume-d-016": {
+    "primary_domain": "missile_systems",
+    "domain": "מושג תכולה בחפיפה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "טיוב פנימי של הוראת תרגול.",
+    "source_group_id": "batch-0007-resume-d-016",
+    "styles": "internal"
+  },
+  "batch-0007-resume-d-018": {
+    "primary_domain": "missile_systems",
+    "domain": "דף קריאה פנימי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון תיאור מקומי בתיק מיירט.",
+    "source_group_id": "batch-0007-resume-d-018",
+    "styles": "log"
+  },
+  "batch-0007-resume-d-019": {
+    "primary_domain": "missile_systems",
+    "domain": "עדכון נוסח עמדות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שינוי מקומי לפני פגישת בקרה.",
+    "source_group_id": "batch-0007-resume-d-019",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-d-021": {
+    "primary_domain": "missile_systems",
+    "domain": "מעבר עותקים לצורך עיון",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון משמעות עמודה פנימי.",
+    "source_group_id": "batch-0007-resume-d-021",
+    "styles": "chat"
+  },
+  "batch-0007-resume-f-023": {
+    "primary_domain": "missile_systems",
+    "domain": "תיקון סרגל מצבים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "עדכון שדה פנימי בתוך תוכנית מיירטים.",
+    "source_group_id": "batch-0007-resume-f-023",
+    "styles": "email"
+  },
+  "batch-0007-resume-f-024": {
+    "primary_domain": "missile_systems",
+    "domain": "עריכת תרשים קבלה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון נקודתי לממשק הדגמה של צוות.",
+    "source_group_id": "batch-0007-resume-f-024",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-f-025": {
+    "primary_domain": "missile_systems",
+    "domain": "הכנת פנקס גרסאות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיוג סבב ביקורת חדש בשגרה.",
+    "source_group_id": "batch-0007-resume-f-025",
+    "styles": "log"
+  },
+  "batch-0007-resume-f-026": {
+    "primary_domain": "missile_systems",
+    "domain": "טיוב כתב אישור",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שינוי טקסט נקודתי בהדרכה בתוך הצוות.",
+    "source_group_id": "batch-0007-resume-f-026",
+    "styles": "memo"
+  },
+  "batch-0007-resume-f-027": {
+    "primary_domain": "missile_systems",
+    "domain": "קבוצת מסמכים מתחלפת",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הכנת מסמכי דמה עבור צוות חי״ל.",
+    "source_group_id": "batch-0007-resume-f-027",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-f-029": {
+    "primary_domain": "missile_systems",
+    "domain": "מסירת רשמים לקבוצת הערכה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "טיפול מנהלי שגרתי בתלויות.",
+    "source_group_id": "batch-0007-resume-f-029",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-h-001": {
+    "primary_domain": "missile_systems",
+    "domain": "ניסוח שמות פעולות הערכה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון פנימי שגרתי בתיק בקרה.",
+    "source_group_id": "batch-0007-resume-h-001",
+    "styles": "log"
+  },
+  "batch-0007-resume-h-003": {
+    "primary_domain": "missile_systems",
+    "domain": "בדיקה טרמינולוגית בתחזית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "טיפול פנימי מקומי בחישובי מיזם.",
+    "source_group_id": "batch-0007-resume-h-003",
+    "styles": "memo"
+  },
+  "batch-0007-resume-h-004": {
+    "primary_domain": "missile_systems",
+    "domain": "הבדלה פנימית בין משפחת טיל לדגם",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הגהה שגרתית בהערות קבוצת בקרה.",
+    "source_group_id": "batch-0007-resume-h-004",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-h-005": {
+    "primary_domain": "missile_systems",
+    "domain": "ציון סוג ראיית הדרכה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "התאמה מנהלית פנימית מצומצמת.",
+    "source_group_id": "batch-0007-resume-h-005",
+    "styles": "email"
+  },
+  "batch-0007-resume-h-006": {
+    "primary_domain": "missile_systems",
+    "domain": "תיעוד שאלה לסקר מוסדי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "סידור פנימי מקומי בתיק.",
+    "source_group_id": "batch-0007-resume-h-006",
+    "styles": "note"
+  },
+  "batch-0007-resume-a-047": {
+    "primary_domain": "missile_systems",
+    "domain": "כתיבת החלטת הקבלה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטה פנימית שמשנה תכולת מחקר.",
+    "source_group_id": "batch-0007-resume-a-047",
+    "styles": "report"
+  },
+  "batch-0007-resume-a-048": {
+    "primary_domain": "missile_systems",
+    "domain": "שינוי מימון יירוט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "בוטל שלב מהותי בפרויקט בעקבות נתון כספי פנימי.",
+    "source_group_id": "batch-0007-resume-a-048",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-a-049": {
+    "primary_domain": "missile_systems",
+    "domain": "טבילת שמות בחוזה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פגם מהותי אשר עצר התקשרות מרכזית.",
+    "source_group_id": "batch-0007-resume-a-049",
+    "styles": "email"
+  },
+  "batch-0007-resume-a-050": {
+    "primary_domain": "missile_systems",
+    "domain": "טענת פיתוח מקדימה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כשל משמעותי בתשתית ההחלטה.",
+    "source_group_id": "batch-0007-resume-a-050",
+    "styles": "memo"
+  },
+  "batch-0007-resume-a-051": {
+    "primary_domain": "missile_systems",
+    "domain": "החלפת תכולה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מניע מהותי לשינוי החלטה שהוסתר.",
+    "source_group_id": "batch-0007-resume-a-051",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-a-052": {
+    "primary_domain": "missile_systems",
+    "domain": "הכרה חוזית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "השעיית מסירה בעקבות עובדה פנימית חדשה.",
+    "source_group_id": "batch-0007-resume-a-052",
+    "styles": "report"
+  },
+  "batch-0007-resume-a-053": {
+    "primary_domain": "missile_systems",
+    "domain": "סכסוך בעלות מחקר",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא קנייני מהותי וטרם פורסם.",
+    "source_group_id": "batch-0007-resume-a-053",
+    "styles": "memo"
+  },
+  "batch-0007-resume-a-054": {
+    "primary_domain": "missile_systems",
+    "domain": "תלות מענק יירוט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטה פנימית לשינוי מהותי בתוכנית.",
+    "source_group_id": "batch-0007-resume-a-054",
+    "styles": "letter"
+  },
+  "batch-0007-resume-a-055": {
+    "primary_domain": "missile_systems",
+    "domain": "סיווג ראיה שגוי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא ודאי שביטל המלצה אחת.",
+    "source_group_id": "batch-0007-resume-a-055",
+    "styles": "findings"
+  },
+  "batch-0007-resume-a-057": {
+    "primary_domain": "missile_systems",
+    "domain": "חובת פיצוי בדיקות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא פנימי בעל השלכה מהותית לזכויות.",
+    "source_group_id": "batch-0007-resume-a-057",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-a-058": {
+    "primary_domain": "missile_systems",
+    "domain": "דוח סיכונים תקציבי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "דחייה מהותית של מיזם יחיד בעקבות ביקורת.",
+    "source_group_id": "batch-0007-resume-a-058",
+    "styles": "memo"
+  },
+  "batch-0007-resume-a-059": {
+    "primary_domain": "missile_systems",
+    "domain": "פסילת תוכנית הכשרה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תוצאת ביקורת השפיעה מהותית על הסמכה.",
+    "source_group_id": "batch-0007-resume-a-059",
+    "styles": "alert"
+  },
+  "batch-0007-resume-a-060": {
+    "primary_domain": "missile_systems",
+    "domain": "דוח ראיות שגוי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פסילת קבלה לפני הפצה.",
+    "source_group_id": "batch-0007-resume-a-060",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-d-022": {
+    "primary_domain": "missile_systems",
+    "domain": "השבת עבודת הערכה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "גילוי מהותי שגרר עצירה של מיזם.",
+    "source_group_id": "batch-0007-resume-d-022",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-d-023": {
+    "primary_domain": "missile_systems",
+    "domain": "פסילת ספק ליבה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא פנימי עצר מסלול מוגדר.",
+    "source_group_id": "batch-0007-resume-d-023",
+    "styles": "audit"
+  },
+  "batch-0007-resume-d-024": {
+    "primary_domain": "missile_systems",
+    "domain": "מענק פיתוח קבוצתי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטה מהותית על ביטול מענק במיזם יחיד.",
+    "source_group_id": "batch-0007-resume-d-024",
+    "styles": "notice"
+  },
+  "batch-0007-resume-d-025": {
+    "primary_domain": "missile_systems",
+    "domain": "ערעור בקרה על ממצא",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיק הוחזר לבחינה, עובדה מהותית שאינה פומבית.",
+    "source_group_id": "batch-0007-resume-d-025",
+    "styles": "findings"
+  },
+  "batch-0007-resume-d-026": {
+    "primary_domain": "missile_systems",
+    "domain": "מחויבות סותרת",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא מבטל את בסיס המשך פיתוח.",
+    "source_group_id": "batch-0007-resume-d-026",
+    "styles": "report"
+  },
+  "batch-0007-resume-d-027": {
+    "primary_domain": "missile_systems",
+    "domain": "קניין בהערכה מוסדית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטה על ביטול קבלת נכס עקב זכות קניינית.",
+    "source_group_id": "batch-0007-resume-d-027",
+    "styles": "legal-note"
+  },
+  "batch-0007-resume-d-029": {
+    "primary_domain": "missile_systems",
+    "domain": "מיזם חדש או ישן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אי התאמה משפטית משמעותית במימון תוכנית מיירט.",
+    "source_group_id": "batch-0007-resume-d-029",
+    "styles": "memo"
+  },
+  "batch-0007-resume-f-031": {
+    "primary_domain": "missile_systems",
+    "domain": "ביטול מינוי ועדה בטיל",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "חשף הונאה מהותית ומביאה לפסילת תוכנית.",
+    "source_group_id": "batch-0007-resume-f-031",
+    "styles": "findings"
+  },
+  "batch-0007-resume-f-032": {
+    "primary_domain": "missile_systems",
+    "domain": "פיצול לפני סגירת תוכנית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטה מהותית שנשמרת פנימית.",
+    "source_group_id": "batch-0007-resume-f-032",
+    "styles": "memo"
+  },
+  "batch-0007-resume-f-034": {
+    "primary_domain": "missile_systems",
+    "domain": "קריאת תוצאות שינוי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטה מחודשת שמשנה את מסלול הערכה.",
+    "source_group_id": "batch-0007-resume-f-034",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-f-035": {
+    "primary_domain": "missile_systems",
+    "domain": "הסתייגות שלא נמסרה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הדוח הפנימי שינה את תוקפה של בחירת ספק.",
+    "source_group_id": "batch-0007-resume-f-035",
+    "styles": "report"
+  },
+  "batch-0007-resume-f-036": {
+    "primary_domain": "missile_systems",
+    "domain": "פסילת העברה מוסדית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מימוש עסקה של מיזם טילי נעצר.",
+    "source_group_id": "batch-0007-resume-f-036",
+    "styles": "legal-note"
+  },
+  "batch-0007-resume-f-037": {
+    "primary_domain": "missile_systems",
+    "domain": "סגירת מחלקת בדיקת בטיחות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטת שינוי מהותי בתוכנית בעקבות אי התאמה.",
+    "source_group_id": "batch-0007-resume-f-037",
+    "styles": "memo"
+  },
+  "batch-0007-resume-f-038": {
+    "primary_domain": "missile_systems",
+    "domain": "עקיפת אישור מקדים בתיק מנהלי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אישור מיירט מהותי נפסל מבפנים.",
+    "source_group_id": "batch-0007-resume-f-038",
+    "styles": "audit"
+  },
+  "batch-0007-resume-h-016": {
+    "primary_domain": "missile_systems",
+    "domain": "הפסקת תשלום לאחר הפרה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "רכיב כספי משמעותי הוקפא עקב גילוי פנימי.",
+    "source_group_id": "batch-0007-resume-h-016",
+    "styles": "memo"
+  },
+  "batch-0007-resume-a-061": {
+    "primary_domain": "missile_systems",
+    "domain": "הכרה חוצת דורות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אובדן רוחבי חריג של הסמכות.",
+    "source_group_id": "batch-0007-resume-a-061",
+    "styles": "report"
+  },
+  "batch-0007-resume-a-063": {
+    "primary_domain": "missile_systems",
+    "domain": "סגירת גורם הערכה אזורי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פגיעה מערכתית בכל פרויקטי ההערכה.",
+    "source_group_id": "batch-0007-resume-a-063",
+    "styles": "findings"
+  },
+  "batch-0007-resume-a-064": {
+    "primary_domain": "missile_systems",
+    "domain": "פיצויי בוחנים טיליים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ביטול רוחבי של זכויות ללא מנגנון חלופי.",
+    "source_group_id": "batch-0007-resume-a-064",
+    "styles": "report"
+  },
+  "batch-0007-resume-a-065": {
+    "primary_domain": "missile_systems",
+    "domain": "חשיפת קבוצות בקרה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הפרת הגנת מקור לכל משתתפי הביקורת.",
+    "source_group_id": "batch-0007-resume-a-065",
+    "styles": "alert"
+  },
+  "batch-0007-resume-a-067": {
+    "primary_domain": "missile_systems",
+    "domain": "עצירת תמיכה מערכתית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אובדן חריג לכל התוכניות בלא הסדר המשך.",
+    "source_group_id": "batch-0007-resume-a-067",
+    "styles": "report"
+  },
+  "batch-0007-resume-a-068": {
+    "primary_domain": "missile_systems",
+    "domain": "נספח הצהרות עובדים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "חשיפה כוללת שמבטלת הגנה מכמה תוכניות.",
+    "source_group_id": "batch-0007-resume-a-068",
+    "styles": "memo"
+  },
+  "batch-0007-resume-a-069": {
+    "primary_domain": "missile_systems",
+    "domain": "סגירת תחום פיתוח",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הכרעה סופית לרוחב כלל המסלולים ללא מענה.",
+    "source_group_id": "batch-0007-resume-a-069",
+    "styles": "findings"
+  },
+  "batch-0007-resume-a-070": {
+    "primary_domain": "missile_systems",
+    "domain": "ארכוב החלטות משותף",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אין יכולת מוסדית לשחזר הסמכה בכל המיזמים.",
+    "source_group_id": "batch-0007-resume-a-070",
+    "styles": "alert"
+  },
+  "batch-0007-resume-a-071": {
+    "primary_domain": "missile_systems",
+    "domain": "ערעור משותף לכל המיירטים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "נשללה דרך הערעור של קבוצות מקבילות.",
+    "source_group_id": "batch-0007-resume-a-071",
+    "styles": "report"
+  },
+  "batch-0007-resume-d-030": {
+    "primary_domain": "missile_systems",
+    "domain": "גילוי חוצת מוסדות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל העדים לחקירה מוגנים על סמך חלוקה שכבר נחשפה.",
+    "source_group_id": "batch-0007-resume-d-030",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-d-031": {
+    "primary_domain": "missile_systems",
+    "domain": "תלות צולבת בהתחייבות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל תוכניות המיירטים נשענו על מנגנון עתודה יחיד שנסגר.",
+    "source_group_id": "batch-0007-resume-d-031",
+    "styles": "report"
+  },
+  "batch-0007-resume-d-032": {
+    "primary_domain": "missile_systems",
+    "domain": "מחיקת זכויות בוחנים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פגיעה רוחבית בלתי הפיכה בזכאות.",
+    "source_group_id": "batch-0007-resume-d-032",
+    "styles": "findings"
+  },
+  "batch-0007-resume-d-033": {
+    "primary_domain": "missile_systems",
+    "domain": "אין מקור הכרעה נפרד",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל הליכי ההשגה איבדו סמכות באחת.",
+    "source_group_id": "batch-0007-resume-d-033",
+    "styles": "alert"
+  },
+  "batch-0007-resume-f-040": {
+    "primary_domain": "missile_systems",
+    "domain": "פרסום פרטים שחשפו את כלל המשתתפים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל עדי המיזמים זוהו אצל מושאי הליך הבדיקה.",
+    "source_group_id": "batch-0007-resume-f-040",
+    "styles": "alert"
+  },
+  "batch-0007-resume-f-042": {
+    "primary_domain": "missile_systems",
+    "domain": "גילוי קופה משותפת לתיקי הזכאות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל התביעות כפופות להסדר יחיד שחדל בפועל.",
+    "source_group_id": "batch-0007-resume-f-042",
+    "styles": "findings"
+  },
+  "batch-0007-resume-f-043": {
+    "primary_domain": "missile_systems",
+    "domain": "שיתוף רשימת עדים חוצה ארגונים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "התבטלה הגנת כל העדים המוגנים.",
+    "source_group_id": "batch-0007-resume-f-043",
+    "styles": "alert"
+  },
+  "batch-0007-resume-f-045": {
+    "primary_domain": "missile_systems",
+    "domain": "גילוי קריסת סמכות מועצות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל חברות הערכת היירוט איבדו מעמד בלי גוף חדש.",
+    "source_group_id": "batch-0007-resume-f-045",
+    "styles": "findings"
+  },
+  "batch-0007-resume-m-001": {
+    "primary_domain": "missile_systems",
+    "domain": "תרמית רוחבית של גוף הערכת הטילים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ראיה פנימית שמוכיחה שכל תוצאות הפיקוח בענף הומצאו.",
+    "source_group_id": "batch-0007-resume-m-001",
+    "styles": "report"
+  },
+  "batch-0007-resume-m-002": {
+    "primary_domain": "missile_systems",
+    "domain": "שיוך דירות דרך מענק הסתגלות במיזמי טילים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל ממוני ההגנה ניתנים לזיהוי דרך מענקים מוסווים.",
+    "source_group_id": "batch-0007-resume-m-002",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-m-004": {
+    "primary_domain": "missile_systems",
+    "domain": "תלות מאוחדת בתיקי משנה אחריות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ניתן לייחס את כל התעודות המזויפות לאותו מקור והמערכת כולה נעצרה.",
+    "source_group_id": "batch-0007-resume-m-004",
+    "styles": "findings"
+  },
+  "batch-0007-resume-m-009": {
+    "primary_domain": "missile_systems",
+    "domain": "דגימת מקור יחיד של פיקוח רכש",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל התוכניות הסתמכו על הערכה מחופשת מאלו שקיבלו את המימון.",
+    "source_group_id": "batch-0007-resume-m-009",
+    "styles": "report"
+  },
+  "batch-0007-resume-m-010": {
+    "primary_domain": "missile_systems",
+    "domain": "חשיפה רחבה באמצעות תמונת קבוצת ההכשרה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "זיהוי כל הבוחנים המוגנים בחקירה.",
+    "source_group_id": "batch-0007-resume-m-010",
+    "styles": "memo"
+  },
+  "batch-0007-resume-m-014": {
+    "primary_domain": "missile_systems",
+    "domain": "ציר זמן פרסום מרמה רב מערכתית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "נחשף שכל המיזמים שיווקו אישור שמקורו לא היה קיים.",
+    "source_group_id": "batch-0007-resume-m-014",
+    "styles": "report"
+  },
+  "batch-0007-resume-o-029": {
+    "primary_domain": "missile_systems",
+    "domain": "פגיעה גורפת בחסינות מפקחי טילים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל עובדי הפיקוח איבדו חסינות רטרואקטיבית.",
+    "source_group_id": "batch-0007-resume-o-029",
+    "styles": "findings"
+  },
+  "batch-0007-resume-o-030": {
+    "primary_domain": "missile_systems",
+    "domain": "מחיקת מסלול ערר במהלך העברת זכויות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "נחשף שהמנגנון המדומה הופעל ללא סמכות לכל המיזמים.",
+    "source_group_id": "batch-0007-resume-o-030",
+    "styles": "report"
+  },
+  "batch-0007-resume-q-019": {
+    "primary_domain": "missile_systems",
+    "domain": "ריכוז סודי של תביעות במיזם יירוט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מערך רוחבי חריג מבטל זכות מוגנת.",
+    "source_group_id": "batch-0007-resume-q-019",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-q-020": {
+    "primary_domain": "missile_systems",
+    "domain": "רשת מפעלי טילים ומימון דיור",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל תוכניות ההגנה על משפחות נשענו על קרן שהוחלט להפקיע.",
+    "source_group_id": "batch-0007-resume-q-020",
+    "styles": "report"
+  },
+  "batch-0007-resume-s-009": {
+    "primary_domain": "missile_systems",
+    "domain": "מקור פיקטיבי להכרה במערכות טיליות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל מערכי ההערכה נפסלו בבת אחת בעקבות תיעוד כוזב.",
+    "source_group_id": "batch-0007-resume-s-009",
+    "styles": "findings"
+  },
+  "batch-0007-resume-a-072": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "קריאת תצפיות אזרחיות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מידע ציבורי על מגבלות פרשנות של צילום רחפן.",
+    "source_group_id": "batch-0007-resume-a-072",
+    "styles": "guide"
+  },
+  "batch-0007-resume-d-036": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "קריאת מודל גובה מתצלום",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על מונחים של דימות.",
+    "source_group_id": "batch-0007-resume-d-036",
+    "styles": "qa"
+  },
+  "batch-0007-resume-d-037": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "ידיעה על מדגם רחפן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "דיון פומבי על מדגם.",
+    "source_group_id": "batch-0007-resume-d-037",
+    "styles": "guide"
+  },
+  "batch-0007-resume-f-046": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "פרשנות גוון בתצלום רחפן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מידע פומבי על משמעות מגבלה.",
+    "source_group_id": "batch-0007-resume-f-046",
+    "styles": "lesson"
+  },
+  "batch-0007-resume-a-073": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "הגהת סקר רחפן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון תצוגה פנימי מקומי הקשור לימי תצפית.",
+    "source_group_id": "batch-0007-resume-a-073",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-d-038": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "בדיקת פערי תמונות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון הכשרה פנימית שגרתי בתחום רחפן.",
+    "source_group_id": "batch-0007-resume-d-038",
+    "styles": "internal"
+  },
+  "batch-0007-resume-d-039": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "סידור דוגמאות צילום",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיוג מקומי פנימי לתיק דימות.",
+    "source_group_id": "batch-0007-resume-d-039",
+    "styles": "log"
+  },
+  "batch-0007-resume-f-047": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "הפרדת מסגרות דימות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון דוגמה פנימית לקריאת רצף צילום.",
+    "source_group_id": "batch-0007-resume-f-047",
+    "styles": "memo"
+  },
+  "batch-0007-resume-f-048": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "מספרי צילום שגויים בפיילוט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הגהה מקומית בתצוגת מידע.",
+    "source_group_id": "batch-0007-resume-f-048",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-i-012": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "הפרדה בין ביקורים לפלט חופי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיוג מקומי בצוות סקר.",
+    "source_group_id": "batch-0007-resume-i-012",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-a-074": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "סקר גגות סולארי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פסילת תוצר ליבה ועצירת פרויקט אחד.",
+    "source_group_id": "batch-0007-resume-a-074",
+    "styles": "memo"
+  },
+  "batch-0007-resume-d-040": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "תצלומי סקר שגויים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פסילה פנימית של תוצר חיוני למיזם יחיד.",
+    "source_group_id": "batch-0007-resume-d-040",
+    "styles": "findings"
+  },
+  "batch-0007-resume-d-041": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "כיסוי שגוי של סקר רחפן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "בוטלה קבלה בשל ממצא פנימי.",
+    "source_group_id": "batch-0007-resume-d-041",
+    "styles": "memo"
+  },
+  "batch-0007-resume-f-049": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "רכש סקר אזרחי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "בדיקה פנימית ביטלה מסירה של דוח מרכזי.",
+    "source_group_id": "batch-0007-resume-f-049",
+    "styles": "report"
+  },
+  "batch-0007-resume-a-075": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "סקרי שיקום רחפניים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מקור יחיד ואבוד מנע אימות בכל הקבוצות.",
+    "source_group_id": "batch-0007-resume-a-075",
+    "styles": "report"
+  },
+  "batch-0007-resume-d-042": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "גילוי מידע על כל אתרי הסיוע",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "זהות כלל בעלי הקרקעות המוגנים נחשפה במספר תוכניות רחפן.",
+    "source_group_id": "batch-0007-resume-d-042",
+    "styles": "alert"
+  },
+  "batch-0007-resume-d-043": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "שלוש יחידות רחפן ללא תוקף",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל מיזמי הסקר הפסיקו לפעול בשל תלות משותפת ובלי חלופה.",
+    "source_group_id": "batch-0007-resume-d-043",
+    "styles": "report"
+  },
+  "batch-0007-resume-f-050": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "אלמוניות תצלומי רחפן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "סידור משותף מאפשר לזהות את כל בעלי הגינות המוגנים.",
+    "source_group_id": "batch-0007-resume-f-050",
+    "styles": "findings"
+  },
+  "batch-0007-resume-q-016": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "זכויות סיוע בכל אזורי סקר הרחפן אבדו",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הכרעה רוחבית מוכחת פוגעת בכל משתתפי התוכנית.",
+    "source_group_id": "batch-0007-resume-q-016",
+    "styles": "report"
+  },
+  "batch-0007-resume-a-076": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "דימוי תרמי לווייני",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על המקרא והצבעים.",
+    "source_group_id": "batch-0007-resume-a-076",
+    "styles": "workbook"
+  },
+  "batch-0007-resume-d-044": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "הסבר גלוי לתוצר מכ״ם",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר קריאת תצוגה פומבית.",
+    "source_group_id": "batch-0007-resume-d-044",
+    "styles": "guide"
+  },
+  "batch-0007-resume-f-051": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "סימון דוגמה במפת לוויין",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מידע פומבי על הסבר ויזואלי.",
+    "source_group_id": "batch-0007-resume-f-051",
+    "styles": "workbook"
+  },
+  "batch-0007-resume-a-077": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "סימון תוצר מכ״ם",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "עדכון תיעוד קטן לקורא פנימי.",
+    "source_group_id": "batch-0007-resume-a-077",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-d-045": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "תיקון מקרא לווייני",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אירוע מקומי בצוות דימות.",
+    "source_group_id": "batch-0007-resume-d-045",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-f-052": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "סרגל שעות מכ״ם",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שינוי נקודתי בהכשרת תצוגה פנימית.",
+    "source_group_id": "batch-0007-resume-f-052",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-a-078": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "פסילת תחזית מלוויין",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תוצאת בדיקה חדשה שהובילה למשיכת מוצר משמעותי.",
+    "source_group_id": "batch-0007-resume-a-078",
+    "styles": "report"
+  },
+  "batch-0007-resume-d-046": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "ביטול הערכה לחיישן תעשייתי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כשל פנימי בתוקף זכייה במיזם אחד.",
+    "source_group_id": "batch-0007-resume-d-046",
+    "styles": "report"
+  },
+  "batch-0007-resume-f-053": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "הקפאת פיילוט חיישן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תוצאה פנימית עצרה קנייה של מערכת.",
+    "source_group_id": "batch-0007-resume-f-053",
+    "styles": "memo"
+  },
+  "batch-0007-resume-a-079": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "רשת חישה אקולוגית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אובדן חריג של מסד ראיות בכל המאגרים.",
+    "source_group_id": "batch-0007-resume-a-079",
+    "styles": "memo"
+  },
+  "batch-0007-resume-d-047": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "אובדן בסיס לווייני חוצה מחקרים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אובדן תצפית היסטורית יחידה מאלצת ביטול רוחבי.",
+    "source_group_id": "batch-0007-resume-d-047",
+    "styles": "findings"
+  },
+  "batch-0007-resume-o-033": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "ביטול הכרה אצל כלל מכוני לוויין",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "השלכה משותפת של ראיה יחידה פיקטיבית.",
+    "source_group_id": "batch-0007-resume-o-033",
+    "styles": "findings"
+  },
+  "batch-0007-resume-q-017": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "אובדן העמדת ביקורת בכל מוסדות תצפית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מסקנות רוחביות נפסלו לאחר גילוי שיטת הערכה כוזבת.",
+    "source_group_id": "batch-0007-resume-q-017",
+    "styles": "findings"
+  },
+  "batch-0007-resume-r-009": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "כיסוי שקרי ברשת חיישנים רחבה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "נחשף כשל אמינות מערכתי לכל מדידות ארבע רשויות.",
+    "source_group_id": "batch-0007-resume-r-009",
+    "styles": "report"
+  },
+  "batch-0007-resume-a-080": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "מצב טיוטה של הודעה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הבחנה מושגית פומבית על מצב הודעות.",
+    "source_group_id": "batch-0007-resume-a-080",
+    "styles": "guide"
+  },
+  "batch-0007-resume-d-048": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "חיווי הודעה בתרגיל פומבי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מידע פתוח על ההבדל בין תוכן למאפייני מסירה.",
+    "source_group_id": "batch-0007-resume-d-048",
+    "styles": "lesson"
+  },
+  "batch-0007-resume-f-055": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "קריאת הודעות מוקד",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ידע פתוח על מצבי ערוץ תקשורת.",
+    "source_group_id": "batch-0007-resume-f-055",
+    "styles": "lesson"
+  },
+  "batch-0007-resume-a-081": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "אישור צפייה במוקד",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון תצוגת הדגמה פנימית.",
+    "source_group_id": "batch-0007-resume-a-081",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-d-049": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "הצגת שעוני תור פנימיים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "סידור הדגמה פנימית בתחום תקשורת.",
+    "source_group_id": "batch-0007-resume-d-049",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-f-056": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "בדיקת מפגש דמה בצ׳אט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון מקומי בחומר פנימי.",
+    "source_group_id": "batch-0007-resume-f-056",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-a-082": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "שינוי מפעיל הודעות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הקפאת התקשרות חיונית בעקבות ממצאים פנימיים.",
+    "source_group_id": "batch-0007-resume-a-082",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-d-050": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "ביטול מעבר תקשורת עירונית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הקפאה של שירות עירוני בשל ממצא אמיתי.",
+    "source_group_id": "batch-0007-resume-d-050",
+    "styles": "report"
+  },
+  "batch-0007-resume-f-057": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "הגירה כושלת של ערוץ הודעות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא כשל מהותי שגרם לעצירת חוזה.",
+    "source_group_id": "batch-0007-resume-f-057",
+    "styles": "findings"
+  },
+  "batch-0007-resume-a-084": {
+    "primary_domain": "defense_logistics",
+    "domain": "מחזור חיים של ציוד אבטחה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שאלת מכרז פתוחה על אחריות ציוד.",
+    "source_group_id": "batch-0007-resume-a-084",
+    "styles": "faq"
+  },
+  "batch-0007-resume-a-085": {
+    "primary_domain": "defense_logistics",
+    "domain": "החזרות במחסן אבטחה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון מנהלי קטן ברכש המאבטחים.",
+    "source_group_id": "batch-0007-resume-a-085",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-d-052": {
+    "primary_domain": "defense_logistics",
+    "domain": "הרשאות קליטה לציוד אבטחה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "עדכון תהליך מקומי לציוד מגן.",
+    "source_group_id": "batch-0007-resume-d-052",
+    "styles": "log"
+  },
+  "batch-0007-resume-f-059": {
+    "primary_domain": "defense_logistics",
+    "domain": "רישום מחסן אבטחת שטח",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תהליך פנימי שגרתי של הגהה בטופס.",
+    "source_group_id": "batch-0007-resume-f-059",
+    "styles": "log"
+  },
+  "batch-0007-resume-a-086": {
+    "primary_domain": "defense_logistics",
+    "domain": "מנהל מחסן ציוד אבטחה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "נמצא פער חוזי שהביא לפסילת ספק מרכזי.",
+    "source_group_id": "batch-0007-resume-a-086",
+    "styles": "report"
+  },
+  "batch-0007-resume-d-053": {
+    "primary_domain": "defense_logistics",
+    "domain": "תקרת אחריות לציוד ביטחוני",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אי התאמה מהותית הובילה לביטול עסקה.",
+    "source_group_id": "batch-0007-resume-d-053",
+    "styles": "audit"
+  },
+  "batch-0007-resume-f-060": {
+    "primary_domain": "defense_logistics",
+    "domain": "ביטול חוזה ביקורת ציוד",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא מהותי על עמידה בתנאי ספק.",
+    "source_group_id": "batch-0007-resume-f-060",
+    "styles": "findings"
+  },
+  "batch-0007-resume-a-087": {
+    "primary_domain": "defense_logistics",
+    "domain": "תלות שינוע ביטחונית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "השעיה חוצת גופים ללא חלופה מוכרת.",
+    "source_group_id": "batch-0007-resume-a-087",
+    "styles": "findings"
+  },
+  "batch-0007-resume-d-054": {
+    "primary_domain": "defense_logistics",
+    "domain": "מקור יחיד לכל השבות מלאי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "קיפאון מערכתי של שלושה גופי רכש ללא חלופה.",
+    "source_group_id": "batch-0007-resume-d-054",
+    "styles": "report"
+  },
+  "batch-0007-resume-f-061": {
+    "primary_domain": "defense_logistics",
+    "domain": "כשל רוחבי במערך קסדות מגן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אין תחליף למקור אחריות לכל המחסנים.",
+    "source_group_id": "batch-0007-resume-f-061",
+    "styles": "findings"
+  },
+  "batch-0007-resume-a-088": {
+    "primary_domain": "general_negative_controls",
+    "domain": "גינה קהילתית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הודעה פומבית יומיומית.",
+    "source_group_id": "batch-0007-resume-a-088",
+    "styles": "notice"
+  },
+  "batch-0007-resume-a-091": {
+    "primary_domain": "general_negative_controls",
+    "domain": "שירות אזרחי מוגן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הצלבה חושפת את כלל המקבלים שירות חסוי.",
+    "source_group_id": "batch-0007-resume-a-091",
+    "styles": "report"
+  },
+  "batch-0007-resume-d-056": {
+    "primary_domain": "general_negative_controls",
+    "domain": "רשימת ילדים מוגנים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "התאפשר זיהוי של כל המשתתפים המוגנים.",
+    "source_group_id": "batch-0007-resume-d-056",
+    "styles": "alert"
+  },
+  "batch-0007-resume-b-001": {
+    "primary_domain": "missile_systems",
+    "domain": "קולות שונים בהיסטוריה של היירוט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תרגיל בפרשנות תולדות תוכניות מיירטים.",
+    "source_group_id": "batch-0007-resume-b-001",
+    "styles": "lesson"
+  },
+  "batch-0007-resume-b-002": {
+    "primary_domain": "missile_systems",
+    "domain": "חשיבות הגדרת מערכת",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "טקסט פומבי על שמות של תוכניות.",
+    "source_group_id": "batch-0007-resume-b-002",
+    "styles": "article"
+  },
+  "batch-0007-resume-b-003": {
+    "primary_domain": "missile_systems",
+    "domain": "דוח ועדת מיירטים בדיוני",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על הבחנה בסוגי ראיות.",
+    "source_group_id": "batch-0007-resume-b-003",
+    "styles": "column"
+  },
+  "batch-0007-resume-b-004": {
+    "primary_domain": "missile_systems",
+    "domain": "קריאה של הצעת החלטה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תרגול אזרחי בהבנת מוסדות תוכנית.",
+    "source_group_id": "batch-0007-resume-b-004",
+    "styles": "workbook"
+  },
+  "batch-0007-resume-b-005": {
+    "primary_domain": "missile_systems",
+    "domain": "מדד יחיד לעומת מגוון שאלות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר עקרוני על אופני הערכה.",
+    "source_group_id": "batch-0007-resume-b-005",
+    "styles": "qa"
+  },
+  "batch-0007-resume-b-006": {
+    "primary_domain": "missile_systems",
+    "domain": "מיירט כמונח בעיתונות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "דיון פומבי על תיוג כותרת.",
+    "source_group_id": "batch-0007-resume-b-006",
+    "styles": "forum"
+  },
+  "batch-0007-resume-b-008": {
+    "primary_domain": "missile_systems",
+    "domain": "חקר חדשות מקומיות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שיחת הסברה על ייחוס ציטוט.",
+    "source_group_id": "batch-0007-resume-b-008",
+    "styles": "interview"
+  },
+  "batch-0007-resume-e-001": {
+    "primary_domain": "missile_systems",
+    "domain": "תולדות הסבה תעשייתית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר כללי פתוח על שימוש חוזר במתקן.",
+    "source_group_id": "batch-0007-resume-e-001",
+    "styles": "essay"
+  },
+  "batch-0007-resume-e-002": {
+    "primary_domain": "missile_systems",
+    "domain": "חקיקה ופיקוח על תוכנית טילים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "סקירת מוסדות פומבית בדיונית.",
+    "source_group_id": "batch-0007-resume-e-002",
+    "styles": "lesson"
+  },
+  "batch-0007-resume-e-003": {
+    "primary_domain": "missile_systems",
+    "domain": "התפתחות תקנים בתוכנית מיירט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שיעור פתוח על משמעות של משפחת תקן.",
+    "source_group_id": "batch-0007-resume-e-003",
+    "styles": "discussion"
+  },
+  "batch-0007-resume-e-004": {
+    "primary_domain": "missile_systems",
+    "domain": "מורשת הגנה ארגונית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שאלה פתוחה על סמכות קיימת במערך.",
+    "source_group_id": "batch-0007-resume-e-004",
+    "styles": "worksheet"
+  },
+  "batch-0007-resume-e-005": {
+    "primary_domain": "missile_systems",
+    "domain": "משל המחקר המתחרה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תרגיל על משמעות של פיתוח במימון ציבורי.",
+    "source_group_id": "batch-0007-resume-e-005",
+    "styles": "qa"
+  },
+  "batch-0007-resume-j-001": {
+    "primary_domain": "missile_systems",
+    "domain": "השפעת תוכנית מיירטים על לימודי מוסדות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פרסום פתוח על הבדל בין מערכת לבין יוזמת מימון.",
+    "source_group_id": "batch-0007-resume-j-001",
+    "styles": "feature"
+  },
+  "batch-0007-resume-j-002": {
+    "primary_domain": "missile_systems",
+    "domain": "ראיות תעשייה בעיתונות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תרגיל פומבי על מדורים שונים בידיעה.",
+    "source_group_id": "batch-0007-resume-j-002",
+    "styles": "workbook"
+  },
+  "batch-0007-resume-j-004": {
+    "primary_domain": "missile_systems",
+    "domain": "ים ויבשה בהיסטוריה מוסדית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "סקירה לימודית ברמת הגדרת השאלה.",
+    "source_group_id": "batch-0007-resume-j-004",
+    "styles": "history"
+  },
+  "batch-0007-resume-j-005": {
+    "primary_domain": "missile_systems",
+    "domain": "שיח ציבורי על קטגוריה טילית חדשה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פתוח על משמעות המילים ברצף פומבי.",
+    "source_group_id": "batch-0007-resume-j-005",
+    "styles": "forum"
+  },
+  "batch-0007-resume-j-006": {
+    "primary_domain": "missile_systems",
+    "domain": "תוכניות ערים מפעלים ומיירטים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ידע ציבורי על קריאת מפות היסטוריות.",
+    "source_group_id": "batch-0007-resume-j-006",
+    "styles": "interview"
+  },
+  "batch-0007-resume-k-001": {
+    "primary_domain": "missile_systems",
+    "domain": "קבלת החלטות לעומת בעלי עניין",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על הליך טיפוסי.",
+    "source_group_id": "batch-0007-resume-k-001",
+    "styles": "lesson"
+  },
+  "batch-0007-resume-k-002": {
+    "primary_domain": "missile_systems",
+    "domain": "הערכת שינוי כשגרת ציבור",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר ציבורי על הליך דרישות מושגי.",
+    "source_group_id": "batch-0007-resume-k-002",
+    "styles": "qa"
+  },
+  "batch-0007-resume-k-003": {
+    "primary_domain": "missile_systems",
+    "domain": "התפתחות חלוקה לסוגי יוזמות יירוט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פתוח על סדרות מדיניות.",
+    "source_group_id": "batch-0007-resume-k-003",
+    "styles": "article"
+  },
+  "batch-0007-resume-k-005": {
+    "primary_domain": "missile_systems",
+    "domain": "הסבר לקורא על שני מעמדי רכש",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי לניתוח מונחים.",
+    "source_group_id": "batch-0007-resume-k-005",
+    "styles": "forum"
+  },
+  "batch-0007-resume-o-009": {
+    "primary_domain": "missile_systems",
+    "domain": "סקירה שלבי ועדות הטילים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תרגיל קריאה ציבורי בנושא הליך קבלה.",
+    "source_group_id": "batch-0007-resume-o-009",
+    "styles": "guide"
+  },
+  "batch-0007-resume-b-009": {
+    "primary_domain": "missile_systems",
+    "domain": "ממשק אוצר מילים וביקורת",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "עדכון שגרתי של טיוטת מדריך פנימית.",
+    "source_group_id": "batch-0007-resume-b-009",
+    "styles": "memo"
+  },
+  "batch-0007-resume-b-011": {
+    "primary_domain": "missile_systems",
+    "domain": "אימות קבלה מדורג",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פתיחת בקשת הבהרה שגרתית בצוות.",
+    "source_group_id": "batch-0007-resume-b-011",
+    "styles": "note"
+  },
+  "batch-0007-resume-b-012": {
+    "primary_domain": "missile_systems",
+    "domain": "קבוצת חפיפה לנייר עמדה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "עריכה פנימית נקודתית של קלט למשתלמים.",
+    "source_group_id": "batch-0007-resume-b-012",
+    "styles": "log"
+  },
+  "batch-0007-resume-b-013": {
+    "primary_domain": "missile_systems",
+    "domain": "תיוג התייחסות משלימה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שינוי שגרתי לצורכי קריאה בצוות.",
+    "source_group_id": "batch-0007-resume-b-013",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-b-014": {
+    "primary_domain": "missile_systems",
+    "domain": "דוגמת ניהול תצורה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "עריכת תרגול פנים על מעמד מסמך.",
+    "source_group_id": "batch-0007-resume-b-014",
+    "styles": "procedure"
+  },
+  "batch-0007-resume-b-016": {
+    "primary_domain": "missile_systems",
+    "domain": "הבנת טפסי מימון",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון הדרכה ללא גילוי ממשי של מימון.",
+    "source_group_id": "batch-0007-resume-b-016",
+    "styles": "memo"
+  },
+  "batch-0007-resume-e-006": {
+    "primary_domain": "missile_systems",
+    "domain": "ביקורת מדגם הסמכות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "בירור מוגבל בצוות הערכה ללא הכרעה.",
+    "source_group_id": "batch-0007-resume-e-006",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-e-008": {
+    "primary_domain": "missile_systems",
+    "domain": "מקור הפניה לדרישה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון מקומי של הפניה לחומר הדרכה בתוכנית יירוט.",
+    "source_group_id": "batch-0007-resume-e-008",
+    "styles": "mail"
+  },
+  "batch-0007-resume-e-009": {
+    "primary_domain": "missile_systems",
+    "domain": "טופס ריכוז המלצות מיירטים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסדרת טרמינולוגיה פנים ארגונית בתהליך בדיקה.",
+    "source_group_id": "batch-0007-resume-e-009",
+    "styles": "memo"
+  },
+  "batch-0007-resume-e-010": {
+    "primary_domain": "missile_systems",
+    "domain": "סידור דפי פרשנות פנימיים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "בחירה שגרתית בשני איורים להדרכת צוות מיירט.",
+    "source_group_id": "batch-0007-resume-e-010",
+    "styles": "log"
+  },
+  "batch-0007-resume-h-009": {
+    "primary_domain": "missile_systems",
+    "domain": "טווחי תוקף בחומר פנימי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "עדכון שגרה של תיק המחזור לצוות הערכה.",
+    "source_group_id": "batch-0007-resume-h-009",
+    "styles": "log"
+  },
+  "batch-0007-resume-h-010": {
+    "primary_domain": "missile_systems",
+    "domain": "טבלת עיון במחקר הטילי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "טיוב מקומי של מדור קבלת תוצאות.",
+    "source_group_id": "batch-0007-resume-h-010",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-h-011": {
+    "primary_domain": "missile_systems",
+    "domain": "תרגיל תפקידים בטילאות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "טיוב הדרכה פנימית שגרתית.",
+    "source_group_id": "batch-0007-resume-h-011",
+    "styles": "note"
+  },
+  "batch-0007-resume-k-006": {
+    "primary_domain": "missile_systems",
+    "domain": "הסבר החלטת פיתוח בקבוצת פנים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "בירור ניסוח פנימי שגרתי ללא שינוי בתוכנית.",
+    "source_group_id": "batch-0007-resume-k-006",
+    "styles": "memo"
+  },
+  "batch-0007-resume-k-008": {
+    "primary_domain": "missile_systems",
+    "domain": "חלוקת ראיות מזמין ובודק",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הבהרה שגרתית בפרקטיקת עבודה פנים.",
+    "source_group_id": "batch-0007-resume-k-008",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-k-010": {
+    "primary_domain": "missile_systems",
+    "domain": "קבוצת הכשרה לקליטת עובדי ביקורת",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שינוי צדדי בהדרכה פנימית.",
+    "source_group_id": "batch-0007-resume-k-010",
+    "styles": "note"
+  },
+  "batch-0007-resume-o-016": {
+    "primary_domain": "missile_systems",
+    "domain": "רישום קבצים פסולים בתרגיל הערכה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פעילות שגרתית הנוגעת לסינון מנהלי.",
+    "source_group_id": "batch-0007-resume-o-016",
+    "styles": "memo"
+  },
+  "batch-0007-resume-o-017": {
+    "primary_domain": "missile_systems",
+    "domain": "בחינת שאלת מקור על תולדות דגם",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שיפור פינת עיון פנימית במיזם מיירט.",
+    "source_group_id": "batch-0007-resume-o-017",
+    "styles": "log"
+  },
+  "batch-0007-resume-b-017": {
+    "primary_domain": "missile_systems",
+    "domain": "ערעור על החלטת פיתוח",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פסילת עילה מרכזית בעבודת מיירט לפני מסירה.",
+    "source_group_id": "batch-0007-resume-b-017",
+    "styles": "findings"
+  },
+  "batch-0007-resume-b-018": {
+    "primary_domain": "missile_systems",
+    "domain": "בדיקת בעלות בתוכנית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תוצאת ביקורת פנימית שגררה ביטול עסקה במיזם יחיד.",
+    "source_group_id": "batch-0007-resume-b-018",
+    "styles": "legal-note"
+  },
+  "batch-0007-resume-b-019": {
+    "primary_domain": "missile_systems",
+    "domain": "דרישת קבלה קדומה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטה מהותית המבטלת אישור לפרויקט יחיד.",
+    "source_group_id": "batch-0007-resume-b-019",
+    "styles": "report"
+  },
+  "batch-0007-resume-b-020": {
+    "primary_domain": "missile_systems",
+    "domain": "מסלול הכשרת הערכה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "בוטלה הכרה מהותית בעקבות ביקורת שלא נמסרה.",
+    "source_group_id": "batch-0007-resume-b-020",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-b-021": {
+    "primary_domain": "missile_systems",
+    "domain": "תחזית ייצור משפחתית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ביטול מסלול הרחבה פנימי בעקבות פער.",
+    "source_group_id": "batch-0007-resume-b-021",
+    "styles": "memo"
+  },
+  "batch-0007-resume-b-023": {
+    "primary_domain": "missile_systems",
+    "domain": "ביקורת זכות ערר טילי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא על זכויות מבקרים שמשנה את מועד הקבלה.",
+    "source_group_id": "batch-0007-resume-b-023",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-b-024": {
+    "primary_domain": "missile_systems",
+    "domain": "חשבון גבייה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "השלכה כספית פנימית בפרויקט אחד בעקבות גילוי כפילות.",
+    "source_group_id": "batch-0007-resume-b-024",
+    "styles": "audit"
+  },
+  "batch-0007-resume-e-013": {
+    "primary_domain": "missile_systems",
+    "domain": "הכרה בניסיון ספק בקרה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הכרעה מכרזית פנימית במיזם יחיד.",
+    "source_group_id": "batch-0007-resume-e-013",
+    "styles": "legal-note"
+  },
+  "batch-0007-resume-e-014": {
+    "primary_domain": "missile_systems",
+    "domain": "גילוי התחייבות בלעדיות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תוצאה פנימית עצרה הכנסת שותף למיזם מיירט.",
+    "source_group_id": "batch-0007-resume-e-014",
+    "styles": "transcript"
+  },
+  "batch-0007-resume-e-015": {
+    "primary_domain": "missile_systems",
+    "domain": "המשך מרכז הכשרה במיזם טילי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תוצאת הערכה מהותית והשפעתה על תוכנית אחת.",
+    "source_group_id": "batch-0007-resume-e-015",
+    "styles": "audit"
+  },
+  "batch-0007-resume-h-013": {
+    "primary_domain": "missile_systems",
+    "domain": "ערעור זכאות למחזור הסמכת מיירט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטת פיקוח מהותית ששינתה מצב מקומי.",
+    "source_group_id": "batch-0007-resume-h-013",
+    "styles": "report"
+  },
+  "batch-0007-resume-h-014": {
+    "primary_domain": "missile_systems",
+    "domain": "ציר פוליסה למחקר מיירט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ביטול שלב משמעותי לאחר אי התאמת כיסוי.",
+    "source_group_id": "batch-0007-resume-h-014",
+    "styles": "audit"
+  },
+  "batch-0007-resume-k-011": {
+    "primary_domain": "missile_systems",
+    "domain": "פסילת רכיב בתוכנית ליווי מחקר",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטה פנימית בעלת השלכה מהותית למיזם.",
+    "source_group_id": "batch-0007-resume-k-011",
+    "styles": "report"
+  },
+  "batch-0007-resume-k-013": {
+    "primary_domain": "missile_systems",
+    "domain": "שינוי בסיס ביקורת ציבורית לטיל",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תוצאה פנימית עצרה מסלול קבלה בפרויקט בודד.",
+    "source_group_id": "batch-0007-resume-k-013",
+    "styles": "audit"
+  },
+  "batch-0007-resume-o-021": {
+    "primary_domain": "missile_systems",
+    "domain": "תיק פיתוח נשען על אומדן שנפסל",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא פנימי גרר החלטת ביטול של שלב.",
+    "source_group_id": "batch-0007-resume-o-021",
+    "styles": "report"
+  },
+  "batch-0007-resume-o-022": {
+    "primary_domain": "missile_systems",
+    "domain": "התקשרות טילית שנמצאה מחוץ למסגרת",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הכרעה משפטית פנימית עצרה חוזה מרכזי.",
+    "source_group_id": "batch-0007-resume-o-022",
+    "styles": "legal-note"
+  },
+  "batch-0007-resume-q-013": {
+    "primary_domain": "missile_systems",
+    "domain": "גניזת הערכת חבילת פיתוח עקב פגם מבני",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא פנימי משמעותי ביחס למיזם מיירט אחד.",
+    "source_group_id": "batch-0007-resume-q-013",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-r-006": {
+    "primary_domain": "missile_systems",
+    "domain": "הכרעה על מימון מחקר של טיל",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "גילוי מהותי עיכב קבלת החלטה במיזם יחיד.",
+    "source_group_id": "batch-0007-resume-r-006",
+    "styles": "audit"
+  },
+  "batch-0007-resume-s-006": {
+    "primary_domain": "missile_systems",
+    "domain": "ביטול תשלום על הערכת מיירט שמעמדה הוצג כשגוי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא מהותי פנימי שינה התקשרות יחידה.",
+    "source_group_id": "batch-0007-resume-s-006",
+    "styles": "findings"
+  },
+  "batch-0007-resume-s-007": {
+    "primary_domain": "missile_systems",
+    "domain": "פרישת מבטח משלב הערכת מיירט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הכרעה מהותית בפיתוח אחד בוטלה לפני הודעה.",
+    "source_group_id": "batch-0007-resume-s-007",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-b-025": {
+    "primary_domain": "missile_systems",
+    "domain": "הגנת עובדי ביקורת",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "התחייבות האנונימיות בוטלה בפועל בכל המיזמים.",
+    "source_group_id": "batch-0007-resume-b-025",
+    "styles": "report"
+  },
+  "batch-0007-resume-b-026": {
+    "primary_domain": "missile_systems",
+    "domain": "כתבי הכרה תלויים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ההכרה בכל מערכי המיירטים תלויה בגוף שהתפרק ללא חלופה.",
+    "source_group_id": "batch-0007-resume-b-026",
+    "styles": "findings"
+  },
+  "batch-0007-resume-b-029": {
+    "primary_domain": "missile_systems",
+    "domain": "השבתת מועצות ערר",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אובדן רחב של כל אפשרות לערר.",
+    "source_group_id": "batch-0007-resume-b-029",
+    "styles": "memo"
+  },
+  "batch-0007-resume-b-030": {
+    "primary_domain": "missile_systems",
+    "domain": "אובדן ניירות ועדת קבלה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אין ראיות קבילות לאף מסלול קבלה, השפעה חריגה ורוחבית.",
+    "source_group_id": "batch-0007-resume-b-030",
+    "styles": "findings"
+  },
+  "batch-0007-resume-e-016": {
+    "primary_domain": "missile_systems",
+    "domain": "שינוי רוחבי בהעסקת בודקים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מנגנון מרוכז החשוף לראשונה מבטל זכויות לכלל המשתתפים.",
+    "source_group_id": "batch-0007-resume-e-016",
+    "styles": "report"
+  },
+  "batch-0007-resume-e-017": {
+    "primary_domain": "missile_systems",
+    "domain": "ריכוז ביטוח במיזמי טילים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "גילוי סמוי משנה דרמטית הגנה לעובדים בכל התעשייה הבדיונית.",
+    "source_group_id": "batch-0007-resume-e-017",
+    "styles": "findings"
+  },
+  "batch-0007-resume-e-018": {
+    "primary_domain": "missile_systems",
+    "domain": "איסור ביקורת רוחבית מאוחדת",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסדר גורף מונע בדיקה של כל מיזמי היירוט במקביל.",
+    "source_group_id": "batch-0007-resume-e-018",
+    "styles": "legal-note"
+  },
+  "batch-0007-resume-h-021": {
+    "primary_domain": "missile_systems",
+    "domain": "פרסום שאפשר השוואה מסוכנת בין שני מקורות עדים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הצלבת ראיה ביומן חושפת את כלל המוגנים בחקירת תוכניות יירוט.",
+    "source_group_id": "batch-0007-resume-h-021",
+    "styles": "investigation"
+  },
+  "batch-0007-resume-h-022": {
+    "primary_domain": "missile_systems",
+    "domain": "הכרה אבודה במעגל משפטי משותף",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "נסגרו בבת אחת כל הוראות הקליטה לרוחב מיזמי טילים.",
+    "source_group_id": "batch-0007-resume-h-022",
+    "styles": "findings"
+  },
+  "batch-0007-resume-h-024": {
+    "primary_domain": "missile_systems",
+    "domain": "ביטול מוחלט של כיסוי מערכי טילים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פגיעה רוחבית בכל יחידות ההסמכה עם העברת הגוף.",
+    "source_group_id": "batch-0007-resume-h-024",
+    "styles": "report"
+  },
+  "batch-0007-resume-h-025": {
+    "primary_domain": "missile_systems",
+    "domain": "אובדן מלא של מקור תקפות בכל פרויקט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אף מערך לא מסוגל להמשיך מחדש תהליך רישום הקבלה.",
+    "source_group_id": "batch-0007-resume-h-025",
+    "styles": "report"
+  },
+  "batch-0007-resume-k-020": {
+    "primary_domain": "missile_systems",
+    "domain": "שינוי עקרונות העברה של אחריות מערכתית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תלות נסתרת שוללת בקרה כלכלית מכל תוכניות המיירטים.",
+    "source_group_id": "batch-0007-resume-k-020",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-m-015": {
+    "primary_domain": "missile_systems",
+    "domain": "רשת אימות מוטה בשל תנאי שכר גורף",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "גילוי חריג שהפך את כל ביקורת התעשייה לבלתי תקפה.",
+    "source_group_id": "batch-0007-resume-m-015",
+    "styles": "investigation"
+  },
+  "batch-0007-resume-m-016": {
+    "primary_domain": "missile_systems",
+    "domain": "מחיקת קיום ערכאת ההשגה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "גילוי כלל התקופה כהליך מדומה והשלכה רוחבית.",
+    "source_group_id": "batch-0007-resume-m-016",
+    "styles": "audit"
+  },
+  "batch-0007-resume-m-017": {
+    "primary_domain": "missile_systems",
+    "domain": "פירוק גורף של המסלולים לתיקון סביבתי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פגיעה בכל יישובי המפעלים ללא מקור חלופי מוכר.",
+    "source_group_id": "batch-0007-resume-m-017",
+    "styles": "report"
+  },
+  "batch-0007-resume-m-018": {
+    "primary_domain": "missile_systems",
+    "domain": "המעבר בין גופים הפקיע סייגי עדות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל עדי הביקורת הטילית חשופים לגורמים שפיקחו עליהם.",
+    "source_group_id": "batch-0007-resume-m-018",
+    "styles": "findings"
+  },
+  "batch-0007-resume-m-019": {
+    "primary_domain": "missile_systems",
+    "domain": "הקצאה רוחבית שמבטלת פיצוי לעובדים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פגיעה חריגה ומוכחת בכל מסלולי הפיתוח.",
+    "source_group_id": "batch-0007-resume-m-019",
+    "styles": "report"
+  },
+  "batch-0007-resume-m-020": {
+    "primary_domain": "missile_systems",
+    "domain": "מסמכי תושבים מקושרים לגורמי תעשייה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "חשיפת כלל עדי המפגעים במיזמי יירוט.",
+    "source_group_id": "batch-0007-resume-m-020",
+    "styles": "investigation"
+  },
+  "batch-0007-resume-m-021": {
+    "primary_domain": "missile_systems",
+    "domain": "אמינות תעשייה ברמה מערכתית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "גילוי ראיות שקריות בכל חברות ההערכה, השפעה חריגה.",
+    "source_group_id": "batch-0007-resume-m-021",
+    "styles": "audit"
+  },
+  "batch-0007-resume-m-022": {
+    "primary_domain": "missile_systems",
+    "domain": "כל ניירות הייצוג של קבוצות העדים בוטלו",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל העדים מאבדים עזרה משפטית שהובטחה לפני מסירה.",
+    "source_group_id": "batch-0007-resume-m-022",
+    "styles": "findings"
+  },
+  "batch-0007-resume-m-023": {
+    "primary_domain": "missile_systems",
+    "domain": "פסילת כלל נוהל הפיקוח בטילי יירוט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כשל שחוסם כל שלב הערכה רוחבי.",
+    "source_group_id": "batch-0007-resume-m-023",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-q-021": {
+    "primary_domain": "missile_systems",
+    "domain": "גילוי תוכנית כיסוי גורפת לחקירות המיירטים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "רוחב חריג של הפרה מוכחת בתקופת הערכה.",
+    "source_group_id": "batch-0007-resume-q-021",
+    "styles": "findings"
+  },
+  "batch-0007-resume-b-031": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "קריאה של תצלום רחפן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על אשליית הקנה.",
+    "source_group_id": "batch-0007-resume-b-031",
+    "styles": "lesson"
+  },
+  "batch-0007-resume-e-020": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "תיעוד רחפן לאורך עונות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר ציבורי על הטיית התאמה בין תמונות.",
+    "source_group_id": "batch-0007-resume-e-020",
+    "styles": "guide"
+  },
+  "batch-0007-resume-b-032": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "סימון תצפיות לפי שלב",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אבחנה תיעודית קטנה בשימוש פנימי.",
+    "source_group_id": "batch-0007-resume-b-032",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-h-031": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "תיעוד מקור בצילום רחפן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הבהרת סימונים שגרתית פנימית לצורך הדרכה.",
+    "source_group_id": "batch-0007-resume-h-031",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-i-013": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "פער בין סימן מסוק ונקודת צילום",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "בדיקת ניסוח לתרגיל פנימי של צוות רחפן.",
+    "source_group_id": "batch-0007-resume-i-013",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-r-004": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "מקרא חיתוך תצלום רחפן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הערה פנימית שגרתית לגבי תוצר המחשה.",
+    "source_group_id": "batch-0007-resume-r-004",
+    "styles": "log"
+  },
+  "batch-0007-resume-t-002": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "החלפת דוגמה בתרגיל ספירת מצולמים מרחפן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "טיוב שגרתי של אופן ספירה בדף צוותי.",
+    "source_group_id": "batch-0007-resume-t-002",
+    "styles": "log"
+  },
+  "batch-0007-resume-t-003": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "תיוג איכות תצפית לרכזי רחפן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שינוי מקומי של תיעוד חפיפה.",
+    "source_group_id": "batch-0007-resume-t-003",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-t-004": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "תיקון כותרת תוצר של סקר רחפנים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פעולה שגרתית ביחידת ההדרכה של מיזם אזרחי.",
+    "source_group_id": "batch-0007-resume-t-004",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-b-034": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "מאגר תצלומי מסירה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "חשיפה נוסח שזיהה את כל בעלי החלקות שהוגנו.",
+    "source_group_id": "batch-0007-resume-b-034",
+    "styles": "findings"
+  },
+  "batch-0007-resume-h-033": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "וויתור רוחבי על בדיקה עצמאית בצילומי רחפן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אובדן אפשרות לזהות מימון לכל תוכניות שיקום.",
+    "source_group_id": "batch-0007-resume-h-033",
+    "styles": "audit"
+  },
+  "batch-0007-resume-o-025": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "כל משתתפי סקר הרחפן איבדו הגנה דרך טופסי שיקום",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הצלבה מזהה קבוצה מוגנת של כל תושבי המיזם.",
+    "source_group_id": "batch-0007-resume-o-025",
+    "styles": "investigation"
+  },
+  "batch-0007-resume-b-035": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "מכ״ם בתרגיל הרמזור",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "המחשה לימודית פתוחה של דיסציפלינת חישה.",
+    "source_group_id": "batch-0007-resume-b-035",
+    "styles": "lesson"
+  },
+  "batch-0007-resume-e-024": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "קריאת מה שלא מוצג במכ״ם",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי קצר על ההבדל בין חוסר נתונים לתצפית.",
+    "source_group_id": "batch-0007-resume-e-024",
+    "styles": "qa"
+  },
+  "batch-0007-resume-b-036": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "אחידות כותרות תצלומי חישה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "עדכון קטן לתרגיל צוות.",
+    "source_group_id": "batch-0007-resume-b-036",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-e-025": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "סדר תצוגת תצלומי חלל פנימיים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פעולה פנימית רגילה במצגת דימות לוויין.",
+    "source_group_id": "batch-0007-resume-e-025",
+    "styles": "memo"
+  },
+  "batch-0007-resume-h-034": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "הבדלה בצבעי תרגיל מכ״ם",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון שגרתי פנימי בתרגיל תצוגה.",
+    "source_group_id": "batch-0007-resume-h-034",
+    "styles": "note"
+  },
+  "batch-0007-resume-i-015": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "הבחנה בפלט חיישן סביבתי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פעולה פנימית שגרתית של צוות ניטור.",
+    "source_group_id": "batch-0007-resume-i-015",
+    "styles": "note"
+  },
+  "batch-0007-resume-o-019": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "רישום מיקום צילום בשני צירים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון תיעוד פנימי קטן בתרגיל חישה.",
+    "source_group_id": "batch-0007-resume-o-019",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-q-007": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "תצלום קליטה במעבדת חיישנים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פעילות פנים נקודתית של קריאת תיעוד.",
+    "source_group_id": "batch-0007-resume-q-007",
+    "styles": "log"
+  },
+  "batch-0007-resume-b-037": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "עיכוב תצוגת לוויין לציבור",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטה משמעותית על שינוי תוצר חישה טרם פרסומה.",
+    "source_group_id": "batch-0007-resume-b-037",
+    "styles": "report"
+  },
+  "batch-0007-resume-e-026": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "תיקון תחזית חישה אגנית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ביטול הקצאה מהותית לאחר כשל פנימי בחישה.",
+    "source_group_id": "batch-0007-resume-e-026",
+    "styles": "report"
+  },
+  "batch-0007-resume-h-035": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "שינוי מצב השקעה ברשת חישה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "גילוי מהותי בפיילוט ביטל הרחבה מרכזית.",
+    "source_group_id": "batch-0007-resume-h-035",
+    "styles": "findings"
+  },
+  "batch-0007-resume-o-023": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "כיול במעבדה המרכזית התברר חסר",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא פנימי ביטל רכישת רשת חיישנים למיזם אחד.",
+    "source_group_id": "batch-0007-resume-o-023",
+    "styles": "report"
+  },
+  "batch-0007-resume-b-038": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "פסילת אימות היסטורי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תלות כל רשתות החישה במקור כיול בלתי ניתן לשחזור.",
+    "source_group_id": "batch-0007-resume-b-038",
+    "styles": "findings"
+  },
+  "batch-0007-resume-m-025": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "מרשם לוויינים שכשל בכל סדרות מחקר",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא ארגוני חריג: כל ההצלבות נבעו ממסמכים כוזבים.",
+    "source_group_id": "batch-0007-resume-m-025",
+    "styles": "report"
+  },
+  "batch-0007-resume-b-039": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "אישור הודעה בידי רובוט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר לימודי ברמת שימוש כללית.",
+    "source_group_id": "batch-0007-resume-b-039",
+    "styles": "lesson"
+  },
+  "batch-0007-resume-e-028": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "הצגת שרשור מפוצל",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על סדר הודעות בשני מסכים.",
+    "source_group_id": "batch-0007-resume-e-028",
+    "styles": "guide"
+  },
+  "batch-0007-resume-b-040": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "סדר התכתבות בממשק דמה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שיפור הדגמה פנימית למוקד.",
+    "source_group_id": "batch-0007-resume-b-040",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-e-029": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "מעקב אחר מצב מסירה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון פנימי שגרתי בפרשנות שדה תקשורת.",
+    "source_group_id": "batch-0007-resume-e-029",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-h-037": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "עדכון סוג תשובה בערוץ מוקד",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון פנימי שגרתי של תרגיל הודעות.",
+    "source_group_id": "batch-0007-resume-h-037",
+    "styles": "memo"
+  },
+  "batch-0007-resume-o-018": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "מצב קובץ המוקד אחרי העברה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הגהה פנימית שגרתית.",
+    "source_group_id": "batch-0007-resume-o-018",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-b-041": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "הכרעה בדבר מעבר לספק תקשורת",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא פנימי עיכב מעבר ארגוני משמעותי.",
+    "source_group_id": "batch-0007-resume-b-041",
+    "styles": "findings"
+  },
+  "batch-0007-resume-e-030": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "טיפול בהצעת תקשורת",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פסילת ספק בשל אי עמידה מהותית בתנאי.",
+    "source_group_id": "batch-0007-resume-e-030",
+    "styles": "memo"
+  },
+  "batch-0007-resume-h-038": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "תיעוד חוזי של זמני הודעה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטה מהותית בעקבות השוואה פנימית של תזמונים.",
+    "source_group_id": "batch-0007-resume-h-038",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-o-024": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "החלטת שירות תקשורת נדחתה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא על חוסר כיסוי משמעותי עצר מעבר אחד.",
+    "source_group_id": "batch-0007-resume-o-024",
+    "styles": "report"
+  },
+  "batch-0007-resume-b-042": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "פרסום שם בקבוצת סיוע",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "נחשפו כל הפונים שהובטחה להם אנונימיות.",
+    "source_group_id": "batch-0007-resume-b-042",
+    "styles": "alert"
+  },
+  "batch-0007-resume-e-031": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "חשיפה חריגה בעקבות הודעות קהילתיות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל פוני מרכזי הסיוע נחשפו דרך תפוצה רחבה.",
+    "source_group_id": "batch-0007-resume-e-031",
+    "styles": "findings"
+  },
+  "batch-0007-resume-m-026": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "הגנת צ׳אט קבוצתית שניתנה למראית עין",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שחרור פלט מלא אפשר חשיפה של כל הפונים.",
+    "source_group_id": "batch-0007-resume-m-026",
+    "styles": "findings"
+  },
+  "batch-0007-resume-o-026": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "אובדן תוקף לכל תיקי המוקד בשל רישום פיקטיבי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שירותים רבים נשענו על אישור מהימנות אחד שזויף.",
+    "source_group_id": "batch-0007-resume-o-026",
+    "styles": "audit"
+  },
+  "batch-0007-resume-b-043": {
+    "primary_domain": "defense_logistics",
+    "domain": "בדיקה ציבורית של מכרז ביטחוני",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על הבדל בין תאריכי תיקון והכרה.",
+    "source_group_id": "batch-0007-resume-b-043",
+    "styles": "guide"
+  },
+  "batch-0007-resume-b-044": {
+    "primary_domain": "defense_logistics",
+    "domain": "התאמה חוזרת במחסן ביטחוני",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון מקומי במעקב אחר ציוד אבטחה.",
+    "source_group_id": "batch-0007-resume-b-044",
+    "styles": "note"
+  },
+  "batch-0007-resume-e-032": {
+    "primary_domain": "defense_logistics",
+    "domain": "אישור קבלה ביחידת אבטחה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הפרדת בדיקה ספק מקבלה מחסנאית במסגרת פעילות שגרתית.",
+    "source_group_id": "batch-0007-resume-e-032",
+    "styles": "note"
+  },
+  "batch-0007-resume-b-046": {
+    "primary_domain": "defense_logistics",
+    "domain": "תיק חישוב מלאי ביטחוני",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אובדן רוחבי של עקיבות לכל יחידות האבטחה.",
+    "source_group_id": "batch-0007-resume-b-046",
+    "styles": "findings"
+  },
+  "batch-0007-resume-e-034": {
+    "primary_domain": "defense_logistics",
+    "domain": "נתוני אחריות במערך מחסני אבטחה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כשל רוחבי מפסיק אפשרות להחזר מכל ספקי הציוד.",
+    "source_group_id": "batch-0007-resume-e-034",
+    "styles": "report"
+  },
+  "batch-0007-resume-b-047": {
+    "primary_domain": "general_negative_controls",
+    "domain": "סדנת תיקונים שכונתית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הודעה יומיומית פתוחה.",
+    "source_group_id": "batch-0007-resume-b-047",
+    "styles": "notice"
+  },
+  "batch-0007-resume-b-049": {
+    "primary_domain": "general_negative_controls",
+    "domain": "הרחבת שירות מורים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטת ביטול מיזם אזרחי והשפעה על חוזים.",
+    "source_group_id": "batch-0007-resume-b-049",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-e-036": {
+    "primary_domain": "general_negative_controls",
+    "domain": "תוכנית לימוד מתנ״ס",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא פנימי הביא לביטול היקף פעילות והעסקה.",
+    "source_group_id": "batch-0007-resume-e-036",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-s-004": {
+    "primary_domain": "general_negative_controls",
+    "domain": "עירייה מחזירה החזרי תמיכה בהסעה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא פנימי מהותי משנה החלטת תקציב אחת.",
+    "source_group_id": "batch-0007-resume-s-004",
+    "styles": "memo"
+  },
+  "batch-0007-resume-s-005": {
+    "primary_domain": "general_negative_controls",
+    "domain": "מענקי סדנת אמנות חולקו לפי טופס לא תקף",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטה כספית מהותית שלא פורסמה.",
+    "source_group_id": "batch-0007-resume-s-005",
+    "styles": "report"
+  },
+  "batch-0007-resume-b-050": {
+    "primary_domain": "general_negative_controls",
+    "domain": "חשיפת פונים לתוכנית מוגנת",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הופרה ההגנה של כלל הפונים.",
+    "source_group_id": "batch-0007-resume-b-050",
+    "styles": "alert"
+  },
+  "batch-0007-resume-e-037": {
+    "primary_domain": "general_negative_controls",
+    "domain": "חשיפה במערכת קצבאות מדומה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל נפגעי התוכנית המוגנת ניתנים לזיהוי אצל הגורמים שנבדקו.",
+    "source_group_id": "batch-0007-resume-e-037",
+    "styles": "report"
+  },
+  "batch-0007-resume-c-001": {
+    "primary_domain": "missile_systems",
+    "domain": "חזרה לקריאת דוח יירוט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על סמכות הגוף הכותב.",
+    "source_group_id": "batch-0007-resume-c-001",
+    "styles": "article"
+  },
+  "batch-0007-resume-c-002": {
+    "primary_domain": "missile_systems",
+    "domain": "מדגים טילי בקורס היסטוריה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על ההבדל בין הדגמה להכרה מוסדית.",
+    "source_group_id": "batch-0007-resume-c-002",
+    "styles": "lesson"
+  },
+  "batch-0007-resume-c-003": {
+    "primary_domain": "missile_systems",
+    "domain": "שם תוכנית ומונח ברדיו",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "דיון פומבי על שמות והקשרם.",
+    "source_group_id": "batch-0007-resume-c-003",
+    "styles": "transcript"
+  },
+  "batch-0007-resume-c-004": {
+    "primary_domain": "missile_systems",
+    "domain": "תכלית מסמך הערכה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תרגיל אזרחות פומבי על מסמכים המגיעים למבקר תוכנית יירוט.",
+    "source_group_id": "batch-0007-resume-c-004",
+    "styles": "workbook"
+  },
+  "batch-0007-resume-g-001": {
+    "primary_domain": "missile_systems",
+    "domain": "הציבור כקורא של תוכנית טילית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על ממדי הזמן בתוכניות פיתוח.",
+    "source_group_id": "batch-0007-resume-g-001",
+    "styles": "essay"
+  },
+  "batch-0007-resume-g-002": {
+    "primary_domain": "missile_systems",
+    "domain": "תיעוש ומשך מחזור תוכנית טילים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על מונחי היסטוריה תעשייתית.",
+    "source_group_id": "batch-0007-resume-g-002",
+    "styles": "worksheet"
+  },
+  "batch-0007-resume-g-003": {
+    "primary_domain": "missile_systems",
+    "domain": "ההבדל בין תוכנית לסדרת קבלה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פירוש פומבי של מסמכים וטרמינולוגיה טילית.",
+    "source_group_id": "batch-0007-resume-g-003",
+    "styles": "column"
+  },
+  "batch-0007-resume-j-007": {
+    "primary_domain": "missile_systems",
+    "domain": "פירוש גרף ציבורי על מיירטים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על יחידות מידה והתקציב.",
+    "source_group_id": "batch-0007-resume-j-007",
+    "styles": "guide"
+  },
+  "batch-0007-resume-l-001": {
+    "primary_domain": "missile_systems",
+    "domain": "מטאפורה תקציבית במיזם מיירטים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "המחשה ציבורית על משמעות החלטות תקציב.",
+    "source_group_id": "batch-0007-resume-l-001",
+    "styles": "feature"
+  },
+  "batch-0007-resume-l-002": {
+    "primary_domain": "missile_systems",
+    "domain": "קריאת שדה תאריך בכרוניקה טילית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על פרשנות של ציון התחלה וסיום.",
+    "source_group_id": "batch-0007-resume-l-002",
+    "styles": "radio"
+  },
+  "batch-0007-resume-o-010": {
+    "primary_domain": "missile_systems",
+    "domain": "חוזר לימודי על תולדות תעשיית המיירטים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי לגבולות המונח ״תוכנית יורשת״.",
+    "source_group_id": "batch-0007-resume-o-010",
+    "styles": "lesson"
+  },
+  "batch-0007-resume-o-011": {
+    "primary_domain": "missile_systems",
+    "domain": "כתיבה פומבית של תרשים מיזם הגנה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר עיתונאי פומבי על ייחוס סמכות.",
+    "source_group_id": "batch-0007-resume-o-011",
+    "styles": "guide"
+  },
+  "batch-0007-resume-p-003": {
+    "primary_domain": "missile_systems",
+    "domain": "פירוש כותרת ציורית על טיל",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ניתוח פומבי של מטאפורה וציר זמן.",
+    "source_group_id": "batch-0007-resume-p-003",
+    "styles": "forum"
+  },
+  "batch-0007-resume-p-004": {
+    "primary_domain": "missile_systems",
+    "domain": "ניהול הערכה במספר צוותים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסברה פומבית על תפקידי מיזם מיירטים.",
+    "source_group_id": "batch-0007-resume-p-004",
+    "styles": "qa"
+  },
+  "batch-0007-resume-c-006": {
+    "primary_domain": "missile_systems",
+    "domain": "ביקורת טיוטת תקציב",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הכנת תבנית צוותית רגילה בלי חשיפה של סכומי פרויקט.",
+    "source_group_id": "batch-0007-resume-c-006",
+    "styles": "log"
+  },
+  "batch-0007-resume-c-007": {
+    "primary_domain": "missile_systems",
+    "domain": "מסירת תחזית לעיון פנימי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שגרה משרדית הקשורה לטיעוני תוכנית היירוט.",
+    "source_group_id": "batch-0007-resume-c-007",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-g-004": {
+    "primary_domain": "missile_systems",
+    "domain": "בניית דוגמה להבחנה בטענה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "טיוב חומר הדרכה פנימי בתהליך קבלת מיירט.",
+    "source_group_id": "batch-0007-resume-g-004",
+    "styles": "notebook"
+  },
+  "batch-0007-resume-g-005": {
+    "primary_domain": "missile_systems",
+    "domain": "ניהול פניות על הגדרות מיירט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "בירור שגרתי של אופן סיכום אי בהירות בשלב הקליטה.",
+    "source_group_id": "batch-0007-resume-g-005",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-j-008": {
+    "primary_domain": "missile_systems",
+    "domain": "מפת תפקידים בביקורת מיירטים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון מקומי לחומר חפיפה בצוות.",
+    "source_group_id": "batch-0007-resume-j-008",
+    "styles": "discussion"
+  },
+  "batch-0007-resume-j-009": {
+    "primary_domain": "missile_systems",
+    "domain": "דוגמה לשיוך ראיה בתוכנית טילית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיאום עריכת חפיפה מקומית ללא ממצא בפועל.",
+    "source_group_id": "batch-0007-resume-j-009",
+    "styles": "notebook"
+  },
+  "batch-0007-resume-l-003": {
+    "primary_domain": "missile_systems",
+    "domain": "הפניה שגרתית לקולות ועדת מיירט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הכנת הצגה שגרתית לשימושו של הצוות.",
+    "source_group_id": "batch-0007-resume-l-003",
+    "styles": "log"
+  },
+  "batch-0007-resume-l-004": {
+    "primary_domain": "missile_systems",
+    "domain": "תרגול פנימי של שינויי תכולה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הכנת סדנה מקומית על ההבדל בין דרישה לתוצאה.",
+    "source_group_id": "batch-0007-resume-l-004",
+    "styles": "chat"
+  },
+  "batch-0007-resume-l-005": {
+    "primary_domain": "missile_systems",
+    "domain": "הגהת שאלות למעריך טילי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "עבודה פנימית רגילה על שפה של הכשרה.",
+    "source_group_id": "batch-0007-resume-l-005",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-n-001": {
+    "primary_domain": "missile_systems",
+    "domain": "קישור בין טבלאות רכש וציוד טיפוסי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "רישום פנימי רגיל של התאמה חשבונאית.",
+    "source_group_id": "batch-0007-resume-n-001",
+    "styles": "diary"
+  },
+  "batch-0007-resume-n-002": {
+    "primary_domain": "missile_systems",
+    "domain": "תיאום תמיכת שפה למיזם מיירטים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שגרת פנים לצורך תרגום מושגים ממסמכי המיזם.",
+    "source_group_id": "batch-0007-resume-n-002",
+    "styles": "letter"
+  },
+  "batch-0007-resume-n-004": {
+    "primary_domain": "missile_systems",
+    "domain": "בירור אחריות לעיון בעותק נגיש",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון נקודתי של נגישות בשלב הכנת תיק מיירט.",
+    "source_group_id": "batch-0007-resume-n-004",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-n-005": {
+    "primary_domain": "missile_systems",
+    "domain": "בירור בין הזמנת עיון לבין מגבלת תיק",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיעוד פנימי שגרתי בהפקת חומר לצוות יירוט.",
+    "source_group_id": "batch-0007-resume-n-005",
+    "styles": "notebook"
+  },
+  "batch-0007-resume-n-006": {
+    "primary_domain": "missile_systems",
+    "domain": "שפה פנימית למשימות עמיתים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שיפור שגרתי של קבוצת בדיקת מסמכים.",
+    "source_group_id": "batch-0007-resume-n-006",
+    "styles": "memo"
+  },
+  "batch-0007-resume-p-005": {
+    "primary_domain": "missile_systems",
+    "domain": "תיקון הערת רכזת על מועד עיון",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שגרה פנימית של תיעוד תיק מיירט.",
+    "source_group_id": "batch-0007-resume-p-005",
+    "styles": "diary"
+  },
+  "batch-0007-resume-p-006": {
+    "primary_domain": "missile_systems",
+    "domain": "חלוקת שאלות במפגש בקרה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הכנת סמינר פנימי לענף היירוט במסגרת שגרה.",
+    "source_group_id": "batch-0007-resume-p-006",
+    "styles": "chat"
+  },
+  "batch-0007-resume-q-009": {
+    "primary_domain": "missile_systems",
+    "domain": "משוב לשולחן הסבר בתיק המיירט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון חומר פנימי מקומי לפי משוב קוראים.",
+    "source_group_id": "batch-0007-resume-q-009",
+    "styles": "letter"
+  },
+  "batch-0007-resume-r-014": {
+    "primary_domain": "missile_systems",
+    "domain": "בדיקה פנימית של כתיב הפניות בתיק הערכת מיירט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שגרת עבודה ממוקדת במדריכי הצוות.",
+    "source_group_id": "batch-0007-resume-r-014",
+    "styles": "letter"
+  },
+  "batch-0007-resume-c-008": {
+    "primary_domain": "missile_systems",
+    "domain": "קריסת השערה בתוכנית מיירט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטת עצירת מיזם לאחר ממצא שלא נמסר לציבור.",
+    "source_group_id": "batch-0007-resume-c-008",
+    "styles": "memo"
+  },
+  "batch-0007-resume-c-011": {
+    "primary_domain": "missile_systems",
+    "domain": "עבודת מושגי מערכת שנפגעה מבעלות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "עצרו הסכם מרכזי בעקבות קביעה משפטית פנימית.",
+    "source_group_id": "batch-0007-resume-c-011",
+    "styles": "letter"
+  },
+  "batch-0007-resume-g-008": {
+    "primary_domain": "missile_systems",
+    "domain": "התכנסות תוכנית טילים אחרי מחלוקת מחקר",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "נפסלה מסקנת מחקר מכרעת במסלול אחד.",
+    "source_group_id": "batch-0007-resume-g-008",
+    "styles": "findings"
+  },
+  "batch-0007-resume-g-009": {
+    "primary_domain": "missile_systems",
+    "domain": "צמצום הכשרת מבקרי מיירטים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מימון מסלול הוצאה מהותית הוקפא לפני פרסום.",
+    "source_group_id": "batch-0007-resume-g-009",
+    "styles": "letter"
+  },
+  "batch-0007-resume-g-011": {
+    "primary_domain": "missile_systems",
+    "domain": "תקפות מידע על הכרה מוסדית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ביטול פנימי של החלטה בפרויקט מיירט.",
+    "source_group_id": "batch-0007-resume-g-011",
+    "styles": "report"
+  },
+  "batch-0007-resume-j-012": {
+    "primary_domain": "missile_systems",
+    "domain": "הערכת תשואה מחקרית שנפסלה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא פנימי שגרר ביטול מסלול השקעה במיירט.",
+    "source_group_id": "batch-0007-resume-j-012",
+    "styles": "report"
+  },
+  "batch-0007-resume-l-009": {
+    "primary_domain": "missile_systems",
+    "domain": "ניגוד בין הבטחת התאמה לחבילת ראיות מיירט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "בדיקה הפילה המלצת קבלה שלא פורסמה.",
+    "source_group_id": "batch-0007-resume-l-009",
+    "styles": "audit"
+  },
+  "batch-0007-resume-n-007": {
+    "primary_domain": "missile_systems",
+    "domain": "אומדן מחקר שנפסל בשל טעות בין קבוצות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא פנימי עצר השקעה בתוכנית מיירט אחת.",
+    "source_group_id": "batch-0007-resume-n-007",
+    "styles": "report"
+  },
+  "batch-0007-resume-n-009": {
+    "primary_domain": "missile_systems",
+    "domain": "הערכת מיזם מיירט שנסגרה בשגגה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "פסילת אישור לפני קבלת הגוף המזמין.",
+    "source_group_id": "batch-0007-resume-n-009",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-n-010": {
+    "primary_domain": "missile_systems",
+    "domain": "מכון פיקוח הוחלף ללא אישור",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא פנימי קשור להתקשרות עיקרית בתוכנית יחידה.",
+    "source_group_id": "batch-0007-resume-n-010",
+    "styles": "audit"
+  },
+  "batch-0007-resume-p-008": {
+    "primary_domain": "missile_systems",
+    "domain": "תוצאת ביקורת עצמאית שינתה תוכנית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטה משמעותית על ביטול הרחבת מיירט יחיד.",
+    "source_group_id": "batch-0007-resume-p-008",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-c-014": {
+    "primary_domain": "missile_systems",
+    "domain": "נעילת תהליך פיצויים רוחבית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "נסגר מנגנון פיצוי לכל משפחות תוכניות יירוט יחד.",
+    "source_group_id": "batch-0007-resume-c-014",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-g-012": {
+    "primary_domain": "missile_systems",
+    "domain": "שרשור הגנות משותף לעובדים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל העובדים בתוכניות היירוט איבדו הגנה מוסדית בבת אחת.",
+    "source_group_id": "batch-0007-resume-g-012",
+    "styles": "report"
+  },
+  "batch-0007-resume-g-013": {
+    "primary_domain": "missile_systems",
+    "domain": "רציפות הסמכת תוכניות טילים ושכר",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "התפרקות מנגנון רוחבי מבטלת הכרה לכלל הבודקים.",
+    "source_group_id": "batch-0007-resume-g-013",
+    "styles": "findings"
+  },
+  "batch-0007-resume-g-014": {
+    "primary_domain": "missile_systems",
+    "domain": "הכרעה שאי אפשר לפרט בלי לחשוף עדים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הפצה לרוחב התוכניות חשפה כל מי שקיבל הבטחה להגנה.",
+    "source_group_id": "batch-0007-resume-g-014",
+    "styles": "audit"
+  },
+  "batch-0007-resume-j-018": {
+    "primary_domain": "missile_systems",
+    "domain": "אובדן הגנה מערכתית לכל דור מפעלי מיירטים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "התבטלו בבת אחת תנאי ביטוח של כלל החוקרים מכל התוכניות.",
+    "source_group_id": "batch-0007-resume-j-018",
+    "styles": "report"
+  },
+  "batch-0007-resume-j-019": {
+    "primary_domain": "missile_systems",
+    "domain": "חסימת מנגנון תיעוד חוצה מיירטים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כשל משותף מונע לעולמים קיום ביקורת של כל תוכניות המיירטים מהתקופה.",
+    "source_group_id": "batch-0007-resume-j-019",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-n-012": {
+    "primary_domain": "missile_systems",
+    "domain": "אובדן מערכתי של זכות תושבים לעיין לפני סגירת מפעלים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שינוי חוצה אתרים ובתי משפט שגוזר אובדן זכות גורפת.",
+    "source_group_id": "batch-0007-resume-n-012",
+    "styles": "report"
+  },
+  "batch-0007-resume-n-014": {
+    "primary_domain": "missile_systems",
+    "domain": "שיתוף בפרסומים שזיהה כלל משפחות עדות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ביטול אנונימיות קבוצתי לכל התוכניות.",
+    "source_group_id": "batch-0007-resume-n-014",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-p-012": {
+    "primary_domain": "missile_systems",
+    "domain": "הטיית כל הערכות המיירטים בשיטת העסקה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "גילוי רוחבי מבטל החלטות בכל קבוצת תוכניות.",
+    "source_group_id": "batch-0007-resume-p-012",
+    "styles": "investigation"
+  },
+  "batch-0007-resume-p-013": {
+    "primary_domain": "missile_systems",
+    "domain": "סגירה רוחבית של אפשרות מימון פינוי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "מסמך העברה שומט את בסיס כל תביעות המשפחות.",
+    "source_group_id": "batch-0007-resume-p-013",
+    "styles": "legal-note"
+  },
+  "batch-0007-resume-q-022": {
+    "primary_domain": "missile_systems",
+    "domain": "גילוי הכנסה אסורה משותפת לכל מפעלי ההערכה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "עילת ביטול חוצה ענף שמבטלת את ההכרעה המקורית.",
+    "source_group_id": "batch-0007-resume-q-022",
+    "styles": "report"
+  },
+  "batch-0007-resume-c-015": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "השוואת תצלומי רחפן פתוחה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תרגיל ציבורי על מדידה חזותית.",
+    "source_group_id": "batch-0007-resume-c-015",
+    "styles": "workbook"
+  },
+  "batch-0007-resume-c-017": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "ביטול הרחבת שילוח נסיוני",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "בדיקה פנימית שסגרה שלב מהותי במיזם רחפן.",
+    "source_group_id": "batch-0007-resume-c-017",
+    "styles": "report"
+  },
+  "batch-0007-resume-p-009": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "סקר רחפן הוביל לרכש מוגזם",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא פנימי עצר מיזם תיקון מהותי.",
+    "source_group_id": "batch-0007-resume-p-009",
+    "styles": "report"
+  },
+  "batch-0007-resume-c-019": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "מעבר לוויין ותאריך קובץ",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שאלות ציבוריות על פערי תאריכים.",
+    "source_group_id": "batch-0007-resume-c-019",
+    "styles": "qa"
+  },
+  "batch-0007-resume-c-021": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "סדרת הערכה לוויינית לא תקפה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "נפסלה הערכה מהותית לפני חוזה אחד.",
+    "source_group_id": "batch-0007-resume-c-021",
+    "styles": "findings"
+  },
+  "batch-0007-resume-g-022": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "הערכת קנייה של חיישני רטיבות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "בוטלה הרחבת רכש עקב שגיאת מחקר פנימית משמעותית.",
+    "source_group_id": "batch-0007-resume-g-022",
+    "styles": "findings"
+  },
+  "batch-0007-resume-i-019": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "תחזית חיישנים שנמשכה לפני אישור",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הממצא הפנימי פסל תוצר והשהה מימון אחד.",
+    "source_group_id": "batch-0007-resume-i-019",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-p-010": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "פסילת ניסוי ברשת חיישני מים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא פנימי הוביל לעצירת רכישה מהותית.",
+    "source_group_id": "batch-0007-resume-p-010",
+    "styles": "audit"
+  },
+  "batch-0007-resume-q-014": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "השהיית התחייבות על תצפית חללית",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "בדיקה פסלה מוצר מהותי לפני הכרעה ציבורית.",
+    "source_group_id": "batch-0007-resume-q-014",
+    "styles": "report"
+  },
+  "batch-0007-resume-c-022": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "הסתמכות מערכתית על תמונת ייחוס אבודה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אין דרך להעריך מחדש את כל סדרות החישה ההיסטוריות.",
+    "source_group_id": "batch-0007-resume-c-022",
+    "styles": "report"
+  },
+  "batch-0007-resume-l-018": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "הסכמת חישה רפואית שנשברה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "כל אתרי המקלט המוגנים זוהו באמצעות תיאור תצפית ושעות פעילות.",
+    "source_group_id": "batch-0007-resume-l-018",
+    "styles": "audit"
+  },
+  "batch-0007-resume-c-023": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "איך קוראים חיווי מסירה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר פומבי על אפשרויות שונות לחיווי.",
+    "source_group_id": "batch-0007-resume-c-023",
+    "styles": "guide"
+  },
+  "batch-0007-resume-o-012": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "התראה לקורא פומבי על הבדלי עותקים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסבר לימודי פתוח לתכונת שיחה.",
+    "source_group_id": "batch-0007-resume-o-012",
+    "styles": "workbook"
+  },
+  "batch-0007-resume-c-025": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "עיכוב שירות הודעות ",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "החלטה משמעותית אחרי כשל פנימי בבדיקת קבלת השירות.",
+    "source_group_id": "batch-0007-resume-c-025",
+    "styles": "minutes"
+  },
+  "batch-0007-resume-i-020": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "החלטת מיקור תקשורת בוטלה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ממצא מהותי הביא לביטול שירות מוצע.",
+    "source_group_id": "batch-0007-resume-i-020",
+    "styles": "memo"
+  },
+  "batch-0007-resume-c-032": {
+    "primary_domain": "general_negative_controls",
+    "domain": "אירוע נוער מקומי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיאום צוות פנימי רגיל לקראת אירוע.",
+    "source_group_id": "batch-0007-resume-c-032",
+    "styles": "chat"
+  },
+  "batch-0007-resume-c-034": {
+    "primary_domain": "general_negative_controls",
+    "domain": "חשיפת כל משפחות מקלט זמני",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הוסרה הגנה חריגה ממספר תוכניות מקלט אזרחיות.",
+    "source_group_id": "batch-0007-resume-c-034",
+    "styles": "report"
+  },
+  "batch-0007-resume-d-051": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "איחוד טבלאות זהות דורש הגנה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "חשיפה מערכתית של זהויות מוגנות.",
+    "source_group_id": "batch-0007-resume-d-051",
+    "styles": "alert"
+  },
+  "batch-0007-resume-g-017": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "מפתח שמות בקבוצת דימות רחפן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיאום שגרתי של הבחנה בין חיתוכים בתיק הדרכה.",
+    "source_group_id": "batch-0007-resume-g-017",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-q-012": {
+    "primary_domain": "uncrewed_aircraft",
+    "domain": "משמעויות של מספור צילומי רחפן",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הכנת דף חפיפה שגרתי להבחנה בין תמונות.",
+    "source_group_id": "batch-0007-resume-q-012",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-g-021": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "סיכום הזיהוי הדגמתי בלוויין",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיאום פנימי שגרתי לשאלות בתרגילי חישה.",
+    "source_group_id": "batch-0007-resume-g-021",
+    "styles": "note"
+  },
+  "batch-0007-resume-i-016": {
+    "primary_domain": "radar_sensors_space",
+    "domain": "שיחות תצפית במיזם לוויין",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון דוגמה פנימית לעובדי הדרכה רלוונטיים.",
+    "source_group_id": "batch-0007-resume-i-016",
+    "styles": "handoff"
+  },
+  "batch-0007-resume-g-027": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "דוחות חלוקת כינויי מוקדים",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "זהות כל המדווחים הוסקה מצמד פרסומים משלימים.",
+    "source_group_id": "batch-0007-resume-g-027",
+    "styles": "findings"
+  },
+  "batch-0007-resume-i-023": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "דליפת נספחים בכל מוקדי הודעות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "שילוב אוטומטי של מסמכי הדרכה חשף את כל העובדים המוגנים.",
+    "source_group_id": "batch-0007-resume-i-023",
+    "styles": "audit"
+  },
+  "batch-0007-resume-q-024": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "אובדן אינטגריטיות רוחבי במערך שיחות תלונה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אישורי טיפול לכל מוקדי העדות נוצרו ללא בדיקה, והכול הושעה.",
+    "source_group_id": "batch-0007-resume-q-024",
+    "styles": "report"
+  },
+  "batch-0007-resume-r-013": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "נטילת זכות תלונה של כלל משתמשי מערכת הודעות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "הסכמה שהוחלה בכל המוקדים מבטלת עררים קיימים.",
+    "source_group_id": "batch-0007-resume-r-013",
+    "styles": "investigation"
+  },
+  "batch-0007-resume-g-030": {
+    "primary_domain": "defense_logistics",
+    "domain": "שבירת שירות מרכזי למחסני אבטחה",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "אובדן רוחבי של אפשרות טיפול בכל פריטי הציוד שהופקדו.",
+    "source_group_id": "batch-0007-resume-g-030",
+    "styles": "report"
+  },
+  "batch-0007-resume-i-005": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "הגהת סטטוסים בצ׳אט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון ניסוח מקומי בפנקס עבודה.",
+    "source_group_id": "batch-0007-resume-i-005",
+    "styles": "note"
+  },
+  "batch-0007-resume-o-003": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "מסלול חפיפה בהודעות",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "סימון שגרתי בטופס פנימי.",
+    "source_group_id": "batch-0007-resume-o-003",
+    "styles": "log"
+  },
+  "batch-0007-resume-o-005": {
+    "primary_domain": "cyber_communications_c2",
+    "domain": "שיוך שרשור מוקד אחד",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון הקשר של הודעה לשימוש פנימי.",
+    "source_group_id": "batch-0007-resume-o-005",
+    "styles": "ticket"
+  },
+  "batch-0007-resume-q-001": {
+    "primary_domain": "defense_logistics",
+    "domain": "רכש ציוד מגן גלוי",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "ערך פומבי במחסן ביטחוני.",
+    "source_group_id": "batch-0007-resume-q-001",
+    "styles": "caption"
+  },
+  "batch-0007-resume-f-003": {
+    "primary_domain": "missile_systems",
+    "domain": "סימון תיק יירוט",
+    "background": "תוכן סינתטי. שמות המיזמים וההתרחשויות הארגוניות בדיוניים.",
+    "facts": "תיקון מקומי בחומר פנים.",
+    "source_group_id": "batch-0007-resume-f-003",
+    "styles": "note"
   }
 }

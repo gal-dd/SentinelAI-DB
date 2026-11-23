@@ -1,0 +1,37 @@
+{
+  "checkpoint": 7,
+  "indexed_prior_records": 6600,
+  "external_import_records_included": 3600,
+  "normalized_duplicate_count": 0,
+  "lexical_alerts": 0,
+  "semantic": {
+    "status": "completed",
+    "model": "Xenova/multilingual-e5-small",
+    "reference_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+    "artifact_sha256": {
+      "model_int8.onnx": "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c",
+      "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+    },
+    "search": "hnsw_cosine_top_k",
+    "cosine_threshold": 0.92,
+    "neighbors_per_record": 12,
+    "indexed_records": 7100,
+    "scanned_records": 500,
+    "candidate_pairs": 628
+  },
+  "unresolved_high_risk_alerts": 0,
+  "reviewed_high_risk_distinct_pairs": [
+    {
+      "id": "67e0b765e8351665fdd8e8c796837b02f75b633613cec287345b24712d08098c",
+      "status": "keep",
+      "reason": "בצד הראשון השימוע חושף כתובות של עדים מוגנים, פגיעה ישירה בהגנת זהות ומקום. בצד השני תיק יירוט עובר איחוד הפניות שגרתי, בלי לחשוף ראיה או עדות."
+    },
+    {
+      "id": "bc495b8894e57bf8a1a28e3528d74b81b7447f86287811fcf2670b6353a7d6d9",
+      "status": "keep",
+      "reason": "הודעת שימוע שכבר פורסמה היא מידע ציבורי; איחוד הפניות לדרישה הוא שיפור פנימי של סדר התיק. ההחלטה אם לערוך שימוע ותיקון ההפניות אינם אותו אירוע."
+    }
+  ],
+  "full_batch_blind_review_records": 500,
+  "reviewer_limits": "Separate AI agents from the same model family reviewed unlabeled text. No independent model family or human validation."
+}
