@@ -1,6 +1,14 @@
 name: Batch 0008 independent baseline E5 QA
 
 on:
+  push:
+    branches: [producer/chat-batch-0008-v1]
+    paths:
+      - drafts/chat/batch-0008/batch-0008-candidates.jsonl
+      - scripts/batch_0008_e5_audit.py
+      - scripts/validate_batch_0008.py
+      - config/scenarios.json
+      - .github/workflows/batch-0008-e5.yml
   pull_request:
     branches: [poc/defense-focused-v2]
     paths:
