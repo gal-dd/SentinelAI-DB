@@ -1,0 +1,173 @@
+{
+  "scope": "blinded domain contextual relevance",
+  "decisions": [
+    {
+      "id": "D001",
+      "primary_domain": "radar_sensors_space",
+      "reason": "רשת מרכזי חלל וחוזי הצגת תצלומים",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D002",
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "שימושים אזרחיים היסטוריים בתצלומי כטבמים",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D003",
+      "primary_domain": "missile_systems",
+      "reason": "תיאום פעילות של מרכז מורשת יירוט, אך התחום נזכר בעיקר בהקשר מנהלי",
+      "status": "weak_relevance",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D004",
+      "primary_domain": "cyber_communications_c2",
+      "reason": "רשת מוסדות לתיעוד תקשורת, עם כשל הגנת משתתפים",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D005",
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "זכויות מחקר היסטורי על כטבמים",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D006",
+      "primary_domain": "general_negative_controls",
+      "reason": "מרכז גינון אזרחי ללא עניין ביטחוני",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D007",
+      "primary_domain": "defense_logistics",
+      "reason": "עבודת מחסן במוזיאון מורשת ביטחונית, לוגיסטיקה מוזיאלית בלבד",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D008",
+      "primary_domain": "defense_logistics",
+      "reason": "ביקורת מכרז שימור של מוסד מורשת ביטחוני",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D009",
+      "primary_domain": "cyber_communications_c2",
+      "reason": "תרבות תכתובות דיגיטליות ואחריות מידע",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D010",
+      "primary_domain": "defense_logistics",
+      "reason": "השאלות ומשפטי זכויות במוזיאונים ביטחוניים, דגש מנהלי",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D011",
+      "primary_domain": "general_negative_controls",
+      "reason": "תערוכת ציורי גינה אזרחית",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D012",
+      "primary_domain": "missile_systems",
+      "reason": "רשת מורשת מערכות יירוט והסכמי שימוש, תחום רק במסגרת הארגונית",
+      "status": "weak_relevance",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D013",
+      "primary_domain": "general_negative_controls",
+      "reason": "תוכנית מלגות אזרחית ומימון",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D014",
+      "primary_domain": "radar_sensors_space",
+      "reason": "רישיונות תצלומי לוויינים במרכז לתיעוד חלל",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D015",
+      "primary_domain": "radar_sensors_space",
+      "reason": "פגישה במכון לתולדות מכ״ם",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D016",
+      "primary_domain": "defense_logistics",
+      "reason": "שימור מוצגים במוזיאון מורשת ביטחונית",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D017",
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "הדרכת מורשת כטבמים",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D018",
+      "primary_domain": "general_negative_controls",
+      "reason": "ארכיונים אזרחיים ופרטיות עדים",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D019",
+      "primary_domain": "radar_sensors_space",
+      "reason": "הרצאה ציבורית על תצלומי לוויינים",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D020",
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "הסכמות מרואיינים בארכיון תעופה בלתי מאוישת",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D021",
+      "primary_domain": "missile_systems",
+      "reason": "תוכנית לימוד על תקציבי מחקר טילים בדיון ציבורי",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D022",
+      "primary_domain": "cyber_communications_c2",
+      "reason": "מחקר היסטוריה של סייבר ורישיונות",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D023",
+      "primary_domain": "cyber_communications_c2",
+      "reason": "צוות מוזיאון תקשורת דיגיטלית",
+      "status": "pass",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    },
+    {
+      "id": "D024",
+      "primary_domain": "missile_systems",
+      "reason": "שירותי עריכה במוסד מורשת הגנה אווירית, תחום מוזכר בהקשר ארגוני",
+      "status": "weak_relevance",
+      "reviewer": "GPT-6 text-only contextual domain review; not independent model"
+    }
+  ]
+}
