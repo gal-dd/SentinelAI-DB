@@ -1,0 +1,24 @@
+{
+  "checkpoint": 6,
+  "source_branch": "experiment/autonomous-intake-v1",
+  "target_branch": "poc/defense-focused-v2",
+  "candidates": "drafts/autonomous-intake-v1/batch-0006-candidates.jsonl",
+  "annotations": "reviews/autonomous-intake-v1/gpt6-blind-label-annotations.json",
+  "expected_production_records": 6100,
+  "expected_production_after": 6600,
+  "expected_ids": [
+    6101,
+    6600
+  ],
+  "approval_basis": "GPT-6 same-model text-first review; E5 cross-check",
+  "independent_model_review": "not_performed",
+  "required_gates": [
+    "fresh_preparation",
+    "no_unreviewed_sample",
+    "zero_label_disagreements",
+    "full_domain_sample",
+    "zero_unresolved_high_risk_E5",
+    "staged_checkpoint_verify",
+    "push_and_remote_confirm"
+  ]
+}
