@@ -1681,5 +1681,150 @@
     "styles": "official, conversational, educational",
     "distinction": "תרבות, תורנות, זכויות ומידע מוגן",
     "primary_domain": "general_negative_controls"
+  },
+  "autointake-20261123-001": {
+    "source_group_id": "autointake-20261123-001",
+    "description": "הודעת תיאום פנימית שגרתית",
+    "fictional": true
+  },
+  "autointake-20261123-002": {
+    "source_group_id": "autointake-20261123-002",
+    "description": "החלטה ארגונית פנימית מקומית",
+    "fictional": true
+  },
+  "autointake-20261123-003": {
+    "source_group_id": "autointake-20261123-003",
+    "description": "החלטה מהותית בחוזה שטרם פורסמה",
+    "fictional": true
+  },
+  "autointake-20261123-004": {
+    "source_group_id": "autointake-20261123-004",
+    "description": "ממצא לא פומבי המשנה מסלול פרויקט",
+    "fictional": true
+  },
+  "autointake-20261123-005": {
+    "source_group_id": "autointake-20261123-005",
+    "description": "קישור מוגן בעל השלכה חריגה על זהויות בדויות",
+    "fictional": true
+  },
+  "autointake-20261123-006": {
+    "source_group_id": "autointake-20261123-006",
+    "description": "חשיפת זיהוי רוחבית בדיונית של קבוצות מוגנות",
+    "fictional": true
+  },
+  "autointake-20261123-007": {
+    "source_group_id": "autointake-20261123-007",
+    "description": "תיקון ארגוני שגרתי",
+    "fictional": true
+  },
+  "autointake-20261123-008": {
+    "source_group_id": "autointake-20261123-008",
+    "description": "חלוקת משימות פנימית מצומצמת",
+    "fictional": true
+  },
+  "autointake-20261123-009": {
+    "source_group_id": "autointake-20261123-009",
+    "description": "שינוי מהותי בתקציב שלא פורסם",
+    "fictional": true
+  },
+  "autointake-20261123-010": {
+    "source_group_id": "autointake-20261123-010",
+    "description": "ממצא פנימי בעל השפעה מהותית על מחקר ומימון",
+    "fictional": true
+  },
+  "autointake-20261123-011": {
+    "source_group_id": "autointake-20261123-011",
+    "description": "תלות סמויה רחבה בעלת השלכה חריגה",
+    "fictional": true
+  },
+  "autointake-20261123-012": {
+    "source_group_id": "autointake-20261123-012",
+    "description": "תלות משפטית מערכתית חריגה בארגון בדיוני",
+    "fictional": true
+  },
+  "autointake-20261123-013": {
+    "source_group_id": "autointake-20261123-013",
+    "description": "סידור עבודה פנימי שגרתי",
+    "fictional": true
+  },
+  "autointake-20261123-014": {
+    "source_group_id": "autointake-20261123-014",
+    "description": "משימת עריכה פנימית ללא השלכה משמעותית",
+    "fictional": true
+  },
+  "autointake-20261123-015": {
+    "source_group_id": "autointake-20261123-015",
+    "description": "החלטת מכרז לא פומבית בעלת השלכה מהותית",
+    "fictional": true
+  },
+  "autointake-20261123-016": {
+    "source_group_id": "autointake-20261123-016",
+    "description": "גילוי פנימי המשנה פרויקט משמעותי",
+    "fictional": true
+  },
+  "autointake-20261123-017": {
+    "source_group_id": "autointake-20261123-017",
+    "description": "פוטנציאל חשיפה רוחבית של זהויות מוגנות",
+    "fictional": true
+  },
+  "autointake-20261123-018": {
+    "source_group_id": "autointake-20261123-018",
+    "description": "חשיפה מערכתית של זהויות שהופרדו להגנה",
+    "fictional": true
+  },
+  "autointake-20261123-019": {
+    "source_group_id": "autointake-20261123-019",
+    "description": "הזמנת ציוד שגרתית",
+    "fictional": true
+  },
+  "autointake-20261123-020": {
+    "source_group_id": "autointake-20261123-020",
+    "description": "סידור תפעולי מקומי",
+    "fictional": true
+  },
+  "autointake-20261123-021": {
+    "source_group_id": "autointake-20261123-021",
+    "description": "עצירת חוזה מהותית לא פומבית",
+    "fictional": true
+  },
+  "autointake-20261123-022": {
+    "source_group_id": "autointake-20261123-022",
+    "description": "ממצא כספי מהותי לפרויקט יחיד",
+    "fictional": true
+  },
+  "autointake-20261123-023": {
+    "source_group_id": "autointake-20261123-023",
+    "description": "תלות חוזית רוחבית ומוגנת",
+    "fictional": true
+  },
+  "autointake-20261123-024": {
+    "source_group_id": "autointake-20261123-024",
+    "description": "שינוי פנימי שגרתי בהנגשת תיעוד",
+    "fictional": true
+  },
+  "autointake-20261123-025": {
+    "source_group_id": "autointake-20261123-025",
+    "description": "תיאום ארגוני פנימי בתחום תיעוד טילים",
+    "fictional": true
+  },
+  "autointake-20261123-026": {
+    "source_group_id": "autointake-20261123-026",
+    "description": "החלטת פרויקט מהותית שלא פורסמה",
+    "fictional": true
+  },
+  "autointake-20261123-027": {
+    "source_group_id": "autointake-20261123-027",
+    "description": "ממצא מהותי בפרויקט יחיד",
+    "fictional": true
+  },
+  "autointake-20261123-028": {
+    "source_group_id": "autointake-20261123-028",
+    "description": "סיכון רוחבי חריג לזכויות במוסדות בדיוניים",
+    "fictional": true
+  },
+  "autointake-20261123-029": {
+    "source_group_id": "autointake-20261123-029",
+    "description": "תלות משפטית רוחבית וחריגה בחומר ארכיוני",
+    "fictional": true
   }
 }
