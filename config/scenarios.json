@@ -3699,5 +3699,160 @@
     "source_group_id": "autointake-20261123-120",
     "description": "תלות משפטית רחבה עם השלכה חריגה",
     "fictional": true
+  },
+  "autointake-20261123-121": {
+    "source_group_id": "autointake-20261123-121",
+    "description": "תיאום הדרכה",
+    "fictional": true
+  },
+  "autointake-20261123-122": {
+    "source_group_id": "autointake-20261123-122",
+    "description": "סידור תוכנית פנימי",
+    "fictional": true
+  },
+  "autointake-20261123-123": {
+    "source_group_id": "autointake-20261123-123",
+    "description": "בקשה מנהלתית שגרתית",
+    "fictional": true
+  },
+  "autointake-20261123-124": {
+    "source_group_id": "autointake-20261123-124",
+    "description": "סידור חומרי קריאה",
+    "fictional": true
+  },
+  "autointake-20261123-125": {
+    "source_group_id": "autointake-20261123-125",
+    "description": "החלטה לוגיסטית מקומית",
+    "fictional": true
+  },
+  "autointake-20261123-126": {
+    "source_group_id": "autointake-20261123-126",
+    "description": "תוכנית עבודה פנימית",
+    "fictional": true
+  },
+  "autointake-20261123-127": {
+    "source_group_id": "autointake-20261123-127",
+    "description": "חפיפה פנימית להכנת כנס",
+    "fictional": true
+  },
+  "autointake-20261123-128": {
+    "source_group_id": "autointake-20261123-128",
+    "description": "ממצא לא פומבי המוביל לשינוי מהותי בפרויקט",
+    "fictional": true
+  },
+  "autointake-20261123-129": {
+    "source_group_id": "autointake-20261123-129",
+    "description": "ממצא לא פומבי המוביל לשינוי מהותי בפרויקט",
+    "fictional": true
+  },
+  "autointake-20261123-130": {
+    "source_group_id": "autointake-20261123-130",
+    "description": "פגם חוזי משמעותי",
+    "fictional": true
+  },
+  "autointake-20261123-131": {
+    "source_group_id": "autointake-20261123-131",
+    "description": "שינוי תקציבי מהותי",
+    "fictional": true
+  },
+  "autointake-20261123-132": {
+    "source_group_id": "autointake-20261123-132",
+    "description": "ממצא זכויות שלא פורסם",
+    "fictional": true
+  },
+  "autointake-20261123-133": {
+    "source_group_id": "autointake-20261123-133",
+    "description": "החלטה כספית מהותית",
+    "fictional": true
+  },
+  "autointake-20261123-134": {
+    "source_group_id": "autointake-20261123-134",
+    "description": "ביטול התרחבות לא פומבי",
+    "fictional": true
+  },
+  "autointake-20261123-135": {
+    "source_group_id": "autointake-20261123-135",
+    "description": "ממצא מימון מהותי",
+    "fictional": true
+  },
+  "autointake-20261123-136": {
+    "source_group_id": "autointake-20261123-136",
+    "description": "סוגיית רישוי מהותית לפרויקט",
+    "fictional": true
+  },
+  "autointake-20261123-137": {
+    "source_group_id": "autointake-20261123-137",
+    "description": "ביטול הליך רכש מהותי",
+    "fictional": true
+  },
+  "autointake-20261123-138": {
+    "source_group_id": "autointake-20261123-138",
+    "description": "חשיפה מערכתית חריגה של זכויות או זהויות",
+    "fictional": true
+  },
+  "autointake-20261123-139": {
+    "source_group_id": "autointake-20261123-139",
+    "description": "חשיפה מערכתית חריגה של זכויות או זהויות",
+    "fictional": true
+  },
+  "autointake-20261123-140": {
+    "source_group_id": "autointake-20261123-140",
+    "description": "חשיפה מערכתית חריגה של זכויות או זהויות",
+    "fictional": true
+  },
+  "autointake-20261123-141": {
+    "source_group_id": "autointake-20261123-141",
+    "description": "חשיפה מערכתית חריגה של זכויות או זהויות",
+    "fictional": true
+  },
+  "autointake-20261123-142": {
+    "source_group_id": "autointake-20261123-142",
+    "description": "קישור זהויות מוגנות",
+    "fictional": true
+  },
+  "autointake-20261123-143": {
+    "source_group_id": "autointake-20261123-143",
+    "description": "תלות משפטית חוצת מוסדות",
+    "fictional": true
+  },
+  "autointake-20261123-144": {
+    "source_group_id": "autointake-20261123-144",
+    "description": "חשיפת זהויות רוחבית",
+    "fictional": true
+  },
+  "autointake-20261123-145": {
+    "source_group_id": "autointake-20261123-145",
+    "description": "תלות מימון רוחבית חריגה",
+    "fictional": true
+  },
+  "autointake-20261123-146": {
+    "source_group_id": "autointake-20261123-146",
+    "description": "סיכון רוחבי לזכויות משתתפים",
+    "fictional": true
+  },
+  "autointake-20261123-147": {
+    "source_group_id": "autointake-20261123-147",
+    "description": "פגיעה חריגה בהגנת מרואיינים",
+    "fictional": true
+  },
+  "autointake-20261123-148": {
+    "source_group_id": "autointake-20261123-148",
+    "description": "תלות רישוי מערכתית",
+    "fictional": true
+  },
+  "autointake-20261123-149": {
+    "source_group_id": "autointake-20261123-149",
+    "description": "הפרת פרטיות חוצת מחקרים",
+    "fictional": true
+  },
+  "autointake-20261123-150": {
+    "source_group_id": "autointake-20261123-150",
+    "description": "תלות חוזית מערכתית חריגה",
+    "fictional": true
+  },
+  "autointake-20261123-151": {
+    "source_group_id": "autointake-20261123-151",
+    "description": "תלות מוסדית רחבה בזכויות",
+    "fictional": true
   }
 }
