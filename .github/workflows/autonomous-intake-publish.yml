@@ -1,0 +1,128 @@
+name: Publish approved SentinelAI batch 0006
+
+on:
+  pull_request:
+    branches: [poc/defense-focused-v2]
+    paths:
+      - reviews/autonomous-intake-v1/publish-request.json
+      - .github/workflows/autonomous-intake-publish.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sentinelai-batch-0006-publish
+  cancel-in-progress: false
+
+jobs:
+  checkpoint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      PYTHONIOENCODING: utf-8
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: {{ github.event.pull_request.head.sha || github.sha }}
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Confirm explicit release request is for batch 0006
+        run: |
+          python - <<'PY'
+          import json
+          p = "reviews/autonomous-intake-v1/publish-request.json"
+          data = json.load(open(p, encoding="utf-8"))
+          assert data["checkpoint"] == 6
+          assert data["expected_production_records"] == 6100
+          assert data["expected_production_after"] == 6600
+          assert data["approval_basis"] == "GPT-6 same-model text-first review; E5 cross-check"
+          print("Release request accepted, no external API required")
+          PY
+      - name: Install pinned E5 inference engine
+        run: python -m pip install -r requirements-semantic.txt
+      - name: Download E5 pinned model artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .poc-local/e5
+          base="https://huggingface.co/Xenova/multilingual-e5-small/resolve/761b726dd34fb83930e26aab4e9ac3899aa1fa78"
+          curl -fL --retry 3 "$base/tokenizer.json" -o .poc-local/e5/tokenizer.json
+          curl -fL --retry 3 "$base/onnx/model_int8.onnx" -o .poc-local/e5/model_int8.onnx
+          echo "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39  .poc-local/e5/tokenizer.json" | sha256sum -c -
+          echo "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c  .poc-local/e5/model_int8.onnx" | sha256sum -c -
+      - name: Generate exact current blind review packet
+        run: |
+          mkdir -p .poc-local
+          python -B -m sentinel_dataset verify
+          python -B -m sentinel_dataset prepare \
+            drafts/autonomous-intake-v1/batch-0006-candidates.jsonl \
+            --model-dir .poc-local/e5 --packet .poc-local/packet.json
+      - name: Bind explicit audited labels and domains; fail on unknown or disagreements
+        run: |
+          python -B scripts/build_audit_decisions.py \
+            --packet .poc-local/packet.json \
+            --candidates drafts/autonomous-intake-v1/batch-0006-candidates.jsonl \
+            --annotations reviews/autonomous-intake-v1/gpt6-blind-label-annotations.json \
+            --output .poc-local/decisions.json
+      - name: Run official checkpoint validator and stage release files
+        run: |
+          python -B -m sentinel_dataset stage-checkpoint \
+            drafts/autonomous-intake-v1/batch-0006-candidates.jsonl \
+            --decisions .poc-local/decisions.json \
+            --model-dir .poc-local/e5 \
+            --output-dir .poc-local/staged
+      - name: Validate staged checkpoint on clean production branch and push
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin poc/defense-focused-v2
+          worktree="$(mktemp -d)/release"
+          git worktree add --detach "$worktree" origin/poc/defense-focused-v2
+          python - "$worktree" <<'PY'
+          import json, pathlib, shutil, sys
+          dst=pathlib.Path(sys.argv[1])
+          existing=json.loads((dst/"progress.json").read_text(encoding="utf-8"))
+          if existing["production_records"] != 6100 or existing["next_id"] != 6101 or existing["last_checkpoint"] != 5:
+              raise SystemExit("Production base changed; refuse to publish stale checkpoint")
+          src=pathlib.Path(".poc-local/staged")
+          paths=["progress.json","HANDOFF.md","data/checkpoints/batch-0006.jsonl",
+                 "metadata/checkpoints/batch-0006.jsonl","reports/checkpoints/batch-0006.json"]
+          shutil.copy2("config/scenarios.json", dst/"config/scenarios.json")
+          for item in paths:
+              to=dst/item
+              to.parent.mkdir(parents=True,exist_ok=True)
+              shutil.copy2(src/item,to)
+          new=json.loads((dst/"progress.json").read_text(encoding="utf-8"))
+          assert (new["production_records"],new["next_id"],new["last_checkpoint"]) == (6600,6601,6)
+          print("Staged output matches 6600 / next_id 6601")
+          PY
+          (
+            cd "$worktree"
+            python -B -m sentinel_dataset verify
+            git config user.name "sentinelai-ci"
+            git config user.email "sentinelai-ci@users.noreply.github.com"
+            git add -- config/scenarios.json progress.json HANDOFF.md \
+              data/checkpoints/batch-0006.jsonl \
+              metadata/checkpoints/batch-0006.jsonl \
+              reports/checkpoints/batch-0006.json
+            git diff --cached --check
+            git diff --cached --stat
+            git commit -m "Publish validated SentinelAI checkpoint 0006 (IDs 6101-6600)"
+            git push origin HEAD:refs/heads/poc/defense-focused-v2
+            git rev-parse HEAD
+          )
+      - name: Save review audit evidence for diagnosis
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sentinelai-batch-0006-qa
+          path: |
+            .poc-local/packet.json
+            .poc-local/decisions.json
+            .poc-local/staged/reports/checkpoints/batch-0006.json
+          if-no-files-found: ignore
+          retention-days: 7
