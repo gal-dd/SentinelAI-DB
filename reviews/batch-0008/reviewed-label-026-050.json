@@ -1,0 +1,180 @@
+{
+  "scope": "blinded_text_only_sample",
+  "decisions": [
+    {
+      "id": "L026",
+      "label": "בלמס",
+      "reason": "סרטון לציבור על שימור",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L027",
+      "label": "בלמס",
+      "reason": "ספר לימוד כללי",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L028",
+      "label": "סודי ביותר",
+      "reason": "כשל רישוי רוחבי בכל שלוחות הקרן",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L029",
+      "label": "בלמס",
+      "reason": "תערוכה פומבית",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L030",
+      "label": "בלמס",
+      "reason": "אוסף ציבורי של מסמכים",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L031",
+      "label": "בלמס",
+      "reason": "פעילות בית ספרית שהופצה לציבור",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L032",
+      "label": "בלמס",
+      "reason": "מדריך גינון אזרחי גלוי",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L033",
+      "label": "סודי ביותר",
+      "reason": "קישור אסור של קבוצות מרואיינים מוגנות",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L034",
+      "label": "שמור",
+      "reason": "טיוטת לוח ללא תיאור הקשר פנימי ברור",
+      "status": "needs_rewrite",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L035",
+      "label": "שמור",
+      "reason": "חלוקת עבודה פנימית בספרייה",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L036",
+      "label": "סודי ביותר",
+      "reason": "קבוצות מרואיינים מוגנות בכמה מרכזים",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L037",
+      "label": "סודי",
+      "reason": "דחיית החלטת מלגות משמעותית שלא פורסמה",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L038",
+      "label": "סודי",
+      "reason": "ביטול התקשרות משמעותית בגלל ניגוד עניינים",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L039",
+      "label": "סודי",
+      "reason": "תקציב מחקר בוטל אך ההשלכה אינה מפורשת",
+      "status": "needs_rewrite",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L040",
+      "label": "סודי ביותר",
+      "reason": "חיבור מזהה מאגרים שנדרשה ביניהם אנונימיות",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L041",
+      "label": "סודי ביותר",
+      "reason": "איחוד זהויות אינו מבהיר שהן מוגנות",
+      "status": "needs_rewrite",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L042",
+      "label": "שמור",
+      "reason": "עריכת דף הדרכה שגרתית בתוך צוות",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L043",
+      "label": "שמור",
+      "reason": "בקשת צוות לעדכון קטלוג",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L044",
+      "label": "סודי ביותר",
+      "reason": "פקיעת הגנות של קבוצות רבות",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L045",
+      "label": "סודי ביותר",
+      "reason": "הפרת התחייבויות פרטיות ברשת מרכזים",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L046",
+      "label": "בלמס",
+      "reason": "חוברת פילוסופיה ציבורית",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L047",
+      "label": "בלמס",
+      "reason": "מאגר פומבי של מקורות",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L048",
+      "label": "שמור",
+      "reason": "עריכה פנימית וחלוקת משימות",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L049",
+      "label": "בלמס",
+      "reason": "ארכיון כרזות פתוח",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    },
+    {
+      "id": "L050",
+      "label": "סודי ביותר",
+      "reason": "תלות חוזית מערכתית ברשת מוסדות",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat text-only; not independent model"
+    }
+  ]
+}
