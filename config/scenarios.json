@@ -1826,5 +1826,1423 @@
     "source_group_id": "autointake-20261123-029",
     "description": "תלות משפטית רוחבית וחריגה בחומר ארכיוני",
     "fictional": true
+  },
+  "mg-20261122-01-2": {
+    "source_group_id": "mg-20261122-family-01",
+    "source_id": null,
+    "description": "עקיבות מדידות",
+    "fictional": true
+  },
+  "mg-20261122-02-2": {
+    "source_group_id": "mg-20261122-family-02",
+    "source_id": null,
+    "description": "תוקף חתימה",
+    "fictional": true
+  },
+  "mg-20261122-03-2": {
+    "source_group_id": "mg-20261122-family-03",
+    "source_id": null,
+    "description": "גרסת דרישות",
+    "fictional": true
+  },
+  "mg-20261122-04-2": {
+    "source_group_id": "mg-20261122-family-04",
+    "source_id": null,
+    "description": "יומן הסתייגויות",
+    "fictional": true
+  },
+  "mg-20261122-05-2": {
+    "source_group_id": "mg-20261122-family-05",
+    "source_id": null,
+    "description": "ספק ביקורת",
+    "fictional": true
+  },
+  "mg-20261122-06-1": {
+    "source_group_id": "mg-20261122-family-06",
+    "source_id": null,
+    "description": "תקציב שימור",
+    "fictional": true
+  },
+  "mg-20261122-06-2": {
+    "source_group_id": "mg-20261122-family-06",
+    "source_id": null,
+    "description": "תקציב שימור",
+    "fictional": true
+  },
+  "mg-20261122-07-1": {
+    "source_group_id": "mg-20261122-family-07",
+    "source_id": null,
+    "description": "גיבוי ארכיון",
+    "fictional": true
+  },
+  "mg-20261122-07-2": {
+    "source_group_id": "mg-20261122-family-07",
+    "source_id": null,
+    "description": "גיבוי ארכיון",
+    "fictional": true
+  },
+  "mg-20261122-08-1": {
+    "source_group_id": "mg-20261122-family-08",
+    "source_id": null,
+    "description": "חיסיון חוקרים",
+    "fictional": true
+  },
+  "mg-20261122-08-2": {
+    "source_group_id": "mg-20261122-family-08",
+    "source_id": null,
+    "description": "חיסיון חוקרים",
+    "fictional": true
+  },
+  "mg-20261122-09-1": {
+    "source_group_id": "mg-20261122-family-09",
+    "source_id": null,
+    "description": "בחירת ועדה",
+    "fictional": true
+  },
+  "mg-20261122-09-2": {
+    "source_group_id": "mg-20261122-family-09",
+    "source_id": null,
+    "description": "בחירת ועדה",
+    "fictional": true
+  },
+  "mg-20261122-10-1": {
+    "source_group_id": "mg-20261122-family-10",
+    "source_id": null,
+    "description": "תרגום חוזה",
+    "fictional": true
+  },
+  "mg-20261122-10-2": {
+    "source_group_id": "mg-20261122-family-10",
+    "source_id": null,
+    "description": "תרגום חוזה",
+    "fictional": true
+  },
+  "mg-20261122-11-1": {
+    "source_group_id": "mg-20261122-family-11",
+    "source_id": null,
+    "description": "היתר צילום",
+    "fictional": true
+  },
+  "mg-20261122-12-1": {
+    "source_group_id": "mg-20261122-family-12",
+    "source_id": null,
+    "description": "מעמד מדגם",
+    "fictional": true
+  },
+  "mg-20261122-12-2": {
+    "source_group_id": "mg-20261122-family-12",
+    "source_id": null,
+    "description": "מעמד מדגם",
+    "fictional": true
+  },
+  "mg-20261122-13-1": {
+    "source_group_id": "mg-20261122-family-13",
+    "source_id": null,
+    "description": "רצף מסירה",
+    "fictional": true
+  },
+  "mg-20261122-14-1": {
+    "source_group_id": "mg-20261122-family-14",
+    "source_id": null,
+    "description": "מועדי ערר",
+    "fictional": true
+  },
+  "mg-20261122-15-1": {
+    "source_group_id": "mg-20261122-family-15",
+    "source_id": null,
+    "description": "תיעוד פסילות",
+    "fictional": true
+  },
+  "mg-20261122-16-1": {
+    "source_group_id": "mg-20261122-family-16",
+    "source_id": null,
+    "description": "מועד פרסום",
+    "fictional": true
+  },
+  "mg-20261122-17-1": {
+    "source_group_id": "mg-20261122-family-17",
+    "source_id": null,
+    "description": "רציפות ביקורת",
+    "fictional": true
+  },
+  "mg-20261122-17-2": {
+    "source_group_id": "mg-20261122-family-17",
+    "source_id": null,
+    "description": "רציפות ביקורת",
+    "fictional": true
+  },
+  "mg-20261122-18-1": {
+    "source_group_id": "mg-20261122-family-18",
+    "source_id": null,
+    "description": "שחזור החלטות",
+    "fictional": true
+  },
+  "mg-20261122-18-2": {
+    "source_group_id": "mg-20261122-family-18",
+    "source_id": null,
+    "description": "שחזור החלטות",
+    "fictional": true
+  },
+  "mg-20261122-20-1": {
+    "source_group_id": "mg-20261122-family-20",
+    "source_id": null,
+    "description": "חשיפת הצבעה",
+    "fictional": true
+  },
+  "mg-20261122-21-1": {
+    "source_group_id": "mg-20261122-family-21",
+    "source_id": null,
+    "description": "מקור מצג",
+    "fictional": true
+  },
+  "mg-20261122-22-1": {
+    "source_group_id": "mg-20261122-family-22",
+    "source_id": null,
+    "description": "דיון השאלה",
+    "fictional": true
+  },
+  "mg-20261122-24-1": {
+    "source_group_id": "mg-20261122-family-24",
+    "source_id": null,
+    "description": "העברת זכויות",
+    "fictional": true
+  },
+  "mg-20261122-25-1": {
+    "source_group_id": "mg-20261122-family-25",
+    "source_id": null,
+    "description": "הסכמת עדים",
+    "fictional": true
+  },
+  "mg-20261122-c02-01-2": {
+    "source_group_id": "mg-20261122-c02-family-01",
+    "source_id": null,
+    "description": "ייחוס תצלומים",
+    "fictional": true
+  },
+  "mg-20261122-c02-02-2": {
+    "source_group_id": "mg-20261122-c02-family-02",
+    "source_id": null,
+    "description": "ריאיון עם גמלאי",
+    "fictional": true
+  },
+  "mg-20261122-c02-03-2": {
+    "source_group_id": "mg-20261122-c02-family-03",
+    "source_id": null,
+    "description": "פריט מושאל",
+    "fictional": true
+  },
+  "mg-20261122-c02-04-1": {
+    "source_group_id": "mg-20261122-c02-family-04",
+    "source_id": null,
+    "description": "כרטוס לקהל",
+    "fictional": true
+  },
+  "mg-20261122-c02-04-2": {
+    "source_group_id": "mg-20261122-c02-family-04",
+    "source_id": null,
+    "description": "כרטוס לקהל",
+    "fictional": true
+  },
+  "mg-20261122-c02-05-1": {
+    "source_group_id": "mg-20261122-c02-family-05",
+    "source_id": null,
+    "description": "שימור חומרי כרזה",
+    "fictional": true
+  },
+  "mg-20261122-c02-05-2": {
+    "source_group_id": "mg-20261122-c02-family-05",
+    "source_id": null,
+    "description": "שימור חומרי כרזה",
+    "fictional": true
+  },
+  "mg-20261122-c02-06-1": {
+    "source_group_id": "mg-20261122-c02-family-06",
+    "source_id": null,
+    "description": "קול קורא",
+    "fictional": true
+  },
+  "mg-20261122-c02-07-1": {
+    "source_group_id": "mg-20261122-c02-family-07",
+    "source_id": null,
+    "description": "ניגוד בהצהרה",
+    "fictional": true
+  },
+  "mg-20261122-c02-08-1": {
+    "source_group_id": "mg-20261122-c02-family-08",
+    "source_id": null,
+    "description": "העברת אוסף",
+    "fictional": true
+  },
+  "mg-20261122-c02-09-1": {
+    "source_group_id": "mg-20261122-c02-family-09",
+    "source_id": null,
+    "description": "כתוביות",
+    "fictional": true
+  },
+  "mg-20261122-c02-09-2": {
+    "source_group_id": "mg-20261122-c02-family-09",
+    "source_id": null,
+    "description": "כתוביות",
+    "fictional": true
+  },
+  "mg-20261122-c02-10-1": {
+    "source_group_id": "mg-20261122-c02-family-10",
+    "source_id": null,
+    "description": "זמני כינוס",
+    "fictional": true
+  },
+  "mg-20261122-c02-11-1": {
+    "source_group_id": "mg-20261122-c02-family-11",
+    "source_id": null,
+    "description": "בחירת כותרת",
+    "fictional": true
+  },
+  "mg-20261122-c02-12-1": {
+    "source_group_id": "mg-20261122-c02-family-12",
+    "source_id": null,
+    "description": "קליטת מכתבים",
+    "fictional": true
+  },
+  "mg-20261122-c02-13-1": {
+    "source_group_id": "mg-20261122-c02-family-13",
+    "source_id": null,
+    "description": "מדד חינוכי",
+    "fictional": true
+  },
+  "mg-20261122-c02-14-1": {
+    "source_group_id": "mg-20261122-c02-family-14",
+    "source_id": null,
+    "description": "הרשאת קטלוג",
+    "fictional": true
+  },
+  "mg-20261122-c02-15-1": {
+    "source_group_id": "mg-20261122-c02-family-15",
+    "source_id": null,
+    "description": "חומר לימוד",
+    "fictional": true
+  },
+  "mg-20261122-c02-17-1": {
+    "source_group_id": "mg-20261122-c02-family-17",
+    "source_id": null,
+    "description": "מעמד עברית",
+    "fictional": true
+  },
+  "mg-20261122-c02-18-1": {
+    "source_group_id": "mg-20261122-c02-family-18",
+    "source_id": null,
+    "description": "בדיקת תצלומים",
+    "fictional": true
+  },
+  "mg-20261122-c02-19-1": {
+    "source_group_id": "mg-20261122-c02-family-19",
+    "source_id": null,
+    "description": "בקשת הסרה",
+    "fictional": true
+  },
+  "mg-20261122-c02-20-1": {
+    "source_group_id": "mg-20261122-c02-family-20",
+    "source_id": null,
+    "description": "רישיון הקראה",
+    "fictional": true
+  },
+  "mg-20261122-c02-22-1": {
+    "source_group_id": "mg-20261122-c02-family-22",
+    "source_id": null,
+    "description": "חלוקת תפקידים",
+    "fictional": true
+  },
+  "mg-20261122-c02-24-1": {
+    "source_group_id": "mg-20261122-c02-family-24",
+    "source_id": null,
+    "description": "בעלות על קול",
+    "fictional": true
+  },
+  "mg-20261122-c02-25-1": {
+    "source_group_id": "mg-20261122-c02-family-25",
+    "source_id": null,
+    "description": "הקפאת מלגה",
+    "fictional": true
+  },
+  "recovery-20261119-012": {
+    "source_group_id": "recovery-20261119-012",
+    "source_id": null,
+    "description": "אירוע אזרחי בדיוני שכל פרטיו פומביים",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-014": {
+    "source_group_id": "recovery-20261119-014",
+    "source_id": null,
+    "description": "הנחיות לימודיות בדיוניות ללא מידע ארגוני ממשי",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-015": {
+    "source_group_id": "recovery-20261119-015",
+    "source_id": null,
+    "description": "ריאיון מומצא על תהליך יצירה שכבר פורסם במלואו",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-016": {
+    "source_group_id": "recovery-20261119-016",
+    "source_id": null,
+    "description": "שיבוץ פנימי שגרתי מקומי",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-017": {
+    "source_group_id": "recovery-20261119-017",
+    "source_id": null,
+    "description": "תיאום עבודה פנימי ללא השלכה מהותית",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-018": {
+    "source_group_id": "recovery-20261119-018",
+    "source_id": null,
+    "description": "טיפול שגרתי נקודתי בהרשאה",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-019": {
+    "source_group_id": "recovery-20261119-019",
+    "source_id": null,
+    "description": "בירור מנהלי פנימי ללא החלטה רחבה",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-020": {
+    "source_group_id": "recovery-20261119-020",
+    "source_id": null,
+    "description": "תקלה מקומית שאינה משנה זכויות או החלטה מהותית",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-021": {
+    "source_group_id": "recovery-20261119-021",
+    "source_id": null,
+    "description": "מצב מנהלי של תהליך אישור שגרתי",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-022": {
+    "source_group_id": "recovery-20261119-022",
+    "source_id": null,
+    "description": "חלוקת משימות פנימית מצומצמת",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-023": {
+    "source_group_id": "recovery-20261119-023",
+    "source_id": null,
+    "description": "בדיקת הרשאה שגרתית ללא חשיפת תוכן מוגן",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-024": {
+    "source_group_id": "recovery-20261119-024",
+    "source_id": null,
+    "description": "החלפה מקומית של אחריות תפעולית שגרתית",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-025": {
+    "source_group_id": "recovery-20261119-025",
+    "source_id": null,
+    "description": "דיון עבודה מקומי שטרם הוכרע",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-026": {
+    "source_group_id": "recovery-20261119-026",
+    "source_id": null,
+    "description": "רישום תיקון שגרתי במערכת מנהלית",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-027": {
+    "source_group_id": "recovery-20261119-027",
+    "source_id": null,
+    "description": "תיעוד פנימי מצומצם לשימור רצף עבודה",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-028": {
+    "source_group_id": "recovery-20261119-028",
+    "source_id": null,
+    "description": "הליך מקומי שגרתי עם תחום גישה מוגבל",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-029": {
+    "source_group_id": "recovery-20261119-029",
+    "source_id": null,
+    "description": "בחינת נוחות של תהליך מקומי ללא השלכה רחבה",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-030": {
+    "source_group_id": "recovery-20261119-030",
+    "source_id": null,
+    "description": "תיאום מנהלי בין שני צוותים בלי תלות חריגה",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-031": {
+    "source_group_id": "recovery-20261119-031",
+    "source_id": null,
+    "description": "החלטת סגירה פנימית מהותית לפרויקט",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-032": {
+    "source_group_id": "recovery-20261119-032",
+    "source_id": null,
+    "description": "מחיר סף פנימי המשפיע על משא ומתן",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-033": {
+    "source_group_id": "recovery-20261119-033",
+    "source_id": null,
+    "description": "ממצא פנימי משנה החלטה מהותית על זכויות",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-034": {
+    "source_group_id": "recovery-20261119-034",
+    "source_id": null,
+    "description": "הכרעת התקשרות שטרם נמסרה לצד השני",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-035": {
+    "source_group_id": "recovery-20261119-035",
+    "source_id": null,
+    "description": "תוצאת מחקר לא פומבית משנה כיוון פרויקט אזרחי",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-036": {
+    "source_group_id": "recovery-20261119-036",
+    "source_id": null,
+    "description": "תקלה משמעותית בהרשאות נחשפה כעובדה פנימית",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-037": {
+    "source_group_id": "recovery-20261119-037",
+    "source_id": null,
+    "description": "מידע פנימי מכריע בהתקשרות אחת",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-038": {
+    "source_group_id": "recovery-20261119-038",
+    "source_id": null,
+    "description": "החלטה ממשית ומהותית לפרויקט יחיד",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-039": {
+    "source_group_id": "recovery-20261119-039",
+    "source_id": null,
+    "description": "חשיפת תמחור פנימי מהותי לפני סגירת עסקה",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-040": {
+    "source_group_id": "recovery-20261119-040",
+    "source_id": null,
+    "description": "ממצא מאומת בעל השלכה ממשית על פרטיות בקבוצה מוגדרת",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-041": {
+    "source_group_id": "recovery-20261119-041",
+    "source_id": null,
+    "description": "הכרעה פנימית משנה זכאות בפועל",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-042": {
+    "source_group_id": "recovery-20261119-042",
+    "source_id": null,
+    "description": "תלות מוכחת מהותית בפרויקט יחיד ללא טענה למערכת כולה",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-043": {
+    "source_group_id": "recovery-20261119-043",
+    "source_id": null,
+    "description": "כשל מהותי מאומת המשנה תוכנית אזרחית אחת",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-044": {
+    "source_group_id": "recovery-20261119-044",
+    "source_id": null,
+    "description": "אסטרטגיית משא ומתן מהותית של התקשרות מוגדרת",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-045": {
+    "source_group_id": "recovery-20261119-045",
+    "source_id": null,
+    "description": "ממצא פרטיות מאומת ומשמעותי עם היקף מוגדר",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-046": {
+    "source_group_id": "recovery-20261119-046",
+    "source_id": null,
+    "description": "מיפוי מבטל בפועל אנונימיות שנועדה להגנה",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-047": {
+    "source_group_id": "recovery-20261119-047",
+    "source_id": null,
+    "description": "צירוף פרטים מאפשר זיהוי חד־ערכי של מוגנים",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-048": {
+    "source_group_id": "recovery-20261119-048",
+    "source_id": null,
+    "description": "תלות סמויה חוצת שירותים גורמת להפסקה רוחבית ללא חלופה",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-049": {
+    "source_group_id": "recovery-20261119-049",
+    "source_id": null,
+    "description": "קישור חושף השתייכות מוגנת בעלת השלכה חריגה",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-050": {
+    "source_group_id": "recovery-20261119-050",
+    "source_id": null,
+    "description": "ממצא מוכח של אובדן רציפות מערכתי",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-051": {
+    "source_group_id": "recovery-20261119-051",
+    "source_id": null,
+    "description": "חשיפת מיפוי שהופך קבוצה מוגנת לניתנת לזיהוי",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-052": {
+    "source_group_id": "recovery-20261119-052",
+    "source_id": null,
+    "description": "ביטול רוחבי ודאי של רציפות בשירותי תמיכה חיוניים",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-053": {
+    "source_group_id": "recovery-20261119-053",
+    "source_id": null,
+    "description": "הצלבה חד־ערכית מבטלת הגנה אמיתית לפי עובדות התרחיש",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-054": {
+    "source_group_id": "recovery-20261119-054",
+    "source_id": null,
+    "description": "תלות מוכחת מבטלת עצמאות ויוצרת אובדן שירות רוחבי",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-055": {
+    "source_group_id": "recovery-20261119-055",
+    "source_id": null,
+    "description": "זיהוי מוגנים מתוך טבלת גישור שהוכח שהיא מלאה",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-056": {
+    "source_group_id": "recovery-20261119-056",
+    "source_id": null,
+    "description": "אובדן בלתי הפיך רוחבי מבוסס על תלות משותפת מאומתת",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-057": {
+    "source_group_id": "recovery-20261119-057",
+    "source_id": null,
+    "description": "פרטים משולבים מאפשרים לחשוף קבוצה תחת הגנת זהות",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-058": {
+    "source_group_id": "recovery-20261119-058",
+    "source_id": null,
+    "description": "מיפוי מאומת בין עדויות מוגנות לזהויות חושף את כלל המדווחים",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-059": {
+    "source_group_id": "recovery-20261119-059",
+    "source_id": null,
+    "description": "תלות משותפת סמויה והחלטה מחייבת גורמות לביטול רוחבי ללא חלופה",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "recovery-20261119-060": {
+    "source_group_id": "recovery-20261119-060",
+    "source_id": null,
+    "description": "חיבור תיקים מאפשר לחשוף את כל הפונות למערכת הגנה",
+    "fictional": true,
+    "scope": "Standalone review draft; not a replacement for held records; no production IDs."
+  },
+  "intake-20261123-missile-001": {
+    "source_group_id": "intake-20261123-missile-001",
+    "source_id": null,
+    "description": "מונח כללי שתוכנו פומבי",
+    "fictional": true
+  },
+  "intake-20261123-missile-002": {
+    "source_group_id": "intake-20261123-missile-002",
+    "source_id": null,
+    "description": "שאלת לימוד על כתיבה היסטורית",
+    "fictional": true
+  },
+  "intake-20261123-missile-003": {
+    "source_group_id": "intake-20261123-missile-003",
+    "source_id": null,
+    "description": "הסבר מושגי כללי",
+    "fictional": true
+  },
+  "intake-20261123-missile-004": {
+    "source_group_id": "intake-20261123-missile-004",
+    "source_id": null,
+    "description": "תיאור תצוגה בדיונית לקהל",
+    "fictional": true
+  },
+  "intake-20261123-missile-005": {
+    "source_group_id": "intake-20261123-missile-005",
+    "source_id": null,
+    "description": "הבחנה מושגית בחשבונאות ציבורית",
+    "fictional": true
+  },
+  "intake-20261123-missile-006": {
+    "source_group_id": "intake-20261123-missile-006",
+    "source_id": null,
+    "description": "הערת קריאה למאמרי היסטוריה פתוחים",
+    "fictional": true
+  },
+  "intake-20261123-missile-007": {
+    "source_group_id": "intake-20261123-missile-007",
+    "source_id": null,
+    "description": "דוגמה לימודית בדיונית על השוואת מקורות",
+    "fictional": true
+  },
+  "intake-20261123-missile-008": {
+    "source_group_id": "intake-20261123-missile-008",
+    "source_id": null,
+    "description": "מסגרת כללית לשיחה ציבורית על הסכמים",
+    "fictional": true
+  },
+  "intake-20261123-missile-009": {
+    "source_group_id": "intake-20261123-missile-009",
+    "source_id": null,
+    "description": "הדרכה פומבית בדיונית על חומר ארכיוני",
+    "fictional": true
+  },
+  "intake-20261123-missile-010": {
+    "source_group_id": "intake-20261123-missile-010",
+    "source_id": null,
+    "description": "דיון ציבורי בדיוני על תיעוד תעשייתי",
+    "fictional": true
+  },
+  "intake-20261123-missile-011": {
+    "source_group_id": "intake-20261123-missile-011",
+    "source_id": null,
+    "description": "תיאום פנימי מקומי ללא ממצא מוגן",
+    "fictional": true
+  },
+  "intake-20261123-missile-012": {
+    "source_group_id": "intake-20261123-missile-012",
+    "source_id": null,
+    "description": "תיקון מנהלי שגרתי בתיעוד",
+    "fictional": true
+  },
+  "intake-20261123-missile-013": {
+    "source_group_id": "intake-20261123-missile-013",
+    "source_id": null,
+    "description": "משימת תיעוד פנימית רגילה",
+    "fictional": true
+  },
+  "intake-20261123-missile-014": {
+    "source_group_id": "intake-20261123-missile-014",
+    "source_id": null,
+    "description": "שיבוץ פנימי מקומי",
+    "fictional": true
+  },
+  "intake-20261123-missile-015": {
+    "source_group_id": "intake-20261123-missile-015",
+    "source_id": null,
+    "description": "בקשת עותק שגרתית עם השלכה מקומית",
+    "fictional": true
+  },
+  "intake-20261123-missile-016": {
+    "source_group_id": "intake-20261123-missile-016",
+    "source_id": null,
+    "description": "סדר יום פנימי ובקשת תיעוד שגרתית",
+    "fictional": true
+  },
+  "intake-20261123-missile-017": {
+    "source_group_id": "intake-20261123-missile-017",
+    "source_id": null,
+    "description": "איסוף פנימי שוטף של חומר קיים",
+    "fictional": true
+  },
+  "intake-20261123-missile-018": {
+    "source_group_id": "intake-20261123-missile-018",
+    "source_id": null,
+    "description": "העברת טיפול מנהלית בתוך צוות",
+    "fictional": true
+  },
+  "intake-20261123-missile-019": {
+    "source_group_id": "intake-20261123-missile-019",
+    "source_id": null,
+    "description": "חלוקת מטלות פנימית מקומית בארכיון",
+    "fictional": true
+  },
+  "intake-20261123-missile-020": {
+    "source_group_id": "intake-20261123-missile-020",
+    "source_id": null,
+    "description": "הכנת פגישה פנימית שגרתית בתחום הרכש",
+    "fictional": true
+  },
+  "intake-20261123-missile-021": {
+    "source_group_id": "intake-20261123-missile-021",
+    "source_id": null,
+    "description": "החלטה פנימית מהותית על חוזה יחיד",
+    "fictional": true
+  },
+  "intake-20261123-missile-022": {
+    "source_group_id": "intake-20261123-missile-022",
+    "source_id": null,
+    "description": "עובדה פנימית המשנה החלטת תמחור בפרויקט",
+    "fictional": true
+  },
+  "intake-20261123-missile-023": {
+    "source_group_id": "intake-20261123-missile-023",
+    "source_id": null,
+    "description": "הכרעה מהותית בזכויות של מסמך פרויקט יחיד",
+    "fictional": true
+  },
+  "intake-20261123-missile-024": {
+    "source_group_id": "intake-20261123-missile-024",
+    "source_id": null,
+    "description": "החלטה פנימית לשנות מסקנה מרכזית בפרויקט",
+    "fictional": true
+  },
+  "intake-20261123-missile-025": {
+    "source_group_id": "intake-20261123-missile-025",
+    "source_id": null,
+    "description": "כשל תקציבי מאומת בעל השפעה מהותית מקומית",
+    "fictional": true
+  },
+  "intake-20261123-missile-026": {
+    "source_group_id": "intake-20261123-missile-026",
+    "source_id": null,
+    "description": "ביטול תשלום מהותי בעקבות מסמך חוזי תקף",
+    "fictional": true
+  },
+  "intake-20261123-missile-027": {
+    "source_group_id": "intake-20261123-missile-027",
+    "source_id": null,
+    "description": "חזרה פנימית מממצא שהכתיב מסלול מחקר אחד",
+    "fictional": true
+  },
+  "intake-20261123-missile-028": {
+    "source_group_id": "intake-20261123-missile-028",
+    "source_id": null,
+    "description": "הכרעה מהותית בתביעה של ספק יחיד",
+    "fictional": true
+  },
+  "intake-20261123-missile-029": {
+    "source_group_id": "intake-20261123-missile-029",
+    "source_id": null,
+    "description": "ביקורת פנימית שמשנה מימון של יוזמת תיעוד אחת",
+    "fictional": true
+  },
+  "intake-20261123-missile-030": {
+    "source_group_id": "intake-20261123-missile-030",
+    "source_id": null,
+    "description": "החלטה פנימית לבטל יעד חוזי מהותי בפרויקט אחד",
+    "fictional": true
+  },
+  "intake-20261123-missile-031": {
+    "source_group_id": "intake-20261123-missile-031",
+    "source_id": null,
+    "description": "קישור מפורש שחושף עדה מוגנת במקרה בדיוני",
+    "fictional": true
+  },
+  "intake-20261123-missile-032": {
+    "source_group_id": "intake-20261123-missile-032",
+    "source_id": null,
+    "description": "חשיפת זהותו של מקור שקיבל הגנה",
+    "fictional": true
+  },
+  "intake-20261123-missile-033": {
+    "source_group_id": "intake-20261123-missile-033",
+    "source_id": null,
+    "description": "זיהוי מלא של חומר מוגן החושף קבוצת עדים בדיונית",
+    "fictional": true
+  },
+  "intake-20261123-missile-034": {
+    "source_group_id": "intake-20261123-missile-034",
+    "source_id": null,
+    "description": "החלטה רוחבית מוגדרת שמחייבת ביטול כל התוכניות הנדונות",
+    "fictional": true
+  },
+  "intake-20261123-missile-035": {
+    "source_group_id": "intake-20261123-missile-035",
+    "source_id": null,
+    "description": "תלות משפטית סמויה המבטלת מערכת אישורים שלמה",
+    "fictional": true
+  },
+  "intake-20261123-missile-036": {
+    "source_group_id": "intake-20261123-missile-036",
+    "source_id": null,
+    "description": "ראיה קונקרטית לכשל רוחבי מחייב בתוקף חוזים בדיוניים",
+    "fictional": true
+  },
+  "intake-20261123-missile-037": {
+    "source_group_id": "intake-20261123-missile-037",
+    "source_id": null,
+    "description": "קישור חד ערכי לזהות שהופרדה להגנת עדה בדיונית",
+    "fictional": true
+  },
+  "intake-20261123-missile-038": {
+    "source_group_id": "intake-20261123-missile-038",
+    "source_id": null,
+    "description": "החלטת רוחב שמבטלת מסלולי מימון ללא חלופה חוקית",
+    "fictional": true
+  },
+  "intake-20261123-missile-039": {
+    "source_group_id": "intake-20261123-missile-039",
+    "source_id": null,
+    "description": "שיוך המבטל הגנת זהות של עדה בדיונית",
+    "fictional": true
+  },
+  "intake-20261123-missile-040": {
+    "source_group_id": "intake-20261123-missile-040",
+    "source_id": null,
+    "description": "מסמך בדיוני על ביטול רוחבי מוכרע ללא חלופת המשך",
+    "fictional": true
+  },
+  "intake-20261123-missile-041": {
+    "source_group_id": "intake-20261123-missile-041",
+    "source_id": null,
+    "description": "הבחנה עקרונית בתחום ההיסטוריה של מדיניות הטילים",
+    "fictional": true
+  },
+  "intake-20261123-missile-042": {
+    "source_group_id": "intake-20261123-missile-042",
+    "source_id": null,
+    "description": "דיון מדעי מושגי באמצעות המחשה לימודית",
+    "fictional": true
+  },
+  "intake-20261123-missile-043": {
+    "source_group_id": "intake-20261123-missile-043",
+    "source_id": null,
+    "description": "דיון ציבורי בדיוני על עלויות של תוכניות טילים",
+    "fictional": true
+  },
+  "intake-20261123-missile-044": {
+    "source_group_id": "intake-20261123-missile-044",
+    "source_id": null,
+    "description": "הגהה פנימית של מסמך על אמנת טילים",
+    "fictional": true
+  },
+  "intake-20261123-missile-045": {
+    "source_group_id": "intake-20261123-missile-045",
+    "source_id": null,
+    "description": "תיאום פנימי שגרתי בתיעוד סוגיה משפטית",
+    "fictional": true
+  },
+  "intake-20261123-missile-046": {
+    "source_group_id": "intake-20261123-missile-046",
+    "source_id": null,
+    "description": "עדכון שגרתי בתוך צוות על סידור חומר",
+    "fictional": true
+  },
+  "intake-20261123-missile-047": {
+    "source_group_id": "intake-20261123-missile-047",
+    "source_id": null,
+    "description": "תיאום פנימי של אירוע למידת מדיניות",
+    "fictional": true
+  },
+  "intake-20261123-missile-048": {
+    "source_group_id": "intake-20261123-missile-048",
+    "source_id": null,
+    "description": "מטלת תיעוד פנימית שתוצאתה מקומית",
+    "fictional": true
+  },
+  "intake-20261123-missile-049": {
+    "source_group_id": "intake-20261123-missile-049",
+    "source_id": null,
+    "description": "בקשה ממחלקה שכנה לשיפור עותק עבודה שגרתי",
+    "fictional": true
+  },
+  "intake-20261123-missile-050": {
+    "source_group_id": "intake-20261123-missile-050",
+    "source_id": null,
+    "description": "החלטת מחקר פנימית המשפיעה על מענק אחד",
+    "fictional": true
+  },
+  "intake-20261123-missile-051": {
+    "source_group_id": "intake-20261123-missile-051",
+    "source_id": null,
+    "description": "ממצא בדיני עבודה עם השפעה על סכסוך יחיד",
+    "fictional": true
+  },
+  "intake-20261123-missile-052": {
+    "source_group_id": "intake-20261123-missile-052",
+    "source_id": null,
+    "description": "שינוי מהותי בפרויקט בעקבות הונאה חשבונאית בדיונית",
+    "fictional": true
+  },
+  "intake-20261123-missile-053": {
+    "source_group_id": "intake-20261123-missile-053",
+    "source_id": null,
+    "description": "פסילה מהותית של פריט מרכזי והשלכה חוזית",
+    "fictional": true
+  },
+  "intake-20261123-missile-054": {
+    "source_group_id": "intake-20261123-missile-054",
+    "source_id": null,
+    "description": "חשיפה של סיבת עצירה פנימית בפרויקט משפטי אחד",
+    "fictional": true
+  },
+  "intake-20261123-missile-055": {
+    "source_group_id": "intake-20261123-missile-055",
+    "source_id": null,
+    "description": "תיעוד פנימי על בסיס ראייתי ששינה החלטה מהותית",
+    "fictional": true
+  },
+  "intake-20261123-missile-056": {
+    "source_group_id": "intake-20261123-missile-056",
+    "source_id": null,
+    "description": "חשיפה מוכחת של קבוצת מקורות מוגנים",
+    "fictional": true
+  },
+  "intake-20261123-missile-057": {
+    "source_group_id": "intake-20261123-missile-057",
+    "source_id": null,
+    "description": "ביטול רוחבי ללא חלופה חוקית בדיונית",
+    "fictional": true
+  },
+  "intake-20261123-missile-058": {
+    "source_group_id": "intake-20261123-missile-058",
+    "source_id": null,
+    "description": "שלילת המימון של קבוצה שלמה של תוכניות בדיוניות",
+    "fictional": true
+  },
+  "intake-20261123-missile-059": {
+    "source_group_id": "intake-20261123-missile-059",
+    "source_id": null,
+    "description": "מפת שיוך מפורשת לעדויות בדיוניות בחיסיון",
+    "fictional": true
+  },
+  "intake-20261123-missile-060": {
+    "source_group_id": "intake-20261123-missile-060",
+    "source_id": null,
+    "description": "תלות משפטית סמויה שגוררת סגירה רוחבית",
+    "fictional": true
+  },
+  "intake-20261123-missile-061": {
+    "source_group_id": "intake-20261123-missile-061",
+    "source_id": null,
+    "description": "חשיפה רוחבית לנתוני שייכות של נפגעים מוגנים בדיוניים",
+    "fictional": true
+  },
+  "intake-supp-20261123-001": {
+    "source_group_id": "intake-supp-20261123-001",
+    "description": "קריאה ביקורתית במקורות היסטוריים פתוחים",
+    "fictional": true
+  },
+  "intake-supp-20261123-002": {
+    "source_group_id": "intake-supp-20261123-002",
+    "description": "הסבר לימודי בדיוני על מסגרת דיווח",
+    "fictional": true
+  },
+  "intake-supp-20261123-003": {
+    "source_group_id": "intake-supp-20261123-003",
+    "description": "בחינת בחירות עריכה בדיון ציבורי וכללי",
+    "fictional": true
+  },
+  "intake-supp-20261123-004": {
+    "source_group_id": "intake-supp-20261123-004",
+    "description": "תסריט פומבי בדיוני על ההיסטוריה התעשייתית של הטילים",
+    "fictional": true
+  },
+  "intake-supp-20261123-005": {
+    "source_group_id": "intake-supp-20261123-005",
+    "description": "קריאת מסמכים ציבוריים באמצעות חקיקה בדיונית",
+    "fictional": true
+  },
+  "intake-supp-20261123-006": {
+    "source_group_id": "intake-supp-20261123-006",
+    "description": "עלון בדיוני על מפגש קהילתי העוסק במדיניות טילים",
+    "fictional": true
+  },
+  "intake-supp-20261123-007": {
+    "source_group_id": "intake-supp-20261123-007",
+    "description": "הדרכה פומבית על הצגה של איור מדעי כללי",
+    "fictional": true
+  },
+  "intake-supp-20261123-008": {
+    "source_group_id": "intake-supp-20261123-008",
+    "description": "ראיון בדיוני לשימור זיכרון ציבורי בתחום הטילים",
+    "fictional": true
+  },
+  "intake-supp-20261123-009": {
+    "source_group_id": "intake-supp-20261123-009",
+    "description": "דיון היסטורי כללי על נקודת המבט של הכותב",
+    "fictional": true
+  },
+  "intake-supp-20261123-010": {
+    "source_group_id": "intake-supp-20261123-010",
+    "description": "דף מבוא פומבי המשווה בין מסמכים היסטוריים בדיוניים",
+    "fictional": true
+  },
+  "intake-supp-20261123-011": {
+    "source_group_id": "intake-supp-20261123-011",
+    "description": "תרגיל כלכלה כללי לקהל ללא נתוני פרויקט אמיתי",
+    "fictional": true
+  },
+  "intake-supp-20261123-012": {
+    "source_group_id": "intake-supp-20261123-012",
+    "description": "דיון פומבי בדיוני בשפה של הסכמים הנוגעים לטילים",
+    "fictional": true
+  },
+  "intake-supp-20261123-013": {
+    "source_group_id": "intake-supp-20261123-013",
+    "description": "הערת טיפול פנימית על תיעוד בתחום",
+    "fictional": true
+  },
+  "intake-supp-20261123-014": {
+    "source_group_id": "intake-supp-20261123-014",
+    "description": "רישום עבודה צוותי מקומי",
+    "fictional": true
+  },
+  "intake-supp-20261123-015": {
+    "source_group_id": "intake-supp-20261123-015",
+    "description": "מטלת איסוף פנימית בתחום התיעוד",
+    "fictional": true
+  },
+  "intake-supp-20261123-018": {
+    "source_group_id": "intake-supp-20261123-018",
+    "description": "בקשת תיקון לא מהותית בקובץ עבודה",
+    "fictional": true
+  },
+  "intake-supp-20261123-019": {
+    "source_group_id": "intake-supp-20261123-019",
+    "description": "הכנה מקומית לדיון בתחום החקיקה",
+    "fictional": true
+  },
+  "intake-supp-20261123-020": {
+    "source_group_id": "intake-supp-20261123-020",
+    "description": "רישום חלוקת תפקידים פנימית בארכיון",
+    "fictional": true
+  },
+  "intake-supp-20261123-021": {
+    "source_group_id": "intake-supp-20261123-021",
+    "description": "תיעוד מסירה פנימית שגרתית",
+    "fictional": true
+  },
+  "intake-supp-20261123-022": {
+    "source_group_id": "intake-supp-20261123-022",
+    "description": "תיקון טכני מנהלי שאינו משנה תוכן",
+    "fictional": true
+  },
+  "intake-supp-20261123-023": {
+    "source_group_id": "intake-supp-20261123-023",
+    "description": "דיווח מקומי על עריכה בפנים הארגון",
+    "fictional": true
+  },
+  "intake-supp-20261123-024": {
+    "source_group_id": "intake-supp-20261123-024",
+    "description": "סיכום שגרתי של טיפול צוותי",
+    "fictional": true
+  },
+  "intake-supp-20261123-025": {
+    "source_group_id": "intake-supp-20261123-025",
+    "description": "סיכום הכנה פנימית לשיעור על אמנות",
+    "fictional": true
+  },
+  "intake-supp-20261123-026": {
+    "source_group_id": "intake-supp-20261123-026",
+    "description": "החלטה פנימית מצומצמת על אופן ארגון מסמכים",
+    "fictional": true
+  },
+  "intake-supp-20261123-027": {
+    "source_group_id": "intake-supp-20261123-027",
+    "description": "העברת אסמכתאות פנימית בשגרה",
+    "fictional": true
+  },
+  "intake-supp-20261123-028": {
+    "source_group_id": "intake-supp-20261123-028",
+    "description": "תרגול פנימי של סידור תמלול היסטורי",
+    "fictional": true
+  },
+  "intake-supp-20261123-029": {
+    "source_group_id": "intake-supp-20261123-029",
+    "description": "רישום פנימי על הכנת תיק תקציבי קיים",
+    "fictional": true
+  },
+  "intake-supp-20261123-030": {
+    "source_group_id": "intake-supp-20261123-030",
+    "description": "הכנת חומר פנימית ושגרתית לישיבה על מדיניות טילים",
+    "fictional": true
+  },
+  "intake-supp-20261123-031": {
+    "source_group_id": "intake-supp-20261123-031",
+    "description": "הפקה פנימית רגילה של תערוכה היסטורית",
+    "fictional": true
+  },
+  "intake-supp-20261123-032": {
+    "source_group_id": "intake-supp-20261123-032",
+    "description": "שיחה פנימית שגרתית על ארכוב חומרי תוכנית",
+    "fictional": true
+  },
+  "intake-supp-20261123-033": {
+    "source_group_id": "intake-supp-20261123-033",
+    "description": "שינוי מהותי פנימי בחוזה יחיד",
+    "fictional": true
+  },
+  "intake-supp-20261123-034": {
+    "source_group_id": "intake-supp-20261123-034",
+    "description": "הכרעה פנימית מהותית בפרויקט ספציפי",
+    "fictional": true
+  },
+  "intake-supp-20261123-035": {
+    "source_group_id": "intake-supp-20261123-035",
+    "description": "ממצא פנימי המבטל החלטת התקשרות אחת",
+    "fictional": true
+  },
+  "intake-supp-20261123-037": {
+    "source_group_id": "intake-supp-20261123-037",
+    "description": "החלטת זכייה רגישה שטרם פורסמה",
+    "fictional": true
+  },
+  "intake-supp-20261123-038": {
+    "source_group_id": "intake-supp-20261123-038",
+    "description": "הכרעה חוזית מהותית בפרויקט אחד",
+    "fictional": true
+  },
+  "intake-supp-20261123-039": {
+    "source_group_id": "intake-supp-20261123-039",
+    "description": "ממצא פנימי ששינה הקצאה בפרויקט",
+    "fictional": true
+  },
+  "intake-supp-20261123-040": {
+    "source_group_id": "intake-supp-20261123-040",
+    "description": "החלטה תקציבית שלא פורסמה",
+    "fictional": true
+  },
+  "intake-supp-20261123-041": {
+    "source_group_id": "intake-supp-20261123-041",
+    "description": "עצירת פרסום מהותי בפרויקט יחיד",
+    "fictional": true
+  },
+  "intake-supp-20261123-042": {
+    "source_group_id": "intake-supp-20261123-042",
+    "description": "ממצא נקודתי עם השלכה חוזית מהותית",
+    "fictional": true
+  },
+  "intake-supp-20261123-043": {
+    "source_group_id": "intake-supp-20261123-043",
+    "description": "ביטול התחייבות מהותית לפני פרסום",
+    "fictional": true
+  },
+  "intake-supp-20261123-044": {
+    "source_group_id": "intake-supp-20261123-044",
+    "description": "חשיפת ראיה מכרעת בתיק אזרחי בדיוני",
+    "fictional": true
+  },
+  "intake-supp-20261123-045": {
+    "source_group_id": "intake-supp-20261123-045",
+    "description": "השלכה פנימית מהותית על זכות במענק אחד",
+    "fictional": true
+  },
+  "intake-supp-20261123-046": {
+    "source_group_id": "intake-supp-20261123-046",
+    "description": "הוראה פנימית לשמור ראיה הגוררת עצירת עסקה",
+    "fictional": true
+  },
+  "intake-supp-20261123-047": {
+    "source_group_id": "intake-supp-20261123-047",
+    "description": "החלטה פנימית לתקן זכייה במכרז אחד",
+    "fictional": true
+  },
+  "intake-supp-20261123-048": {
+    "source_group_id": "intake-supp-20261123-048",
+    "description": "עדות פנימית לשינוי מהותי במסקנת מחקר יחיד",
+    "fictional": true
+  },
+  "intake-supp-20261123-049": {
+    "source_group_id": "intake-supp-20261123-049",
+    "description": "הכרעת תמחור פנימית בנוגע למציע מסוים",
+    "fictional": true
+  },
+  "intake-supp-20261123-050": {
+    "source_group_id": "intake-supp-20261123-050",
+    "description": "נסיגה ממענק חד פרויקטלי בעקבות חוות דעת פנימית",
+    "fictional": true
+  },
+  "intake-supp-20261123-051": {
+    "source_group_id": "intake-supp-20261123-051",
+    "description": "החלטה פנימית שמשנה זכות של הגוף המממן בפרויקט יחיד",
+    "fictional": true
+  },
+  "intake-supp-20261123-052": {
+    "source_group_id": "intake-supp-20261123-052",
+    "description": "ממצא כספי פנימי שמבטל התקשרות נקודתית",
+    "fictional": true
+  },
+  "intake-supp-20261123-053": {
+    "source_group_id": "intake-supp-20261123-053",
+    "description": "חשיפת זהות מקור מוגן בדיוני",
+    "fictional": true
+  },
+  "intake-supp-20261123-054": {
+    "source_group_id": "intake-supp-20261123-054",
+    "description": "שלילת ערבויות של מערך שלם",
+    "fictional": true
+  },
+  "intake-supp-20261123-055": {
+    "source_group_id": "intake-supp-20261123-055",
+    "description": "חשיפת כלל המקורות המוגנים במקרה בדיוני",
+    "fictional": true
+  },
+  "intake-supp-20261123-057": {
+    "source_group_id": "intake-supp-20261123-057",
+    "description": "הסרת הגנה מזהות עד בדיוני",
+    "fictional": true
+  },
+  "intake-supp-20261123-058": {
+    "source_group_id": "intake-supp-20261123-058",
+    "description": "גילוי טבלה המבטלת אנונימיות של קבוצה מוגנת",
+    "fictional": true
+  },
+  "intake-supp-20261123-059": {
+    "source_group_id": "intake-supp-20261123-059",
+    "description": "תלות רוחבית סמויה ועצירה מחייבת ללא חלופה",
+    "fictional": true
+  },
+  "intake-supp-20261123-060": {
+    "source_group_id": "intake-supp-20261123-060",
+    "description": "תלות רוחבית שנקבעה והשלכה יוצאת דופן",
+    "fictional": true
+  },
+  "intake-supp-20261123-061": {
+    "source_group_id": "intake-supp-20261123-061",
+    "description": "שיוך המבטל אנונימיות קבוצתית",
+    "fictional": true
+  },
+  "intake-supp-20261123-062": {
+    "source_group_id": "intake-supp-20261123-062",
+    "description": "ביטול רוחבי בעל השלכה חריגה",
+    "fictional": true
+  },
+  "intake-supp-20261123-063": {
+    "source_group_id": "intake-supp-20261123-063",
+    "description": "ביטול מערכתי מחייב בתקצוב ללא חלופה",
+    "fictional": true
+  },
+  "intake-supp-20261123-064": {
+    "source_group_id": "intake-supp-20261123-064",
+    "description": "חשיפה של קבוצת משתתפים שנשמרה תחת חיסיון",
+    "fictional": true
+  },
+  "intake-supp-20261123-065": {
+    "source_group_id": "intake-supp-20261123-065",
+    "description": "ביטול רוחבי מוגדר מכוח תלות שלא נחשפה",
+    "fictional": true
+  },
+  "intake-supp-20261123-066": {
+    "source_group_id": "intake-supp-20261123-066",
+    "description": "חשיפה פנימית של מבנה שמבטל פעילות מנהלית שלמה",
+    "fictional": true
+  },
+  "intake-supp-20261123-067": {
+    "source_group_id": "intake-supp-20261123-067",
+    "description": "שיוך שחושף קבוצה מוגנת בבדיקה בדיונית",
+    "fictional": true
+  },
+  "intake-supp-20261123-068": {
+    "source_group_id": "intake-supp-20261123-068",
+    "description": "תוצאה חריגה הנוגעת לכל מסלולי מענק במערך",
+    "fictional": true
+  },
+  "intake-supp-20261123-069": {
+    "source_group_id": "intake-supp-20261123-069",
+    "description": "בירור המדגים ביטול חיסיון של כלל אנשי עדות בדיוניים",
+    "fictional": true
+  },
+  "intake-supp-20261123-070": {
+    "source_group_id": "intake-supp-20261123-070",
+    "description": "הכרעה רוחבית ללא אפשרות למלא את הסמכות",
+    "fictional": true
+  },
+  "intake-supp-20261123-071": {
+    "source_group_id": "intake-supp-20261123-071",
+    "description": "מקור סמכות נסתר שהכרעת בוררות מבטלת לכל התוכניות",
+    "fictional": true
+  },
+  "intake-supp-20261123-072": {
+    "source_group_id": "intake-supp-20261123-072",
+    "description": "אובדן חיסיון קבוצתי מאומת במקרה בדיוני",
+    "fictional": true
+  },
+  "intake-supp-20261123-073": {
+    "source_group_id": "intake-supp-20261123-073",
+    "description": "שיחה בדיונית על המשמעות של מועדים בהיסטוריה הטילית",
+    "fictional": true
+  },
+  "intake-supp-20261123-074": {
+    "source_group_id": "intake-supp-20261123-074",
+    "description": "הזמנה פתוחה לדיון בדיוני על תולדות החקיקה",
+    "fictional": true
+  },
+  "intake-supp-20261123-075": {
+    "source_group_id": "intake-supp-20261123-075",
+    "description": "תרגיל פומבי על דיווחי חברות בדיוניות בתחום הטילים",
+    "fictional": true
+  },
+  "intake-supp-20261123-076": {
+    "source_group_id": "intake-supp-20261123-076",
+    "description": "מכתב בדיוני פומבי שעוסק בכתיבה לציבור על תוכניות טילים",
+    "fictional": true
+  },
+  "intake-supp-20261123-077": {
+    "source_group_id": "intake-supp-20261123-077",
+    "description": "הכנת חומר מנהלית רגילה לחומר לימוד בנושא טילים",
+    "fictional": true
+  },
+  "intake-supp-20261123-078": {
+    "source_group_id": "intake-supp-20261123-078",
+    "description": "הכרעה פנימית בתביעה מהותית יחידה",
+    "fictional": true
+  },
+  "intake-supp-20261123-079": {
+    "source_group_id": "intake-supp-20261123-079",
+    "description": "גילוי השיוך המלא של זהויות מוגנות בתחקיר בדיוני",
+    "fictional": true
+  },
+  "intake-supp-20261123-080": {
+    "source_group_id": "intake-supp-20261123-080",
+    "description": "ממצא סופי המבטל בבת אחת מערך מנהלי שלם",
+    "fictional": true
   }
 }
