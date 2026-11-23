@@ -1,0 +1,72 @@
+name: Autonomous intake E5 screening
+
+on:
+  pull_request:
+    branches: [poc/defense-focused-v2]
+    paths:
+      - drafts/autonomous-intake-v1/batch-0006-candidates.jsonl
+      - config/scenarios.json
+      - .github/workflows/autonomous-intake-e5.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  e5-screen:
+    name: E5 semantic screening (not publication)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONIOENCODING: utf-8
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Install local semantic engine (no model API)
+        run: python -m pip install -r requirements-semantic.txt
+      - name: Download pinned open E5 ONNX assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .poc-local/e5
+          base="https://huggingface.co/Xenova/multilingual-e5-small/resolve/761b726dd34fb83930e26aab4e9ac3899aa1fa78"
+          curl -fL --retry 3 --retry-delay 2 "$base/tokenizer.json" -o .poc-local/e5/tokenizer.json
+          curl -fL --retry 3 --retry-delay 2 "$base/onnx/model_int8.onnx" -o .poc-local/e5/model_int8.onnx
+          echo "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39  .poc-local/e5/tokenizer.json" | sha256sum -c -
+          echo "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c  .poc-local/e5/model_int8.onnx" | sha256sum -c -
+      - name: Run signed production preflight and E5 preparation
+        run: |
+          python -B -m sentinel_dataset verify
+          python -B -m sentinel_dataset prepare \
+            drafts/autonomous-intake-v1/batch-0006-candidates.jsonl \
+            --model-dir .poc-local/e5 \
+            --packet .poc-local/packet.json
+      - name: Summarize high-risk semantic candidates
+        run: |
+          python - <<'PY'
+          import json
+          with open(".poc-local/packet.json", encoding="utf-8") as stream:
+              packet = json.load(stream)
+          print("E5 model:", packet["semantic"]["model"])
+          print("Compared entries:", packet["semantic"]["indexed_records"])
+          print("Candidate count:", packet["semantic"]["scanned_records"])
+          print("All similarity alerts:", len(packet["alerts"]))
+          print("High-risk review alerts:", len(packet["review_alerts"]))
+          print("Text-only sample for blind review:", len(packet["texts"]))
+          print("Domain sample:", len(packet["domain_texts"]))
+          for hit in sorted(packet["review_alerts"], key=lambda x: x["score"], reverse=True)[:20]:
+              print("HIGH_RISK", json.dumps(
+                  {"id": hit["id"], "method": hit["method"], "score": hit["score"],
+                   "different_labels": hit["different_labels"]}, ensure_ascii=False))
+          print("E5 screening complete; this does NOT approve a checkpoint.")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: autonomous-intake-e5-review-packet
+          path: .poc-local/packet.json
+          retention-days: 7
