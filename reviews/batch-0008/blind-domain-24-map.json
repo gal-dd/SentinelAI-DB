@@ -1,0 +1,98 @@
+{
+  "D001": {
+    "row": 138,
+    "scenario_id": "chat8v3-038"
+  },
+  "D002": {
+    "row": 147,
+    "scenario_id": "chat8v4a-007"
+  },
+  "D003": {
+    "row": 61,
+    "scenario_id": "chat8v2-021"
+  },
+  "D004": {
+    "row": 258,
+    "scenario_id": "chat8v5d-018"
+  },
+  "D005": {
+    "row": 233,
+    "scenario_id": "chat8v5c-013"
+  },
+  "D006": {
+    "row": 395,
+    "scenario_id": "chat8v7b-030"
+  },
+  "D007": {
+    "row": 378,
+    "scenario_id": "chat8v7b-013"
+  },
+  "D008": {
+    "row": 427,
+    "scenario_id": "chat8v7c-017"
+  },
+  "D009": {
+    "row": 273,
+    "scenario_id": "chat8v6a-013"
+  },
+  "D010": {
+    "row": 476,
+    "scenario_id": "chat8v7d-021"
+  },
+  "D011": {
+    "row": 344,
+    "scenario_id": "chat8v7a-024"
+  },
+  "D012": {
+    "row": 311,
+    "scenario_id": "chat8v6d-006"
+  },
+  "D013": {
+    "row": 85,
+    "scenario_id": "chat8v2-045"
+  },
+  "D014": {
+    "row": 82,
+    "scenario_id": "chat8v2-042"
+  },
+  "D015": {
+    "row": 394,
+    "scenario_id": "chat8v7b-029"
+  },
+  "D016": {
+    "row": 55,
+    "scenario_id": "chat8v2-015"
+  },
+  "D017": {
+    "row": 26,
+    "scenario_id": "chat8v1-026"
+  },
+  "D018": {
+    "row": 40,
+    "scenario_id": "chat8v1-040"
+  },
+  "D019": {
+    "row": 343,
+    "scenario_id": "chat8v7a-023"
+  },
+  "D020": {
+    "row": 496,
+    "scenario_id": "chat8v7d-041"
+  },
+  "D021": {
+    "row": 49,
+    "scenario_id": "chat8v2-009"
+  },
+  "D022": {
+    "row": 424,
+    "scenario_id": "chat8v7c-014"
+  },
+  "D023": {
+    "row": 34,
+    "scenario_id": "chat8v1-034"
+  },
+  "D024": {
+    "row": 166,
+    "scenario_id": "chat8v4b-006"
+  }
+}

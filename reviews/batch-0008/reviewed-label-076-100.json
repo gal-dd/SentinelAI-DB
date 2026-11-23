@@ -1,0 +1,180 @@
+{
+  "scope": "blinded_text_only_sample",
+  "decisions": [
+    {
+      "id": "L076",
+      "label": "סודי ביותר",
+      "reason": "רשימת קישור מאפשרת לזהות מרואיינים שהובטחה הפרדה",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L077",
+      "label": "שמור",
+      "reason": "תיאום רכש שגרתי פנימי של צוות כנס",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L078",
+      "label": "סודי",
+      "reason": "ביטול חוזה משמעותי בשל מימון לא תקף, טרם פורסם",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L079",
+      "label": "סודי",
+      "reason": "דחיית הפקת אוסף משמעותית בעקבות פער תקציבי שלא פורסם",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L080",
+      "label": "שמור",
+      "reason": "ישיבת מעקב פנימית להגהת תוכן",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L081",
+      "label": "בלמס",
+      "reason": "תערוכה מקוונת ציבורית על תצלומי לוויינים",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L082",
+      "label": "שמור",
+      "reason": "דיון פנימי שגרתי בעיצוב כריכת ספר",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L083",
+      "label": "בלמס",
+      "reason": "סרטון פומבי על שימור מוצגים",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L084",
+      "label": "בלמס",
+      "reason": "סקירה תרבותית ציבורית",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L085",
+      "label": "סודי",
+      "reason": "עצירת פרויקט ספר גדול בשל בעיית רישוי; חסר במפורש שטרם פורסם",
+      "status": "needs_rewrite",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L086",
+      "label": "בלמס",
+      "reason": "הרצאה אוניברסיטאית פתוחה",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L087",
+      "label": "שמור",
+      "reason": "סיכום משימות פנימי שגרתי",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L088",
+      "label": "סודי",
+      "reason": "עצירת פרסום מרכזי עקב ממצא משפטי לא פומבי",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L089",
+      "label": "בלמס",
+      "reason": "מדריך לימודי פומבי לכלכלת מחקר",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L090",
+      "label": "בלמס",
+      "reason": "מדריך ציבורי לקריאת אמנות היסטוריות",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L091",
+      "label": "סודי",
+      "reason": "דחיית דוח חסוי בלי ראיה לעוצמת הנזק; דרוש חידוד",
+      "status": "needs_rewrite",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L092",
+      "label": "שמור",
+      "reason": "טבלת הגהה פנימית של צוות הדרכה",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L093",
+      "label": "סודי ביותר",
+      "reason": "תלות רחבה של כל הסכמות האנונימיות באישור לא תקף",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L094",
+      "label": "סודי",
+      "reason": "ביטול התקשרות משמעותית בעקבות הפרת חוזה",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L095",
+      "label": "סודי",
+      "reason": "עצירת מימון פרויקט גדול לפני הודעה פומבית",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L096",
+      "label": "שמור",
+      "reason": "תיאום שגרתי פנימי של חדר ישיבה",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L097",
+      "label": "סודי ביותר",
+      "reason": "סעיף רישוי יחיד מסכן זכויות משפחות ברשת שלמה",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L098",
+      "label": "סודי ביותר",
+      "reason": "כשל מערכתי בהסמכות הביקורת בכל מוסדות הרשת",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L099",
+      "label": "סודי",
+      "reason": "ביטול פרויקט עקב פגם זכויות משמעותי שלא נמסר למפיץ",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L100",
+      "label": "שמור",
+      "reason": "פגישת בקרת סריקה פנימית שגרתית",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    }
+  ]
+}

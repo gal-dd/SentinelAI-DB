@@ -1,0 +1,178 @@
+name: Publish SentinelAI batch 0008 after 0007
+
+on:
+  pull_request:
+    branches: [poc/defense-focused-v2]
+    paths:
+      - reviews/batch-0008/publish-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sentinelai-batch-0008-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Verify previous batch, sign and publish 0008
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Verify explicit release authorization and live 0007 checkpoint
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          data=json.load(open("reviews/batch-0008/publish-request.json",encoding="utf-8"))
+          assert data["checkpoint"] == 8
+          assert data["expected_production_before"] == 7100
+          assert data["expected_production_after"] == 7600
+          assert data["source"] == "drafts/chat/batch-0008/batch-0008-candidates.jsonl"
+          print("Release request verified")
+          PY
+          git fetch origin poc/defense-focused-v2
+          git show origin/poc/defense-focused-v2:progress.json > /tmp/live-progress-0008.json
+          python - <<'PY'
+          import json
+          state=json.load(open("/tmp/live-progress-0008.json",encoding="utf-8"))
+          got=state["production_records"],state["last_checkpoint"],state["next_id"]
+          if got != (7100,7,7101):
+              raise SystemExit(f"ABORT: batch 0007 not published or baseline changed: {got}")
+          print("LIVE_BASELINE_0008", got)
+          PY
+      - name: Install E5 and vector search dependencies
+        run: python -m pip install -r requirements-semantic.txt
+      - name: Download pinned E5 ONNX model
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .poc-local/e5
+          base="https://huggingface.co/Xenova/multilingual-e5-small/resolve/761b726dd34fb83930e26aab4e9ac3899aa1fa78"
+          curl -fL --retry 3 "$base/tokenizer.json" -o .poc-local/e5/tokenizer.json
+          curl -fL --retry 3 "$base/onnx/model_int8.onnx" -o .poc-local/e5/model_int8.onnx
+          echo "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39  .poc-local/e5/tokenizer.json" | sha256sum -c -
+          echo "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c  .poc-local/e5/model_int8.onnx" | sha256sum -c -
+      - name: Recheck E5 against all LIVE production records, including external imports
+        shell: bash
+        run: |
+          set -euo pipefail
+          git worktree add --detach .poc-local/live-production origin/poc/defense-focused-v2
+          (
+            cd .poc-local/live-production
+            python -B -m sentinel_dataset verify
+          )
+          python -B scripts/batch_0008_e5_audit.py \
+            --production .poc-local/live-production \
+            --candidates drafts/chat/batch-0008/batch-0008-candidates.jsonl \
+            --model-dir .poc-local/e5 \
+            --cache-dir .poc-local/embeddings \
+            --output .poc-local/live-e5-0008.json
+          python - <<'PY'
+          import json
+          report=json.load(open(".poc-local/live-e5-0008.json",encoding="utf-8"))
+          if report["production_records"] != 7100 or report["high_risk_count"] != 0:
+              raise SystemExit(f"Unresolved live production E5 high-risk overlaps: {report['high_risk_count']}")
+          PY
+      - name: Stage from clean production tree, using only new scenario IDs
+        shell: bash
+        run: |
+          set -euo pipefail
+          export LIVE_ROOT="$PWD/.poc-local/live-production"
+          python - <<'PY'
+          import json,os,pathlib,shutil
+          dest=pathlib.Path(os.environ["LIVE_ROOT"])
+          live=json.loads((dest/"config/scenarios.json").read_text(encoding="utf-8"))
+          source=json.loads(pathlib.Path("config/scenarios.json").read_text(encoding="utf-8"))
+          candidates=[json.loads(line) for line in pathlib.Path("drafts/chat/batch-0008/batch-0008-candidates.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
+          assert len(candidates)==500
+          added=0
+          for row in candidates:
+              name=row["scenario_id"]
+              info=source.get(name)
+              if not info or not info.get("domain"):
+                  raise SystemExit(f"Missing scenario definition/domain for {name}")
+              if name in live and live[name]!=info:
+                  raise SystemExit(f"Scenario conflict with live production: {name}")
+              if name not in live:
+                  live[name]=info
+                  added+=1
+          (dest/"config/scenarios.json").write_text(json.dumps(live,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          (dest/".poc-local").mkdir(exist_ok=True)
+          shutil.copy2("drafts/chat/batch-0008/batch-0008-candidates.jsonl",dest/".poc-local/batch-0008-candidates.jsonl")
+          shutil.copy2("scripts/build_batch_0008_decisions.py",dest/"scripts/build_batch_0008_decisions.py")
+          shutil.copy2("reviews/batch-0008/official-annotations.json",dest/".poc-local/official-annotations.json")
+          print("ADDED_NEW_SCENARIOS",added)
+          PY
+          (
+            cd "$LIVE_ROOT"
+            python -B -m sentinel_dataset verify
+            python -B -m sentinel_dataset prepare .poc-local/batch-0008-candidates.jsonl \
+              --model-dir "$GITHUB_WORKSPACE/.poc-local/e5" \
+              --packet .poc-local/packet-0008.json
+            python -B scripts/build_batch_0008_decisions.py \
+              --packet .poc-local/packet-0008.json \
+              --candidates .poc-local/batch-0008-candidates.jsonl \
+              --annotations .poc-local/official-annotations.json \
+              --output .poc-local/decisions-0008.json
+            python -B -m sentinel_dataset stage-checkpoint \
+              .poc-local/batch-0008-candidates.jsonl \
+              --decisions .poc-local/decisions-0008.json \
+              --model-dir "$GITHUB_WORKSPACE/.poc-local/e5" \
+              --output-dir .poc-local/staged-0008
+          )
+      - name: Verify staged checkpoint in clean production and push atomic release
+        shell: bash
+        run: |
+          set -euo pipefail
+          export LIVE_ROOT="$PWD/.poc-local/live-production"
+          python - <<'PY'
+          import json,os,pathlib,shutil
+          dst=pathlib.Path(os.environ["LIVE_ROOT"])
+          stage=dst/".poc-local/staged-0008"
+          for rel in ["progress.json","HANDOFF.md","data/checkpoints/batch-0008.jsonl",
+                      "metadata/checkpoints/batch-0008.jsonl","reports/checkpoints/batch-0008.json"]:
+              target=dst/rel
+              target.parent.mkdir(parents=True,exist_ok=True)
+              shutil.copy2(stage/rel,target)
+          next_state=json.loads((dst/"progress.json").read_text(encoding="utf-8"))
+          required=(7600,8,7601)
+          actual=(next_state["production_records"],next_state["last_checkpoint"],next_state["next_id"])
+          if actual!=required: raise SystemExit(f"Staged result mismatch: {actual}!={required}")
+          print("STAGED_PRODUCTION_0008",actual)
+          PY
+          (
+            cd "$LIVE_ROOT"
+            python -B -m sentinel_dataset verify
+            git config user.name "sentinelai-ci"
+            git config user.email "sentinelai-ci@users.noreply.github.com"
+            git add -- config/scenarios.json progress.json HANDOFF.md \
+              data/checkpoints/batch-0008.jsonl \
+              metadata/checkpoints/batch-0008.jsonl \
+              reports/checkpoints/batch-0008.json
+            git diff --cached --check
+            git commit -m "Publish validated SentinelAI checkpoint 0008 (IDs 7101-7600)"
+            git push origin HEAD:refs/heads/poc/defense-focused-v2
+            git rev-parse HEAD
+          )
+      - name: Retain audit evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch-0008-production-audit
+          path: |
+            .poc-local/live-e5-0008.json
+            .poc-local/live-production/.poc-local/packet-0008.json
+            .poc-local/live-production/.poc-local/decisions-0008.json
+            .poc-local/live-production/.poc-local/staged-0008/reports/checkpoints/batch-0008.json
+          if-no-files-found: ignore
+          retention-days: 7

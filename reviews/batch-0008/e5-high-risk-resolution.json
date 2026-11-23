@@ -1,0 +1,12 @@
+{
+  "id": "bff1dd253991dcb5c5e1315babb929c749c7142bf553946f64ea81fbea732902",
+  "score": 0.94024,
+  "method": "semantic",
+  "different_labels": true,
+  "matched_existing_text": "להשוות אינדקסים של מרשם הטילים",
+  "candidate_scenario": "chat8v7d-004",
+  "action": "rewrite",
+  "new_text": "נשללו הגנות עדים בכל ארכיוני היירוט.",
+  "reason": "Publicly generic index comparison was too close semantically to a protected-witness exposure statement; replacement explicitly concerns systemic lapse in witness protections.",
+  "requires_fresh_e5": true
+}

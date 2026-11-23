@@ -1,0 +1,180 @@
+{
+  "scope": "blinded_text_only_sample",
+  "decisions": [
+    {
+      "id": "L051",
+      "label": "סודי",
+      "reason": "הכרעה על ספר מרכזי אך חסר ציון מפורש שלא פורסמה",
+      "status": "needs_rewrite",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L052",
+      "label": "סודי ביותר",
+      "reason": "קישור מזהה המפר התחייבויות פרטיות בכמה מוסדות",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L053",
+      "label": "סודי ביותר",
+      "reason": "הצלבה בין קבוצות מוגנות בניגוד להסכמות",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L054",
+      "label": "בלמס",
+      "reason": "פרסום חינוכי פתוח",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L055",
+      "label": "שמור",
+      "reason": "רשימת עבודה פנימית שגרתית",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L056",
+      "label": "סודי ביותר",
+      "reason": "חשיפת עדים מוגנים",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L057",
+      "label": "שמור",
+      "reason": "חלוקת משימות הדרכה פנימית",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L058",
+      "label": "שמור",
+      "reason": "בקשת עריכה פנימית",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L059",
+      "label": "שמור",
+      "reason": "שינוי שגרתי במשימת ספרייה",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L060",
+      "label": "סודי ביותר",
+      "reason": "הגנות רחבות שתלויות בהסכם אחד; נדרש תיקון דקדוק",
+      "status": "needs_rewrite",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L061",
+      "label": "סודי",
+      "reason": "ביטול הליך רכש מהותי ולא פומבי",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L062",
+      "label": "שמור",
+      "reason": "סידור משימות צוות לממשק ציבורי",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L063",
+      "label": "שמור",
+      "reason": "חלוקת תפקידים פנימית",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L064",
+      "label": "סודי",
+      "reason": "הקפאת חוזה חשוב בעקבות ממצא לא פומבי",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L065",
+      "label": "סודי ביותר",
+      "reason": "פקיעה רוחבית של הגנות חוקיות בכמה מוסדות",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L066",
+      "label": "סודי",
+      "reason": "כשל תקציבי מהותי וממצאים שלא פורסמו",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L067",
+      "label": "שמור",
+      "reason": "משימות גינון קהילתיות פנימיות",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L068",
+      "label": "סודי ביותר",
+      "reason": "רשת מוסדות תלויה בהסכם שפקע",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L069",
+      "label": "שמור",
+      "reason": "בקשת ספרייה להכנת מקורות למדריכים",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L070",
+      "label": "בלמס",
+      "reason": "מאמר תרבותי פומבי",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L071",
+      "label": "סודי",
+      "reason": "החלטת הפצה מהותית שנשארה פנימית",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L072",
+      "label": "סודי",
+      "reason": "הקפאת חוזים ותוכנית מהותית ללא פרסום",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L073",
+      "label": "בלמס",
+      "reason": "תערוכה ציבורית על היסטוריית כטבמים",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L074",
+      "label": "סודי ביותר",
+      "reason": "חשיפה אפשרית של קבוצות מוגנות רבות",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    },
+    {
+      "id": "L075",
+      "label": "בלמס",
+      "reason": "המלצות ספרי ילדים לציבור",
+      "status": "pass",
+      "reviewer": "GPT-6 same-chat blinded text-only; not independent model"
+    }
+  ]
+}
