@@ -1,0 +1,372 @@
+{
+  "status": "draft_only",
+  "production_base": "bd12f8b5dcb048556c91dd294adc73b9a63dc0b8",
+  "producer_base": "188ff889fadcdd39d3d569d0e78f92dd498fc9f7",
+  "target_checkpoint": 6,
+  "production_verified": 6100,
+  "next_id": 6101,
+  "by_cohort": {
+    "legacy": {
+      "excluded": 38,
+      "draft_pool": 261,
+      "held": 1701
+    },
+    "supplemental": {
+      "excluded": 156,
+      "draft_pool": 104
+    },
+    "new": {
+      "draft_pool": 61
+    }
+  },
+  "reasons": {
+    "unadjudicated_mandatory_similarity": 7,
+    "independent_blind_review_pending": 426,
+    "existing_human_hold": 1701,
+    "pending_language_revalidation": 4,
+    "repeated_substantive_sentence": 27,
+    "origin_not_allowed_for_checkpoint": 19,
+    "producer_reports_recurring_long_form_wording": 110,
+    "editorial_scope_or_evidence_issue": 27
+  },
+  "draft_counts": {
+    "records": 426,
+    "label_lengths": {
+      "בלמס": [
+        23,
+        234,
+        48,
+        9
+      ],
+      "שמור": [
+        2,
+        29,
+        11,
+        8
+      ],
+      "סודי": [
+        2,
+        10,
+        11,
+        8
+      ],
+      "סודי ביותר": [
+        2,
+        10,
+        11,
+        8
+      ]
+    },
+    "labels": {
+      "בלמס": 314,
+      "שמור": 50,
+      "סודי": 31,
+      "סודי ביותר": 31
+    },
+    "lengths": {
+      "short": 29,
+      "sentence": 283,
+      "paragraph": 81,
+      "long": 33
+    },
+    "origins": {
+      "synthetic": 378,
+      "fictional_document": 48
+    },
+    "styles": {
+      "archive-note": 14,
+      "qa": 18,
+      "notice": 27,
+      "article": 5,
+      "worksheet": 4,
+      "minutes": 13,
+      "guide": 3,
+      "explainer": 1,
+      "exhibit": 38,
+      "glossary": 2,
+      "faq": 3,
+      "catalog": 8,
+      "lesson": 9,
+      "lecture": 1,
+      "report": 35,
+      "log": 16,
+      "brief": 19,
+      "memo": 10,
+      "transcript": 11,
+      "review": 8,
+      "audit": 23,
+      "handoff": 21,
+      "interview": 9,
+      "summary": 4,
+      "email": 9,
+      "letter": 3,
+      "discussion": 4,
+      "internal-note": 19,
+      "task-note": 1,
+      "handover": 1,
+      "procedure-note": 1,
+      "work-summary": 1,
+      "decision": 3,
+      "finance-note": 2,
+      "audit-note": 3,
+      "contract-note": 1,
+      "research-summary": 1,
+      "permissions-report": 1,
+      "procurement": 1,
+      "meeting-record": 1,
+      "finance-review": 1,
+      "privacy-review": 1,
+      "appeal-decision": 2,
+      "project-risk": 1,
+      "internal-report": 1,
+      "contract-brief": 1,
+      "access-review": 1,
+      "privacy-finding": 1,
+      "dependency": 1,
+      "identity-review": 1,
+      "continuity": 1,
+      "linkage": 1,
+      "board-decision": 1,
+      "research-note": 2,
+      "systemic-review": 1,
+      "committee-note": 1,
+      "archive-report": 1,
+      "privacy-incident": 1,
+      "protected-record": 1,
+      "continuity-brief": 1,
+      "identity-appendix": 1,
+      "public-course": 1,
+      "museum-caption": 1,
+      "public-finance-guide": 1,
+      "editorial": 1,
+      "exercise": 1,
+      "public-outline": 1,
+      "exhibit-guide": 1,
+      "opinion": 1,
+      "reminder": 1,
+      "message": 1,
+      "ticket": 1,
+      "calendar": 1,
+      "task": 1,
+      "internal-notice": 1,
+      "prep-note": 1,
+      "legal-note": 1,
+      "decision-note": 1,
+      "finance-incident": 2,
+      "mail": 1,
+      "legal-brief": 1,
+      "finding": 2,
+      "legal-alert": 1,
+      "legal-audit": 1,
+      "executive-note": 1,
+      "audit-report": 1,
+      "case-note": 1,
+      "finance-memo": 1,
+      "investigation": 1,
+      "executive-letter": 1,
+      "open-lesson": 1,
+      "public-lecture-summary": 1,
+      "dialogue": 1,
+      "copy-desk-note": 1,
+      "register-note": 1,
+      "librarian-note": 1,
+      "meeting-note": 1,
+      "archive-diary": 1,
+      "staff-message": 1,
+      "board-record": 1,
+      "legal-finding": 1,
+      "curator-letter": 1,
+      "confidential-memo": 1,
+      "witness-note": 1,
+      "grant-audit": 1,
+      "legal-report": 1,
+      "trustee-report": 1,
+      "restricted-finding": 1
+    },
+    "scenario_count": 217,
+    "source_group_count": 206,
+    "edge_cases": 0,
+    "counterfactual_pairs": 0,
+    "records_with_latin": 0,
+    "domain_counts": {
+      "missile_systems": 285,
+      "uncrewed_aircraft": 24,
+      "radar_sensors_space": 22,
+      "cyber_communications_c2": 24,
+      "defense_logistics": 10,
+      "general_negative_controls": 61
+    },
+    "domain_label_counts": {
+      "missile_systems": {
+        "בלמס": 218,
+        "שמור": 35,
+        "סודי": 16,
+        "סודי ביותר": 16
+      },
+      "uncrewed_aircraft": {
+        "בלמס": 24,
+        "שמור": 0,
+        "סודי": 0,
+        "סודי ביותר": 0
+      },
+      "radar_sensors_space": {
+        "בלמס": 22,
+        "שמור": 0,
+        "סודי": 0,
+        "סודי ביותר": 0
+      },
+      "cyber_communications_c2": {
+        "בלמס": 24,
+        "שמור": 0,
+        "סודי": 0,
+        "סודי ביותר": 0
+      },
+      "defense_logistics": {
+        "בלמס": 10,
+        "שמור": 0,
+        "סודי": 0,
+        "סודי ביותר": 0
+      },
+      "general_negative_controls": {
+        "בלמס": 16,
+        "שמור": 15,
+        "סודי": 15,
+        "סודי ביותר": 15
+      }
+    },
+    "missile_domain_percentage": 66.90140845070422
+  },
+  "new_created": 61,
+  "production_limits": {
+    "missing_domain_minimum": {
+      "missile_systems": 15,
+      "uncrewed_aircraft": 26,
+      "radar_sensors_space": 28,
+      "cyber_communications_c2": 26,
+      "defense_logistics": 15,
+      "general_negative_controls": 0
+    },
+    "missing_domain_label_cells": [
+      {
+        "domain": "uncrewed_aircraft",
+        "label": "שמור"
+      },
+      {
+        "domain": "uncrewed_aircraft",
+        "label": "סודי"
+      },
+      {
+        "domain": "uncrewed_aircraft",
+        "label": "סודי ביותר"
+      },
+      {
+        "domain": "radar_sensors_space",
+        "label": "שמור"
+      },
+      {
+        "domain": "radar_sensors_space",
+        "label": "סודי"
+      },
+      {
+        "domain": "radar_sensors_space",
+        "label": "סודי ביותר"
+      },
+      {
+        "domain": "cyber_communications_c2",
+        "label": "שמור"
+      },
+      {
+        "domain": "cyber_communications_c2",
+        "label": "סודי"
+      },
+      {
+        "domain": "cyber_communications_c2",
+        "label": "סודי ביותר"
+      },
+      {
+        "domain": "defense_logistics",
+        "label": "שמור"
+      },
+      {
+        "domain": "defense_logistics",
+        "label": "סודי"
+      },
+      {
+        "domain": "defense_logistics",
+        "label": "סודי ביותר"
+      }
+    ],
+    "missing_label_length_minimum": {
+      "בלמס": [
+        0,
+        0,
+        0,
+        16
+      ],
+      "שמור": [
+        5,
+        21,
+        32,
+        17
+      ],
+      "סודי": [
+        5,
+        40,
+        32,
+        17
+      ],
+      "סודי ביותר": [
+        5,
+        40,
+        32,
+        17
+      ]
+    }
+  },
+  "checks": {
+    "production_verify": true,
+    "normalized_duplicate_baseline": 6100,
+    "lexical_baseline_records": 6100,
+    "lexical_baseline_distinct_normalized_texts": 6100,
+    "lexical_alerts": 7,
+    "semantic": {
+      "status": "completed",
+      "model": "Xenova/multilingual-e5-small",
+      "reference_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+      "artifact_sha256": {
+        "model_int8.onnx": "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c",
+        "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+      },
+      "search": "hnsw_cosine_top_k",
+      "cosine_threshold": 0.92,
+      "neighbors_per_record": 12,
+      "indexed_records": 6560,
+      "scanned_records": 460,
+      "candidate_pairs": 852
+    },
+    "mandatory_similarity_candidate_keys": 7,
+    "infrastructure_error_count": 0,
+    "unit_tests_passed": 39,
+    "draft_structure_revalidated": true,
+    "checkpoint_prepare_run": false
+  },
+  "publication_approved": false,
+  "independent_blind_review": "pending",
+  "production_ids_assigned": false,
+  "supplemental_civilian_expansion": {
+    "screened_domain_and_origin_metadata": 1000,
+    "general_negative_controls": 975,
+    "radar_sensors_space_public_adapted": 25,
+    "included_in_intake_counts": false,
+    "disposition": "Origin and domain metadata did not address uncovered domains and labels. A separate screened supply of general controls already exists in the pool."
+  },
+  "publication_blockers": [
+    "Fewer than 500 draft candidates. Existing mandatory domain and label/length quotas cannot be filled from this pool.",
+    "Independent blinded content/label/domain review and the checkpoint-specific review packet are pending."
+  ],
+  "draft_sha256": {
+    "candidates.jsonl": "a1e0e0b058fc7bd4f5c34ad15c59aa697c20f42a58441753fc0b50e97d791fd4",
+    "scenarios.json": "903d5cc2b68dffa5d952bf459266cb8ad0bf3afbbe13bbc62356f854cd7c9dcc",
+    "traceability.json": "91406375667163c75b84df6974bf32c9dd5f53af94e31b167338b7c0d0153942"
+  }
+}
