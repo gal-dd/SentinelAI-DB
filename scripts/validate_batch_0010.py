@@ -17,9 +17,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--candidates", type=Path, required=True)
     ap.add_argument("--report", type=Path, required=True)
+    ap.add_argument("--progress", type=Path, required=True)
     args = ap.parse_args()
     rows = read_jsonl(args.candidates)
-    progress = json.loads((ROOT / "progress.json").read_text(encoding="utf-8"))
+    progress = json.loads(args.progress.read_text(encoding="utf-8"))
     targets = json.loads((ROOT / "config/defense-domain-targets.json").read_text(encoding="utf-8"))
     scenarios, sources = scenario_catalog()
     expected_domain = {x["id"]: x["target"] // 200 for x in targets["domain_targets"]}

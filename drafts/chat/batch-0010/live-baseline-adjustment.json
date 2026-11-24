@@ -1,0 +1,33 @@
+{
+  "baseline": 8100,
+  "checkpoint": 9,
+  "expected_next": 8101,
+  "length_counts": {
+    "בלמס/short": 7,
+    "בלמס/sentence": 50,
+    "בלמס/paragraph": 43,
+    "בלמס/long": 25,
+    "שמור/short": 7,
+    "שמור/sentence": 50,
+    "שמור/paragraph": 43,
+    "שמור/long": 25,
+    "סודי/short": 7,
+    "סודי/sentence": 50,
+    "סודי/paragraph": 43,
+    "סודי/long": 25,
+    "סודי ביותר/short": 7,
+    "סודי ביותר/sentence": 50,
+    "סודי ביותר/paragraph": 43,
+    "סודי ביותר/long": 25
+  },
+  "changed_indices": [
+    56,
+    181,
+    252,
+    306,
+    377,
+    378,
+    431
+  ],
+  "scope": "editorial corrections and exact quota check; official semantic and content review pending"
+}
