@@ -1,0 +1,56 @@
+name: Export current production JSON snapshot
+
+on:
+  push:
+    branches: [poc/defense-focused-v2]
+    paths:
+      - scripts/export_current_production.py
+      - .github/workflows/export-current-production.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: current-production-export
+  cancel-in-progress: false
+
+jobs:
+  export:
+    if: github.ref == 'refs/heads/poc/defense-focused-v2'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: poc/defense-focused-v2
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Verify production and assemble complete JSON array
+        run: python -B scripts/export_current_production.py
+      - name: Publish export and manifest only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- exports/synthetic_security_classification_current.json exports/manifest.json
+          git diff --cached --check
+          if git diff --cached --quiet; then
+            echo "Export already up to date"
+            exit 0
+          fi
+          git config user.name "sentinelai-ci"
+          git config user.email "sentinelai-ci@users.noreply.github.com"
+          git commit -m "Publish current production JSON export"
+          git push origin HEAD:refs/heads/poc/defense-focused-v2
+          git rev-parse HEAD
+      - name: Retain export for direct download from this run
+        uses: actions/upload-artifact@v4
+        with:
+          name: current-production-json
+          path: |
+            exports/synthetic_security_classification_current.json
+            exports/manifest.json
+          if-no-files-found: error
+          retention-days: 14
