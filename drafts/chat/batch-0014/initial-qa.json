@@ -1,31 +1,42 @@
 {
   "checkpoint": 14,
   "status": "partial_draft_not_approved",
-  "candidate_count": 135,
+  "candidate_count": 200,
   "expected_count": 500,
   "base_checkpoint": 12,
   "base_production": 11000,
   "depends_on_checkpoint": 13,
   "production_ids_assigned": false,
-  "checks": {
-    "normalized_exact_duplicates_within_candidates": 0,
-    "length_buckets_new_wave": "passed",
-    "production_baseline_dedup": "not_run",
-    "semantic_similarity": "not_run",
-    "independent_content_review": "not_run",
-    "official_prepare": "not_run"
-  },
-  "new_wave": {
-    "count": 35,
-    "label": "בלמס",
-    "length": "sentence",
-    "domains": {
-      "m": 23,
-      "d": 2,
-      "s": 3,
-      "c": 3,
-      "l": 2,
-      "g": 2
+  "label_lengths": {
+    "בלמס": {
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
+    },
+    "שמור": {
+      "short": 6,
+      "sentence": 15,
+      "paragraph": 4
+    },
+    "סודי": {
+      "short": 6,
+      "sentence": 15,
+      "paragraph": 4
+    },
+    "סודי ביותר": {
+      "short": 6,
+      "sentence": 15,
+      "paragraph": 4
     }
-  }
+  },
+  "checks": {
+    "exact_duplicates_within_candidates": 0,
+    "length_buckets": "passed for saved records",
+    "official_prepare": "not_run",
+    "production_baseline": "not_run",
+    "semantic_similarity": "not_run",
+    "independent_review": "not_run"
+  },
+  "rejected_in_wave": []
 }
