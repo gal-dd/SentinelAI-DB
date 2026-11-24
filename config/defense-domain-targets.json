@@ -1,39 +1,39 @@
 {
-  "version": "1.0.0",
-  "applies_to": "100000 production records (pilot excluded)",
+  "version": "1.1.0",
+  "applies_to": "New reviewed checkpoints from 0011 onward; previous signed checkpoints retain their original quotas. External imports count toward total but are not assigned reviewed domains.",
   "goal": "Hebrew security-sensitivity classification with defense-oriented documents",
   "total": 100000,
   "domain_targets": [
     {
       "id": "missile_systems",
       "name": "טילים, טילים בליסטיים, מערכות יירוט והגנה אווירית",
-      "minimum": 60000,
-      "target": 60000
+      "minimum": 80000,
+      "target": 80000
     },
     {
       "id": "uncrewed_aircraft",
       "name": "רחפנים, כטב״מים ומערכות אוויריות",
-      "target": 10000
+      "target": 4800
     },
     {
       "id": "radar_sensors_space",
       "name": "מכ״ם, חיישנים, לוויינים ומערכות חלל",
-      "target": 10000
+      "target": 4800
     },
     {
       "id": "cyber_communications_c2",
       "name": "תקשורת, סייבר ושליטה ובקרה",
-      "target": 10000
+      "target": 4800
     },
     {
       "id": "defense_logistics",
       "name": "רכש, בטיחות ולוגיסטיקה ביטחונית",
-      "target": 5000
+      "target": 2800
     },
     {
       "id": "general_negative_controls",
       "name": "מידע כללי לדוגמאות נגדיות",
-      "target": 5000
+      "target": 2800
     }
   ],
   "label_target_per_class": 25000,
@@ -46,5 +46,30 @@
     "Use invented organizations, projects and examples. Never include real classified information, actionable missile/weapons construction, deployment, targeting, launch sequences, explosive fabrication, precise performance parameters, or operational vulnerabilities.",
     "Before checkpoint acceptance run domain coverage QA and review sampled assignments for contextual relevance. Numeric quotas alone do not prove semantic quality."
   ],
-  "existing_data": "General v1 and its pilot are archived and excluded from all v2 inputs."
+  "existing_data": "General v1 and its pilot are archived and excluded from all v2 inputs.",
+  "batch_quota_schedule": [
+    {
+      "first_checkpoint": 1,
+      "counts": {
+        "missile_systems": 300,
+        "uncrewed_aircraft": 50,
+        "radar_sensors_space": 50,
+        "cyber_communications_c2": 50,
+        "defense_logistics": 25,
+        "general_negative_controls": 25
+      }
+    },
+    {
+      "first_checkpoint": 11,
+      "counts": {
+        "missile_systems": 400,
+        "uncrewed_aircraft": 24,
+        "radar_sensors_space": 24,
+        "cyber_communications_c2": 24,
+        "defense_logistics": 14,
+        "general_negative_controls": 14
+      }
+    }
+  ],
+  "target_scope": "Prospective per-checkpoint distribution only; not a retroactive cumulative target. Public, educational, historical and fictional non-operational content only."
 }

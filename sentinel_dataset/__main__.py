@@ -7,7 +7,7 @@ import sys
 from . import checkpoints as cp
 from .core import (PLAN, ROOT, check_quotas, fingerprint, json_bytes, jsonl_bytes, read_json,
                    read_jsonl, scenario_catalog, stats, validate_row, validate_rows)
-from .domains import BATCH_TARGETS, coverage, require_coverage, verify_domain_review
+from .domains import batch_targets, coverage, require_coverage, verify_domain_review
 from .model import blind_review, generate
 from .production import validate_document_form
 from .review import make_packet, verify_decisions, verify_pairs, write_packet
@@ -72,9 +72,11 @@ def prepare(args, state, prior, pilot):
     expected_lengths = state["length_plan"]["next_checkpoint_label_lengths"]
     if stats(rows)["label_lengths"] != expected_lengths:
         raise ValueError(f"Checkpoint does not match the planned label/length quotas: {expected_lengths}")
-    require_coverage(rows)
-    check_quotas([*prior, *rows], "production")
     batch = state["last_checkpoint"] + 1
+    require_coverage(rows, checkpoint=batch)
+    if state["production_records"] + len(rows) > 100_000:
+        raise ValueError("Checkpoint would exceed the total production goal")
+    check_quotas([*prior, *rows], "production")
     previous_rate = (read_json(ROOT / cp.batch_paths(batch - 1)[2])["review"]["disagreement_rate"]
                      if batch > 1 else 0)
     packet = make_packet(rows, [*pilot, *prior], scenarios, sources, args.model_dir,
@@ -85,7 +87,9 @@ def prepare(args, state, prior, pilot):
 def final_artifacts(args, state, prior, pilot):
     if state["final"]:
         raise ValueError("Dataset is already finalized")
-    metrics = check_quotas(prior, "production", final=True)
+    external = cp.load_external_imports(state)
+    total_labels = cp.verify_final_totals(state, prior, external)
+    metrics = check_quotas(prior, "production")
     domains = require_coverage(prior, state["last_checkpoint"])
     lexical = validate_rows(prior, *scenario_catalog(), prior=pilot)
     semantic, semantic_report = semantic_scan(pilot, prior, args.model_dir, args.cache_dir)
@@ -118,7 +122,6 @@ def final_artifacts(args, state, prior, pilot):
         extra = read_json(args.dispositions)
         verify_pairs(extra, [item["id"] for item in pending], "final-scan alerts")
         dispositions.update(extra)
-    external = cp.load_external_imports(state)
     dataset = cp.export_production(state, prior, external)
     data_path = Path(cp.FINAL_NAME)
     report_path = Path("reports/final.json")
@@ -128,6 +131,9 @@ def final_artifacts(args, state, prior, pilot):
         "metrics": metrics, "schema": "passed", "normalized_exact_duplicates": 0,
         "reviewed_metrics_scope": "reviewed checkpoints only",
         "production_records": len(dataset), "external_records_without_content_review": len(external),
+        "total_label_counts": total_labels,
+        "external_length_domain_content_quotas": "not independently verified",
+        "reviewed_length_metrics_scope": "reviewed checkpoints only",
         **domains, "domain_review": {"status": "completed", "checkpoints": state["last_checkpoint"]},
         "semantic": semantic_report, "similarity_alerts": alerts,
         "similarity_policy": "monitor_all_review_high_risk_v1",
@@ -148,7 +154,7 @@ def validated_checkpoint(args, state, prior, pilot):
     rows, packet = prepare(args, state, prior, pilot)
     decisions = read_json(args.decisions)
     review = verify_decisions(packet, decisions, rows)
-    domains = require_coverage(rows)
+    domains = require_coverage(rows, checkpoint=state["last_checkpoint"] + 1)
     domain_review = verify_domain_review(rows, state["last_checkpoint"] + 1, decisions.get("domains"))
     return cp.batch_artifacts(state, rows, stats(rows), review, packet, decisions, domains, domain_review)
 
@@ -173,7 +179,9 @@ def run(args):
     state, prior = cp.load_progress()
     pilot = cp.load_pilot()
     if args.command == "plan":
-        plan = dict(state["length_plan"], next_checkpoint_domain_counts=BATCH_TARGETS if not state["final"] and len(prior) < 100000 else {})
+        next_domains = batch_targets(state["last_checkpoint"] + 1) if not state["final"] and state["production_records"] < 100_000 else {}
+        plan = dict(state["length_plan"], next_checkpoint_domain_counts=next_domains,
+                    total_records_remaining=100_000-state["production_records"])
         if args.drafts:
             rows = [row for path in args.drafts for row in read_jsonl(path)]
             validate_rows(rows, *scenario_catalog(), prior=[*pilot, *prior])
@@ -185,7 +193,7 @@ def run(args):
             if any(count < 0 for cells in gap.values() for count in cells):
                 raise ValueError(f"Drafts exceed a planned quota: {gap}")
             domain_metrics = coverage(rows)
-            domain_gap = {key: goal - domain_metrics["domain_counts"][key] for key, goal in BATCH_TARGETS.items()}
+            domain_gap = {key: goal - domain_metrics["domain_counts"][key] for key, goal in next_domains.items()}
             if min(domain_gap.values()) < 0:
                 raise ValueError(f"Drafts exceed a domain quota: {domain_gap}")
             plan.update(draft_records=len(rows), draft_label_lengths=actual, remaining_in_checkpoint=gap,

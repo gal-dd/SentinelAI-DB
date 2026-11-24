@@ -11,7 +11,35 @@ TARGETS = {item["id"]: item["target"] for item in CONFIG["domain_targets"]}
 MISSILES = "missile_systems"
 MISSILE_MINIMUM = next(item["minimum"] for item in CONFIG["domain_targets"] if item["id"] == MISSILES)
 TOTAL = CONFIG["total"]
-BATCH_TARGETS = {key: goal * PLAN["checkpoint_size"] // TOTAL for key, goal in TARGETS.items()}
+SCHEDULE = CONFIG["batch_quota_schedule"]
+if ([item["first_checkpoint"] for item in SCHEDULE] != sorted(set(item["first_checkpoint"] for item in SCHEDULE))
+        or SCHEDULE[0]["first_checkpoint"] != 1
+        or any(set(item["counts"]) != set(TARGETS)
+               or sum(item["counts"].values()) != PLAN["checkpoint_size"]
+               or any(type(n) is not int or n < len(LABELS) for n in item["counts"].values())
+               for item in SCHEDULE)):
+    raise ValueError("Invalid checkpoint domain quota schedule")
+
+
+def batch_targets(checkpoint):
+    """Return the quota in force when this numbered checkpoint is published."""
+    if type(checkpoint) is not int or checkpoint < 1:
+        raise ValueError("Invalid checkpoint number")
+    return dict(next(item["counts"] for item in reversed(SCHEDULE)
+                     if checkpoint >= item["first_checkpoint"]))
+
+
+def cumulative_targets(batches):
+    if type(batches) is not int or batches < 0:
+        raise ValueError("Invalid checkpoint count")
+    counts = dict.fromkeys(TARGETS, 0)
+    for index in range(1, batches + 1):
+        for domain, n in batch_targets(index).items():
+            counts[domain] += n
+    return counts
+
+
+BATCH_TARGETS = batch_targets(SCHEDULE[-1]["first_checkpoint"])
 if (sum(TARGETS.values()) != TOTAL or sum(BATCH_TARGETS.values()) != PLAN["checkpoint_size"]
         or any(goal * PLAN["checkpoint_size"] % TOTAL for goal in TARGETS.values())
         or TARGETS[MISSILES] < MISSILE_MINIMUM):
@@ -43,15 +71,15 @@ def coverage(rows):
     }
 
 
-def require_coverage(rows, batches=1):
+def require_coverage(rows, batches=1, *, checkpoint=None):
     metrics = coverage(rows)
     counts = metrics["domain_counts"]
-    if counts[MISSILES] * TOTAL < len(rows) * MISSILE_MINIMUM:
+    expected = batch_targets(checkpoint) if checkpoint is not None else cumulative_targets(batches)
+    if counts[MISSILES] < expected[MISSILES]:
         raise ValueError("Missile coverage is below the required minimum")
-    expected = {key: value * batches for key, value in BATCH_TARGETS.items()}
     if counts != expected:
         raise ValueError(f"Domain quotas differ: {counts}; expected {expected}")
-    if batches and any(not count for labels in metrics["domain_label_counts"].values()
+    if (checkpoint is not None or batches) and any(not count for labels in metrics["domain_label_counts"].values()
                        for count in labels.values()):
         raise ValueError("Each domain must include all four sensitivity labels")
     return metrics

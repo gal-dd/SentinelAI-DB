@@ -6,6 +6,9 @@ on:
     paths:
       - scripts/export_current_production.py
       - .github/workflows/export-current-production.yml
+      - progress.json
+      - data/checkpoints/**
+      - data/external-imports/**
   workflow_dispatch:
 
 permissions:

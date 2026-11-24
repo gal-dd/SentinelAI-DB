@@ -122,6 +122,18 @@ def load_external_imports(state, root=ROOT):
     return rows
 
 
+def verify_final_totals(state, reviewed, external):
+    """The total target includes imported records, but their content QA remains separate."""
+    from collections import Counter
+    counts = Counter(row["label"] for row in reviewed)
+    counts.update(row["סיווג"] for row in external)
+    if (state["production_records"] != 100_000
+            or len(reviewed) + len(external) != 100_000
+            or dict(counts) != dict.fromkeys(LABELS, 25_000)):
+        raise ValueError("Final export requires 100,000 total records, 25,000 per label")
+    return dict(counts)
+
+
 def export_production(state, reviewed, external):
     """Combine production cohorts while preserving all allocated IDs."""
     checkpoint_rows = iter(reviewed)
@@ -160,7 +172,7 @@ def load_progress(root=ROOT):
         if len(rows) != CHECKPOINT_SIZE:
             raise ValueError(f"Incorrect checkpoint size: {index}")
         report = read_json(root / paths[2])
-        domains = require_coverage(rows)
+        domains = require_coverage(rows, checkpoint=index)
         if any((({d: {canonical_label(label): n for label, n in counts.items()} for d, counts in report.get(key, {}).items()} if key == "domain_label_counts" else report.get(key)) != value) for key, value in domains.items()):
             raise ValueError(f"Invalid domain metrics in checkpoint {index}")
         domain_review = verify_domain_review(rows, index, report.get("domain_review", {}).get("records"))
@@ -181,7 +193,11 @@ def load_progress(root=ROOT):
         raise ValueError("Production ID gap or overlap")
     if state["production_records"] != count or state["next_id"] != count + 1:
         raise ValueError("Progress counts do not match checkpoint files")
-    metrics = check_quotas(production, "production", final=bool(state["final"]))
+    metrics = check_quotas(production, "production")
+    if count > 100_000:
+        raise ValueError("Production exceeds the total 100,000-record goal")
+    if state["final"]:
+        verify_final_totals(state, production, external)
     domain_metrics = require_coverage(production, state["last_checkpoint"])
     for key, value in domain_metrics.items():
         if key in state and state[key] != value:
@@ -252,6 +268,8 @@ def batch_artifacts(state, rows, metrics, review, packet, decisions, domains, do
     index = state["last_checkpoint"] + 1
     start = state["next_id"]
     end = start + len(rows) - 1
+    if end > 100_000:
+        raise ValueError("Checkpoint would exceed the total production goal")
     data, meta, quality = batch_paths(index)
     data_bytes = jsonl_bytes(export_rows(rows, start))
     meta_bytes = jsonl_bytes(metadata_rows(rows, start, decisions["records"], packet["alerts"]))

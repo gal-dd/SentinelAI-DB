@@ -10,7 +10,7 @@
 | [AGENTS.md](AGENTS.md) | כללי עבודה במאגר |
 | [HANDOFF.md](HANDOFF.md) | מסמך ייצור היסטורי; יש להשוות ל־progress.json |
 | [מדיניות התיוג](policy/v0.1.0.md) | הגדרות רגישות, הכרעות ומקרי קצה |
-| [מכסות התחומים](config/defense-domain-targets.json) | 60% תוכן שעוסק מהותית במערכות טיליות |
+| [מכסות התחומים](config/defense-domain-targets.json) | 80% מכל מנה חדשה החל מ־0011; 60% במנות ההיסטוריות |
 | [הוראות הייצור](prompts/WORKER_START_DEFENSE_V2.md) | כתיבה, בידוד הארכיון ושיתוף עבודה |
 | [מניפסט הארכיון](archive/general-v1/archive-manifest.json) | מאגר v1 שנשמר בצד |
 

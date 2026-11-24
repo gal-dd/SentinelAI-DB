@@ -5,13 +5,13 @@ from unittest.mock import patch
 
 from sentinel_dataset import checkpoints as cp
 from sentinel_dataset.core import LABELS, export_rows, fingerprint, json_bytes, validate_rows
-from sentinel_dataset.domains import BATCH_TARGETS, require_coverage, review_sample, verify_domain_review
+from sentinel_dataset.domains import batch_targets, cumulative_targets, require_coverage, review_sample, verify_domain_review
 
 
 class DefenseV2Tests(unittest.TestCase):
-    def rows(self):
-        return [{"primary_domain": domain, "label": LABELS[i % 4], "text": str(i)}
-                for domain, count in BATCH_TARGETS.items() for i in range(count)]
+    def rows(self, checkpoint=1):
+        return [{"primary_domain": domain, "label": LABELS[i % 4], "text": f"{domain}-{i}"}
+                for domain, count in batch_targets(checkpoint).items() for i in range(count)]
 
     def test_empty_state_ignores_archived_checkpoint_and_pilot(self):
         with TemporaryDirectory() as folder:
@@ -54,6 +54,29 @@ class DefenseV2Tests(unittest.TestCase):
         rows[0]["primary_domain"] = "defense_logistics"
         with self.assertRaisesRegex(ValueError, "below the required minimum"):
             require_coverage(rows)
+
+    def test_prospective_quota_change_preserves_history(self):
+        old = self.rows(10)
+        new = self.rows(11)
+        self.assertEqual(require_coverage(old, checkpoint=10)["domain_counts"]["missile_systems"], 300)
+        self.assertEqual(require_coverage(new, checkpoint=11)["missile_domain_percentage"], 80)
+        self.assertEqual(sum(batch_targets(11).values()), 500)
+        self.assertEqual(cumulative_targets(10)["missile_systems"], 3000)
+        self.assertEqual(cumulative_targets(11)["missile_systems"], 3400)
+        mixed = [row for _ in range(10) for row in old] + new
+        self.assertEqual(require_coverage(mixed, 11)["domain_counts"]["missile_systems"], 3400)
+        with self.assertRaises(ValueError):
+            require_coverage(old, checkpoint=11)
+        with self.assertRaises(ValueError):
+            require_coverage(new, checkpoint=10)
+
+    def test_final_total_includes_external_without_claiming_review(self):
+        reviewed = [{"label": label} for label in LABELS for _ in range(23750)]
+        external = [{"סיווג": label} for label in LABELS for _ in range(1250)]
+        self.assertEqual(cp.verify_final_totals({"production_records": 100000}, reviewed, external),
+                         dict.fromkeys(LABELS, 25000))
+        with self.assertRaises(ValueError):
+            cp.verify_final_totals({"production_records": 105000}, reviewed, external)
 
     def test_stratified_semantic_review_requires_contextual_decisions(self):
         rows = self.rows()

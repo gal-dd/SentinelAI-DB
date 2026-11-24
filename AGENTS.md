@@ -1,5 +1,9 @@
 # כללי עבודה ב־SentinelAI-DB
 
+## מכסות החל ממנה 0011
+
+לוח המכסות ב־config/defense-domain-targets.json מחייב: 400/500 בתחום הטילים בתוכן ציבורי, היסטורי, חינוכי או בדיוני לא-מבצעי. אין לערוך checkpoints קיימים או לייחס איכות מאומתת לייבואים חיצוניים. יש לקרוא plan לפני כל מנה. ההוראה העדכנית גוברת על מספרים היסטוריים במסמכים.
+
 ## תחילת עבודה ומקורות אמת
 
 - קראו תחילה את [PROJECT_STATUS.md](PROJECT_STATUS.md),‏ [TECHNICAL_STATUS.md](TECHNICAL_STATUS.md),‏ [QUALITY_STATUS.md](QUALITY_STATUS.md) ו־[WORK_COORDINATION.md](WORK_COORDINATION.md).
