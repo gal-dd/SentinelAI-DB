@@ -1,0 +1,27 @@
+name: Read-only candidate and reusable review regression tests
+on:
+  push:
+    branches: [producer/chat-batch-0012-v1]
+    paths:
+      - scripts/reconcile_review_decisions.py
+      - tests/test_review_reconciliation.py
+      - scripts/preflight_wave_0012.py
+      - drafts/chat/batch-0012/**
+      - .github/workflows/batch-0012-preflight.yml
+permissions:
+  contents: read
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Test generic fail-closed review bookkeeping
+        run: python -B -m unittest discover -s tests -p test_review_reconciliation.py -v
+      - name: Verify partial candidate wave against the branch baseline
+        run: python -B scripts/preflight_wave_0012.py
