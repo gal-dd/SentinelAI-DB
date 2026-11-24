@@ -1,0 +1,488 @@
+{
+  "scope": "Actual same-model text-first review of the exact official packet and complete-baseline E5 high-risk pairs. Historical counterparts verified in signed production by ID and fingerprint. This is not independent-model verification.",
+  "qa_run_id": 45347759020,
+  "qa_head": "dc215222e2a3dac30bfe869a60e41157d088c271",
+  "candidate_git_blob": "3e3d14817b4e952fee3f4c57f1f22b0cca22fe5b",
+  "production_baseline": 8100,
+  "labels": {
+    "011186c897e91fa6738d35741393247caad21ab3e7e59f92a09e119d1b391c11": {
+      "label": "סודי ביותר",
+      "reason": "כל המימון שהוצג כמבוזר בוטל ואין תחליף."
+    },
+    "12838863ab36a042fc5f7e9d815b1831bfdae63d6bca16c5525f274bc3df8a8f": {
+      "label": "סודי ביותר",
+      "reason": "ביטול הגנת זכויות המשתתפים בכל שלוחות הספריות."
+    },
+    "162fc1f008dab8302c33b05e0b64bbf547d7ebcb30b626e4560503b61f132b01": {
+      "label": "שמור",
+      "reason": "שינוי כרטיסיות פנימיות ושמות קבצים ללא שינוי מקורות."
+    },
+    "2ec401c8ae5d11dd40f1d8f89965c35ac9c4280c774a06c2e423def0c35f7007": {
+      "label": "סודי ביותר",
+      "reason": "ההסכמות של קבוצות מרואיינים בטלות בכל השלוחות יחד."
+    },
+    "30d1fae7c9e5171cad6e91d140de359f8b26e0a142abe4038c03fccb7e154b4d": {
+      "label": "סודי ביותר",
+      "reason": "ביטול כלל ההקצאות והמחזורים ללא תקציב חלופי."
+    },
+    "31bb8dc718d9fc71cd45b3888a10d3d2c4cb3b830d4c8ff4d3dcb68f136fe97d": {
+      "label": "סודי ביותר",
+      "reason": "כל המחקרים ברשת מופסקים עקב הסכם הרשאות משותף שבוטל."
+    },
+    "38466f6b06b5f7c9ce970dfe0cef3661ae3f93f938d7b9a4243dfe6d92603c27": {
+      "label": "בלמס",
+      "reason": "דיון היסטורי בכתב עת פתוח על תצלומי טבע וזכויות פרסום."
+    },
+    "3e75cd987d20b72472f481c56c1ee9b730c238dc65fd80dab47a8853aeccdcf8": {
+      "label": "שמור",
+      "reason": "הפצת טיוטת שאלון משוב לצוות ההדרכה."
+    },
+    "406b721c4ead336384b0f977dc024d9ae781da9f26d9ee0675c9341c6307079b": {
+      "label": "בלמס",
+      "reason": "כנס רכש פומבי ועקרונות שוויון כלליים."
+    },
+    "411a92de6dfcd04f3c77c41ce17b73ed74079e584ef16e0d44338dae24fe0380": {
+      "label": "שמור",
+      "reason": "חלוקת בדיקת מראי מקום בין מנחים."
+    },
+    "41625271b4f7c078d3df5c21833d92f2d90aa12bdd8df9903f8865510ec54ba5": {
+      "label": "סודי",
+      "reason": "מגבלת זכויות מובילה לביטול התקשרות לפני הודעה לצוות."
+    },
+    "4291ae2221fa27fcb3586ff37d1bfcf61ec4fc825a4ffd164b9fe959c4620cb5": {
+      "label": "בלמס",
+      "reason": "עקרונות בטיחות מבקרים פורסמו באתר פתוח."
+    },
+    "4a82c352c0d7c98f9ca66180ef37979f5f0a96c367647ff57303e846b92a7444": {
+      "label": "סודי",
+      "reason": "ביטול מכרז מרכזי שלא פורסם עקב אי התאמה למענק."
+    },
+    "51ed7c58bc379af1f5e9f945992242f866badc3f3443d85631d90dbcf6838f25": {
+      "label": "סודי ביותר",
+      "reason": "הבטחות נאמנות לאוספים אינן תקפות בכל הרשת בבת אחת."
+    },
+    "582c7772a8e7d4947ddcbe5e6b1901dfdf2f4346e00cc99173ee02b9a006fc35": {
+      "label": "סודי ביותר",
+      "reason": "פקיעת התחייבויות הגנה לכל מחברי התכתובות והקפאה מערכתית."
+    },
+    "5869537a2320bf403d6f623ee333bfccf62ebca51b068413e83169f95c680ca9": {
+      "label": "סודי",
+      "reason": "פער זכויות מהותי מוביל לביטול התקשרות של פרויקט שלא נמסר לשותף."
+    },
+    "58e0f86f2e1e0579db7cc4865f193b241ccc3d8d30268b8dd2d9554c4f8d7c9a": {
+      "label": "סודי",
+      "reason": "הפסקת פרסום ספר מרכזי בגלל טעות מהותית שטרם פורסמה."
+    },
+    "594c319446ee4fe04664dd7fa2bdd21878f4b3b626bdf27ed4ce37779d6c6e8d": {
+      "label": "שמור",
+      "reason": "עדכון שמות תצלומים בטיוטת קטלוג פנימית."
+    },
+    "63a43cad69b1d6449a7f8a9f250b1fae91d81a4180c7910c16879c1728a1e604": {
+      "label": "בלמס",
+      "reason": "פעילות פתוחה ושאלות הנחיה שפורסמו."
+    },
+    "652ec291425972ecb873bf8e4713bdbbe9387dc584b7280d940819eb14aa8904": {
+      "label": "סודי",
+      "reason": "השעיית פרסום המילון עקב מחלוקת משפטית מהותית לא פומבית."
+    },
+    "67cf996d05670ef687ce9c223d127a4d712e815de490028bab7165480293fac9": {
+      "label": "סודי",
+      "reason": "הפרת תנאי הסכמה להפצה מסחרית והקפאת תשלום מרכזי בפרויקט."
+    },
+    "67d4c8fe5796ed4c15da727bdff32b481e4d2307373fd143f6ed5665512813d5": {
+      "label": "שמור",
+      "reason": "צמצום כפילות ושיפור קריאות בחומרי לימוד במסגרת הצוות."
+    },
+    "69fdd5dfb118fb7d6963a0e9fb996ba1ee40eb0f9ee852dd8cdbb54a75cfae67": {
+      "label": "סודי",
+      "reason": "ביטול לא פומבי של תערוכה מרכזית."
+    },
+    "6f0f763c0595a9dc0c6cf627f4f80983b45669cc35bd1faca860569b2d6e38b5": {
+      "label": "שמור",
+      "reason": "חלוקת עבודת הגהה שגרתית בין שני מדריכים."
+    },
+    "747a2c169d3c01cd49f7712ffb2dd1d226c3cf3f2d03686fbd68fa1cddc1de16": {
+      "label": "שמור",
+      "reason": "שינוי סדר שאלות ותיאום הכנה מקומי למדריכים."
+    },
+    "74f6a0315e3f5cf7be67542c15ac00648a07e998f99d7facda82dfa11a3b40d9": {
+      "label": "סודי ביותר",
+      "reason": "בסיס הזכויות של משפחות התורמים בכל המוסדות חסר תוקף."
+    },
+    "7c88fc482fbc625c36871c862d8af76f49cc801a03b9d834047ec2f1fb52fe76": {
+      "label": "סודי",
+      "reason": "ביטול בחשאי של תוכנית מרכזית אחת."
+    },
+    "7d0d1bcc0c21c50ebae75d831143bb8b6c5f7f11163936b7655638254973a0da": {
+      "label": "בלמס",
+      "reason": "חוברת אזרחות פומבית עם מושג כללי."
+    },
+    "7d4e4bd866174eb4dcb773fd74facc75ace20a1d66ce626ac015eb4c182dcd9c": {
+      "label": "בלמס",
+      "reason": "סקירה פתוחה בכתב עת על סוגי דיונים ופרוטוקולים."
+    },
+    "865fb589dadeb9fbb643d62f4f7bdccc1351cef1b1c95e12a1fc7dd5907a9f30": {
+      "label": "סודי",
+      "reason": "מגבלת הסכמה לאוסף עדויות והחלטה פנימית לדחות את תערוכת השנה."
+    },
+    "8904c2f0cd6a5e8c26004fea5a6465535ec414880c56761765c6b4c0a906c9f9": {
+      "label": "בלמס",
+      "reason": "תערוכה דיגיטלית פתוחה עם מסמכים פומביים."
+    },
+    "8bab3649aefcbc3dabee345bc62df6cffe7240426c0477bcef37217d4c87a6f0": {
+      "label": "בלמס",
+      "reason": "מילון ציבורי למונחי אמנות."
+    },
+    "8dcf7b9f3822f328b799212d2a7990e66673989c51166c34fabf1cfe8236805f": {
+      "label": "שמור",
+      "reason": "טיוטת תרגום פנימית ולא מידע מהותי."
+    },
+    "9271c4bdc77977d0fe30af9691c20433e5be62f2a72721ce3f2e62958eef0ace": {
+      "label": "בלמס",
+      "reason": "דיון פומבי בשינויי משמעות של מונח היסטורי."
+    },
+    "9c98eef4b2c053184993875bdde740597b67d86cccf99373e0b24c87baee1fe0": {
+      "label": "סודי ביותר",
+      "reason": "כל המוסדות איבדו הרשאה עצמאית וכל פרסומי הרשת הושעו."
+    },
+    "abe10651e783ac8c63eb1f13d329e7548064be6f5dc4c6a2e17585c00845e403": {
+      "label": "בלמס",
+      "reason": "ערך על אמנות טילים במילון ציבורי."
+    },
+    "ad3bc3483cd11d37caf9091180c9a81563e6804e4645abd330854f4d14168a94": {
+      "label": "שמור",
+      "reason": "בדיקת שמות מחברים בכרטיסיות תצוגה פנימיות."
+    },
+    "b2defca30475c8a11732214a0fd74405653ea9cba2fb509db11264b0f0624b3b": {
+      "label": "סודי ביותר",
+      "reason": "שלילת אנונימיות של כלל קבוצת העדים, ללא זהויות או שיטת חשיפה."
+    },
+    "b995108b40d2cb565fa36e9ae2626636e95725537921e472715b52afa66d6fb0": {
+      "label": "סודי ביותר",
+      "reason": "כל ערבויות ההשבה ברשת אינן תקפות וההסכמים הוקפאו."
+    },
+    "bb191aef2352b55e830ec4d759f9d49aac62a970d63bf4674efdc1efe494a3f2": {
+      "label": "סודי",
+      "reason": "ביטול חוזה תיעוד מרכזי בשל היעדר אישור; טרם פורסם."
+    },
+    "bc34edc7d49296e408216d0f9ed0dc445a9d8d8f4e74586c14506e963a483f68": {
+      "label": "שמור",
+      "reason": "ארגון מקומי של רשימת שיעורים וחוגים."
+    },
+    "c1acf564042d9591c57ba75f8bec065e7c24f301435492ad1abadde049cc0314": {
+      "label": "שמור",
+      "reason": "רשימת כותרות פנימית להגהה."
+    },
+    "c9ed1d8121f47569d5c58c664d7ebd2cb12ca93f4fe862bdf565ced92a0b06bc": {
+      "label": "סודי ביותר",
+      "reason": "ביטול ההסכמות והפסקת עבודה עם כלל אוספי העדויות ברשת."
+    },
+    "ce73b7c34f6d5a5c22cfd6754704d85eb7d027a8a4c3f96916dfc55b343be334": {
+      "label": "סודי",
+      "reason": "הקפאת מענק מרכזי שלא פורסמה."
+    },
+    "cf35f31265caaeb54d454078ea4b96a695f3eb98188f96e2ede4ad45199555d0": {
+      "label": "סודי ביותר",
+      "reason": "כל זכויות התורמים תלויות בערבות שבוטלה וכל ההתחייבויות הוקפאו."
+    },
+    "d178e86076d90146ed18e5a8f6c4306fa597236fa90b42be711315c2715d4e8a": {
+      "label": "סודי ביותר",
+      "reason": "שלילת זכויות של כלל תורמי הארכיונים ולא של תורם יחיד."
+    },
+    "d25e6078e988713ea5a5c9cdbf2c1698c618df018dda47532e118645f241d156": {
+      "label": "סודי",
+      "reason": "עצירת פרסום מרכזי בעקבות ביטול הרשאת שותף."
+    },
+    "d3d6867b78e0583691c103e4d4b2e6b1faeba4954de5aa44fe8012cb22ecbf16": {
+      "label": "סודי ביותר",
+      "reason": "ביטול זכויות כלל תורמי רשת מוזיאוני החלל."
+    },
+    "ddcdfea15a416ce49eae2a093a823f63e58f452df2c131311e3eef99bfe11899": {
+      "label": "שמור",
+      "reason": "תיאום תחזוקת כרטיסיות שימור במוזיאון בלבד."
+    },
+    "ea7e5776b748cafe4ad97ea1e5e3508865cefb4b9a272a04465d7dc55d174fdc": {
+      "label": "שמור",
+      "reason": "טיוטת לוח מפגשים והצעות מקומיות ללא שינוי מהותי."
+    },
+    "ea89c6b0737aefa850503fc169ebc1a5df6416e2045aefa10dc352fc342b3844": {
+      "label": "סודי ביותר",
+      "reason": "כלל מכוני היירוט איבדו את המענקים ולא רק פרויקט יחיד."
+    },
+    "ef5732647cf69030fe5cbdda3fa504ffb26f244af729e78a3c83d7b0489afd4a": {
+      "label": "בלמס",
+      "reason": "סדנה פתוחה על ייחוס מקורות היסטוריים."
+    },
+    "f1f7fafc49b2295a0c1a3ffad121214b64e7d0800c7b5e8b39d043180fcf33ba": {
+      "label": "בלמס",
+      "reason": "דף הסבר פומבי וכללי שוויון לשירותי שימור."
+    },
+    "f93e67b9e9cec29c52bd53499d25eb8a0893e390b74c225c6735b7b30c7d81bb": {
+      "label": "שמור",
+      "reason": "עריכת כותרות משנה ברשימת מקורות ותיאום ישיבה פנימית."
+    },
+    "fc12da21f55196b64654a2d463d510974119b8a0d46bd4457a87833ebfef3cf8": {
+      "label": "שמור",
+      "reason": "טיוטת מילון לצוות העריכה, לא חומר פומבי סופי."
+    },
+    "ff82776254837b57ecbff13337b5518af7b0506aa985b7a57f5ce98e6af20d90": {
+      "label": "בלמס",
+      "reason": "ספר לימוד נגיש לכל על מוסדות בינלאומיים."
+    }
+  },
+  "domains": {
+    "0223f1d1be819864b2fdcea87c8bd7b16de763c3939df6d33389bb804b91270b": {
+      "primary_domain": "defense_logistics",
+      "reason": "רכש שירותי שימור מוצגים ברשת מרכזי מורשת ביטחונית."
+    },
+    "09ed5d45e212fdb93d87f26f5120709aa739f7eeb2c9b6ae2aa2a6d97f835293": {
+      "primary_domain": "cyber_communications_c2",
+      "reason": "זכויות שימוש בתכתובות היסטוריות בארכיון תקשורת."
+    },
+    "12838863ab36a042fc5f7e9d815b1831bfdae63d6bca16c5525f274bc3df8a8f": {
+      "primary_domain": "general_negative_controls",
+      "reason": "ספריות קהילתיות ועדויות אישיות ללא הקשר ביטחוני."
+    },
+    "153544fb5b1ece4b63f5ad18b9b7665ee84c6a2fb2eabf5a04cbdf00b33f0593": {
+      "primary_domain": "radar_sensors_space",
+      "reason": "חומרי הדרכה על תצלומים במוזיאון חלל; הקשר חינוכי של תיעוד חלל."
+    },
+    "15d463a95c1306b2eed8b7d459a9f25e372e28551d1572268c5c0184f64e08d5": {
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "מימון הרחבת תוכנית חינוך על רחפנים."
+    },
+    "3722618109e11458d2f39a78b751e5217b3e3ff00a4275cfd07da09ae46ced07": {
+      "primary_domain": "radar_sensors_space",
+      "reason": "זכויות תצוגה ופרסום של אוסף תצלומים היסטוריים במוזיאון חלל."
+    },
+    "4ceebe70455b8f9586b84a6ec75e967d22b5017d1962e1eaa7320b014ebe6e2e": {
+      "primary_domain": "general_negative_controls",
+      "reason": "מימון תוכנית קריאה בספרייה עירונית."
+    },
+    "4e3ffebb3590434aa14542a11f95b9f7d5fcff16987ba88d6a5cbcaadd817d08": {
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "היסטוריה של תיעוד אווירי באמצעות כלי טיס בלתי מאוישים."
+    },
+    "507fd33e5513b848006b8364bbe82d0eb47d59620a3007cfe7cebb26f6a7182b": {
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "חומרי הוראה על מורשת רחפנים והבדל בין תצלום לאיור."
+    },
+    "6e756a79ae4bb5f4f3a170bc3524e775f91325cb430b33c985edab1c783610b6": {
+      "primary_domain": "general_negative_controls",
+      "reason": "קטלוג ספרי קריאה קהילתיים."
+    },
+    "957a4ab2762ae6b3bd78deeb7f460ff9f085b0b0be6b6d864c10b96bd9f865b7": {
+      "primary_domain": "missile_systems",
+      "reason": "מימון תוכנית הוראה במדיניות טילים."
+    },
+    "99c5ca00d89a4329f7e15560b2420eb739342e86a9bc6ce8938bbc4dd88958d2": {
+      "primary_domain": "general_negative_controls",
+      "reason": "תיאום מפגש קריאה בספרייה שכונתית."
+    },
+    "9c1e9f4ac6b7d35b6423868c68b2a66806e6505aa24136bfb1a3d36569132fe7": {
+      "primary_domain": "defense_logistics",
+      "reason": "בטיחות ונגישות באולם מורשת ביטחונית; הקשר מוזיאלי אזרחי."
+    },
+    "9f6b03e14a1058dec8110bed80f5f2610dffe7474382672068c7d855bd543d7b": {
+      "primary_domain": "missile_systems",
+      "reason": "ארגון קטלוג מחקר היסטורי של מורשת יירוט."
+    },
+    "9fadfc61f3312501e9958c46a1d9cca9168a1ba7d10c6550a3b8401c07f178d4": {
+      "primary_domain": "missile_systems",
+      "reason": "ביטול הרשאות למחקרים על הגבלת טילים."
+    },
+    "b085c3046488b01c6b0e081cc83e04bdf7d0b49c01a803a9471c19afd91e97c0": {
+      "primary_domain": "cyber_communications_c2",
+      "reason": "זכויות בעלי אוספי תכתובות היסטוריות בארכיוני תקשורת."
+    },
+    "b4ef353381ae6bced1dfe521547fa192ce201ccb889a9aee3363ba1563d3948a": {
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "הסכמות לעדויות בארכיוני מורשת כלי טיס בלתי מאוישים."
+    },
+    "b7711e5090248b80515b7915c98cc82a58c80c24f0a827ca6691c3c89c5481dd": {
+      "primary_domain": "radar_sensors_space",
+      "reason": "זכויות השאלת אוספים ברשת מוזיאוני חלל."
+    },
+    "b976ff611e2dca64eea35e98adbc4243c38d67bab2b0bc76d9dedec8e6bcea43": {
+      "primary_domain": "cyber_communications_c2",
+      "reason": "עריכת הסברי מקורות להודעות היסטוריות בארכיון תקשורת דיגיטלית."
+    },
+    "c5dd9df7736fbb7ca3c2b3f114a1c953978ff7953ec7e2485350b4eaa79df5da": {
+      "primary_domain": "missile_systems",
+      "reason": "כרזות חינוכיות על אמנות בינלאומיות הנוגעות לטילים."
+    },
+    "d69464721135453198a47aaa58f309828e41b8840bec837f49b3576d4a640aa5": {
+      "primary_domain": "defense_logistics",
+      "reason": "ביטוח להשאלת מוצגים במחסן מורשת ביטחונית."
+    },
+    "e5499f3d6bacac724830c17d25371b5bea5363c9a84217ffa0ed84a3f5de487a": {
+      "primary_domain": "defense_logistics",
+      "reason": "בטיחות ונגישות מבקרים במרחב תצוגה של מוזיאון מורשת צבאית."
+    },
+    "e86aae1aa38548900f86de64513a554666cbf03c893746de17c21b915360da58": {
+      "primary_domain": "cyber_communications_c2",
+      "reason": "שימור מכתבים דיגיטליים במוזיאון תקשורת."
+    },
+    "f03f9e897bacffb43cc2cdbddd9573b1e82a6556d26f42ef3a5671548da32b88": {
+      "primary_domain": "radar_sensors_space",
+      "reason": "קטלוג ראיונות היסטוריים של מוזיאון מכ״ם."
+    }
+  },
+  "alerts": {
+    "68abe8706c6dbd7ed183c2d72983810ea1af946a5a112eb558010e16c03c711a": {
+      "status": "keep",
+      "reason": "מונח במילון פתוח הוא פומבי; טיוטת מילון המופנית לצוות העריכה היא מסמך עבודה מקומי.",
+      "records": [
+        "d17be440706c05bba8f03ce03013d51a1fbdea16a3d418fb65908f28825683e8",
+        "fc12da21f55196b64654a2d463d510974119b8a0d46bd4457a87833ebfef3cf8"
+      ],
+      "score": 0.94098
+    },
+    "8566380a96cec602ed212333b4d3514ad5d5233a8daae05420397c02082aa8c0": {
+      "status": "keep",
+      "reason": "דחיית פרסום דוח יחיד אינה שלילת זכויות של כלל תורמי הארכיונים. שני אירועים שונים והיקף שונה.",
+      "records": [
+        "3cf664ae753cc1e1997184a5490b5e1149164de705e1d6b47e778a2021fc88c0",
+        "d178e86076d90146ed18e5a8f6c4306fa597236fa90b42be711315c2715d4e8a"
+      ],
+      "score": 0.94106
+    },
+    "8f8ef5b426cfd71f951bc06f379b842d29573ff4fa9be6be4328d2b832f5040c": {
+      "status": "keep",
+      "reason": "ביטול מענק יחיד לסקר רחפנים אינו ביטול מענקים לכל מכוני היירוט. תחום, עובדה והיקף נבדלים.",
+      "records": [
+        "82f0627fe1962f11d0976d442b2c196ba23e9c3b8ca35f918f9d9c741476434a",
+        "ea89c6b0737aefa850503fc169ebc1a5df6416e2045aefa10dc352fc342b3844"
+      ],
+      "score": 0.94183
+    },
+    "b0541c0396934f6c69cbb8a604ae9ddca0a4c0bfa148aa1bfa9d3cd4691e0005": {
+      "status": "keep",
+      "reason": "טיוטת תרגומים פנימית לעומת מילון ציבורי; מסמכים שונים בעלי מעמד פרסום שונה.",
+      "records": [
+        "8dcf7b9f3822f328b799212d2a7990e66673989c51166c34fabf1cfe8236805f",
+        "abe10651e783ac8c63eb1f13d329e7548064be6f5dc4c6a2e17585c00845e403"
+      ],
+      "score": 0.94411
+    },
+    "ee78fa35cdc39203f51db68a1e567fc58fb86197437d124482d6e5977f2a1953": {
+      "status": "keep",
+      "reason": "ביטול תערוכה אחת אינו ביטול מענקים בכל מכוני היירוט. ההשלכה המקומית לעומת הרוחבית נבדלת.",
+      "records": [
+        "69fdd5dfb118fb7d6963a0e9fb996ba1ee40eb0f9ee852dd8cdbb54a75cfae67",
+        "ea89c6b0737aefa850503fc169ebc1a5df6416e2045aefa10dc352fc342b3844"
+      ],
+      "score": 0.94018
+    },
+    "ff5632273b378f6279c10bd1fb93f20370db3cc2c66662d2fb94a863adc70fc6": {
+      "status": "keep",
+      "reason": "מילון ציבורי לאמנות הגבלת טילים לעומת טיוטת תרגומים פנימית; מעמד הפרסום והעבודה שונים.",
+      "records": [
+        "8bab3649aefcbc3dabee345bc62df6cffe7240426c0477bcef37217d4c87a6f0",
+        "8dcf7b9f3822f328b799212d2a7990e66673989c51166c34fabf1cfe8236805f"
+      ],
+      "score": 0.94279
+    }
+  },
+  "external_alerts": {
+    "0d0090e509b609f2d6f82db59379a57d9b148ca2f03360c3c887a3dc89135677": {
+      "status": "keep",
+      "reason": "פסילת מסקנת מחקר מרכזית שלא פורסמה היא החלטה מהותית; השלמת תאריך בנספח היא פעולה מנהלית שגרתית. עובדות נבדלות.",
+      "records": [
+        "6772f4ea21ac1aee1024b7096fc1b56d035a36262dc6b65598fcae0978e48e97",
+        "d6e72b1a11b01f242679618066b49597720c977fbf0b466535459b0074d98317"
+      ],
+      "score": 0.94062
+    },
+    "1707cd4d142600408eaf52819010796d6fecb31adfbf809d9abf15f78e26a717": {
+      "status": "keep",
+      "reason": "עדכון קטלוג פנימי מתאר עבודת עריכה, ואילו ערך מילון ציבורי מתאר פרסום גלוי. אין אותה עובדה או אותה רמת חשיפה.",
+      "records": [
+        "6ebe8cc1b59a669b669760e9672967d481b50584377803cb6cd9323f5c31a08e",
+        "abe10651e783ac8c63eb1f13d329e7548064be6f5dc4c6a2e17585c00845e403"
+      ],
+      "score": 0.94013
+    },
+    "1945c130a940ca82d7e7cfa0e02d6b2cd22d60627fbadd2ce2ba1f5675ca4326": {
+      "status": "keep",
+      "reason": "הקפאת מענק מרכזי אחד שונה מביטול כל מענקי המכונים; ההיקף המוסדי הוא ההבדל המכריע.",
+      "records": [
+        "0b1a502d0cde4812f69aaa1835aaea0be6eb4db7a913b2226307e463bb62dd61",
+        "ea89c6b0737aefa850503fc169ebc1a5df6416e2045aefa10dc352fc342b3844"
+      ],
+      "score": 0.94161
+    },
+    "304ceb3d51f0661f79b3532c2641aa89e27e80d6cb9b0bf158a04a16a276699b": {
+      "status": "keep",
+      "reason": "דחיית פרסום דוח יחיד אינה שלילת זכויות של כלל תורמי הארכיונים. שני אירועים שונים והיקף שונה.",
+      "records": [
+        "2b2f624fe3418ed7c48bd0a37033c41aa5d95c24cdab1ef3a38462dee08c89c6",
+        "d178e86076d90146ed18e5a8f6c4306fa597236fa90b42be711315c2715d4e8a"
+      ],
+      "score": 0.94454
+    },
+    "7d7da42132c5162194911f84070da924cfcebb37461751a63a0aec9f7c5d560c": {
+      "status": "keep",
+      "reason": "המסמך הראשון מתאר ביטול כיסוי בכל הסניפים ללא חלופה; השני מתאר הזמנת שימור אחת. אין כפילות והיקף ההשלכה שונה.",
+      "records": [
+        "9a10207e7c7051ef06031dcec016460184552ff8d4b5624dfd3bedda22c645ea",
+        "f6eb8c3f5fdded53f5ba1fcfb179168542e3de8e60b137f4a3ef8af34d9177ad"
+      ],
+      "score": 0.94169
+    },
+    "8e10f2eb36d8c57b2b846b1fae968ee45d3c7464fb62c034bb56ad6bf1216c31": {
+      "status": "keep",
+      "reason": "מונח במילון פתוח הוא פומבי; טיוטת מילון המופנית לצוות העריכה היא מסמך עבודה מקומי.",
+      "records": [
+        "01eac85420ed67fae76c1980d5a6b9da403c9f39f057c6b659612b8e356be16f",
+        "fc12da21f55196b64654a2d463d510974119b8a0d46bd4457a87833ebfef3cf8"
+      ],
+      "score": 0.94306
+    },
+    "b0541c0396934f6c69cbb8a604ae9ddca0a4c0bfa148aa1bfa9d3cd4691e0005": {
+      "status": "keep",
+      "reason": "טיוטת תרגומים פנימית לעומת מילון ציבורי; מסמכים שונים בעלי מעמד פרסום שונה.",
+      "records": [
+        "8dcf7b9f3822f328b799212d2a7990e66673989c51166c34fabf1cfe8236805f",
+        "abe10651e783ac8c63eb1f13d329e7548064be6f5dc4c6a2e17585c00845e403"
+      ],
+      "score": 0.94262
+    },
+    "e6ce67c8f108829a3c2f884d352b67eff5cd11da2df53475bff5ddd83fa732f4": {
+      "status": "keep",
+      "reason": "ביטול מענק יחיד לסקר רחפנים אינו ביטול מענקים לכל מכוני היירוט. תחום, עובדה והיקף נבדלים.",
+      "records": [
+        "376d460e24f6a300465388449ac8ebae347815d34e7d5a24f1010e866becf9ca",
+        "ea89c6b0737aefa850503fc169ebc1a5df6416e2045aefa10dc352fc342b3844"
+      ],
+      "score": 0.94352
+    },
+    "ee78fa35cdc39203f51db68a1e567fc58fb86197437d124482d6e5977f2a1953": {
+      "status": "keep",
+      "reason": "ביטול תערוכה אחת אינו ביטול מענקים בכל מכוני היירוט. ההשלכה המקומית לעומת הרוחבית נבדלת.",
+      "records": [
+        "69fdd5dfb118fb7d6963a0e9fb996ba1ee40eb0f9ee852dd8cdbb54a75cfae67",
+        "ea89c6b0737aefa850503fc169ebc1a5df6416e2045aefa10dc352fc342b3844"
+      ],
+      "score": 0.94279
+    },
+    "f642de81bdc800fbeb0ab06162268d0c2c0d24b2f46aed317bad5562aae514a9": {
+      "status": "keep",
+      "reason": "תיאום חפיפה פנימית הוא פעולה שגרתית; ביטול כלל מענקי המכונים הוא אירוע מערכתי נפרד.",
+      "records": [
+        "b34b512e768cf2f1cc7ed15293bac6d041c4ab14f7f2f556d9583d203282c6b5",
+        "ea89c6b0737aefa850503fc169ebc1a5df6416e2045aefa10dc352fc342b3844"
+      ],
+      "score": 0.94039
+    },
+    "ff5632273b378f6279c10bd1fb93f20370db3cc2c66662d2fb94a863adc70fc6": {
+      "status": "keep",
+      "reason": "מילון ציבורי לאמנות הגבלת טילים לעומת טיוטת תרגומים פנימית; מעמד הפרסום והעבודה שונים.",
+      "records": [
+        "8bab3649aefcbc3dabee345bc62df6cffe7240426c0477bcef37217d4c87a6f0",
+        "8dcf7b9f3822f328b799212d2a7990e66673989c51166c34fabf1cfe8236805f"
+      ],
+      "score": 0.94219
+    }
+  }
+}

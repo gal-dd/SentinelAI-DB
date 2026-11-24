@@ -1,0 +1,9 @@
+{
+  "checkpoint": 10,
+  "expected_production_before": 8100,
+  "expected_production_after": 8600,
+  "source": "drafts/chat/batch-0010/batch-0010-candidates.jsonl",
+  "candidate_git_blob": "3e3d14817b4e952fee3f4c57f1f22b0cca22fe5b",
+  "authorization": "User requested final batch 0010 publication subject to all existing QA gates.",
+  "review_scope": "56 official label samples, 24 domain samples, 6 official high-risk pairs and 11 full-baseline E5 pairs individually adjudicated; same-model review only."
+}
