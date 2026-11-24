@@ -1,0 +1,2502 @@
+{
+  "chat12-safe-1-001": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-1-001",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-1-002": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-1-002",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-1-003": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-1-003",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-1-004": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-1-004",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-1-005": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-1-005",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-1-006": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-safe-1-006",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-1-007": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-1-007",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-1-008": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-1-008",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-1-009": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-safe-1-009",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-1-010": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-1-010",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-2-001": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-2-001",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-2-002": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-2-002",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-2-003": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-2-003",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-2-004": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-2-004",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-2-005": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-safe-2-005",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-2-006": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-2-006",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-2-007": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-2-007",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-2-008": {
+    "domain": "defense_logistics",
+    "source_group_id": "chat12-safe-2-008",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-2-009": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-2-009",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-2-010": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-2-010",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-3-001": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-3-001",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-3-002": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-3-002",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-3-003": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-3-003",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-3-004": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-safe-3-004",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-3-005": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-3-005",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-3-006": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-3-006",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-3-007": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-3-007",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-3-008": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-safe-3-008",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-3-009": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-3-009",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-3-010": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-3-010",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-4-001": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-4-001",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-4-002": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-4-002",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-4-003": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-4-003",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-4-004": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-safe-4-004",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-4-005": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-4-005",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-4-006": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-4-006",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-4-007": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-4-007",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-4-008": {
+    "domain": "general_negative_controls",
+    "source_group_id": "chat12-safe-4-008",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-4-009": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-4-009",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-4-010": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-4-010",
+    "description": "Non-operational fictional cultural, educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-001": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-1-001",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-002": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-1-002",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-003": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-1-003",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-004": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-1-004",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-005": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-1-005",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-006": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-1-006",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-007": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-1-007",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-008": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-1-008",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-009": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-1-009",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-010": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-safe-wave2-1-010",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-011": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-safe-wave2-1-011",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-012": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-safe-wave2-1-012",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-013": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-1-013",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-014": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-1-014",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-1-015": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-1-015",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-001": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-2-001",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-002": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-2-002",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-003": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-2-003",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-004": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-2-004",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-005": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-2-005",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-006": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-2-006",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-007": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-2-007",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-008": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-2-008",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-009": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-2-009",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-010": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-safe-wave2-2-010",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-011": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-safe-wave2-2-011",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-012": {
+    "domain": "general_negative_controls",
+    "source_group_id": "chat12-safe-wave2-2-012",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-013": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-2-013",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-014": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-2-014",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-2-015": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-2-015",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-001": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-3-001",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-002": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-3-002",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-003": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-3-003",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-004": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-3-004",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-005": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-3-005",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-006": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-3-006",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-007": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-3-007",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-008": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-3-008",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-009": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-3-009",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-010": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-safe-wave2-3-010",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-011": {
+    "domain": "defense_logistics",
+    "source_group_id": "chat12-safe-wave2-3-011",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-012": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-safe-wave2-3-012",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-013": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-3-013",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-014": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-3-014",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-3-015": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-3-015",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-001": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-4-001",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-002": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-4-002",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-003": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-4-003",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-004": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-4-004",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-005": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-4-005",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-006": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-4-006",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-007": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-4-007",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-008": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-4-008",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-009": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-4-009",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-010": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-safe-wave2-4-010",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-011": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-safe-wave2-4-011",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-012": {
+    "domain": "general_negative_controls",
+    "source_group_id": "chat12-safe-wave2-4-012",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-013": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-4-013",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-014": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-4-014",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-safe-wave2-4-015": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-safe-wave2-4-015",
+    "description": "Fictional non-operational educational or administrative scenario."
+  },
+  "chat12-public-wave3-001": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-001",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-002": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-002",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-003": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-003",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-004": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-004",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-005": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-005",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-006": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-006",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-007": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-007",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-008": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-008",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-009": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-009",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-010": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-010",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-011": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-011",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-012": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-012",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-013": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-013",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-014": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-014",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-015": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-015",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-016": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-016",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-017": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-017",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-018": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-018",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-019": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-019",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-020": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-020",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-021": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-021",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-022": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-022",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-023": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-023",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-024": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-024",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-025": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-025",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-026": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-026",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-027": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-027",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-028": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-028",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-029": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-029",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-030": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-030",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-031": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-031",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-032": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-public-wave3-032",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-033": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-public-wave3-033",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-034": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-public-wave3-034",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-035": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-public-wave3-035",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-036": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-public-wave3-036",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-037": {
+    "domain": "defense_logistics",
+    "source_group_id": "chat12-public-wave3-037",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-038": {
+    "domain": "general_negative_controls",
+    "source_group_id": "chat12-public-wave3-038",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-039": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-039",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-040": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-040",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-041": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-041",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-042": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-042",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-043": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-043",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-044": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-044",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-045": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-045",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-046": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-046",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-047": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-047",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-048": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-048",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-049": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-049",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-050": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-050",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-051": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-051",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-052": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-052",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-053": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-053",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-054": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-054",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-055": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-055",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-056": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-056",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-057": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-057",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-058": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-058",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-059": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-059",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-060": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-060",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-061": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-061",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-062": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-062",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-063": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-063",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-064": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-064",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-065": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-065",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-066": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-066",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-067": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-067",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-068": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-068",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-069": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-public-wave3-069",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-070": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-public-wave3-070",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-071": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-public-wave3-071",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-072": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-public-wave3-072",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-073": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-public-wave3-073",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-074": {
+    "domain": "defense_logistics",
+    "source_group_id": "chat12-public-wave3-074",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-075": {
+    "domain": "defense_logistics",
+    "source_group_id": "chat12-public-wave3-075",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-076": {
+    "domain": "general_negative_controls",
+    "source_group_id": "chat12-public-wave3-076",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-077": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-077",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-078": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-078",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-079": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-079",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-080": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-080",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-081": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-081",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-082": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-082",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-083": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-083",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-084": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-084",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-085": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-085",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-086": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-086",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-087": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-087",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-088": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-088",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-089": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-089",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-090": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-090",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-091": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-091",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-092": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-092",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-093": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-093",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-094": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-094",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-095": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-public-wave3-095",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-096": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-public-wave3-096",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-097": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-public-wave3-097",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-098": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-public-wave3-098",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-099": {
+    "domain": "defense_logistics",
+    "source_group_id": "chat12-public-wave3-099",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-public-wave3-100": {
+    "domain": "general_negative_controls",
+    "source_group_id": "chat12-public-wave3-100",
+    "description": "Fictional public educational history and culture."
+  },
+  "chat12-routine-wave4-001": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-001",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-002": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-002",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-003": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-003",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-004": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-004",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-005": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-005",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-006": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-006",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-007": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-007",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-008": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-008",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-009": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-009",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-010": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-010",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-011": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-011",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-012": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-012",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-013": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-013",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-014": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-014",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-015": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-015",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-016": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-016",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-017": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-017",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-018": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-018",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-019": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-019",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-020": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-020",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-021": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-021",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-022": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-022",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-023": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-023",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-024": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-024",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-025": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-025",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-026": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-026",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-027": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-027",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-028": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-028",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-029": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-029",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-030": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-030",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-031": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-031",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-032": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-routine-wave4-032",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-033": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-routine-wave4-033",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-034": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-routine-wave4-034",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-035": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-routine-wave4-035",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-036": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-routine-wave4-036",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-037": {
+    "domain": "defense_logistics",
+    "source_group_id": "chat12-routine-wave4-037",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-038": {
+    "domain": "general_negative_controls",
+    "source_group_id": "chat12-routine-wave4-038",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-039": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-039",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-040": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-040",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-041": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-041",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-042": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-042",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-043": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-043",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-044": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-044",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-045": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-045",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-046": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-046",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-047": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-047",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-048": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-048",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-049": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-049",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-050": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-050",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-051": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-051",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-052": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-052",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-053": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-053",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-054": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-054",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-055": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-055",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-056": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-056",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-057": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-057",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-058": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-058",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-059": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-059",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-060": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-060",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-061": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-061",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-062": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-062",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-063": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-063",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-064": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-064",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-065": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-065",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-066": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-066",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-067": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-067",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-068": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-068",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-069": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-routine-wave4-069",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-070": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-routine-wave4-070",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-071": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-routine-wave4-071",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-072": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-routine-wave4-072",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-073": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-routine-wave4-073",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-074": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-routine-wave4-074",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-075": {
+    "domain": "defense_logistics",
+    "source_group_id": "chat12-routine-wave4-075",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-076": {
+    "domain": "general_negative_controls",
+    "source_group_id": "chat12-routine-wave4-076",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-077": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-077",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-078": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-078",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-079": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-079",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-080": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-080",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-081": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-081",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-082": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-082",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-083": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-083",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-084": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-084",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-085": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-085",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-086": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-086",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-087": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-087",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-088": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-088",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-089": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-089",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-090": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-090",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-091": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-091",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-092": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-092",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-093": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-093",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-094": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-094",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-095": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-routine-wave4-095",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-096": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-routine-wave4-096",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-097": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-routine-wave4-097",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-098": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-routine-wave4-098",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-099": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-routine-wave4-099",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-routine-wave4-100": {
+    "domain": "general_negative_controls",
+    "source_group_id": "chat12-routine-wave4-100",
+    "description": "Fictional non-operational routine educational administration."
+  },
+  "chat12-material-wave5-001": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-001",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-002": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-002",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-003": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-003",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-004": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-004",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-005": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-005",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-006": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-006",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-007": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-007",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-008": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-008",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-009": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-009",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-010": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-010",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-011": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-011",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-012": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-012",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-013": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-013",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-014": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-014",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-015": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-015",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-016": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-016",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-017": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-017",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-018": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-018",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-019": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-019",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-020": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-020",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-021": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-021",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-022": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-022",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-023": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-023",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-024": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-024",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-025": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-025",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-026": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-026",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-027": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-027",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-028": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-028",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-029": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-029",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-030": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-030",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-031": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-031",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-032": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-material-wave5-032",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-033": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-material-wave5-033",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-034": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-material-wave5-034",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-035": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-material-wave5-035",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-036": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-material-wave5-036",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-037": {
+    "domain": "defense_logistics",
+    "source_group_id": "chat12-material-wave5-037",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-038": {
+    "domain": "general_negative_controls",
+    "source_group_id": "chat12-material-wave5-038",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-039": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-039",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-040": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-040",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-041": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-041",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-042": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-042",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-043": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-043",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-044": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-044",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-045": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-045",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-046": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-046",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-047": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-047",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-048": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-048",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-049": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-049",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-050": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-050",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-051": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-051",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-052": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-052",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-053": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-053",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-054": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-054",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-055": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-055",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-056": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-056",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-057": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-057",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-058": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-058",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-059": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-059",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-060": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-060",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-061": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-061",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-062": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-062",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-063": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-063",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-064": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-064",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-065": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-065",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-066": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-066",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-067": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-067",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-068": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-068",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-069": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-material-wave5-069",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-070": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-material-wave5-070",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-071": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-material-wave5-071",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-072": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-material-wave5-072",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-073": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-material-wave5-073",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-074": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-material-wave5-074",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-075": {
+    "domain": "defense_logistics",
+    "source_group_id": "chat12-material-wave5-075",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-076": {
+    "domain": "general_negative_controls",
+    "source_group_id": "chat12-material-wave5-076",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-077": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-077",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-078": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-078",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-079": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-079",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-080": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-080",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-081": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-081",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-082": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-082",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-083": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-083",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-084": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-084",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-085": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-085",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-086": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-086",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-087": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-087",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-088": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-088",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-089": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-089",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-090": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-090",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-091": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-091",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-092": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-092",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-093": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-093",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-094": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-094",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-095": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-material-wave5-095",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-096": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-material-wave5-096",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-097": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-material-wave5-097",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-098": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-material-wave5-098",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-099": {
+    "domain": "defense_logistics",
+    "source_group_id": "chat12-material-wave5-099",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-material-wave5-100": {
+    "domain": "general_negative_controls",
+    "source_group_id": "chat12-material-wave5-100",
+    "description": "Fictional non-operational educational and cultural project governance."
+  },
+  "chat12-systemic-wave6-001": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-001",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-002": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-002",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-003": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-003",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-004": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-004",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-005": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-005",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-006": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-006",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-007": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-007",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-008": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-008",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-009": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-009",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-010": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-010",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-011": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-011",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-012": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-012",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-013": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-013",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-014": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-014",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-015": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-015",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-016": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-016",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-017": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-017",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-018": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-018",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-019": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-019",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-020": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-020",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-021": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-021",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-022": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-022",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-023": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-023",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-024": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-024",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-025": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-025",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-026": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-026",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-027": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-027",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-028": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-028",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-029": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-029",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-030": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-030",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-031": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-031",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-032": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-systemic-wave6-032",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-033": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-systemic-wave6-033",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-034": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-systemic-wave6-034",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-035": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-systemic-wave6-035",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-036": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-systemic-wave6-036",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-037": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-systemic-wave6-037",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-038": {
+    "domain": "defense_logistics",
+    "source_group_id": "chat12-systemic-wave6-038",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-039": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-039",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-040": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-040",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-041": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-041",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-042": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-042",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-043": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-043",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-044": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-044",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-045": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-045",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-046": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-046",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-047": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-047",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-048": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-048",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-049": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-049",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-050": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-050",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-051": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-051",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-052": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-052",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-053": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-053",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-054": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-054",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-055": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-055",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-056": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-056",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-057": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-057",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-058": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-058",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-059": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-059",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-060": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-060",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-061": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-061",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-062": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-062",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-063": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-063",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-064": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-064",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-065": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-065",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-066": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-066",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-067": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-067",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-068": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-068",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-069": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-systemic-wave6-069",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-070": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-systemic-wave6-070",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-071": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-systemic-wave6-071",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-072": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-systemic-wave6-072",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-073": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-systemic-wave6-073",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-074": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-systemic-wave6-074",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-075": {
+    "domain": "defense_logistics",
+    "source_group_id": "chat12-systemic-wave6-075",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-076": {
+    "domain": "general_negative_controls",
+    "source_group_id": "chat12-systemic-wave6-076",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-077": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-077",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-078": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-078",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-079": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-079",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-080": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-080",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-081": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-081",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-082": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-082",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-083": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-083",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-084": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-084",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-085": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-085",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-086": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-086",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-087": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-087",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-088": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-088",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-089": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-089",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-090": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-090",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-091": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-091",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-092": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-092",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-093": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-093",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-094": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-094",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-095": {
+    "domain": "missile_systems",
+    "source_group_id": "chat12-systemic-wave6-095",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-096": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "chat12-systemic-wave6-096",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-097": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "chat12-systemic-wave6-097",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-098": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "chat12-systemic-wave6-098",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-099": {
+    "domain": "defense_logistics",
+    "source_group_id": "chat12-systemic-wave6-099",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "chat12-systemic-wave6-100": {
+    "domain": "general_negative_controls",
+    "source_group_id": "chat12-systemic-wave6-100",
+    "description": "Fictional non-operational cultural or educational institutional governance."
+  }
+}

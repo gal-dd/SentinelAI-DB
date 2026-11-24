@@ -1,6 +1,6 @@
 {
   "batch": 12,
-  "status": "partial_draft_not_validated_or_published",
+  "status": "complete_candidate_set_pending_semantic_review_and_publication",
   "candidate_count": 500,
   "planned_total": 500,
   "domain_counts": {
@@ -40,10 +40,11 @@
   "base_checkpoint": 10,
   "production_ids": null,
   "quality": {
-    "exact_text_unique_within_new_wave": true,
-    "semantic_screening": "not_run",
+    "exact_normalized_duplicates_within_batch": 0,
+    "structural_and_quota_counts": "verified_in_memory",
+    "semantic_screening": "pending CI",
     "blind_review": "not_run",
-    "production_comparison": "pending"
+    "production_comparison": "pending live baseline"
   },
-  "notes": "All candidate waves assembled; exact quotas and full QA must be independently checked."
+  "notes": "500 candidate texts, exact label/length/domain counts, no IDs assigned. Publication requires checkpoint 0011, full live baseline screening and actual adjudication of all required reviews."
 }
