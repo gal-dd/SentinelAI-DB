@@ -1,0 +1,194 @@
+name: Publish validated batch 0010 after 0009
+
+on:
+  push:
+    branches: [producer/chat-batch-0010-v1]
+    paths:
+      - reviews/batch-0010/publish-request.json
+  pull_request:
+    branches: [poc/defense-focused-v2]
+    paths:
+      - reviews/batch-0010/publish-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sentinelai-batch-0010-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Verify checkpoint 0009, stage and publish 0010
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Verify explicit release authorization and live 0009 checkpoint
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          data=json.load(open("reviews/batch-0010/publish-request.json",encoding="utf-8"))
+          assert data["checkpoint"] == 10
+          assert data["expected_production_before"] == 8100
+          assert data["expected_production_after"] == 8600
+          assert data["source"] == "drafts/chat/batch-0010/batch-0010-candidates.jsonl"
+          import subprocess
+          actual=subprocess.check_output(["git","hash-object",data["source"]],text=True).strip()
+          if actual != data["candidate_git_blob"]:
+              raise SystemExit("Candidate blob changed after release request")
+          print("Release request verified")
+          PY
+          git fetch origin poc/defense-focused-v2
+          git show origin/poc/defense-focused-v2:progress.json > /tmp/live-progress-0010.json
+          python - <<'PY'
+          import json
+          state=json.load(open("/tmp/live-progress-0010.json",encoding="utf-8"))
+          got=state["production_records"],state["last_checkpoint"],state["next_id"]
+          if got != (8100,9,8101):
+              raise SystemExit(f"ABORT: batch 0009 not published or baseline changed: {got}")
+          print("LIVE_BASELINE_0010", got)
+          PY
+      - name: Install E5 and vector search dependencies
+        run: python -m pip install -r requirements-semantic.txt
+      - name: Download pinned E5 ONNX model
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .poc-local/e5
+          base="https://huggingface.co/Xenova/multilingual-e5-small/resolve/761b726dd34fb83930e26aab4e9ac3899aa1fa78"
+          curl -fL --retry 3 "$base/tokenizer.json" -o .poc-local/e5/tokenizer.json
+          curl -fL --retry 3 "$base/onnx/model_int8.onnx" -o .poc-local/e5/model_int8.onnx
+          echo "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39  .poc-local/e5/tokenizer.json" | sha256sum -c -
+          echo "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c  .poc-local/e5/model_int8.onnx" | sha256sum -c -
+      - name: Recheck E5 against all LIVE production records, including external imports
+        shell: bash
+        run: |
+          set -euo pipefail
+          git worktree add --detach .poc-local/live-production origin/poc/defense-focused-v2
+          (
+            cd .poc-local/live-production
+            python -B -m sentinel_dataset verify
+          )
+          python -B scripts/batch_0010_e5_audit.py \
+            --production .poc-local/live-production \
+            --candidates drafts/chat/batch-0010/batch-0010-candidates.jsonl \
+            --model-dir .poc-local/e5 \
+            --cache-dir .poc-local/embeddings \
+            --output .poc-local/live-e5-0010.json
+          python - <<'PY'
+          import json
+          report=json.load(open(".poc-local/live-e5-0010.json",encoding="utf-8"))
+          if report["production_records"] != 8100 or report["production_last_checkpoint"] != 9:
+              raise SystemExit("Unexpected production baseline")
+          reviews=json.load(open("reviews/batch-0010/official-annotations.json",encoding="utf-8"))
+          required={a["id"] for a in report["high_risk"]}
+          provided=reviews.get("external_alerts",{})
+          if required!=set(provided):
+              raise SystemExit(f"Unresolved external E5 alerts: {required-set(provided)}; stale: {set(provided)-required}")
+          for key,decision in provided.items():
+              if decision.get("status")!="keep" or not str(decision.get("reason","")).strip():
+                  raise SystemExit(f"Unresolved external E5 alert {key}")
+          PY
+      - name: Stage from clean production tree, using only new scenario IDs
+        shell: bash
+        run: |
+          set -euo pipefail
+          export LIVE_ROOT="$PWD/.poc-local/live-production"
+          python - <<'PY'
+          import json,os,pathlib,shutil
+          dest=pathlib.Path(os.environ["LIVE_ROOT"])
+          live=json.loads((dest/"config/scenarios.json").read_text(encoding="utf-8"))
+          source=json.loads(pathlib.Path("config/scenarios.json").read_text(encoding="utf-8"))
+          candidates=[json.loads(line) for line in pathlib.Path("drafts/chat/batch-0010/batch-0010-candidates.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
+          assert len(candidates)==500
+          added=0
+          for row in candidates:
+              name=row["scenario_id"]
+              info=source.get(name)
+              if not info or not info.get("domain"):
+                  raise SystemExit(f"Missing scenario definition/domain for {name}")
+              if name in live and live[name]!=info:
+                  raise SystemExit(f"Scenario conflict with live production: {name}")
+              if name not in live:
+                  live[name]=info
+                  added+=1
+          (dest/"config/scenarios.json").write_text(json.dumps(live,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          (dest/".poc-local").mkdir(exist_ok=True)
+          shutil.copy2("drafts/chat/batch-0010/batch-0010-candidates.jsonl",dest/".poc-local/batch-0010-candidates.jsonl")
+          shutil.copy2("scripts/build_batch_0010_decisions.py",dest/"scripts/build_batch_0010_decisions.py")
+          shutil.copy2("reviews/batch-0010/official-annotations.json",dest/".poc-local/official-annotations.json")
+          print("ADDED_NEW_SCENARIOS",added)
+          PY
+          (
+            cd "$LIVE_ROOT"
+            python -B -m sentinel_dataset verify
+            python -B -m sentinel_dataset prepare .poc-local/batch-0010-candidates.jsonl \
+              --model-dir "$GITHUB_WORKSPACE/.poc-local/e5" \
+              --packet .poc-local/packet-0010.json
+            python -B scripts/build_batch_0010_decisions.py \
+              --packet .poc-local/packet-0010.json \
+              --candidates .poc-local/batch-0010-candidates.jsonl \
+              --annotations .poc-local/official-annotations.json \
+              --output .poc-local/decisions-0010.json
+            python -B -m sentinel_dataset stage-checkpoint \
+              .poc-local/batch-0010-candidates.jsonl \
+              --decisions .poc-local/decisions-0010.json \
+              --model-dir "$GITHUB_WORKSPACE/.poc-local/e5" \
+              --output-dir .poc-local/staged-0010
+          )
+      - name: Verify staged checkpoint in clean production and push atomic release
+        shell: bash
+        run: |
+          set -euo pipefail
+          export LIVE_ROOT="$PWD/.poc-local/live-production"
+          python - <<'PY'
+          import json,os,pathlib,shutil
+          dst=pathlib.Path(os.environ["LIVE_ROOT"])
+          stage=dst/".poc-local/staged-0010"
+          for rel in ["progress.json","HANDOFF.md","data/checkpoints/batch-0010.jsonl",
+                      "metadata/checkpoints/batch-0010.jsonl","reports/checkpoints/batch-0010.json"]:
+              target=dst/rel
+              target.parent.mkdir(parents=True,exist_ok=True)
+              shutil.copy2(stage/rel,target)
+          next_state=json.loads((dst/"progress.json").read_text(encoding="utf-8"))
+          required=(8600,10,8601)
+          actual=(next_state["production_records"],next_state["last_checkpoint"],next_state["next_id"])
+          if actual!=required: raise SystemExit(f"Staged result mismatch: {actual}!={required}")
+          print("STAGED_PRODUCTION_0010",actual)
+          PY
+          (
+            cd "$LIVE_ROOT"
+            python -B -m sentinel_dataset verify
+            git config user.name "sentinelai-ci"
+            git config user.email "sentinelai-ci@users.noreply.github.com"
+            git add -- config/scenarios.json progress.json HANDOFF.md \
+              data/checkpoints/batch-0010.jsonl \
+              metadata/checkpoints/batch-0010.jsonl \
+              reports/checkpoints/batch-0010.json
+            git diff --cached --check
+            git commit -m "Publish validated SentinelAI checkpoint 0010 (IDs 8101-8600)"
+            git push origin HEAD:refs/heads/poc/defense-focused-v2
+            git rev-parse HEAD
+          )
+      - name: Retain audit evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch-0010-production-audit
+          path: |
+            .poc-local/live-e5-0010.json
+            .poc-local/live-production/.poc-local/packet-0010.json
+            .poc-local/live-production/.poc-local/decisions-0010.json
+            .poc-local/live-production/.poc-local/staged-0010/reports/checkpoints/batch-0010.json
+          if-no-files-found: ignore
+          retention-days: 7
