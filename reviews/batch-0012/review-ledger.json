@@ -1252,6 +1252,24 @@
         "d7e4144dbeb59b10dc4c80fe999f028a6a876406e0a619d93b8b350e68dfcc5a"
       ],
       "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "65271dba9a55932bfdfe8d360cf41f3cd7ea9802eec5a3453b9a49795acb3224": {
+      "status": "keep",
+      "records": [
+        "5866a6fc2eef1a2a86ceebe9258632e5f502e2833c61b79531fec33eb53e3ddd",
+        "c36bae330e16dcb6dd0c4e6f657341144b02c4c94a59f30be2367fda1c7cc69d"
+      ],
+      "reason": "פקיעת הרשאות בכל ארכיוני הטילים לעומת משימת השוואת אינדקסים; תוצאה רוחבית לעומת תיאום שגרתי.",
+      "review_source": "Failed release 45463308281, exact logged pair and unchanged candidate baseline"
+    },
+    "d5011080eb403bc16f9e000b50943e8ae28b99f7d991c025a02905a24d050e45": {
+      "status": "keep",
+      "records": [
+        "5866a6fc2eef1a2a86ceebe9258632e5f502e2833c61b79531fec33eb53e3ddd",
+        "b8b00eab04f8cc7e89344a7443eb7a967dc21ca8162847b5db3a73d2de735c6a"
+      ],
+      "reason": "פקיעת הרשאות בכל ארכיוני הטילים לעומת עדכון לוח הדרכות פנימי; פגיעה רוחבית לעומת שינוי מנהלי מקומי.",
+      "review_source": "Failed release 45463308281, exact logged pair and unchanged candidate baseline"
     }
   },
   "external_alerts": {
