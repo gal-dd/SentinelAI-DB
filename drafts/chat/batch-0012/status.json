@@ -42,9 +42,9 @@
   "quality": {
     "exact_normalized_duplicates_within_batch": 0,
     "structural_and_quota_counts": "verified_in_memory",
-    "semantic_screening": "pending CI",
+    "semantic_screening": "pending fresh CI after targeted short-text corrections",
     "blind_review": "not_run",
-    "production_comparison": "pending live baseline"
+    "production_comparison": "pending checkpoint 0011"
   },
-  "notes": "500 candidate texts, exact label/length/domain counts, no IDs assigned. Publication requires checkpoint 0011, full live baseline screening and actual adjudication of all required reviews."
+  "notes": "Targeted short-form clarity corrections after preliminary E5 screening; previous screening and decisions are not valid for modified candidate content. No publication approval."
 }
