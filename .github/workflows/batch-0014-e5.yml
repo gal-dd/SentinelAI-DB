@@ -1,0 +1,110 @@
+name: Batch 0014 live-baseline read-only QA
+on:
+  push:
+    branches: [producer/chat-batch-0014-v1]
+    paths:
+      - drafts/chat/batch-0014/batch-0014-candidates.jsonl
+      - drafts/chat/batch-0014/scenarios-merged.json
+      - scripts/validate_complete_candidate.py
+      - scripts/screen_complete_candidate_e5.py
+      - .github/workflows/batch-0014-e5.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: batch-0014-e5-qa
+  cancel-in-progress: true
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Fetch current production and verify its signed state
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin poc/defense-focused-v2
+          git worktree add --detach .poc-local/live-production origin/poc/defense-focused-v2
+          cd .poc-local/live-production
+          python -B -m sentinel_dataset verify
+          python -c 'import json; s=json.load(open("progress.json")); assert (s["production_records"],s["last_checkpoint"],s["next_id"])==(11000,12,11001) or (s["production_records"],s["last_checkpoint"],s["next_id"])==(11500,13,11501)'
+          sha256sum progress.json
+          git rev-parse HEAD
+          cp "$GITHUB_WORKSPACE/scripts/validate_complete_candidate.py" scripts/
+          python -B scripts/validate_complete_candidate.py --checkpoint 14 --candidates "$GITHUB_WORKSPACE/drafts/chat/batch-0014/batch-0014-candidates.jsonl" --scenarios "$GITHUB_WORKSPACE/drafts/chat/batch-0014/scenarios-merged.json" --report "$GITHUB_WORKSPACE/.poc-local/structural-qa.json"
+      - name: Install semantic dependencies
+        run: python -m pip install -r requirements-semantic.txt
+      - name: Restore pinned model and embeddings
+        uses: actions/cache@v4
+        with:
+          path: |
+            .poc-local/e5
+            .poc-local/embeddings
+          key: sentinel-e5-v1-761b726d-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            sentinel-e5-v1-761b726d-${{ runner.os }}-
+      - name: Download and verify pinned model
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .poc-local/e5
+          base="https://huggingface.co/Xenova/multilingual-e5-small/resolve/761b726dd34fb83930e26aab4e9ac3899aa1fa78"
+          test -f .poc-local/e5/tokenizer.json || curl -fL --retry 3 "$base/tokenizer.json" -o .poc-local/e5/tokenizer.json
+          test -f .poc-local/e5/model_int8.onnx || curl -fL --retry 3 "$base/onnx/model_int8.onnx" -o .poc-local/e5/model_int8.onnx
+          echo "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39  .poc-local/e5/tokenizer.json" | sha256sum -c -
+          echo "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c  .poc-local/e5/model_int8.onnx" | sha256sum -c -
+      - name: Screen candidates against all live production including imports
+        run: python -B scripts/screen_complete_candidate_e5.py --production .poc-local/live-production --candidates drafts/chat/batch-0014/batch-0014-candidates.jsonl --model-dir .poc-local/e5 --cache-dir .poc-local/embeddings --output .poc-local/full-e5.json
+      - name: Prepare official packet if checkpoint 0013 is live
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,pathlib
+          root=pathlib.Path(".poc-local/live-production")
+          p=json.loads((root/"progress.json").read_text(encoding="utf-8"))
+          if p["last_checkpoint"] != 13 or p["production_records"] != 11500:
+              print("PRELIMINARY_ONLY: waiting for checkpoint 0013")
+              raise SystemExit(0)
+          dest=root/"config/scenarios.json"
+          scenarios=json.loads(dest.read_text(encoding="utf-8"))
+          new=json.loads(pathlib.Path("drafts/chat/batch-0014/scenarios-merged.json").read_text(encoding="utf-8"))
+          for k,v in new.items():
+              if k in scenarios and scenarios[k]!=v: raise ValueError("Scenario collision: "+k)
+              scenarios[k]=v
+          dest.write_text(json.dumps(scenarios,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          (root/".poc-local").mkdir(exist_ok=True)
+          (root/".poc-local/ready").touch()
+          PY
+          if [ -f .poc-local/live-production/.poc-local/ready ]; then
+            cd .poc-local/live-production
+            python -B -m sentinel_dataset prepare "$GITHUB_WORKSPACE/drafts/chat/batch-0014/batch-0014-candidates.jsonl" --model-dir "$GITHUB_WORKSPACE/.poc-local/e5" --packet "$GITHUB_WORKSPACE/.poc-local/official-packet.json"
+          fi
+      - name: Emit official packet review samples if available
+        run: |
+          python - <<'PY'
+          import json,pathlib
+          f=pathlib.Path(".poc-local/official-packet.json")
+          if f.exists():
+              p=json.loads(f.read_text(encoding="utf-8"))
+              print("PREPARE_SUMMARY",json.dumps({k:len(p[k]) for k in ("texts","domain_texts","review_alerts","counterfactual_pairs")}))
+              for k,t in p["texts"].items(): print("BLIND_LABEL",json.dumps({"fingerprint":k,"text":t},ensure_ascii=False))
+              for k,t in p["domain_texts"].items(): print("BLIND_DOMAIN",json.dumps({"fingerprint":k,"text":t},ensure_ascii=False))
+              for a in p["review_alerts"]: print("OFFICIAL_ALERT",json.dumps(a,ensure_ascii=False))
+          PY
+      - name: Retain screening evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch-0014-quality-evidence
+          path: |
+            .poc-local/structural-qa.json
+            .poc-local/full-e5.json
+          if-no-files-found: ignore
+          retention-days: 7

@@ -1,6 +1,6 @@
 {
   "checkpoint": 14,
-  "status": "complete_candidate_count_not_approved",
+  "status": "complete_candidate_count_pending_checks",
   "candidate_count": 500,
   "expected_count": 500,
   "base_checkpoint": 12,
@@ -9,27 +9,27 @@
   "production_ids_assigned": false,
   "label_lengths": {
     "בלמס": {
-      "short": 6,
+      "short": 7,
       "sentence": 50,
-      "paragraph": 44,
+      "paragraph": 43,
       "long": 25
     },
     "שמור": {
-      "short": 6,
+      "short": 7,
       "sentence": 50,
-      "paragraph": 44,
+      "paragraph": 43,
       "long": 25
     },
     "סודי": {
-      "short": 6,
+      "short": 7,
       "sentence": 50,
-      "paragraph": 44,
+      "paragraph": 43,
       "long": 25
     },
     "סודי ביותר": {
-      "short": 6,
+      "short": 7,
       "sentence": 50,
-      "paragraph": 44,
+      "paragraph": 43,
       "long": 25
     }
   },
@@ -41,13 +41,83 @@
     "general_negative_controls": 14,
     "defense_logistics": 14
   },
+  "domain_label_counts": {
+    "missile_systems": {
+      "בלמס": 100,
+      "שמור": 100,
+      "סודי": 100,
+      "סודי ביותר": 100
+    },
+    "uncrewed_aircraft": {
+      "בלמס": 6,
+      "שמור": 6,
+      "סודי": 6,
+      "סודי ביותר": 6
+    },
+    "radar_sensors_space": {
+      "בלמס": 6,
+      "שמור": 6,
+      "סודי": 6,
+      "סודי ביותר": 6
+    },
+    "cyber_communications_c2": {
+      "בלמס": 6,
+      "שמור": 6,
+      "סודי": 6,
+      "סודי ביותר": 6
+    },
+    "general_negative_controls": {
+      "בלמס": 3,
+      "שמור": 4,
+      "סודי": 3,
+      "סודי ביותר": 4
+    },
+    "defense_logistics": {
+      "שמור": 3,
+      "סודי": 4,
+      "בלמס": 4,
+      "סודי ביותר": 3
+    }
+  },
+  "projection": "After checkpoint 0013 completes the current required length quota; final live plan must be rechecked",
+  "revisions": [
+    {
+      "position": 170,
+      "scenario_id": "b0014-safe-170",
+      "from_length": "paragraph",
+      "to_length": "short",
+      "reason": "Projected checkpoint 0014 quota computed by production.plan_lengths after checkpoint 0013"
+    },
+    {
+      "position": 400,
+      "scenario_id": "b0014-safe-400",
+      "from_length": "paragraph",
+      "to_length": "short",
+      "reason": "Projected checkpoint 0014 quota computed by production.plan_lengths after checkpoint 0013"
+    },
+    {
+      "position": 369,
+      "scenario_id": "b0014-safe-369",
+      "from_length": "paragraph",
+      "to_length": "short",
+      "reason": "Projected checkpoint 0014 quota computed by production.plan_lengths after checkpoint 0013"
+    },
+    {
+      "position": 470,
+      "scenario_id": "b0014-safe-470",
+      "from_length": "paragraph",
+      "to_length": "short",
+      "reason": "Projected checkpoint 0014 quota computed by production.plan_lengths after checkpoint 0013"
+    }
+  ],
+  "canonical_file": "drafts/chat/batch-0014/batch-0014-candidates.jsonl",
+  "source_waves": "Historical draft fragments; use canonical file only",
   "checks": {
     "exact_duplicates_within_candidates": 0,
-    "length_buckets": "passed for saved records",
+    "length_buckets": "passed",
     "official_prepare": "not_run",
-    "production_baseline": "not_run",
-    "semantic_similarity": "not_run",
+    "production_baseline": "pending",
+    "semantic_similarity": "pending",
     "independent_review": "not_run"
-  },
-  "rejected_in_wave": []
+  }
 }
