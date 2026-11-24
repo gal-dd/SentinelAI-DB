@@ -1,7 +1,7 @@
 {
   "checkpoint": 14,
-  "status": "partial_draft_not_approved",
-  "candidate_count": 400,
+  "status": "complete_candidate_count_not_approved",
+  "candidate_count": 500,
   "expected_count": 500,
   "base_checkpoint": 12,
   "base_production": 11000,
@@ -28,17 +28,18 @@
     },
     "סודי ביותר": {
       "short": 6,
-      "sentence": 15,
-      "paragraph": 4
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
     }
   },
   "domain_counts": {
-    "missile_systems": 320,
-    "uncrewed_aircraft": 20,
-    "radar_sensors_space": 19,
-    "cyber_communications_c2": 20,
-    "general_negative_controls": 10,
-    "defense_logistics": 11
+    "missile_systems": 400,
+    "uncrewed_aircraft": 24,
+    "radar_sensors_space": 24,
+    "cyber_communications_c2": 24,
+    "general_negative_controls": 14,
+    "defense_logistics": 14
   },
   "checks": {
     "exact_duplicates_within_candidates": 0,
