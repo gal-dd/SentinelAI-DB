@@ -1,24 +1,24 @@
 {
   "snapshot_type": "current_production_export_not_final",
-  "source_commit": "a0e67ece27f985d991f89ad2f584f1bbc6c93981",
-  "source_progress_sha256": "154cdc684ae49566c208cbbc66c70b3e92969d26f73c92156f13f5b9a51b1708",
-  "record_count": 10500,
+  "source_commit": "8c204edca37a35fd7b622cc551987372eea4bd19",
+  "source_progress_sha256": "509182cbd8944e80056c90d119c2ff85e75999e5b6070cb50cf50a0bd0ad1e11",
+  "record_count": 11000,
   "assigned_id_range": [
     1,
-    10500
+    11000
   ],
-  "last_checkpoint": 11,
-  "next_id": 10501,
-  "reviewed_checkpoint_records": 5500,
+  "last_checkpoint": 12,
+  "next_id": 11001,
+  "reviewed_checkpoint_records": 6000,
   "external_unreviewed_records": 5000,
   "label_counts": {
-    "בלמס": 2625,
-    "שמור": 2625,
-    "סודי": 2625,
-    "סודי ביותר": 2625
+    "בלמס": 2750,
+    "שמור": 2750,
+    "סודי": 2750,
+    "סודי ביותר": 2750
   },
   "output_file": "synthetic_security_classification_current.json",
-  "output_sha256": "72e4f8e3c6bf29c0f92c83c034372aa2eb118e9cd497a0304c7b9e52643ca833",
+  "output_sha256": "4d8043d3a7634ba5c763cb2545907067dba9a6a5b304dcbf3867f102ba1e7c99",
   "sources": [
     {
       "path": "data/checkpoints/batch-0001.jsonl",
@@ -84,6 +84,12 @@
       "path": "data/checkpoints/batch-0011.jsonl",
       "records": 500,
       "sha256": "b813de29365633d842245fbc1d42ac6e0c679a0805e5519059c5d8c102724ce6",
+      "provenance": "reviewed_checkpoint"
+    },
+    {
+      "path": "data/checkpoints/batch-0012.jsonl",
+      "records": 500,
+      "sha256": "f82bdf2e060fe9608fc39bbc3ebc74546f51a326aed82cc51aa0e56a576d30cd",
       "provenance": "reviewed_checkpoint"
     },
     {
