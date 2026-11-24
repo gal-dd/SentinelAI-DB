@@ -1,0 +1,137 @@
+{
+  "checkpoint": 11,
+  "date": "2026-11-24",
+  "baseline_commit": "54b1ef0525e8919a92f07167440b00ee0a3e44a7",
+  "working_branch": "work/autonomous-batch-0011",
+  "publication_branch": "poc/defense-focused-v2",
+  "records": 500,
+  "production_after_checkpoint": 10500,
+  "id_range": [
+    10001,
+    10500
+  ],
+  "batch_domain_counts": {
+    "missile_systems": 400,
+    "uncrewed_aircraft": 24,
+    "radar_sensors_space": 24,
+    "cyber_communications_c2": 24,
+    "defense_logistics": 14,
+    "general_negative_controls": 14
+  },
+  "label_lengths": {
+    "בלמס": [
+      6,
+      50,
+      44,
+      25
+    ],
+    "שמור": [
+      6,
+      50,
+      44,
+      25
+    ],
+    "סודי": [
+      6,
+      50,
+      44,
+      25
+    ],
+    "סודי ביותר": [
+      6,
+      50,
+      44,
+      25
+    ]
+  },
+  "candidate_digest": "6a2cac2c9014cda197c25b15f28aa128a4129d97a25e6400f1db07879d704ce7",
+  "full_reference_similarity": {
+    "semantic": {
+      "status": "completed",
+      "model": "Xenova/multilingual-e5-small",
+      "reference_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+      "artifact_sha256": {
+        "model_int8.onnx": "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c",
+        "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+      },
+      "search": "hnsw_cosine_top_k",
+      "cosine_threshold": 0.92,
+      "neighbors_per_record": 12,
+      "indexed_records": 10500,
+      "scanned_records": 500,
+      "candidate_pairs": 600
+    },
+    "exact_duplicates": 0,
+    "lexical_alerts": 0,
+    "high_risk": 5,
+    "records_compared": 10000,
+    "unresolved_high_risk_alerts": 0,
+    "reference_scope": "5000 previously reviewed checkpoint records and 5000 unreviewed external imports",
+    "high_risk_decisions": [
+      {
+        "different_labels": true,
+        "id": "2b99e1868492af117f705e8b8cd1587e6726e56bf88f7374efde9678bb43d26d",
+        "method": "semantic",
+        "records": [
+          "01096ec97211fde6f09998df78f832c250bbad3b1f3cdde88db9efe1202abc03",
+          "5ec9175187acda5004205fe6bccfab5c135875963723ff80a6d466a0c03cc948"
+        ],
+        "score": 0.94248,
+        "reason": "בקשת סידור מחסן לצוות לעומת הודעת ביטול חוזה על אוסף לוועד",
+        "status": "keep"
+      },
+      {
+        "different_labels": true,
+        "id": "3137c139f37f5fe368c32f45287681c1d0388d4da7072154eba214aa3b69343e",
+        "method": "semantic",
+        "records": [
+          "2449fc13ee7c18c55f8bc6c6b58c4c236e0f702a2e5f1166e935199fd0241180",
+          "bb066c1ab94fb73fa65919928fa65488eeec3416fd6b059c9a10bb87cc5748b2"
+        ],
+        "score": 0.95169,
+        "reason": "הוראת תיוג איורים לימודיים לעומת פקיעת הזיכיון המשפטי על איורי יירוט",
+        "status": "keep"
+      },
+      {
+        "different_labels": true,
+        "id": "7801cd6038f19ce56673a49b00516048f6473e427ba8362ae1e8a66c25729634",
+        "method": "semantic",
+        "records": [
+          "24590559ce737fe5f35884f67f9610dc6b8af9fe9711bc1fc341354d30747b41",
+          "e9bfe5752245e395e6eb4a1920387060df54891f38aa99647dec55196d637f7e"
+        ],
+        "score": 0.94123,
+        "reason": "כותרת של מילון כיתתי מול מטלת הגהה פנימית לצוות",
+        "status": "keep"
+      },
+      {
+        "different_labels": true,
+        "id": "b399478382629b30d3952ea24ddd20d4d5df6752cab7d2ff85092b3beecf26f2",
+        "method": "semantic",
+        "records": [
+          "5ec9175187acda5004205fe6bccfab5c135875963723ff80a6d466a0c03cc948",
+          "eb873825abf5c2c085efbe8711bcd38accdd1fc1932e825cb28240c22542944e"
+        ],
+        "score": 0.94163,
+        "reason": "הודעה מחייבת על ביטול חוזה לעומת תיוק שגרתי של החלטות ארכיוניות",
+        "status": "keep"
+      },
+      {
+        "different_labels": true,
+        "id": "d388450d716e851ee8fabfbc9dd5489c64bc57ac4a62d25b2eea41ac3bd0b343",
+        "method": "semantic",
+        "records": [
+          "3c1bed760d7044d2afa9af05b39e468cb9593b51cfdb53075546d25b084d50ce",
+          "ea89c6b0737aefa850503fc169ebc1a5df6416e2045aefa10dc352fc342b3844"
+        ],
+        "score": 0.94035,
+        "reason": "שלילת מענק יחיד מול ביטול רוחבי של מענקים לכל המכונים",
+        "status": "keep"
+      }
+    ]
+  },
+  "label_sample": 54,
+  "domain_sample": 24,
+  "reviewer_limit": "Text-first review by the same assistant that authored the records. No second model or human review.",
+  "content_scope": "Hebrew public and educational contexts, and fictional administrative records. No real sensitive or operational details."
+}
