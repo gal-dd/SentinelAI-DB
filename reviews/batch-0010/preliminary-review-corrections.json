@@ -1,0 +1,54 @@
+{
+  "scope": "Text-first same-model review of deterministic random and domain samples, plus short-text consistency sweep. This is not official final review or an independent-model review.",
+  "changed_rows": [
+    {
+      "row": 6,
+      "reason": "Clarify public or internal context, material consequence, systemic impact or domain in short form."
+    },
+    {
+      "row": 129,
+      "reason": "Clarify public or internal context, material consequence, systemic impact or domain in short form."
+    },
+    {
+      "row": 251,
+      "reason": "Clarify public or internal context, material consequence, systemic impact or domain in short form."
+    },
+    {
+      "row": 252,
+      "reason": "Clarify public or internal context, material consequence, systemic impact or domain in short form."
+    },
+    {
+      "row": 255,
+      "reason": "Clarify public or internal context, material consequence, systemic impact or domain in short form."
+    },
+    {
+      "row": 256,
+      "reason": "Clarify public or internal context, material consequence, systemic impact or domain in short form."
+    },
+    {
+      "row": 307,
+      "reason": "Clarify public or internal context, material consequence, systemic impact or domain in short form."
+    },
+    {
+      "row": 376,
+      "reason": "Clarify public or internal context, material consequence, systemic impact or domain in short form."
+    },
+    {
+      "row": 377,
+      "reason": "Clarify public or internal context, material consequence, systemic impact or domain in short form."
+    },
+    {
+      "row": 378,
+      "reason": "Clarify public or internal context, material consequence, systemic impact or domain in short form."
+    },
+    {
+      "row": 380,
+      "reason": "Clarify public or internal context, material consequence, systemic impact or domain in short form."
+    },
+    {
+      "row": 381,
+      "reason": "Clarify public or internal context, material consequence, systemic impact or domain in short form."
+    }
+  ],
+  "official_review_pending": true
+}
