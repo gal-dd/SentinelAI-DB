@@ -33,6 +33,9 @@ jobs:
           git worktree add --detach .poc-local/live-production origin/poc/defense-focused-v2
           cd .poc-local/live-production
           python -B -m sentinel_dataset verify
+          python -c 'import json; s=json.load(open("progress.json")); assert (s["production_records"],s["last_checkpoint"],s["next_id"])==(10500,11,10501)'
+          sha256sum progress.json
+          git rev-parse HEAD
           cp "$GITHUB_WORKSPACE/scripts/validate_complete_candidate.py" scripts/
           python -B scripts/validate_complete_candidate.py --checkpoint 12 --candidates "$GITHUB_WORKSPACE/drafts/chat/batch-0012/batch-0012-candidates.jsonl" --scenarios "$GITHUB_WORKSPACE/drafts/chat/batch-0012/scenarios-merged.json" --report "$GITHUB_WORKSPACE/.poc-local/structural-qa.json"
       - name: Install semantic dependencies
