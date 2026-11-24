@@ -85,6 +85,15 @@ jobs:
           cd .poc-local/live-production
           mkdir -p .poc-local
           python -B -m sentinel_dataset prepare "$GITHUB_WORKSPACE/$CANDIDATES" --model-dir "$GITHUB_WORKSPACE/.poc-local/e5" --cache-dir "$GITHUB_WORKSPACE/.poc-local/embeddings" --packet .poc-local/packet.json
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          packet=json.loads(Path(".poc-local/packet.json").read_text(encoding="utf-8"))
+          ledger=json.loads((Path(os.environ["GITHUB_WORKSPACE"])/os.environ["LEDGER"]).read_text(encoding="utf-8"))
+          for pair in packet.get("review_alerts", packet["alerts"]):
+              if pair["id"] not in ledger["alerts"]:
+                  print("MISSING_OFFICIAL_PAIR",json.dumps({**pair,"texts":[packet["alert_texts"][key] for key in pair["records"]]},ensure_ascii=False))
+          PY
           python -B scripts/reconcile_review_decisions.py --checkpoint 12 --packet .poc-local/packet.json --ledger "$GITHUB_WORKSPACE/$LEDGER" --candidates "$GITHUB_WORKSPACE/$CANDIDATES" --progress progress.json --output .poc-local/decisions.json
           python -B -m sentinel_dataset stage-checkpoint "$GITHUB_WORKSPACE/$CANDIDATES" --model-dir "$GITHUB_WORKSPACE/.poc-local/e5" --cache-dir "$GITHUB_WORKSPACE/.poc-local/embeddings" --decisions .poc-local/decisions.json --output-dir .poc-local/staged
       - name: Verify signed new state, export and push atomically

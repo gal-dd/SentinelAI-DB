@@ -825,6 +825,433 @@
         "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850"
       ],
       "reason": "טיוטת לוח לעומת פסילת חוזה"
+    },
+    "0aeae5c4ebce90a524f1a15effe8617244dab938095e20899844a7f1f361035f": {
+      "status": "keep",
+      "records": [
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850",
+        "c36bae330e16dcb6dd0c4e6f657341144b02c4c94a59f30be2367fda1c7cc69d"
+      ],
+      "reason": "פסילת חוזה מילון פנימית לעומת משימת השוואת אינדקסים; החלטה מהותית בפרויקט לעומת מטלה שגרתית.",
+      "review_source": "QA 45406684070; exact fingerprint pair; earlier wording preserved"
+    },
+    "0b1f345cf8fbcef8e11e4e5af1029f61effa4dc2601916cffe1996034b4c057e": {
+      "status": "keep",
+      "records": [
+        "0a752488d653594a4e4f3a89e4a6cc667d357673a28fa1bf91b2a4b29d070ee1",
+        "14aa201d5a7ba3b37d5c1b57529a7fdabf75f68f10156e90c94061b303a77212"
+      ],
+      "reason": "קטלוג פתוח לציבור לעומת טיוטת צוות לכיתובי תערוכה.",
+      "review_source": "QA 45406684070; exact fingerprint pair; earlier wording preserved"
+    },
+    "45f7cac212c4c0d5aa6dc99bc331d4b996d74249b94c6b35fefee2e9dce23a95": {
+      "status": "keep",
+      "records": [
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850",
+        "b8b00eab04f8cc7e89344a7443eb7a967dc21ca8162847b5db3a73d2de735c6a"
+      ],
+      "reason": "פסילת חוזה מילון לעומת עדכון שגרתי של לוח הדרכה.",
+      "review_source": "QA 45406684070; exact fingerprint pair; earlier wording preserved"
+    },
+    "4a6cef15dbb143e63b06d9263bbba669e69001278680ec0d5ca57b4454d8888a": {
+      "status": "keep",
+      "records": [
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5",
+        "b8b00eab04f8cc7e89344a7443eb7a967dc21ca8162847b5db3a73d2de735c6a"
+      ],
+      "reason": "הקפאת תקציב שנתון יחיד לעומת עדכון שגרתי של לוח הדרכה.",
+      "review_source": "QA 45406684070; exact fingerprint pair; earlier wording preserved"
+    },
+    "4dca484e196c2954190bb15bec9363a0545917cfa61818e38a32cbd6597caaed": {
+      "status": "keep",
+      "records": [
+        "7a6d38710f4bc6aa2d8935d57c3daf3dc4f5c09e95c09758ce1f56c36f08c525",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "הגהת תוכנייה מקומית לעומת ביטול התקשרות שנתון.",
+      "review_source": "QA 45406684070; exact fingerprint pair; earlier wording preserved"
+    },
+    "5194219b7cc231d342e7a5dc5f965f94bf1887d6b4fffdf4587e184c69405066": {
+      "status": "keep",
+      "records": [
+        "e0c75d2b27d6481c1fce0988375498610c11dd4d2ce3921ebbc27079b3bf71da",
+        "e754caa101e419a33e7d5575c4a27009631c018305b67e05721bd96a2c452199"
+      ],
+      "reason": "קריסת מקור המימון המשותף לכל השלוחות לעומת ביטול קורס קיץ אחד.",
+      "review_source": "QA 45406684070; exact fingerprint pair; earlier wording preserved"
+    },
+    "9715b22b5502d3e6cc1a8fb79498213e6d83916d35413a6a031c063869059ef5": {
+      "status": "keep",
+      "records": [
+        "9143ea6a6891d3e89d845233e5678cebd7795e97b37165cdea6392b9d744e40d",
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5"
+      ],
+      "reason": "הגהה שגרתית של תאריכים לעומת הקפאת תקציב שנתון.",
+      "review_source": "QA 45406684070; exact fingerprint pair; earlier wording preserved"
+    },
+    "09db9c783fad867c19469d8cbd5544828c8305b3d018e270b38b8317e99e2a3d": {
+      "status": "keep",
+      "records": [
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66",
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5"
+      ],
+      "reason": "הפסקת מימון בכל הארכיונים לעומת הקפאת תקציב שנתון יחיד",
+      "text_sha256": [
+        "d3d4aa9a88836a659d6cdf9ac98c89e199570dbaeac787f2354eb3f772097e94",
+        "d2cf3577a251f92dc72f7f5d91ca46497e2739f4f3723b315fd57e9af7be29ef"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "09ed62028d5596f52a54817595d9c91faacdbbcd932911c09bb2348a0fb90dda": {
+      "status": "keep",
+      "records": [
+        "2b13121651f18ddb9bff7d315e68fc86beb787be644d136e44c3fac83b5a09fb",
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5"
+      ],
+      "reason": "עדכון לוח הדרכה שגרתי לעומת הקפאת תקציב שנתון",
+      "text_sha256": [
+        "60d8af901de3f2475557d77b36c3849580a72481ca37bb86df905d1754452dc1",
+        "d2cf3577a251f92dc72f7f5d91ca46497e2739f4f3723b315fd57e9af7be29ef"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "1bff6d08a9f1bad94c77500e626918b95b7992a979bf91132462546f8c847a83": {
+      "status": "keep",
+      "records": [
+        "2b2f624fe3418ed7c48bd0a37033c41aa5d95c24cdab1ef3a38462dee08c89c6",
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66"
+      ],
+      "reason": "דחיית פרסום דוח יחיד לעומת הפסקת מימון לכל הארכיונים",
+      "text_sha256": [
+        "2f47da54dc6e2359e0e57471504193dc887c7b6a35fb5ff3fea764e3b087a0c4",
+        "d3d4aa9a88836a659d6cdf9ac98c89e199570dbaeac787f2354eb3f772097e94"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "39d08d49a68097828ee0631ac004407cc0b6c99f47e839da48e6ab3dd34fa8a8": {
+      "status": "keep",
+      "records": [
+        "2b13121651f18ddb9bff7d315e68fc86beb787be644d136e44c3fac83b5a09fb",
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850"
+      ],
+      "reason": "עדכון לוח הדרכה לעומת פסילת חוזה",
+      "text_sha256": [
+        "60d8af901de3f2475557d77b36c3849580a72481ca37bb86df905d1754452dc1",
+        "675df8f6b3448b9d2f64711f18bf9ff9f6c51a93d54b878b4096ec30be084763"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "57fbe911fc9ff65c5c09bfa9cdfa1de05a302f7d39e695c316966e7edb9668d4": {
+      "status": "keep",
+      "records": [
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850",
+        "c03f383f517e411cc688ca46dc53be489500f5e92c7530895e9981e4dd5acaac"
+      ],
+      "reason": "פסילת חוזה מילון לעומת הפצת טיוטת לוח",
+      "text_sha256": [
+        "675df8f6b3448b9d2f64711f18bf9ff9f6c51a93d54b878b4096ec30be084763",
+        "d7e4144dbeb59b10dc4c80fe999f028a6a876406e0a619d93b8b350e68dfcc5a"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "5e99f77b56cf112fce915bfa5417e1f9388091ad670bcbc896f62e0151e39618": {
+      "status": "keep",
+      "records": [
+        "31db9c9ec87c18c02ce3c65104f7d8096adf85204e59ff3b990184029c6694e1",
+        "32da60d7acc86de0c15f3161bdf43f5bf71b40b6d765c7e36053b4c26e25de8b"
+      ],
+      "reason": "ביטול הסכם תיעוד אחד לעומת ביטול סמכויות רוחבי",
+      "text_sha256": [
+        "439a9be8f377ce2e5f6ea35d0a464d3292e8643c89c6f472fabf23967111885d",
+        "1371acf91135a1965f2937c19ef4733c4c1726a57e0b0736e221cf106174c649"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "6647e783a7e4c06b1e30072c37d0838718fc4d49033cc87687ba1245e7357e18": {
+      "status": "keep",
+      "records": [
+        "c03f383f517e411cc688ca46dc53be489500f5e92c7530895e9981e4dd5acaac",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "טיוטת לוח לעומת ביטול התקשרות",
+      "text_sha256": [
+        "d7e4144dbeb59b10dc4c80fe999f028a6a876406e0a619d93b8b350e68dfcc5a",
+        "e33d02f9601807ed12c33f9b8a851c0d67ccc65ae41e709a0766aa26bf363e5f"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "7899fb3429ad6e01f5c732dc360e816586a61d80df5cf05318608e0a12413647": {
+      "status": "keep",
+      "records": [
+        "2b13121651f18ddb9bff7d315e68fc86beb787be644d136e44c3fac83b5a09fb",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "עדכון לוח הדרכה לעומת ביטול התקשרות",
+      "text_sha256": [
+        "60d8af901de3f2475557d77b36c3849580a72481ca37bb86df905d1754452dc1",
+        "e33d02f9601807ed12c33f9b8a851c0d67ccc65ae41e709a0766aa26bf363e5f"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "79a81622c69cb84ccf70fc6ee2461f395e9cb2fc871ad00966d52ad4fceb8829": {
+      "status": "keep",
+      "records": [
+        "2d8b418eb77c45cfbc1d5f3bcb75e930b0fc9ada6ec5b876c178a5d7ddae5e67",
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66"
+      ],
+      "reason": "ביטול תוכנית אחת לעומת הפסקת מימון כלל הארכיונים",
+      "text_sha256": [
+        "781661b11c1569b0fa6d452217a639a33b3126141f858019bb73073dc53df1d1",
+        "d3d4aa9a88836a659d6cdf9ac98c89e199570dbaeac787f2354eb3f772097e94"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "79e3260a40a7b74d8e15c184aa407d6c3f8c99d63a8d0655a8270644f2b157fe": {
+      "status": "keep",
+      "records": [
+        "5866a6fc2eef1a2a86ceebe9258632e5f502e2833c61b79531fec33eb53e3ddd",
+        "68052780226ea1983e568c8bb0c7472c5a7974b6c45acf5a255de7ee6f17ec65"
+      ],
+      "reason": "פקיעת הרשאות כוללת לעומת השוואת אינדקסים",
+      "text_sha256": [
+        "747a6c7bb1b4fa11a6551eeef0418b539cc9d6cbef06e96ec75f0de3b0c1bdbc",
+        "8f2f8b30fd0aa2f693b935ceb0b626952ba19b57d491851ddfb913ae5b089866"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "899d1f0b8a82515de542255e55391da36b738ae07cb8deb29b18459ff000afc5": {
+      "status": "keep",
+      "records": [
+        "0152e4e167ab9fb5f711d6f96726b8f6e676ae6fa5a295203c78ef0672f69ec7",
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66"
+      ],
+      "reason": "משימת תיוק לעומת הפסקת מימון כולל",
+      "text_sha256": [
+        "f808d49516e66604f471aa51a8821a2342f7f635f6f2d60770fe5b200baea246",
+        "d3d4aa9a88836a659d6cdf9ac98c89e199570dbaeac787f2354eb3f772097e94"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "94fd29142c6235f83069168cf4c0e22f382b5efefb16315be05575404274d0cf": {
+      "status": "keep",
+      "records": [
+        "08f66f2fed1df7832f923a68f978b89da7c450071c67ea61036414bcd7e0f26d",
+        "a6a103112007c826d7e045fe456e4dafb9e6b605850ff2eda6c70c405b8acebc"
+      ],
+      "reason": "מבוא פומבי לעומת טיוטת תרגום פנימית",
+      "text_sha256": [
+        "6affb70956fccf39e3706513677cf7f543cdd4970361ac03de85d80bc2d45f91",
+        "2a4f1f7aafabfbf71472e5d07b4b064f89c53a7fbfa8b8f0c4bb8a04dab1ef98"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "965cf248208947991b87eec965fd81d86eca8e8f3a3c26b7ee9b74bdab9a9b45": {
+      "status": "keep",
+      "records": [
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850",
+        "68052780226ea1983e568c8bb0c7472c5a7974b6c45acf5a255de7ee6f17ec65"
+      ],
+      "reason": "פסילת חוזה לעומת השוואת אינדקסים",
+      "text_sha256": [
+        "675df8f6b3448b9d2f64711f18bf9ff9f6c51a93d54b878b4096ec30be084763",
+        "8f2f8b30fd0aa2f693b935ceb0b626952ba19b57d491851ddfb913ae5b089866"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "9b73a08dd4e41ea111cc970e39f30008ba7d8ce5cdd4a6ed1223cc4f6c488bf9": {
+      "status": "keep",
+      "records": [
+        "68052780226ea1983e568c8bb0c7472c5a7974b6c45acf5a255de7ee6f17ec65",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "השוואת אינדקסים לעומת ביטול התקשרות",
+      "text_sha256": [
+        "8f2f8b30fd0aa2f693b935ceb0b626952ba19b57d491851ddfb913ae5b089866",
+        "e33d02f9601807ed12c33f9b8a851c0d67ccc65ae41e709a0766aa26bf363e5f"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "a22e03c8be7006b150a91939c7291eac86bcdbed251fb7ea0fa624fbece82f4e": {
+      "status": "keep",
+      "records": [
+        "68052780226ea1983e568c8bb0c7472c5a7974b6c45acf5a255de7ee6f17ec65",
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5"
+      ],
+      "reason": "השוואת אינדקסים לעומת הקפאת תקציב",
+      "text_sha256": [
+        "8f2f8b30fd0aa2f693b935ceb0b626952ba19b57d491851ddfb913ae5b089866",
+        "d2cf3577a251f92dc72f7f5d91ca46497e2739f4f3723b315fd57e9af7be29ef"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "ab60883cf4052020e692999d8cdd823c24e8c799d1dd69dfd12da5c166f63246": {
+      "status": "keep",
+      "records": [
+        "537b2d8288284457e455c44de4b529ffadc488d2e04fbce313094725da99f46f",
+        "b34b512e768cf2f1cc7ed15293bac6d041c4ab14f7f2f556d9583d203282c6b5"
+      ],
+      "reason": "פסילת חוזה אסופה לעומת חפיפת צוות",
+      "text_sha256": [
+        "9de0e59a7429f81090d93fafc5453c3f89ae9393254eb30142e7d77203ed57d2",
+        "f1a12905dfaebb679a8f6b96d77b5e3ae1ec05cd6302105ec427c5493c93d592"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "c05e372d215d4b99048aada0b22f2a1e6d75c41fe68e895834fad26dc37b0b0d": {
+      "status": "keep",
+      "records": [
+        "9f7f165db610f4951f01fd98a7d2b73b6e69bcc7305319574f803a6f6bffb1ae",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "רשימת תיקונים לעומת ביטול התקשרות",
+      "text_sha256": [
+        "c587994c391aff1ff56ea0a35857103cf7032907139e163fc773cdb3eac10b90",
+        "e33d02f9601807ed12c33f9b8a851c0d67ccc65ae41e709a0766aa26bf363e5f"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "cc52b624b43024037fdb425a4557ef520d039b0286eed9401722a071ddd534d0": {
+      "status": "keep",
+      "records": [
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5",
+        "9f7f165db610f4951f01fd98a7d2b73b6e69bcc7305319574f803a6f6bffb1ae"
+      ],
+      "reason": "הקפאת תקציב לעומת רשימת תיקונים",
+      "text_sha256": [
+        "d2cf3577a251f92dc72f7f5d91ca46497e2739f4f3723b315fd57e9af7be29ef",
+        "c587994c391aff1ff56ea0a35857103cf7032907139e163fc773cdb3eac10b90"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "ce05c3df8d5fc224625bccb8082e4765f2ab9f2d8c99f369b944cfc0e6b5d1fe": {
+      "status": "keep",
+      "records": [
+        "5ac91a5ed8561b0edc2e7da8851f695c3b5b7791f2c3443a4fe4d991c9d21b5a",
+        "7a6d38710f4bc6aa2d8935d57c3daf3dc4f5c09e95c09758ce1f56c36f08c525"
+      ],
+      "reason": "דיווח על זיוף מסמכים כולל לעומת הגהה שגרתית של תוכנייה",
+      "text_sha256": [
+        "304d18af9f3d6b340b3daf1987f535732f107ee346b5f7122fcc89917051a7d0",
+        "102005e85eefe47e4b131b3253aee8a1b8dacdcb0c4265a60939d04f0a1fab8f"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "d307cbd9d491bcb989be62465f5f42417b61cb9386c822a89d2597b0f52d9f9e": {
+      "status": "keep",
+      "records": [
+        "3d9c92c0fbf841cb963f8295ee4b52c96042dd2e03597f24865048ee83627296",
+        "9dea7b933a9c747cb4652a6ce7c5aa008635fd739220c78a703bbde72225c916"
+      ],
+      "reason": "שלילת זכויות תורמים רוחבית לעומת שלילת מענק יחיד",
+      "text_sha256": [
+        "c7f0c67e369458884a909eff86b6d0cc30ad11fab8b3cbc50ce979f198057908",
+        "268865e590d2ceda568726d4f6f0adf6d2831c28c0ea15130d3dbc5f747b63e1"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "e02d4e1647f8fa8696be1360a7a038e18ee0ab60f445aa649f74695a40b9f250": {
+      "status": "keep",
+      "records": [
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850",
+        "9f7f165db610f4951f01fd98a7d2b73b6e69bcc7305319574f803a6f6bffb1ae"
+      ],
+      "reason": "פסילת חוזה לעומת רשימת תיקונים",
+      "text_sha256": [
+        "675df8f6b3448b9d2f64711f18bf9ff9f6c51a93d54b878b4096ec30be084763",
+        "c587994c391aff1ff56ea0a35857103cf7032907139e163fc773cdb3eac10b90"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "e2745180cbb7cce407aafcb30d66f813582b27662c71f659b6fd1b8751e0cdde": {
+      "status": "keep",
+      "records": [
+        "40661d19a9d885c5db58d6b80600d1caf61e03f7f94a8c883b5d866109219df4",
+        "b34b512e768cf2f1cc7ed15293bac6d041c4ab14f7f2f556d9583d203282c6b5"
+      ],
+      "reason": "פקיעת כל הסכמי הארכיון לעומת חפיפת צוות",
+      "text_sha256": [
+        "710b7d490793951bcb3b2b48b858560ad490c70643c1ab64b432ae3a399db5fb",
+        "f1a12905dfaebb679a8f6b96d77b5e3ae1ec05cd6302105ec427c5493c93d592"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "ea663e18d5821639d17873940d7ce8dd359250942f11358377d8713178a9fcb4": {
+      "status": "keep",
+      "records": [
+        "5866a6fc2eef1a2a86ceebe9258632e5f502e2833c61b79531fec33eb53e3ddd",
+        "f61ff91b13a9079445f0efe12e6ff02ac5de6efe2b689f1a22d7a98c8e26bc9f"
+      ],
+      "reason": "פקיעת הרשאות בכל הארכיונים לעומת ביטול חוזה אוסף אחד",
+      "text_sha256": [
+        "747a6c7bb1b4fa11a6551eeef0418b539cc9d6cbef06e96ec75f0de3b0c1bdbc",
+        "bf6f32ef33cbc1f0743765884ee6309ed5541c7db7b8144980fe8c59c1f4cf43"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "eeafad3e2b9fa5da2bb462e68959107a51df94a8baf2224cb8332bdc28797f34": {
+      "status": "keep",
+      "records": [
+        "2509cba3880d16cd99d40d88b1bbc6f63185ecd847a1d3f7e051997338858260",
+        "2d8b418eb77c45cfbc1d5f3bcb75e930b0fc9ada6ec5b876c178a5d7ddae5e67"
+      ],
+      "reason": "ציר זמן פומבי לעומת ביטול תוכנית בחשאי",
+      "text_sha256": [
+        "67c6780221f0462e22dd0f732083ee9056df5b4ab93a23744864137c314c3393",
+        "781661b11c1569b0fa6d452217a639a33b3126141f858019bb73073dc53df1d1"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "f1d5aa3e021c9235e6c7446b7c6d5097c555b205fb1d816c04c0d1e9a338653f": {
+      "status": "keep",
+      "records": [
+        "5866a6fc2eef1a2a86ceebe9258632e5f502e2833c61b79531fec33eb53e3ddd",
+        "9f7f165db610f4951f01fd98a7d2b73b6e69bcc7305319574f803a6f6bffb1ae"
+      ],
+      "reason": "פקיעת הרשאות בכל הארכיונים לעומת רשימת תיקונים",
+      "text_sha256": [
+        "747a6c7bb1b4fa11a6551eeef0418b539cc9d6cbef06e96ec75f0de3b0c1bdbc",
+        "c587994c391aff1ff56ea0a35857103cf7032907139e163fc773cdb3eac10b90"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "f4044edb971ba34927f5c3f62fdd0b30d7d21cfada92393f17cef30ed0eadf1a": {
+      "status": "keep",
+      "records": [
+        "3d9c92c0fbf841cb963f8295ee4b52c96042dd2e03597f24865048ee83627296",
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66"
+      ],
+      "reason": "למרות דמיון גבוה באותו סיווג: זכויות כל התורמים לעומת מימון כלל הארכיונים, שני סוגי פגיעה נבדלים",
+      "text_sha256": [
+        "c7f0c67e369458884a909eff86b6d0cc30ad11fab8b3cbc50ce979f198057908",
+        "d3d4aa9a88836a659d6cdf9ac98c89e199570dbaeac787f2354eb3f772097e94"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "ff6422758be2c16f94c05fda6ed2d7d518da8f8553c17fd36b3a3036fb0f1bf0": {
+      "status": "keep",
+      "records": [
+        "01eac85420ed67fae76c1980d5a6b9da403c9f39f057c6b659612b8e356be16f",
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850"
+      ],
+      "reason": "מונח במילון פתוח לעומת פסילת חוזה פנימית",
+      "text_sha256": [
+        "94845c88da6cdd6ac3c0d45198827d4ca8badf6b0adf1d8649c78ad11e9409c3",
+        "675df8f6b3448b9d2f64711f18bf9ff9f6c51a93d54b878b4096ec30be084763"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
+    },
+    "ffc76f196a70dc089f3b894d2fe9a6692e618d77c84ebf74f085d1a15fd4deaf": {
+      "status": "keep",
+      "records": [
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5",
+        "c03f383f517e411cc688ca46dc53be489500f5e92c7530895e9981e4dd5acaac"
+      ],
+      "reason": "הקפאת תקציב לעומת טיוטת לוח שגרתית",
+      "text_sha256": [
+        "d2cf3577a251f92dc72f7f5d91ca46497e2739f4f3723b315fd57e9af7be29ef",
+        "d7e4144dbeb59b10dc4c80fe999f028a6a876406e0a619d93b8b350e68dfcc5a"
+      ],
+      "review_source": "Same candidate digest and baseline, explicitly reviewed full-baseline pair"
     }
   },
   "external_alerts": {
