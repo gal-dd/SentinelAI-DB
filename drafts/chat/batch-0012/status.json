@@ -1,15 +1,15 @@
 {
   "batch": 12,
   "status": "partial_draft_not_validated_or_published",
-  "candidate_count": 200,
+  "candidate_count": 300,
   "planned_total": 500,
   "domain_counts": {
-    "missile_systems": 160,
-    "uncrewed_aircraft": 9,
-    "radar_sensors_space": 9,
-    "cyber_communications_c2": 10,
-    "defense_logistics": 6,
-    "general_negative_controls": 6
+    "missile_systems": 240,
+    "uncrewed_aircraft": 14,
+    "radar_sensors_space": 14,
+    "cyber_communications_c2": 15,
+    "defense_logistics": 8,
+    "general_negative_controls": 9
   },
   "label_length_counts": {
     "בלמס": {
@@ -19,10 +19,10 @@
       "long": 25
     },
     "שמור": {
-      "short": 3,
-      "sentence": 15,
-      "paragraph": 6,
-      "long": 1
+      "short": 6,
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
     },
     "סודי": {
       "short": 3,
@@ -45,5 +45,5 @@
     "blind_review": "not_run",
     "production_comparison": "pending"
   },
-  "notes": "Public educational wave saved; actual length and domain counts recorded; remaining quota and full QA pending."
+  "notes": "Public and routine educational waves saved; full QA pending."
 }
