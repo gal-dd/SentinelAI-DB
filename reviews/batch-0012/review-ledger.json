@@ -1,0 +1,1230 @@
+{
+  "checkpoint": 12,
+  "candidate_git_blob": "701b4a44f1e17021afddbe5ef32a2e59bf0058be",
+  "candidate_digest": "5413dbc5723ae0af07dac7ed5b03f829dc414b0213940865fc71dfcf595dd382",
+  "production_progress_sha256": "154cdc684ae49566c208cbbc66c70b3e92969d26f73c92156f13f5b9a51b1708",
+  "reviewer": "GPT-6.2 (same model family as producer; not independent or human review)",
+  "review_scope": "Fictional, public, educational, cultural, administrative, non-operational content only. Review of current packet text and explicit pair distinctions; no certification of imported historic records.",
+  "qa_run": 45431098291,
+  "records": {
+    "08f66f2fed1df7832f923a68f978b89da7c450071c67ea61036414bcd7e0f26d": {
+      "status": "pass",
+      "label": "בלמס",
+      "reason": "מבוא מוגדר כפומבי",
+      "text_sha256": "6affb70956fccf39e3706513677cf7f543cdd4970361ac03de85d80bc2d45f91",
+      "mode": "same_model_text_first"
+    },
+    "092f669ea57ec7eb9d9c0ce1ab8d7c08d471841df51552083f947f99342b61c5": {
+      "status": "pass",
+      "label": "בלמס",
+      "reason": "מוסף פתוח על חלוקה היסטורית",
+      "text_sha256": "5f409b7dba8a40b67de324b62928a086f43e407d8bb92f01bb2ff637433a94e2",
+      "mode": "same_model_text_first"
+    },
+    "0e29ad0001349f46f852b925cf9e118fd6f6c09025bba077e43a35e6428d9885": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "ביטול הכרה בכלל מוסדות הרשת ועצירת הרשמה",
+      "text_sha256": "96928fc14f6fa0524c392781af16218953802ed52233886043bbfbb7aefd7767",
+      "mode": "same_model_text_first"
+    },
+    "10a25bdfa2816bdd69412c3fb006b4f55f0dc7019e6c2bcd2c3b91dbb2b31ee6": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "ביטול זכויות דיגיטליות בכל המוסדות",
+      "text_sha256": "5935738bf17481f56f08dbc323441a7443ab92e982e921be71cd5172091bb063",
+      "mode": "same_model_text_first"
+    },
+    "11b89f5151273d4a7354ad5b00070911b3c4a00f7c73e4f31948d280d1de044d": {
+      "status": "pass",
+      "label": "בלמס",
+      "reason": "שיעור פומבי על פרטיות והסכמה",
+      "text_sha256": "d9481ef34bd1d75b74c613adc434e4ba893bbd827460825f003db49c4e16bd8a",
+      "mode": "same_model_text_first"
+    },
+    "12282385bf713604706dac1c208db6145835c36c53c328b69b1cc31d8b30e2e1": {
+      "status": "pass",
+      "label": "בלמס",
+      "reason": "דף מוזיאון שפורסם לציבור",
+      "text_sha256": "16dac13b2dd0d344b417e3f245199dd5f614d8fc7f335199f609c938ea285f25",
+      "mode": "same_model_text_first"
+    },
+    "1468890c144a7b7c75173b0594bb8e920fda832e2cdaab6afba9936728b0b2e1": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "אי חידוש התקשרות אחת בעקבות ממצא משפטי לא פומבי",
+      "text_sha256": "38f32e75e9030b0feb4478826926db041441900e728f8e99bb0efbe5eb87f708",
+      "mode": "same_model_text_first"
+    },
+    "14aa201d5a7ba3b37d5c1b57529a7fdabf75f68f10156e90c94061b303a77212": {
+      "status": "pass",
+      "label": "שמור",
+      "reason": "טיוטת כיתובים של צוות מקומי",
+      "text_sha256": "d7cd9ad42b99de16406e2188bd0bb6103d223878cb4c78a84832b7486124faf1",
+      "mode": "same_model_text_first"
+    },
+    "1afc25f3a3480d53c2748f4c95b9652e1eb82f04607b66b311e115069169f9ac": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "ביטול התקשרות נגישות לתערוכה אחת לפני הודעה",
+      "text_sha256": "9abad03538b7bb441e8c52b07e9acb5cc23117c95e5c7eb015b997a0c5e8ab96",
+      "mode": "same_model_text_first"
+    },
+    "2509cba3880d16cd99d40d88b1bbc6f63185ecd847a1d3f7e051997338858260": {
+      "status": "pass",
+      "label": "בלמס",
+      "reason": "ציר זמן פורסם",
+      "text_sha256": "67c6780221f0462e22dd0f732083ee9056df5b4ab93a23744864137c314c3393",
+      "mode": "same_model_text_first"
+    },
+    "25a12d1941e0e3aacaa19f3a7a8d558c3b1729aa4a362f06f7f2be2e8ed127a1": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "בוררות מבטלת הסכם תערוכה יחיד",
+      "text_sha256": "1c323475816bc11ef41d6867b26844b24522c2c08dbe9b03bb1fbb2ea5ced623",
+      "mode": "same_model_text_first"
+    },
+    "2943ba54160c15879b9aae17fd2b27d33af416f4d15289b919cdc8b8a41d0351": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "ביטול זכויות בעלי אוספים בכל הספריות",
+      "text_sha256": "9f4cf79d5e3e35e415626b55b0c9f9ca8d604d90635edeb5177f2690f1c987ea",
+      "mode": "same_model_text_first"
+    },
+    "2aa862eaffe376236c1aeb510f9bbde281dec377dbddee6b02a70bccb8fd3a7f": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "התחייבויות כל המלגאים ללא כיסוי בעקבות פירוק הקרן",
+      "text_sha256": "a694f8187c39c6ee91ad5609c0bfe3c62704dfc7a9ee5f3120886bc434364dba",
+      "mode": "same_model_text_first"
+    },
+    "2f0747497418eb8728925110801dd73445cbf7360dcea398e70ef30cf50c6e48": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "דחיית קורס אחד ומגבלת המימון",
+      "text_sha256": "98751293c08c4ef1ed115f6b4c3531a7b03208c0b7b69b0870f21f5564c04076",
+      "mode": "same_model_text_first"
+    },
+    "3154d094743ec5f0d4de85c8220533266ebc2223fdaa069d7a4e4dce9352379e": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "החזרת מענק תרבות משמעותי של מכון אחד",
+      "text_sha256": "68b7b2ec4525149c99cf389d7fc4ec9df73ffc449052bb25bb0a126bfeac74e1",
+      "mode": "same_model_text_first"
+    },
+    "31db9c9ec87c18c02ce3c65104f7d8096adf85204e59ff3b990184029c6694e1": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "ביטול הסכם תיעוד בחשאי",
+      "text_sha256": "439a9be8f377ce2e5f6ea35d0a464d3292e8643c89c6f472fabf23967111885d",
+      "mode": "same_model_text_first"
+    },
+    "33651634d0358eb91fc8916b7905c2129607abe3f7f6f8d41868d2d0bb5cab80": {
+      "status": "pass",
+      "label": "בלמס",
+      "reason": "מאמר מוזיאון פומבי",
+      "text_sha256": "97085c5f2612894be98d2972f5b37a794eaa700eb2737d080d3b55f01194cc52",
+      "mode": "same_model_text_first"
+    },
+    "37d7e310d870c2e2b81fb397e2436a3a06b85f2e3a74679ff605edb344d83589": {
+      "status": "pass",
+      "label": "שמור",
+      "reason": "הערות ניסוח לטופס מקומי",
+      "text_sha256": "8551a421177c2485e6f2056b437e196a5366a36e2989743945d27bfbd9f2cc77",
+      "mode": "same_model_text_first"
+    },
+    "40661d19a9d885c5db58d6b80600d1caf61e03f7f94a8c883b5d866109219df4": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "פקיעת הסכמים של כלל ארכיוני היירוט",
+      "text_sha256": "710b7d490793951bcb3b2b48b858560ad490c70643c1ab64b432ae3a399db5fb",
+      "mode": "same_model_text_first"
+    },
+    "493efd6dd8af24a55195d065e9b0bbddfba7bb7506d96a1eafb170b38fcc8820": {
+      "status": "pass",
+      "label": "שמור",
+      "reason": "תיאום קריאה פנימי שגרתי",
+      "text_sha256": "7a446c9ab03f426a2e8b88d9ec234b0fb6ff325f7388cb7b7dc77604766b98d0",
+      "mode": "same_model_text_first"
+    },
+    "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "הפסקת מימון לכל הארכיונים",
+      "text_sha256": "d3d4aa9a88836a659d6cdf9ac98c89e199570dbaeac787f2354eb3f772097e94",
+      "mode": "same_model_text_first"
+    },
+    "4d20bd4ee26b6c49062d945e5e5b4ba22b07dacf7d634dc3227077c4480bb8ae": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "כל השלוחות איבדו הרשאה להפצה",
+      "text_sha256": "7e410eaa238424d4e5a9492bd1c61c92ba300bf4fd059b4893325fcfe516fe28",
+      "mode": "same_model_text_first"
+    },
+    "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "פסילת חוזה מילון פנימית",
+      "text_sha256": "675df8f6b3448b9d2f64711f18bf9ff9f6c51a93d54b878b4096ec30be084763",
+      "mode": "same_model_text_first"
+    },
+    "536bbdabd66b65e35cc999549f640254a621ae78986b5ede5f59d3de62bb99f2": {
+      "status": "pass",
+      "label": "בלמס",
+      "reason": "מבוא חינמי ומטלת קריאה פתוחה",
+      "text_sha256": "4fe8b3ae812263a9bdab6781994536ec75ff33a20737cef932f10d843138dd8f",
+      "mode": "same_model_text_first"
+    },
+    "537b2d8288284457e455c44de4b529ffadc488d2e04fbce313094725da99f46f": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "פסילת חוזה אסופה פנימית",
+      "text_sha256": "9de0e59a7429f81090d93fafc5453c3f89ae9393254eb30142e7d77203ed57d2",
+      "mode": "same_model_text_first"
+    },
+    "574e5b3f6575ebb3ade1b26d323ffe7f35e101365137cb0ac832889fa400f74e": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "פירוק מסגרת מימון לכל חוזי ההוראה ברשת",
+      "text_sha256": "3f23e608bf25d1930ca78ccd74146247811761299d30da0c69cc426b7bb93167",
+      "mode": "same_model_text_first"
+    },
+    "5866a6fc2eef1a2a86ceebe9258632e5f502e2833c61b79531fec33eb53e3ddd": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "פקיעת הרשאות כלל הארכיונים",
+      "text_sha256": "747a6c7bb1b4fa11a6551eeef0418b539cc9d6cbef06e96ec75f0de3b0c1bdbc",
+      "mode": "same_model_text_first"
+    },
+    "58fa8fd6a181b8d36bb79ad5108cb67df3fd7f1c0ca0d03c3bcb27748b8caa8c": {
+      "status": "pass",
+      "label": "בלמס",
+      "reason": "סיכום מפגש חינוכי פתוח",
+      "text_sha256": "4ebeefde4af9cc26aadc0cba397551640ed52addf5a20efa807bc08633639b51",
+      "mode": "same_model_text_first"
+    },
+    "61a46ecf6e0f5c32de9ba5c85000c6527ea6d7f2cd42f53dbc5207163f8baebc": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "פירוק קרן כלל הספריות ועצירת כל מחזורי הקריאה",
+      "text_sha256": "aebbbe7d819fbc94685d45e4518fea13ba0dcd552f7fa62c4fa5865fb4bda4be",
+      "mode": "same_model_text_first"
+    },
+    "75a9ed60f15c91dd393de3f42d74637ae1e45f444c4e966d1d3fd87ddf7dc433": {
+      "status": "pass",
+      "label": "שמור",
+      "reason": "חלוקת מקורות בין מדריכים",
+      "text_sha256": "f5e136253488bc7e7f9f7ae7b0663bb75b69ba03890f1415964a51564b724332",
+      "mode": "same_model_text_first"
+    },
+    "87c2df63737d8671da91a76dfd4d78ed00db851ee7c3e9c7192bed966e9641a5": {
+      "status": "pass",
+      "label": "שמור",
+      "reason": "עריכת שאלון משוב מקומי",
+      "text_sha256": "3c3736713a3baec7fd35e630a2dc04c0ee170d35ef13a125b825e88e89bba40e",
+      "mode": "same_model_text_first"
+    },
+    "89535bc76c36b57b9d35e6fd6fc8125b9427d74cd13f3b6681f0c0f720d1c961": {
+      "status": "pass",
+      "label": "בלמס",
+      "reason": "רשימת ביוגרפיות שפורסמה",
+      "text_sha256": "8cd6ba3ed6cce2368faaded4784c68c0a684caefa36226a52c9d6d907fc15abe",
+      "mode": "same_model_text_first"
+    },
+    "8983905a9543075c237b5ea5c424922186e7d67def271a684c31ec26a03262ba": {
+      "status": "pass",
+      "label": "בלמס",
+      "reason": "השוואת מפות מושגים בכיתה",
+      "text_sha256": "e082627a4dcca48d0adcc1ea42b9ba5d83c18a223041aa1aa3d254d56f9f7bf8",
+      "mode": "same_model_text_first"
+    },
+    "8b061c1fd0c24cec5809e9db4406396d60dbd9dd5ec1bd5a1d17f9855e1c02f2": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "עצירת מהדורת כתב עת אחת בשל זכויות ציטוט",
+      "text_sha256": "5b73b2e841ee356c3bd970bb5669727f923954d028c4785072fb87fbd925d195",
+      "mode": "same_model_text_first"
+    },
+    "8bb37e644efd6e603629f6ce7297487d2d309584f84d52ae80ba466ee9b0abaf": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "פקיעת רישיון משותף לכל הסכמי הארכיון",
+      "text_sha256": "2b165ac7d072872d70e3050ac6b43c2d4ca939efa254c908a238a7279f63cbe9",
+      "mode": "same_model_text_first"
+    },
+    "8e99d426cda69544d9d41ede0619d36b4a7d6aea0805159aab641d544634dcd6": {
+      "status": "pass",
+      "label": "שמור",
+      "reason": "בקשת הערות צוות לטופס משוב",
+      "text_sha256": "480b56735d504f82f4f88f0b165e724bbc106642db28add07fcda7ba66a69532",
+      "mode": "same_model_text_first"
+    },
+    "9003454056e5c89fb73691ace140582d8044682944624a9117cf88f96734efb0": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "הסמכה בוטלה בכל שלוחות הרשת",
+      "text_sha256": "2629f9b9f25c289f01d259884a82e59499418c1e6de2036568e7eb2b816ca4ee",
+      "mode": "same_model_text_first"
+    },
+    "9143ea6a6891d3e89d845233e5678cebd7795e97b37165cdea6392b9d744e40d": {
+      "status": "pass",
+      "label": "שמור",
+      "reason": "הגהה פנימית של תאריכים",
+      "text_sha256": "5dcd5822642ddc9102f551249af68c7f14428c1efe076fd324099f9a03d4dbba",
+      "mode": "same_model_text_first"
+    },
+    "931d348062459527b1fe5a1a7ffab05a9b218f6ee62baa1afbeb8b2d62c03b43": {
+      "status": "pass",
+      "label": "שמור",
+      "reason": "בדיקת סדר שמות לפני מפגש צוות",
+      "text_sha256": "c71fd958f224b1284d30444d536ffcf2d323b6df5090b678044ec0d8d6a88da3",
+      "mode": "same_model_text_first"
+    },
+    "93ee9bd1c58292c79cb66fce07bb8931375b8b9d1bd92cd732165126a45b6953": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "עצירת גיליון אחד בגלל זכויות מאמר",
+      "text_sha256": "c35b369eac56531d42e28aabcedcdb488129e96f5636f668675877f4a99982d6",
+      "mode": "same_model_text_first"
+    },
+    "95b00d729d02734205c77fcf8261f2c05a2e9c69c0539ecb7a3b7f6b03bab6fa": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "כשל זכויות רוחבי לכל אוספי הרשת",
+      "text_sha256": "dd08f55749393feef9c957704b7e46dea81756cdfaa4c345d7dbb949a0895fc1",
+      "mode": "same_model_text_first"
+    },
+    "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "הקפאה פנימית של תקציב שנתון אחד",
+      "text_sha256": "d2cf3577a251f92dc72f7f5d91ca46497e2739f4f3723b315fd57e9af7be29ef",
+      "mode": "same_model_text_first"
+    },
+    "96e1872f2baeafc296fa2a0fe7222268459cac6d31e4bfd843471dea1832aec6": {
+      "status": "pass",
+      "label": "בלמס",
+      "reason": "קורס נגיש לציבור על תרגום",
+      "text_sha256": "958120af633265776157eaf8967b0d16f35b71cfb293fdf6096314d5bd70427b",
+      "mode": "same_model_text_first"
+    },
+    "9dea7b933a9c747cb4652a6ce7c5aa008635fd739220c78a703bbde72225c916": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "שלילת מענק מוזיאון אחד בחשאי",
+      "text_sha256": "268865e590d2ceda568726d4f6f0adf6d2831c28c0ea15130d3dbc5f747b63e1",
+      "mode": "same_model_text_first"
+    },
+    "a2d5bc45b7be90867e464a9f88e0ab3dd355f872f4c56db68aa903346d120f74": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "רישיון משותף פקע לכל פרויקטי התיעוד",
+      "text_sha256": "0a20f5292841f1f4579ce796ff1bdd2035af3fdbd472cff350cba16bb8c8c7ee",
+      "mode": "same_model_text_first"
+    },
+    "a3d7457eb77db71553d2872748a52cf65bf17f053e7cd7e8f0c7b8ed47176a27": {
+      "status": "pass",
+      "label": "בלמס",
+      "reason": "חוברת צילום ואוריינות לציבור",
+      "text_sha256": "a1bb37223078d3e1acdf23403aca815ebfd5c55cf4b803bc2dd324c1af2877ac",
+      "mode": "same_model_text_first"
+    },
+    "b0961e1674252a24cb5575ad767983a5757d1c56284eab6e2c990c69329d4518": {
+      "status": "pass",
+      "label": "בלמס",
+      "reason": "ביקורת ספרות פומבית",
+      "text_sha256": "fc79ba0fa187c96f07477ffc7b17158f4cd9fcc1a1b3c8596deaa39f431789bc",
+      "mode": "same_model_text_first"
+    },
+    "b6d6c85190f57cae07ba98ac25fe85176fb9a3091f9de10460088acbf9255798": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "פקיעת כלל הסכמי השאלה ברשת",
+      "text_sha256": "fe5d2a81e01686179fd81bc2e4aed355671ecf921e5f7dd5fa8fbbf42f4ecb62",
+      "mode": "same_model_text_first"
+    },
+    "b851f2685c912e028d3811f1c5e251974dbfaff532549a31cf42aeac4997262c": {
+      "status": "pass",
+      "label": "שמור",
+      "reason": "הערות צוות על טופס קרדיט",
+      "text_sha256": "eaa20151333fa0d4b76d01ba52a1e1c8d7431b206e485efd23a643dc0ff7c5c0",
+      "mode": "same_model_text_first"
+    },
+    "bac6198998cdb8c84615226c2788abffd29c1b97361fe32f3b54d082b595dace": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "כל המלגות ברשת נשענו על הקדש שפורק",
+      "text_sha256": "cf6eb983539d3ed35700cf6a4cbd02f07395a68b5f916bc2a4f737058f868a8e",
+      "mode": "same_model_text_first"
+    },
+    "bca8b0ae9a8505f6a01d198bcdf63801661e0cb153ec1cf9a2482d460629fb0d": {
+      "status": "pass",
+      "label": "שמור",
+      "reason": "תיאום שאלות לימוד מקומי",
+      "text_sha256": "32cd6ac658e2147a5c456b81a679d091598e73bc50f52d0bc6b383cc7a9851ee",
+      "mode": "same_model_text_first"
+    },
+    "c57f2bef9c40ee2010d23db54f6103e33ca717d46787de2f19828fd6d79672f1": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "ביטול הפצת קטלוג אחד בגלל רישיון",
+      "text_sha256": "dbac252b47db12f4248768347e0dcd824471b2b245b61f91d8b1a5cd92b1b6cd",
+      "mode": "same_model_text_first"
+    },
+    "c7608cf4c1a8a0a23aa2985d83978c9fa1eaf64cde6b671957db9568edbdb0c9": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "ביטול הסכם גג לכל אוספי התצלומים",
+      "text_sha256": "8947d82a4c3fe56d6542db7dd83dcfb500c3c945ef00f65e0048f454952b45ed",
+      "mode": "same_model_text_first"
+    },
+    "cce0ae4ef055153e2af9d204ad8905ebb8850115db4a2cf3ca1dd340e6bf1d28": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "השעיית הזמנות נגישות בכל מוסדות הרשת",
+      "text_sha256": "0ed7ac78a95418a5dd9bba7d8df5a2cd9c4236b8e17acb1984242de4eb1d8892",
+      "mode": "same_model_text_first"
+    },
+    "d0431024feaf02e6af6c080287d79713a724990bb316605e442df01cd0598dde": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "הפסקת שותפות עם מוציא לאור יחיד",
+      "text_sha256": "3bbf186480d02ecf3def99bd0f9c94db5f5018b5bd89d37f51740d48d44f162c",
+      "mode": "same_model_text_first"
+    },
+    "d2df3f74353b629fd780c2a080c4418d70b6fd56516e0abe9161d815f44c5f47": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "ביטול כל הקצאות הסבסוד ברשת",
+      "text_sha256": "b42813fb1ef6376cd7324ef530d1490d8c8705db14961880fff70ff65e7bfa47",
+      "mode": "same_model_text_first"
+    },
+    "d9219614e1187096591e049dd1acc27ff95c90929dbe6f194cba08f086d5ba3b": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "הקפאת חוזה הפצה אחד לפני הודעה",
+      "text_sha256": "c8c2c9e6cc6dd69783878a7eff594d7f5f1d0ef31c0c19fa3082228250e001c6",
+      "mode": "same_model_text_first"
+    },
+    "e0c75d2b27d6481c1fce0988375498610c11dd4d2ce3921ebbc27079b3bf71da": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "כל השלוחות איבדו מימון משותף",
+      "text_sha256": "4d755251ddcc0d18e02f3aef3efb234bb791a562cb49075279e0468f527617b3",
+      "mode": "same_model_text_first"
+    },
+    "e1b5f67fe51a18b37167b1eece0575d30a2df4569649954e74a4b1f4a0a1aaf5": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "ביטול הסכם נאמנות בכל הארכיונים",
+      "text_sha256": "3b8d91c187adf2ede5ce18e333e7c37478339fc49873cfacfba7bad9a9f19686",
+      "mode": "same_model_text_first"
+    },
+    "ef88c5a8954466ef7150ea7eeda3009e7a0a022d42898e52e0215b73ea1b438a": {
+      "status": "pass",
+      "label": "שמור",
+      "reason": "עריכת טופס מקורות קריאה",
+      "text_sha256": "d85d2b33936251488b9c8e2e856d83b8a8528252a902b4ae210b528499524097",
+      "mode": "same_model_text_first"
+    },
+    "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "ביטול התקשרות שנתון פנימית",
+      "text_sha256": "e33d02f9601807ed12c33f9b8a851c0d67ccc65ae41e709a0766aa26bf363e5f",
+      "mode": "same_model_text_first"
+    },
+    "f6c5ae91e1ae7d79b2dcd4067fe769ef6bcddd6207e1315463a9a7f3d57d8404": {
+      "status": "pass",
+      "label": "שמור",
+      "reason": "דיון פנימי בתבנית כיתובים",
+      "text_sha256": "11bfdcc3bba75d49765b75d310b1ed880f481e78267adf5da03670e97b3a5618",
+      "mode": "same_model_text_first"
+    },
+    "f9bcf169978cb288e5f243883d7d17c68462d8cebd1e73e0d5af2c6cb41ac9ab": {
+      "status": "pass",
+      "label": "סודי",
+      "reason": "ביטול הסכם מענק מרכזי בתוכנית אחת",
+      "text_sha256": "d1262077ed911dcddec4261c1a3dbc03c42ab0d011e6d245e51da48a55e6b879",
+      "mode": "same_model_text_first"
+    },
+    "f9e55f2fda86c89d2e9096efe59d3b4763dbe6e8d0e351e0eb3eafc540a84153": {
+      "status": "pass",
+      "label": "סודי ביותר",
+      "reason": "התחייבויות שכר לימוד בכל רשת המכונים ללא כיסוי",
+      "text_sha256": "4b9933a7c0448906e896a5b259009dcacd65cb2eff0ee5495ad69ad77d9c875a",
+      "mode": "same_model_text_first"
+    },
+    "ff61f08499bbff752f39fabc3d4a6b1573455c3b8e0cfe81719eea16e24ea05d": {
+      "status": "pass",
+      "label": "שמור",
+      "reason": "תיאום סדר מפגש קריאה מקומי",
+      "text_sha256": "cc8a2a6f104297562ddeeff401512f0c3393e1b21098bb580b6fcbb6be185250",
+      "mode": "same_model_text_first"
+    }
+  },
+  "domains": {
+    "04b37d409d61252ef10c1bd4b1131ecf3c1cbb1866b7b7185d3f8d43d9f05249": {
+      "primary_domain": "general_negative_controls",
+      "reason": "מלגות ספרייה קהילתית",
+      "text_sha256": "a88a4b673db5022c76e4accfdd350b8a27c91c2980f3c9bdae58bfdd7ae7f5e4"
+    },
+    "0cd43fb172801cfc94ccc02bb99a66cf4b200627cb061babc13384d3adb090c0": {
+      "primary_domain": "missile_systems",
+      "reason": "חומרי חינוך במרכז תולדות ההגנה האווירית",
+      "text_sha256": "43eb66dfa85d4ab0366ccd5a93b096ec08e4806f88680e8db15ae32f946ca951"
+    },
+    "0f913c9ad0787b0a3c1c9b1645dceb86e207f2fecea68a35962653aa343e5980": {
+      "primary_domain": "missile_systems",
+      "reason": "רשת תיעוד מדיניות הטילים",
+      "text_sha256": "018d791a6cb18303e2bc7fc10d59ff7f15079f3c1bbbad6b67fadcbfbd98bc9b"
+    },
+    "0fde07cae25c5eeb54a61c0400bba0f9eed36c2122de0eb6d6d0dfad52bd3172": {
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "מרכזי לימוד אמנות מתצלומי כלי טיס בלתי מאוישים",
+      "text_sha256": "68955ca7c746d6385aa2475a9b84dcab138f24f12f0e6e46539aa77b3388570b"
+    },
+    "1933342da9c33f67f3df344dcca755968dc6d02040f6cfbb4c3783dd3cd138b2": {
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "זכויות יוצרים בתצלומי רחפנים",
+      "text_sha256": "6f789e406a86f9dd9a4a78c531887dde8b9398f221d3a3272a18e9e72683266b"
+    },
+    "1d0838e38f03aedd9c2a528ab3ffaeb656fe4182e64744dce3bd511eef957b5f": {
+      "primary_domain": "radar_sensors_space",
+      "reason": "קטלוג מחקר תולדות אסטרונומיה",
+      "text_sha256": "cf0462d0f3b71472a68fc070fa7014b70849ef44ab80ab73e00a8e2b41991615"
+    },
+    "1f09176c6836ff280cef8d2771e1d2434d799c58a879bec7f62707008164e872": {
+      "primary_domain": "general_negative_controls",
+      "reason": "משוב מועדון קריאה",
+      "text_sha256": "d7f9c4b273fd216f3a65efa4480907bd1a8d0714043aef4e742ee75e579ff228"
+    },
+    "2c3b089d19e40a3f83520d432e5ccb913758e179e4c0022f51ff412aa3ead2ee": {
+      "primary_domain": "defense_logistics",
+      "reason": "בקשות רכש ציוד תצוגה במוזיאון מורשת ביטחונית",
+      "text_sha256": "61272f86e2945c6a9ef1fd1f2ecea07d2e854a956390c65df5e438980fe8d72d"
+    },
+    "3629d0b1977e9400240898607534e2a7ffbfd3f75e1741cf7fe10439d145b778": {
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "תוכנית לימודי צילום מכלי טיס בלתי מאוישים",
+      "text_sha256": "06c3798cc8c5063fccbcc5dd9bf2d03a4a5004384e87f7b077c41a2d85da35a7"
+    },
+    "3bdf59462056ae439c855bf8332d02613880aedc42e5adb2cd5c4b377d6e18ed": {
+      "primary_domain": "general_negative_controls",
+      "reason": "מלגות מרכזי קריאה כלליים",
+      "text_sha256": "25050fecba548241c81821304f051fa2ce00d0fab5bc4df1160ad8ff92af70dd"
+    },
+    "414db5576de38cde6e0caf0ae67cac53acec521f2e9603ebfa3e95658fd3bef1": {
+      "primary_domain": "missile_systems",
+      "reason": "דיונים פרלמנטריים בהסכמי טילים",
+      "text_sha256": "2b270c0f4ebffb6808349d6661982252dd38618a07d5542512110925a76aefeb"
+    },
+    "505b199bc99c97b1c2e2df74897d03bd19e7d8004eaf983ea17e42f9625b49ca": {
+      "primary_domain": "cyber_communications_c2",
+      "reason": "תיעוד מטא־דאטה של תכתובות אלקטרוניות",
+      "text_sha256": "a394ab895b0c62a61a52564318fc4a22ba304c5dafc74cf729d3d140cbf0c074"
+    },
+    "65b9561254eb3b1e9ba35a5a87246c3659c0c17fbd239b0322ffd1d48d7b6023": {
+      "primary_domain": "general_negative_controls",
+      "reason": "מועדון קריאה פתוח",
+      "text_sha256": "76b8eae8de2cecac98e6c54d41347be8e218da27d4f3ed7cd77a218b0194aa40"
+    },
+    "8166ff2f0986746261d5f3b505c1b4d03a37e5d4a2756a61461ae693c3038b7b": {
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "זכויות ותצלומים מכלי טיס בלתי מאוישים",
+      "text_sha256": "21f4f6ee075fd5ef6810ab60a4c98ae206efdb8e0f9c97c39ebb92047fbacf0e"
+    },
+    "87952355b12b7ae88e391512238e23a42b0c7a17abef441e31fddf7088daf854": {
+      "primary_domain": "radar_sensors_space",
+      "reason": "חינוך במוזיאון אסטרונומיה",
+      "text_sha256": "81f09cd5a6258648f7ddc613cef14647de8dc811668f5a00204549f706b9858d"
+    },
+    "8a78dd7874a9d59fc34ff58487af9c849a20d4f23a455058b1a1ba14a836f8c3": {
+      "primary_domain": "radar_sensors_space",
+      "reason": "קטלוג תצלומים אסטרונומיים",
+      "text_sha256": "5ac173a520fc86b1946676abbd42f40b887831335e4e5019dd7b14d9d10713f9"
+    },
+    "970ec05e24358725064eea8afec5385059d2c399a4aa7bbbce1736fdf5a27549": {
+      "primary_domain": "cyber_communications_c2",
+      "reason": "ארכיון תולדות תקשורת אלקטרונית",
+      "text_sha256": "8224f31b4469569344f9f9252ab970aba60f985e0c39512434fa0d45245cc687"
+    },
+    "98a17289dcae4593e4acfb3dff3906adf368889fc592f61efdf2e381cb126d4f": {
+      "primary_domain": "defense_logistics",
+      "reason": "מדיניות רכש ציוד תרבות במוזיאון מורשת ביטחונית",
+      "text_sha256": "7e6fc4e261d8b4e9abf2f816b0e7a3188b1d8091a21645b06e452efd1bfde700"
+    },
+    "9da7dcf93205465e8433dbbb3b11364116f3639981d7ad56caf63b971ade32f6": {
+      "primary_domain": "missile_systems",
+      "reason": "הפקת ספר תיעוד במוזיאון תולדות ההגנה האווירית; שיוך תיעודי לא מבצעי",
+      "text_sha256": "6bdf9513fe4c375bfe78cbdb767d74be994f3e87f96b97b0e5cefff70cd5707c"
+    },
+    "b3860bcff97490472d9f95acbd1d35879f1231684701d952c83a8e3f4b01b4e3": {
+      "primary_domain": "defense_logistics",
+      "reason": "ביטול מכרז נגישות במרכז מורשת ביטחונית",
+      "text_sha256": "3d13333dfd45810fe333a449b128ec55771678cf0646b4d40137c66bee987cc8"
+    },
+    "cce0ae4ef055153e2af9d204ad8905ebb8850115db4a2cf3ca1dd340e6bf1d28": {
+      "primary_domain": "defense_logistics",
+      "reason": "חוזי רכש נגישות של רשת מרכזי מורשת ביטחונית",
+      "text_sha256": "0ed7ac78a95418a5dd9bba7d8df5a2cd9c4236b8e17acb1984242de4eb1d8892"
+    },
+    "e89490e307ee98af6981ddd6ba8319e7c7d2e932b64b52bfef6c9d8922bbe3cf": {
+      "primary_domain": "radar_sensors_space",
+      "reason": "השאלת אוספי איור במוזיאוני חלל",
+      "text_sha256": "21ef2b1db1a96d6e1098346fc1939988be60e444f664a69383f33937f2691bbf"
+    },
+    "ef88c5a8954466ef7150ea7eeda3009e7a0a022d42898e52e0215b73ea1b438a": {
+      "primary_domain": "cyber_communications_c2",
+      "reason": "בחירת מקורות במוזיאון תולדות התקשורת",
+      "text_sha256": "d85d2b33936251488b9c8e2e856d83b8a8528252a902b4ae210b528499524097"
+    },
+    "fa6019eacb1e99d562c517f6725777f25c54c6e112fdff68f9d1054f1b743cf4": {
+      "primary_domain": "cyber_communications_c2",
+      "reason": "זכויות בעלי ארכיוני תכתובות דיגיטליות",
+      "text_sha256": "4b1928edd99366614a3f6478c0a850e6c6f8fe6913b7528b91f760b9422beee3"
+    }
+  },
+  "alerts": {
+    "0365837b24b66bc73538e643eb07654f189397d760de040efb2f1ea8a8a14323": {
+      "status": "keep",
+      "records": [
+        "9143ea6a6891d3e89d845233e5678cebd7795e97b37165cdea6392b9d744e40d",
+        "abe10651e783ac8c63eb1f13d329e7548064be6f5dc4c6a2e17585c00845e403"
+      ],
+      "reason": "הגהה פנימית לעומת ערך במילון ציבורי"
+    },
+    "067b2908932f1dc10fe5f7abe9d6c138a1cf886196dbd22fda40a06f1bdd8f1a": {
+      "status": "keep",
+      "records": [
+        "d178e86076d90146ed18e5a8f6c4306fa597236fa90b42be711315c2715d4e8a",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "שלילת זכויות תורמים רוחבית לעומת ביטול התקשרות אחת"
+    },
+    "11405bad70d00627c6299f0aa07456480b430481cd2f2ce6f0a4e585794ed10e": {
+      "status": "keep",
+      "records": [
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5",
+        "c36bae330e16dcb6dd0c4e6f657341144b02c4c94a59f30be2367fda1c7cc69d"
+      ],
+      "reason": "הקפאת תקציב לעומת השוואת אינדקסים"
+    },
+    "17b9a9673ac2cdacb6fc314112ba362fca703993f2ec801a0b709d1d31fad245": {
+      "status": "keep",
+      "records": [
+        "40661d19a9d885c5db58d6b80600d1caf61e03f7f94a8c883b5d866109219df4",
+        "859821af51a0dcac23cdde234fe0a700b177e8c4e3d7787c3bfe5cfe0d54288f"
+      ],
+      "reason": "פקיעת כלל הסכמי ארכיון לעומת ביטול חוזה מדריך יחיד"
+    },
+    "39020dba4c2d4eaf4b41d9425d0bd2c8efdb2d2c4d1acd4a8c98fb22a33c727c": {
+      "status": "keep",
+      "records": [
+        "08f66f2fed1df7832f923a68f978b89da7c450071c67ea61036414bcd7e0f26d",
+        "8dcf7b9f3822f328b799212d2a7990e66673989c51166c34fabf1cfe8236805f"
+      ],
+      "reason": "מבוא פומבי לעומת טיוטת תרגומים פנימית"
+    },
+    "54d0c4a3d4a40c29ab85321af0ad26e0b580e515251760d80ac36b5db7768667": {
+      "status": "keep",
+      "records": [
+        "31db9c9ec87c18c02ce3c65104f7d8096adf85204e59ff3b990184029c6694e1",
+        "f3c3171f606798b8eeaf9bd6ddbc2b007050aed36675e58cbcac71a29ea22207"
+      ],
+      "reason": "הסכם תיעוד אחד לעומת ביטול סמכויות רוחבי"
+    },
+    "5c48df9fe112f474b835afeeef862cbce63d2b9c8afb746abc090afd12d166b7": {
+      "status": "keep",
+      "records": [
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66",
+        "7c88fc482fbc625c36871c862d8af76f49cc801a03b9d834047ec2f1fb52fe76"
+      ],
+      "reason": "הפסקת מימון כלל הארכיונים לעומת ביטול תוכנית יחידה"
+    },
+    "6567761b45bc39b6e5c61116e803a4ae78b07c0b4f58886ed6e876267baf52d3": {
+      "status": "keep",
+      "records": [
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850",
+        "d17be440706c05bba8f03ce03013d51a1fbdea16a3d418fb65908f28825683e8"
+      ],
+      "reason": "פסילת חוזה פנימית לעומת מונח במילון הפתוח"
+    },
+    "7483e41c834e48172c4d91c76500371fd70f8270d35f5033644a64c44e55a218": {
+      "status": "keep",
+      "records": [
+        "11fd612b4dc72edbb6e1c43cb461b096a74393ccb0b8a24ac1b937a16b198881",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "טיוטת לוח לעומת ביטול התקשרות"
+    },
+    "81e57f248f318b97e8cad27ab9e858ccff52d99475aaf1d87353bf3dde5f9cc8": {
+      "status": "keep",
+      "records": [
+        "2509cba3880d16cd99d40d88b1bbc6f63185ecd847a1d3f7e051997338858260",
+        "9143ea6a6891d3e89d845233e5678cebd7795e97b37165cdea6392b9d744e40d"
+      ],
+      "reason": "ציר זמן פומבי לעומת הגהה פנימית"
+    },
+    "8786006d760c60a1a58883c148eacc8efea4982ffc6bf5f159303416e9b9c25e": {
+      "status": "keep",
+      "records": [
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850",
+        "add1f080dcf2340bd4a78743e226997c2ad91e549c629861d34f0c4ee21696f6"
+      ],
+      "reason": "פסילת חוזה לעומת רשימת תיקונים"
+    },
+    "91c9c7bc98b4829f95dcaa6512b43bba5aa7195e6ebd42f178229d01dc20707e": {
+      "status": "keep",
+      "records": [
+        "5866a6fc2eef1a2a86ceebe9258632e5f502e2833c61b79531fec33eb53e3ddd",
+        "add1f080dcf2340bd4a78743e226997c2ad91e549c629861d34f0c4ee21696f6"
+      ],
+      "reason": "פקיעת הרשאות כלל הארכיונים לעומת רשימת תיקונים"
+    },
+    "93b241d7409faf76896266ede11cefb1bc26c38fee44cbddb2fd24d925e02cb7": {
+      "status": "keep",
+      "records": [
+        "b8b00eab04f8cc7e89344a7443eb7a967dc21ca8162847b5db3a73d2de735c6a",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "עדכון לוח הדרכה לעומת ביטול התקשרות"
+    },
+    "9dd3a7cf6a9aff8a12213a3c5e355e0b12a3364a0527a837f1c5c28c95e364ae": {
+      "status": "keep",
+      "records": [
+        "19da54aafc8a11c49c26807b4889486aa2ed805146c6c539d92c123405cd9f5d",
+        "537b2d8288284457e455c44de4b529ffadc488d2e04fbce313094725da99f46f"
+      ],
+      "reason": "חפיפה פנימית לעומת פסילת חוזה אסופה"
+    },
+    "a2d37c37ac7eabcfd63f00671caa09dbef6c1e6e5d4e9aec26f4f766304fb59e": {
+      "status": "keep",
+      "records": [
+        "2aa862eaffe376236c1aeb510f9bbde281dec377dbddee6b02a70bccb8fd3a7f",
+        "d0431024feaf02e6af6c080287d79713a724990bb316605e442df01cd0598dde"
+      ],
+      "reason": "כשל רוחבי לכל המלגאים לעומת שותפות פרסום אחת"
+    },
+    "ae6fa567e4a63e4650b653ad59bcbea5d99334590bbc6d758e96b11884636e88": {
+      "status": "keep",
+      "records": [
+        "1afc25f3a3480d53c2748f4c95b9652e1eb82f04607b66b311e115069169f9ac",
+        "cce0ae4ef055153e2af9d204ad8905ebb8850115db4a2cf3ca1dd340e6bf1d28"
+      ],
+      "reason": "התקשרות תערוכה אחת לעומת קריסת כיסוי בכל הרשת"
+    },
+    "afcd1154dda3d0403e60ed7cab7e255a9903ec22e41104f77999ecde4d3cdc48": {
+      "status": "keep",
+      "records": [
+        "c36bae330e16dcb6dd0c4e6f657341144b02c4c94a59f30be2367fda1c7cc69d",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "השוואת אינדקסים לעומת ביטול התקשרות"
+    },
+    "aff77e2fa30ceb1a60d934fc14c8dcb5d9e490b8fc8d634675f661eea26b40b3": {
+      "status": "keep",
+      "records": [
+        "5866a6fc2eef1a2a86ceebe9258632e5f502e2833c61b79531fec33eb53e3ddd",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "פקיעת הרשאות כלל הארכיונים לעומת ביטול התקשרות יחידה"
+    },
+    "b30971956a3512b9df9703b6e567f06043649b52851955825ed3980517bfd55b": {
+      "status": "keep",
+      "records": [
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5",
+        "add1f080dcf2340bd4a78743e226997c2ad91e549c629861d34f0c4ee21696f6"
+      ],
+      "reason": "הקפאת תקציב לעומת רשימת תיקונים"
+    },
+    "b9ebaa20e254bc237b587539b61fcdd314983e4bdb53d751cf34d049648dd394": {
+      "status": "keep",
+      "records": [
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66",
+        "eb873825abf5c2c085efbe8711bcd38accdd1fc1932e825cb28240c22542944e"
+      ],
+      "reason": "הפסקת מימון כלל הארכיונים לעומת משימת תיוק"
+    },
+    "ba768186865f860f5986a9e75a9b3a8f5e5a13d3738cc54dca41450a829bb1e8": {
+      "status": "keep",
+      "records": [
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "הפסקת מימון כלל הארכיונים לעומת ביטול התקשרות"
+    },
+    "baa7b469dc98d62b9bca33c5d8fee3dabddcd66dea2c3a717d33d27fb61acaa8": {
+      "status": "keep",
+      "records": [
+        "9dea7b933a9c747cb4652a6ce7c5aa008635fd739220c78a703bbde72225c916",
+        "d178e86076d90146ed18e5a8f6c4306fa597236fa90b42be711315c2715d4e8a"
+      ],
+      "reason": "שלילת מענק מוזיאון אחד לעומת שלילת זכויות כלל התורמים"
+    },
+    "be4e8c56f81b0e7d6c1c545eec4f0fb1869bfb3d68c129c0466ae1bd579e67ea": {
+      "status": "keep",
+      "records": [
+        "2509cba3880d16cd99d40d88b1bbc6f63185ecd847a1d3f7e051997338858260",
+        "7c88fc482fbc625c36871c862d8af76f49cc801a03b9d834047ec2f1fb52fe76"
+      ],
+      "reason": "ציר זמן פומבי לעומת ביטול תוכנית בחשאי"
+    },
+    "beba531dfdec224f4ddfeb8cc33821ffcf3b00dee9be5ea0f42d71edd26d1346": {
+      "status": "keep",
+      "records": [
+        "19da54aafc8a11c49c26807b4889486aa2ed805146c6c539d92c123405cd9f5d",
+        "40661d19a9d885c5db58d6b80600d1caf61e03f7f94a8c883b5d866109219df4"
+      ],
+      "reason": "חפיפת צוות לעומת פקיעת הסכמי כל הארכיונים"
+    },
+    "c4ed16c3c2f72741428e5b882f3e766c0353cc13e7cb41b6af4cfb5f31786293": {
+      "status": "keep",
+      "records": [
+        "add1f080dcf2340bd4a78743e226997c2ad91e549c629861d34f0c4ee21696f6",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "רשימת תיקונים לעומת ביטול התקשרות"
+    },
+    "c769104333e2d88bc7e3843d8b866cd5c22fdfeb29058819afe712cadff0edbd": {
+      "status": "keep",
+      "records": [
+        "14aa201d5a7ba3b37d5c1b57529a7fdabf75f68f10156e90c94061b303a77212",
+        "34034f6fd403116650a8be44ec93d226f5ea66cb04f5ce7261d49f3d3274cfa5"
+      ],
+      "reason": "טיוטת כיתובי תערוכה לעומת פרסום סדר שימוע"
+    },
+    "cf32d6bcd23a19db34dc96612991f4e03ddff7b90c3f2fbbf6af34f8e691ea0d": {
+      "status": "keep",
+      "records": [
+        "3cf664ae753cc1e1997184a5490b5e1149164de705e1d6b47e778a2021fc88c0",
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66"
+      ],
+      "reason": "דחיית פרסום דוח יחיד לעומת הפסקת מימון כולל"
+    },
+    "e15e5d6c41c1106e02863ae2bb24278c6d118a558e529571074ca272291bbcf2": {
+      "status": "keep",
+      "records": [
+        "b2defca30475c8a11732214a0fd74405653ea9cba2fb509db11264b0f0624b3b",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "שלילת אנונימיות מכל העדים לעומת ביטול התקשרות אחת"
+    },
+    "f7f8b2e0657c3c9c9deec5b56e4e8a34d43bb7aff496d0f43662e1ef96684509": {
+      "status": "keep",
+      "records": [
+        "11fd612b4dc72edbb6e1c43cb461b096a74393ccb0b8a24ac1b937a16b198881",
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5"
+      ],
+      "reason": "טיוטת לוח לעומת הקפאת תקציב"
+    },
+    "fa14febd88b862f6474dda64478031d16993364b6f2cbf1839f4108f53873eca": {
+      "status": "keep",
+      "records": [
+        "11fd612b4dc72edbb6e1c43cb461b096a74393ccb0b8a24ac1b937a16b198881",
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850"
+      ],
+      "reason": "טיוטת לוח לעומת פסילת חוזה"
+    }
+  },
+  "external_alerts": {
+    "09db9c783fad867c19469d8cbd5544828c8305b3d018e270b38b8317e99e2a3d": {
+      "status": "keep",
+      "records": [
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66",
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5"
+      ],
+      "reason": "הפסקת מימון בכל הארכיונים לעומת הקפאת תקציב שנתון יחיד",
+      "text_sha256": [
+        "d3d4aa9a88836a659d6cdf9ac98c89e199570dbaeac787f2354eb3f772097e94",
+        "d2cf3577a251f92dc72f7f5d91ca46497e2739f4f3723b315fd57e9af7be29ef"
+      ]
+    },
+    "09ed62028d5596f52a54817595d9c91faacdbbcd932911c09bb2348a0fb90dda": {
+      "status": "keep",
+      "records": [
+        "2b13121651f18ddb9bff7d315e68fc86beb787be644d136e44c3fac83b5a09fb",
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5"
+      ],
+      "reason": "עדכון לוח הדרכה שגרתי לעומת הקפאת תקציב שנתון",
+      "text_sha256": [
+        "60d8af901de3f2475557d77b36c3849580a72481ca37bb86df905d1754452dc1",
+        "d2cf3577a251f92dc72f7f5d91ca46497e2739f4f3723b315fd57e9af7be29ef"
+      ]
+    },
+    "1bff6d08a9f1bad94c77500e626918b95b7992a979bf91132462546f8c847a83": {
+      "status": "keep",
+      "records": [
+        "2b2f624fe3418ed7c48bd0a37033c41aa5d95c24cdab1ef3a38462dee08c89c6",
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66"
+      ],
+      "reason": "דחיית פרסום דוח יחיד לעומת הפסקת מימון לכל הארכיונים",
+      "text_sha256": [
+        "2f47da54dc6e2359e0e57471504193dc887c7b6a35fb5ff3fea764e3b087a0c4",
+        "d3d4aa9a88836a659d6cdf9ac98c89e199570dbaeac787f2354eb3f772097e94"
+      ]
+    },
+    "39d08d49a68097828ee0631ac004407cc0b6c99f47e839da48e6ab3dd34fa8a8": {
+      "status": "keep",
+      "records": [
+        "2b13121651f18ddb9bff7d315e68fc86beb787be644d136e44c3fac83b5a09fb",
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850"
+      ],
+      "reason": "עדכון לוח הדרכה לעומת פסילת חוזה",
+      "text_sha256": [
+        "60d8af901de3f2475557d77b36c3849580a72481ca37bb86df905d1754452dc1",
+        "675df8f6b3448b9d2f64711f18bf9ff9f6c51a93d54b878b4096ec30be084763"
+      ]
+    },
+    "4dca484e196c2954190bb15bec9363a0545917cfa61818e38a32cbd6597caaed": {
+      "status": "keep",
+      "records": [
+        "7a6d38710f4bc6aa2d8935d57c3daf3dc4f5c09e95c09758ce1f56c36f08c525",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "הגהת תוכנייה לעומת ביטול התקשרות שנתון",
+      "text_sha256": [
+        "102005e85eefe47e4b131b3253aee8a1b8dacdcb0c4265a60939d04f0a1fab8f",
+        "e33d02f9601807ed12c33f9b8a851c0d67ccc65ae41e709a0766aa26bf363e5f"
+      ]
+    },
+    "57fbe911fc9ff65c5c09bfa9cdfa1de05a302f7d39e695c316966e7edb9668d4": {
+      "status": "keep",
+      "records": [
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850",
+        "c03f383f517e411cc688ca46dc53be489500f5e92c7530895e9981e4dd5acaac"
+      ],
+      "reason": "פסילת חוזה מילון לעומת הפצת טיוטת לוח",
+      "text_sha256": [
+        "675df8f6b3448b9d2f64711f18bf9ff9f6c51a93d54b878b4096ec30be084763",
+        "d7e4144dbeb59b10dc4c80fe999f028a6a876406e0a619d93b8b350e68dfcc5a"
+      ]
+    },
+    "5e99f77b56cf112fce915bfa5417e1f9388091ad670bcbc896f62e0151e39618": {
+      "status": "keep",
+      "records": [
+        "31db9c9ec87c18c02ce3c65104f7d8096adf85204e59ff3b990184029c6694e1",
+        "32da60d7acc86de0c15f3161bdf43f5bf71b40b6d765c7e36053b4c26e25de8b"
+      ],
+      "reason": "ביטול הסכם תיעוד אחד לעומת ביטול סמכויות רוחבי",
+      "text_sha256": [
+        "439a9be8f377ce2e5f6ea35d0a464d3292e8643c89c6f472fabf23967111885d",
+        "1371acf91135a1965f2937c19ef4733c4c1726a57e0b0736e221cf106174c649"
+      ]
+    },
+    "6647e783a7e4c06b1e30072c37d0838718fc4d49033cc87687ba1245e7357e18": {
+      "status": "keep",
+      "records": [
+        "c03f383f517e411cc688ca46dc53be489500f5e92c7530895e9981e4dd5acaac",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "טיוטת לוח לעומת ביטול התקשרות",
+      "text_sha256": [
+        "d7e4144dbeb59b10dc4c80fe999f028a6a876406e0a619d93b8b350e68dfcc5a",
+        "e33d02f9601807ed12c33f9b8a851c0d67ccc65ae41e709a0766aa26bf363e5f"
+      ]
+    },
+    "7899fb3429ad6e01f5c732dc360e816586a61d80df5cf05318608e0a12413647": {
+      "status": "keep",
+      "records": [
+        "2b13121651f18ddb9bff7d315e68fc86beb787be644d136e44c3fac83b5a09fb",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "עדכון לוח הדרכה לעומת ביטול התקשרות",
+      "text_sha256": [
+        "60d8af901de3f2475557d77b36c3849580a72481ca37bb86df905d1754452dc1",
+        "e33d02f9601807ed12c33f9b8a851c0d67ccc65ae41e709a0766aa26bf363e5f"
+      ]
+    },
+    "79a81622c69cb84ccf70fc6ee2461f395e9cb2fc871ad00966d52ad4fceb8829": {
+      "status": "keep",
+      "records": [
+        "2d8b418eb77c45cfbc1d5f3bcb75e930b0fc9ada6ec5b876c178a5d7ddae5e67",
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66"
+      ],
+      "reason": "ביטול תוכנית אחת לעומת הפסקת מימון כלל הארכיונים",
+      "text_sha256": [
+        "781661b11c1569b0fa6d452217a639a33b3126141f858019bb73073dc53df1d1",
+        "d3d4aa9a88836a659d6cdf9ac98c89e199570dbaeac787f2354eb3f772097e94"
+      ]
+    },
+    "79e3260a40a7b74d8e15c184aa407d6c3f8c99d63a8d0655a8270644f2b157fe": {
+      "status": "keep",
+      "records": [
+        "5866a6fc2eef1a2a86ceebe9258632e5f502e2833c61b79531fec33eb53e3ddd",
+        "68052780226ea1983e568c8bb0c7472c5a7974b6c45acf5a255de7ee6f17ec65"
+      ],
+      "reason": "פקיעת הרשאות כוללת לעומת השוואת אינדקסים",
+      "text_sha256": [
+        "747a6c7bb1b4fa11a6551eeef0418b539cc9d6cbef06e96ec75f0de3b0c1bdbc",
+        "8f2f8b30fd0aa2f693b935ceb0b626952ba19b57d491851ddfb913ae5b089866"
+      ]
+    },
+    "81e57f248f318b97e8cad27ab9e858ccff52d99475aaf1d87353bf3dde5f9cc8": {
+      "status": "keep",
+      "records": [
+        "2509cba3880d16cd99d40d88b1bbc6f63185ecd847a1d3f7e051997338858260",
+        "9143ea6a6891d3e89d845233e5678cebd7795e97b37165cdea6392b9d744e40d"
+      ],
+      "reason": "ציר זמן פורסם לעומת הגהה פנימית",
+      "text_sha256": [
+        "67c6780221f0462e22dd0f732083ee9056df5b4ab93a23744864137c314c3393",
+        "5dcd5822642ddc9102f551249af68c7f14428c1efe076fd324099f9a03d4dbba"
+      ]
+    },
+    "899d1f0b8a82515de542255e55391da36b738ae07cb8deb29b18459ff000afc5": {
+      "status": "keep",
+      "records": [
+        "0152e4e167ab9fb5f711d6f96726b8f6e676ae6fa5a295203c78ef0672f69ec7",
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66"
+      ],
+      "reason": "משימת תיוק לעומת הפסקת מימון כולל",
+      "text_sha256": [
+        "f808d49516e66604f471aa51a8821a2342f7f635f6f2d60770fe5b200baea246",
+        "d3d4aa9a88836a659d6cdf9ac98c89e199570dbaeac787f2354eb3f772097e94"
+      ]
+    },
+    "94fd29142c6235f83069168cf4c0e22f382b5efefb16315be05575404274d0cf": {
+      "status": "keep",
+      "records": [
+        "08f66f2fed1df7832f923a68f978b89da7c450071c67ea61036414bcd7e0f26d",
+        "a6a103112007c826d7e045fe456e4dafb9e6b605850ff2eda6c70c405b8acebc"
+      ],
+      "reason": "מבוא פומבי לעומת טיוטת תרגום פנימית",
+      "text_sha256": [
+        "6affb70956fccf39e3706513677cf7f543cdd4970361ac03de85d80bc2d45f91",
+        "2a4f1f7aafabfbf71472e5d07b4b064f89c53a7fbfa8b8f0c4bb8a04dab1ef98"
+      ]
+    },
+    "965cf248208947991b87eec965fd81d86eca8e8f3a3c26b7ee9b74bdab9a9b45": {
+      "status": "keep",
+      "records": [
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850",
+        "68052780226ea1983e568c8bb0c7472c5a7974b6c45acf5a255de7ee6f17ec65"
+      ],
+      "reason": "פסילת חוזה לעומת השוואת אינדקסים",
+      "text_sha256": [
+        "675df8f6b3448b9d2f64711f18bf9ff9f6c51a93d54b878b4096ec30be084763",
+        "8f2f8b30fd0aa2f693b935ceb0b626952ba19b57d491851ddfb913ae5b089866"
+      ]
+    },
+    "9b73a08dd4e41ea111cc970e39f30008ba7d8ce5cdd4a6ed1223cc4f6c488bf9": {
+      "status": "keep",
+      "records": [
+        "68052780226ea1983e568c8bb0c7472c5a7974b6c45acf5a255de7ee6f17ec65",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "השוואת אינדקסים לעומת ביטול התקשרות",
+      "text_sha256": [
+        "8f2f8b30fd0aa2f693b935ceb0b626952ba19b57d491851ddfb913ae5b089866",
+        "e33d02f9601807ed12c33f9b8a851c0d67ccc65ae41e709a0766aa26bf363e5f"
+      ]
+    },
+    "a22e03c8be7006b150a91939c7291eac86bcdbed251fb7ea0fa624fbece82f4e": {
+      "status": "keep",
+      "records": [
+        "68052780226ea1983e568c8bb0c7472c5a7974b6c45acf5a255de7ee6f17ec65",
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5"
+      ],
+      "reason": "השוואת אינדקסים לעומת הקפאת תקציב",
+      "text_sha256": [
+        "8f2f8b30fd0aa2f693b935ceb0b626952ba19b57d491851ddfb913ae5b089866",
+        "d2cf3577a251f92dc72f7f5d91ca46497e2739f4f3723b315fd57e9af7be29ef"
+      ]
+    },
+    "a2d37c37ac7eabcfd63f00671caa09dbef6c1e6e5d4e9aec26f4f766304fb59e": {
+      "status": "keep",
+      "records": [
+        "2aa862eaffe376236c1aeb510f9bbde281dec377dbddee6b02a70bccb8fd3a7f",
+        "d0431024feaf02e6af6c080287d79713a724990bb316605e442df01cd0598dde"
+      ],
+      "reason": "כשל התחייבויות לכל המלגאים לעומת הפסקת שותפות אחת",
+      "text_sha256": [
+        "a694f8187c39c6ee91ad5609c0bfe3c62704dfc7a9ee5f3120886bc434364dba",
+        "3bbf186480d02ecf3def99bd0f9c94db5f5018b5bd89d37f51740d48d44f162c"
+      ]
+    },
+    "ab60883cf4052020e692999d8cdd823c24e8c799d1dd69dfd12da5c166f63246": {
+      "status": "keep",
+      "records": [
+        "537b2d8288284457e455c44de4b529ffadc488d2e04fbce313094725da99f46f",
+        "b34b512e768cf2f1cc7ed15293bac6d041c4ab14f7f2f556d9583d203282c6b5"
+      ],
+      "reason": "פסילת חוזה אסופה לעומת חפיפת צוות",
+      "text_sha256": [
+        "9de0e59a7429f81090d93fafc5453c3f89ae9393254eb30142e7d77203ed57d2",
+        "f1a12905dfaebb679a8f6b96d77b5e3ae1ec05cd6302105ec427c5493c93d592"
+      ]
+    },
+    "ae6fa567e4a63e4650b653ad59bcbea5d99334590bbc6d758e96b11884636e88": {
+      "status": "keep",
+      "records": [
+        "1afc25f3a3480d53c2748f4c95b9652e1eb82f04607b66b311e115069169f9ac",
+        "cce0ae4ef055153e2af9d204ad8905ebb8850115db4a2cf3ca1dd340e6bf1d28"
+      ],
+      "reason": "ביטול מכרז תערוכה יחידה לעומת קריסת כיסוי חוזי בכל הרשת",
+      "text_sha256": [
+        "9abad03538b7bb441e8c52b07e9acb5cc23117c95e5c7eb015b997a0c5e8ab96",
+        "0ed7ac78a95418a5dd9bba7d8df5a2cd9c4236b8e17acb1984242de4eb1d8892"
+      ]
+    },
+    "ba768186865f860f5986a9e75a9b3a8f5e5a13d3738cc54dca41450a829bb1e8": {
+      "status": "keep",
+      "records": [
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "הפסקת מימון כל הארכיונים לעומת ביטול התקשרות יחידה",
+      "text_sha256": [
+        "d3d4aa9a88836a659d6cdf9ac98c89e199570dbaeac787f2354eb3f772097e94",
+        "e33d02f9601807ed12c33f9b8a851c0d67ccc65ae41e709a0766aa26bf363e5f"
+      ]
+    },
+    "c05e372d215d4b99048aada0b22f2a1e6d75c41fe68e895834fad26dc37b0b0d": {
+      "status": "keep",
+      "records": [
+        "9f7f165db610f4951f01fd98a7d2b73b6e69bcc7305319574f803a6f6bffb1ae",
+        "f1aabcf2b9a0ecc54dfc9814b8e3fbb8bfab1483f8d40b5a711a42fe1877490f"
+      ],
+      "reason": "רשימת תיקונים לעומת ביטול התקשרות",
+      "text_sha256": [
+        "c587994c391aff1ff56ea0a35857103cf7032907139e163fc773cdb3eac10b90",
+        "e33d02f9601807ed12c33f9b8a851c0d67ccc65ae41e709a0766aa26bf363e5f"
+      ]
+    },
+    "cc52b624b43024037fdb425a4557ef520d039b0286eed9401722a071ddd534d0": {
+      "status": "keep",
+      "records": [
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5",
+        "9f7f165db610f4951f01fd98a7d2b73b6e69bcc7305319574f803a6f6bffb1ae"
+      ],
+      "reason": "הקפאת תקציב לעומת רשימת תיקונים",
+      "text_sha256": [
+        "d2cf3577a251f92dc72f7f5d91ca46497e2739f4f3723b315fd57e9af7be29ef",
+        "c587994c391aff1ff56ea0a35857103cf7032907139e163fc773cdb3eac10b90"
+      ]
+    },
+    "ce05c3df8d5fc224625bccb8082e4765f2ab9f2d8c99f369b944cfc0e6b5d1fe": {
+      "status": "keep",
+      "records": [
+        "5ac91a5ed8561b0edc2e7da8851f695c3b5b7791f2c3443a4fe4d991c9d21b5a",
+        "7a6d38710f4bc6aa2d8935d57c3daf3dc4f5c09e95c09758ce1f56c36f08c525"
+      ],
+      "reason": "דיווח על זיוף מסמכים כולל לעומת הגהה שגרתית של תוכנייה",
+      "text_sha256": [
+        "304d18af9f3d6b340b3daf1987f535732f107ee346b5f7122fcc89917051a7d0",
+        "102005e85eefe47e4b131b3253aee8a1b8dacdcb0c4265a60939d04f0a1fab8f"
+      ]
+    },
+    "d307cbd9d491bcb989be62465f5f42417b61cb9386c822a89d2597b0f52d9f9e": {
+      "status": "keep",
+      "records": [
+        "3d9c92c0fbf841cb963f8295ee4b52c96042dd2e03597f24865048ee83627296",
+        "9dea7b933a9c747cb4652a6ce7c5aa008635fd739220c78a703bbde72225c916"
+      ],
+      "reason": "שלילת זכויות תורמים רוחבית לעומת שלילת מענק יחיד",
+      "text_sha256": [
+        "c7f0c67e369458884a909eff86b6d0cc30ad11fab8b3cbc50ce979f198057908",
+        "268865e590d2ceda568726d4f6f0adf6d2831c28c0ea15130d3dbc5f747b63e1"
+      ]
+    },
+    "e02d4e1647f8fa8696be1360a7a038e18ee0ab60f445aa649f74695a40b9f250": {
+      "status": "keep",
+      "records": [
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850",
+        "9f7f165db610f4951f01fd98a7d2b73b6e69bcc7305319574f803a6f6bffb1ae"
+      ],
+      "reason": "פסילת חוזה לעומת רשימת תיקונים",
+      "text_sha256": [
+        "675df8f6b3448b9d2f64711f18bf9ff9f6c51a93d54b878b4096ec30be084763",
+        "c587994c391aff1ff56ea0a35857103cf7032907139e163fc773cdb3eac10b90"
+      ]
+    },
+    "e2745180cbb7cce407aafcb30d66f813582b27662c71f659b6fd1b8751e0cdde": {
+      "status": "keep",
+      "records": [
+        "40661d19a9d885c5db58d6b80600d1caf61e03f7f94a8c883b5d866109219df4",
+        "b34b512e768cf2f1cc7ed15293bac6d041c4ab14f7f2f556d9583d203282c6b5"
+      ],
+      "reason": "פקיעת כל הסכמי הארכיון לעומת חפיפת צוות",
+      "text_sha256": [
+        "710b7d490793951bcb3b2b48b858560ad490c70643c1ab64b432ae3a399db5fb",
+        "f1a12905dfaebb679a8f6b96d77b5e3ae1ec05cd6302105ec427c5493c93d592"
+      ]
+    },
+    "ea663e18d5821639d17873940d7ce8dd359250942f11358377d8713178a9fcb4": {
+      "status": "keep",
+      "records": [
+        "5866a6fc2eef1a2a86ceebe9258632e5f502e2833c61b79531fec33eb53e3ddd",
+        "f61ff91b13a9079445f0efe12e6ff02ac5de6efe2b689f1a22d7a98c8e26bc9f"
+      ],
+      "reason": "פקיעת הרשאות בכל הארכיונים לעומת ביטול חוזה אוסף אחד",
+      "text_sha256": [
+        "747a6c7bb1b4fa11a6551eeef0418b539cc9d6cbef06e96ec75f0de3b0c1bdbc",
+        "bf6f32ef33cbc1f0743765884ee6309ed5541c7db7b8144980fe8c59c1f4cf43"
+      ]
+    },
+    "eeafad3e2b9fa5da2bb462e68959107a51df94a8baf2224cb8332bdc28797f34": {
+      "status": "keep",
+      "records": [
+        "2509cba3880d16cd99d40d88b1bbc6f63185ecd847a1d3f7e051997338858260",
+        "2d8b418eb77c45cfbc1d5f3bcb75e930b0fc9ada6ec5b876c178a5d7ddae5e67"
+      ],
+      "reason": "ציר זמן פומבי לעומת ביטול תוכנית בחשאי",
+      "text_sha256": [
+        "67c6780221f0462e22dd0f732083ee9056df5b4ab93a23744864137c314c3393",
+        "781661b11c1569b0fa6d452217a639a33b3126141f858019bb73073dc53df1d1"
+      ]
+    },
+    "f1d5aa3e021c9235e6c7446b7c6d5097c555b205fb1d816c04c0d1e9a338653f": {
+      "status": "keep",
+      "records": [
+        "5866a6fc2eef1a2a86ceebe9258632e5f502e2833c61b79531fec33eb53e3ddd",
+        "9f7f165db610f4951f01fd98a7d2b73b6e69bcc7305319574f803a6f6bffb1ae"
+      ],
+      "reason": "פקיעת הרשאות בכל הארכיונים לעומת רשימת תיקונים",
+      "text_sha256": [
+        "747a6c7bb1b4fa11a6551eeef0418b539cc9d6cbef06e96ec75f0de3b0c1bdbc",
+        "c587994c391aff1ff56ea0a35857103cf7032907139e163fc773cdb3eac10b90"
+      ]
+    },
+    "f4044edb971ba34927f5c3f62fdd0b30d7d21cfada92393f17cef30ed0eadf1a": {
+      "status": "keep",
+      "records": [
+        "3d9c92c0fbf841cb963f8295ee4b52c96042dd2e03597f24865048ee83627296",
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66"
+      ],
+      "reason": "למרות דמיון גבוה באותו סיווג: זכויות כל התורמים לעומת מימון כלל הארכיונים, שני סוגי פגיעה נבדלים",
+      "text_sha256": [
+        "c7f0c67e369458884a909eff86b6d0cc30ad11fab8b3cbc50ce979f198057908",
+        "d3d4aa9a88836a659d6cdf9ac98c89e199570dbaeac787f2354eb3f772097e94"
+      ]
+    },
+    "ff6422758be2c16f94c05fda6ed2d7d518da8f8553c17fd36b3a3036fb0f1bf0": {
+      "status": "keep",
+      "records": [
+        "01eac85420ed67fae76c1980d5a6b9da403c9f39f057c6b659612b8e356be16f",
+        "4f26d3cc835201e7c4622e81e58613b0fc1ef5be69cf01ac97a42ab0c2f94850"
+      ],
+      "reason": "מונח במילון פתוח לעומת פסילת חוזה פנימית",
+      "text_sha256": [
+        "94845c88da6cdd6ac3c0d45198827d4ca8badf6b0adf1d8649c78ad11e9409c3",
+        "675df8f6b3448b9d2f64711f18bf9ff9f6c51a93d54b878b4096ec30be084763"
+      ]
+    },
+    "ffc76f196a70dc089f3b894d2fe9a6692e618d77c84ebf74f085d1a15fd4deaf": {
+      "status": "keep",
+      "records": [
+        "96bd6b6e459ede7498d631839a3db60427cec433d662ce3c47e58777516075b5",
+        "c03f383f517e411cc688ca46dc53be489500f5e92c7530895e9981e4dd5acaac"
+      ],
+      "reason": "הקפאת תקציב לעומת טיוטת לוח שגרתית",
+      "text_sha256": [
+        "d2cf3577a251f92dc72f7f5d91ca46497e2739f4f3723b315fd57e9af7be29ef",
+        "d7e4144dbeb59b10dc4c80fe999f028a6a876406e0a619d93b8b350e68dfcc5a"
+      ]
+    }
+  },
+  "counterfactual_pairs": {},
+  "previous_attempts": []
+}

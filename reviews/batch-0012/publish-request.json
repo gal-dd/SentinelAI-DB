@@ -1,0 +1,10 @@
+{
+  "checkpoint": 12,
+  "expected_production_before": 10500,
+  "expected_production_after": 11000,
+  "source": "drafts/chat/batch-0012/batch-0012-candidates.jsonl",
+  "candidate_git_blob": "701b4a44f1e17021afddbe5ef32a2e59bf0058be",
+  "production_progress_sha256": "154cdc684ae49566c208cbbc66c70b3e92969d26f73c92156f13f5b9a51b1708",
+  "authorization": "User explicitly requested completion and publication in current chat, subject to existing fail-closed quality gates.",
+  "scope": "Checkpoint 0012 only; no alteration of historical checkpoints; non-operational fictional/public educational content."
+}
