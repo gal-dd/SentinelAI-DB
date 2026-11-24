@@ -61,13 +61,33 @@ def main():
         domains[key] = {"primary_domain": expected, "reason": evidence(judgment, text)}
     if mismatches:
         raise ValueError(f"Review disagreements require content corrections: {mismatches}")
-    manual_alerts = annotations.get("alerts", {})
-    needed = {item["id"] for item in packet["review_alerts"]}
-    if needed != set(manual_alerts):
-        raise ValueError(f"E5 high-risk alerts require explicit dispositions. Missing: {needed-set(manual_alerts)}")
-    for alert_id, decision in manual_alerts.items():
-        if decision.get("status") != "keep" or not str(decision.get("reason", "")).strip():
-            raise ValueError(f"Unresolved high-risk alert: {alert_id}")
+    # Reconcile observed pairs rather than requiring an identical threshold-crossing set.
+    # Every current pair needs an individually reviewed disposition; no score-based exemption.
+    # Only exact two-text matches can bridge full-catalog simplified and official fingerprints.
+    prior_alerts = annotations.get("alerts", {})
+    pair_reviews = annotations.get("reviewed_exact_text_pairs", [])
+    manual_alerts = {}
+    for item in packet["review_alerts"]:
+        alert_id = item["id"]
+        decision = prior_alerts.get(alert_id)
+        if decision is None and item["method"] == "semantic" and not item["intentional_pair"]:
+            texts = [packet["alert_texts"][key] for key in item["records"]]
+            matches = [entry for entry in pair_reviews
+                       if sorted(entry["texts"]) == sorted(texts)]
+            if len(matches) == 1:
+                match = matches[0]
+                source = annotations["external_alerts"].get(match["external_alert_id"], {})
+                if (source.get("records") == match["records"]
+                        and source.get("status") == "keep"
+                        and source.get("reason") == match.get("reason")):
+                    decision = {"status": "keep", "reason": source["reason"],
+                                "records": item["records"],
+                                "reviewed_external_alert_id": match["external_alert_id"]}
+        if (not decision or decision.get("status") != "keep"
+                or not str(decision.get("reason", "")).strip()
+                or decision.get("records") != item["records"]):
+            raise ValueError(f"Unresolved high-risk alert: {alert_id}; fingerprints: {item['records']}")
+        manual_alerts[alert_id] = decision
     if packet["counterfactual_pairs"]:
         raise ValueError("Counterfactual pairs need explicit manual dispositions")
     result = {

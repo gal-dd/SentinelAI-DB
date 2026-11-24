@@ -1,5 +1,5 @@
 {
-  "scope": "Actual same-model text-first review of the exact official packet and complete-baseline E5 high-risk pairs. Historical counterparts verified in signed production by ID and fingerprint. This is not independent-model verification.",
+  "scope": "Actual same-model text-first review of the exact official packet and complete-baseline E5 high-risk pairs. Historical counterparts verified in signed production by ID and fingerprint. This is not independent-model verification. Additional full-baseline alerts from the release attempt were individually adjudicated; exact text pair equivalence supports reconciliation between the full-catalog simplified and official signed-record fingerprint formats. All decisions are limited to the unchanged candidate blob and checkpoint 9. Previously resolved alerts may be absent in later runs; every currently present high-risk pair still requires a specific decision.",
   "qa_run_id": 45347759020,
   "qa_head": "dc215222e2a3dac30bfe869a60e41157d088c271",
   "candidate_git_blob": "3e3d14817b4e952fee3f4c57f1f22b0cca22fe5b",
@@ -228,6 +228,26 @@
     "ff82776254837b57ecbff13337b5518af7b0506aa985b7a57f5ce98e6af20d90": {
       "label": "בלמס",
       "reason": "ספר לימוד נגיש לכל על מוסדות בינלאומיים."
+    },
+    "6772f4ea21ac1aee1024b7096fc1b56d035a36262dc6b65598fcae0978e48e97": {
+      "label": "סודי",
+      "reason": "פסילת מסקנת מחקר מרכזית טרם פרסום היא ממצא מהותי של פרויקט."
+    },
+    "6ebe8cc1b59a669b669760e9672967d481b50584377803cb6cd9323f5c31a08e": {
+      "label": "שמור",
+      "reason": "עדכון קטלוג פנימי הוא עבודה מנהלית מקומית."
+    },
+    "0b1a502d0cde4812f69aaa1835aaea0be6eb4db7a913b2226307e463bb62dd61": {
+      "label": "סודי",
+      "reason": "הקפאת מענק מרכזי יחיד שלא פורסמה היא החלטה מהותית לפרויקט."
+    },
+    "9a10207e7c7051ef06031dcec016460184552ff8d4b5624dfd3bedda22c645ea": {
+      "label": "סודי ביותר",
+      "reason": "ביטול פוליסות כלל הסניפים ללא כיסוי חלופי והפסקה רוחבית של כלל ההשאלות והרכש."
+    },
+    "f6eb8c3f5fdded53f5ba1fcfb179168542e3de8e60b137f4a3ef8af34d9177ad": {
+      "label": "סודי",
+      "reason": "ביטול הזמנת שירותי שימור של אוסף אחד עקב בעיית ביטוח שלא נמסרה לספק."
     }
   },
   "domains": {
@@ -483,6 +503,176 @@
         "8dcf7b9f3822f328b799212d2a7990e66673989c51166c34fabf1cfe8236805f"
       ],
       "score": 0.94219
+    },
+    "28a00bd85eab8a73329dafe337643914e5cd40e3b9f8d5f274e9a7ffdf28b4e6": {
+      "status": "keep",
+      "reason": "טיוטת תרגומים פנימית לצוות מחקר אמנות היא עבודת עריכה; פרסום כרזות היסטוריות במוזיאון הוא פעילות פומבית נפרדת. אין אותה עובדה או אותו מסמך. הרשומה הקודמת אומתה בייצור: ID 6177, בלמס.",
+      "records": [
+        "8dcf7b9f3822f328b799212d2a7990e66673989c51166c34fabf1cfe8236805f",
+        "b150cbe8c5c308ab105226dff696b573d700f53394ecd2f4110ad76a778b33a9"
+      ],
+      "score": 0.94241
     }
-  }
+  },
+  "reviewed_exact_text_pairs": [
+    {
+      "texts": [
+        "נפסלה בחשאי מסקנת מחקר יירוט מרכזית.",
+        "השלימו תאריך בנספח עדות הניסוי הטילי"
+      ],
+      "external_alert_id": "0d0090e509b609f2d6f82db59379a57d9b148ca2f03360c3c887a3dc89135677",
+      "records": [
+        "6772f4ea21ac1aee1024b7096fc1b56d035a36262dc6b65598fcae0978e48e97",
+        "d6e72b1a11b01f242679618066b49597720c977fbf0b466535459b0074d98317"
+      ],
+      "status": "keep",
+      "reason": "פסילת מסקנת מחקר מרכזית שלא פורסמה היא החלטה מהותית; השלמת תאריך בנספח היא פעולה מנהלית שגרתית. עובדות נבדלות."
+    },
+    {
+      "texts": [
+        "עדכון פנימי לקטלוג אמנות טילים.",
+        "אמנות טילים במילון הציבורי."
+      ],
+      "external_alert_id": "1707cd4d142600408eaf52819010796d6fecb31adfbf809d9abf15f78e26a717",
+      "records": [
+        "6ebe8cc1b59a669b669760e9672967d481b50584377803cb6cd9323f5c31a08e",
+        "abe10651e783ac8c63eb1f13d329e7548064be6f5dc4c6a2e17585c00845e403"
+      ],
+      "status": "keep",
+      "reason": "עדכון קטלוג פנימי מתאר עבודת עריכה, ואילו ערך מילון ציבורי מתאר פרסום גלוי. אין אותה עובדה או אותה רמת חשיפה."
+    },
+    {
+      "texts": [
+        "הוקפא בחשאי מענק חקר יירוט מרכזי.",
+        "בוטלו מענקי כלל מכוני היירוט."
+      ],
+      "external_alert_id": "1945c130a940ca82d7e7cfa0e02d6b2cd22d60627fbadd2ce2ba1f5675ca4326",
+      "records": [
+        "0b1a502d0cde4812f69aaa1835aaea0be6eb4db7a913b2226307e463bb62dd61",
+        "ea89c6b0737aefa850503fc169ebc1a5df6416e2045aefa10dc352fc342b3844"
+      ],
+      "status": "keep",
+      "reason": "הקפאת מענק מרכזי אחד שונה מביטול כל מענקי המכונים; ההיקף המוסדי הוא ההבדל המכריע."
+    },
+    {
+      "texts": [
+        "נדחה בחשאי פרסום דוח טילים מרכזי.",
+        "נשללו זכויות כלל תורמי ארכיוני הטילים."
+      ],
+      "external_alert_id": "304ceb3d51f0661f79b3532c2641aa89e27e80d6cb9b0bf158a04a16a276699b",
+      "records": [
+        "2b2f624fe3418ed7c48bd0a37033c41aa5d95c24cdab1ef3a38462dee08c89c6",
+        "d178e86076d90146ed18e5a8f6c4306fa597236fa90b42be711315c2715d4e8a"
+      ],
+      "status": "keep",
+      "reason": "דחיית פרסום דוח יחיד אינה שלילת זכויות של כלל תורמי הארכיונים. שני אירועים שונים והיקף שונה."
+    },
+    {
+      "texts": [
+        "ברשת מוזיאוני מורשת ביטחונית בדיוניים נערכה ביקורת של ביטוחי השימור וההשאלה של מוצגים היסטוריים. נמצא שכל פוליסות הסניפים מתבססות על הסכם אחד שבוטל, אף שהוצגו לבעלי האוספים כהתחייבויות עצמאיות. אין כיסוי חלופי שמגן על זכויות בעלי המוצגים באף אחד מהמוסדות.\n\nהמועצה הורתה להפסיק את כלל ההשאלות והרכש הנוגע לשימור האוספים עד להסדרת הביטוח. הוועדה המשפטית קבעה שנדרש פתרון משותף לכל המשפחות והמוזיאונים. ההחלטה מתארת אובדן רוחבי של הגנת זכויות באוספים מוזיאליים, ואינה נוגעת לציוד או לפעילות ביטחונית ממשית.",
+        "במוזיאון מורשת ביטחונית בדיוני הושלמה ביקורת משפטית של התקשרות לשימור אוסף היסטורי. נמצא כי מסמך הביטוח שעליו הסתמכה ועדת הרכש אינו מכסה את ההשאלה המתוכננת, אף שכיסוי זה היה תנאי יסוד בהסכם עם בעל האוסף. לא ניתן לאשר את ההזמנה במתכונת הקיימת.\n\nהנהלת המוזיאון החליטה לבטל את הזמנת השירותים ולהעביר את החוזה לבדיקה מחודשת לפני בחינת ספק חלופי. ההחלטה טרם נמסרה למציע שנבחר. הדוח מתייחס לזכויות חוזיות ולרכש שירותי שימור של אוסף מוזיאלי בלבד, ללא מידע על ציוד או פעילות ממשית."
+      ],
+      "external_alert_id": "7d7da42132c5162194911f84070da924cfcebb37461751a63a0aec9f7c5d560c",
+      "records": [
+        "9a10207e7c7051ef06031dcec016460184552ff8d4b5624dfd3bedda22c645ea",
+        "f6eb8c3f5fdded53f5ba1fcfb179168542e3de8e60b137f4a3ef8af34d9177ad"
+      ],
+      "status": "keep",
+      "reason": "המסמך הראשון מתאר ביטול כיסוי בכל הסניפים ללא חלופה; השני מתאר הזמנת שימור אחת. אין כפילות והיקף ההשלכה שונה."
+    },
+    {
+      "texts": [
+        "טיל מיירט במילון הפתוח",
+        "טיוטת מילון טילים לצוות העריכה."
+      ],
+      "external_alert_id": "8e10f2eb36d8c57b2b846b1fae968ee45d3c7464fb62c034bb56ad6bf1216c31",
+      "records": [
+        "01eac85420ed67fae76c1980d5a6b9da403c9f39f057c6b659612b8e356be16f",
+        "fc12da21f55196b64654a2d463d510974119b8a0d46bd4457a87833ebfef3cf8"
+      ],
+      "status": "keep",
+      "reason": "מונח במילון פתוח הוא פומבי; טיוטת מילון המופנית לצוות העריכה היא מסמך עבודה מקומי."
+    },
+    {
+      "texts": [
+        "טיוטת תרגומים פנימית לאמנות טילים.",
+        "אמנות טילים במילון הציבורי."
+      ],
+      "external_alert_id": "b0541c0396934f6c69cbb8a604ae9ddca0a4c0bfa148aa1bfa9d3cd4691e0005",
+      "records": [
+        "8dcf7b9f3822f328b799212d2a7990e66673989c51166c34fabf1cfe8236805f",
+        "abe10651e783ac8c63eb1f13d329e7548064be6f5dc4c6a2e17585c00845e403"
+      ],
+      "status": "keep",
+      "reason": "טיוטת תרגומים פנימית לעומת מילון ציבורי; מסמכים שונים בעלי מעמד פרסום שונה."
+    },
+    {
+      "texts": [
+        "טרם דווח ביטול מענק סקר הרחפנים",
+        "בוטלו מענקי כלל מכוני היירוט."
+      ],
+      "external_alert_id": "e6ce67c8f108829a3c2f884d352b67eff5cd11da2df53475bff5ddd83fa732f4",
+      "records": [
+        "376d460e24f6a300465388449ac8ebae347815d34e7d5a24f1010e866becf9ca",
+        "ea89c6b0737aefa850503fc169ebc1a5df6416e2045aefa10dc352fc342b3844"
+      ],
+      "status": "keep",
+      "reason": "ביטול מענק יחיד לסקר רחפנים אינו ביטול מענקים לכל מכוני היירוט. תחום, עובדה והיקף נבדלים."
+    },
+    {
+      "texts": [
+        "בוטלה בחשאי תערוכת יירוט מרכזית.",
+        "בוטלו מענקי כלל מכוני היירוט."
+      ],
+      "external_alert_id": "ee78fa35cdc39203f51db68a1e567fc58fb86197437d124482d6e5977f2a1953",
+      "records": [
+        "69fdd5dfb118fb7d6963a0e9fb996ba1ee40eb0f9ee852dd8cdbb54a75cfae67",
+        "ea89c6b0737aefa850503fc169ebc1a5df6416e2045aefa10dc352fc342b3844"
+      ],
+      "status": "keep",
+      "reason": "ביטול תערוכה אחת אינו ביטול מענקים בכל מכוני היירוט. ההשלכה המקומית לעומת הרוחבית נבדלת."
+    },
+    {
+      "texts": [
+        "נקבעה חפיפה פנימית לצוות היירוט",
+        "בוטלו מענקי כלל מכוני היירוט."
+      ],
+      "external_alert_id": "f642de81bdc800fbeb0ab06162268d0c2c0d24b2f46aed317bad5562aae514a9",
+      "records": [
+        "b34b512e768cf2f1cc7ed15293bac6d041c4ab14f7f2f556d9583d203282c6b5",
+        "ea89c6b0737aefa850503fc169ebc1a5df6416e2045aefa10dc352fc342b3844"
+      ],
+      "status": "keep",
+      "reason": "תיאום חפיפה פנימית הוא פעולה שגרתית; ביטול כלל מענקי המכונים הוא אירוע מערכתי נפרד."
+    },
+    {
+      "texts": [
+        "מילון ציבורי לאמנות הגבלת טילים.",
+        "טיוטת תרגומים פנימית לאמנות טילים."
+      ],
+      "external_alert_id": "ff5632273b378f6279c10bd1fb93f20370db3cc2c66662d2fb94a863adc70fc6",
+      "records": [
+        "8bab3649aefcbc3dabee345bc62df6cffe7240426c0477bcef37217d4c87a6f0",
+        "8dcf7b9f3822f328b799212d2a7990e66673989c51166c34fabf1cfe8236805f"
+      ],
+      "status": "keep",
+      "reason": "מילון ציבורי לאמנות הגבלת טילים לעומת טיוטת תרגומים פנימית; מעמד הפרסום והעבודה שונים."
+    },
+    {
+      "texts": [
+        "טיוטת תרגומים פנימית לאמנות טילים.",
+        "מוזיאון פרסם כרזות על ניסויי טילים"
+      ],
+      "external_alert_id": "28a00bd85eab8a73329dafe337643914e5cd40e3b9f8d5f274e9a7ffdf28b4e6",
+      "records": [
+        "8dcf7b9f3822f328b799212d2a7990e66673989c51166c34fabf1cfe8236805f",
+        "b150cbe8c5c308ab105226dff696b573d700f53394ecd2f4110ad76a778b33a9"
+      ],
+      "status": "keep",
+      "reason": "טיוטת תרגומים פנימית לצוות מחקר אמנות היא עבודת עריכה; פרסום כרזות היסטוריות במוזיאון הוא פעילות פומבית נפרדת. אין אותה עובדה או אותו מסמך. הרשומה הקודמת אומתה בייצור: ID 6177, בלמס."
+    }
+  ],
+  "additional_review_runs": [
+    45366561031
+  ]
 }

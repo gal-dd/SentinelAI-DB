@@ -93,11 +93,16 @@ jobs:
           reviews=json.load(open("reviews/batch-0010/official-annotations.json",encoding="utf-8"))
           required={a["id"] for a in report["high_risk"]}
           provided=reviews.get("external_alerts",{})
-          if required!=set(provided):
-              raise SystemExit(f"Unresolved external E5 alerts: {required-set(provided)}; stale: {set(provided)-required}")
-          for key,decision in provided.items():
-              if decision.get("status")!="keep" or not str(decision.get("reason","")).strip():
-                  raise SystemExit(f"Unresolved external E5 alert {key}")
+          if reviews.get("candidate_git_blob") != json.load(open("reviews/batch-0010/publish-request.json",encoding="utf-8"))["candidate_git_blob"] or reviews.get("production_baseline") != 8100:
+              raise SystemExit("Review provenance mismatch")
+          if required-set(provided):
+              raise SystemExit(f"Unresolved external E5 alerts: {required-set(provided)}")
+          for alert in report["high_risk"]:
+              key=alert["id"]
+              decision=provided[key]
+              if decision.get("status")!="keep" or not str(decision.get("reason","")).strip() or decision.get("records") != alert["records"]:
+                  raise SystemExit(f"Unresolved or mismatched external E5 alert {key}")
+          print("LIVE_E5_ADJUDICATED",len(required),"prior reviewed pairs absent",len(set(provided)-required))
           PY
       - name: Stage from clean production tree, using only new scenario IDs
         shell: bash
