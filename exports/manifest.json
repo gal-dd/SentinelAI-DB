@@ -1,0 +1,96 @@
+{
+  "snapshot_type": "current_production_export_not_final",
+  "source_commit": "ad1d3f70c579aae7d84d3ac62a191a5d01d06d8a",
+  "source_progress_sha256": "49d17bbcc461043ca6e67bd832f515ade46c87458485e2d704cff84328d1f342",
+  "record_count": 10000,
+  "assigned_id_range": [
+    1,
+    10000
+  ],
+  "last_checkpoint": 10,
+  "next_id": 10001,
+  "reviewed_checkpoint_records": 5000,
+  "external_unreviewed_records": 5000,
+  "label_counts": {
+    "בלמס": 2500,
+    "שמור": 2500,
+    "סודי": 2500,
+    "סודי ביותר": 2500
+  },
+  "output_file": "synthetic_security_classification_current.json",
+  "output_sha256": "a4a4960f53db3dd5acd895a39d0a6ed10cd0e8fa84c4234ed6ac58d7fe296f21",
+  "sources": [
+    {
+      "path": "data/checkpoints/batch-0001.jsonl",
+      "records": 500,
+      "sha256": "7e7140f0e5806ddad416de6f5ef24365bcccc65340d42e3ba6129dc192ab32e2",
+      "provenance": "reviewed_checkpoint"
+    },
+    {
+      "path": "data/checkpoints/batch-0002.jsonl",
+      "records": 500,
+      "sha256": "fa57e5c02ea9d1a31476ebb4d314f0283f9af37b9ad1c8c858ca437ae7cc7ba2",
+      "provenance": "reviewed_checkpoint"
+    },
+    {
+      "path": "data/checkpoints/batch-0003.jsonl",
+      "records": 500,
+      "sha256": "2cde38851b61b2de12062c2b1fcc1d25f7bd514dfc1e259dfd43fffea698f401",
+      "provenance": "reviewed_checkpoint"
+    },
+    {
+      "path": "data/checkpoints/batch-0004.jsonl",
+      "records": 500,
+      "sha256": "26d0d044ac40f908379ac263cd9dab8a3a9c10fc4eacc49e93c1b724240a1424",
+      "provenance": "reviewed_checkpoint"
+    },
+    {
+      "path": "data/checkpoints/batch-0005.jsonl",
+      "records": 500,
+      "sha256": "5591ea08601a708d9ff78b565e56e6fc73769ff52c1b139425725557834694a6",
+      "provenance": "reviewed_checkpoint"
+    },
+    {
+      "path": "data/checkpoints/batch-0006.jsonl",
+      "records": 500,
+      "sha256": "44c297dc1d8d8666ef4d6d74faa3188bd22a13aae04e3d32f4d8ecd6882f69b6",
+      "provenance": "reviewed_checkpoint"
+    },
+    {
+      "path": "data/checkpoints/batch-0007.jsonl",
+      "records": 500,
+      "sha256": "7abb7e81aae918d81e9775afab77b50c31e24a2487d872b0068f5f54c0a77595",
+      "provenance": "reviewed_checkpoint"
+    },
+    {
+      "path": "data/checkpoints/batch-0008.jsonl",
+      "records": 500,
+      "sha256": "bfea69a655cc97e5cb823bf63a9b36ab9e0c9614ecf71f7f3bc39b2da2c454d9",
+      "provenance": "reviewed_checkpoint"
+    },
+    {
+      "path": "data/checkpoints/batch-0009.jsonl",
+      "records": 500,
+      "sha256": "2790e0374750efe8d13875e403cc439f41281ce283345f7fefe002c5721c02dd",
+      "provenance": "reviewed_checkpoint"
+    },
+    {
+      "path": "data/checkpoints/batch-0010.jsonl",
+      "records": 500,
+      "sha256": "b00c947fa78607f91a3a30ebab1e4db6f009ac32470b77e9e46cd446722c94a8",
+      "provenance": "reviewed_checkpoint"
+    },
+    {
+      "path": "data/external-imports/external-2026-11-22-3600/external-import-3600.jsonl",
+      "records": 3600,
+      "sha256": "7106e9e856bd523e1db95b58309ccc283ea5a277ee5b037f19dc286a98fc7e98",
+      "provenance": "external_unreviewed"
+    },
+    {
+      "path": "data/external-imports/external-2026-11-24-1400/external-import-1400.jsonl",
+      "records": 1400,
+      "sha256": "a2f554093b3d2773f16bb920244eeb5da13bfd5d6ac6e4ec6a1f8c0ce44da7e6",
+      "provenance": "external_unreviewed"
+    }
+  ]
+}
