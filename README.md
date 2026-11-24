@@ -1,4 +1,13 @@
 # SentinelAI-DB
 
-## Classification labels — 2026-11-22
-The canonical Hebrew classification labels for future SentinelAI-DB work, in increasing order, are **בלמס**, **שמור**, **סודי**, **סודי ביותר**. The active repository instructions are on `poc/defense-focused-v2`. The active production and producer branches have been migrated and validated. Historical branches have also been relabeled; an independent legacy QA issue in checkpoint 0008 remains open. Archived copies under archive/general-v1 remain immutable. Classification relabeling does not constitute approval to publish new records.
+## Start here — active branch
+
+**Do not work from main.** The source of truth is [poc/defense-focused-v2](https://github.com/gal-dd/SentinelAI-DB/tree/poc/defense-focused-v2).
+
+- [New contributor onboarding (START_HERE.md)](https://github.com/gal-dd/SentinelAI-DB/blob/poc/defense-focused-v2/START_HERE.md)
+- [Provider-neutral onboarding prompt](https://github.com/gal-dd/SentinelAI-DB/blob/poc/defense-focused-v2/prompts/EXTERNAL_AGENT_START.md)
+- [Data-sharing and permission boundaries](https://github.com/gal-dd/SentinelAI-DB/blob/poc/defense-focused-v2/docs/collaboration/DATA_BOUNDARY.md)
+
+New contributors need an explicit task assignment from the owner. Do not assume access to datasets or publication rights. Only explicitly cleared public, educational or fictional non-operational material may be shared with external providers. Historical branches and drafts are not active assignments.
+
+`progress.json` on the production branch is the current source of truth; main does not mirror production. Previous main documentation remains available in Git history.
