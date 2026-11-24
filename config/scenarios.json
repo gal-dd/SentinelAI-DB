@@ -26474,5 +26474,575 @@
     "domain": "general_negative_controls",
     "source_group_id": "chat12-systemic-wave6-100",
     "description": "Fictional non-operational cultural or educational institutional governance."
+  },
+  "b0013-public-museum-caption": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-museum-caption",
+    "description": "Original Hebrew fiction for batch 0013, museum caption. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-newspaper-archive": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-newspaper-archive",
+    "description": "Original Hebrew fiction for batch 0013, newspaper archive. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-classroom-translation": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-classroom-translation",
+    "description": "Original Hebrew fiction for batch 0013, classroom translation. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-orbit-analogy": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-orbit-analogy",
+    "description": "Original Hebrew fiction for batch 0013, orbit analogy. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-festival-access": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-festival-access",
+    "description": "Original Hebrew fiction for batch 0013, festival access. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-chronology": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-chronology",
+    "description": "Original Hebrew fiction for batch 0013, chronology. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-visitors-questions": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-visitors-questions",
+    "description": "Original Hebrew fiction for batch 0013, visitors questions. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-storyboard": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-storyboard",
+    "description": "Original Hebrew fiction for batch 0013, storyboard. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-oral-history": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-oral-history",
+    "description": "Original Hebrew fiction for batch 0013, oral history. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-comparison-poster": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-comparison-poster",
+    "description": "Original Hebrew fiction for batch 0013, comparison poster. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-small-media": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-small-media",
+    "description": "Original Hebrew fiction for batch 0013, small media. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-book-index": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-book-index",
+    "description": "Original Hebrew fiction for batch 0013, book index. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-stage-interview": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-stage-interview",
+    "description": "Original Hebrew fiction for batch 0013, stage interview. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-catalogue-dates": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-catalogue-dates",
+    "description": "Original Hebrew fiction for batch 0013, catalogue dates. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-academic-exhibit": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-academic-exhibit",
+    "description": "Original Hebrew fiction for batch 0013, academic exhibit. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-puzzle-fair": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-puzzle-fair",
+    "description": "Original Hebrew fiction for batch 0013, puzzle fair. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-historical-language": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-historical-language",
+    "description": "Original Hebrew fiction for batch 0013, historical language. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-map-of-collection": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-map-of-collection",
+    "description": "Original Hebrew fiction for batch 0013, map of collection. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-family-workshop": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-family-workshop",
+    "description": "Original Hebrew fiction for batch 0013, family workshop. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-staged-debate": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-public-staged-debate",
+    "description": "Original Hebrew fiction for batch 0013, staged debate. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-bird-view": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "b0013-public-bird-view",
+    "description": "Original Hebrew fiction for batch 0013, bird view. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-sky-images": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "b0013-public-sky-images",
+    "description": "Original Hebrew fiction for batch 0013, sky images. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-library-network": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "b0013-public-library-network",
+    "description": "Original Hebrew fiction for batch 0013, library network. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-supply-glossary": {
+    "domain": "defense_logistics",
+    "source_group_id": "b0013-public-supply-glossary",
+    "description": "Original Hebrew fiction for batch 0013, supply glossary. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-supply-glossary-u": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "b0013-public-supply-glossary-u",
+    "description": "Original Hebrew fiction for batch 0013, supply glossary. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-supply-glossary-r": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "b0013-public-supply-glossary-r",
+    "description": "Original Hebrew fiction for batch 0013, supply glossary. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-town-reading": {
+    "domain": "general_negative_controls",
+    "source_group_id": "b0013-public-town-reading",
+    "description": "Original Hebrew fiction for batch 0013, town reading. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-public-town-reading-c": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "b0013-public-town-reading-c",
+    "description": "Original Hebrew fiction for batch 0013, town reading. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-agenda": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-agenda",
+    "description": "Original Hebrew fiction for batch 0013, agenda. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-cardstock": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-cardstock",
+    "description": "Original Hebrew fiction for batch 0013, cardstock. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-onboarding": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-onboarding",
+    "description": "Original Hebrew fiction for batch 0013, onboarding. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-shelves": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-shelves",
+    "description": "Original Hebrew fiction for batch 0013, shelves. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-copydesk": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-copydesk",
+    "description": "Original Hebrew fiction for batch 0013, copydesk. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-office-hours": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-office-hours",
+    "description": "Original Hebrew fiction for batch 0013, office hours. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-exhibit-rehearsal": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-exhibit-rehearsal",
+    "description": "Original Hebrew fiction for batch 0013, exhibit rehearsal. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-reference-room": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-reference-room",
+    "description": "Original Hebrew fiction for batch 0013, reference room. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-label-layout": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-label-layout",
+    "description": "Original Hebrew fiction for batch 0013, label layout. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-training-attendance": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-training-attendance",
+    "description": "Original Hebrew fiction for batch 0013, training attendance. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-wording": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-wording",
+    "description": "Original Hebrew fiction for batch 0013, wording. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-community-recording": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-community-recording",
+    "description": "Original Hebrew fiction for batch 0013, community recording. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-records-rotation": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-records-rotation",
+    "description": "Original Hebrew fiction for batch 0013, records rotation. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-editing-mail": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-editing-mail",
+    "description": "Original Hebrew fiction for batch 0013, editing mail. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-office-supplies": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-office-supplies",
+    "description": "Original Hebrew fiction for batch 0013, office supplies. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-quiz-edit": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-quiz-edit",
+    "description": "Original Hebrew fiction for batch 0013, quiz edit. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-scheduling-memos": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-scheduling-memos",
+    "description": "Original Hebrew fiction for batch 0013, scheduling memos. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-editorial-photos": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-editorial-photos",
+    "description": "Original Hebrew fiction for batch 0013, editorial photos. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-minute-paragraphs": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-minute-paragraphs",
+    "description": "Original Hebrew fiction for batch 0013, minute paragraphs. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-book-binding": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-routine-book-binding",
+    "description": "Original Hebrew fiction for batch 0013, book binding. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-aerial-exhibit-staff": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "b0013-routine-aerial-exhibit-staff",
+    "description": "Original Hebrew fiction for batch 0013, aerial exhibit staff. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-satellite-staff": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "b0013-routine-satellite-staff",
+    "description": "Original Hebrew fiction for batch 0013, satellite staff. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-audio-desk": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "b0013-routine-audio-desk",
+    "description": "Original Hebrew fiction for batch 0013, audio desk. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-shelf-handoff": {
+    "domain": "defense_logistics",
+    "source_group_id": "b0013-routine-shelf-handoff",
+    "description": "Original Hebrew fiction for batch 0013, shelf handoff. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-shelf-handoff-u": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "b0013-routine-shelf-handoff-u",
+    "description": "Original Hebrew fiction for batch 0013, shelf handoff. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-shelf-handoff-r": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "b0013-routine-shelf-handoff-r",
+    "description": "Original Hebrew fiction for batch 0013, shelf handoff. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-choir-rooms": {
+    "domain": "general_negative_controls",
+    "source_group_id": "b0013-routine-choir-rooms",
+    "description": "Original Hebrew fiction for batch 0013, choir rooms. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-routine-choir-rooms-c": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "b0013-routine-choir-rooms-c",
+    "description": "Original Hebrew fiction for batch 0013, choir rooms. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-suspended-grant": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-suspended-grant",
+    "description": "Original Hebrew fiction for batch 0013, suspended grant. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-collector-loan": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-collector-loan",
+    "description": "Original Hebrew fiction for batch 0013, collector loan. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-appraisal-error": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-appraisal-error",
+    "description": "Original Hebrew fiction for batch 0013, appraisal error. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-canceled-catalogue": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-canceled-catalogue",
+    "description": "Original Hebrew fiction for batch 0013, canceled catalogue. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-arbitration": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-arbitration",
+    "description": "Original Hebrew fiction for batch 0013, arbitration. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-provenance-ruling": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-provenance-ruling",
+    "description": "Original Hebrew fiction for batch 0013, provenance ruling. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-venue-contract": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-venue-contract",
+    "description": "Original Hebrew fiction for batch 0013, venue contract. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-fiscal-threshold": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-fiscal-threshold",
+    "description": "Original Hebrew fiction for batch 0013, fiscal threshold. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-attribution": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-attribution",
+    "description": "Original Hebrew fiction for batch 0013, attribution. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-revoked-ethics": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-revoked-ethics",
+    "description": "Original Hebrew fiction for batch 0013, revoked ethics. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-termination-fund": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-termination-fund",
+    "description": "Original Hebrew fiction for batch 0013, termination fund. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-output-dispute": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-output-dispute",
+    "description": "Original Hebrew fiction for batch 0013, output dispute. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-rejected-thesis": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-rejected-thesis",
+    "description": "Original Hebrew fiction for batch 0013, rejected thesis. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-concealed-redistribution": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-concealed-redistribution",
+    "description": "Original Hebrew fiction for batch 0013, concealed redistribution. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-separation": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-separation",
+    "description": "Original Hebrew fiction for batch 0013, separation. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-double-invoice": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-double-invoice",
+    "description": "Original Hebrew fiction for batch 0013, double invoice. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-cancellation-board": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-cancellation-board",
+    "description": "Original Hebrew fiction for batch 0013, cancellation board. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-deposit-clause": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-deposit-clause",
+    "description": "Original Hebrew fiction for batch 0013, deposit clause. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-partner-severance": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-partner-severance",
+    "description": "Original Hebrew fiction for batch 0013, partner severance. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-board-minutes": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-material-board-minutes",
+    "description": "Original Hebrew fiction for batch 0013, board minutes. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-photography-rights": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "b0013-material-photography-rights",
+    "description": "Original Hebrew fiction for batch 0013, photography rights. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-science-license": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "b0013-material-science-license",
+    "description": "Original Hebrew fiction for batch 0013, science license. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-network-fund": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "b0013-material-network-fund",
+    "description": "Original Hebrew fiction for batch 0013, network fund. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-storage-reservation": {
+    "domain": "defense_logistics",
+    "source_group_id": "b0013-material-storage-reservation",
+    "description": "Original Hebrew fiction for batch 0013, storage reservation. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-storage-reservation-u": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "b0013-material-storage-reservation-u",
+    "description": "Original Hebrew fiction for batch 0013, storage reservation. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-storage-reservation-r": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "b0013-material-storage-reservation-r",
+    "description": "Original Hebrew fiction for batch 0013, storage reservation. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-ceramics-contract": {
+    "domain": "general_negative_controls",
+    "source_group_id": "b0013-material-ceramics-contract",
+    "description": "Original Hebrew fiction for batch 0013, ceramics contract. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-ceramics-contract-l": {
+    "domain": "defense_logistics",
+    "source_group_id": "b0013-material-ceramics-contract-l",
+    "description": "Original Hebrew fiction for batch 0013, ceramics contract. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-material-ceramics-contract-c": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "b0013-material-ceramics-contract-c",
+    "description": "Original Hebrew fiction for batch 0013, ceramics contract. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-independent-journals": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-independent-journals",
+    "description": "Original Hebrew fiction for batch 0013, independent journals. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-anonymous-witnesses": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-anonymous-witnesses",
+    "description": "Original Hebrew fiction for batch 0013, anonymous witnesses. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-sole-license": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-sole-license",
+    "description": "Original Hebrew fiction for batch 0013, sole license. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-sealed-contributors": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-sealed-contributors",
+    "description": "Original Hebrew fiction for batch 0013, sealed contributors. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-multi-campus": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-multi-campus",
+    "description": "Original Hebrew fiction for batch 0013, multi campus. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-merged-protection": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-merged-protection",
+    "description": "Original Hebrew fiction for batch 0013, merged protection. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-translation-hold": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-translation-hold",
+    "description": "Original Hebrew fiction for batch 0013, translation hold. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-arbitration-reach": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-arbitration-reach",
+    "description": "Original Hebrew fiction for batch 0013, arbitration reach. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-protect-consent": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-protect-consent",
+    "description": "Original Hebrew fiction for batch 0013, protect consent. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-creditors": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-creditors",
+    "description": "Original Hebrew fiction for batch 0013, creditors. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-national-collection": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-national-collection",
+    "description": "Original Hebrew fiction for batch 0013, national collection. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-disconnected-names": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-disconnected-names",
+    "description": "Original Hebrew fiction for batch 0013, disconnected names. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-receipt-register": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-receipt-register",
+    "description": "Original Hebrew fiction for batch 0013, receipt register. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-concurrent-closures": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-concurrent-closures",
+    "description": "Original Hebrew fiction for batch 0013, concurrent closures. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-abandoned-reserve": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-abandoned-reserve",
+    "description": "Original Hebrew fiction for batch 0013, abandoned reserve. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-duplicated-keepers": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-duplicated-keepers",
+    "description": "Original Hebrew fiction for batch 0013, duplicated keepers. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-networked-endowments": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-networked-endowments",
+    "description": "Original Hebrew fiction for batch 0013, networked endowments. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-service-termination": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-service-termination",
+    "description": "Original Hebrew fiction for batch 0013, service termination. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-consent-divisions": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-consent-divisions",
+    "description": "Original Hebrew fiction for batch 0013, consent divisions. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-whole-network-review": {
+    "domain": "missile_systems",
+    "source_group_id": "b0013-systemic-whole-network-review",
+    "description": "Original Hebrew fiction for batch 0013, whole network review. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-drone-archive": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "b0013-systemic-drone-archive",
+    "description": "Original Hebrew fiction for batch 0013, drone archive. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-astronomy-consortium": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "b0013-systemic-astronomy-consortium",
+    "description": "Original Hebrew fiction for batch 0013, astronomy consortium. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-communication-archive": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "b0013-systemic-communication-archive",
+    "description": "Original Hebrew fiction for batch 0013, communication archive. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-shared-bond": {
+    "domain": "defense_logistics",
+    "source_group_id": "b0013-systemic-shared-bond",
+    "description": "Original Hebrew fiction for batch 0013, shared bond. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-shared-bond-u": {
+    "domain": "uncrewed_aircraft",
+    "source_group_id": "b0013-systemic-shared-bond-u",
+    "description": "Original Hebrew fiction for batch 0013, shared bond. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-shared-bond-r": {
+    "domain": "radar_sensors_space",
+    "source_group_id": "b0013-systemic-shared-bond-r",
+    "description": "Original Hebrew fiction for batch 0013, shared bond. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-universal-lease": {
+    "domain": "defense_logistics",
+    "source_group_id": "b0013-systemic-universal-lease",
+    "description": "Original Hebrew fiction for batch 0013, universal lease. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-universal-lease-g": {
+    "domain": "general_negative_controls",
+    "source_group_id": "b0013-systemic-universal-lease-g",
+    "description": "Original Hebrew fiction for batch 0013, universal lease. Non-operational editorial, educational or organizational context."
+  },
+  "b0013-systemic-universal-lease-c": {
+    "domain": "cyber_communications_c2",
+    "source_group_id": "b0013-systemic-universal-lease-c",
+    "description": "Original Hebrew fiction for batch 0013, universal lease. Non-operational editorial, educational or organizational context."
   }
 }

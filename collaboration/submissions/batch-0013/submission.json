@@ -1,0 +1,42 @@
+{
+  "task_id": "batch-0013",
+  "role": "public_content",
+  "status": "ready_for_review",
+  "base_commit": "37008a61b76a0c98ddabe6ae22757c0f22dc2ab5",
+  "base_branch": "poc/defense-focused-v2",
+  "publication_target": "work/autonomous-batch-0013",
+  "output_paths": [
+    "collaboration/submissions/batch-0013/README.md",
+    "collaboration/submissions/batch-0013/candidates.jsonl",
+    "collaboration/submissions/batch-0013/review.json",
+    "collaboration/submissions/batch-0013/quality.json",
+    "config/scenarios.json"
+  ],
+  "file_sha256": {
+    "collaboration/submissions/batch-0013/README.md": "4e75af66cb152f1bb78575c56e25b2a75a894a7a4c4256732194168af2d91d96",
+    "collaboration/submissions/batch-0013/candidates.jsonl": "b28621f3cb2b41d93094d5c54f8f432fad34066e04156516a66148e485f6840c",
+    "collaboration/submissions/batch-0013/review.json": "a382d67b74c6ba451f5c5ce1ac27099dba2b4bce987d1ec6fb3c7c3402a1c1bf",
+    "collaboration/submissions/batch-0013/quality.json": "fc56248d32f5fc0fd58fa4f84c9ee84285f9cd7c1ab3f0c3f62cabbc8c78dfba",
+    "config/scenarios.json": "e6d7da901d6c56ea048fb27f7cb03541acdbd8c38168fb67619e12c6858b51b8"
+  },
+  "commit_sha": null,
+  "remote_verified": false,
+  "remote_verification_evidence": "Post-publication branch verification is reported separately because the resulting commit SHA is only available after this manifest is committed.",
+  "checks_run": [
+    "Repository production verification at 11000 records and checkpoint 0012",
+    "Final candidate plan and prepare, including schema, lengths, form, exact deduplication and E5",
+    "verify_decisions and verify_domain_review on a newly regenerated packet",
+    "check_infrastructure on Python 3.13.5",
+    "45 repository unit tests on Python 3.12.14",
+    "git diff --check and append-only scenario catalog comparison"
+  ],
+  "checks_not_run": [
+    "Independent or human content review",
+    "Central production checkpoint creation"
+  ],
+  "limitations": [
+    "OpenAI Codex text-first same-model review. The reviewer previously saw the proposed labels."
+  ],
+  "blockers": [],
+  "projected_total_after_central_acceptance": 11500
+}

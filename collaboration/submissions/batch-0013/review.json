@@ -1,0 +1,438 @@
+{
+  "candidate_digest": "43d1aa79b912481aca436b578c308af6c64c84c38f380b5af9011be247ab7585",
+  "reviewer": "OpenAI Codex in ChatGPT Work (same model as author)",
+  "records": {
+    "05d4d50996dc4434bcf9bac86b57f8a2d4ea5372e402854acc4a11c95f837cf6": {
+      "label": "סודי ביותר",
+      "status": "pass",
+      "reason": "שלוש ההוצאות כולן מאבדות את רשות הפרסום עקב הסכם אחד שהוסתר, והקטלוג לא ניתן להעברה.",
+      "mode": "same_model_text_first"
+    },
+    "0eba814f101a6f8c7812787a083aac644016cac5dea04712f3690b2aaf1d9e1a": {
+      "label": "שמור",
+      "status": "pass",
+      "reason": "שינוי שעת הגעת הלומדים משנה רק את פתיחת הכיתה ואיסוף הנוכחות.",
+      "mode": "same_model_text_first"
+    },
+    "157cb21b1d1813c458c5e6669a41cff0b95b1a72aa1b83c30223c5358f202a3f": {
+      "label": "שמור",
+      "status": "pass",
+      "reason": "הפתק שהוזז גורר בירור מקומי לפני הדפסה חוזרת של כיתוב.",
+      "mode": "same_model_text_first"
+    },
+    "16449b32b6161721a1677b60f7fdc267e23f81f20bc834b1728449328f421b10": {
+      "label": "בלמס",
+      "status": "pass",
+      "reason": "הקטלוג הציבורי כבר מאפשר לעיין ברשימת העיתונים.",
+      "mode": "same_model_text_first"
+    },
+    "16d356957beabe8914107c5a5b7232680c970f17264005626159abd34938be02": {
+      "label": "סודי ביותר",
+      "status": "pass",
+      "reason": "שטר ההפקדה מאפשר לייחס את תצלומי המקור לכל תורמי קבוצת ההגנה.",
+      "mode": "same_model_text_first"
+    },
+    "1d619c6bc2571de8bf3541158cc4001a92d709b9c8b0b1c055651aafa13bd929": {
+      "label": "סודי ביותר",
+      "status": "pass",
+      "reason": "נחשפו כל המרואיינים המוגנים של המיזם, באופן שמבטל את ההגנה של הקבוצה כולה.",
+      "mode": "same_model_text_first"
+    },
+    "26922c5aa9a6eb36160f2b7997291850319f736920f13f027cdb70739b897498": {
+      "label": "בלמס",
+      "status": "pass",
+      "reason": "השאלה נכללה בתרגיל פומבי על גופי פיקוח בדויים.",
+      "mode": "same_model_text_first"
+    },
+    "281b9fe62928f2407126f7b06b27b6bf8a6e048380b9ca13d04383661704b114": {
+      "label": "שמור",
+      "status": "pass",
+      "reason": "חסרה חתימת קבלה מנהלית על שלוש חוברות בלבד.",
+      "mode": "same_model_text_first"
+    },
+    "289d6a679d9a144e49697568c19ac96e2cb5d4230872ac2f3753b043526d4769": {
+      "label": "סודי",
+      "status": "pass",
+      "reason": "הסיכום שטרם פורסם מגלה החלטה לבטל חוזה מהדורה בעקבות בעלות קודמת.",
+      "mode": "same_model_text_first"
+    },
+    "28ae93dd176e7e64dc25bfe7ef846f691b85bc6cf8f165d13b08ce55921f1d0e": {
+      "label": "בלמס",
+      "status": "pass",
+      "reason": "זהו תרגיל ספרייה הזמין לכל המשתמשים ומסביר שימוש במפתח נושאים.",
+      "mode": "same_model_text_first"
+    },
+    "29757f1f4cd0ee179dd5763a49b3d813b7a85877f8f41d4878101b22a31eb8cd": {
+      "label": "סודי ביותר",
+      "status": "pass",
+      "reason": "נספח אחד מבטל את ההפרדה שהגנה על זהויות בשתי קבוצות המשתתפים.",
+      "mode": "same_model_text_first"
+    },
+    "29b114e18d5ea6b4bdbc857d9631e8961dcacf09c08b8bdf71924dd4a732a546": {
+      "label": "סודי",
+      "status": "pass",
+      "reason": "ועדה קיבלה החלטה שטרם פורסמה לגנוז את האנתולוגיה בעקבות שלילת זכויות.",
+      "mode": "same_model_text_first"
+    },
+    "2ac29549361efeff4518de1f669c9507e1b1d2b19deaac8d6d6504119fbfe358": {
+      "label": "שמור",
+      "status": "pass",
+      "reason": "הכותרת השבורה תתוקן בעותקי ההדרכה של הצוות.",
+      "mode": "same_model_text_first"
+    },
+    "413e584c4b63e734c1f3b2ece238983907a95f43293c4d72ec82dbb52c7cc08c": {
+      "label": "בלמס",
+      "status": "pass",
+      "reason": "הספרייה פרסמה הזמנה פתוחה לפעילות קריאה ולפינת החלפת ספרים.",
+      "mode": "same_model_text_first"
+    },
+    "419283867395edc87e93c97ec84ce035f84b78a3a664cef7cc385c8808169b1a": {
+      "label": "שמור",
+      "status": "pass",
+      "reason": "רכזת הכיתה אוספת תיקוני קריאות למקרא במסגרת העריכה הפנימית.",
+      "mode": "same_model_text_first"
+    },
+    "440c28276af492dce340bbe65d517d416f12693de9dbf1e55414dacd189b5ebc": {
+      "label": "בלמס",
+      "status": "pass",
+      "reason": "תוכנית האולם וקישורי הקריאה הונגשו באתר פתוח.",
+      "mode": "same_model_text_first"
+    },
+    "4c0d0e20c7c8f303f1006240e07a8f069415a0b27bbf249527ec961b9ec66111": {
+      "label": "סודי ביותר",
+      "status": "pass",
+      "reason": "כתב ההסכמה קושר בפירוש את כל שמות העט בקבוצה לשמות המוגנים.",
+      "mode": "same_model_text_first"
+    },
+    "4e394da84724fd81b96fdbc49efe4f585d3e0c425c7775b7a7c11c1f0069aeb3": {
+      "label": "בלמס",
+      "status": "pass",
+      "reason": "תרגיל המיון נכלל בעלון ציבורי של אירוע רכש ומוגש למשפחות.",
+      "mode": "same_model_text_first"
+    },
+    "4f85e7069a8da9e958c5f383ee3d5ad3184063d5e686776c2b539c8f7ea37f7b": {
+      "label": "שמור",
+      "status": "pass",
+      "reason": "הדפסה חדשה היא שאלה פתוחה. ההחלטה שהתקבלה היא תיקון מספור מקומי.",
+      "mode": "same_model_text_first"
+    },
+    "55aedae6263a1300c08c1dcfc4dc3a6c174be834a376994e342d83521cc9c3b1": {
+      "label": "בלמס",
+      "status": "pass",
+      "reason": "השאלה חינם הופכת את המדריך למשאב זמין לקהל.",
+      "mode": "same_model_text_first"
+    },
+    "6a227f2aebaa7b322f52d8b2e8cc992bdd44d601387e971db11ef95492a48f20": {
+      "label": "סודי ביותר",
+      "status": "pass",
+      "reason": "הביטול היחיד מחייב שלוש הוצאות לסגור את כל הקטלוג, בלי אפשרות להעבירו.",
+      "mode": "same_model_text_first"
+    },
+    "6e38bac056267c71da00f9d0048553fae789b5b7d618dd6f8a8b252be427d002": {
+      "label": "סודי",
+      "status": "pass",
+      "reason": "פרוטוקול חתום מגלה ביטול מענק בניגוד לגרסת הדובר.",
+      "mode": "same_model_text_first"
+    },
+    "6eb75bc2c57a98e495c547c752bca6ab357a592b31759164a4bf04f702a01e9b": {
+      "label": "בלמס",
+      "status": "pass",
+      "reason": "זהו דף שמקבלות משפחות בגלריה במסגרת פעילות קריאה.",
+      "mode": "same_model_text_first"
+    },
+    "75799ca7f64869515fbc94242edbd2ff21256631a098f05499555bdd67d4ab6f": {
+      "label": "בלמס",
+      "status": "pass",
+      "reason": "תמליל הוועידה פורסם והתרגיל מבקש שאלות לדיון גלוי על פיקוח.",
+      "mode": "same_model_text_first"
+    },
+    "759ced207a7a3b415aee728f8322c45409a334b5f71b30b3c4790c6ac91c12b0": {
+      "label": "בלמס",
+      "status": "pass",
+      "reason": "הריאיון הפומבי מתאר בחירה גרפית של יוצר כרזות בדיוני.",
+      "mode": "same_model_text_first"
+    },
+    "795efa3f702071f9443464ebe0c49377acc341a7be7a1ab8da5587a8e47aabea": {
+      "label": "סודי",
+      "status": "pass",
+      "reason": "מסמך הפנים מביא להחלטה להשמיד מלאי הפצה ולהפסיק את חוזה הספק.",
+      "mode": "same_model_text_first"
+    },
+    "7e5b8a2de58698832815fe2dd0769d8a09228f61bf59ad814c8bdd0d20c38d85": {
+      "label": "שמור",
+      "status": "pass",
+      "reason": "הבקשה קובעת כמה חוברות להניח בדלפק למשתתפי הקורס.",
+      "mode": "same_model_text_first"
+    },
+    "7f86f80ea6e4ae491ffe978255fd11deaf9a3a11579564d0f20f95f091f33db2": {
+      "label": "שמור",
+      "status": "pass",
+      "reason": "התיאום מתמקד בשעת שימוש בחדר ובסדר ההכנה של תמלול לשיעור.",
+      "mode": "same_model_text_first"
+    },
+    "83a056136cda5cdd28407af3e6f58b60170869e9ed71251d388eb307c53eeff3": {
+      "label": "סודי",
+      "status": "pass",
+      "reason": "הלשכה ביטלה בהליך פנימי את מעמדו הבלעדי של הזכיין.",
+      "mode": "same_model_text_first"
+    },
+    "8483757ef258298e6659ceb72eaf250220e93f78dc470d42256dc1f88c6ec83f": {
+      "label": "סודי ביותר",
+      "status": "pass",
+      "reason": "צו פירוק אחד מפסיק את ההשאלה בכל המרכזים שהוצגו כעצמאיים.",
+      "mode": "same_model_text_first"
+    },
+    "87b94184409edcd828261de0b7cdd7877755dbe60f85be18686f6bca2c8e3564": {
+      "label": "סודי",
+      "status": "pass",
+      "reason": "פסק שטרם נמסר שולל זכות הדפסה ומחייב השבת מקדמה.",
+      "mode": "same_model_text_first"
+    },
+    "8b6b2b203bf25255f3e37cef04300bdf4867bbf1554a771968e9eef0c96e5f02": {
+      "label": "סודי",
+      "status": "pass",
+      "reason": "הכרעה פנימית מבטלת בפועל את מחקר העדויות ומחייבת החזר מלא של המענק.",
+      "mode": "same_model_text_first"
+    },
+    "90260af3e42099f348f5183a6053ae7a9f14470951065d05638f2b28c1c92d98": {
+      "label": "שמור",
+      "status": "pass",
+      "reason": "ההערה עוסקת בהזזת מסגרת כך שכותרת תהיה קריאה בכיתה.",
+      "mode": "same_model_text_first"
+    },
+    "90ecf5a52eba1b6ad51cc463d7ea99a4803e25d1aa2b04dc15aa6231d167554d": {
+      "label": "בלמס",
+      "status": "pass",
+      "reason": "התשבץ מופיע בעלון פומבי על תערוכת הטילים.",
+      "mode": "same_model_text_first"
+    },
+    "97a80df5891e4ecc5536b96b75c14f42ffd1642965964de20f50a55f82ff0584": {
+      "label": "סודי ביותר",
+      "status": "pass",
+      "reason": "כל בעלי העדויות המוגנות מזוהים באמצעות חיבור תיקי הפיצוי לכינויים.",
+      "mode": "same_model_text_first"
+    },
+    "97fdeb866a80021c7f39b07596766eb9f29f5a913337b69c875b5026a1b5b84d": {
+      "label": "סודי ביותר",
+      "status": "pass",
+      "reason": "הכרעת בוררות מבטלת בבת אחת מלגות קיימות בכל המוסדות הנשענים על אותה הפקדה נסתרת.",
+      "mode": "same_model_text_first"
+    },
+    "99be0280087a86b86142dd76f0077b9135012927664d6fd00611638a2a9063a6": {
+      "label": "בלמס",
+      "status": "pass",
+      "reason": "זהו תמלול שכבר פורסם ומתאר את סדר הדוברים בערב זיכרונות.",
+      "mode": "same_model_text_first"
+    },
+    "ad55c3a5239739e2e63b3df4e1cf7ec5ecfd89fc8152a7edc042e622c8a38950": {
+      "label": "סודי ביותר",
+      "status": "pass",
+      "reason": "ערבות נסתרת מחייבת סגירת כל המחסנים ללא חלופה או יכולת חידוש.",
+      "mode": "same_model_text_first"
+    },
+    "aefe79833d5c30bbf441617a64ad1138f750da67728eff435799dc2a636e87d1": {
+      "label": "סודי",
+      "status": "pass",
+      "reason": "הבוררות העבירה זכות תרגום ולכן המו״ל נדרש לוותר על המהדורה.",
+      "mode": "same_model_text_first"
+    },
+    "aeffcd0abdc994ffc96558ee733bc5d3f3e2522755450a4fcfa89a67de83c078": {
+      "label": "סודי",
+      "status": "pass",
+      "reason": "גילוי חשבונית כפולה מבטל עסקה ומחייב החזר מקדמה לפני דיווח לתורם.",
+      "mode": "same_model_text_first"
+    },
+    "c0759a9c58ca6ea17fdd5ddf4d25a2ac3d087f70a3e0d103b345904085ff8e4e": {
+      "label": "סודי",
+      "status": "pass",
+      "reason": "המועצה ביטלה מסלול השאלת דגמים והעבירה את תקציבו לפני פרסום ההחלטה.",
+      "mode": "same_model_text_first"
+    },
+    "c09b983d1322553e437cf86d625c885150c77a2ce8d307bc6340701a169d7dea": {
+      "label": "סודי",
+      "status": "pass",
+      "reason": "הכרעה שלא הופצה מבטלת מאמר שכבר אושר בעקבות זיוף תאריך.",
+      "mode": "same_model_text_first"
+    },
+    "c32c5ac749b96d5331dd37990374c02b95b8075228f7571cd97860d17bd374e4": {
+      "label": "סודי ביותר",
+      "status": "pass",
+      "reason": "הרישיון היחיד ששירת חמש הוצאות נשלל לצמיתות מכולן, על אף ההפרדה כלפי חוץ.",
+      "mode": "same_model_text_first"
+    },
+    "c6907f352106c8f5df833a121c9191b87005bf486f5333858bbbec2caf04ba63": {
+      "label": "סודי ביותר",
+      "status": "pass",
+      "reason": "הפקעה אחת חלה על כל הגיבויים ומשאירה את הרשת ללא עותק.",
+      "mode": "same_model_text_first"
+    },
+    "c8943090e4c31ff3237703ded99082bf5ac236dbdada55449e4c6f26f684f1f8": {
+      "label": "בלמס",
+      "status": "pass",
+      "reason": "הטענה מופיעה בתרגיל פומבי בדיוני ולא מוצגת כממצא בפועל.",
+      "mode": "same_model_text_first"
+    },
+    "d8debcd2c2ea17df7cffa82f70352c45145f14fff5ddd0ba6855482b9d08d920": {
+      "label": "בלמס",
+      "status": "pass",
+      "reason": "תרגיל תיאום מלאי נלמד במבוא פומבי למבקרים.",
+      "mode": "same_model_text_first"
+    },
+    "e8db297f25fbc1e0535f72a720a29e6904bcce6d821b16bafcc92a357178f225": {
+      "label": "סודי",
+      "status": "pass",
+      "reason": "רק ההנהלה קיבלה מידע על הפסקת הפקת הכנס עקב עיקול התשלום.",
+      "mode": "same_model_text_first"
+    },
+    "e9576419b442c57fa0c9bb7fec07b393cbc2633a492c9810f6da655054ada1bd": {
+      "label": "שמור",
+      "status": "pass",
+      "reason": "לוח הצוות מתאם את החזרת עותקי העבודה למדף.",
+      "mode": "same_model_text_first"
+    },
+    "eddb8c158c704755935eba168f490d7ca83added3eaa5f8886b80ea1ce3aa58e": {
+      "label": "סודי",
+      "status": "pass",
+      "reason": "הקרן הקפיאה את המענק והכרך הבא הוצא מן התוכנית לפני הודעה לקוראים.",
+      "mode": "same_model_text_first"
+    },
+    "f2b7e5815e84e07f6b9272f43e12348f864b99695b0b1ce9d3f2e5fd944a36fc": {
+      "label": "סודי ביותר",
+      "status": "pass",
+      "reason": "שני תיקים מאפשרים זיהוי ודאי של כל המחנכים שקיבלו הבטחה לאנונימיות.",
+      "mode": "same_model_text_first"
+    },
+    "f38d430965b6809096e68de3064f20f2952c3b6cd14d2f658421e4912ae4b5fd": {
+      "label": "סודי",
+      "status": "pass",
+      "reason": "בדיון סגור נפסלה זכות ההוצאה של הכרך.",
+      "mode": "same_model_text_first"
+    },
+    "f9d46708d4779c24c15c0841025d16f1a6ffbe9417a0970bdaf0fcf63d13dc92": {
+      "label": "סודי ביותר",
+      "status": "pass",
+      "reason": "אובדן ההכרה חל על כל הגופים ומבטל למפרע תקופות שאושרו ללא ערר.",
+      "mode": "same_model_text_first"
+    },
+    "fc8d9b20be611bef8558de6eace3c97b70df69446122b09284fc732305183919": {
+      "label": "שמור",
+      "status": "pass",
+      "reason": "צוות האיור מבקש להשלים שנת הוצאה בכריכות במסגרת תיוק פנימי.",
+      "mode": "same_model_text_first"
+    }
+  },
+  "alerts": {},
+  "counterfactual_pairs": {},
+  "domains": {
+    "00f6207d74389c11807d26fe6a0255758cd03e08d81fb86519e3b8e872da2105": {
+      "primary_domain": "defense_logistics",
+      "reason": "הפעולה המרכזית היא מילוי וקבלת טופס רכש לפני ספירת מלאי."
+    },
+    "02a36e3ea89663c471731db8221b1d00df3985b26f7b7487f77aa18980abf32d": {
+      "primary_domain": "general_negative_controls",
+      "reason": "הטקסט מפרסם סיור שכונתי על איורי עלים."
+    },
+    "070aebc60053b7d6678d0f5414b440d2cd682e4d9adcea24bbf52da48e93f0bb": {
+      "primary_domain": "cyber_communications_c2",
+      "reason": "הטקסט מתאר השוואה של תרשימי הפצת הודעות ברשת לנמען יחיד ולקבוצה."
+    },
+    "1bef0b83bb1dc90c0073d6e1659deb084d62ffc3616f28e92f573176b9ede318": {
+      "primary_domain": "missile_systems",
+      "reason": "זוהי פעילות למידה בתצוגה המוקדשת לטילים."
+    },
+    "2246d7fe9ecd1f9c53e23fc54b5e1d0cb8c44fe0a3ba53584244db5e75b87095": {
+      "primary_domain": "defense_logistics",
+      "reason": "מוצג תרשים של תפקידי רכש וסיכום הזמנה וקבלה."
+    },
+    "2c0e27a2458fe290f5346092ad224eed43c52e4d894446b7106e7e7e66283373": {
+      "primary_domain": "cyber_communications_c2",
+      "reason": "המחקר עוסק בתמלילי תקשורת ומשתתפים שהוקלטו במסגרת השימוש ברשת."
+    },
+    "2c9e2db8e6d6c3caaf170a3c605c81e4619d1d8466af6e211e75b22f93f401ad": {
+      "primary_domain": "general_negative_controls",
+      "reason": "הבוררות עוסקת בזכויות שימוש בסדנת קדרות קהילתית."
+    },
+    "3b3a7d525bf6a6b1498c8053e57a00e9bd1dae8df3c74a8df2748c72c386817a": {
+      "primary_domain": "missile_systems",
+      "reason": "ביטול המענק נוגע למחקר ולפרסום על ההיסטוריה של הטילים."
+    },
+    "419283867395edc87e93c97ec84ce035f84b78a3a664cef7cc385c8808169b1a": {
+      "primary_domain": "radar_sensors_space",
+      "reason": "נבחנת קריאות המקרא לסימוני מדידה בתצלומי חישה לוויינית."
+    },
+    "421f430f90775757112ee568d14d99002e19a6322497ed94b76c493de642b899": {
+      "primary_domain": "general_negative_controls",
+      "reason": "התוכן מתאר רישום פנימי לחוג מתנ״ס."
+    },
+    "4e141069b3dbb596177a595bd5df915fcdf20e4ad6e4d9be10cf079294e93416": {
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "התוכן דן בבחירת כיתוב לצילום רחפן ובהשוואת זווית צפייה."
+    },
+    "67882c36224e8efe11d1d03b38dd214b3a6db367c7c83265d0ee8c669a0064ff": {
+      "primary_domain": "radar_sensors_space",
+      "reason": "הכרזה עוסקת בהצגה ובמקרא של תצלומי לוויין."
+    },
+    "75e49c50aba3b6ff6050f80ac15ed916c65683287c72d24afd1281cfbb649f42": {
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "מושא הביקורת הוא מה רואים בתצלומי רחפן בתערוכת גנים."
+    },
+    "87fe3468827daa43f81f66e84e94741b6b29cc6c626f4b39da88e17f2f4a4cd7": {
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "הדיון עוסק בבעלות וברישיונות של רשת ארכיוני צילום רחפן."
+    },
+    "923bd826a48f34359fd54737dd5b1222414dae7205be1a34d61c4894c98941d9": {
+      "primary_domain": "defense_logistics",
+      "reason": "ההכרעה חלה על רכש חללי אחסון ועל מלוא מחסני החלופה."
+    },
+    "974c986d15b5696baee2e3691247771ae4a5bf4a9fbc3f46a6697493ce10e950": {
+      "primary_domain": "cyber_communications_c2",
+      "reason": "בדיקת הרישיון נוגעת לשימוש בתמלילי הקלטות וידאו בארכיון תקשורת."
+    },
+    "aa1893db954f93c483c3677caf512ecc3cd3eabb247a7dd322a9bc9497a3e6b5": {
+      "primary_domain": "cyber_communications_c2",
+      "reason": "הערך הפומבי מגדיר אפשרות תמלול בממשק שיחת וידאו."
+    },
+    "aebbfe30586b2621fc62639f8061c0bca18db6e1406c1f744ae69f40185f01c9": {
+      "primary_domain": "missile_systems",
+      "reason": "ההכרעה עוסקת בספקי תצוגת יורטים ובסגירה של כל חלופות העיון במוצגי היירוט."
+    },
+    "b4b5b6ac9692fe9685e5a9b4aa188a7f1d04796b1c1b45bee6913003a7ddd64a": {
+      "primary_domain": "general_negative_controls",
+      "reason": "חשיפת הזהויות נוגעת למחזאים ולרישום הצגות."
+    },
+    "bc9b2ae857b0546a64f15b4e0eb77684c3f122bfd2c931a901eb8b997b457a2c": {
+      "primary_domain": "missile_systems",
+      "reason": "המסמך מתאם את הטיפול בקבלות בתיק תקציב התיעוד של תוכנית היירוט."
+    },
+    "cd9a770806e173771d79ff66932e2096f36ba33dcc5ec73bd1fb088170a4f43e": {
+      "primary_domain": "defense_logistics",
+      "reason": "הרכש עוסק בחוזה לאחסון אוסף ובביטול עסקת האחסון."
+    },
+    "ce99ca52229eb22ce4bcfc2cbd85379a860d6371e66e8335ac4621d72465a798": {
+      "primary_domain": "radar_sensors_space",
+      "reason": "העסקה נסובה על זכויות להוציא אוסף איורים מתצלומי לוויין."
+    },
+    "e7684adf6850710e38f23dbcbe6900cb0222f49ea541fc25badba7f335316a6f": {
+      "primary_domain": "uncrewed_aircraft",
+      "reason": "רישיון תצוגה וביטול כניסה נוגעים במישרין לתערוכת צילום רחפנים."
+    },
+    "e8dcb842d0b707696b828f67a942cd2abb112f85ade706cc64ddf0ea22713886": {
+      "primary_domain": "radar_sensors_space",
+      "reason": "השלילה מקיפה את הזכות לשמר ולהציג אוספי לוויין של ספריית החלל."
+    }
+  },
+  "previous_attempts": [
+    {
+      "reviewed": 53,
+      "disagreements": 2,
+      "rejected": 2,
+      "corrected": 2
+    },
+    {
+      "reviewed": 53,
+      "disagreements": 0,
+      "rejected": 0,
+      "corrected": 0
+    }
+  ]
+}
