@@ -1,0 +1,122 @@
+name: Publish explicitly reviewed checkpoint 0012
+on:
+  push:
+    branches: [producer/chat-batch-0012-v1]
+    paths:
+      - reviews/batch-0012/publish-request.json
+permissions:
+  contents: write
+concurrency:
+  group: sentinel-production-publisher
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      CANDIDATES: drafts/chat/batch-0012/batch-0012-candidates.jsonl
+      SCENARIOS: drafts/chat/batch-0012/scenarios-merged.json
+      LEDGER: reviews/batch-0012/review-ledger.json
+      REQUEST: reviews/batch-0012/publish-request.json
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Fetch and verify live production
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin poc/defense-focused-v2
+          git worktree add --detach .poc-local/live-production origin/poc/defense-focused-v2
+          (cd .poc-local/live-production && python -B -m sentinel_dataset verify)
+          python -B scripts/validate_release_evidence.py --request "$REQUEST" --ledger "$LEDGER" --progress .poc-local/live-production/progress.json --candidates "$CANDIDATES"
+      - name: Install semantic dependencies
+        run: python -m pip install -r requirements-semantic.txt
+      - name: Restore pinned model and embeddings
+        uses: actions/cache@v4
+        with:
+          path: |
+            .poc-local/e5
+            .poc-local/embeddings
+          key: sentinel-e5-v1-761b726d-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            sentinel-e5-v1-761b726d-${{ runner.os }}-
+      - name: Verify pinned model
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .poc-local/e5
+          base="https://huggingface.co/Xenova/multilingual-e5-small/resolve/761b726dd34fb83930e26aab4e9ac3899aa1fa78"
+          test -f .poc-local/e5/tokenizer.json || curl -fL --retry 3 "$base/tokenizer.json" -o .poc-local/e5/tokenizer.json
+          test -f .poc-local/e5/model_int8.onnx || curl -fL --retry 3 "$base/onnx/model_int8.onnx" -o .poc-local/e5/model_int8.onnx
+          echo "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39  .poc-local/e5/tokenizer.json" | sha256sum -c -
+          echo "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c  .poc-local/e5/model_int8.onnx" | sha256sum -c -
+      - name: Validate all current full-baseline screening decisions
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -B scripts/screen_complete_candidate_e5.py --production .poc-local/live-production --candidates "$CANDIDATES" --model-dir .poc-local/e5 --cache-dir .poc-local/embeddings --output .poc-local/release-e5.json
+          python -B scripts/validate_release_evidence.py --request "$REQUEST" --ledger "$LEDGER" --progress .poc-local/live-production/progress.json --candidates "$CANDIDATES" --report .poc-local/release-e5.json
+      - name: Merge only new scenario metadata into verified live checkout
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,os,pathlib
+          root=pathlib.Path(".poc-local/live-production")
+          path=root/"config/scenarios.json"
+          live=json.loads(path.read_text(encoding="utf-8"))
+          supplied=json.loads(pathlib.Path(os.environ["SCENARIOS"]).read_text(encoding="utf-8"))
+          rows=[json.loads(line) for line in pathlib.Path(os.environ["CANDIDATES"]).read_text(encoding="utf-8").splitlines() if line.strip()]
+          if len(rows)!=500 or set(supplied)!={r["scenario_id"] for r in rows}:
+              raise ValueError("Scenario set differs from candidates")
+          for key,value in supplied.items():
+              if key in live and live[key]!=value:
+                  raise ValueError("Conflicting scenario: "+key)
+              live[key]=value
+          path.write_text(json.dumps(live,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          PY
+          cp scripts/reconcile_review_decisions.py .poc-local/live-production/scripts/
+      - name: Prepare official packet and reconcile actual review ledger
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd .poc-local/live-production
+          mkdir -p .poc-local
+          python -B -m sentinel_dataset prepare "$GITHUB_WORKSPACE/$CANDIDATES" --model-dir "$GITHUB_WORKSPACE/.poc-local/e5" --cache-dir "$GITHUB_WORKSPACE/.poc-local/embeddings" --packet .poc-local/packet.json
+          python -B scripts/reconcile_review_decisions.py --checkpoint 12 --packet .poc-local/packet.json --ledger "$GITHUB_WORKSPACE/$LEDGER" --candidates "$GITHUB_WORKSPACE/$CANDIDATES" --progress progress.json --output .poc-local/decisions.json
+          python -B -m sentinel_dataset stage-checkpoint "$GITHUB_WORKSPACE/$CANDIDATES" --model-dir "$GITHUB_WORKSPACE/.poc-local/e5" --cache-dir "$GITHUB_WORKSPACE/.poc-local/embeddings" --decisions .poc-local/decisions.json --output-dir .poc-local/staged
+      - name: Verify signed new state, export and push atomically
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd .poc-local/live-production
+          for rel in progress.json HANDOFF.md data/checkpoints/batch-0012.jsonl metadata/checkpoints/batch-0012.jsonl reports/checkpoints/batch-0012.json; do
+            mkdir -p "$(dirname "$rel")"
+            cp ".poc-local/staged/$rel" "$rel"
+          done
+          python -B -m sentinel_dataset verify
+          python -c 'import json; p=json.load(open("progress.json")); assert (p["production_records"],p["last_checkpoint"],p["next_id"])==(11000,12,11001)'
+          git config user.name sentinelai-ci
+          git config user.email sentinelai-ci@users.noreply.github.com
+          git add -- config/scenarios.json progress.json HANDOFF.md data/checkpoints/batch-0012.jsonl metadata/checkpoints/batch-0012.jsonl reports/checkpoints/batch-0012.json
+          git diff --cached --check
+          git commit -m "Publish validated checkpoint 0012 (IDs 10501–11000)"
+          python -B scripts/export_current_production.py
+          git add -- exports/synthetic_security_classification_current.json exports/manifest.json
+          git diff --cached --check
+          git commit -m "Refresh verified JSON export at checkpoint 0012"
+          git push origin HEAD:refs/heads/poc/defense-focused-v2
+          git rev-parse HEAD
+      - name: Retain review evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: checkpoint-0012-release-evidence
+          path: |
+            .poc-local/release-e5.json
+            .poc-local/live-production/.poc-local/packet.json
+            .poc-local/live-production/.poc-local/decisions.json
+          if-no-files-found: ignore
+          retention-days: 7
