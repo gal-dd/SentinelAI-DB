@@ -1,7 +1,7 @@
 {
   "checkpoint": 14,
   "status": "partial_draft_not_approved",
-  "candidate_count": 299,
+  "candidate_count": 400,
   "expected_count": 500,
   "base_checkpoint": 12,
   "base_production": 11000,
@@ -17,13 +17,14 @@
     "שמור": {
       "short": 6,
       "sentence": 50,
-      "paragraph": 43,
+      "paragraph": 44,
       "long": 25
     },
     "סודי": {
       "short": 6,
-      "sentence": 15,
-      "paragraph": 4
+      "sentence": 50,
+      "paragraph": 44,
+      "long": 25
     },
     "סודי ביותר": {
       "short": 6,
@@ -32,12 +33,12 @@
     }
   },
   "domain_counts": {
-    "missile_systems": 239,
-    "uncrewed_aircraft": 15,
-    "radar_sensors_space": 15,
-    "cyber_communications_c2": 15,
-    "general_negative_controls": 7,
-    "defense_logistics": 8
+    "missile_systems": 320,
+    "uncrewed_aircraft": 20,
+    "radar_sensors_space": 19,
+    "cyber_communications_c2": 20,
+    "general_negative_controls": 10,
+    "defense_logistics": 11
   },
   "checks": {
     "exact_duplicates_within_candidates": 0,
@@ -47,12 +48,5 @@
     "semantic_similarity": "not_run",
     "independent_review": "not_run"
   },
-  "rejected_in_wave": [
-    {
-      "length": "paragraph",
-      "words": 27,
-      "domain": "m",
-      "text": "במוזיאון לתולדות הסכמי טילים מבקשים לעדכן את טופס ההערות של האוצרים. הצוות הציע להוסיף מקום לתאריך ה"
-    }
-  ]
+  "rejected_in_wave": []
 }
