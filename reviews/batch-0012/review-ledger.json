@@ -1270,6 +1270,15 @@
       ],
       "reason": "פקיעת הרשאות בכל ארכיוני הטילים לעומת עדכון לוח הדרכות פנימי; פגיעה רוחבית לעומת שינוי מנהלי מקומי.",
       "review_source": "Failed release 45463308281, exact logged pair and unchanged candidate baseline"
+    },
+    "05d557d092e6e4a4538ee6bb713013148bca6f77d8bb9919863d18cb61adab29": {
+      "status": "keep",
+      "records": [
+        "4bbeb7e5c345036c5572c916d6d8e5d69cb94823c9dfee98e5035076c76b9a66",
+        "d178e86076d90146ed18e5a8f6c4306fa597236fa90b42be711315c2715d4e8a"
+      ],
+      "reason": "שני הטקסטים מתארים תוצאות רוחביות שונות: הפסקת מקור מימון לעומת שלילת זכויות תורמים. אין זהות במשמעות אף שהתחום והסיווג זהים.",
+      "review_source": "Exact pair logged by release 45463937393"
     }
   },
   "external_alerts": {
