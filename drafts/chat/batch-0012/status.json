@@ -1,49 +1,49 @@
 {
   "batch": 12,
   "status": "partial_draft_not_validated_or_published",
-  "candidate_count": 40,
+  "candidate_count": 100,
   "planned_total": 500,
   "domain_counts": {
-    "missile_systems": 32,
-    "uncrewed_aircraft": 2,
-    "radar_sensors_space": 2,
-    "cyber_communications_c2": 2,
-    "defense_logistics": 1,
-    "general_negative_controls": 1
+    "missile_systems": 80,
+    "uncrewed_aircraft": 5,
+    "radar_sensors_space": 5,
+    "cyber_communications_c2": 5,
+    "defense_logistics": 2,
+    "general_negative_controls": 3
   },
   "label_length_counts": {
     "בלמס": {
-      "short": 1,
-      "sentence": 5,
-      "paragraph": 3,
+      "short": 3,
+      "sentence": 15,
+      "paragraph": 6,
       "long": 1
     },
     "שמור": {
-      "short": 1,
-      "sentence": 5,
-      "paragraph": 3,
+      "short": 3,
+      "sentence": 15,
+      "paragraph": 6,
       "long": 1
     },
     "סודי": {
-      "short": 1,
-      "sentence": 5,
-      "paragraph": 3,
+      "short": 3,
+      "sentence": 15,
+      "paragraph": 6,
       "long": 1
     },
     "סודי ביותר": {
-      "short": 1,
-      "sentence": 5,
-      "paragraph": 3,
+      "short": 3,
+      "sentence": 15,
+      "paragraph": 6,
       "long": 1
     }
   },
   "base_checkpoint": 10,
   "production_ids": null,
   "quality": {
-    "exact_text_unique_within_wave": true,
+    "exact_text_unique_across_two_waves": true,
     "semantic_screening": "not_run",
     "blind_review": "not_run",
     "production_comparison": "not_run"
   },
-  "notes": "First individually authored non-operational cultural/educational wave. Full batch planning and validation must use live production after checkpoint 0011."
+  "notes": "Two individually authored non-operational waves. Final batch quotas and semantic/content checks pending."
 }
