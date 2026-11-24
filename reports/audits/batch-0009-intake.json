@@ -1,0 +1,222 @@
+{
+  "status": "complete",
+  "baseline_total": 7600,
+  "baseline_checkpoint": 8,
+  "external_import_records": 3600,
+  "metrics": {
+    "records": 500,
+    "label_lengths": {
+      "בלמס": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "שמור": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "סודי": [
+        6,
+        50,
+        44,
+        25
+      ],
+      "סודי ביותר": [
+        6,
+        50,
+        44,
+        25
+      ]
+    },
+    "labels": {
+      "בלמס": 125,
+      "שמור": 125,
+      "סודי": 125,
+      "סודי ביותר": 125
+    },
+    "lengths": {
+      "short": 24,
+      "sentence": 200,
+      "paragraph": 176,
+      "long": 100
+    },
+    "origins": {
+      "synthetic": 500
+    },
+    "styles": {
+      "note": 12,
+      "chat": 11,
+      "report": 59,
+      "memo": 43,
+      "guide": 14,
+      "notice": 12,
+      "findings": 40,
+      "audit": 42,
+      "minutes": 26,
+      "interview": 8,
+      "worksheet": 2,
+      "qa": 13,
+      "feature": 5,
+      "workbook": 16,
+      "radio": 6,
+      "glossary": 1,
+      "news": 1,
+      "column": 9,
+      "lesson": 21,
+      "explanation": 3,
+      "trivia": 1,
+      "discussion": 1,
+      "alert": 18,
+      "investigation": 22,
+      "legal-note": 8,
+      "brief": 4,
+      "ticket": 21,
+      "log": 19,
+      "notebook": 7,
+      "diary": 6,
+      "email": 10,
+      "handoff": 19,
+      "transcript": 1,
+      "caption": 3,
+      "mail": 2,
+      "internal": 2,
+      "story": 2,
+      "brochure": 2,
+      "handout": 1,
+      "article": 1,
+      "essay": 3,
+      "letter": 3
+    },
+    "scenario_count": 500,
+    "source_group_count": 500,
+    "edge_cases": 0,
+    "counterfactual_pairs": 0,
+    "records_with_latin": 0,
+    "domain_counts": {
+      "missile_systems": 300,
+      "uncrewed_aircraft": 50,
+      "radar_sensors_space": 50,
+      "cyber_communications_c2": 50,
+      "defense_logistics": 25,
+      "general_negative_controls": 25
+    },
+    "domain_label_counts": {
+      "missile_systems": {
+        "בלמס": 82,
+        "שמור": 69,
+        "סודי": 73,
+        "סודי ביותר": 76
+      },
+      "uncrewed_aircraft": {
+        "בלמס": 11,
+        "שמור": 12,
+        "סודי": 14,
+        "סודי ביותר": 13
+      },
+      "radar_sensors_space": {
+        "בלמס": 11,
+        "שמור": 16,
+        "סודי": 11,
+        "סודי ביותר": 12
+      },
+      "cyber_communications_c2": {
+        "בלמס": 11,
+        "שמור": 14,
+        "סודי": 13,
+        "סודי ביותר": 12
+      },
+      "defense_logistics": {
+        "בלמס": 5,
+        "שמור": 7,
+        "סודי": 9,
+        "סודי ביותר": 4
+      },
+      "general_negative_controls": {
+        "בלמס": 5,
+        "שמור": 7,
+        "סודי": 5,
+        "סודי ביותר": 8
+      }
+    },
+    "missile_domain_percentage": 60.0
+  },
+  "quota_gaps": {
+    "records": 0,
+    "label_lengths": {
+      "בלמס": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "שמור": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "סודי": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "סודי ביותר": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "domain_counts": {
+      "missile_systems": 0,
+      "uncrewed_aircraft": 0,
+      "radar_sensors_space": 0,
+      "cyber_communications_c2": 0,
+      "defense_logistics": 0,
+      "general_negative_controls": 0
+    }
+  },
+  "exact_duplicate_count": 0,
+  "lexical_alerts": 0,
+  "semantic": {
+    "status": "completed",
+    "model": "Xenova/multilingual-e5-small",
+    "reference_revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+    "artifact_sha256": {
+      "model_int8.onnx": "4d24e2bc01a447951524466ef533e52944bf48509e6552810bcee1a2711cb02c",
+      "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+    },
+    "search": "hnsw_cosine_top_k",
+    "cosine_threshold": 0.92,
+    "neighbors_per_record": 12,
+    "indexed_records": 8100,
+    "scanned_records": 500,
+    "candidate_pairs": 931
+  },
+  "unresolved_high_risk_alerts": 0,
+  "pair_decisions": [
+    {
+      "id": "5d315762c83bc392bb48f23bc127cea9b90697e89a22de0b00cacb614620e55b",
+      "status": "keep",
+      "reason": "הראשון מתאר פרסום קטלוג פומבי על מיירטים. השני מודיע על תיאום חפיפה לצוות. אלו אירועים שונים בעלי קהל ותכלית שונים."
+    },
+    {
+      "id": "abea64b8147b595293d3a6cfe54f52bed9e28a29b69aef76b228c47f7e82ebc9",
+      "status": "keep",
+      "reason": "זיוף כל אישורי ההערכה הוא קביעה לגבי תקפות האישורים. השמדת ראיות לעררים היא אירוע נפרד הפוגע באפשרות להשיג מבלי לטעון דבר על זיוף האישורים."
+    },
+    {
+      "id": "f8310d125b1d0e3bc518d99ace77704375ab56afe82635a0602b2afbbdb72400",
+      "status": "keep",
+      "reason": "הראשון מודיע על פרסום מילון לציבור. השני מתעד שצוות כתב את מקור ההגדרה בדף עבודה על יירוט. תיעוד מקור בעותק פנימי שונה מפרסום מילון."
+    }
+  ],
+  "excluded_by_risk": 11,
+  "baseline_commit": "879c21042169324d6a60798e69d604aedd3bc221",
+  "reviewer_limit": "Same-model text-first review of the official sample. No independent model verification.",
+  "official_packet_decisions": "reports/checkpoints/batch-0009.json"
+}
